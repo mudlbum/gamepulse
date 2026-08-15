@@ -10,21 +10,33 @@ export function getStaticPaths() {
 
 const { game } = Astro.props;
 const s = game.steam;
+const app: any = Object.values(game.mobile ?? {})[0] ?? null;
+
 const desc = s
   ? `${game.name} is #${s.rank} on Steam with ${s.current.toLocaleString('en-US')} players in game right now. Live concurrent counts, 8-day trend, peak, patch notes${game.speedrun ? ' and the current speedrun leaderboard' : ''}, refreshed every 30 minutes.`
-  : `${game.name}: the latest patch notes, related clips${game.speedrun ? ' and the current speedrun leaderboard' : ''}, plus a straight answer on whether any public player ranking exists for this game. Updated automatically.`;
+  : app
+    ? `${game.name} on the App Store: ${app.ratings.toLocaleString('en-US')} lifetime ratings, the current version and its release notes, per storefront. Rating volume is a popularity proxy, not a player count — and we say plainly why no public mobile player ranking exists.`
+    : `${game.name}: the latest patch notes, related clips${game.speedrun ? ' and the current speedrun leaderboard' : ''}, plus a straight answer on whether any public player ranking exists for this game. Updated automatically.`;
+
+/* The suffix has to describe what the page actually holds. The first version
+   appended "live players & leaderboard" to every game, so League of Legends —
+   which by design carries neither — advertised both in search results. */
+const SUFFIX =
+  s && game.speedrun ? ' — live players & leaderboard'
+  : s ? ' — live player count'
+  : game.speedrun ? ' — speedrun leaderboard'
+  : app ? ' — App Store ratings & updates'
+  : ' — patch notes & updates';
 
 /* Google truncates <title> near 60 chars and the layout appends " | GamePulse"
-   (12 more), so a long game name has to drop the descriptive suffix rather
-   than get cut mid-phrase in results. */
-const SUFFIX = ' — live players & leaderboard';
+   (12 more), so a long game name drops the descriptive suffix rather than get
+   cut mid-phrase in results. */
 const title = (game.name + SUFFIX).length <= 58 ? game.name + SUFFIX : game.name;
 
 const schema = [{
   '@type': 'VideoGame',
   name: game.name,
   ...(game.platforms.length ? { gamePlatform: game.platforms } : {}),
-  ...(s ? { aggregateRating: undefined } : {}),
 }];
 ---
 <BaseLayout
@@ -33,7 +45,10 @@ const schema = [{
   schema={schema}
   breadcrumbs={[
     { name: 'Home', url: localeHref('/', 'en') },
-    { name: 'Leaderboards', url: localeHref('/leaderboards', 'en') },
+    // Mirrors the on-page trail. It pointed at Leaderboards while the visible
+    // crumb pointed at Games, which is exactly the mismatch rich-results
+    // validation flags.
+    { name: 'Games', url: localeHref('/games', 'en') },
     { name: game.name, url: Astro.url.pathname },
   ]}
 >
