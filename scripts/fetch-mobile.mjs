@@ -92,14 +92,35 @@ async function chartFor(cc, kind, scope) {
     }));
 }
 
+/**
+ * Resolve genres for a batch of app ids.
+ *
+ * Chunked at 20 rather than sent as one 50-id URL: Apple's lookup caps results
+ * server-side and long id lists come back partially filled with no error, which
+ * would quietly drop real games from the chart. Chunking also means one bad
+ * batch costs 20 entries instead of the whole storefront.
+ *
+ * Returns null — meaning "do not render this chart" — unless most ids resolved.
+ * A partial map would silently filter out games we simply failed to identify.
+ */
 async function lookupGenres(ids, cc, scope) {
   if (!ids.length) return new Map();
-  const json = await getJson(ENDPOINTS.itunesLookup(ids, cc), { scope, retries: 2 });
-  const results = json?.results;
-  if (!Array.isArray(results)) return null;
+  const CHUNK = 20;
   const map = new Map();
-  for (const r of results) {
-    if (r?.trackId) map.set(String(r.trackId), r.primaryGenreName ?? null);
+
+  for (let i = 0; i < ids.length; i += CHUNK) {
+    const batch = ids.slice(i, i + CHUNK);
+    const json = await getJson(ENDPOINTS.itunesLookup(batch, cc), { scope, retries: 2 });
+    for (const r of json?.results ?? []) {
+      if (r?.trackId) map.set(String(r.trackId), r.primaryGenreName ?? null);
+    }
+    await new Promise((r) => setTimeout(r, 250)); // Apple throttles bursts
   }
-  return map.size ? map : null;
+
+  const coverage = map.size / ids.length;
+  if (coverage < 0.6) {
+    warn(scope, `genre lookup resolved only ${map.size}/${ids.length} ids (${Math.round(coverage * 100)}%) for ${cc} — not enough to filter reliably`);
+    return null;
+  }
+  return map;
 }

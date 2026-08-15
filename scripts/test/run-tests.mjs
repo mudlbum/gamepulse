@@ -620,6 +620,34 @@ section('Mobile charts');
     assert.equal(m, null, 'showed an unfiltered app list instead of nothing');
   });
 
+  await test('chunks the genre lookup and merges every batch', async () => {
+    const seen = [];
+    mockFetch([
+      ['rss.marketingtools.apple.com', (u) => F.appleChart(new URL(u).pathname.split('/')[4])],
+      ['itunes.apple.com/lookup', (u) => {
+        const ids = new URL(u).searchParams.get('id').split(',');
+        seen.push(ids.length);
+        // A 50-id URL is capped server-side, so batches must stay small.
+        assert.ok(ids.length <= 20, `sent a batch of ${ids.length} ids`);
+        return F.itunesLookup(ids.join(','));
+      }],
+    ]);
+    const m = await fetchMobile();
+    assert.ok(m, 'returned null');
+    assert.ok(seen.length > 0, 'lookup was never called');
+    assert.ok(m.charts.us['top-free'].some((g) => g.name === 'Roblox'));
+  });
+
+  await test('drops a chart when too few ids resolve to be trustworthy', async () => {
+    mockFetch([
+      ['rss.marketingtools.apple.com', (u) => F.appleChart(new URL(u).pathname.split('/')[4])],
+      // Resolve only the first id of each batch — well under the 60% floor.
+      ['itunes.apple.com/lookup', (u) => F.itunesLookup(new URL(u).searchParams.get('id').split(',')[0])],
+    ]);
+    const m = await fetchMobile();
+    assert.equal(m, null, 'rendered a chart from a partial genre map');
+  });
+
   await test('reports that Android is unavailable', async () => {
     mockFetch(appleMocks());
     const m = await fetchMobile();

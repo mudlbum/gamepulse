@@ -235,9 +235,13 @@ export const ENDPOINTS = {
      exists and ?genre= is silently ignored, so filtering needs itunesLookup. */
   appleChart: (cc, kind, limit = 50) =>
     `https://rss.marketingtools.apple.com/api/v2/${cc}/apps/${kind}/${limit}/apps.json`,
-  /* Accepts up to 200 comma-separated ids per call and returns primaryGenreName. */
+  /* Bulk id lookup, returns primaryGenreName per app.
+     Deliberately minimal: `entity` and `limit` are NOT passed. On a lookup-by-id
+     `entity` changes what Apple returns rather than filtering it, and `limit`
+     defaults to 50 and can silently truncate a longer id list. Both were in the
+     first version and the whole mobile section came back empty in production. */
   itunesLookup: (ids, cc = 'us') =>
-    `https://itunes.apple.com/lookup?id=${ids.join(',')}&country=${cc}&entity=software&limit=200`,
+    `https://itunes.apple.com/lookup?id=${ids.join(',')}&country=${cc}`,
 
   bskyAuthorFeed: (actor, limit = 12) =>
     `https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=${encodeURIComponent(actor)}&limit=${limit}&filter=posts_with_media`,
