@@ -33,6 +33,7 @@ const title = (game.name + SUFFIX).length <= 52 ? game.name + SUFFIX : game.name
 <BaseLayout
   title={title}
   description={desc}
+  noindex={game.thin}
   schema={[{ '@type': 'VideoGame', name: game.name, ...(game.platforms.length ? { gamePlatform: game.platforms } : {}) }]}
   breadcrumbs={[
     { name: '홈', url: localeHref('/', 'ko') },
