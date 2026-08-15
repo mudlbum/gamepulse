@@ -1,0 +1,165 @@
+{
+  "generated": "2026-08-15T21:09:15.277Z",
+  "workingTitle": "Simpsons creator Matt Groening implies that a Hit & Run remaster is coming, current showrunner hastily disputes",
+  "heat": 70.6,
+  "outletCount": 7,
+  "outlets": [
+    "PC Gamer",
+    "Destructoid",
+    "Eurogamer",
+    "Kotaku",
+    "Push Square",
+    "Nintendo Life",
+    "IGN"
+  ],
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Simpsons creator Matt Groening implies that a Hit & Run remaster is coming, current showrunner hastily disputes",
+        "url": "https://www.pcgamer.com/games/action/simpsons-creator-matt-groening-implies-that-a-hit-and-run-remaster-is-coming-current-showrunner-hastily-disputes/",
+        "date": "2026-08-15T18:17:42.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "The greatest Simpsons game of all time is coming back",
+        "url": "https://www.destructoid.com/the-greatest-simpsons-game-of-all-time-is-coming-back/",
+        "date": "2026-08-15T17:42:43.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Simpsons creator Matt Groening seemingly lets slip that Hit & Run is coming back",
+        "url": "https://www.eurogamer.net/simpsons-hit-and-run-groening-d23-tease",
+        "date": "2026-08-15T16:56:47.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Simpsons Creator Says GTA-Like Hit & Run Game Is Coming Back, Maybe",
+        "url": "https://kotaku.com/simpsons-creator-says-gta-like-hit-run-game-is-coming-back-maybe-2000724708",
+        "date": "2026-08-15T14:37:54.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Matt Groening Himself Says The Simpsons: Hit & Run Is 'Coming Back in Some Form'",
+        "url": "https://www.pushsquare.com/news/2026/08/matt-groening-himself-says-the-simpsons-hit-and-run-is-coming-back-in-some-form",
+        "date": "2026-08-15T11:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "The Simpsons Hit & Run Could Be Making A Return \"In Some Form\"",
+        "url": "https://www.nintendolife.com/news/2026/08/the-simpsons-hit-and-run-could-be-making-a-return-in-some-form",
+        "date": "2026-08-15T02:30:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "value": "I think the original game is coming back in some form,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I think the original game is coming back in some form,\" Groening said in response to a question about the series at a Simpsons panel discussion, part of the ongoing D23 Disney fan event.",
+      "urls": [
+        "https://www.pcgamer.com/games/action/simpsons-creator-matt-groening-implies-that-a-hit-and-run-remaster-is-coming-current-showrunner-hastily-disputes/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "It's a secret⁠—Ssshut uuuuuup",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But I'm inclined to think this was a \"It's a secret⁠—Ssshut uuuuuup\" sort of interaction.",
+      "urls": [
+        "https://www.pcgamer.com/games/action/simpsons-creator-matt-groening-implies-that-a-hit-and-run-remaster-is-coming-current-showrunner-hastily-disputes/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "the original game is coming back in some form,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Groening's choice of words, \"the original game is coming back in some form,\" seems to preclude a sequel and imply a remake or remaster to my eye.",
+      "urls": [
+        "https://www.pcgamer.com/games/action/simpsons-creator-matt-groening-implies-that-a-hit-and-run-remaster-is-coming-current-showrunner-hastily-disputes/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "value": "$80 million",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That’s when EA came in, bought the rights to make The Simpsons games for $80 million, and then released only one game this entire time.",
+      "urls": [
+        "https://www.destructoid.com/the-greatest-simpsons-game-of-all-time-is-coming-back/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "I don't know I'm speaking out of turn, I think the original game is coming back in some form,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I don't know I'm speaking out of turn, I think the original game is coming back in some form,\" Groening said (thanks, PushSquare).",
+      "urls": [
+        "https://www.eurogamer.net/simpsons-hit-and-run-groening-d23-tease"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": ", not least because he and The Simpsons team know",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Celebrating the show's 800th(!!) episode, Selman reminded fans that \"nothing is set in stone\", not least because he and The Simpsons team know \"people love it\".",
+      "urls": [
+        "https://www.eurogamer.net/simpsons-hit-and-run-groening-d23-tease"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "That would certainly be a treat,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Showrunner Matt Selman says \"That would certainly be a treat,\" before Groening provides his own response.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/matt-groening-himself-says-the-simpsons-hit-and-run-is-coming-back-in-some-form"
+      ]
+    }
+  ],
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

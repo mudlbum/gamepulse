@@ -1,0 +1,156 @@
+{
+  "generated": "2026-08-15T21:09:15.627Z",
+  "workingTitle": "Tetsuya Nomura Says ‘Let Your Imaginations Run Wild’ On Kingdom Hearts Animated Series, So I Will",
+  "heat": 47.2,
+  "outletCount": 5,
+  "outlets": [
+    "Kotaku",
+    "Push Square",
+    "Eurogamer",
+    "IGN",
+    "Nintendo Life"
+  ],
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Tetsuya Nomura Says ‘Let Your Imaginations Run Wild’ On Kingdom Hearts Animated Series, So I Will",
+        "url": "https://kotaku.com/tetsuya-nomura-says-let-your-imaginations-run-wild-on-kingdom-hearts-animated-series-so-i-will-2000724711",
+        "date": "2026-08-15T16:05:25.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "A Kingdom Hearts Animated Series Is 'Coming Soon' to Disney Channel, Disney Plus",
+        "url": "https://www.pushsquare.com/news/2026/08/a-kingdom-hearts-animated-series-is-coming-soon-to-disney-channel-disney-plus",
+        "date": "2026-08-15T12:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Kingdom Hearts is getting its own anime series on Disney+ and Disney Channel",
+        "url": "https://www.eurogamer.net/kingdom-hearts-animated-series",
+        "date": "2026-08-15T11:05:39.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Disney Animation Studios Boss Jared Bush Isn't Ruling Out a Possible Kingdom Hearts Movie",
+        "url": "https://www.ign.com/articles/disney-animation-studios-boss-jared-bush-isnt-ruling-out-a-possible-kingdom-hearts-movie",
+        "date": "2026-08-15T07:51:43.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Disney Kingdom Hearts Anime Series \"Coming Soon\"",
+        "url": "https://www.nintendolife.com/news/2026/08/disney-kingdom-hearts-anime-series-coming-soon",
+        "date": "2026-08-15T05:05:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "value": "An original Kingdom Hearts anime series inspired by the beloved video game franchise is coming soon to Disney Channel and Disney Plus,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"An original Kingdom Hearts anime series inspired by the beloved video game franchise is coming soon to Disney Channel and Disney Plus,\" reads the announcement.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/a-kingdom-hearts-animated-series-is-coming-soon-to-disney-channel-disney-plus"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "reimagines the iconic adventure with a brand-new story that will expand on the universe of Kingdom Hearts while celebrating the characters that have captured the hearts of millions of fans around the world,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The show \"reimagines the iconic adventure with a brand-new story that will expand on the universe of Kingdom Hearts while celebrating the characters that have captured the hearts of millions of fans around the world,\" says Disney.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/a-kingdom-hearts-animated-series-is-coming-soon-to-disney-channel-disney-plus"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "We can't discuss all the details just yet, but I've been in close discussions with the scenario team, including myself, and when needed, we've also enlisted the art team's cooperation, even creating multiple new character designs specifically for this project,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We can't discuss all the details just yet, but I've been in close discussions with the scenario team, including myself, and when needed, we've also enlisted the art team's cooperation, even creating multiple new character designs specifically for this project,\" he says (auto-translated).",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/a-kingdom-hearts-animated-series-is-coming-soon-to-disney-channel-disney-plus"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "unmistakably Kingdom Hearts",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "💛 An original Kingdom Hearts anime series inspired by the beloved video game franchise is coming soon to @DisneyChannel and @DisneyPlus pic.twitter.com/ZJMl3LS4yr\n\nDisney Kids & Family president Ayo Davis said in a statement that the new series is being built to ensure it is \"unmistakably Kingdom Hearts\" while giving new fans a fresh way to experience the world.",
+      "urls": [
+        "https://www.eurogamer.net/kingdom-hearts-animated-series"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "billion-dollar franchises.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "especially since Disney recently bragged that Kingdom Hearts is one of its \"billion-dollar franchises.\"\n\nKingdom Hearts IV is scheduled for release in late 2027.",
+      "urls": [
+        "https://www.ign.com/articles/disney-animation-studios-boss-jared-bush-isnt-ruling-out-a-possible-kingdom-hearts-movie"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "Disney Kids & Family president Ayo Davis reiterated how Disney is working closely with the",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The news was announced tonight at D23: The Ultimate Disney Fan Event.\"\n\nDisney Kids & Family president Ayo Davis reiterated how Disney is working closely with the \"legendary\" Tetsuya Nomura, and said the series will be \"unmistakably Kingdom Hearts\" while also providing Kingdom Hearts fans \"a whole new way to experience the world they love\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/disney-kingdom-hearts-anime-series-coming-soon"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "Final Fantasy VII Revelation",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Development On Final Fantasy 9 Remake Reportedly \"No Longer Moving Forward\"\n\nFinal Fantasy VII Revelation \"New Look\" Announced For Opening Night Live\n\nVideo: Final Fantasy Resonance New Trailer Showcases Warrior Of Light\n\nKingdom Hearts Is A \"Billion-Dollar\" Franchise, According To Disney\n\nSquare Enix's Financial Year Is Off To A Strong Start, With Profits On The Up And Up",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/disney-kingdom-hearts-anime-series-coming-soon"
+      ]
+    }
+  ],
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

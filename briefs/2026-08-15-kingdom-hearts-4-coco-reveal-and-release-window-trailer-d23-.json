@@ -1,0 +1,117 @@
+{
+  "generated": "2026-08-15T21:09:14.971Z",
+  "workingTitle": "KINGDOM HEARTS 4 – COCO Reveal and Release Window Trailer | D23 Showcase",
+  "heat": 105.6,
+  "outletCount": 9,
+  "outlets": [
+    "GameSpot",
+    "Eurogamer",
+    "Push Square",
+    "Nintendo Life",
+    "Kotaku",
+    "IGN",
+    "PC Gamer",
+    "Destructoid",
+    "Pure Xbox"
+  ],
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Eurogamer",
+        "title": "Kingdom Hearts 4's first new world is inspired by Pixar's Coco",
+        "url": "https://www.eurogamer.net/kingdom-hearts-4-coco-world",
+        "date": "2026-08-15T11:29:23.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Kingdom Hearts 4 finally has a release window, if not quite a firm release date",
+        "url": "https://www.eurogamer.net/kingdom-hearts-release-window-2027",
+        "date": "2026-08-15T10:42:49.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Pixar's Coco Confirmed for Kingdom Hearts 4, Launching on PS5 in Late 2027",
+        "url": "https://www.pushsquare.com/news/2026/08/pixars-coco-confirmed-for-kingdom-hearts-4-launching-on-ps5-in-late-2027",
+        "date": "2026-08-15T10:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Kingdom Hearts IV Is Launching On Switch 2 In Late 2027, Here's A Brand-New Trailer",
+        "url": "https://www.nintendolife.com/news/2026/08/kingdom-hearts-iv-is-launching-on-switch-2-in-late-2027-heres-a-brand-new-trailer",
+        "date": "2026-08-15T03:55:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Kingdom Hearts 4 Gets A Surprise 2027 Release Window And That’s Not All",
+        "url": "https://kotaku.com/kingdom-hearts-the-series-disney-d23-announcement-plus-2000724564",
+        "date": "2026-08-15T03:03:11.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "KINGDOM HEARTS 4 – COCO Reveal and Release Window Trailer | D23 Showcase",
+        "url": "https://www.gamespot.com/videos/kingdom-hearts-4-coco-reveal-and-release-window-trailer-d23-showcase/",
+        "date": "2026-08-15T21:01:15.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "value": "these assets were created by our development team without the use of generative AI, and the issues resulted from human error.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Fans first accused the company of using AI back in early June, and now - some two months after the initial accusations - Square Enix has responded, insisting, \"these assets were created by our development team without the use of generative AI, and the issues resulted from human error.\"",
+      "urls": [
+        "https://www.eurogamer.net/kingdom-hearts-4-coco-world",
+        "https://www.eurogamer.net/kingdom-hearts-release-window-2027"
+      ]
+    },
+    {
+      "kind": "date",
+      "value": "August 14, 2026",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Revealed during the Disney Entertainment Showcase on August 14, 2026, KINGDOM HEARTS IV is launching in late 2027!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/kingdom-hearts-iv-is-launching-on-switch-2-in-late-2027-heres-a-brand-new-trailer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "In some related news, Disney has also announced a Kingdom Hearts anime series is",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A brand-new adventure awaits as the world of Disney and Pixar's Coco joins KINGDOM HEARTS IV.\"\n\nIn some related news, Disney has also announced a Kingdom Hearts anime series is \"coming soon\" to Disney+ and the Disney Channel.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/kingdom-hearts-iv-is-launching-on-switch-2-in-late-2027-heres-a-brand-new-trailer"
+      ]
+    }
+  ],
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
