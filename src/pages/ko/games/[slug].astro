@@ -10,11 +10,24 @@ export function getStaticPaths() {
 
 const { game } = Astro.props;
 const s = game.steam;
+const app: any = Object.values(game.mobile ?? {})[0] ?? null;
+
 const desc = s
   ? `${game.name} 스팀 동시접속자 ${s.rank}위, 현재 ${s.current.toLocaleString('ko-KR')}명이 플레이 중입니다. 30분마다 갱신되는 실시간 접속자 수와 오늘 최고치, 8일 추이, 최신 패치노트${game.speedrun ? ', 스피드런 순위' : ''}를 한 페이지에서 확인하세요.`
-  : `${game.name}의 최신 패치노트와 관련 영상${game.speedrun ? ', 스피드런 기록 순위' : ''}을 자동으로 수집해 정리합니다. 이 게임에 공개된 플레이어 순위가 있는지, 없다면 왜 없는지도 솔직하게 밝혀 두었습니다.`;
+  : app
+    ? `${game.name} App Store 지표: 누적 평점 ${app.ratings.toLocaleString('ko-KR')}개와 최신 버전, 버전별 변경사항을 스토어별로 정리했습니다. 평점 개수는 인기도 대리 지표일 뿐 접속자 수가 아니며, 모바일 게임에 공개 순위가 없는 이유도 함께 밝혀 두었습니다.`
+    : `${game.name}의 최신 패치노트와 관련 영상${game.speedrun ? ', 스피드런 기록 순위' : ''}을 자동으로 수집해 정리합니다. 이 게임에 공개된 플레이어 순위가 있는지, 없다면 왜 없는지도 솔직하게 밝혀 두었습니다.`;
 
-const SUFFIX = ' — 실시간 접속자 및 순위';
+/* 접미사는 실제로 그 페이지에 있는 내용만 말해야 합니다. 초기 버전은 모든 게임에
+   "실시간 접속자 및 순위"를 붙여, 둘 다 없는 리그 오브 레전드가 검색 결과에서
+   둘 다 있다고 광고했습니다. */
+const SUFFIX =
+  s && game.speedrun ? ' — 실시간 접속자 및 순위'
+  : s ? ' — 실시간 접속자 수'
+  : game.speedrun ? ' — 스피드런 순위'
+  : app ? ' — App Store 지표 및 업데이트'
+  : ' — 패치노트 및 업데이트';
+
 const title = (game.name + SUFFIX).length <= 52 ? game.name + SUFFIX : game.name;
 ---
 <BaseLayout
@@ -23,7 +36,7 @@ const title = (game.name + SUFFIX).length <= 52 ? game.name + SUFFIX : game.name
   schema={[{ '@type': 'VideoGame', name: game.name, ...(game.platforms.length ? { gamePlatform: game.platforms } : {}) }]}
   breadcrumbs={[
     { name: '홈', url: localeHref('/', 'ko') },
-    { name: '실시간 순위', url: localeHref('/leaderboards', 'ko') },
+    { name: '게임', url: localeHref('/games', 'ko') },
     { name: game.name, url: Astro.url.pathname },
   ]}
 >
