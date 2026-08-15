@@ -1,0 +1,34 @@
+---
+import { getCollection, render } from 'astro:content';
+import PostLayout from '../../layouts/PostLayout.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts', (p: any) => p.data.lang === 'en' && !p.data.draft);
+  return posts.map((post: any) => ({
+    params: { slug: String(post.id).replace(/^en\//, '') },
+    props: { post, all: posts },
+  }));
+}
+
+const { post, all } = Astro.props;
+const { Content, headings } = await render(post);
+
+// Prefer posts sharing a game, then a tag, then anything recent.
+const score = (p: any) => {
+  let s = 0;
+  for (const g of post.data.games ?? []) if (p.data.games?.includes(g)) s += 3;
+  for (const t of post.data.tags ?? []) if (p.data.tags?.includes(t)) s += 1;
+  if (p.data.category === post.data.category) s += 1;
+  return s;
+};
+const related = all
+  .filter((p: any) => p.id !== post.id)
+  .map((p: any) => ({ p, s: score(p) }))
+  .sort((a, b) => b.s - a.s || new Date(b.p.data.pubDate).getTime() - new Date(a.p.data.pubDate).getTime())
+  .slice(0, 3)
+  .map((x) => x.p);
+---
+
+<PostLayout post={post} headings={headings} related={related}>
+  <Content />
+</PostLayout>

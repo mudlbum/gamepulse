@@ -1,0 +1,79 @@
+name: Build & deploy
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'briefs/**'
+      - 'README.md'
+  workflow_dispatch:
+  # Called by refresh-data.yml after it commits fresh JSON.
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never run two deploys at once, but do not cancel one in flight — a cancelled
+# deploy can leave Pages serving a half-published build.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run pipeline tests
+        run: npm test
+
+      - name: Refresh live data
+        # Data is committed by refresh-data.yml, but refreshing here too means a
+        # manual deploy is never built against a stale snapshot. Non-fatal: a
+        # failure leaves the committed data in place.
+        run: npm run data || echo "::warning::Data refresh failed, building with committed data"
+
+      - name: Build
+        env:
+          SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io', github.repository_owner) }}
+          BASE_PATH: ${{ vars.BASE_PATH || '/' }}
+        run: npm run build
+
+      - name: Verify build output
+        run: |
+          set -e
+          test -f dist/index.html            || { echo "::error::missing index.html"; exit 1; }
+          test -f dist/sitemap-index.xml     || { echo "::error::missing sitemap"; exit 1; }
+          test -f dist/robots.txt            || { echo "::error::missing robots.txt"; exit 1; }
+          test -f dist/llms.txt              || { echo "::error::missing llms.txt"; exit 1; }
+          test -f dist/rss.xml               || { echo "::error::missing rss.xml"; exit 1; }
+          test -f dist/ko/index.html         || { echo "::error::missing Korean homepage"; exit 1; }
+          test -d dist/data                  || { echo "::error::missing data directory"; exit 1; }
+          grep -q 'application/ld+json' dist/index.html || { echo "::error::JSON-LD missing from homepage"; exit 1; }
+          grep -q 'hreflang="ko"' dist/index.html       || { echo "::error::hreflang missing"; exit 1; }
+          echo "Build verified: $(find dist -name '*.html' | wc -l) HTML pages"
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

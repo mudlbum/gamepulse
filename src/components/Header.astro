@@ -1,0 +1,151 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { localeHref, alternatePath } from '../lib/paths';
+import { SITE } from '../config';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const path = Astro.url.pathname;
+
+const nav = [
+  { key: 'nav.news', to: '/news' },
+  { key: 'nav.leaderboards', to: '/leaderboards' },
+  { key: 'nav.updates', to: '/updates' },
+  { key: 'nav.clips', to: '/clips' },
+  { key: 'nav.deals', to: '/deals' },
+  { key: 'nav.cosplay', to: '/cosplay' },
+  { key: 'nav.tools', to: '/tools' },
+] as const;
+
+const isActive = (to: string) => path.replace(/\/$/, '').endsWith(to);
+const otherLang = lang === 'ko' ? 'en' : 'ko';
+---
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href={localeHref('/', lang)}>
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect width="32" height="32" rx="8" fill="var(--brand)"></rect>
+        <path
+          d="M6 17.5h4.2l2.1-5.4 3.3 9.4 2.6-6.6 1.7 2.6H26"
+          fill="none" stroke="var(--on-brand)" stroke-width="2.2"
+          stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <span class="brand-name">{SITE.name}</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Primary">
+      {nav.map((item) => (
+        <a
+          href={localeHref(item.to, lang)}
+          class:list={['nav-link', { active: isActive(item.to) }]}
+          aria-current={isActive(item.to) ? 'page' : undefined}
+        >
+          {t(item.key)}
+        </a>
+      ))}
+    </nav>
+
+    <div class="actions">
+      <a class="lang-btn" href={alternatePath(path, otherLang)} hreflang={otherLang} lang={otherLang}>
+        {otherLang === 'ko' ? '한국어' : 'EN'}
+      </a>
+      <ThemeToggle />
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label={t('nav.menu')}>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <nav class="nav-mobile" id="mobile-nav" aria-label="Mobile" hidden>
+    <div class="wrap">
+      {nav.map((item) => (
+        <a href={localeHref(item.to, lang)} class:list={['m-link', { active: isActive(item.to) }]}>
+          {t(item.key)}
+        </a>
+      ))}
+      <a href={localeHref('/about', lang)} class="m-link">{t('nav.about')}</a>
+    </div>
+  </nav>
+</header>
+
+<style>
+  .site-header {
+    position: sticky; top: 0; z-index: 100;
+    background: color-mix(in oklab, var(--bg) 82%, transparent);
+    backdrop-filter: saturate(180%) blur(14px);
+    -webkit-backdrop-filter: saturate(180%) blur(14px);
+    border-bottom: 1px solid var(--border);
+  }
+  .bar { display: flex; align-items: center; gap: var(--space-4); height: var(--header-h); }
+
+  .brand { display: flex; align-items: center; gap: 0.55rem; text-decoration: none; color: var(--text); flex: none; }
+  .brand-mark { width: 28px; height: 28px; border-radius: 8px; }
+  .brand-name { font-weight: 730; font-size: 1.08rem; letter-spacing: -0.03em; }
+  .brand:hover { color: var(--text); }
+  .brand:hover .brand-mark { filter: brightness(1.12); }
+
+  .nav-desktop { display: none; align-items: center; gap: 0.1rem; margin-left: var(--space-2); flex: 1; min-width: 0; }
+  @media (min-width: 1000px) { .nav-desktop { display: flex; } }
+
+  .nav-link {
+    padding: 0.42em 0.7em; border-radius: var(--radius-sm);
+    font-size: 0.875rem; font-weight: 545; color: var(--text-dim);
+    text-decoration: none; white-space: nowrap;
+    transition: color 0.15s var(--ease), background 0.15s var(--ease);
+  }
+  .nav-link:hover { color: var(--text); background: var(--surface-hover); }
+  .nav-link.active { color: var(--brand); background: var(--brand-soft); font-weight: 620; }
+
+  .actions { display: flex; align-items: center; gap: var(--space-2); margin-left: auto; flex: none; }
+
+  .lang-btn {
+    font-size: 0.76rem; font-weight: 660; letter-spacing: 0.02em;
+    padding: 0.36em 0.62em; border-radius: var(--radius-sm);
+    border: 1px solid var(--border-light); color: var(--text-dim);
+    text-decoration: none; transition: all 0.15s var(--ease);
+  }
+  .lang-btn:hover { color: var(--text); border-color: var(--text-mute); background: var(--surface-hover); }
+
+  .burger {
+    display: grid; place-content: center; gap: 4px;
+    width: 34px; height: 30px; padding: 0;
+    background: none; border: 0; cursor: pointer;
+  }
+  @media (min-width: 1000px) { .burger { display: none; } }
+  .burger span {
+    display: block; width: 17px; height: 1.8px; border-radius: 2px;
+    background: var(--text); transition: transform 0.24s var(--ease), opacity 0.16s var(--ease);
+  }
+  .burger[aria-expanded='true'] span:nth-child(1) { transform: translateY(5.8px) rotate(45deg); }
+  .burger[aria-expanded='true'] span:nth-child(2) { opacity: 0; }
+  .burger[aria-expanded='true'] span:nth-child(3) { transform: translateY(-5.8px) rotate(-45deg); }
+
+  .nav-mobile { border-top: 1px solid var(--border); background: var(--bg-elev); padding-block: var(--space-2); }
+  .nav-mobile .wrap { display: flex; flex-direction: column; }
+  .m-link {
+    padding: 0.72em 0.4em; color: var(--text-dim); text-decoration: none;
+    font-weight: 555; border-bottom: 1px solid var(--border);
+  }
+  .m-link:last-child { border-bottom: 0; }
+  .m-link.active { color: var(--brand); font-weight: 640; }
+</style>
+
+<script is:inline>
+  (function () {
+    var burger = document.getElementById('burger');
+    var menu = document.getElementById('mobile-nav');
+    if (!burger || !menu || burger.dataset.bound) return;
+    burger.dataset.bound = '1';
+    burger.addEventListener('click', function () {
+      var open = burger.getAttribute('aria-expanded') === 'true';
+      burger.setAttribute('aria-expanded', String(!open));
+      menu.hidden = open;
+    });
+    // Collapse the menu if the viewport grows past the desktop breakpoint.
+    window.matchMedia('(min-width: 1000px)').addEventListener('change', function (e) {
+      if (e.matches) { burger.setAttribute('aria-expanded', 'false'); menu.hidden = true; }
+    });
+  })();
+</script>

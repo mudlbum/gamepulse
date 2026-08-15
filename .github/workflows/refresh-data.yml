@@ -1,0 +1,103 @@
+name: Refresh live data
+
+on:
+  schedule:
+    # Every 30 minutes. GitHub's scheduler is best-effort and can run late
+    # under load — treat 30 minutes as a floor, not a guarantee.
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    inputs:
+      discover:
+        description: 'Also run Bluesky cosplay account discovery'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          # A token with write access so the data commit can trigger the
+          # deploy workflow. The default GITHUB_TOKEN cannot, by design.
+          token: ${{ secrets.PAT_TOKEN || github.token }}
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch all datasets
+        id: fetch
+        run: |
+          if [ "${{ inputs.discover }}" = "true" ]; then
+            node scripts/refresh-all.mjs --discover
+          else
+            node scripts/refresh-all.mjs
+          fi
+
+      - name: Report source health
+        if: always()
+        run: |
+          if [ -f public/data/health.json ]; then
+            echo "### Data refresh" >> $GITHUB_STEP_SUMMARY
+            node -e "
+              const h = require('./public/data/health.json');
+              console.log('| Task | Status | Time |');
+              console.log('| --- | --- | --- |');
+              for (const t of h.tasks) console.log('| ' + t.task + ' | ' + t.status + ' | ' + (t.ms/1000).toFixed(1) + 's |');
+            " >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ -f public/data/news.json ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Unhealthy feeds" >> $GITHUB_STEP_SUMMARY
+            node -e "
+              const n = require('./public/data/news.json');
+              const bad = (n.health||[]).filter(h => !h.ok);
+              if (!bad.length) { console.log('All feeds healthy.'); }
+              else for (const b of bad) console.log('- ' + b.name + ': ' + b.error + (b.staleDays ? ' (' + b.staleDays + 'd old)' : ''));
+            " >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Commit refreshed data
+        id: commit
+        run: |
+          git config user.name  "gamepulse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data src/data data-store
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No data changes."
+          else
+            git commit -m "data: refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # Rebase in case a concurrent article PR merge moved main under us.
+            git pull --rebase --autostash origin main
+            git push
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      # A push made with the default GITHUB_TOKEN deliberately does not trigger
+      # other workflows, so the deploy has to be dispatched explicitly. With a
+      # PAT configured the push triggers deploy.yml on its own and this is
+      # skipped. The `secrets` context is not readable inside `if:`, so the
+      # check is done in the shell.
+      - name: Trigger deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HAS_PAT: ${{ secrets.PAT_TOKEN != '' }}
+        run: |
+          if [ "$HAS_PAT" = "true" ]; then
+            echo "PAT configured — the data push already triggered deploy.yml."
+          else
+            gh workflow run deploy.yml
+          fi

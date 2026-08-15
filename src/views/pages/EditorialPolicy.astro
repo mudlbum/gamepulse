@@ -1,0 +1,141 @@
+---
+import { getLangFromUrl } from '../../i18n/ui';
+import { localeHref } from '../../lib/paths';
+const lang = getLangFromUrl(Astro.url);
+const ko = lang === 'ko';
+---
+
+<div class="wrap-narrow prose-page">
+  <h1>{ko ? '편집 원칙' : 'Editorial policy'}</h1>
+
+  {ko ? (
+    <>
+      <p class="lede">
+        이 페이지는 GamePulse의 기사가 어떻게 만들어지는지, 무엇을 검증하고 무엇을 검증하지 못하는지
+        구체적으로 설명합니다.
+      </p>
+
+      <h2>AI 활용에 대한 공개</h2>
+      <p>
+        GamePulse는 기사 초안 작성에 AI를 사용합니다. 이를 명시적으로 밝히는 이유는 두 가지입니다.
+        독자가 알 권리가 있고, 숨길 경우 신뢰를 잃을 일이기 때문입니다.
+      </p>
+      <p>AI가 하는 일과 하지 않는 일은 다음과 같습니다.</p>
+      <ul>
+        <li><strong>합니다</strong> — 여러 매체의 보도를 모아 사안을 정리하고, 초안을 쓰고, 한국어와 영어 두 판본을 만듭니다.</li>
+        <li><strong>하지 않습니다</strong> — 검증 없이 발행하지 않습니다. 출처 없는 수치를 만들어내지 않습니다. 확인되지 않은 내용을 확인된 것처럼 쓰지 않습니다.</li>
+      </ul>
+
+      <h2>사실 확인 절차</h2>
+      <ol>
+        <li>여러 매체가 동시에 다루는 사안을 자동으로 탐지합니다. 한 곳만 보도한 내용은 기사화하지 않습니다.</li>
+        <li>모든 핵심 주장을 1차 출처와 대조합니다. 퍼블리셔 공식 발표, 패치노트 원문, 실적 공시, 공개 API가 이에 해당합니다. 다른 매체의 기사는 1차 출처가 아닙니다.</li>
+        <li>출처 간에 수치가 다르면 그 사실을 기사에 적습니다. 한쪽을 임의로 고르지 않습니다.</li>
+        <li>확인에 실패한 내용은 삭제하거나 "확인되지 않음"으로 표기합니다.</li>
+        <li>사람이 최종 검토한 뒤 발행합니다.</li>
+      </ol>
+
+      <h2>발행 원칙</h2>
+      <p>
+        하루에 몇 건을 쓰겠다는 목표를 두지 않습니다. 검증할 만한 사안이 없으면 그날은 기사를 내지
+        않습니다. 검색 순위를 위해 내용 없는 글을 양산하는 것은 독자에게도 손해이고, 검색엔진 정책상
+        스팸으로 분류되는 행위이기도 합니다.
+      </p>
+
+      <h2>데이터의 한계</h2>
+      <p>실시간 데이터에는 분명한 한계가 있고, 이를 감추지 않습니다.</p>
+      <ul>
+        <li><strong>동시접속자 순위는 스팀 전용입니다.</strong> 플레이스테이션, 엑스박스, 닌텐도, 모바일은 이에 상응하는 실시간 수치를 공개하지 않습니다. 순위가 낮다고 인기가 없는 것이 아닙니다.</li>
+        <li><strong>패치노트는 요약입니다.</strong> 항상 퍼블리셔 원문을 링크하며, 요약과 원문이 다르면 원문이 맞습니다.</li>
+        <li><strong>영상 순위는 확산 속도만 측정합니다.</strong> 중요도나 완성도와는 무관합니다.</li>
+        <li><strong>가격 정보는 마지막 갱신 시점 기준입니다.</strong> 구매 전 스토어에서 확인하세요.</li>
+      </ul>
+
+      <h2>이미지와 영상</h2>
+      <p>
+        게임 스크린샷과 아트워크는 보도·비평 목적으로 인용하며 권리는 각 퍼블리셔에 있습니다.
+        유튜브 영상은 임베드하되, 재생 버튼을 누르기 전까지는 아무것도 불러오지 않습니다. 코스프레
+        사진은 원작자의 게시물에서 직접 표시하고 항상 원본으로 연결합니다. 게재를 원하지 않으시면
+        <a href={localeHref('/contact', lang)}>연락</a> 주시는 즉시 내립니다.
+      </p>
+
+      <h2>정정</h2>
+      <p>
+        오류가 확인되면 본문을 고치고 수정 일자를 표시합니다. 사실관계가 바뀌는 정정은 기사 안에
+        무엇을 고쳤는지 함께 적습니다.
+      </p>
+    </>
+  ) : (
+    <>
+      <p class="lede">
+        This page sets out exactly how articles here are made, what gets verified, and what we
+        cannot verify.
+      </p>
+
+      <h2>Disclosure on AI</h2>
+      <p>
+        We use AI to draft articles. We say so plainly, for two reasons: readers are entitled to
+        know, and it is the kind of thing that costs you all your credibility the moment someone
+        finds out you hid it.
+      </p>
+      <p>Here is the split.</p>
+      <ul>
+        <li><strong>AI does</strong> gather coverage across outlets, structure what happened, write the first draft, and produce the English and Korean versions.</li>
+        <li><strong>AI does not</strong> get to publish unchecked. It does not invent figures. It does not present something unverified as settled fact.</li>
+      </ul>
+
+      <h2>The fact-checking process</h2>
+      <ol>
+        <li>Automated clustering identifies stories that several outlets are covering at once. A claim appearing in exactly one place does not become an article.</li>
+        <li>Every substantive claim is checked against a <strong>primary source</strong> — a publisher announcement, the patch notes themselves, an earnings filing, or a first-party API. Another outlet's article is not a primary source.</li>
+        <li>Where sources disagree on a number, the article says they disagree. We do not quietly pick the more convenient one.</li>
+        <li>Anything that fails verification is cut, or kept and explicitly labelled unverified.</li>
+        <li>A person reviews the piece before it goes live.</li>
+      </ol>
+
+      <h2>Publishing volume</h2>
+      <p>
+        There is no daily quota. If nothing worth verifying happened, nothing publishes. Producing
+        high volumes of thin content to catch search traffic is bad for readers, and it is also
+        precisely what search engines classify as scaled content abuse. We would rather run five
+        solid pieces a week than fifty empty ones.
+      </p>
+
+      <h2>Known limits of our data</h2>
+      <p>Every live dataset here has boundaries, and hiding them would be the dishonest part.</p>
+      <ul>
+        <li><strong>Player counts are Steam-only.</strong> No console platform holder or mobile store publishes a comparable live concurrent figure. A game sitting low on our leaderboard may be enormous on PlayStation and we would not see it.</li>
+        <li><strong>Patch summaries are excerpts.</strong> The publisher's page is always linked and always wins where the two disagree.</li>
+        <li><strong>Clip rankings measure spread, not merit.</strong> Views per hour says something is travelling fast. It says nothing about whether it is good or important.</li>
+        <li><strong>Deal prices are a snapshot</strong> in USD from the last refresh. Check the store before you buy.</li>
+      </ul>
+
+      <h2>Images and video</h2>
+      <p>
+        Game screenshots and artwork are used for reporting and commentary and remain the property
+        of their publishers. YouTube videos are embedded behind a click — nothing loads from YouTube
+        until you press play. Cosplay photographs are displayed from the creator's own post and
+        always link back to it with credit. If you are featured and would rather not be,
+        <a href={localeHref('/contact', lang)}> contact us</a> and it comes down.
+      </p>
+
+      <h2>Corrections</h2>
+      <p>
+        Confirmed errors are corrected in the body and the article is stamped with an updated date.
+        Where a correction changes the substance of a story, the article notes what changed.
+      </p>
+    </>
+  )}
+</div>
+
+<style>
+  .prose-page { font-size: 1.02rem; line-height: 1.75; }
+  .prose-page h1 { margin-bottom: var(--space-5); }
+  .prose-page h2 { font-size: var(--step-2); margin-top: 2em; margin-bottom: 0.5em; }
+  .prose-page p { margin-bottom: 1.1em; color: var(--text-dim); }
+  .prose-page .lede { font-size: var(--step-1); color: var(--text); margin-bottom: 1.5em; }
+  .prose-page strong { color: var(--text); }
+  .prose-page ul, .prose-page ol { margin-bottom: 1.1em; padding-left: 1.4em; color: var(--text-dim); }
+  .prose-page li + li { margin-top: 0.5em; }
+  .prose-page li::marker { color: var(--text-mute); }
+</style>

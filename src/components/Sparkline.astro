@@ -1,0 +1,40 @@
+---
+export interface Props {
+  values: number[];
+  width?: number;
+  height?: number;
+  label?: string;
+}
+
+const { values = [], width = 76, height = 22, label } = Astro.props;
+
+const clean = values.filter((v) => Number.isFinite(v));
+const min = Math.min(...clean);
+const max = Math.max(...clean);
+const range = max - min || 1;
+const rising = clean.length > 1 && clean[clean.length - 1] >= clean[0];
+
+const points = clean.map((v, i) => {
+  const x = clean.length === 1 ? width / 2 : (i / (clean.length - 1)) * width;
+  const y = height - ((v - min) / range) * (height - 3) - 1.5;
+  return [Number(x.toFixed(2)), Number(y.toFixed(2))];
+});
+
+const d = points.length
+  ? points.map(([x, y], i) => `${i === 0 ? 'M' : 'L'}${x} ${y}`).join(' ')
+  : '';
+---
+
+{clean.length > 1 ? (
+  <svg class="spark" viewBox={`0 0 ${width} ${height}`} role="img" aria-label={label ?? 'Player trend'} preserveAspectRatio="none">
+    <path d={d} stroke={rising ? 'var(--up)' : 'var(--down)'} />
+    <circle
+      cx={points[points.length - 1][0]}
+      cy={points[points.length - 1][1]}
+      r="1.8"
+      fill={rising ? 'var(--up)' : 'var(--down)'}
+    />
+  </svg>
+) : (
+  <span class="text-mute" style="font-size:0.7rem">—</span>
+)}

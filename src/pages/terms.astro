@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/pages/Terms.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="Terms of use"
+  description="Terms governing the use of GamePulse: copyright, quoting and attribution, accuracy of automated data, external links and limitation of liability."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'Terms of use', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

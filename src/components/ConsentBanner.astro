@@ -1,0 +1,92 @@
+---
+/**
+ * Minimal, self-hosted consent gate.
+ *
+ * IMPORTANT for AdSense: if you serve personalised ads to users in the EEA, UK
+ * or Switzerland, Google requires a *certified* CMP from its list, not a custom
+ * banner. This component is a good-faith default that (a) blocks non-essential
+ * storage until consent and (b) sets Google Consent Mode v2 signals. Swap it
+ * for a certified CMP before running personalised ads in those regions.
+ * See: https://support.google.com/adsense/answer/13554116
+ */
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { localeHref } from '../lib/paths';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<script is:inline>
+  // Consent Mode v2 defaults — denied until the user chooses.
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  window.gtag = window.gtag || gtag;
+  (function () {
+    var stored = null;
+    try { stored = localStorage.getItem('gp-consent'); } catch (e) {}
+    var granted = stored === 'all';
+    gtag('consent', 'default', {
+      ad_storage: granted ? 'granted' : 'denied',
+      ad_user_data: granted ? 'granted' : 'denied',
+      ad_personalization: granted ? 'granted' : 'denied',
+      analytics_storage: granted ? 'granted' : 'denied',
+      functionality_storage: 'granted',
+      security_storage: 'granted',
+    });
+  })();
+</script>
+
+<div class="consent" id="consent-banner" role="dialog" aria-live="polite" aria-label="Cookie consent" hidden>
+  <p>
+    {t('consent.text')}
+    <a href={localeHref('/privacy', lang)}>{t('consent.manage')}</a>
+  </p>
+  <div class="consent-actions">
+    <button class="btn btn-sm" data-consent="essential">{t('consent.reject')}</button>
+    <button class="btn btn-primary btn-sm" data-consent="all">{t('consent.accept')}</button>
+  </div>
+</div>
+
+<style>
+  .consent {
+    position: fixed; inset: auto var(--space-4) var(--space-4) auto;
+    z-index: 300; max-width: 400px;
+    background: var(--bg-elev); border: 1px solid var(--border-light);
+    border-radius: var(--radius); box-shadow: var(--shadow-lg);
+    padding: var(--space-4); font-size: var(--step--1);
+    display: flex; flex-direction: column; gap: var(--space-3);
+    animation: consent-in 0.35s var(--ease);
+  }
+  @keyframes consent-in { from { opacity: 0; translate: 0 12px; } to { opacity: 1; translate: 0 0; } }
+  @media (max-width: 520px) { .consent { inset: auto var(--space-3) var(--space-3) var(--space-3); max-width: none; } }
+  .consent p { color: var(--text-dim); line-height: 1.55; }
+  .consent-actions { display: flex; gap: var(--space-2); justify-content: flex-end; }
+</style>
+
+<script is:inline>
+  (function () {
+    var el = document.getElementById('consent-banner');
+    if (!el || el.dataset.bound) return;
+    el.dataset.bound = '1';
+    var stored = null;
+    try { stored = localStorage.getItem('gp-consent'); } catch (e) {}
+    if (!stored) el.hidden = false;
+
+    el.addEventListener('click', function (ev) {
+      var btn = ev.target.closest('[data-consent]');
+      if (!btn) return;
+      var choice = btn.dataset.consent;
+      try { localStorage.setItem('gp-consent', choice); } catch (e) {}
+      var granted = choice === 'all';
+      if (window.gtag) {
+        window.gtag('consent', 'update', {
+          ad_storage: granted ? 'granted' : 'denied',
+          ad_user_data: granted ? 'granted' : 'denied',
+          ad_personalization: granted ? 'granted' : 'denied',
+          analytics_storage: granted ? 'granted' : 'denied',
+        });
+      }
+      el.hidden = true;
+    });
+  })();
+</script>

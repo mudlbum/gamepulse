@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/Updates.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="Game Update Tracker"
+  description="Latest patch notes and season launches for the biggest live-service games, pulled from official publisher sources and updated automatically."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'Game Update Tracker', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

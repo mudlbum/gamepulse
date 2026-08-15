@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/Updates.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="게임 업데이트 트래커"
+  description="주요 라이브 서비스 게임의 최신 패치노트와 시즌 업데이트를 퍼블리셔 공식 출처에서 직접 수집해 정리합니다. 스팀 뉴스, 공식 RSS, 라이브 빌드 버전 추적을 함께 사용합니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '게임 업데이트 트래커', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

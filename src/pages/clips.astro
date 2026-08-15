@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/Clips.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="Trending Gaming Clips"
+  description="Gaming videos gaining views fastest right now, ranked by views per hour rather than lifetime totals so you see what is actually breaking out today."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'Trending Gaming Clips', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

@@ -1,0 +1,8 @@
+# ads.txt — Authorized Digital Sellers (IAB Tech Lab spec)
+#
+# Google will flag your AdSense account with an "Earnings at risk" warning until
+# a valid ads.txt exists at the site root. Replace pub-0000000000000000 with
+# your own publisher ID (Account -> Settings -> Account information) and remove
+# the leading '#'. Leaving the placeholder active is worse than having no file.
+#
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

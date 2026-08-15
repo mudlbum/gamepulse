@@ -1,0 +1,52 @@
+---
+/**
+ * Privacy- and performance-friendly YouTube embed.
+ *
+ * Renders a static thumbnail with a play button and only injects the iframe on
+ * click. A real iframe costs ~1MB and several hundred ms of main-thread work
+ * per embed; on a page with a dozen clips that alone tanks Core Web Vitals,
+ * which feed directly into search ranking. It also means no YouTube cookies
+ * are set unless the visitor actually chooses to watch.
+ */
+export interface Props {
+  id: string;
+  title: string;
+  thumb?: string;
+  channel?: string;
+}
+
+const { id, title, thumb, channel } = Astro.props;
+const poster = thumb || `https://i.ytimg.com/vi/${id}/hqdefault.jpg`;
+---
+
+<div class="video-embed" data-yt={id}>
+  <button class="video-facade" type="button" aria-label={`Play video: ${title}`}>
+    <img src={poster} alt="" loading="lazy" decoding="async" width="480" height="270" />
+    <span class="video-play" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+    </span>
+  </button>
+</div>
+
+<script is:inline>
+  (function () {
+    if (window.__ytFacadeBound) return;
+    window.__ytFacadeBound = true;
+    document.addEventListener('click', function (ev) {
+      var btn = ev.target.closest('.video-facade');
+      if (!btn) return;
+      var wrap = btn.closest('[data-yt]');
+      if (!wrap) return;
+      var id = wrap.dataset.yt;
+      var iframe = document.createElement('iframe');
+      // youtube-nocookie avoids setting tracking cookies before playback.
+      iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
+      iframe.title = btn.getAttribute('aria-label') || 'YouTube video';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.allowFullscreen = true;
+      iframe.loading = 'lazy';
+      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      wrap.replaceChildren(iframe);
+    });
+  })();
+</script>

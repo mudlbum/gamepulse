@@ -1,0 +1,33 @@
+---
+/**
+ * Inlined in <head> before any paint so the correct theme is applied on the
+ * very first frame. Without this you get a white flash on dark-mode loads.
+ */
+---
+<script is:inline>
+  (function () {
+    var KEY = 'gp-theme';
+    var stored = null;
+    try { stored = localStorage.getItem(KEY); } catch (e) {}
+    var theme =
+      stored === 'light' || stored === 'dark'
+        ? stored
+        : window.matchMedia('(prefers-color-scheme: light)').matches
+          ? 'light'
+          : 'dark';
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.style.colorScheme = theme;
+
+    // Keep in sync with the OS when the user hasn't made an explicit choice.
+    try {
+      window.matchMedia('(prefers-color-scheme: light)').addEventListener('change', function (e) {
+        var saved = null;
+        try { saved = localStorage.getItem(KEY); } catch (err) {}
+        if (saved) return;
+        var next = e.matches ? 'light' : 'dark';
+        document.documentElement.dataset.theme = next;
+        document.documentElement.style.colorScheme = next;
+      });
+    } catch (e) {}
+  })();
+</script>

@@ -1,0 +1,79 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { formatDate } from '../lib/paths';
+
+export interface Props {
+  deal: any;
+  kind: 'free' | 'soon' | 'discount';
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const { deal, kind } = Astro.props;
+---
+
+<article class="card deal">
+  <div class="card-media">
+    {deal.image ? (
+      <img src={deal.image} alt="" loading="lazy" decoding="async" />
+    ) : (
+      <div class="no-img" aria-hidden="true"></div>
+    )}
+    {kind === 'free' && <span class="tag free">{t('deal.free')}</span>}
+    {kind === 'soon' && <span class="tag soon">{t('deal.upcoming')}</span>}
+    {kind === 'discount' && <span class="tag off">−{deal.savings}%</span>}
+  </div>
+  <div class="card-body">
+    <h3 class="card-title"><a href={deal.url} rel="noopener nofollow" target="_blank">{deal.title}</a></h3>
+    <div class="card-meta">
+      <span class="badge">{deal.store}</span>
+      {deal.steamRatingText && <span class="badge">{deal.steamRatingPercent}% 👍</span>}
+      {deal.metacritic && <span class="badge">MC {deal.metacritic}</span>}
+    </div>
+    <div class="price-row">
+      {kind === 'discount' ? (
+        <>
+          <strong class="price">${deal.salePrice.toFixed(2)}</strong>
+          <s class="was">${deal.normalPrice.toFixed(2)}</s>
+        </>
+      ) : (
+        <>
+          <strong class="price free-price">{t('deal.free')}</strong>
+          {deal.originalPrice && <s class="was">{deal.originalPrice}</s>}
+        </>
+      )}
+    </div>
+    {kind === 'free' && deal.endDate && (
+      <p class="window">{t('deal.ends')} {formatDate(deal.endDate, lang)}</p>
+    )}
+    {kind === 'soon' && deal.startDate && (
+      <p class="window">{t('deal.starts')} {formatDate(deal.startDate, lang)}</p>
+    )}
+  </div>
+</article>
+
+<style>
+  .deal .card-media { aspect-ratio: 16 / 9; position: relative; }
+  .no-img { width: 100%; height: 100%; background: linear-gradient(135deg, var(--bg-elev-2), var(--bg-inset)); }
+  .tag {
+    position: absolute; top: 0.5rem; left: 0.5rem; z-index: 2;
+    font-size: 0.68rem; font-weight: 700; letter-spacing: 0.03em;
+    padding: 0.25em 0.55em; border-radius: var(--radius-sm); color: #fff;
+  }
+  /* These carry white text on a saturated fill, which is where contrast
+     quietly fails. Measured: white on --up was 2.54:1 and white on --down
+     3.67:1, both under the 4.5:1 floor for text this size. Dark ink on the
+     green, a deeper rose behind the white. */
+  /* Pinned rather than themed: --up is a bright green in dark mode and a deep
+     one in light, so a single ink colour fails in one theme or the other.
+     This pair holds 7.4:1 in both. */
+  .tag.free { background: #10b981; color: #04251b; }
+  .tag.soon { background: var(--warn); color: #1a1200; }
+  .tag.off  { background: #be123c; color: #fff; }
+  .card-title { font-size: 0.98rem; }
+  .price-row { display: flex; align-items: baseline; gap: 0.5rem; margin-top: auto; }
+  .price { font-size: var(--step-1); font-weight: 700; }
+  .free-price { color: var(--up); text-transform: uppercase; font-size: var(--step-0); letter-spacing: 0.03em; }
+  .was { color: var(--text-mute); font-size: var(--step--1); }
+  .window { font-size: 0.76rem; color: var(--text-mute); }
+</style>

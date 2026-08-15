@@ -1,0 +1,85 @@
+name: Research & draft articles
+
+on:
+  schedule:
+    # 09:00 and 21:00 UTC — 18:00 and 06:00 KST.
+    - cron: '0 9,21 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'How many story briefs to build'
+        type: string
+        default: '3'
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: write-articles
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Refresh news so briefs are built on current clusters
+        run: node scripts/refresh-all.mjs news || echo "::warning::news refresh failed, using committed data"
+
+      - name: Generate research briefs
+        env:
+          BRIEF_COUNT: ${{ inputs.count || '3' }}
+        run: node scripts/generate-brief.mjs
+
+      - name: Draft articles from the top brief
+        id: draft
+        env:
+          # Optional. Without it this step no-ops and you get briefs to write
+          # from by hand — the pipeline still produces something useful.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/write-article.mjs
+
+      - name: Validate any generated drafts still build
+        run: npm run build
+        env:
+          SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io', github.repository_owner) }}
+          BASE_PATH: ${{ vars.BASE_PATH || '/' }}
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/drafts-${{ github.run_number }}
+          commit-message: "content: research briefs and drafts for ${{ github.run_number }}"
+          title: "Draft articles — ${{ github.run_number }}"
+          labels: automated, needs-review
+          body: |
+            Automated research + drafting run.
+
+            **Everything here is `draft: true` and will not appear on the live site until you set it to `false` and merge.**
+
+            ## Review checklist
+
+            Read the brief in `briefs/` alongside each draft:
+
+            - [ ] Every figure in the article appears in the brief's **corroborated facts** table
+            - [ ] Nothing from **single-sourced** is stated as fact without in-text attribution
+            - [ ] Every **conflict** flagged in the brief is either resolved against a primary source or reported as a discrepancy
+            - [ ] `sources[]` in the frontmatter lists every URL actually used
+            - [ ] No invented quotes, dates, version numbers or prices
+            - [ ] The writing does not read as machine-generated (see `scripts/write-article.mjs` for the banned-phrase list)
+            - [ ] `keyTakeaway` stands alone and contains the key numbers
+            - [ ] Korean version carries identical figures to the English
+
+            When satisfied: set `draft: false` in both language files, set `reviewedBy` to your name, and merge.
+
+            If `ANTHROPIC_API_KEY` is not configured this PR contains briefs only — write from them by hand.

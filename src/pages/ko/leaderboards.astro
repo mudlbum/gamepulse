@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/Leaderboards.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="실시간 동시접속자 순위"
+  description="지금 가장 많이 플레이되는 게임은 무엇인가. 스팀 실시간 동시접속자 순위와 24시간 변동, 8일 추이를 30분마다 갱신합니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '실시간 동시접속자 순위', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

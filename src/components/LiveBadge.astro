@@ -1,0 +1,87 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { SITE } from '../config';
+
+export interface Props {
+  updated: string | null;
+  stale?: boolean;
+  /** Which /data/<dataset>.json this page polls for live refresh. */
+  dataset?: string;
+  sample?: boolean;
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const { updated, stale = false, dataset, sample = false } = Astro.props;
+---
+
+<div class="live-strip" data-state={stale ? 'stale' : 'live'} data-live-badge data-dataset={dataset}>
+  <span class="live-dot" aria-hidden="true"></span>
+  <span>
+    {updated ? (
+      <>
+        {t('live.updated')}{' '}
+        <time datetime={updated} data-live-time={updated}>{new Date(updated).toISOString().slice(11, 16)} UTC</time>
+      </>
+    ) : (
+      t('live.never')
+    )}
+  </span>
+  {stale && <span class="badge badge-warn">{t('live.stale')}</span>}
+  {sample && <span class="badge badge-warn">sample data</span>}
+  {dataset && !stale && <span class="hide-sm auto">· {t('live.auto')}</span>}
+</div>
+
+<style>
+  .auto { color: var(--text-mute); }
+  time { font-variant-numeric: tabular-nums; }
+</style>
+
+{dataset && (
+  <script is:inline define:vars={{ pollMs: SITE.livePollMs, base: import.meta.env.BASE_URL }}>
+    (function () {
+      var badge = document.querySelector('[data-live-badge][data-dataset]');
+      if (!badge || badge.dataset.bound) return;
+      badge.dataset.bound = '1';
+      var dataset = badge.dataset.dataset;
+      var timeEl = badge.querySelector('[data-live-time]');
+
+      function rel(iso) {
+        var mins = Math.round((Date.now() - new Date(iso).getTime()) / 60000);
+        if (mins < 1) return 'just now';
+        if (mins < 60) return mins + 'm ago';
+        var h = Math.round(mins / 60);
+        if (h < 24) return h + 'h ago';
+        return Math.round(h / 24) + 'd ago';
+      }
+      function paint() {
+        if (timeEl) timeEl.textContent = rel(timeEl.getAttribute('datetime'));
+      }
+      paint();
+      setInterval(paint, 30000);
+
+      /* Re-poll the JSON the GitHub Action rewrites. The page keeps working
+         if this 404s or the user is offline — it simply keeps showing the
+         numbers that were baked into the HTML at build time. */
+      async function poll() {
+        try {
+          var url = (base.endsWith('/') ? base : base + '/') + 'data/' + dataset + '.json';
+          var res = await fetch(url + '?t=' + Math.floor(Date.now() / 60000), { cache: 'no-store' });
+          if (!res.ok) return;
+          var json = await res.json();
+          if (!json || !json.updated) return;
+          if (timeEl && json.updated !== timeEl.getAttribute('datetime')) {
+            timeEl.setAttribute('datetime', json.updated);
+            paint();
+            window.dispatchEvent(new CustomEvent('livedata', { detail: { dataset: dataset, data: json } }));
+          }
+          badge.dataset.state = json._stale ? 'stale' : 'live';
+        } catch (e) { /* offline or blocked — keep the static numbers */ }
+      }
+      setInterval(poll, pollMs);
+      document.addEventListener('visibilitychange', function () {
+        if (document.visibilityState === 'visible') poll();
+      });
+    })();
+  </script>
+)}

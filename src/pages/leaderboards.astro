@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/Leaderboards.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="Live Player Count Leaderboard"
+  description="Which games have the most players online right now. Live Steam concurrent-player rankings with 24-hour change and 8-day trends, refreshed every 30 minutes."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'Live Player Count Leaderboard', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

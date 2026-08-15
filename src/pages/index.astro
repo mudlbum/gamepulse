@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/Home.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="GamePulse"
+  description="Live concurrent-player leaderboards, official patch note digests, trending gaming clips ranked by view velocity, and sourced reporting across PC, console and mobile."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'GamePulse', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

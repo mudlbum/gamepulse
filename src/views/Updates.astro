@@ -1,0 +1,126 @@
+---
+import LiveBadge from '../components/LiveBadge.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { relativeTime, formatDate } from '../lib/paths';
+import updatesData from '../data/updates.json';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const data: any = updatesData;
+const games = data.games ?? [];
+const timeline = data.timeline ?? [];
+
+const platformIcon: Record<string, string> = {
+  pc: '🖥', playstation: 'PS', xbox: 'XB', switch: 'NS', mobile: '📱', vr: 'VR',
+};
+---
+
+<div class="wrap">
+  <header class="page-head">
+    <div class="row-between">
+      <div>
+        <p class="eyebrow">{t('home.recentPatches')}</p>
+        <h1>{t('up.title')}</h1>
+      </div>
+      <LiveBadge updated={data.updated} stale={data._stale} sample={data._sample} dataset="updates" />
+    </div>
+    <p class="lede">{t('up.sub')}</p>
+  </header>
+
+  {games.length === 0 ? (
+    <p class="callout">{t('up.noData')}</p>
+  ) : (
+    <div class="with-sidebar">
+      <div>
+        <div class="grid grid-auto">
+          {games.map((g: any) => (
+            <article class="card patch">
+              <div class="card-body">
+                <div class="card-meta">
+                  {(g.platforms ?? []).map((p: string) => (
+                    <span class="badge plat">{platformIcon[p] ?? p}</span>
+                  ))}
+                  {g.latest?.version && <span class="badge badge-brand">{t('up.version')} {g.latest.version}</span>}
+                  {g.latest?.isNew && <span class="badge badge-up">new</span>}
+                </div>
+                <h2 class="game-name">{g.game}</h2>
+                <h3 class="patch-title">
+                  <a href={g.latest?.url} rel="noopener nofollow" target="_blank">{g.latest?.title}</a>
+                </h3>
+                {g.latest?.summary && <p class="card-excerpt clamp-3">{g.latest.summary}</p>}
+                <div class="card-meta foot">
+                  {g.latest?.date && (
+                    <time datetime={g.latest.date}>{relativeTime(g.latest.date, lang)}</time>
+                  )}
+                  <span aria-hidden="true">·</span>
+                  <span class="method">{g.method}</span>
+                </div>
+                <a class="btn btn-sm" href={g.official} rel="noopener nofollow" target="_blank">
+                  {t('up.readNotes')} ↗
+                </a>
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <AdSlot slot="inArticle" />
+      </div>
+
+      <aside>
+        <h2 class="side-head">{lang === 'ko' ? '최근 패치 타임라인' : 'Patch timeline'}</h2>
+        <ol role="list" class="timeline">
+          {timeline.slice(0, 22).map((e: any) => (
+            <li>
+              <time datetime={e.date}>{formatDate(e.date, lang)}</time>
+              <div>
+                <strong>{e.game}</strong>
+                <a href={e.url} rel="noopener nofollow" target="_blank" class="clamp-2">{e.title}</a>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </aside>
+    </div>
+  )}
+
+  <aside class="callout mt-7">
+    <p class="callout-title">Where these come from</p>
+    <p>
+      Patch notes are pulled from official sources only: Valve's Steam news API for anything on
+      Steam, publisher RSS where it exists, and live build-version probes for games that publish no
+      feed at all. Riot, for example, ships no patch RSS — so we watch the League and VALORANT
+      version endpoints and link to the official notes the moment the build number changes. We never
+      republish full patch notes; every card links to the publisher's own page.
+    </p>
+  </aside>
+</div>
+
+<style>
+  .page-head { margin-bottom: var(--space-6); }
+  .page-head h1 { margin-block: 0.1em 0.3em; }
+  .eyebrow { font-size: var(--step--1); color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.09em; font-weight: 620; }
+
+  .patch .card-body { gap: var(--space-2); height: 100%; }
+  .game-name { font-size: var(--step--1); text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-mute); font-weight: 660; }
+  .patch-title { font-size: var(--step-1); font-weight: 620; line-height: 1.3; }
+  .patch-title a { color: var(--text); text-decoration: none; }
+  .patch:hover .patch-title a { color: var(--brand); }
+  .plat { font-size: 0.66rem; padding-inline: 0.45em; }
+  .method { color: var(--text-mute); font-size: 0.72rem; }
+  .foot { margin-top: auto; }
+  .patch .btn { align-self: flex-start; margin-top: var(--space-2); }
+
+  .side-head { font-size: var(--step--1); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-mute); font-weight: 660; margin-bottom: var(--space-4); }
+  .timeline { display: flex; flex-direction: column; gap: var(--space-4); border-left: 1px solid var(--border); padding-left: var(--space-4); }
+  .timeline li { display: flex; flex-direction: column; gap: 0.1rem; position: relative; font-size: var(--step--1); }
+  .timeline li::before {
+    content: ''; position: absolute; left: calc(-1 * var(--space-4) - 4px); top: 0.45em;
+    width: 7px; height: 7px; border-radius: 50%; background: var(--border-light);
+  }
+  .timeline li:first-child::before { background: var(--brand); }
+  .timeline time { color: var(--text-mute); font-size: 0.72rem; }
+  .timeline strong { display: block; font-size: 0.78rem; color: var(--text-dim); font-weight: 620; }
+  .timeline a { color: var(--text); text-decoration: none; line-height: 1.4; }
+  .timeline a:hover { color: var(--brand); }
+</style>

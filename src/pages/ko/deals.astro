@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/Deals.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="무료 게임 & 할인 정보"
+  description="에픽게임즈 스토어에서 지금 무료로 받을 수 있는 게임과 곧 무료가 될 게임, 그리고 스팀·GOG 등 주요 스토어에서 50% 이상 할인 중인 타이틀을 한 곳에 모았습니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '무료 게임 & 할인 정보', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

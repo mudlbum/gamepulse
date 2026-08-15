@@ -1,0 +1,583 @@
+#!/usr/bin/env node
+/**
+ * Offline integration tests for the data pipeline.
+ *
+ * Stubs globalThis.fetch and runs the REAL fetcher modules end to end, so the
+ * parsing, ranking, clustering and staleness logic is genuinely exercised —
+ * only the network is faked. Run with: npm test
+ */
+import assert from 'node:assert/strict';
+import { rm, readFile } from 'node:fs/promises';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import * as F from './fixtures.mjs';
+
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
+
+let passed = 0;
+let failed = 0;
+const failures = [];
+
+async function test(name, fn) {
+  try {
+    await fn();
+    passed++;
+    console.log(`  ✓ ${name}`);
+  } catch (err) {
+    failed++;
+    failures.push({ name, err });
+    console.log(`  ✗ ${name}`);
+    console.log(`      ${err.message.split('\n')[0]}`);
+  }
+}
+
+function section(name) {
+  console.log(`\n${name}`);
+}
+
+/* ---------------- fetch stub ---------------- */
+const realFetch = globalThis.fetch;
+let routes = [];
+let unmatched = [];
+
+function mockFetch(matchers) {
+  routes = matchers;
+  unmatched = [];
+  globalThis.fetch = async (url) => {
+    const u = String(url);
+    for (const [pattern, respond] of routes) {
+      if (u.includes(pattern)) {
+        const value = typeof respond === 'function' ? respond(u) : respond;
+        if (value === null) return new Response('nope', { status: 503 });
+        const body = typeof value === 'string' ? value : JSON.stringify(value);
+        const type = typeof value === 'string' ? 'application/xml' : 'application/json';
+        return new Response(body, { status: 200, headers: { 'content-type': type } });
+      }
+    }
+    unmatched.push(u);
+    return new Response('not found', { status: 404 });
+  };
+}
+
+function restoreFetch() {
+  globalThis.fetch = realFetch;
+}
+
+/* =========================================================
+   Run
+   ========================================================= */
+console.log('\n━━━ GamePulse pipeline tests ━━━');
+
+// Start from a clean history so delta assertions are deterministic.
+await rm(resolve(ROOT, 'data-store/history.json'), { force: true });
+
+/* ---------- feed parsing ---------- */
+section('Feed parsing & health gating');
+{
+  const { fetchFeed, fetchYouTubeChannel, youTubeId } = await import('../lib/feed.mjs');
+
+  await test('parses a well-formed RSS 2.0 feed', async () => {
+    mockFetch([['good.example', F.rssFeed({ title: 'Good Outlet' })]]);
+    const res = await fetchFeed('https://good.example/feed');
+    assert.equal(res.ok, true);
+    assert.equal(res.items.length, 5);
+    assert.equal(res.items[0].source, 'Good Outlet');
+    assert.ok(res.items[0].link.startsWith('https://'));
+  });
+
+  await test('strips HTML/CDATA out of summaries', async () => {
+    mockFetch([['good.example', F.rssFeed({})]]);
+    const res = await fetchFeed('https://good.example/feed');
+    assert.ok(!res.items[0].summary.includes('<'), 'summary still contains markup');
+    assert.ok(res.items[0].summary.includes('markup'));
+  });
+
+  await test('extracts media:thumbnail images', async () => {
+    mockFetch([['good.example', F.rssFeed({})]]);
+    const res = await fetchFeed('https://good.example/feed');
+    assert.equal(res.items[0].image, 'https://example.com/img-1.jpg');
+  });
+
+  await test('REJECTS a stale feed that returns 200 with valid XML', async () => {
+    mockFetch([['stale.example', F.staleFeed]]);
+    const res = await fetchFeed('https://stale.example/feed', { maxAgeDays: 21 });
+    assert.equal(res.ok, false, 'stale feed was wrongly accepted');
+    assert.equal(res.error, 'stale');
+    assert.ok(res.staleDays > 700);
+  });
+
+  await test('REJECTS a valid feed containing zero items', async () => {
+    mockFetch([['empty.example', F.emptyFeed]]);
+    const res = await fetchFeed('https://empty.example/feed');
+    assert.equal(res.ok, false);
+    assert.equal(res.error, 'empty');
+  });
+
+  await test('handles an unreachable feed without throwing', async () => {
+    mockFetch([['dead.example', null]]);
+    const res = await fetchFeed('https://dead.example/feed', { retries: 0 });
+    assert.equal(res.ok, false);
+    assert.equal(res.items.length, 0);
+  });
+
+  await test('computes YouTube view velocity from media:statistics', async () => {
+    mockFetch([['youtube.com/feeds', F.youtubeFeed('UCtest', 'Test Channel')]]);
+    const vids = await fetchYouTubeChannel('UCtest', { name: 'Test Channel' });
+    assert.equal(vids.length, 3);
+    const clutch = vids.find((v) => v.videoId === 'dQw4w9WgXcQ');
+    assert.equal(clutch.views, 480000);
+    // 480,000 views over ~6 hours ≈ 80,000/hr
+    assert.ok(clutch.velocity > 70000 && clutch.velocity < 90000, `velocity was ${clutch.velocity}`);
+  });
+
+  await test('velocity ranks a fresh clip above an old viral one', async () => {
+    mockFetch([['youtube.com/feeds', F.youtubeFeed('UCtest')]]);
+    const vids = await fetchYouTubeChannel('UCtest', {});
+    const fresh = vids.find((v) => v.videoId === 'dQw4w9WgXcQ');
+    const old = vids.find((v) => v.videoId === 'zYxWvUtSrQp');
+    assert.ok(old.views > fresh.views, 'fixture assumption: old video has more total views');
+    assert.ok(fresh.velocity > old.velocity, 'fresh clip should win on velocity');
+  });
+
+  await test('youTubeId extracts ids from every URL form', () => {
+    assert.equal(youTubeId('https://www.youtube.com/watch?v=dQw4w9WgXcQ'), 'dQw4w9WgXcQ');
+    assert.equal(youTubeId('https://youtu.be/dQw4w9WgXcQ'), 'dQw4w9WgXcQ');
+    assert.equal(youTubeId('https://www.youtube.com/shorts/dQw4w9WgXcQ'), 'dQw4w9WgXcQ');
+    assert.equal(youTubeId('https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0'), 'dQw4w9WgXcQ');
+    assert.equal(youTubeId('https://example.com/not-a-video'), null);
+  });
+}
+
+/* ---------- leaderboard ---------- */
+section('Leaderboard');
+{
+  const { fetchLeaderboard } = await import('../fetch-leaderboard.mjs');
+
+  await test('builds a ranked board from the Steam chart service', async () => {
+    mockFetch([
+      ['GetMostPlayedGames', F.steamChart],
+      ['appdetails', (u) => F.steamAppDetails(new URL(u).searchParams.get('appids'))],
+    ]);
+    const lb = await fetchLeaderboard();
+    assert.ok(lb, 'returned null');
+    assert.equal(lb.entries.length, 10);
+    assert.equal(lb.entries[0].rank, 1);
+    assert.equal(lb.entries[0].appid, 730);
+    assert.equal(lb.entries[0].current, 746368);
+    assert.ok(lb.entries[0].name.length > 0);
+  });
+
+  await test('sums total players across the board', async () => {
+    mockFetch([
+      ['GetMostPlayedGames', F.steamChart],
+      ['appdetails', (u) => F.steamAppDetails(new URL(u).searchParams.get('appids'))],
+    ]);
+    const lb = await fetchLeaderboard();
+    const expected = F.steamChart.response.ranks.reduce((s, r) => s + r.concurrent_in_game, 0);
+    assert.equal(lb.totalPlayers, expected);
+  });
+
+  await test('persists history and produces a sparkline on the second run', async () => {
+    mockFetch([
+      ['GetMostPlayedGames', F.steamChart],
+      ['appdetails', (u) => F.steamAppDetails(new URL(u).searchParams.get('appids'))],
+    ]);
+    await fetchLeaderboard();
+    // Age the stored samples so the 10-minute collapse window does not merge them.
+    const hp = resolve(ROOT, 'data-store/history.json');
+    const h = JSON.parse(await readFile(hp, 'utf8'));
+    for (const pts of Object.values(h.series)) for (const p of pts) p.t -= 40 * 3600_000;
+    const { writeFile } = await import('node:fs/promises');
+    await writeFile(hp, JSON.stringify(h));
+
+    const lb2 = await fetchLeaderboard();
+    assert.ok(lb2.entries[0].spark.length >= 2, 'sparkline did not accumulate points');
+    assert.notEqual(lb2.entries[0].change24h, null, '24h change should be computable');
+  });
+
+  await test('falls back to per-app counts when the chart service dies', async () => {
+    mockFetch([
+      ['GetMostPlayedGames', null],
+      ['GetNumberOfCurrentPlayers', (u) => {
+        const id = new URL(u).searchParams.get('appid');
+        return { response: { player_count: 100000 - Number(id) % 50000, result: 1 } };
+      }],
+      ['appdetails', (u) => F.steamAppDetails(new URL(u).searchParams.get('appids'))],
+    ]);
+    const lb = await fetchLeaderboard();
+    assert.ok(lb, 'fallback returned null');
+    assert.ok(lb.entries.length > 5, 'fallback produced too few entries');
+    assert.equal(lb.entries[0].rank, 1);
+    // Ranks must be strictly descending by player count.
+    for (let i = 1; i < lb.entries.length; i++) {
+      assert.ok(lb.entries[i - 1].current >= lb.entries[i].current, 'fallback ranking is not sorted');
+    }
+  });
+
+  await test('returns null when Steam is entirely unreachable', async () => {
+    mockFetch([['api.steampowered.com', null]]);
+    const lb = await fetchLeaderboard();
+    assert.equal(lb, null);
+  });
+}
+
+/* ---------- updates ---------- */
+section('Update tracker');
+{
+  const { fetchUpdates } = await import('../fetch-updates.mjs');
+
+  await test('parses Steam news into patch entries and strips BBCode', async () => {
+    mockFetch([
+      ['GetNewsForApp', (u) => F.steamNews(new URL(u).searchParams.get('appid'))],
+      ['pathofexile.com/news/rss', F.rssFeed({ title: 'Path of Exile', headlines: ['0.5.5 Patch Notes'] })],
+      ['bungie.net/en/rss', F.rssFeed({ title: 'Bungie', headlines: ['Update 1.1.5.3'] })],
+      ['forums.blizzard.com', F.rssFeed({ title: 'Blizzard Forums', headlines: ['Overwatch Patch Notes – August 11, 2026', 'random player thread'] })],
+      ['ddragon.leagueoflegends.com', F.ddragonVersions],
+      ['valorant-api.com', F.valorantVersion],
+    ]);
+    const up = await fetchUpdates();
+    assert.ok(up.games.length > 0);
+    const withSteam = up.games.find((g) => g.method === 'Steam news API');
+    assert.ok(withSteam, 'no Steam-sourced game found');
+    assert.ok(!withSteam.latest.summary.includes('[h1]'), 'BBCode leaked into the summary');
+    assert.ok(!withSteam.latest.summary.includes('[b]'), 'BBCode leaked into the summary');
+  });
+
+  await test('detects the live League patch version via ddragon', async () => {
+    mockFetch([
+      ['GetNewsForApp', (u) => F.steamNews(new URL(u).searchParams.get('appid'))],
+      ['ddragon.leagueoflegends.com', F.ddragonVersions],
+      ['valorant-api.com', F.valorantVersion],
+    ]);
+    const up = await fetchUpdates();
+    const lol = up.games.find((g) => g.id === 'lol');
+    assert.ok(lol, 'League probe missing');
+    assert.equal(lol.latest.version, '26.16.1');
+    assert.ok(lol.latest.url.includes('patch-26-16-notes'), `bad notes URL: ${lol.latest.url}`);
+  });
+
+  await test('derives the VALORANT build from the version endpoint', async () => {
+    mockFetch([
+      ['GetNewsForApp', (u) => F.steamNews(new URL(u).searchParams.get('appid'))],
+      ['ddragon.leagueoflegends.com', F.ddragonVersions],
+      ['valorant-api.com', F.valorantVersion],
+    ]);
+    const up = await fetchUpdates();
+    const val = up.games.find((g) => g.id === 'valorant');
+    assert.equal(val.latest.version, '13.02');
+    assert.ok(val.latest.url.includes('13-02'));
+  });
+
+  await test('filters forum noise down to patch threads only', async () => {
+    mockFetch([
+      ['GetNewsForApp', null],
+      ['forums.blizzard.com/en/overwatch', F.rssFeed({
+        title: 'Overwatch Forum',
+        headlines: [
+          'Overwatch Retail Patch Notes – August 11, 2026',
+          'Why is my rank going down',
+          'LF group for comp',
+          'Hotfix deployed for D.Mon',
+          'anyone else miss old Busan',
+        ],
+      })],
+      ['ddragon', F.ddragonVersions],
+      ['valorant-api.com', F.valorantVersion],
+    ]);
+    const up = await fetchUpdates();
+    const ow = up.games.find((g) => g.id === 'overwatch');
+    assert.ok(ow, 'overwatch entry missing');
+    assert.equal(ow.entries.length, 2, `expected 2 patch threads, got ${ow.entries.length}`);
+    for (const e of ow.entries) {
+      assert.match(e.title, /patch|hotfix/i);
+    }
+  });
+
+  await test('survives every update source failing', async () => {
+    mockFetch([['', null]]);
+    const up = await fetchUpdates();
+    assert.ok(Array.isArray(up.games));
+    assert.ok(Array.isArray(up.timeline));
+  });
+}
+
+/* ---------- clips ---------- */
+section('Clips');
+{
+  const { fetchClips } = await import('../fetch-clips.mjs');
+
+  await test('aggregates channels and ranks by velocity', async () => {
+    mockFetch([['youtube.com/feeds', (u) => {
+      const id = new URL(u).searchParams.get('channel_id');
+      return F.youtubeFeed(id, `Channel ${id.slice(-4)}`);
+    }]]);
+    const clips = await fetchClips();
+    assert.ok(clips, 'returned null');
+    assert.ok(clips.trending.length > 0);
+    for (let i = 1; i < clips.trending.length; i++) {
+      assert.ok(clips.trending[i - 1].velocity >= clips.trending[i].velocity, 'trending is not velocity-sorted');
+    }
+  });
+
+  await test('excludes videos older than the freshness window', async () => {
+    mockFetch([['youtube.com/feeds', (u) => F.youtubeFeed(new URL(u).searchParams.get('channel_id'))]]);
+    const clips = await fetchClips();
+    const stale = clips.trending.find((v) => v.videoId === 'zYxWvUtSrQp');
+    assert.equal(stale, undefined, 'a 2-year-old video made it into trending');
+  });
+
+  await test('caps how many slots one channel can occupy', async () => {
+    mockFetch([['youtube.com/feeds', (u) => F.youtubeFeed(new URL(u).searchParams.get('channel_id'))]]);
+    const clips = await fetchClips();
+    const counts = {};
+    for (const v of clips.trending) counts[v.channelId] = (counts[v.channelId] ?? 0) + 1;
+    for (const [ch, n] of Object.entries(counts)) {
+      assert.ok(n <= 3, `channel ${ch} took ${n} slots (limit 3)`);
+    }
+  });
+
+  await test('returns null rather than an empty page when YouTube is down', async () => {
+    mockFetch([['youtube.com', null]]);
+    const clips = await fetchClips();
+    assert.equal(clips, null);
+  });
+}
+
+/* ---------- cosplay ---------- */
+section('Cosplay');
+{
+  const { fetchCosplay } = await import('../fetch-cosplay.mjs');
+
+  await test('normalises Bluesky posts and keeps image embeds', async () => {
+    mockFetch([['getAuthorFeed', (u) => {
+      const actor = decodeURIComponent(new URL(u).searchParams.get('actor'));
+      return F.bskyAuthorFeed(actor.includes('did:') ? 'test.bsky.social' : actor, 'Test Cosplayer');
+    }]]);
+    const cos = await fetchCosplay();
+    assert.ok(cos, 'returned null');
+    assert.ok(cos.spotlight.length > 0);
+    const p = cos.spotlight[0];
+    assert.ok(p.images.length > 0, 'no images on the post');
+    assert.ok(p.images[0].full.startsWith('https://'), 'image URL missing');
+    assert.ok(p.url.startsWith('https://bsky.app/profile/'), 'post permalink missing');
+    assert.ok(p.authorHandle, 'author credit missing');
+  });
+
+  await test('drops reposts and text-only posts', async () => {
+    mockFetch([['getAuthorFeed', () => F.bskyAuthorFeed('test.bsky.social', 'Test')]]);
+    const cos = await fetchCosplay();
+    for (const p of cos.spotlight) {
+      assert.ok(p.images.length > 0, 'a post with no images slipped through');
+      assert.notEqual(p.authorHandle, 'someone.else', 'a repost slipped through');
+    }
+  });
+
+  await test('every card carries attribution back to the creator', async () => {
+    mockFetch([['getAuthorFeed', () => F.bskyAuthorFeed('test.bsky.social', 'Test')]]);
+    const cos = await fetchCosplay();
+    for (const p of cos.spotlight) {
+      assert.ok(p.url && p.authorHandle && p.authorName, 'incomplete attribution');
+    }
+  });
+
+  await test('returns null when Bluesky is unreachable', async () => {
+    mockFetch([['bsky.app', null]]);
+    const cos = await fetchCosplay();
+    assert.equal(cos, null);
+  });
+}
+
+/* ---------- deals ---------- */
+section('Deals');
+{
+  const { fetchDeals } = await import('../fetch-deals.mjs');
+
+  await test('separates currently-free from upcoming-free correctly', async () => {
+    mockFetch([
+      ['freeGamesPromotions', F.epicFree],
+      ['cheapshark.com/api/1.0/deals', F.cheapSharkDeals],
+      ['cheapshark.com/api/1.0/stores', F.cheapSharkStores],
+    ]);
+    const d = await fetchDeals();
+    assert.equal(d.freeNow.length, 1);
+    assert.equal(d.freeNow[0].title, 'Caravan SandWitch');
+    assert.equal(d.freeSoon.length, 1);
+    assert.equal(d.freeSoon[0].title, 'Next Week Freebie');
+  });
+
+  await test('excludes a 50%-off item from the free lists', async () => {
+    mockFetch([
+      ['freeGamesPromotions', F.epicFree],
+      ['cheapshark.com/api/1.0/deals', F.cheapSharkDeals],
+      ['cheapshark.com/api/1.0/stores', F.cheapSharkStores],
+    ]);
+    const d = await fetchDeals();
+    const titles = [...d.freeNow, ...d.freeSoon].map((x) => x.title);
+    assert.ok(!titles.includes('Just A Discount, Not Free'), 'a paid discount was listed as free');
+  });
+
+  await test('resolves store names and filters weak discounts', async () => {
+    mockFetch([
+      ['freeGamesPromotions', F.epicFree],
+      ['cheapshark.com/api/1.0/deals', F.cheapSharkDeals],
+      ['cheapshark.com/api/1.0/stores', F.cheapSharkStores],
+    ]);
+    const d = await fetchDeals();
+    assert.equal(d.discounts.length, 2, 'the 10%-off deal should have been filtered out');
+    assert.equal(d.discounts[0].store, 'Steam');
+    assert.equal(d.discounts[0].savings, 75);
+    assert.ok(d.discounts[0].url.includes('cheapshark.com/redirect'));
+  });
+
+  await test('still returns Epic data when CheapShark is down', async () => {
+    mockFetch([
+      ['freeGamesPromotions', F.epicFree],
+      ['cheapshark.com', null],
+    ]);
+    const d = await fetchDeals();
+    assert.ok(d, 'returned null despite Epic being up');
+    assert.equal(d.freeNow.length, 1);
+    assert.equal(d.discounts.length, 0);
+  });
+}
+
+/* ---------- news + clustering ---------- */
+section('News clustering');
+{
+  const { fetchNews } = await import('../fetch-news.mjs');
+
+  const bigStory = [
+    'Nintendo confirms Switch 2 price increase to $500 from September 1',
+    'Switch 2 price rises by $50 in the US and Europe next month',
+    'Nintendo raising Switch 2 price to $500 on September 1',
+  ];
+
+  await test('clusters the same story across multiple outlets', async () => {
+    mockFetch([
+      ['feedburner.com/ign', F.rssFeed({ title: 'IGN', headlines: [bigStory[0], 'Unrelated indie review'], count: 2 })],
+      ['pcgamer.com', F.rssFeed({ title: 'PC Gamer', headlines: [bigStory[1], 'A different GPU story'], count: 2 })],
+      ['kotaku.com', F.rssFeed({ title: 'Kotaku', headlines: [bigStory[2], 'Something else entirely'], count: 2 })],
+      ['', F.emptyFeed],
+    ]);
+    const news = await fetchNews();
+    const clusters = news.feeds.en.clusters;
+    assert.ok(clusters.length > 0, 'no clusters formed');
+    const top = clusters[0];
+    assert.ok(top.outletCount >= 3, `expected 3+ outlets in the top cluster, got ${top.outletCount}`);
+    assert.match(top.headline, /Switch 2/i);
+    assert.ok(top.articles.length >= 3, 'cluster lost its source articles');
+  });
+
+  await test('a cluster keeps every source URL for fact-checking', async () => {
+    mockFetch([
+      ['feedburner.com/ign', F.rssFeed({ title: 'IGN', headlines: [bigStory[0]], count: 1 })],
+      ['pcgamer.com', F.rssFeed({ title: 'PC Gamer', headlines: [bigStory[1]], count: 1 })],
+      ['kotaku.com', F.rssFeed({ title: 'Kotaku', headlines: [bigStory[2]], count: 1 })],
+      ['', F.emptyFeed],
+    ]);
+    const news = await fetchNews();
+    const top = news.feeds.en.clusters[0];
+    for (const a of top.articles) {
+      assert.ok(a.url?.startsWith('http'), 'article missing a URL');
+      assert.ok(a.outlet, 'article missing an outlet name');
+    }
+  });
+
+  await test('does not merge unrelated headlines', async () => {
+    mockFetch([
+      ['feedburner.com/ign', F.rssFeed({ title: 'IGN', headlines: ['Nintendo raises Switch 2 price'], count: 1 })],
+      ['pcgamer.com', F.rssFeed({ title: 'PC Gamer', headlines: ['Best mechanical keyboards for 2026'], count: 1 })],
+      ['kotaku.com', F.rssFeed({ title: 'Kotaku', headlines: ['Nintendo confirms Switch 2 price hike'], count: 1 })],
+      ['', F.emptyFeed],
+    ]);
+    const news = await fetchNews();
+    const top = news.feeds.en.clusters[0];
+    assert.ok(!top.articles.some((a) => /keyboard/i.test(a.title)), 'unrelated headline was clustered in');
+  });
+
+  await test('reports per-feed health including stale detection', async () => {
+    mockFetch([
+      ['feedburner.com/ign', F.rssFeed({ title: 'IGN', count: 3 })],
+      ['pcgamer.com', F.staleFeed],
+      ['kotaku.com', F.emptyFeed],
+      ['', null],
+    ]);
+    const news = await fetchNews();
+    const ign = news.health.find((h) => h.name === 'IGN');
+    const pcg = news.health.find((h) => h.name === 'PC Gamer');
+    const kot = news.health.find((h) => h.name === 'Kotaku');
+    assert.equal(ign.ok, true);
+    assert.equal(pcg.ok, false);
+    assert.equal(pcg.error, 'stale');
+    assert.equal(kot.ok, false);
+    assert.equal(kot.error, 'empty');
+  });
+
+  await test('handles Korean headlines with bigram tokenisation', async () => {
+    mockFetch([
+      ['feeds.feedburner.com/inven', F.rssFeed({
+        title: '인벤',
+        headlines: ['닌텐도, 스위치2 가격 9월 1일부터 50달러 인상', '신작 인디게임 리뷰'],
+        count: 2,
+      })],
+      ['bbs.ruliweb.com/news/rss', F.rssFeed({
+        title: '루리웹',
+        headlines: ['스위치2 가격 인상 발표, 9월 1일부터 적용', '주간 판매량 집계'],
+        count: 2,
+      })],
+      ['gamemeca.com', F.rssFeed({
+        title: '게임메카',
+        headlines: ['닌텐도 스위치2 가격 인상 공식 발표', 'PC방 순위'],
+        count: 2,
+      })],
+      ['', F.emptyFeed],
+    ]);
+    const news = await fetchNews();
+    const ko = news.feeds.ko.clusters;
+    assert.ok(ko.length > 0, 'no Korean clusters formed');
+    assert.ok(ko[0].outletCount >= 2, `Korean clustering found only ${ko[0].outletCount} outlet(s)`);
+  });
+}
+
+/* ---------- text utilities ---------- */
+section('Text utilities');
+{
+  const { toPlainText, slugify } = await import('../lib/http.mjs');
+
+  await test('toPlainText strips HTML, BBCode and entities', () => {
+    const out = toPlainText('<p>Hello &amp; [b]welcome[/b] &mdash; it&#39;s here</p>');
+    assert.ok(!out.includes('<'), out);
+    assert.ok(!out.includes('['), out);
+    assert.ok(out.includes('&'), out);
+    assert.ok(out.includes("it's"), out);
+  });
+
+  await test('toPlainText truncates on a word boundary', () => {
+    const out = toPlainText('word '.repeat(200), 50);
+    assert.ok(out.length <= 52, `length was ${out.length}`);
+    assert.ok(out.endsWith('…'));
+  });
+
+  await test('slugify handles Korean and punctuation', () => {
+    assert.equal(slugify('Switch 2 Price Increase!'), 'switch-2-price-increase');
+    assert.equal(slugify('스위치2 가격 인상'), '스위치2-가격-인상');
+  });
+}
+
+restoreFetch();
+
+/* ---------- summary ---------- */
+console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+console.log(`  ${passed} passed, ${failed} failed`);
+if (unmatched.length) {
+  console.log(`  (${unmatched.length} unmatched fetch calls fell through to 404 — expected for unused sources)`);
+}
+if (failed) {
+  console.log('\nFailures:\n');
+  for (const f of failures) {
+    console.log(`  ✗ ${f.name}`);
+    console.log(`    ${f.err.stack?.split('\n').slice(0, 4).join('\n    ')}\n`);
+  }
+  process.exit(1);
+}
+console.log('  All pipeline tests passed.\n');

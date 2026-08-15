@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/pages/Privacy.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="Privacy policy"
+  description="What data GamePulse stores (almost none), how Google AdSense cookies work, how to opt out of personalised advertising, and your GDPR, CCPA and PIPA rights."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'Privacy policy', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

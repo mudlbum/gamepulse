@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/News.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="게임 뉴스"
+  description="자체 취재 기사와 함께, 여러 매체가 동시에 다루고 있는 화제의 게임 소식을 자동으로 묶어 보여줍니다. 어떤 소식이 지금 가장 크게 다뤄지는지 한눈에 확인하세요."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '게임 뉴스', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

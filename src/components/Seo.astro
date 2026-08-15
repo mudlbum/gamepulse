@@ -1,0 +1,170 @@
+---
+import { SITE } from '../config';
+import { alternatePath } from '../lib/paths';
+import type { Lang } from '../i18n/ui';
+
+export interface Props {
+  title: string;
+  description: string;
+  lang: Lang;
+  /** 'website' | 'article' */
+  type?: 'website' | 'article';
+  image?: string;
+  imageAlt?: string;
+  publishedTime?: Date | string;
+  modifiedTime?: Date | string;
+  author?: string;
+  section?: string;
+  tags?: string[];
+  noindex?: boolean;
+  /** Extra JSON-LD graph nodes to merge into the page's @graph. */
+  schema?: Record<string, unknown>[];
+  /** Question/answer pairs — emitted as FAQPage and highly quotable by AI engines. */
+  faq?: { q: string; a: string }[];
+  breadcrumbs?: { name: string; url: string }[];
+}
+
+const {
+  title,
+  description,
+  lang,
+  type = 'website',
+  image,
+  imageAlt,
+  publishedTime,
+  modifiedTime,
+  author = SITE.author.name,
+  section,
+  tags = [],
+  noindex = false,
+  schema = [],
+  faq = [],
+  breadcrumbs = [],
+} = Astro.props;
+
+const siteOrigin = Astro.site?.origin ?? SITE.url;
+const canonical = new URL(Astro.url.pathname.replace(/\/+$/, '') || '/', siteOrigin).toString();
+
+const enPath = alternatePath(Astro.url.pathname, 'en');
+const koPath = alternatePath(Astro.url.pathname, 'ko');
+const enUrl = new URL(enPath, siteOrigin).toString();
+const koUrl = new URL(koPath, siteOrigin).toString();
+
+const ogImage = image
+  ? image.startsWith('http') ? image : new URL(image, siteOrigin).toString()
+  : new URL('/og-default.png', siteOrigin).toString();
+
+const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline[lang]}` : `${title} | ${SITE.name}`;
+const locale = lang === 'ko' ? 'ko_KR' : 'en_US';
+
+/* ---------- JSON-LD graph ---------- */
+const orgId = `${siteOrigin}/#organization`;
+const siteId = `${siteOrigin}/#website`;
+
+const graph: Record<string, unknown>[] = [
+  {
+    '@type': 'Organization',
+    '@id': orgId,
+    name: SITE.name,
+    url: siteOrigin,
+    description: SITE.description[lang],
+    logo: { '@type': 'ImageObject', url: new URL('/logo.png', siteOrigin).toString(), width: 512, height: 512 },
+    sameAs: Object.values(SITE.social).filter(Boolean),
+  },
+  {
+    '@type': 'WebSite',
+    '@id': siteId,
+    url: siteOrigin,
+    name: SITE.name,
+    description: SITE.description[lang],
+    publisher: { '@id': orgId },
+    inLanguage: lang === 'ko' ? 'ko-KR' : 'en-US',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `${siteOrigin}/search?q={search_term_string}` },
+      'query-input': 'required name=search_term_string',
+    },
+  },
+  {
+    '@type': 'WebPage',
+    '@id': `${canonical}#webpage`,
+    url: canonical,
+    name: fullTitle,
+    description,
+    isPartOf: { '@id': siteId },
+    inLanguage: lang === 'ko' ? 'ko-KR' : 'en-US',
+    ...(modifiedTime ? { dateModified: new Date(modifiedTime).toISOString() } : {}),
+    ...(publishedTime ? { datePublished: new Date(publishedTime).toISOString() } : {}),
+  },
+];
+
+if (breadcrumbs.length) {
+  graph.push({
+    '@type': 'BreadcrumbList',
+    '@id': `${canonical}#breadcrumb`,
+    itemListElement: breadcrumbs.map((b, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: b.name,
+      item: b.url.startsWith('http') ? b.url : new URL(b.url, siteOrigin).toString(),
+    })),
+  });
+}
+
+if (faq.length) {
+  graph.push({
+    '@type': 'FAQPage',
+    '@id': `${canonical}#faq`,
+    mainEntity: faq.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  });
+}
+
+graph.push(...schema);
+
+const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
+---
+
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+
+<link rel="alternate" hreflang="en" href={enUrl} />
+<link rel="alternate" hreflang="ko" href={koUrl} />
+<link rel="alternate" hreflang="x-default" href={enUrl} />
+
+{noindex
+  ? <meta name="robots" content="noindex, nofollow" />
+  : <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />}
+
+<meta property="og:type" content={type} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:site_name" content={SITE.name} />
+<meta property="og:locale" content={locale} />
+<meta property="og:locale:alternate" content={lang === 'ko' ? 'en_US' : 'ko_KR'} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+{imageAlt && <meta property="og:image:alt" content={imageAlt} />}
+
+{type === 'article' && publishedTime && (
+  <meta property="article:published_time" content={new Date(publishedTime).toISOString()} />
+)}
+{type === 'article' && modifiedTime && (
+  <meta property="article:modified_time" content={new Date(modifiedTime).toISOString()} />
+)}
+{type === 'article' && <meta property="article:author" content={author} />}
+{type === 'article' && section && <meta property="article:section" content={section} />}
+{type === 'article' && tags.map((tag) => <meta property="article:tag" content={tag} />)}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />

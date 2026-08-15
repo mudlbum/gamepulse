@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/pages/Contact.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="Contact"
+  description="Get in touch with GamePulse to request a correction, send a story tip, or ask for a cosplay takedown. A person reads every message."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'Contact', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

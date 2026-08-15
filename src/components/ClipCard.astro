@@ -1,0 +1,56 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { formatCompact, relativeTime } from '../lib/paths';
+
+export interface Props {
+  clip: any;
+  featured?: boolean;
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const { clip, featured = false } = Astro.props;
+---
+
+<article class:list={['card clip', { featured }]} data-yt={clip.videoId}>
+  <div class="card-media">
+    <button class="video-facade" type="button" aria-label={`Play: ${clip.title}`}>
+      <img src={clip.thumb} alt="" loading="lazy" decoding="async" width="480" height="270" />
+      <span class="video-play" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+      </span>
+    </button>
+    <span class="velocity" title="Views per hour since upload">
+      ▲ {formatCompact(clip.velocity, lang)} {t('clip.velocity')}
+    </span>
+  </div>
+  <div class="card-body">
+    <h3 class="clip-title">
+      <a href={clip.url} rel="noopener" target="_blank">{clip.title}</a>
+    </h3>
+    <div class="card-meta">
+      <a class="channel" href={clip.channelUrl} rel="noopener nofollow" target="_blank">{clip.channel}</a>
+      <span aria-hidden="true">·</span>
+      <span>{formatCompact(clip.views, lang)} {t('clip.views')}</span>
+      <span aria-hidden="true">·</span>
+      <time datetime={clip.published}>{relativeTime(clip.published, lang)}</time>
+    </div>
+  </div>
+</article>
+
+<style>
+  .clip .card-media { position: relative; }
+  .velocity {
+    position: absolute; left: 0.5rem; bottom: 0.5rem; z-index: 2;
+    background: rgb(0 0 0 / 0.78); color: #fff;
+    font-size: 0.68rem; font-weight: 650; letter-spacing: 0.01em;
+    padding: 0.24em 0.5em; border-radius: var(--radius-full);
+    backdrop-filter: blur(4px);
+  }
+  .clip-title { font-size: 0.94rem; font-weight: 610; line-height: 1.35; }
+  .clip-title a { color: var(--text); text-decoration: none; }
+  .clip:hover .clip-title a { color: var(--brand); }
+  .channel { color: var(--text-mute); text-decoration: none; }
+  .channel:hover { color: var(--brand); }
+  .featured .clip-title { font-size: var(--step-1); }
+</style>

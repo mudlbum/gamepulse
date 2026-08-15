@@ -1,0 +1,82 @@
+---
+import DealCard from '../components/DealCard.astro';
+import LiveBadge from '../components/LiveBadge.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import dealsData from '../data/deals.json';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const data: any = dealsData;
+const freeNow = data.freeNow ?? [];
+const freeSoon = data.freeSoon ?? [];
+const discounts = data.discounts ?? [];
+---
+
+<div class="wrap">
+  <header class="page-head">
+    <div class="row-between">
+      <div>
+        <p class="eyebrow">{t('home.freeNow')}</p>
+        <h1>{t('deal.title')}</h1>
+      </div>
+      <LiveBadge updated={data.updated} stale={data._stale} sample={data._sample} dataset="deals" />
+    </div>
+    <p class="lede">{t('deal.sub')}</p>
+  </header>
+
+  {freeNow.length > 0 && (
+    <section class="mb-6">
+      <div class="section-head">
+        <h2>{t('deal.free')}</h2>
+        <span class="badge badge-up">{freeNow.length}</span>
+      </div>
+      <div class="grid grid-auto">
+        {freeNow.map((d: any) => <DealCard deal={d} kind="free" />)}
+      </div>
+    </section>
+  )}
+
+  {freeSoon.length > 0 && (
+    <section class="mb-6">
+      <div class="section-head"><h2>{t('deal.upcoming')}</h2></div>
+      <div class="grid grid-auto">
+        {freeSoon.map((d: any) => <DealCard deal={d} kind="soon" />)}
+      </div>
+    </section>
+  )}
+
+  <AdSlot slot="inArticle" />
+
+  {discounts.length > 0 && (
+    <section>
+      <div class="section-head">
+        <h2>{lang === 'ko' ? '50% 이상 할인' : '50%+ off'}</h2>
+        <span class="text-mute" style="font-size:var(--step--1)">
+          {lang === 'ko' ? '할인율순' : 'sorted by discount'}
+        </span>
+      </div>
+      <div class="grid grid-auto">
+        {discounts.map((d: any) => <DealCard deal={d} kind="discount" />)}
+      </div>
+    </section>
+  )}
+
+  {freeNow.length === 0 && discounts.length === 0 && <p class="callout">{t('live.never')}</p>}
+
+  <aside class="callout mt-7">
+    <p class="callout-title">Note on links</p>
+    <p>
+      Free-game data comes from the Epic Games Store promotions endpoint; discounts come from
+      CheapShark, which aggregates prices across Steam, GOG, Humble and others. CheapShark links
+      route through their redirect service. Prices are in USD and were correct at the last refresh —
+      always confirm on the store page before buying.
+    </p>
+  </aside>
+</div>
+
+<style>
+  .page-head { margin-bottom: var(--space-6); }
+  .page-head h1 { margin-block: 0.1em 0.3em; }
+  .eyebrow { font-size: var(--step--1); color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.09em; font-weight: 620; }
+</style>

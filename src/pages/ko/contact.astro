@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/pages/Contact.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="문의"
+  description="정정 요청, 제보, 코스프레 게재 중단 요청 등 GamePulse에 연락하는 방법을 안내합니다. 모든 메일은 사람이 직접 확인합니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '문의', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

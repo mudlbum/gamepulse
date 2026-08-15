@@ -1,0 +1,138 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { localeHref, href } from '../lib/paths';
+import { SITE } from '../config';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const year = new Date().getUTCFullYear();
+
+const sections = [
+  { key: 'nav.news', to: '/news' },
+  { key: 'nav.leaderboards', to: '/leaderboards' },
+  { key: 'nav.updates', to: '/updates' },
+  { key: 'nav.clips', to: '/clips' },
+  { key: 'nav.deals', to: '/deals' },
+  { key: 'nav.cosplay', to: '/cosplay' },
+  { key: 'nav.tools', to: '/tools' },
+] as const;
+
+const legal =
+  lang === 'ko'
+    ? [
+        { label: '소개', to: '/about' },
+        { label: '편집 원칙', to: '/editorial-policy' },
+        { label: '개인정보 처리방침', to: '/privacy' },
+        { label: '이용약관', to: '/terms' },
+        { label: '문의', to: '/contact' },
+      ]
+    : [
+        { label: 'About', to: '/about' },
+        { label: 'Editorial policy', to: '/editorial-policy' },
+        { label: 'Privacy policy', to: '/privacy' },
+        { label: 'Terms of use', to: '/terms' },
+        { label: 'Contact', to: '/contact' },
+      ];
+
+const dataSources = [
+  { label: 'Steam Web API', url: 'https://steamcommunity.com/dev' },
+  { label: 'SteamSpy', url: 'https://steamspy.com/about' },
+  { label: 'CheapShark', url: 'https://apidocs.cheapshark.com/' },
+  { label: 'Epic Games Store', url: 'https://store.epicgames.com/free-games' },
+  { label: 'YouTube feeds', url: 'https://www.youtube.com/' },
+  { label: 'Bluesky AppView', url: 'https://docs.bsky.app/' },
+];
+---
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="cols">
+      <div class="col brand-col">
+        <a class="brand" href={localeHref('/', lang)}>
+          <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+            <rect width="32" height="32" rx="8" fill="var(--brand)"></rect>
+            <path d="M6 17.5h4.2l2.1-5.4 3.3 9.4 2.6-6.6 1.7 2.6H26" fill="none"
+              stroke="var(--on-brand)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <span class="brand-name">{SITE.name}</span>
+        </a>
+        <p class="tagline">{SITE.tagline[lang]}</p>
+        <div class="feeds">
+          <a href={href('/rss.xml')} class="badge">RSS (EN)</a>
+          <a href={href('/ko/rss.xml')} class="badge">RSS (KO)</a>
+        </div>
+      </div>
+
+      <nav class="col" aria-label={t('footer.sections')}>
+        <h2>{t('footer.sections')}</h2>
+        <ul role="list">
+          {sections.map((s) => (
+            <li><a href={localeHref(s.to, lang)}>{t(s.key)}</a></li>
+          ))}
+        </ul>
+      </nav>
+
+      <nav class="col" aria-label={t('footer.legal')}>
+        <h2>{t('footer.legal')}</h2>
+        <ul role="list">
+          {legal.map((l) => (
+            <li><a href={localeHref(l.to, lang)}>{l.label}</a></li>
+          ))}
+        </ul>
+      </nav>
+
+      <div class="col">
+        <h2>{t('footer.data')}</h2>
+        <ul role="list">
+          {dataSources.map((d) => (
+            <li><a href={d.url} rel="noopener nofollow" target="_blank">{d.label}</a></li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
+    <div class="base">
+      <p class="disclaimer">{t('footer.disclaimer')}</p>
+      <p class="copy">© {year} {SITE.name}. {t('footer.rights')}</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    border-top: 1px solid var(--border);
+    background: var(--bg-elev);
+    padding-block: var(--space-7) var(--space-5);
+    margin-top: var(--space-8);
+    font-size: var(--step--1);
+  }
+  .cols {
+    display: grid; gap: var(--space-6);
+    grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+  }
+  .brand-col { grid-column: span 1; }
+  @media (min-width: 780px) { .brand-col { grid-column: span 1; min-width: 220px; } }
+
+  .brand { display: flex; align-items: center; gap: 0.5rem; text-decoration: none; color: var(--text); margin-bottom: var(--space-3); }
+  .brand-mark { width: 26px; height: 26px; }
+  .brand-name { font-weight: 730; font-size: 1.02rem; letter-spacing: -0.03em; }
+  .tagline { color: var(--text-mute); max-width: 30ch; margin-bottom: var(--space-4); }
+  .feeds { display: flex; gap: var(--space-2); flex-wrap: wrap; }
+  .feeds a { text-decoration: none; }
+
+  .col h2 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.09em;
+    color: var(--text-mute); font-weight: 660; margin-bottom: var(--space-3);
+  }
+  .col ul { display: flex; flex-direction: column; gap: 0.55em; }
+  .col a { color: var(--text-dim); text-decoration: none; }
+  .col a:hover { color: var(--brand); }
+
+  .base {
+    margin-top: var(--space-7); padding-top: var(--space-5);
+    border-top: 1px solid var(--border);
+    display: flex; flex-direction: column; gap: var(--space-3);
+  }
+  .disclaimer { color: var(--text-mute); max-width: 78ch; font-size: 0.78rem; line-height: 1.6; }
+  .copy { color: var(--text-mute); font-size: 0.78rem; }
+</style>

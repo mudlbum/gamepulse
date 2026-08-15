@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/pages/About.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="GamePulse 소개"
+  description="GamePulse는 어떤 매체이고, 자동화된 데이터 수집과 AI 초안 작성은 어떻게 이루어지며, 수익 구조와 정정 요청 방법은 무엇인지 설명합니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: 'GamePulse 소개', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

@@ -1,0 +1,133 @@
+---
+import LiveBadge from '../components/LiveBadge.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { relativeTime, formatCompact } from '../lib/paths';
+import cosplayData from '../data/cosplay.json';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const data: any = cosplayData;
+const spotlight = data.spotlight ?? [];
+const creators = data.creators ?? [];
+---
+
+<div class="wrap">
+  <header class="page-head">
+    <div class="row-between">
+      <div>
+        <p class="eyebrow">Bluesky</p>
+        <h1>{t('cos.title')}</h1>
+      </div>
+      <LiveBadge updated={data.updated} stale={data._stale} sample={data._sample} dataset="cosplay" />
+    </div>
+    <p class="lede">{t('cos.sub')}</p>
+  </header>
+
+  {creators.length > 0 && (
+    <div class="creator-strip">
+      {creators.slice(0, 14).map((c: any) => (
+        <a class="creator" href={c.url} rel="noopener nofollow" target="_blank" title={`@${c.handle}`}>
+          {c.avatar
+            ? <img src={c.avatar} alt="" width="42" height="42" loading="lazy" />
+            : <span class="avatar-fallback" aria-hidden="true">{(c.name ?? '?').slice(0, 1)}</span>}
+          <span class="creator-name truncate">{c.name}</span>
+          <span class="creator-role">{c.role}</span>
+        </a>
+      ))}
+    </div>
+  )}
+
+  {spotlight.length === 0 ? (
+    <p class="callout">{t('live.never')}</p>
+  ) : (
+    <div class="masonry">
+      {spotlight.map((p: any) => (
+        <article class="cos-card">
+          <a class="cos-media" href={p.url} rel="noopener nofollow" target="_blank">
+            <img
+              src={p.images[0].thumb}
+              alt={p.images[0].alt}
+              loading="lazy"
+              decoding="async"
+              style={`aspect-ratio:${p.images[0].aspectRatio || 0.75}`}
+            />
+            {p.images.length > 1 && <span class="count">+{p.images.length - 1}</span>}
+          </a>
+          <div class="cos-body">
+            {p.text && <p class="cos-text clamp-2">{p.text}</p>}
+            <div class="cos-meta">
+              <span class="who">
+                {t('cos.by')} <a href={`https://bsky.app/profile/${p.authorHandle}`} rel="noopener nofollow" target="_blank">{p.authorName}</a>
+              </span>
+              <span class="stats">
+                ♥ {formatCompact(p.likes, lang)}
+                <span aria-hidden="true">·</span>
+                <time datetime={p.date}>{relativeTime(p.date, lang)}</time>
+              </span>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  )}
+
+  <aside class="callout mt-7">
+    <p class="callout-title">Credit & sourcing</p>
+    <p>{t('cos.credit')}</p>
+    <p>
+      Every image here is displayed from the creator's original Bluesky post and links straight back
+      to it, with their name and handle attached. Bluesky is used because it is the only major social
+      platform that still exposes a fully open, unauthenticated read API — Instagram and TikTok are
+      closed to this kind of respectful aggregation. If you are a cosplayer or photographer featured
+      here and would rather not be, <a href="../contact">get in touch</a> and you will be removed
+      the same day.
+    </p>
+  </aside>
+</div>
+
+<style>
+  .page-head { margin-bottom: var(--space-5); }
+  .page-head h1 { margin-block: 0.1em 0.3em; }
+  .eyebrow { font-size: var(--step--1); color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.09em; font-weight: 620; }
+
+  .creator-strip {
+    display: flex; gap: var(--space-3); overflow-x: auto; padding-bottom: var(--space-3);
+    margin-bottom: var(--space-6); scrollbar-width: thin;
+  }
+  .creator {
+    flex: none; width: 104px; display: flex; flex-direction: column; align-items: center; gap: 0.3rem;
+    text-decoration: none; color: var(--text); padding: var(--space-3) var(--space-2);
+    border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg-elev);
+    transition: border-color 0.16s var(--ease), transform 0.16s var(--ease);
+  }
+  .creator:hover { border-color: var(--brand); transform: translateY(-2px); }
+  .creator img, .avatar-fallback {
+    width: 42px; height: 42px; border-radius: 50%; object-fit: cover;
+    background: var(--bg-elev-2); display: grid; place-items: center;
+    font-weight: 700; color: var(--text-mute);
+  }
+  .creator-name { font-size: 0.74rem; font-weight: 600; max-width: 100%; }
+  .creator-role { font-size: 0.64rem; color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.05em; }
+
+  .masonry { columns: 4 240px; column-gap: var(--space-4); }
+  .cos-card {
+    break-inside: avoid; margin-bottom: var(--space-4);
+    background: var(--bg-elev); border: 1px solid var(--border);
+    border-radius: var(--radius); overflow: hidden;
+    transition: border-color 0.18s var(--ease), transform 0.18s var(--ease);
+  }
+  .cos-card:hover { border-color: var(--border-light); transform: translateY(-2px); }
+  .cos-media { display: block; position: relative; background: var(--bg-inset); }
+  .cos-media img { width: 100%; height: auto; object-fit: cover; }
+  .count {
+    position: absolute; top: 0.5rem; right: 0.5rem;
+    background: rgb(0 0 0 / 0.72); color: #fff; font-size: 0.68rem; font-weight: 640;
+    padding: 0.18em 0.45em; border-radius: var(--radius-sm);
+  }
+  .cos-body { padding: var(--space-3); display: flex; flex-direction: column; gap: var(--space-2); }
+  .cos-text { font-size: 0.8rem; color: var(--text-dim); line-height: 1.5; }
+  .cos-meta { display: flex; flex-direction: column; gap: 0.2rem; font-size: 0.72rem; color: var(--text-mute); }
+  .who a { color: var(--text-dim); text-decoration: none; font-weight: 580; }
+  .who a:hover { color: var(--brand); }
+  .stats { display: flex; gap: 0.35rem; align-items: center; }
+</style>

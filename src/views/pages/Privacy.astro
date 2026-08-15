@@ -1,0 +1,182 @@
+---
+import { getLangFromUrl } from '../../i18n/ui';
+import { localeHref } from '../../lib/paths';
+import { SITE } from '../../config';
+const lang = getLangFromUrl(Astro.url);
+const ko = lang === 'ko';
+const effective = '15 August 2026';
+const effectiveKo = '2026년 8월 15일';
+---
+
+<div class="wrap-narrow prose-page">
+  <h1>{ko ? '개인정보 처리방침' : 'Privacy policy'}</h1>
+  <p class="meta">{ko ? `시행일: ${effectiveKo}` : `Effective: ${effective}`}</p>
+
+  {ko ? (
+    <>
+      <p class="lede">
+        GamePulse는 계정을 만들지 않으며, 이름·이메일·결제 정보를 수집하지 않습니다. 이 문서는 그럼에도
+        수집되는 최소한의 정보가 무엇인지 설명합니다.
+      </p>
+
+      <h2>1. 직접 수집하지 않는 정보</h2>
+      <p>
+        회원가입이 없고, 뉴스레터도 없으며, 댓글 기능도 없습니다. 따라서 이름, 이메일 주소, 전화번호,
+        주소, 결제 정보를 요청하거나 저장하지 않습니다. 문의 페이지를 통해 직접 이메일을 보내신 경우에만
+        그 내용을 보유합니다.
+      </p>
+
+      <h2>2. 브라우저에 저장되는 정보</h2>
+      <p>다음 값은 이용자 브라우저의 로컬 스토리지에만 저장되며, 서버로 전송되지 않습니다.</p>
+      <ul>
+        <li><code>gp-theme</code> — 다크/라이트 모드 선택</li>
+        <li><code>gp-consent</code> — 쿠키 동의 여부</li>
+      </ul>
+      <p>브라우저 설정에서 사이트 데이터를 삭제하면 두 값 모두 사라집니다.</p>
+
+      <h2>3. 광고</h2>
+      <p>
+        이 사이트는 Google AdSense를 통해 광고를 게재할 수 있습니다. Google 및 그 파트너는 쿠키를
+        사용하여 이용자의 이 사이트 및 다른 사이트 방문 기록을 기반으로 광고를 게재할 수 있습니다.
+      </p>
+      <ul>
+        <li>Google은 DoubleClick 쿠키 사용을 통해 맞춤 광고를 제공합니다.</li>
+        <li>
+          이용자는 <a href="https://www.google.com/settings/ads" rel="noopener nofollow" target="_blank">Google 광고 설정</a>에서
+          맞춤 광고를 해제할 수 있습니다.
+        </li>
+        <li>
+          제3자 광고 사업자의 쿠키는 <a href="https://www.aboutads.info/choices/" rel="noopener nofollow" target="_blank">aboutads.info</a>에서
+          일괄 해제할 수 있습니다.
+        </li>
+        <li>
+          Google의 데이터 처리 방식은 <a href="https://policies.google.com/technologies/partner-sites" rel="noopener nofollow" target="_blank">Google 파트너 사이트 정책</a>을 참고하세요.
+        </li>
+      </ul>
+      <p>
+        첫 방문 시 표시되는 동의 배너에서 "필수만 허용"을 선택하면 광고 및 분석 쿠키가 설정되지 않습니다.
+        선택은 Google Consent Mode v2 신호로 전달됩니다.
+      </p>
+
+      <h2>4. 분석</h2>
+      <p>
+        방문 통계는 쿠키를 사용하지 않고 개인을 식별하지 않는 방식으로만 집계합니다. 개별 이용자를
+        추적하거나 프로필을 만들지 않습니다.
+      </p>
+
+      <h2>5. 외부 서비스</h2>
+      <p>페이지에 따라 다음 외부 리소스가 로드될 수 있습니다.</p>
+      <ul>
+        <li><strong>YouTube</strong> — 영상은 재생 버튼을 누르기 전까지 불러오지 않으며, 쿠키를 설정하지 않는 youtube-nocookie 도메인을 사용합니다. 재생 시 Google의 개인정보처리방침이 적용됩니다.</li>
+        <li><strong>이미지 CDN</strong> — 스팀, 에픽게임즈, 유튜브 썸네일, Bluesky 이미지가 각 사업자 서버에서 직접 로드됩니다. 이 과정에서 해당 사업자는 이용자의 IP 주소를 알 수 있습니다.</li>
+      </ul>
+
+      <h2>6. 서버 로그</h2>
+      <p>
+        이 사이트는 GitHub Pages에서 정적으로 호스팅됩니다. GitHub은 인프라 운영을 위해 접속 로그를
+        기록할 수 있으며, 이는 GitHub의 개인정보처리방침을 따릅니다.
+      </p>
+
+      <h2>7. 아동</h2>
+      <p>만 14세 미만 아동으로부터 의도적으로 정보를 수집하지 않습니다.</p>
+
+      <h2>8. 이용자의 권리</h2>
+      <p>
+        GDPR(EU/영국), CCPA(캘리포니아), 개인정보 보호법(대한민국)에 따른 열람·정정·삭제·처리정지
+        요청은 <a href={localeHref('/contact', lang)}>문의 페이지</a>를 통해 접수할 수 있습니다. 다만
+        본 사이트는 식별 가능한 개인정보를 보유하지 않으므로, 대부분의 경우 삭제할 대상 자체가 없습니다.
+      </p>
+
+      <h2>9. 변경</h2>
+      <p>정책이 변경되면 이 페이지 상단의 시행일이 갱신됩니다.</p>
+    </>
+  ) : (
+    <>
+      <p class="lede">
+        {SITE.name} has no accounts, no newsletter and no comments. We do not ask for or store your
+        name, email address or payment details. This page explains the small amount of data that
+        does get handled anyway.
+      </p>
+
+      <h2>1. What we do not collect</h2>
+      <p>
+        There is nothing to sign up for, so there is no personal information for us to gather. We
+        hold your details only if you choose to email us through the
+        <a href={localeHref('/contact', lang)}> contact page</a>, and then only the contents of
+        that message.
+      </p>
+
+      <h2>2. Data stored in your browser</h2>
+      <p>Two values are written to your browser's local storage. Neither is sent to any server.</p>
+      <ul>
+        <li><code>gp-theme</code> — whether you chose light or dark mode</li>
+        <li><code>gp-consent</code> — your cookie consent choice</li>
+      </ul>
+      <p>Clearing site data in your browser removes both.</p>
+
+      <h2>3. Advertising</h2>
+      <p>
+        This site may display advertising through Google AdSense. Google and its partners may use
+        cookies to serve ads based on your prior visits to this and other websites.
+      </p>
+      <ul>
+        <li>Google's use of the DoubleClick cookie enables it and its partners to serve ads based on your visits to this site and elsewhere on the internet.</li>
+        <li>You can opt out of personalised advertising at <a href="https://www.google.com/settings/ads" rel="noopener nofollow" target="_blank">Google Ads Settings</a>.</li>
+        <li>You can opt out of third-party vendor cookies at <a href="https://www.aboutads.info/choices/" rel="noopener nofollow" target="_blank">aboutads.info/choices</a>.</li>
+        <li>For how Google handles data on partner sites, see <a href="https://policies.google.com/technologies/partner-sites" rel="noopener nofollow" target="_blank">Google's partner sites policy</a>.</li>
+      </ul>
+      <p>
+        The consent banner shown on your first visit controls this. Choosing "Reject non-essential"
+        prevents advertising and analytics cookies from being set; your choice is passed on using
+        Google Consent Mode v2 signals.
+      </p>
+
+      <h2>4. Analytics</h2>
+      <p>
+        Any traffic measurement used here is cookieless and aggregate. We do not build profiles of
+        individual visitors or follow you between sites.
+      </p>
+
+      <h2>5. Third-party content</h2>
+      <p>Depending on the page, your browser may load resources from:</p>
+      <ul>
+        <li><strong>YouTube</strong> — video players are not loaded until you press play, and use the youtube-nocookie domain. Once you play a video, Google's privacy policy applies.</li>
+        <li><strong>Image CDNs</strong> — cover art and thumbnails load directly from Steam, Epic, YouTube and Bluesky. Those providers can see your IP address as a result of serving the image.</li>
+      </ul>
+
+      <h2>6. Server logs</h2>
+      <p>
+        The site is hosted as static files on GitHub Pages. GitHub may keep access logs for
+        infrastructure and abuse-prevention purposes under its own privacy policy. We have no access
+        to identifiable data from them.
+      </p>
+
+      <h2>7. Children</h2>
+      <p>We do not knowingly collect information from children under 13.</p>
+
+      <h2>8. Your rights</h2>
+      <p>
+        If you are covered by the GDPR (EU/UK), the CCPA (California) or Korea's PIPA, you may
+        request access to, correction of, or deletion of your personal data via the
+        <a href={localeHref('/contact', lang)}> contact page</a>. In practice we hold no identifiable
+        personal data, so in most cases there is nothing to retrieve or erase.
+      </p>
+
+      <h2>9. Changes</h2>
+      <p>If this policy changes, the effective date at the top of this page is updated.</p>
+    </>
+  )}
+</div>
+
+<style>
+  .prose-page { font-size: 1.02rem; line-height: 1.75; }
+  .prose-page h1 { margin-bottom: var(--space-2); }
+  .prose-page .meta { font-size: var(--step--1); color: var(--text-mute); margin-bottom: var(--space-5); }
+  .prose-page h2 { font-size: var(--step-1); margin-top: 2em; margin-bottom: 0.5em; }
+  .prose-page p { margin-bottom: 1.1em; color: var(--text-dim); }
+  .prose-page .lede { font-size: var(--step-1); color: var(--text); margin-bottom: 1.5em; }
+  .prose-page strong { color: var(--text); }
+  .prose-page ul, .prose-page ol { margin-bottom: 1.1em; padding-left: 1.4em; color: var(--text-dim); }
+  .prose-page li + li { margin-top: 0.45em; }
+  .prose-page code { background: var(--bg-elev-2); padding: 0.12em 0.4em; border-radius: 4px; border: 1px solid var(--border); }
+</style>

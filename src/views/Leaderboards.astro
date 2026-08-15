@@ -1,0 +1,149 @@
+---
+import LeaderboardTable from '../components/LeaderboardTable.astro';
+import LiveBadge from '../components/LiveBadge.astro';
+import Sparkline from '../components/Sparkline.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { formatNumber, formatCompact } from '../lib/paths';
+import lb from '../data/leaderboard.json';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const data: any = lb;
+const entries = data.entries ?? [];
+---
+
+<div class="wrap">
+  <header class="page-head">
+    <div class="row-between">
+      <div>
+        <p class="eyebrow">{t('home.liveNow')}</p>
+        <h1>{t('lb.title')}</h1>
+      </div>
+      <LiveBadge updated={data.updated} stale={data._stale} sample={data._sample} dataset="leaderboard" />
+    </div>
+    <p class="lede">{t('lb.sub')}</p>
+  </header>
+
+  {entries.length > 0 && (
+    <div class="stat-row">
+      <div class="stat">
+        <span class="stat-label">{t('lb.total')}</span>
+        <strong class="stat-value">{formatNumber(data.totalPlayers ?? 0, lang)}</strong>
+      </div>
+      <div class="stat">
+        <span class="stat-label">#1</span>
+        <strong class="stat-value">{entries[0].name}</strong>
+        <span class="stat-sub">{formatCompact(entries[0].current, lang)} {t('lb.players').toLowerCase()}</span>
+      </div>
+      <div class="stat">
+        <span class="stat-label">{t('lb.risers')}</span>
+        <strong class="stat-value">{data.risers?.[0]?.name ?? '—'}</strong>
+        {data.risers?.[0] && (
+          <span class="stat-sub text-up">+{data.risers[0].change24h?.toFixed(1)}% / 24h</span>
+        )}
+      </div>
+      <div class="stat">
+        <span class="stat-label">{t('lb.fallers')}</span>
+        <strong class="stat-value">{data.fallers?.[0]?.name ?? '—'}</strong>
+        {data.fallers?.[0] && (
+          <span class="stat-sub text-down">{data.fallers[0].change24h?.toFixed(1)}% / 24h</span>
+        )}
+      </div>
+    </div>
+  )}
+
+  {entries.length === 0 ? (
+    <p class="callout">{t('live.never')}</p>
+  ) : (
+    <>
+      <LeaderboardTable entries={entries} />
+
+      <AdSlot slot="inArticle" />
+
+      {/* Hidden until at least one refresh cycle has produced a 24h comparison —
+          an empty "Biggest movers" heading looks broken rather than pending. */}
+      {(data.risers?.length > 0 || data.fallers?.length > 0) && (
+      <section class="movers">
+        <div class="section-head"><h2>{t('lb.movers')}</h2></div>
+        <div class="mover-cols">
+          <div>
+            <h3 class="mover-head text-up">▲ {t('lb.risers')}</h3>
+            <ul role="list" class="mover-list">
+              {(data.risers ?? []).map((e: any) => (
+                <li>
+                  <img src={e.image} alt="" width="40" height="19" loading="lazy" />
+                  <span class="truncate">{e.name}</span>
+                  <Sparkline values={e.spark ?? []} width={54} height={18} label="" />
+                  <strong class="text-up">+{e.change24h?.toFixed(1)}%</strong>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h3 class="mover-head text-down">▼ {t('lb.fallers')}</h3>
+            <ul role="list" class="mover-list">
+              {(data.fallers ?? []).map((e: any) => (
+                <li>
+                  <img src={e.image} alt="" width="40" height="19" loading="lazy" />
+                  <span class="truncate">{e.name}</span>
+                  <Sparkline values={e.spark ?? []} width={54} height={18} label="" />
+                  <strong class="text-down">{e.change24h?.toFixed(1)}%</strong>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+      )}
+    </>
+  )}
+
+  <aside class="method callout">
+    <p class="callout-title">Methodology</p>
+    <p>
+      Rankings come from Valve's public <code>ISteamChartsService</code> endpoint and are refreshed
+      every 30 minutes by an automated job. The 24-hour change compares against the oldest sample
+      we hold from more than 24 hours ago; sparklines show up to 8 days of history at 30-minute
+      resolution. {t('lb.note')}
+    </p>
+    <p class="src">
+      Source: <a href={data.sourceUrl} rel="noopener nofollow">Steam Web API</a>
+    </p>
+  </aside>
+</div>
+
+<style>
+  .page-head { margin-bottom: var(--space-6); }
+  .page-head h1 { margin-block: 0.1em 0.3em; }
+  .eyebrow { font-size: var(--step--1); color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.09em; font-weight: 620; }
+
+  .stat-row {
+    display: grid; gap: var(--space-3); margin-bottom: var(--space-5);
+    grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+  }
+  .stat {
+    background: var(--bg-elev); border: 1px solid var(--border);
+    border-radius: var(--radius); padding: var(--space-4);
+    display: flex; flex-direction: column; gap: 0.15rem; min-width: 0;
+  }
+  .stat-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-mute); font-weight: 640; }
+  .stat-value { font-size: var(--step-1); font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .stat-sub { font-size: var(--step--1); color: var(--text-dim); }
+
+  .movers { margin-top: var(--space-7); }
+  .mover-cols { display: grid; gap: var(--space-5); grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); }
+  .mover-head { font-size: var(--step--1); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: var(--space-3); }
+  .mover-list { display: flex; flex-direction: column; gap: 0.1rem; }
+  .mover-list li {
+    display: grid; grid-template-columns: 40px 1fr auto auto; align-items: center; gap: var(--space-3);
+    padding: var(--space-2) var(--space-3); border-radius: var(--radius-sm); font-size: var(--step--1);
+  }
+  .mover-list li:nth-child(odd) { background: var(--bg-elev); }
+  .mover-list img { border-radius: 3px; }
+  .mover-list strong { font-variant-numeric: tabular-nums; }
+
+  .method { margin-top: var(--space-7); }
+  .method p + p { margin-top: var(--space-3); }
+  .method .src { font-size: var(--step--1); color: var(--text-mute); }
+</style>

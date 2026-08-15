@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/pages/Terms.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="이용약관"
+  description="GamePulse 이용에 적용되는 약관입니다. 저작권과 인용 범위, 자동 수집 데이터의 정확성, 외부 링크, 책임의 제한을 다룹니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '이용약관', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

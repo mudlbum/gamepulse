@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/pages/EditorialPolicy.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="편집 원칙"
+  description="AI 활용에 대한 전면 공개, 모든 기사가 거치는 5단계 사실 확인 절차, 그리고 저희가 제공하는 데이터의 명확한 한계를 정리했습니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '편집 원칙', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/Cosplay.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="코스프레 스포트라이트"
+  description="공개 플랫폼에서 활동 중인 코스플레이어와 행사 사진작가의 최근 작업을 모았습니다. 모든 이미지는 원작자의 원본 게시물로 연결되며 작가 이름과 계정이 함께 표시됩니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '코스프레 스포트라이트', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

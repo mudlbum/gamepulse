@@ -1,0 +1,104 @@
+---
+import { getLangFromUrl } from '../../i18n/ui';
+import { localeHref } from '../../lib/paths';
+const lang = getLangFromUrl(Astro.url);
+const ko = lang === 'ko';
+
+/* Replace with a real address before launch. AdSense reviewers check that a
+   contact route exists and works; a mailto to an unmonitored inbox is a common
+   reason for rejection. */
+const EMAIL = 'hello@example.com';
+---
+
+<div class="wrap-narrow prose-page">
+  <h1>{ko ? '문의' : 'Contact'}</h1>
+
+  {ko ? (
+    <>
+      <p class="lede">
+        정정 요청, 제보, 게재 중단 요청, 그 밖의 문의는 아래 주소로 보내주세요.
+      </p>
+
+      <p class="email-box">
+        <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+      </p>
+
+      <h2>정정 요청</h2>
+      <p>
+        기사에서 사실 오류를 발견하셨다면 해당 기사 링크와 잘못된 부분, 그리고 가능하다면 올바른
+        정보의 출처를 함께 보내주세요. 확인되는 대로 수정하고 기사에 수정 일자를 표시합니다.
+      </p>
+
+      <h2>코스프레 게재 중단</h2>
+      <p>
+        코스프레 페이지에 본인의 사진이 게재되어 있고 내리기를 원하신다면, Bluesky 핸들만 알려주시면
+        됩니다. 이유를 설명하실 필요 없고, 확인 후 해당 계정 전체를 수집 대상에서 제외합니다.
+      </p>
+
+      <h2>제보</h2>
+      <p>
+        보도할 만한 사안이 있다면 확인 가능한 자료와 함께 보내주세요. 1차 출처로 검증되지 않는 내용은
+        기사화하지 않습니다.
+      </p>
+
+      <h2>광고 및 제휴</h2>
+      <p>
+        디스플레이 광고 외의 협찬 기사나 대가성 리뷰는 진행하지 않습니다.
+        관련 원칙은 <a href={localeHref('/editorial-policy', lang)}>편집 원칙</a>을 참고해 주세요.
+      </p>
+    </>
+  ) : (
+    <>
+      <p class="lede">
+        Corrections, tips, takedown requests and everything else go to the address below. A person
+        reads it.
+      </p>
+
+      <p class="email-box">
+        <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+      </p>
+
+      <h2>Corrections</h2>
+      <p>
+        Spotted a factual error? Send the article link, what is wrong, and — if you have one — a
+        source for the correct information. Confirmed errors are fixed and the article is stamped
+        with an updated date.
+      </p>
+
+      <h2>Cosplay takedowns</h2>
+      <p>
+        If your work appears on the cosplay page and you would rather it did not, send your Bluesky
+        handle. No explanation needed, no questions asked. We remove the post and exclude the account
+        from future collection the same day we see the message.
+      </p>
+
+      <h2>Story tips</h2>
+      <p>
+        If something is happening we should be covering, send it with whatever documentation you
+        have. We do not publish claims we cannot verify against a primary source, so the more you can
+        point us at, the faster it moves.
+      </p>
+
+      <h2>Advertising and partnerships</h2>
+      <p>
+        We run display advertising only. No sponsored articles, no paid reviews, no coverage for
+        money. See the <a href={localeHref('/editorial-policy', lang)}>editorial policy</a> for the
+        full position.
+      </p>
+    </>
+  )}
+</div>
+
+<style>
+  .prose-page { font-size: 1.02rem; line-height: 1.75; }
+  .prose-page h1 { margin-bottom: var(--space-5); }
+  .prose-page h2 { font-size: var(--step-1); margin-top: 2em; margin-bottom: 0.5em; }
+  .prose-page p { margin-bottom: 1.1em; color: var(--text-dim); }
+  .prose-page .lede { font-size: var(--step-1); color: var(--text); margin-bottom: 1.5em; }
+  .email-box {
+    background: var(--bg-elev); border: 1px solid var(--border-light);
+    border-radius: var(--radius); padding: var(--space-5); text-align: center;
+    font-size: var(--step-2); font-weight: 620; margin-bottom: 2em !important;
+  }
+  .email-box a { text-decoration: none; }
+</style>

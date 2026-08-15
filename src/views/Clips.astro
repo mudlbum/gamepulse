@@ -1,0 +1,91 @@
+---
+import ClipCard from '../components/ClipCard.astro';
+import LiveBadge from '../components/LiveBadge.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import clipsData from '../data/clips.json';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const data: any = clipsData;
+const trending = data.trending ?? [];
+const breakout = data.breakout ?? [];
+const byTag = data.byTag ?? {};
+
+const tagLabels: Record<string, string> =
+  lang === 'ko'
+    ? { esports: 'e스포츠', viral: '화제의 영상', news: '뉴스 & 트레일러' }
+    : { esports: 'Esports', viral: 'Viral & creators', news: 'News & trailers' };
+---
+
+<div class="wrap">
+  <header class="page-head">
+    <div class="row-between">
+      <div>
+        <p class="eyebrow">{t('home.trending')}</p>
+        <h1>{t('clip.title')}</h1>
+      </div>
+      <LiveBadge updated={data.updated} stale={data._stale} sample={data._sample} dataset="clips" />
+    </div>
+    <p class="lede">{t('clip.sub')}</p>
+  </header>
+
+  {trending.length === 0 ? (
+    <p class="callout">{t('live.never')}</p>
+  ) : (
+    <>
+      {breakout.length > 0 && (
+        <section class="mb-6">
+          <div class="section-head">
+            <h2>{lang === 'ko' ? '지난 30시간 급상승' : 'Breaking out in the last 30 hours'}</h2>
+          </div>
+          <div class="grid grid-auto">
+            {breakout.slice(0, 3).map((c: any) => <ClipCard clip={c} featured />)}
+          </div>
+        </section>
+      )}
+
+      <AdSlot slot="inArticle" />
+
+      <section>
+        <div class="section-head">
+          <h2>{lang === 'ko' ? '전체 급상승' : 'All trending'}</h2>
+          <span class="text-mute" style="font-size:var(--step--1)">
+            {data.scanned} {lang === 'ko' ? '개 영상 검사' : 'videos scanned across'} {data.channelCount} {lang === 'ko' ? '채널' : 'channels'}
+          </span>
+        </div>
+        <div class="grid grid-auto">
+          {trending.map((c: any) => <ClipCard clip={c} />)}
+        </div>
+      </section>
+
+      {Object.entries(byTag).map(([tag, list]: [string, any]) =>
+        list?.length ? (
+          <section class="mt-7">
+            <div class="section-head"><h2>{tagLabels[tag] ?? tag}</h2></div>
+            <div class="grid grid-auto">
+              {list.map((c: any) => <ClipCard clip={c} />)}
+            </div>
+          </section>
+        ) : null
+      )}
+    </>
+  )}
+
+  <aside class="callout mt-7">
+    <p class="callout-title">How this list is built</p>
+    <p>
+      Every clip is ranked by <strong>views per hour since upload</strong>, not by total views. A
+      video posted six hours ago with 400,000 views is moving far faster than a two-year-old clip
+      with nine million, and only the first one tells you what is happening right now. No channel
+      can take more than three slots, so a high-volume publisher cannot flood the page.
+      Data comes from public YouTube channel feeds; nothing is embedded until you press play.
+    </p>
+  </aside>
+</div>
+
+<style>
+  .page-head { margin-bottom: var(--space-6); }
+  .page-head h1 { margin-block: 0.1em 0.3em; }
+  .eyebrow { font-size: var(--step--1); color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.09em; font-weight: 620; }
+</style>

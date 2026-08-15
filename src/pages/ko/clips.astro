@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/Clips.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="급상승 게임 영상"
+  description="누적 조회수가 아니라 시간당 조회수 증가 속도로 정렬해, 지금 이 순간 가장 빠르게 퍼지고 있는 게임 영상만 모았습니다. e스포츠 하이라이트부터 화제의 클립까지 30분마다 자동 갱신됩니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '급상승 게임 영상', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/Home.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="GamePulse"
+  description="PC·콘솔·모바일 전반의 실시간 동시접속 순위, 공식 패치노트 요약, 시간당 조회수 기준 화제의 영상, 출처를 밝힌 게임 기사."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: 'GamePulse', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { href } from '../../lib/paths';
+---
+<BaseLayout title="페이지를 찾을 수 없습니다" description="링크가 잘못되었거나 페이지가 이동했습니다." noindex>
+  <div class="wrap notfound">
+    <p class="code" aria-hidden="true">404</p>
+    <h1>페이지를 찾을 수 없습니다</h1>
+    <p class="lede">링크가 잘못되었거나 페이지가 이동했습니다. 아래 페이지는 항상 열려 있습니다.</p>
+    <div class="links">
+      <a class="btn btn-primary" href={href('/ko/')}>홈</a>
+      <a class="btn" href={href('/ko/leaderboards')}>실시간 순위</a>
+      <a class="btn" href={href('/ko/news')}>뉴스</a>
+      <a class="btn" href={href('/')}>English</a>
+    </div>
+  </div>
+</BaseLayout>
+<style>
+  .notfound { text-align: center; padding-block: var(--space-9); }
+  .code {
+    font-size: clamp(5rem, 18vw, 10rem); font-weight: 800; line-height: 0.9;
+    letter-spacing: -0.05em; color: transparent;
+    background: linear-gradient(180deg, var(--border-light), transparent);
+    -webkit-background-clip: text; background-clip: text; margin-bottom: var(--space-4);
+  }
+  .notfound h1 { margin-bottom: var(--space-3); }
+  .notfound .lede { margin-inline: auto; }
+  .links { display: flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap; margin-top: var(--space-6); }
+  .links a { text-decoration: none; }
+</style>

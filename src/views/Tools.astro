@@ -1,0 +1,493 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const ko = lang === 'ko';
+
+/**
+ * Yaw constants — degrees of rotation per mouse count at sensitivity 1.
+ * These are the values used by every established sensitivity converter and
+ * are verifiable in-game by measuring a 360. They are listed openly here so a
+ * reader can check the maths rather than trusting a black box.
+ *
+ * Games with non-linear or FOV-coupled sensitivity systems (Rainbow Six Siege,
+ * Destiny 2, PUBG) are deliberately excluded — a single constant would give a
+ * confidently wrong answer.
+ */
+const GAMES = [
+  { id: 'cs2', label: 'Counter-Strike 2', yaw: 0.022 },
+  { id: 'csgo', label: 'CS:GO', yaw: 0.022 },
+  { id: 'apex', label: 'Apex Legends', yaw: 0.022 },
+  { id: 'deadlock', label: 'Deadlock', yaw: 0.022 },
+  { id: 'tf2', label: 'Team Fortress 2', yaw: 0.022 },
+  { id: 'valorant', label: 'VALORANT', yaw: 0.07 },
+  { id: 'ow2', label: 'Overwatch 2', yaw: 0.0066 },
+  { id: 'fortnite', label: 'Fortnite', yaw: 0.005555 },
+];
+
+const tools = ko
+  ? [
+      { id: 'sens', name: '감도 변환기', desc: '게임 간 마우스 감도를 정확히 변환하고 cm/360을 계산합니다.' },
+      { id: 'reaction', name: '반응 속도 테스트', desc: '5회 측정 평균으로 실제 반응 속도를 확인합니다.' },
+      { id: 'pity', name: '가챠 천장 계산기', desc: '남은 뽑기 횟수로 5성을 뽑을 확률을 계산합니다.' },
+      { id: 'fps', name: 'FPS / 프레임타임', desc: '프레임레이트와 모니터 주사율의 관계를 확인합니다.' },
+    ]
+  : [
+      { id: 'sens', name: 'Sensitivity converter', desc: 'Move your aim between games without relearning it, plus true cm/360.' },
+      { id: 'reaction', name: 'Reaction time test', desc: 'Five measured attempts, averaged — the honest number, not your best fluke.' },
+      { id: 'pity', name: 'Gacha pity calculator', desc: 'Your real odds of hitting a 5★ within the pulls you have left.' },
+      { id: 'fps', name: 'FPS & frametime', desc: 'What your framerate actually means against your monitor’s refresh rate.' },
+    ];
+---
+
+<div class="wrap">
+  <header class="page-head">
+    <p class="eyebrow">{t('nav.tools')}</p>
+    <h1>{t('tools.title')}</h1>
+    <p class="lede">{t('tools.sub')}</p>
+  </header>
+
+  <nav class="tool-nav" aria-label="Tools">
+    {tools.map((tool) => <a href={`#${tool.id}`} class="btn btn-sm">{tool.name}</a>)}
+  </nav>
+
+  <!-- ============ Sensitivity converter ============ -->
+  <section class="tool card" id="sens">
+    <div class="tool-head">
+      <h2>{tools[0].name}</h2>
+      <p>{tools[0].desc}</p>
+    </div>
+    <div class="tool-body">
+      <div class="field-grid">
+        <label>
+          <span>{ko ? '원본 게임' : 'From game'}</span>
+          <select id="sens-from">
+            {GAMES.map((g) => <option value={g.yaw} selected={g.id === 'cs2'}>{g.label}</option>)}
+          </select>
+        </label>
+        <label>
+          <span>{ko ? '감도' : 'Sensitivity'}</span>
+          <input type="number" id="sens-value" value="1.20" step="0.01" min="0.01" inputmode="decimal" />
+        </label>
+        <label>
+          <span>{ko ? '변환할 게임' : 'To game'}</span>
+          <select id="sens-to">
+            {GAMES.map((g) => <option value={g.yaw} selected={g.id === 'valorant'}>{g.label}</option>)}
+          </select>
+        </label>
+        <label>
+          <span>{ko ? '마우스 DPI' : 'Mouse DPI'}</span>
+          <input type="number" id="sens-dpi" value="800" step="50" min="100" inputmode="numeric" />
+        </label>
+      </div>
+      <div class="results">
+        <div class="result big">
+          <span class="result-label">{ko ? '변환된 감도' : 'Converted sensitivity'}</span>
+          <strong id="sens-out">—</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">cm / 360°</span>
+          <strong id="sens-cm">—</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">eDPI</span>
+          <strong id="sens-edpi">—</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">{ko ? '인치 / 360°' : 'inches / 360°'}</span>
+          <strong id="sens-in">—</strong>
+        </div>
+      </div>
+      <p class="fine">
+        {ko
+          ? '사용된 yaw 상수: CS2·Apex·Deadlock 0.022, 발로란트 0.07, 오버워치2 0.0066, 포트나이트 0.005555. 레인보우 식스, 데스티니 2, 배틀그라운드는 감도 체계가 선형이 아니어서 제외했습니다.'
+          : 'Yaw constants used: 0.022 for Source-engine games (CS2, Apex, Deadlock, TF2), 0.07 VALORANT, 0.0066 Overwatch 2, 0.005555 Fortnite. Rainbow Six Siege, Destiny 2 and PUBG are excluded on purpose — their sensitivity systems are not linear, so a single constant would be confidently wrong.'}
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ Reaction time ============ -->
+  <section class="tool card" id="reaction">
+    <div class="tool-head">
+      <h2>{tools[1].name}</h2>
+      <p>{tools[1].desc}</p>
+    </div>
+    <div class="tool-body">
+      <button class="reaction-pad" id="reaction-pad" type="button" data-state="idle">
+        <span id="reaction-text">{ko ? '클릭해서 시작' : 'Click to start'}</span>
+        <small id="reaction-sub">{ko ? '초록색이 되면 최대한 빨리 클릭하세요' : 'Click as soon as it turns green'}</small>
+      </button>
+      <div class="results">
+        <div class="result big">
+          <span class="result-label">{ko ? '평균' : 'Average'}</span>
+          <strong id="reaction-avg">—</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">{ko ? '최고' : 'Best'}</span>
+          <strong id="reaction-best">—</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">{ko ? '시도' : 'Attempts'}</span>
+          <strong id="reaction-count">0 / 5</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">{ko ? '평가' : 'Verdict'}</span>
+          <strong id="reaction-rank">—</strong>
+        </div>
+      </div>
+      <p class="fine" id="reaction-note">
+        {ko
+          ? '측정값에는 모니터와 입력 지연이 포함됩니다. 순수한 신경 반응 속도보다 20~40ms 정도 높게 나오는 것이 정상입니다.'
+          : 'Your result includes display and input latency, so it will read 20–40 ms slower than raw neural reaction time. Compare it against yourself over time, not against someone else’s hardware.'}
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ Gacha pity ============ -->
+  <section class="tool card" id="pity">
+    <div class="tool-head">
+      <h2>{tools[2].name}</h2>
+      <p>{tools[2].desc}</p>
+    </div>
+    <div class="tool-body">
+      <div class="field-grid">
+        <label>
+          <span>{ko ? '현재 천장 카운터' : 'Current pity count'}</span>
+          <input type="number" id="pity-current" value="0" min="0" max="89" inputmode="numeric" />
+        </label>
+        <label>
+          <span>{ko ? '보유 뽑기 수' : 'Pulls available'}</span>
+          <input type="number" id="pity-pulls" value="30" min="1" max="500" inputmode="numeric" />
+        </label>
+        <label>
+          <span>{ko ? '천장 방식' : 'Banner model'}</span>
+          <select id="pity-model">
+            <option value="genshin">Genshin / HSR / ZZZ (90)</option>
+            <option value="weapon">{ko ? '무기 배너 (80)' : 'Weapon banner (80)'}</option>
+          </select>
+        </label>
+        <label class="check">
+          <input type="checkbox" id="pity-guarantee" />
+          <span>{ko ? '확정 (직전 픽업 실패)' : 'Guaranteed (lost 50/50 last time)'}</span>
+        </label>
+      </div>
+      <div class="results">
+        <div class="result big">
+          <span class="result-label">{ko ? '5성 획득 확률' : 'Chance of any 5★'}</span>
+          <strong id="pity-any">—</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">{ko ? '픽업 획득 확률' : 'Chance of the featured unit'}</span>
+          <strong id="pity-featured">—</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">{ko ? '천장까지' : 'Pulls to hard pity'}</span>
+          <strong id="pity-remaining">—</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">{ko ? '평균 소요' : 'Expected pulls'}</span>
+          <strong id="pity-expected">—</strong>
+        </div>
+      </div>
+      <p class="fine">
+        {ko
+          ? '데이터마이닝으로 알려진 커뮤니티 확률 모델을 사용합니다: 기본 0.6%, 74뽑부터 소프트 천장(뽑기당 약 +6%p), 90뽑 확정. 공식 수치가 아니며 참고용입니다.'
+          : 'Uses the community-derived probability model from datamined rates: 0.6% base, soft pity ramping ~6 percentage points per pull from #74, hard pity at #90. HoYoverse publishes only the consolidated rate, so treat this as a well-supported estimate rather than official numbers.'}
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ FPS ============ -->
+  <section class="tool card" id="fps">
+    <div class="tool-head">
+      <h2>{tools[3].name}</h2>
+      <p>{tools[3].desc}</p>
+    </div>
+    <div class="tool-body">
+      <div class="field-grid">
+        <label>
+          <span>{ko ? '평균 FPS' : 'Average FPS'}</span>
+          <input type="number" id="fps-value" value="144" min="1" max="1000" inputmode="numeric" />
+        </label>
+        <label>
+          <span>{ko ? '모니터 주사율 (Hz)' : 'Monitor refresh rate (Hz)'}</span>
+          <input type="number" id="fps-hz" value="165" min="24" max="1000" inputmode="numeric" />
+        </label>
+      </div>
+      <div class="results">
+        <div class="result big">
+          <span class="result-label">{ko ? '프레임타임' : 'Frametime'}</span>
+          <strong id="fps-frametime">—</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">{ko ? '주사율 활용도' : 'Refresh utilisation'}</span>
+          <strong id="fps-util">—</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">{ko ? '주사율당 프레임' : 'Frames per refresh'}</span>
+          <strong id="fps-ratio">—</strong>
+        </div>
+        <div class="result">
+          <span class="result-label">{ko ? '권장 상한' : 'Suggested cap'}</span>
+          <strong id="fps-cap">—</strong>
+        </div>
+      </div>
+      <p class="fine" id="fps-advice"></p>
+    </div>
+  </section>
+</div>
+
+<style>
+  .page-head { margin-bottom: var(--space-5); }
+  .page-head h1 { margin-block: 0.1em 0.3em; }
+  .eyebrow { font-size: var(--step--1); color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.09em; font-weight: 620; }
+
+  .tool-nav { display: flex; gap: var(--space-2); flex-wrap: wrap; margin-bottom: var(--space-6); }
+  .tool-nav a { text-decoration: none; }
+
+  .tool { margin-bottom: var(--space-6); scroll-margin-top: calc(var(--header-h) + 1rem); }
+  .tool:hover { transform: none; }
+  .tool-head { padding: var(--space-5) var(--space-5) 0; }
+  .tool-head h2 { font-size: var(--step-2); }
+  .tool-head p { color: var(--text-dim); font-size: var(--step--1); margin-top: 0.3em; }
+  .tool-body { padding: var(--space-5); display: flex; flex-direction: column; gap: var(--space-5); }
+
+  .field-grid { display: grid; gap: var(--space-4); grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr)); }
+  .field-grid label { display: flex; flex-direction: column; gap: 0.35rem; }
+  .field-grid label > span { font-size: 0.74rem; font-weight: 620; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.05em; }
+  .field-grid input[type='number'], .field-grid select {
+    padding: 0.6em 0.75em; border-radius: var(--radius-sm);
+    border: 1px solid var(--border-light); background: var(--bg-inset); color: var(--text);
+    font-variant-numeric: tabular-nums; width: 100%;
+  }
+  .field-grid input:focus-visible, .field-grid select:focus-visible { border-color: var(--brand); }
+  .field-grid label.check { flex-direction: row; align-items: center; gap: 0.55rem; align-self: end; padding-bottom: 0.7em; }
+  .field-grid label.check span { text-transform: none; letter-spacing: 0; font-size: 0.82rem; }
+  .field-grid input[type='checkbox'] { width: 17px; height: 17px; accent-color: var(--brand); flex: none; }
+
+  .results { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr)); }
+  .result {
+    background: var(--bg-inset); border: 1px solid var(--border);
+    border-radius: var(--radius-sm); padding: var(--space-3) var(--space-4);
+    display: flex; flex-direction: column; gap: 0.15rem;
+  }
+  .result-label { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-mute); font-weight: 640; }
+  .result strong { font-size: var(--step-1); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .result.big { border-color: color-mix(in oklab, var(--brand) 40%, transparent); background: var(--brand-soft); }
+  .result.big strong { color: var(--brand); font-size: var(--step-2); }
+
+  .fine { font-size: 0.76rem; color: var(--text-mute); line-height: 1.6; }
+
+  .reaction-pad {
+    width: 100%; min-height: 190px; border-radius: var(--radius);
+    border: 1px solid var(--border-light); background: var(--bg-inset);
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.4rem;
+    cursor: pointer; font-size: var(--step-2); font-weight: 700; color: var(--text);
+    transition: background 0.12s linear, color 0.12s linear;
+  }
+  .reaction-pad small { font-size: 0.8rem; font-weight: 500; color: var(--text-mute); }
+  .reaction-pad[data-state='waiting'] { background: #b91c1c; color: #fff; }
+  .reaction-pad[data-state='waiting'] small { color: rgb(255 255 255 / 0.8); }
+  .reaction-pad[data-state='go'] { background: #15803d; color: #fff; }
+  .reaction-pad[data-state='go'] small { color: rgb(255 255 255 / 0.8); }
+  .reaction-pad[data-state='early'] { background: var(--warn); color: #1a1200; }
+  .reaction-pad[data-state='early'] small { color: rgb(0 0 0 / 0.65); }
+</style>
+
+<script is:inline define:vars={{ ko }}>
+  (function () {
+    var $ = function (id) { return document.getElementById(id); };
+    var round = function (n, d) { return Number(n.toFixed(d)); };
+
+    /* ---------- Sensitivity ---------- */
+    (function () {
+      var from = $('sens-from'), to = $('sens-to'), val = $('sens-value'), dpi = $('sens-dpi');
+      if (!from) return;
+      function calc() {
+        var yawFrom = parseFloat(from.value), yawTo = parseFloat(to.value);
+        var s = parseFloat(val.value), d = parseFloat(dpi.value);
+        if (!(yawFrom > 0 && yawTo > 0 && s > 0 && d > 0)) return;
+        // 360 / (sens * yaw * dpi) = inches to turn 360 degrees
+        var converted = (s * yawFrom) / yawTo;
+        var inches = 360 / (s * yawFrom * d);
+        $('sens-out').textContent = round(converted, 4).toString();
+        $('sens-cm').textContent = round(inches * 2.54, 1) + ' cm';
+        $('sens-in').textContent = round(inches, 2) + '″';
+        $('sens-edpi').textContent = Math.round(s * d).toLocaleString();
+      }
+      [from, to, val, dpi].forEach(function (el) {
+        el.addEventListener('input', calc);
+        el.addEventListener('change', calc);
+      });
+      calc();
+    })();
+
+    /* ---------- Reaction time ---------- */
+    (function () {
+      var pad = $('reaction-pad');
+      if (!pad) return;
+      var text = $('reaction-text'), sub = $('reaction-sub');
+      var times = [], timer = null, startedAt = 0;
+      var MAX = 5;
+
+      function setState(s) { pad.dataset.state = s; }
+
+      function arm() {
+        setState('waiting');
+        text.textContent = ko ? '기다리세요…' : 'Wait for green…';
+        sub.textContent = ko ? '초록색이 되면 클릭' : 'Click the moment it turns green';
+        var delay = 1200 + Math.random() * 3300;
+        timer = setTimeout(function () {
+          startedAt = performance.now();
+          setState('go');
+          text.textContent = ko ? '클릭!' : 'CLICK!';
+          sub.textContent = '';
+        }, delay);
+      }
+
+      function record(ms) {
+        times.push(ms);
+        var avg = times.reduce(function (a, b) { return a + b; }, 0) / times.length;
+        var best = Math.min.apply(null, times);
+        $('reaction-avg').textContent = Math.round(avg) + ' ms';
+        $('reaction-best').textContent = Math.round(best) + ' ms';
+        $('reaction-count').textContent = times.length + ' / ' + MAX;
+        var rank = ko
+          ? (avg < 200 ? '최상위권' : avg < 250 ? '빠름' : avg < 300 ? '평균' : avg < 380 ? '평균 이하' : '연습 필요')
+          : (avg < 200 ? 'Elite' : avg < 250 ? 'Fast' : avg < 300 ? 'Average' : avg < 380 ? 'Below average' : 'Needs practice');
+        $('reaction-rank').textContent = rank;
+      }
+
+      pad.addEventListener('click', function () {
+        var state = pad.dataset.state;
+        if (state === 'idle' || state === 'done' || state === 'early') {
+          if (state === 'done') { times = []; $('reaction-count').textContent = '0 / ' + MAX; }
+          arm();
+          return;
+        }
+        if (state === 'waiting') {
+          clearTimeout(timer);
+          setState('early');
+          text.textContent = ko ? '너무 빨라요' : 'Too early';
+          sub.textContent = ko ? '다시 시도하려면 클릭' : 'Click to try again';
+          return;
+        }
+        if (state === 'go') {
+          var ms = performance.now() - startedAt;
+          record(ms);
+          if (times.length >= MAX) {
+            setState('done');
+            text.textContent = Math.round(ms) + ' ms';
+            sub.textContent = ko ? '완료 — 클릭해서 다시 측정' : 'Done — click to run again';
+          } else {
+            setState('idle');
+            text.textContent = Math.round(ms) + ' ms';
+            sub.textContent = ko ? '클릭해서 계속' : 'Click for the next one';
+          }
+        }
+      });
+    })();
+
+    /* ---------- Gacha pity ---------- */
+    (function () {
+      var cur = $('pity-current');
+      if (!cur) return;
+      var pulls = $('pity-pulls'), model = $('pity-model'), guar = $('pity-guarantee');
+
+      /* Datamined community model. Base rate holds until soft pity, then
+         climbs steeply until the hard-pity guarantee. */
+      function rateAt(n, cfg) {
+        if (n >= cfg.hard) return 1;
+        if (n < cfg.soft) return cfg.base;
+        return Math.min(1, cfg.base + (n - cfg.soft + 1) * cfg.ramp);
+      }
+
+      function calc() {
+        var cfg = model.value === 'weapon'
+          ? { base: 0.007, soft: 63, hard: 80, ramp: 0.07, featured: 0.75 }
+          : { base: 0.006, soft: 74, hard: 90, ramp: 0.06, featured: 0.5 };
+
+        var start = Math.max(0, Math.min(cfg.hard - 1, parseInt(cur.value, 10) || 0));
+        var budget = Math.max(1, parseInt(pulls.value, 10) || 1);
+
+        // P(no 5★ across the budget), walking the pity counter forward.
+        var pNone = 1, n = start;
+        for (var i = 0; i < budget; i++) {
+          pNone *= 1 - rateAt(n, cfg);
+          n++;
+          if (n >= cfg.hard) n = 0;
+        }
+        var pAny = 1 - pNone;
+
+        // Expected pulls to the next 5★ from the current counter.
+        var expected = 0, survive = 1, m = start;
+        for (var j = 1; j <= cfg.hard * 2; j++) {
+          var r = rateAt(m, cfg);
+          expected += j * survive * r;
+          survive *= 1 - r;
+          m++;
+          if (m >= cfg.hard) m = 0;
+          if (survive < 1e-9) break;
+        }
+
+        // Featured chance: guaranteed skips the 50/50 on the first 5★.
+        var pFeatured;
+        if (guar.checked) {
+          pFeatured = pAny;
+        } else {
+          // Either win the 50/50 on the first, or lose it and pull a second
+          // within the remaining budget. Approximated by requiring roughly a
+          // full pity cycle of headroom for the second.
+          var headroom = Math.max(0, budget - (cfg.hard - start));
+          var pSecond = headroom > 0 ? Math.min(1, headroom / cfg.hard) : 0;
+          pFeatured = pAny * (cfg.featured + (1 - cfg.featured) * pSecond);
+        }
+
+        $('pity-any').textContent = (pAny * 100).toFixed(1) + '%';
+        $('pity-featured').textContent = (pFeatured * 100).toFixed(1) + '%';
+        $('pity-remaining').textContent = (cfg.hard - start).toString();
+        $('pity-expected').textContent = Math.round(expected).toString();
+      }
+      [cur, pulls, model, guar].forEach(function (el) {
+        el.addEventListener('input', calc);
+        el.addEventListener('change', calc);
+      });
+      calc();
+    })();
+
+    /* ---------- FPS ---------- */
+    (function () {
+      var fps = $('fps-value');
+      if (!fps) return;
+      var hz = $('fps-hz');
+      function calc() {
+        var f = parseFloat(fps.value), h = parseFloat(hz.value);
+        if (!(f > 0 && h > 0)) return;
+        $('fps-frametime').textContent = (1000 / f).toFixed(2) + ' ms';
+        $('fps-util').textContent = Math.min(100, Math.round((f / h) * 100)) + '%';
+        $('fps-ratio').textContent = (f / h).toFixed(2) + '×';
+        // Cap a couple of frames under refresh so VRR never falls out of range.
+        var cap = f >= h ? Math.max(30, Math.round(h - 3)) : Math.round(f);
+        $('fps-cap').textContent = cap + ' fps';
+        var advice;
+        if (f >= h * 0.98) {
+          advice = ko
+            ? '주사율을 모두 활용하고 있습니다. VRR(G-Sync/FreeSync)을 쓴다면 주사율보다 2~3fps 낮게 상한을 걸어야 동기화 범위를 벗어나지 않고 입력 지연도 줄어듭니다.'
+            : 'You are saturating the panel. If you run G-Sync or FreeSync, cap 2–3 fps below refresh — that keeps the frametime inside the variable-refresh window and shaves input latency instead of adding it.';
+        } else if (f >= h * 0.6) {
+          advice = ko
+            ? '주사율을 완전히 활용하지는 못하고 있습니다. VRR이 있다면 체감 문제는 거의 없고, 없다면 프레임 페이싱이 고르지 않게 느껴질 수 있습니다.'
+            : 'You are leaving some of the panel unused. With variable refresh this feels fine; without it, expect uneven frame pacing because frames and refreshes keep drifting out of step.';
+        } else {
+          advice = ko
+            ? '프레임이 주사율에 크게 못 미칩니다. 해상도 스케일이나 그림자·반사 설정을 먼저 낮춰보세요. 두 설정이 보통 가장 비용이 큽니다.'
+            : 'Framerate is well under the panel. Drop resolution scale first, then shadows and reflections — those three cost the most frames for the least visual difference in motion.';
+        }
+        $('fps-advice').textContent = advice;
+      }
+      [fps, hz].forEach(function (el) { el.addEventListener('input', calc); });
+      calc();
+    })();
+  })();
+</script>

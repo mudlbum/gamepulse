@@ -1,0 +1,65 @@
+---
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { localeHref, formatDate } from '../lib/paths';
+import { Image } from 'astro:assets';
+
+export interface Props {
+  post: any;
+  size?: 'lg' | 'md' | 'sm';
+}
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const { post, size = 'md' } = Astro.props;
+const d = post.data;
+const url = localeHref(`/posts/${slugOf(post)}`, lang);
+
+function slugOf(p: any) {
+  // Collection ids are "en/my-post" — the locale prefix is already in the route.
+  return String(p.id).replace(/^(en|ko)\//, '');
+}
+---
+
+<article class:list={['card post-card', `size-${size}`]}>
+  {(d.heroImage || d.heroImageUrl) && (
+    <div class="card-media">
+      {d.heroImage ? (
+        <Image src={d.heroImage} alt={d.heroImageAlt ?? ''} widths={[400, 800]} sizes="(max-width: 700px) 100vw, 400px" loading="lazy" />
+      ) : (
+        <img src={d.heroImageUrl} alt={d.heroImageAlt ?? ''} loading="lazy" decoding="async" />
+      )}
+    </div>
+  )}
+  <div class="card-body">
+    <div class="card-meta">
+      <span class="badge badge-brand">{d.category}</span>
+      {d.games?.slice(0, 1).map((g: string) => <span class="badge">{g}</span>)}
+    </div>
+    <h3 class="card-title"><a href={url}>{d.title}</a></h3>
+    {size !== 'sm' && <p class="card-excerpt clamp-3">{d.description}</p>}
+    <div class="card-meta foot">
+      <time datetime={new Date(d.pubDate).toISOString()}>{formatDate(d.pubDate, lang)}</time>
+      {d.readingTime && (
+        <>
+          <span aria-hidden="true">·</span>
+          <span>{d.readingTime} {t('post.min')}</span>
+        </>
+      )}
+      {d.factChecked && (
+        <>
+          <span aria-hidden="true">·</span>
+          <span class="checked" title={t('post.factChecked')}>✓ sourced</span>
+        </>
+      )}
+    </div>
+  </div>
+</article>
+
+<style>
+  .post-card { display: flex; flex-direction: column; height: 100%; }
+  .post-card .card-body { flex: 1; }
+  .size-lg .card-title { font-size: var(--step-2); }
+  .size-sm .card-media { aspect-ratio: 2 / 1; }
+  .foot { margin-top: auto; padding-top: var(--space-2); }
+  .checked { color: var(--up); font-weight: 560; }
+</style>

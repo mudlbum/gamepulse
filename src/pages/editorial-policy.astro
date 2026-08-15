@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/pages/EditorialPolicy.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="Editorial policy"
+  description="Our full disclosure on AI-assisted writing, the five-step fact-checking process every article goes through, and the known limits of every dataset we publish."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'Editorial policy', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

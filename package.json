@@ -1,0 +1,28 @@
+{
+  "name": "gamepulse",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "data": "node scripts/refresh-all.mjs",
+    "test": "node scripts/test/run-tests.mjs",
+    "seed": "node scripts/test/seed-data.mjs",
+    "brief": "node scripts/generate-brief.mjs",
+    "write": "node scripts/write-article.mjs",
+    "audit": "node scripts/test/audit.mjs"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.12",
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^5.14.1",
+    "sharp": "^0.34.4"
+  },
+  "devDependencies": {
+    "fast-xml-parser": "^5.2.5",
+    "lightningcss": "^1.33.0",
+    "playwright": "^1.62.1"
+  }
+}

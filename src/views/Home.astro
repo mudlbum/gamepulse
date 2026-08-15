@@ -1,0 +1,237 @@
+---
+import { getCollection } from 'astro:content';
+import PostCard from '../components/PostCard.astro';
+import ClipCard from '../components/ClipCard.astro';
+import DealCard from '../components/DealCard.astro';
+import LeaderboardTable from '../components/LeaderboardTable.astro';
+import LiveBadge from '../components/LiveBadge.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { localeHref, formatCompact, relativeTime } from '../lib/paths';
+
+import lbData from '../data/leaderboard.json';
+import clipsData from '../data/clips.json';
+import dealsData from '../data/deals.json';
+import updatesData from '../data/updates.json';
+import newsData from '../data/news.json';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const ko = lang === 'ko';
+
+const lb: any = lbData;
+const clips: any = clipsData;
+const deals: any = dealsData;
+const updates: any = updatesData;
+const news: any = newsData;
+
+const allPosts = (await getCollection('posts', (p: any) => p.data.lang === lang && !p.data.draft)).sort(
+  (a: any, b: any) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+);
+const featured = allPosts.find((p: any) => p.data.featured) ?? allPosts[0];
+const rest = allPosts.filter((p: any) => p.id !== featured?.id);
+
+const clusters = news.feeds?.[lang]?.clusters ?? [];
+const topEntries = lb.entries ?? [];
+---
+
+<!-- ============ Hero ============ -->
+<section class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <div class="hero-live">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span>
+          {topEntries.length > 0 ? (
+            <>
+              <strong>{formatCompact(lb.totalPlayers ?? 0, lang)}</strong>{' '}
+              {ko ? '명이 지금 스팀 상위 게임을 플레이 중' : 'people playing the Steam top 60 right now'}
+            </>
+          ) : (
+            t('live.never')
+          )}
+        </span>
+      </div>
+      <h1>{ko ? '게임의 지금을, 데이터로.' : 'What gaming is doing, right now.'}</h1>
+      <p class="hero-lede">
+        {ko
+          ? '실시간 동시접속 순위, 공식 패치노트 요약, 시간당 조회수로 정렬한 화제의 영상. 그리고 출처를 밝힌 기사. 30분마다 자동으로 갱신됩니다.'
+          : 'Live concurrent-player rankings, patch notes straight from publishers, and the clips actually gaining views this hour — plus reporting that shows its sources. Refreshed automatically every 30 minutes.'}
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href={localeHref('/leaderboards', lang)}>{t('nav.leaderboards')} →</a>
+        <a class="btn" href={localeHref('/news', lang)}>{t('nav.news')}</a>
+      </div>
+    </div>
+
+    {topEntries.length > 0 && (
+      <div class="hero-board card">
+        <div class="hero-board-head">
+          <span class="eyebrow">{t('home.liveNow')}</span>
+          <LiveBadge updated={lb.updated} stale={lb._stale} sample={lb._sample} dataset="leaderboard" />
+        </div>
+        <LeaderboardTable entries={topEntries} limit={8} compact />
+        <a class="board-more" href={localeHref('/leaderboards', lang)}>{t('home.viewAll')} →</a>
+      </div>
+    )}
+  </div>
+</section>
+
+<div class="wrap">
+  <!-- ============ Featured + latest ============ -->
+  {featured && (
+    <section class="mt-7">
+      <div class="section-head">
+        <h2>{t('home.latest')}</h2>
+        <a href={localeHref('/news', lang)} class="btn btn-ghost btn-sm">{t('home.viewAll')} →</a>
+      </div>
+      <div class="feature-grid">
+        <PostCard post={featured} size="lg" />
+        <div class="feature-side">
+          {rest.slice(0, 3).map((p: any) => <PostCard post={p} size="sm" />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  {rest.length > 3 && (
+    <section class="mt-6">
+      <div class="grid grid-auto">
+        {rest.slice(3, 9).map((p: any) => <PostCard post={p} />)}
+      </div>
+    </section>
+  )}
+
+  <AdSlot slot="inArticle" />
+
+  <!-- ============ Trending clips ============ -->
+  {clips.trending?.length > 0 && (
+    <section class="mt-7">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">{ko ? '시간당 조회수 기준' : 'Ranked by views per hour'}</span>
+          <h2>{t('home.trending')}</h2>
+        </div>
+        <a href={localeHref('/clips', lang)} class="btn btn-ghost btn-sm">{t('home.viewAll')} →</a>
+      </div>
+      <div class="grid grid-auto">
+        {clips.trending.slice(0, 4).map((c: any) => <ClipCard clip={c} />)}
+      </div>
+    </section>
+  )}
+
+  <!-- ============ Two-column: patches + hot stories ============ -->
+  <section class="mt-7 two-col">
+    {updates.games?.length > 0 && (
+      <div>
+        <div class="section-head">
+          <h2>{t('home.recentPatches')}</h2>
+          <a href={localeHref('/updates', lang)} class="btn btn-ghost btn-sm">{t('home.viewAll')} →</a>
+        </div>
+        <ul role="list" class="patch-list">
+          {updates.games.slice(0, 6).map((g: any) => (
+            <li>
+              <div class="patch-line">
+                <strong>{g.game}</strong>
+                {g.latest?.version && <span class="badge badge-brand">{g.latest.version}</span>}
+              </div>
+              <a href={g.latest?.url} rel="noopener nofollow" target="_blank" class="clamp-2">{g.latest?.title}</a>
+              {g.latest?.date && <time datetime={g.latest.date}>{relativeTime(g.latest.date, lang)}</time>}
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    {clusters.length > 0 && (
+      <div>
+        <div class="section-head">
+          <h2>{ko ? '여러 매체가 동시에 다루는 소식' : 'Covered everywhere at once'}</h2>
+        </div>
+        <ol role="list" class="hot-list">
+          {clusters.slice(0, 6).map((c: any, i: number) => (
+            <li>
+              <span class="hot-n" aria-hidden="true">{i + 1}</span>
+              <div>
+                <a href={c.articles[0].url} rel="noopener nofollow" target="_blank" class="clamp-2">{c.headline}</a>
+                <span class="hot-meta">
+                  {c.outletCount} {ko ? '개 매체' : 'outlets'} · {relativeTime(c.newest, lang)}
+                </span>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    )}
+  </section>
+
+  <!-- ============ Free games ============ -->
+  {(deals.freeNow?.length > 0 || deals.discounts?.length > 0) && (
+    <section class="mt-7">
+      <div class="section-head">
+        <h2>{t('home.freeNow')}</h2>
+        <a href={localeHref('/deals', lang)} class="btn btn-ghost btn-sm">{t('home.viewAll')} →</a>
+      </div>
+      <div class="grid grid-auto">
+        {(deals.freeNow ?? []).slice(0, 2).map((d: any) => <DealCard deal={d} kind="free" />)}
+        {(deals.discounts ?? []).slice(0, 2).map((d: any) => <DealCard deal={d} kind="discount" />)}
+      </div>
+    </section>
+  )}
+</div>
+
+<style>
+  .hero { padding-block: var(--space-6) var(--space-6); border-bottom: 1px solid var(--border); }
+  .hero-inner { display: grid; gap: var(--space-7); align-items: center; }
+  @media (min-width: 940px) { .hero-inner { grid-template-columns: 1fr 460px; } }
+
+  .hero-live {
+    display: inline-flex; align-items: center; gap: 0.5rem;
+    font-size: var(--step--1); color: var(--text-dim);
+    background: var(--bg-elev); border: 1px solid var(--border);
+    padding: 0.4em 0.85em; border-radius: var(--radius-full); margin-bottom: var(--space-4);
+  }
+  .hero-live strong { color: var(--brand); font-weight: 700; font-variant-numeric: tabular-nums; }
+
+  .hero h1 { font-size: var(--step-5); letter-spacing: -0.035em; margin-bottom: var(--space-4); }
+  .hero-lede { font-size: var(--step-1); color: var(--text-dim); max-width: 54ch; line-height: 1.55; }
+  .hero-actions { display: flex; gap: var(--space-3); margin-top: var(--space-5); flex-wrap: wrap; }
+  .hero-actions .btn { text-decoration: none; }
+
+  .hero-board { padding: 0; }
+  .hero-board:hover { transform: none; }
+  .hero-board-head {
+    display: flex; align-items: center; justify-content: space-between; gap: var(--space-3);
+    padding: var(--space-4); border-bottom: 1px solid var(--border); flex-wrap: wrap;
+  }
+  .hero-board .eyebrow { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.09em; color: var(--text-mute); font-weight: 660; }
+  .hero-board :global(.table-wrap) { border: 0; border-radius: 0; }
+  .board-more {
+    display: block; padding: var(--space-3); text-align: center;
+    border-top: 1px solid var(--border); font-size: var(--step--1);
+    font-weight: 600; text-decoration: none;
+  }
+  .board-more:hover { background: var(--surface-hover); }
+
+  .feature-grid { display: grid; gap: var(--space-5); }
+  @media (min-width: 860px) { .feature-grid { grid-template-columns: 1.35fr 1fr; } }
+  .feature-side { display: flex; flex-direction: column; gap: var(--space-4); }
+
+  .two-col { display: grid; gap: var(--space-7); }
+  @media (min-width: 860px) { .two-col { grid-template-columns: 1fr 1fr; } }
+
+  .patch-list { display: flex; flex-direction: column; }
+  .patch-list li { padding: var(--space-3) 0; border-bottom: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.25rem; }
+  .patch-line { display: flex; align-items: center; gap: 0.5rem; }
+  .patch-line strong { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-mute); }
+  .patch-list a { color: var(--text); text-decoration: none; font-weight: 560; font-size: 0.92rem; line-height: 1.4; }
+  .patch-list a:hover { color: var(--brand); }
+  .patch-list time { font-size: 0.72rem; color: var(--text-mute); }
+
+  .hot-list { display: flex; flex-direction: column; }
+  .hot-list li { display: grid; grid-template-columns: 1.6rem 1fr; gap: var(--space-3); padding: var(--space-3) 0; border-bottom: 1px solid var(--border); }
+  .hot-n { font-weight: 760; color: var(--text-mute); font-variant-numeric: tabular-nums; }
+  .hot-list a { color: var(--text); text-decoration: none; font-weight: 560; font-size: 0.92rem; line-height: 1.4; display: block; }
+  .hot-list a:hover { color: var(--brand); }
+  .hot-meta { font-size: 0.72rem; color: var(--text-mute); }
+</style>

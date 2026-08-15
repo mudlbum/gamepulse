@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/Tools.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="Gamer Tools and Calculators"
+  description="Free browser tools for gamers: cross-game mouse sensitivity converter, reaction time test, gacha pity probability calculator and an FPS to frametime reference."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'Gamer Tools and Calculators', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

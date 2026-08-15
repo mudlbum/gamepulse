@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/Cosplay.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="Cosplay Spotlight"
+  description="Recent work from cosplayers and convention photographers, sourced from open platforms and credited back to every creator."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'Cosplay Spotlight', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

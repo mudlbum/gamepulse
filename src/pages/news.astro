@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/News.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="Gaming News"
+  description="Original reporting plus a live view of which stories multiple gaming outlets are covering at the same time, in English and Korean."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'Gaming News', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

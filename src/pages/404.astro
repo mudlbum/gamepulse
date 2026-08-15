@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { href } from '../lib/paths';
+---
+
+<BaseLayout title="Page not found" description="That link is broken or the page has moved." noindex>
+  <div class="wrap notfound">
+    <p class="code" aria-hidden="true">404</p>
+    <h1>Page not found</h1>
+    <p class="lede">
+      That link is broken or the page has moved. The pages below are always live.
+    </p>
+    <div class="links">
+      <a class="btn btn-primary" href={href('/')}>Homepage</a>
+      <a class="btn" href={href('/leaderboards')}>Live leaderboard</a>
+      <a class="btn" href={href('/news')}>News</a>
+      <a class="btn" href={href('/ko/')}>한국어</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .notfound { text-align: center; padding-block: var(--space-9); }
+  .code {
+    font-size: clamp(5rem, 18vw, 10rem); font-weight: 800; line-height: 0.9;
+    letter-spacing: -0.05em; color: transparent;
+    background: linear-gradient(180deg, var(--border-light), transparent);
+    -webkit-background-clip: text; background-clip: text;
+    margin-bottom: var(--space-4);
+  }
+  .notfound h1 { margin-bottom: var(--space-3); }
+  .notfound .lede { margin-inline: auto; }
+  .links { display: flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap; margin-top: var(--space-6); }
+  .links a { text-decoration: none; }
+</style>

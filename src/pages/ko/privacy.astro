@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/pages/Privacy.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="개인정보 처리방침"
+  description="GamePulse가 수집하는 정보, 구글 애드센스 쿠키의 작동 방식과 맞춤 광고 해제 방법, GDPR·CCPA·개인정보보호법상 이용자의 권리를 안내합니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '개인정보 처리방침', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

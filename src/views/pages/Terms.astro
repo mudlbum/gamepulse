@@ -1,0 +1,112 @@
+---
+import { getLangFromUrl } from '../../i18n/ui';
+import { localeHref } from '../../lib/paths';
+import { SITE } from '../../config';
+const lang = getLangFromUrl(Astro.url);
+const ko = lang === 'ko';
+---
+
+<div class="wrap-narrow prose-page">
+  <h1>{ko ? '이용약관' : 'Terms of use'}</h1>
+  <p class="meta">{ko ? '시행일: 2026년 8월 15일' : 'Effective: 15 August 2026'}</p>
+
+  {ko ? (
+    <>
+      <h2>1. 서비스 이용</h2>
+      <p>
+        이 사이트에 접속함으로써 본 약관에 동의하는 것으로 봅니다. 동의하지 않으시면 이용을 중단해
+        주세요. 개인적·비상업적 목적의 열람은 자유롭습니다.
+      </p>
+
+      <h2>2. 저작권</h2>
+      <p>
+        GamePulse가 직접 작성한 기사, 분석, 데이터 시각화의 저작권은 GamePulse에 있습니다. 출처를
+        밝히고 원문으로 링크하는 조건에서 짧은 인용은 허용합니다. 전문 복제나 재배포는 사전 허가가
+        필요합니다.
+      </p>
+      <p>
+        게임 스크린샷, 아트워크, 로고, 상표의 권리는 각 퍼블리셔에 있으며 보도·비평 목적으로
+        인용됩니다. 코스프레 사진의 권리는 촬영자와 코스플레이어에게 있습니다.
+      </p>
+
+      <h2>3. 데이터의 정확성</h2>
+      <p>
+        동시접속자 수, 가격, 패치 정보 등은 제3자 공개 API에서 자동 수집되며 "있는 그대로" 제공됩니다.
+        정확성을 위해 노력하지만 보증하지는 않습니다. 구매 결정 전에는 반드시 해당 스토어에서 가격을
+        직접 확인하시기 바랍니다.
+      </p>
+
+      <h2>4. 외부 링크</h2>
+      <p>
+        외부 사이트로 연결되는 링크가 다수 포함되어 있습니다. 해당 사이트의 내용이나 정책에 대해
+        GamePulse는 책임지지 않습니다.
+      </p>
+
+      <h2>5. 책임의 제한</h2>
+      <p>
+        관련 법령이 허용하는 최대 범위에서, 본 사이트의 정보 이용 또는 이용 불능으로 발생한 직간접적
+        손해에 대해 책임을 지지 않습니다.
+      </p>
+
+      <h2>6. 약관 변경</h2>
+      <p>약관은 변경될 수 있으며, 변경 시 이 페이지의 시행일이 갱신됩니다.</p>
+
+      <h2>7. 문의</h2>
+      <p>본 약관에 관한 문의는 <a href={localeHref('/contact', lang)}>문의 페이지</a>를 이용해 주세요.</p>
+    </>
+  ) : (
+    <>
+      <h2>1. Using this site</h2>
+      <p>
+        By accessing {SITE.name} you agree to these terms. If you do not agree, please stop using the
+        site. Personal, non-commercial reading and sharing is welcome and needs no permission.
+      </p>
+
+      <h2>2. Copyright</h2>
+      <p>
+        Articles, analysis and data visualisations produced by {SITE.name} are our copyright. You may
+        quote short extracts with attribution and a link back to the original. Reproducing full
+        articles or systematically republishing our data requires permission first.
+      </p>
+      <p>
+        Game screenshots, artwork, logos and trademarks are the property of their respective
+        publishers and appear here for reporting and commentary. Cosplay photographs remain the
+        property of the photographers and cosplayers who made them.
+      </p>
+
+      <h2>3. Accuracy of data</h2>
+      <p>
+        Player counts, prices and patch information are collected automatically from third-party
+        public APIs and are provided "as is". We work hard on accuracy but do not warrant it. Always
+        confirm a price on the store page before buying — a stale cache should never cost you money.
+      </p>
+
+      <h2>4. External links</h2>
+      <p>
+        This site links out heavily, by design. We are not responsible for the content, accuracy or
+        privacy practices of sites we link to.
+      </p>
+
+      <h2>5. Limitation of liability</h2>
+      <p>
+        To the fullest extent permitted by law, {SITE.name} is not liable for any direct or indirect
+        loss arising from your use of, or inability to use, the information on this site.
+      </p>
+
+      <h2>6. Changes</h2>
+      <p>These terms may change. The effective date at the top of this page will be updated when they do.</p>
+
+      <h2>7. Contact</h2>
+      <p>Questions about these terms go to the <a href={localeHref('/contact', lang)}>contact page</a>.</p>
+    </>
+  )}
+</div>
+
+<style>
+  .prose-page { font-size: 1.02rem; line-height: 1.75; }
+  .prose-page h1 { margin-bottom: var(--space-2); }
+  .prose-page .meta { font-size: var(--step--1); color: var(--text-mute); margin-bottom: var(--space-5); }
+  .prose-page h2 { font-size: var(--step-1); margin-top: 2em; margin-bottom: 0.5em; }
+  .prose-page p { margin-bottom: 1.1em; color: var(--text-dim); }
+  .prose-page strong { color: var(--text); }
+</style>

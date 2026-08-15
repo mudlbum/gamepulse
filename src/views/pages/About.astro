@@ -1,0 +1,127 @@
+---
+import { getLangFromUrl } from '../../i18n/ui';
+import { localeHref } from '../../lib/paths';
+import { SITE } from '../../config';
+const lang = getLangFromUrl(Astro.url);
+const ko = lang === 'ko';
+---
+
+<div class="wrap-narrow prose-page">
+  <h1>{ko ? 'GamePulse 소개' : `About ${SITE.name}`}</h1>
+
+  {ko ? (
+    <>
+      <p class="lede">
+        GamePulse는 게임 업계를 데이터로 추적하는 독립 매체입니다. 광고나 홍보 대가를 받고 기사를
+        쓰지 않으며, 모든 수치와 주장에는 확인 가능한 출처를 답니다.
+      </p>
+
+      <h2>무엇을 하는 곳인가</h2>
+      <p>
+        게임 미디어에는 두 가지가 부족합니다. 하나는 <strong>지금 이 순간의 데이터</strong>이고,
+        다른 하나는 <strong>출처를 밝히는 습관</strong>입니다. 대부분의 기사는 "인기가 많다"고
+        쓰지만 숫자를 보여주지 않고, 숫자를 보여줘도 어디서 왔는지 밝히지 않습니다.
+      </p>
+      <p>
+        GamePulse는 그 두 가지를 기본값으로 삼습니다. 실시간 동시접속자 순위는 30분마다 밸브의 공개
+        API에서 직접 가져오고, 패치노트는 퍼블리셔의 공식 문서에서만 수집하며, 모든 기사 하단에는
+        사용한 출처의 전체 목록과 직접 링크가 붙습니다.
+      </p>
+
+      <h2>어떻게 만들어지는가</h2>
+      <p>
+        데이터 수집과 기사 초안 작성은 자동화되어 있습니다. 이 사실을 숨기지 않습니다. 다만 자동화가
+        곧 검증 생략을 뜻하지는 않습니다. 모든 기사는 발행 전 사람이 검토하며, 1차 출처로 확인되지
+        않은 주장은 기사에 넣지 않거나 "확인되지 않음"으로 명시합니다.
+      </p>
+      <p>
+        AI의 도움을 받아 작성된 기사에는 페이지 상단에 그 사실이 표시됩니다.
+        자세한 원칙은 <a href={localeHref('/editorial-policy', lang)}>편집 원칙</a>에 정리해 두었습니다.
+      </p>
+
+      <h2>수익 구조</h2>
+      <p>
+        운영비는 광고로 충당할 계획입니다. 광고주는 기사 선정이나 내용에 어떤 영향력도 갖지 않으며,
+        협찬 기사나 대가성 리뷰는 싣지 않습니다. 스토어 할인 정보의 일부 링크는 제휴 링크일 수
+        있으며, 그 경우 해당 페이지에 명시합니다. 제휴 여부는 게임의 평가나 노출 순서에 영향을 주지
+        않습니다.
+      </p>
+
+      <h2>정정 요청</h2>
+      <p>
+        사실 오류를 발견하셨다면 <a href={localeHref('/contact', lang)}>문의 페이지</a>로 알려주세요.
+        확인되는 대로 수정하고, 기사에 수정 일자를 표시합니다. 조용히 고치지 않습니다.
+      </p>
+
+      <h2>면책</h2>
+      <p>
+        GamePulse는 어떤 게임사·퍼블리셔·플랫폼 사업자와도 제휴 관계가 없습니다. 언급된 게임명,
+        이미지, 상표의 권리는 각 권리자에게 있으며 보도·비평 목적으로 인용합니다.
+      </p>
+    </>
+  ) : (
+    <>
+      <p class="lede">
+        {SITE.name} is an independent publication that tracks the games industry with data. We take
+        no payment for coverage, and every number and claim carries a source you can check.
+      </p>
+
+      <h2>Why this exists</h2>
+      <p>
+        Games coverage is short on two things: <strong>data about right now</strong>, and
+        <strong> the habit of showing where a number came from</strong>. Plenty of articles tell you
+        a game is popular. Far fewer tell you how popular, and fewer still tell you who counted.
+      </p>
+      <p>
+        Both are defaults here. The live leaderboard pulls straight from Valve's public API every
+        thirty minutes. Patch notes come only from publishers' own sources. Every article ends with
+        the full list of references used to write it, each one linked.
+      </p>
+
+      <h2>How the work is made</h2>
+      <p>
+        Data collection and first drafts are automated. We are not going to be coy about that. But
+        automation is not the same as skipping verification. Every article is reviewed by a person
+        before it publishes, and any claim that could not be confirmed against a primary source is
+        either cut or explicitly marked as unverified in the text.
+      </p>
+      <p>
+        Articles produced with AI assistance say so at the top of the page. The full method is in
+        our <a href={localeHref('/editorial-policy', lang)}>editorial policy</a>.
+      </p>
+
+      <h2>How it is funded</h2>
+      <p>
+        Running costs are intended to be covered by advertising. Advertisers have no input into what
+        we cover or what we say. We do not publish sponsored articles or paid reviews. Some links on
+        the deals page may be affiliate links; where that is the case it is disclosed on that page,
+        and it never affects whether a game appears or how it is ranked.
+      </p>
+
+      <h2>Corrections</h2>
+      <p>
+        Found a factual error? Tell us via the <a href={localeHref('/contact', lang)}>contact page</a>.
+        We fix confirmed errors and stamp the article with an updated date. We do not correct things
+        quietly.
+      </p>
+
+      <h2>Disclaimer</h2>
+      <p>
+        {SITE.name} is not affiliated with any game developer, publisher or platform holder. Game
+        titles, artwork and trademarks belong to their respective owners and are referenced here for
+        the purposes of reporting and commentary.
+      </p>
+    </>
+  )}
+</div>
+
+<style>
+  .prose-page { font-size: 1.02rem; line-height: 1.75; }
+  .prose-page h1 { margin-bottom: var(--space-5); }
+  .prose-page h2 { font-size: var(--step-2); margin-top: 2em; margin-bottom: 0.5em; }
+  .prose-page p { margin-bottom: 1.1em; color: var(--text-dim); }
+  .prose-page .lede { font-size: var(--step-1); color: var(--text); margin-bottom: 1.5em; }
+  .prose-page strong { color: var(--text); }
+  .prose-page ul, .prose-page ol { margin-bottom: 1.1em; padding-left: 1.4em; color: var(--text-dim); }
+  .prose-page li + li { margin-top: 0.45em; }
+</style>

@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import View from '../../views/Tools.astro';
+import { localeHref } from '../../lib/paths';
+---
+<BaseLayout
+  title="게이머 도구 모음"
+  description="게임 간 마우스 감도 변환기와 cm/360 계산, 반응 속도 측정, 가챠 천장 확률 계산기, FPS·프레임타임 변환까지. 설치 없이 브라우저에서 바로 쓰는 게이머 도구 모음입니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '게이머 도구 모음', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

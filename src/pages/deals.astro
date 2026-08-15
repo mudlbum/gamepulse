@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import View from '../views/Deals.astro';
+import { localeHref } from '../lib/paths';
+---
+<BaseLayout
+  title="Free Games and Deals"
+  description="Games you can claim free right now on the Epic Games Store, plus the steepest verified discounts across Steam, GOG and other stores."
+  breadcrumbs={[{ name: 'Home', url: localeHref('/', 'en') }, { name: 'Free Games and Deals', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

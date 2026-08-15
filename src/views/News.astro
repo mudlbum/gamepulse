@@ -1,0 +1,133 @@
+---
+import LiveBadge from '../components/LiveBadge.astro';
+import PostCard from '../components/PostCard.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { getCollection } from 'astro:content';
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { relativeTime } from '../lib/paths';
+import newsData from '../data/news.json';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const data: any = newsData;
+const feed = data.feeds?.[lang] ?? { latest: [], clusters: [], outlets: [] };
+
+const posts = (await getCollection('posts', (p: any) => p.data.lang === lang && !p.data.draft)).sort(
+  (a: any, b: any) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+);
+---
+
+<div class="wrap">
+  <header class="page-head">
+    <div class="row-between">
+      <div>
+        <p class="eyebrow">{t('nav.news')}</p>
+        <h1>{lang === 'ko' ? '게임 뉴스' : 'Gaming news'}</h1>
+      </div>
+      <LiveBadge updated={data.updated} stale={data._stale} sample={data._sample} dataset="news" />
+    </div>
+    <p class="lede">
+      {lang === 'ko'
+        ? '자체 기사와 함께, 여러 매체가 동시에 다루는 화제의 소식을 묶어서 보여줍니다.'
+        : 'Our own reporting, alongside a live view of which stories multiple outlets are covering at once.'}
+    </p>
+  </header>
+
+  {posts.length > 0 && (
+    <section class="mb-6">
+      <div class="section-head"><h2>{t('home.latest')}</h2></div>
+      <div class="grid grid-auto">
+        {posts.slice(0, 9).map((p: any) => <PostCard post={p} />)}
+      </div>
+    </section>
+  )}
+
+  <AdSlot slot="inArticle" />
+
+  <div class="with-sidebar mt-7">
+    <section>
+      <div class="section-head">
+        <h2>{lang === 'ko' ? '지금 화제인 소식' : 'What everyone is covering'}</h2>
+        <span class="text-mute" style="font-size:var(--step--1)">
+          {lang === 'ko' ? '2개 이상 매체가 다룬 소식' : 'stories covered by 2+ outlets'}
+        </span>
+      </div>
+
+      {feed.clusters.length === 0 ? (
+        <p class="callout">{t('live.never')}</p>
+      ) : (
+        <ol role="list" class="clusters">
+          {feed.clusters.map((c: any, i: number) => (
+            <li class="cluster">
+              <span class="heat" aria-hidden="true">{i + 1}</span>
+              <div class="cluster-body">
+                <h3><a href={c.articles[0].url} rel="noopener nofollow" target="_blank">{c.headline}</a></h3>
+                {c.summary && <p class="cluster-sum clamp-2">{c.summary}</p>}
+                <div class="outlets">
+                  <span class="badge badge-brand">{c.outletCount} {lang === 'ko' ? '개 매체' : 'outlets'}</span>
+                  {c.articles.slice(0, 5).map((a: any) => (
+                    <a class="outlet-pill" href={a.url} rel="noopener nofollow" target="_blank" title={a.title}>
+                      {a.outlet}
+                    </a>
+                  ))}
+                  <time class="text-mute" datetime={c.newest}>{relativeTime(c.newest, lang)}</time>
+                </div>
+              </div>
+            </li>
+          ))}
+        </ol>
+      )}
+    </section>
+
+    <aside>
+      <h2 class="side-head">{lang === 'ko' ? '실시간 피드' : 'Live wire'}</h2>
+      <ul role="list" class="wire">
+        {feed.latest.slice(0, 28).map((i: any) => (
+          <li>
+            <a href={i.link} rel="noopener nofollow" target="_blank" class="clamp-2">{i.title}</a>
+            <span class="wire-meta">{i.outlet} · <time datetime={i.date}>{relativeTime(i.date, lang)}</time></span>
+          </li>
+        ))}
+      </ul>
+      {feed.outlets?.length > 0 && (
+        <p class="src-note">
+          {lang === 'ko' ? '출처: ' : 'Sources: '}{feed.outlets.join(', ')}
+        </p>
+      )}
+    </aside>
+  </div>
+</div>
+
+<style>
+  .page-head { margin-bottom: var(--space-6); }
+  .page-head h1 { margin-block: 0.1em 0.3em; }
+  .eyebrow { font-size: var(--step--1); color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.09em; font-weight: 620; }
+
+  .clusters { display: flex; flex-direction: column; gap: var(--space-4); }
+  .cluster {
+    display: grid; grid-template-columns: 2rem 1fr; gap: var(--space-3);
+    padding: var(--space-4); background: var(--bg-elev);
+    border: 1px solid var(--border); border-radius: var(--radius);
+  }
+  .cluster:hover { border-color: var(--border-light); }
+  .heat { font-size: var(--step-1); font-weight: 760; color: var(--text-mute); font-variant-numeric: tabular-nums; }
+  .cluster h3 { font-size: var(--step-1); font-weight: 620; line-height: 1.32; }
+  .cluster h3 a { color: var(--text); text-decoration: none; }
+  .cluster h3 a:hover { color: var(--brand); }
+  .cluster-sum { font-size: var(--step--1); color: var(--text-dim); margin-top: 0.35em; }
+  .outlets { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin-top: var(--space-3); font-size: 0.74rem; }
+  .outlet-pill {
+    padding: 0.18em 0.5em; border-radius: var(--radius-full);
+    background: var(--bg-elev-2); border: 1px solid var(--border);
+    color: var(--text-dim); text-decoration: none;
+  }
+  .outlet-pill:hover { border-color: var(--brand); color: var(--brand); }
+
+  .side-head { font-size: var(--step--1); text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-mute); font-weight: 660; margin-bottom: var(--space-4); }
+  .wire { display: flex; flex-direction: column; }
+  .wire li { padding: var(--space-3) 0; border-bottom: 1px solid var(--border); display: flex; flex-direction: column; gap: 0.2rem; }
+  .wire a { font-size: 0.84rem; color: var(--text); text-decoration: none; line-height: 1.42; font-weight: 540; }
+  .wire a:hover { color: var(--brand); }
+  .wire-meta { font-size: 0.7rem; color: var(--text-mute); }
+  .src-note { margin-top: var(--space-4); font-size: 0.7rem; color: var(--text-mute); line-height: 1.5; }
+</style>
