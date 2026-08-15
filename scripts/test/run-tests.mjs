@@ -718,6 +718,30 @@ section('Mobile games');
       `weekly delta was ${roblox.ratingsPerWeek}`);
   });
 
+  /* Regression: the first deploy published "+0 this week" against 19.8 million
+     Roblox ratings. A zero is not a measurement, and a corrupt timestamp makes
+     the span look like decades so that any flat reading passes the day-long
+     minimum and formats as a confident zero. Both must come out as null. */
+  await test('REGRESSION: a flat reading is null, never a published zero', async () => {
+    await resetMobileCache({
+      'm:us:1477376905': [{ t: Date.now() - 3 * 24 * 3600_000, v: 8_140_233 }],
+    });
+    mockFetch(appleMocks());
+    const m = await fetchMobile();
+    const roblox = m.charts.us.entries.find((e) => e.appId === '1477376905');
+    assert.equal(roblox.ratingsPerWeek, null, 'published a zero weekly delta');
+  });
+
+  await test('REGRESSION: a corrupt sample timestamp cannot fake a week of history', async () => {
+    for (const bad of [0, null, undefined, NaN, Date.now() + 5 * 24 * 3600_000]) {
+      await resetMobileCache({ 'm:us:1477376905': [{ t: bad, v: 8_000_000 }] });
+      mockFetch(appleMocks());
+      const m = await fetchMobile();
+      const roblox = m.charts.us.entries.find((e) => e.appId === '1477376905');
+      assert.equal(roblox.ratingsPerWeek, null, `t=${String(bad)} produced a weekly delta`);
+    }
+  });
+
   await test('refuses a negative delta rather than showing a game shrinking', async () => {
     // Apple resets counts on some relaunches; that is not negative growth.
     await resetMobileCache({
