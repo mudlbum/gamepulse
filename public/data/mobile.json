@@ -1,1 +1,1 @@
-{"updated":null,"_stale":true,"_empty":true,"_staleSince":"2026-08-15T15:46:19.429Z"}
+{"updated": null, "source": "Apple iTunes Lookup API (public, no key)", "metric": "ratings", "note": "Ranked by lifetime App Store rating count in each storefront. That is a popularity proxy, NOT a player count.", "androidAvailable": false, "androidNote": "Google Play publishes no public API for chart positions or install counts, so Android is not covered here.", "charts": {}, "_stale": true}
