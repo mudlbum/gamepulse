@@ -452,7 +452,10 @@ const coverSrc = sr?.cover || s?.image || app?.artwork || null;
 
   .chart-read { font-size: var(--step--1); color: var(--text-dim); margin-top: var(--space-3); line-height: 1.65; max-width: 74ch; }
 
-  .facts { display: grid; gap: 0; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); margin: 0; }
+  /* Two columns maximum. auto-fit gave four on a wide screen, which left each
+     value about 90px and wrapped "Action, Free To Play" mid-phrase. */
+  .facts { display: grid; gap: 0 var(--space-6); grid-template-columns: 1fr; margin: 0; }
+  @media (min-width: 720px) { .facts { grid-template-columns: 1fr 1fr; } }
   .fact { display: flex; gap: var(--space-3); padding: var(--space-3) 0; border-bottom: 1px solid var(--border); }
   .fact dt { flex: none; width: 8.5rem; color: var(--text-mute); font-size: var(--step--1); font-weight: 600; }
   .fact dd { margin: 0; font-size: var(--step--1); }
