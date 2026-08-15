@@ -178,6 +178,17 @@ section('Leaderboard');
     assert.ok(lb.sourceUrl.includes('GetGamesByConcurrentPlayers'), lb.sourceUrl);
   });
 
+  /* Regression: the enrichment step skipped any app whose name was hardcoded in
+     TRACKED_APPS, so the biggest games on the site never had is_free resolved
+     and Counter-Strike 2 rendered as "Paid". */
+  await test('REGRESSION: hardcoded-name apps still get store metadata resolved', async () => {
+    mockFetch(liveMocks());
+    const lb = await fetchLeaderboard();
+    const cs = lb.entries.find((e) => e.appid === 730); // 730 is in TRACKED_APPS
+    assert.equal(cs.metaResolved, true, 'a TRACKED_APPS entry was never enriched');
+    assert.equal(cs.free, true, 'Counter-Strike 2 is free-to-play and came back as paid');
+  });
+
   await test('sums total players across the board', async () => {
     mockFetch(liveMocks());
     const lb = await fetchLeaderboard();
