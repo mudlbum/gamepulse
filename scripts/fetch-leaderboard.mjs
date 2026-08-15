@@ -21,12 +21,36 @@ export async function fetchLeaderboard() {
   const scope = 'leaderboard';
   const now = new Date();
 
-  const chart = await getJson(ENDPOINTS.steamMostPlayed, { scope, retries: 3 });
-  let ranks = chart?.response?.ranks;
+  /* Three sources, in descending order of truthfulness about "right now":
+       1. GetGamesByConcurrentPlayers — real live concurrents.
+       2. GetMostPlayedGames         — weekly chart, peak only, NO live figure.
+       3. per-app GetNumberOfCurrentPlayers — live but only for tracked apps.
+     The middle one is a ranking fallback, not a player-count source; treating
+     its output as live is what produced a board of zeros on first deploy. */
+  let ranks = null;
+  let sourceUrl = ENDPOINTS.steamConcurrent;
+  let sourceLabel = 'Steam ISteamChartsService/GetGamesByConcurrentPlayers (live concurrents, no key)';
+  let metric = 'concurrent';
+
+  const live = await getJson(ENDPOINTS.steamConcurrent, { scope, retries: 3 });
+  if (Array.isArray(live?.response?.ranks) && live.response.ranks.length) {
+    ranks = live.response.ranks;
+  } else {
+    warn(scope, 'live-concurrents endpoint empty — falling back to the weekly chart (peak figures)');
+    const chart = await getJson(ENDPOINTS.steamMostPlayed, { scope, retries: 2 });
+    if (Array.isArray(chart?.response?.ranks) && chart.response.ranks.length) {
+      ranks = chart.response.ranks;
+      sourceUrl = ENDPOINTS.steamMostPlayed;
+      sourceLabel = 'Steam ISteamChartsService/GetMostPlayedGames (weekly PEAK, not live)';
+      metric = 'peak';
+    }
+  }
 
   if (!Array.isArray(ranks) || !ranks.length) {
-    warn(scope, 'Steam chart service returned nothing — falling back to per-app player counts');
+    warn(scope, 'both chart endpoints returned nothing — falling back to per-app player counts');
     ranks = await fallbackRanks(scope);
+    sourceLabel = 'Steam GetNumberOfCurrentPlayers per app (live, tracked apps only)';
+    metric = 'concurrent';
     if (!ranks.length) return null;
   }
 
@@ -61,8 +85,12 @@ export async function fetchLeaderboard() {
   const entries = ranks.map((r) => {
     const m = meta[r.appid] || {};
     const name = m.name || NAME_BY_APPID.get(r.appid) || `App ${r.appid}`;
-    const current = Number(r.concurrent_in_game ?? 0);
     const peak = Number(r.peak_in_game ?? 0);
+    /* Never let a missing field become a confident zero. If the payload has no
+       live number, fall back to peak and let `metric` tell the UI what it is
+       actually looking at. */
+    const rawCurrent = r.concurrent_in_game ?? r.player_count ?? null;
+    const current = rawCurrent == null ? peak : Number(rawCurrent);
     const series = history.series?.[r.appid] ?? [];
 
     // 24h comparison: the oldest sample within the last 30 hours.
@@ -111,11 +139,19 @@ export async function fetchLeaderboard() {
 
   log(scope, `${entries.length} games · #1 ${entries[0]?.name} @ ${entries[0]?.current.toLocaleString()}`);
 
+  const totalPlayers = entries.reduce((s, e) => s + e.current, 0);
+  if (totalPlayers === 0 && entries.length) {
+    warn(scope, `every entry reports 0 players — the payload shape probably changed. Source: ${sourceUrl}`);
+  }
+
   return {
     updated: now.toISOString(),
-    source: 'Steam ISteamChartsService (public, no key)',
-    sourceUrl: 'https://api.steampowered.com/ISteamChartsService/GetMostPlayedGames/v1/',
-    totalPlayers: entries.reduce((s, e) => s + e.current, 0),
+    source: sourceLabel,
+    sourceUrl,
+    /* 'concurrent' = players in game right now. 'peak' = the period's high
+       water mark, shown only when no live figure was available. */
+    metric,
+    totalPlayers,
     entries,
     risers,
     fallers,

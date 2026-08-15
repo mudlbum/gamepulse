@@ -5,7 +5,10 @@
  * here immediately shows what breaks downstream.
  */
 
-export const steamChart = {
+/**
+ * GetGamesByConcurrentPlayers — the LIVE board. Carries concurrent_in_game.
+ */
+export const steamConcurrent = {
   response: {
     ranks: [
       { rank: 1, appid: 730, concurrent_in_game: 746368, peak_in_game: 902114, last_week_rank: 1 },
@@ -18,6 +21,31 @@ export const steamChart = {
       { rank: 8, appid: 359550, concurrent_in_game: 74433, peak_in_game: 98220, last_week_rank: 7 },
       { rank: 9, appid: 1172470, concurrent_in_game: 71785, peak_in_game: 95610, last_week_rank: 6 },
       { rank: 10, appid: 108600, concurrent_in_game: 84102, peak_in_game: 99001, last_week_rank: 11 },
+    ],
+  },
+};
+
+/**
+ * GetMostPlayedGames — the WEEKLY chart, captured verbatim from production on
+ * 2026-08-15. Note what is NOT here: `concurrent_in_game`. Only `peak_in_game`
+ * and `last_week_rank`. Reading a live player count out of this shape returns
+ * undefined for every row, which is exactly how the first deploy shipped a
+ * leaderboard of zeros. Do not "helpfully" add the field back.
+ */
+export const steamChart = {
+  response: {
+    rollup_date: 1786492800,
+    ranks: [
+      { rank: 1, appid: 730, peak_in_game: 1182329, last_week_rank: 1 },
+      { rank: 2, appid: 570, peak_in_game: 862382, last_week_rank: 3 },
+      { rank: 3, appid: 578080, peak_in_game: 761017, last_week_rank: 2 },
+      { rank: 4, appid: 431960, peak_in_game: 111986, last_week_rank: 4 },
+      { rank: 5, appid: 1172470, peak_in_game: 273241, last_week_rank: 6 },
+      { rank: 6, appid: 1623730, peak_in_game: 293465, last_week_rank: 5 },
+      { rank: 7, appid: 3527290, peak_in_game: 104362, last_week_rank: 45 },
+      { rank: 8, appid: 553850, peak_in_game: 112107, last_week_rank: 28 },
+      { rank: 9, appid: 2767030, peak_in_game: 126218, last_week_rank: 7 },
+      { rank: 10, appid: 108600, peak_in_game: 91490, last_week_rank: 14 },
     ],
   },
 };

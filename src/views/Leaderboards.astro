@@ -25,6 +25,17 @@ const entries = data.entries ?? [];
     <p class="lede">{t('lb.sub')}</p>
   </header>
 
+  {data.metric === 'peak' && (
+    <aside class="callout metric-warning">
+      <p class="callout-title">⚠ Showing peak, not live</p>
+      <p>
+        Steam's live-concurrents endpoint did not respond on the last refresh, so these figures are
+        the <strong>weekly peak</strong> for each game rather than players online right now. They
+        will return to live numbers on the next successful refresh.
+      </p>
+    </aside>
+  )}
+
   {entries.length > 0 && (
     <div class="stat-row">
       <div class="stat">
@@ -143,6 +154,8 @@ const entries = data.entries ?? [];
   .mover-list img { border-radius: 3px; }
   .mover-list strong { font-variant-numeric: tabular-nums; }
 
+  .metric-warning { margin-bottom: var(--space-5); border-left-color: var(--warn); }
+  .metric-warning .callout-title { color: var(--warn); }
   .method { margin-top: var(--space-7); }
   .method p + p { margin-top: var(--space-3); }
   .method .src { font-size: var(--step--1); color: var(--text-mute); }

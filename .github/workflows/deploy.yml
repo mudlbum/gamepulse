@@ -63,7 +63,14 @@ jobs:
           grep -q 'hreflang="ko"' dist/index.html       || { echo "::error::hreflang missing"; exit 1; }
           echo "Build verified: $(find dist -name '*.html' | wc -l) HTML pages"
 
-      - uses: actions/configure-pages@v5
+      - name: Configure Pages
+        # enablement:true turns Pages on if it is not already. Without it
+        # this step fails with "Get Pages site failed ... Not Found" on a
+        # brand-new repo, because Pages is off by default and the action
+        # only reads the config rather than creating it.
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist

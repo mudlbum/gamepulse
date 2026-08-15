@@ -205,6 +205,13 @@ export const COSPLAY_ACTORS = [
 export const COSPLAY_DISCOVERY_TERMS = ['cosplay', 'cosplayer', 'cosplay photographer'];
 
 export const ENDPOINTS = {
+  /* LIVE concurrents. This is the one that carries `concurrent_in_game`.
+     Verified against production 2026-08-15. */
+  steamConcurrent: 'https://api.steampowered.com/ISteamChartsService/GetGamesByConcurrentPlayers/v1/',
+  /* Weekly top chart. Despite the name it does NOT report live players — each
+     rank has `peak_in_game` (the week's peak) and `last_week_rank`, and no
+     `concurrent_in_game` at all. Reading a live figure out of this endpoint
+     silently yields 0 for every game. Kept only as a ranking fallback. */
   steamMostPlayed: 'https://api.steampowered.com/ISteamChartsService/GetMostPlayedGames/v1/',
   steamPlayers: (appid) =>
     `https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=${appid}`,

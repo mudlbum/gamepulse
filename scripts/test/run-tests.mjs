@@ -153,35 +153,68 @@ section('Leaderboard');
 {
   const { fetchLeaderboard } = await import('../fetch-leaderboard.mjs');
 
-  await test('builds a ranked board from the Steam chart service', async () => {
-    mockFetch([
-      ['GetMostPlayedGames', F.steamChart],
-      ['appdetails', (u) => F.steamAppDetails(new URL(u).searchParams.get('appids'))],
-    ]);
+  const liveMocks = () => [
+    ['GetGamesByConcurrentPlayers', F.steamConcurrent],
+    ['GetMostPlayedGames', F.steamChart],
+    ['appdetails', (u) => F.steamAppDetails(new URL(u).searchParams.get('appids'))],
+  ];
+
+  await test('builds a ranked board from the live-concurrents endpoint', async () => {
+    mockFetch(liveMocks());
     const lb = await fetchLeaderboard();
     assert.ok(lb, 'returned null');
     assert.equal(lb.entries.length, 10);
     assert.equal(lb.entries[0].rank, 1);
     assert.equal(lb.entries[0].appid, 730);
     assert.equal(lb.entries[0].current, 746368);
-    assert.ok(lb.entries[0].name.length > 0);
+    assert.equal(lb.metric, 'concurrent');
+    assert.ok(lb.sourceUrl.includes('GetGamesByConcurrentPlayers'), lb.sourceUrl);
   });
 
   await test('sums total players across the board', async () => {
+    mockFetch(liveMocks());
+    const lb = await fetchLeaderboard();
+    const expected = F.steamConcurrent.response.ranks.reduce((s, r) => s + r.concurrent_in_game, 0);
+    assert.equal(lb.totalPlayers, expected);
+  });
+
+  /* Regression: the first production deploy shipped a board of zeros because
+     GetMostPlayedGames has no concurrent_in_game field and the code read one
+     anyway. These three lock that door. */
+  await test('REGRESSION: never reports 0 when the weekly chart omits concurrent_in_game', async () => {
     mockFetch([
+      ['GetGamesByConcurrentPlayers', null], // live endpoint down
+      ['GetMostPlayedGames', F.steamChart],  // weekly chart: peak only
+      ['appdetails', (u) => F.steamAppDetails(new URL(u).searchParams.get('appids'))],
+    ]);
+    const lb = await fetchLeaderboard();
+    assert.ok(lb, 'returned null');
+    assert.ok(lb.totalPlayers > 0, 'board totalled zero players');
+    for (const e of lb.entries) {
+      assert.ok(e.current > 0, `${e.name} reported ${e.current} players`);
+    }
+  });
+
+  await test('labels the metric as peak when only the weekly chart is available', async () => {
+    mockFetch([
+      ['GetGamesByConcurrentPlayers', null],
       ['GetMostPlayedGames', F.steamChart],
       ['appdetails', (u) => F.steamAppDetails(new URL(u).searchParams.get('appids'))],
     ]);
     const lb = await fetchLeaderboard();
-    const expected = F.steamChart.response.ranks.reduce((s, r) => s + r.concurrent_in_game, 0);
-    assert.equal(lb.totalPlayers, expected);
+    assert.equal(lb.metric, 'peak', 'peak figures must not be presented as live');
+    assert.ok(/peak/i.test(lb.source), lb.source);
+  });
+
+  await test('prefers live concurrents over the weekly chart when both respond', async () => {
+    mockFetch(liveMocks());
+    const lb = await fetchLeaderboard();
+    // CS2 weekly peak is 1,182,329; live concurrent is 746,368.
+    assert.equal(lb.entries[0].current, 746368, 'used the weekly peak instead of the live figure');
   });
 
   await test('persists history and produces a sparkline on the second run', async () => {
-    mockFetch([
-      ['GetMostPlayedGames', F.steamChart],
-      ['appdetails', (u) => F.steamAppDetails(new URL(u).searchParams.get('appids'))],
-    ]);
+    mockFetch(liveMocks());
     await fetchLeaderboard();
     // Age the stored samples so the 10-minute collapse window does not merge them.
     const hp = resolve(ROOT, 'data-store/history.json');
@@ -197,6 +230,7 @@ section('Leaderboard');
 
   await test('falls back to per-app counts when the chart service dies', async () => {
     mockFetch([
+      ['GetGamesByConcurrentPlayers', null],
       ['GetMostPlayedGames', null],
       ['GetNumberOfCurrentPlayers', (u) => {
         const id = new URL(u).searchParams.get('appid');
