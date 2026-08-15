@@ -126,8 +126,11 @@ const coverSrc = sr?.cover || s?.image || app?.artwork || null;
               {ko ? '누적 평점' : 'lifetime ratings'}
               {m.rating != null && <> · ★ {m.rating}</>}
             </span>
+            {/* Truthiness, not != null. A zero reaching this template is a
+                measurement we could not make, and "+0 this week" reads as one
+                we could. */}
             <span class="stat-sub">
-              {m.ratingsPerWeek != null
+              {m.ratingsPerWeek
                 ? ko
                   ? `주간 +${formatCompact(m.ratingsPerWeek, lang)}`
                   : `+${formatCompact(m.ratingsPerWeek, lang)} this week`

@@ -147,7 +147,9 @@ const mobileNoteKo =
                   <span class="m-nums">
                     <strong>{formatCompact(g.ratings, lang)}</strong>
                     <span class="m-sub">
-                      {g.ratingsPerWeek != null
+                      {/* Truthiness, not != null — a zero here is a failed
+                          measurement, not a week of no ratings. */}
+                      {g.ratingsPerWeek
                         ? `+${formatCompact(g.ratingsPerWeek, lang)}/${ko ? '주' : 'wk'}`
                         : ko ? '집계 중' : 'collecting'}
                     </span>
