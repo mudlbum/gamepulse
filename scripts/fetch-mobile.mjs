@@ -243,19 +243,40 @@ function shape(r) {
 /* ------------------------------------------------------------------ *
  * Weekly ratings velocity from the rolling history store.
  * ------------------------------------------------------------------ */
+/**
+ * Returns null far more readily than it returns a number, and that is the point.
+ *
+ * The first deploy of this rendered "+0 this week" against 19.8 million Roblox
+ * ratings, which is not a fact — it is the absence of one, formatted to look
+ * like a measurement. Anything we cannot stand behind must come out as null so
+ * the UI can say "collecting" instead of publishing a zero.
+ *
+ * Rejected outright: a missing or malformed timestamp (a bad `t` makes the span
+ * look like decades and turns any flat reading into a confident zero), a span
+ * shorter than a day, and a delta that is not strictly positive. A real game
+ * with millions of ratings does not gain exactly zero in a week — a zero here
+ * means our two samples were effectively the same reading.
+ */
 function weeklyDelta(history, key, current, now) {
   const points = history.series?.[key];
   if (!Array.isArray(points) || !points.length) return null;
 
+  const usable = points.filter((p) => Number.isFinite(p?.t) && Number.isFinite(p?.v) && p.t > 0 && p.t <= now);
+  if (!usable.length) return null;
+
   // Oldest sample still inside the window, but only if it is old enough to
   // mean anything — extrapolating a week from twenty minutes is noise.
-  const oldest = points.find((p) => now - p.t <= WEEK_MS) ?? points[0];
+  const oldest = usable.find((p) => now - p.t <= WEEK_MS) ?? usable[0];
   const span = now - oldest.t;
-  if (span < DAY_MS) return null;
+  if (!Number.isFinite(span) || span < DAY_MS) return null;
 
   const delta = current - oldest.v;
-  if (!Number.isFinite(delta) || delta < 0) return null; // Apple resets counts on some relaunches
-  return Math.round((delta / span) * WEEK_MS);
+  // <= 0, not < 0: Apple resets counts on some relaunches, and an exact zero is
+  // a stuck reading rather than a week of no ratings.
+  if (!Number.isFinite(delta) || delta <= 0) return null;
+
+  const perWeek = Math.round((delta / span) * WEEK_MS);
+  return perWeek > 0 ? perWeek : null;
 }
 
 function sample(history, key, value, now) {
