@@ -18,8 +18,29 @@ const sr = game.speedrun;
 const platformLabel: Record<string, string> = {
   pc: 'PC', playstation: 'PlayStation', xbox: 'Xbox', switch: 'Switch', mobile: 'Mobile', vr: 'VR',
 };
+const monthDay = (d: string) => formatDate(d, lang);
 
 const stores = Object.values<any>(game.mobile ?? {});
+
+/* Derived from the 8-day series we already hold — no extra fetch, and it is the
+   context a bare "playing now" number is missing. */
+const spark: number[] = s?.spark ?? [];
+const high = spark.length ? Math.max(...spark) : null;
+const low = spark.length ? Math.min(...spark) : null;
+const avg = spark.length ? Math.round(spark.reduce((a, b) => a + b, 0) / spark.length) : null;
+
+const facts: { k: string; v: string }[] = [];
+if (s?.developers?.length) facts.push({ k: ko ? '개발사' : 'Developer', v: s.developers.join(', ') });
+if (stores[0]?.artist && !s) facts.push({ k: ko ? '퍼블리셔' : 'Publisher', v: stores[0].artist });
+if (s?.releaseDate) facts.push({ k: ko ? '출시' : 'Released', v: s.releaseDate });
+else if (stores[0]?.releaseDate)
+  facts.push({ k: ko ? '출시' : 'Released', v: formatDate(stores[0].releaseDate, lang) });
+if (s?.genres?.length) facts.push({ k: ko ? '장르' : 'Genres', v: s.genres.join(', ') });
+if (s) facts.push({ k: ko ? '가격' : 'Price', v: s.free ? (ko ? '무료' : 'Free to play') : (ko ? '유료' : 'Paid') });
+else if (stores[0]?.price) facts.push({ k: ko ? '가격' : 'Price', v: stores[0].price });
+if (stores[0]?.contentRating) facts.push({ k: ko ? '이용등급' : 'Rated', v: stores[0].contentRating });
+if (game.platforms.length)
+  facts.push({ k: ko ? '플랫폼' : 'Platforms', v: game.platforms.map((p) => platformLabel[p] ?? p).join(', ') });
 // Storefronts agree on version and release notes, so take them from whichever
 // entry actually carries them rather than hardcoding 'us' — plenty of these
 // games are Korea-only.
@@ -105,8 +126,30 @@ const coverSrc = sr?.cover || s?.image || app?.artwork || null;
         <div class="chart card">
           <span class="chart-label">{ko ? '최근 8일 추이' : 'Last 8 days'}</span>
           <Sparkline values={s.spark} width={640} height={90} label={`${game.name} player trend`} />
+          {high != null && (
+            <p class="chart-read">
+              {ko
+                ? `이 기간 최고 ${formatNumber(high, lang)}명, 최저 ${formatNumber(low!, lang)}명, 평균 약 ${formatNumber(avg!, lang)}명입니다. 현재 접속자는 8일 평균 대비 ${avg ? Math.round(((s.current - avg) / avg) * 100) : 0}% 수준입니다.`
+                : `Over this window it peaked at ${formatNumber(high, lang)}, bottomed out at ${formatNumber(low!, lang)} and averaged about ${formatNumber(avg!, lang)}. Right now it is running ${avg ? Math.round(((s.current - avg) / avg) * 100) : 0}% against that 8-day average.`}
+            </p>
+          )}
         </div>
       )}
+    </section>
+  )}
+
+  {/* ---------- Facts ---------- */}
+  {facts.length > 0 && (
+    <section class="mt-6">
+      <div class="section-head"><h2>{ko ? '게임 정보' : 'About this game'}</h2></div>
+      <dl class="facts">
+        {facts.map((f) => (
+          <div class="fact">
+            <dt>{f.k}</dt>
+            <dd>{f.v}</dd>
+          </div>
+        ))}
+      </dl>
     </section>
   )}
 
@@ -169,7 +212,10 @@ const coverSrc = sr?.cover || s?.image || app?.artwork || null;
     </section>
   )}
 
-  <AdSlot slot="inArticle" />
+  {/* No ad on a page thin enough to be noindexed. AdSense's own policy asks for
+      ads to sit beside publisher content, and a stub is exactly where an ad
+      looks like the reason the page exists. */}
+  {!game.thin && <AdSlot slot="inArticle" />}
 
   {/* ---------- Player ranking ---------- */}
   <section class="mt-7">
@@ -245,7 +291,7 @@ const coverSrc = sr?.cover || s?.image || app?.artwork || null;
     <section class="mt-7">
       <div class="section-head"><h2>{ko ? '최근 업데이트' : 'Recent updates'}</h2></div>
       <ul role="list" class="patches">
-        {game.patches.entries.slice(0, 5).map((e: any) => (
+        {game.patches.entries.slice(0, 8).map((e: any) => (
           <li>
             <div class="patch-top">
               {e.version && <span class="badge badge-brand">{e.version}</span>}
@@ -268,6 +314,103 @@ const coverSrc = sr?.cover || s?.image || app?.artwork || null;
       </div>
     </section>
   )}
+
+  {/* ---------- Coverage ---------- */}
+  {game.news.length > 0 && (
+    <section class="mt-7">
+      <div class="section-head"><h2>{ko ? '이 게임 관련 보도' : 'Coverage mentioning this game'}</h2></div>
+      <ul role="list" class="coverage">
+        {game.news.map((c: any) => (
+          <li>
+            <a href={(c.articles?.[0]?.url) ?? c.url} rel="noopener nofollow" target="_blank">
+              {c.headline ?? c.title}
+            </a>
+            <span class="src-line">
+              {(c.outlets ?? [c.outlet]).filter(Boolean).slice(0, 3).join(' · ')}
+              {c.outletCount > 3 && ` +${c.outletCount - 3}`}
+              {(c.newest ?? c.date) && <> · <time datetime={c.newest ?? c.date}>{relativeTime(c.newest ?? c.date, lang)}</time></>}
+            </span>
+          </li>
+        ))}
+      </ul>
+      <p class="fine">
+        {ko
+          ? '외부 매체 헤드라인입니다. 링크는 원문으로 연결되며, 본 사이트가 작성한 기사가 아닙니다.'
+          : 'Headlines from other outlets. Links go to the original reporting; these are not our articles.'}
+      </p>
+    </section>
+  )}
+
+  {/* ---------- Related games ---------- */}
+  {game.related.length > 0 && (
+    <section class="mt-7">
+      <div class="section-head"><h2>{ko ? '비슷한 게임' : 'Related games'}</h2></div>
+      <ul role="list" class="related">
+        {game.related.map((r) => (
+          <li>
+            <a href={localeHref(`/games/${r.slug}`, lang)}>
+              <strong>{r.name}</strong>
+              <span>
+                {r.steam
+                  ? ko ? `${formatCompact(r.steam.current, lang)}명 접속 중` : `${formatCompact(r.steam.current, lang)} playing`
+                  : r.platforms.map((p) => platformLabel[p] ?? p).join(' · ')}
+              </span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {/* ---------- Methodology ----------
+      Per-page, not boilerplate: it names the endpoints this specific game's
+      numbers came from and what is missing for it. Readers can check us, and
+      it is the difference between a data page and an unsourced claim. */}
+  <aside class="callout method mt-7">
+    <p class="callout-title">{ko ? '이 수치의 출처' : 'Where these numbers come from'}</p>
+    <ul>
+      {s && (
+        <li>
+          {ko
+            ? '접속자 수는 밸브의 공개 ISteamChartsService 엔드포인트에서 30분마다 가져옵니다. 스팀 동시접속자만 집계되며, 콘솔·에픽·게임패스 플레이어는 포함되지 않습니다 — 어느 플랫폼사도 동등한 실시간 수치를 공개하지 않습니다.'
+            : "Player counts come from Valve's public ISteamChartsService endpoint, refreshed every 30 minutes. They are Steam concurrents only — console, Epic and Game Pass players are not included, because no platform holder publishes a comparable live figure."}
+        </li>
+      )}
+      {stores.length > 0 && (
+        <li>
+          {ko
+            ? 'App Store 수치는 애플의 공개 iTunes Lookup API에서 가져온 누적 평점 개수입니다. 인기도 대리 지표이며 접속자 수가 아닙니다. Google Play는 공개 API가 없어 안드로이드는 포함되지 않습니다.'
+            : "App Store figures are lifetime rating counts from Apple's public iTunes Lookup API — a popularity proxy, not a player count. Google Play publishes no public API, so Android is not represented."}
+        </li>
+      )}
+      {sr && (
+        <li>
+          {ko
+            ? `스피드런 순위는 speedrun.com의 「${sr.category}」 부문 상위 기록이며, 검증된 제출 기록만 포함됩니다.`
+            : `The speedrun table is the top of the "${sr.category}" category on speedrun.com and contains verified submissions only.`}
+        </li>
+      )}
+      {game.patches && (
+        <li>
+          {ko
+            ? `패치 정보는 ${game.patches.method ?? '공식 피드'} 방식으로 수집합니다. 요약은 원문에서 추출한 것이며, 전체 내용은 반드시 공식 노트를 확인하세요.`
+            : `Patch entries are collected by ${game.patches.method ?? 'official feed'}. Summaries are extracted from the source — always read the official notes for the full detail.`}
+        </li>
+      )}
+      {!s && !stores.length && !sr && (
+        <li>
+          {ko
+            ? '이 게임에 대해 공개적으로 검증 가능한 실시간 수치가 없어, 패치 정보와 관련 영상만 싣습니다.'
+            : 'No publicly verifiable live figure exists for this game, so this page carries patch tracking and related video only.'}
+        </li>
+      )}
+    </ul>
+    <p class="src">
+      <a href={localeHref('/editorial-policy', lang)}>
+        {ko ? '편집 원칙 및 데이터 정책' : 'Editorial policy and data sourcing'}
+      </a>
+    </p>
+  </aside>
 
   <p class="back mt-7">
     <a href={localeHref('/games', lang)}>← {t('nav.games')}</a>
@@ -302,6 +445,33 @@ const coverSrc = sr?.cover || s?.image || app?.artwork || null;
   .attribution { font-size: 0.78rem; color: var(--text-mute); margin-top: var(--space-4); line-height: 1.6; }
   .no-rank { border-left-color: var(--text-mute); }
   .no-rank .callout-title { color: var(--text-dim); }
+
+  .chart-read { font-size: var(--step--1); color: var(--text-dim); margin-top: var(--space-3); line-height: 1.65; max-width: 74ch; }
+
+  .facts { display: grid; gap: 0; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); margin: 0; }
+  .fact { display: flex; gap: var(--space-3); padding: var(--space-3) 0; border-bottom: 1px solid var(--border); }
+  .fact dt { flex: none; width: 8.5rem; color: var(--text-mute); font-size: var(--step--1); font-weight: 600; }
+  .fact dd { margin: 0; font-size: var(--step--1); }
+
+  .coverage { display: flex; flex-direction: column; gap: var(--space-4); }
+  .coverage li { padding-bottom: var(--space-3); border-bottom: 1px solid var(--border); }
+  .coverage a { color: var(--text); text-decoration: none; font-weight: 600; }
+  .coverage a:hover { color: var(--brand); }
+  .src-line { display: block; font-size: 0.74rem; color: var(--text-mute); margin-top: 0.25em; }
+
+  .related { display: grid; gap: var(--space-2); grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); }
+  .related a {
+    display: flex; flex-direction: column; gap: 0.15rem;
+    padding: var(--space-3) var(--space-4);
+    background: var(--bg-elev); border: 1px solid var(--border);
+    border-radius: var(--radius); text-decoration: none; color: var(--text);
+  }
+  .related a:hover { border-color: var(--brand); }
+  .related span { font-size: 0.74rem; color: var(--text-mute); }
+
+  .method ul { margin: var(--space-3) 0 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: var(--space-2); }
+  .method li { font-size: var(--step--1); color: var(--text-dim); line-height: 1.65; }
+  .method .src { margin-top: var(--space-3); font-size: var(--step--1); }
 
   .store-grid { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); }
   .release-notes { padding: var(--space-5); }
