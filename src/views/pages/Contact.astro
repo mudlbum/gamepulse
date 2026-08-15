@@ -1,13 +1,12 @@
 ---
 import { getLangFromUrl } from '../../i18n/ui';
 import { localeHref } from '../../lib/paths';
+import { SITE } from '../../config';
 const lang = getLangFromUrl(Astro.url);
 const ko = lang === 'ko';
 
-/* Replace with a real address before launch. AdSense reviewers check that a
-   contact route exists and works; a mailto to an unmonitored inbox is a common
-   reason for rejection. */
-const EMAIL = 'hello@example.com';
+// Single source of truth — see SITE.contactEmail in src/config.ts.
+const EMAIL = SITE.contactEmail;
 ---
 
 <div class="wrap-narrow prose-page">
