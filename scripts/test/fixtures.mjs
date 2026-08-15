@@ -397,3 +397,141 @@ export const valorantVersion = {
     buildDate: '2026-08-10T20:40:19Z',
   },
 };
+
+/* ------------------------------------------------------------------ *
+ * Apple App Store marketing RSS.
+ * Shape captured from a live 2026-08-15 response. Note what is faithfully
+ * reproduced here because it is what breaks naive code:
+ *   - there is NO `rank` field; position in the array IS the rank
+ *   - `genres` is present on every entry and is ALWAYS an empty array
+ *   - the chart is NOT games-only, so non-games are included on purpose
+ * ------------------------------------------------------------------ */
+const APPLE_ROWS = [
+  { id: '6762023973', name: '7 Brew Coffee', artistName: 'Brew Culture, LLC', genre: 'Food & Drink' },
+  { id: '1477376905', name: 'Roblox', artistName: 'Roblox Corporation', genre: 'Games' },
+  { id: '1094591345', name: 'Honor of Kings', artistName: 'Level Infinite', genre: 'Games' },
+  { id: '1195621598', name: 'TikTok Pro', artistName: 'TikTok Ltd.', genre: 'Entertainment' },
+  { id: '1234567890', name: 'Genshin Impact', artistName: 'COGNOSPHERE PTE. LTD.', genre: 'Games' },
+  { id: '1637438956', name: 'Monopoly GO!', artistName: 'Scopely, Inc.', genre: 'Games' },
+  { id: '1666118126', name: 'ChatGPT', artistName: 'OpenAI', genre: 'Productivity' },
+  { id: '1599719164', name: 'Honkai: Star Rail', artistName: 'COGNOSPHERE PTE. LTD.', genre: 'Games' },
+  { id: '1053012308', name: 'Royal Match', artistName: 'Dream Games', genre: 'Games' },
+  { id: '1094591346', name: 'Whiteout Survival', artistName: 'Century Games', genre: 'Games' },
+];
+
+export const appleChart = (cc = 'us') => ({
+  feed: {
+    title: cc === 'kr' ? '무료 앱 순위' : 'Top Free Apps',
+    id: `https://rss.marketingtools.apple.com/api/v2/${cc}/apps/top-free/50/apps.json`,
+    author: { name: 'Apple', url: 'https://www.apple.com/' },
+    copyright: 'Copyright © 2026 Apple Inc. All rights reserved.',
+    country: cc,
+    updated: new Date().toUTCString(),
+    results: APPLE_ROWS.map((r) => ({
+      artistName: r.artistName,
+      id: r.id,
+      name: r.name,
+      releaseDate: '2026-08-11',
+      kind: 'apps',
+      artworkUrl100: `https://is1-ssl.mzstatic.com/image/thumb/${r.id}/100x100bb.png`,
+      genres: [], // always empty in the real payload
+      url: `https://apps.apple.com/${cc}/app/id${r.id}`,
+    })),
+  },
+});
+
+export const itunesLookup = (idsCsv) => {
+  const ids = String(idsCsv || '').split(',');
+  const rows = APPLE_ROWS.filter((r) => ids.includes(r.id));
+  return {
+    resultCount: rows.length,
+    results: rows.map((r) => ({
+      trackId: Number(r.id),
+      trackName: r.name,
+      primaryGenreName: r.genre,
+      artistName: r.artistName,
+    })),
+  };
+};
+
+/* ------------------------------------------------------------------ *
+ * speedrun.com v1. Reproduces all four documented traps:
+ *   - embed=players returns ONE flat list at data.players.data[], and
+ *     data.runs[].run.players stays as unresolved stubs
+ *   - a guest player has a flat `name` and NO id and NO names object
+ *   - `videos` may be null entirely, and `date` may be null
+ *   - ties mean top=N can return more than N runs
+ * ------------------------------------------------------------------ */
+export const srGameSearch = (name) => ({
+  data: [
+    {
+      id: 'nd28z0ed',
+      names: { international: decodeURIComponent(name || 'ELDEN RING'), japanese: null },
+      abbreviation: 'eldenring',
+      weblink: 'https://www.speedrun.com/eldenring',
+      released: 2022,
+      assets: { 'cover-medium': { uri: 'https://www.speedrun.com/static/game/nd28z0ed/cover' } },
+    },
+  ],
+});
+
+export const srCategories = {
+  data: [
+    { id: 'misc1', name: 'Meme Runs', type: 'per-game', miscellaneous: true, rules: 'Silly stuff.' },
+    { id: 'w20p0zkn', name: 'Any%', type: 'per-game', miscellaneous: false, rules: 'Beat the game.' },
+    { id: 'lvl1', name: 'Individual Level', type: 'per-level', miscellaneous: false, rules: '' },
+  ],
+};
+
+export const srLeaderboard = {
+  data: {
+    weblink: 'https://www.speedrun.com/eldenring/Any',
+    game: 'nd28z0ed',
+    category: 'w20p0zkn',
+    level: null,
+    timing: 'realtime',
+    runs: [
+      {
+        place: 1,
+        run: {
+          id: 'r1', weblink: 'https://www.speedrun.com/run/r1',
+          times: { primary: 'PT5M50S', primary_t: 350.5 },
+          players: [{ rel: 'user', id: 'u1', uri: 'https://www.speedrun.com/user/u1' }],
+          videos: { links: [{ uri: 'https://youtube.com/watch?v=abc' }] },
+          date: '2026-07-14',
+        },
+      },
+      {
+        // Tie on place 2 — two runs share the placement.
+        place: 2,
+        run: {
+          id: 'r2', weblink: 'https://www.speedrun.com/run/r2',
+          times: { primary: 'PT6M1S', primary_t: 361 },
+          players: [{ rel: 'guest', name: 'AnonRunner', uri: 'https://www.speedrun.com/guest/AnonRunner' }],
+          videos: null,          // no video at all
+          date: null,            // unknown date
+        },
+      },
+      {
+        place: 2,
+        run: {
+          id: 'r3', weblink: 'https://www.speedrun.com/run/r3',
+          times: { primary: 'PT6M1S', primary_t: 361 },
+          players: [
+            { rel: 'user', id: 'u2', uri: 'https://www.speedrun.com/user/u2' },
+            { rel: 'user', id: 'u3', uri: 'https://www.speedrun.com/user/u3' },
+          ],
+          videos: { text: 'twitch vod, link broken' }, // links absent
+          date: '2026-06-30',
+        },
+      },
+    ],
+    players: {
+      data: [
+        { rel: 'user', id: 'u1', names: { international: 'Distortion2' }, weblink: 'https://www.speedrun.com/user/Distortion2' },
+        { rel: 'user', id: 'u2', names: { international: 'Mitchriz' }, weblink: 'https://www.speedrun.com/user/Mitchriz' },
+        { rel: 'user', id: 'u3', names: { international: 'LilAggy' }, weblink: 'https://www.speedrun.com/user/LilAggy' },
+      ],
+    },
+  },
+};

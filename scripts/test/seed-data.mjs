@@ -38,6 +38,7 @@ globalThis.fetch = async (url) => {
   const json = (v) => new Response(JSON.stringify(v), { status: 200, headers: { 'content-type': 'application/json' } });
   const xml = (v) => new Response(v, { status: 200, headers: { 'content-type': 'application/xml' } });
 
+  if (u.includes('GetGamesByConcurrentPlayers')) return json(F.steamConcurrent);
   if (u.includes('GetMostPlayedGames')) return json(F.steamChart);
   if (u.includes('appdetails')) return json(F.steamAppDetails(new URL(u).searchParams.get('appids')));
   if (u.includes('GetNumberOfCurrentPlayers')) return json({ response: { player_count: 50000, result: 1 } });
@@ -58,6 +59,11 @@ globalThis.fetch = async (url) => {
     const handle = actor.startsWith('did:') ? 'sample.bsky.social' : actor;
     return json(F.bskyAuthorFeed(handle, handle.split('.')[0]));
   }
+  if (u.includes('rss.marketingtools.apple.com')) return json(F.appleChart(new URL(u).pathname.split('/')[4]));
+  if (u.includes('itunes.apple.com/lookup')) return json(F.itunesLookup(new URL(u).searchParams.get('id')));
+  if (u.includes('speedrun.com/api/v1/games?name=')) return json(F.srGameSearch(new URL(u).searchParams.get('name')));
+  if (u.includes('/categories')) return json(F.srCategories);
+  if (u.includes('speedrun.com/api/v1/leaderboards')) return json(F.srLeaderboard);
   if (u.includes('freeGamesPromotions')) return json(F.epicFree);
   if (u.includes('cheapshark.com/api/1.0/deals')) return json(F.cheapSharkDeals);
   if (u.includes('cheapshark.com/api/1.0/stores')) return json(F.cheapSharkStores);
@@ -135,6 +141,8 @@ const { fetchClips } = await import('../fetch-clips.mjs');
 const { fetchCosplay } = await import('../fetch-cosplay.mjs');
 const { fetchDeals } = await import('../fetch-deals.mjs');
 const { fetchNews } = await import('../fetch-news.mjs');
+const { fetchMobile } = await import('../fetch-mobile.mjs');
+const { fetchSpeedruns } = await import('../fetch-speedruns.mjs');
 
 /* Run the leaderboard several times with the clock rolled back so the seeded
    preview has a real history curve — sparklines and 24h deltas are a core part
@@ -160,6 +168,8 @@ const datasets = {
   deals: await fetchDeals(),
   cosplay: await fetchCosplay(),
   news: await fetchNews(),
+  mobile: await fetchMobile(),
+  speedruns: await fetchSpeedruns(),
 };
 
 for (const dir of DIRS) await mkdir(dir, { recursive: true });

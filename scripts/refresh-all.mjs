@@ -22,6 +22,8 @@ import { fetchClips } from './fetch-clips.mjs';
 import { fetchCosplay } from './fetch-cosplay.mjs';
 import { fetchDeals } from './fetch-deals.mjs';
 import { fetchNews } from './fetch-news.mjs';
+import { fetchMobile } from './fetch-mobile.mjs';
+import { fetchSpeedruns } from './fetch-speedruns.mjs';
 import { log, warn } from './lib/http.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -38,6 +40,8 @@ const TASKS = [
   { name: 'deals', run: fetchDeals },
   { name: 'cosplay', run: () => fetchCosplay({ discover }) },
   { name: 'news', run: fetchNews },
+  { name: 'mobile', run: fetchMobile },
+  { name: 'speedruns', run: fetchSpeedruns },
 ];
 
 async function main() {

@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import GamePage from '../../views/GamePage.astro';
+import { buildGameIndex } from '../../lib/games';
+import { localeHref } from '../../lib/paths';
+
+export function getStaticPaths() {
+  return buildGameIndex().map((game) => ({ params: { slug: game.slug }, props: { game } }));
+}
+
+const { game } = Astro.props;
+const s = game.steam;
+const desc = s
+  ? `${game.name} is #${s.rank} on Steam with ${s.current.toLocaleString('en-US')} players in game right now. Live concurrent counts, 8-day trend, peak, patch notes${game.speedrun ? ' and the current speedrun leaderboard' : ''}, refreshed every 30 minutes.`
+  : `${game.name}: the latest patch notes, related clips${game.speedrun ? ' and the current speedrun leaderboard' : ''}, plus a straight answer on whether any public player ranking exists for this game. Updated automatically.`;
+
+/* Google truncates <title> near 60 chars and the layout appends " | GamePulse"
+   (12 more), so a long game name has to drop the descriptive suffix rather
+   than get cut mid-phrase in results. */
+const SUFFIX = ' — live players & leaderboard';
+const title = (game.name + SUFFIX).length <= 58 ? game.name + SUFFIX : game.name;
+
+const schema = [{
+  '@type': 'VideoGame',
+  name: game.name,
+  ...(game.platforms.length ? { gamePlatform: game.platforms } : {}),
+  ...(s ? { aggregateRating: undefined } : {}),
+}];
+---
+<BaseLayout
+  title={title}
+  description={desc}
+  schema={schema}
+  breadcrumbs={[
+    { name: 'Home', url: localeHref('/', 'en') },
+    { name: 'Leaderboards', url: localeHref('/leaderboards', 'en') },
+    { name: game.name, url: Astro.url.pathname },
+  ]}
+>
+  <GamePage game={game} />
+</BaseLayout>

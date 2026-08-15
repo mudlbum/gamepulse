@@ -1,0 +1,244 @@
+---
+import Sparkline from '../components/Sparkline.astro';
+import ClipCard from '../components/ClipCard.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { localeHref, formatNumber, formatCompact, formatDate, relativeTime } from '../lib/paths';
+import { noRankingReason } from '../lib/games';
+import type { GameEntry } from '../lib/games';
+
+export interface Props { game: GameEntry }
+const { game } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const ko = lang === 'ko';
+
+const s = game.steam;
+const sr = game.speedrun;
+const platformLabel: Record<string, string> = {
+  pc: 'PC', playstation: 'PlayStation', xbox: 'Xbox', switch: 'Switch', mobile: 'Mobile', vr: 'VR',
+};
+---
+
+<div class="wrap">
+  <nav class="crumbs" aria-label="Breadcrumb">
+    <a href={localeHref('/', lang)}>{t('nav.home')}</a>
+    <span aria-hidden="true">/</span>
+    <a href={localeHref('/leaderboards', lang)}>{t('nav.leaderboards')}</a>
+    <span aria-hidden="true">/</span>
+    <span aria-current="page">{game.name}</span>
+  </nav>
+
+  <header class="game-head">
+    {(sr?.cover || s?.image) && (
+      <img class="cover" src={sr?.cover || s?.image} alt="" loading="eager" width="120" height="160" />
+    )}
+    <div>
+      <div class="tags-row">
+        {game.platforms.map((p) => <span class="badge">{platformLabel[p] ?? p}</span>)}
+        {s?.free && <span class="badge badge-brand">F2P</span>}
+      </div>
+      <h1>{game.name}</h1>
+      {s && (
+        <p class="lede">
+          {ko
+            ? `스팀 동시접속자 순위 ${s.rank}위, 현재 ${formatNumber(s.current, lang)}명이 플레이 중입니다.`
+            : `#${s.rank} on Steam right now with ${formatNumber(s.current, lang)} players in game.`}
+        </p>
+      )}
+      <div class="head-links">
+        {s?.url && <a class="btn btn-sm" href={s.url} rel="noopener nofollow" target="_blank">Steam ↗</a>}
+        {game.patches?.official && (
+          <a class="btn btn-sm" href={game.patches.official} rel="noopener nofollow" target="_blank">
+            {ko ? '공식 패치노트' : 'Official patch notes'} ↗
+          </a>
+        )}
+        {sr?.boardWeblink && (
+          <a class="btn btn-sm" href={sr.boardWeblink} rel="noopener nofollow" target="_blank">speedrun.com ↗</a>
+        )}
+      </div>
+    </div>
+  </header>
+
+  {/* ---------- Live Steam numbers ---------- */}
+  {s && (
+    <section class="mt-6">
+      <div class="section-head"><h2>{ko ? '실시간 플레이어' : 'Live players'}</h2></div>
+      <div class="stat-row">
+        <div class="stat">
+          <span class="stat-label">{t('lb.players')}</span>
+          <strong class="stat-value">{formatNumber(s.current, lang)}</strong>
+        </div>
+        <div class="stat">
+          <span class="stat-label">{t('lb.peak')}</span>
+          <strong class="stat-value">{s.peak ? formatCompact(s.peak, lang) : '—'}</strong>
+        </div>
+        <div class="stat">
+          <span class="stat-label">{t('lb.rank')}</span>
+          <strong class="stat-value">#{s.rank}</strong>
+          {s.rankChange != null && s.rankChange !== 0 && (
+            <span class={s.rankChange > 0 ? 'stat-sub text-up' : 'stat-sub text-down'}>
+              {s.rankChange > 0 ? '▲' : '▼'}{Math.abs(s.rankChange)} {ko ? '지난 갱신 대비' : 'since last refresh'}
+            </span>
+          )}
+        </div>
+        <div class="stat">
+          <span class="stat-label">{t('lb.change')}</span>
+          <strong class:list={['stat-value', s.change24h == null ? '' : s.change24h >= 0 ? 'text-up' : 'text-down']}>
+            {s.change24h == null ? '—' : `${s.change24h >= 0 ? '+' : ''}${s.change24h.toFixed(1)}%`}
+          </strong>
+        </div>
+      </div>
+      {s.spark?.length > 1 && (
+        <div class="chart card">
+          <span class="chart-label">{ko ? '최근 8일 추이' : 'Last 8 days'}</span>
+          <Sparkline values={s.spark} width={640} height={90} label={`${game.name} player trend`} />
+        </div>
+      )}
+    </section>
+  )}
+
+  <AdSlot slot="inArticle" />
+
+  {/* ---------- Player ranking ---------- */}
+  <section class="mt-7">
+    <div class="section-head">
+      <h2>{ko ? '플레이어 순위' : 'Player leaderboard'}</h2>
+      {sr && <span class="badge badge-brand">{sr.category}</span>}
+    </div>
+
+    {sr ? (
+      <>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col" style="width:3.5rem">#</th>
+                <th scope="col">{ko ? '주자' : 'Runner'}</th>
+                <th scope="col" class="num">{ko ? '기록' : 'Time'}</th>
+                <th scope="col" class="hide-sm">{ko ? '날짜' : 'Date'}</th>
+                <th scope="col" class="hide-sm" style="width:5rem">{ko ? '영상' : 'Video'}</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sr.runs.map((r: any) => (
+                <tr>
+                  <td class="rank-cell" data-top={r.place <= 3 ? r.place : undefined}>{r.place}</td>
+                  <td>
+                    {r.players.map((p: any, i: number) => (
+                      <>
+                        {i > 0 && <span class="text-mute">, </span>}
+                        {p.url ? (
+                          <a href={p.url} rel="noopener nofollow" target="_blank">{p.name}</a>
+                        ) : (
+                          <span>{p.name}</span>
+                        )}
+                        {p.guest && <span class="badge guest">guest</span>}
+                      </>
+                    ))}
+                  </td>
+                  <td class="num mono"><strong>{r.time}</strong></td>
+                  <td class="hide-sm text-mute">{r.date ? formatDate(r.date, lang) : '—'}</td>
+                  <td class="hide-sm">
+                    {r.video ? (
+                      <a href={r.video} rel="noopener nofollow" target="_blank">▶ {ko ? '보기' : 'Watch'}</a>
+                    ) : (
+                      <span class="text-mute">—</span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        {sr.hasTies && (
+          <p class="fine">{ko ? '동일 순위(동률)가 포함되어 있습니다.' : 'This board contains tied placements.'}</p>
+        )}
+        <p class="attribution">
+          {ko ? '기록 데이터 제공: ' : 'Run data from '}
+          <a href={sr.boardWeblink ?? 'https://www.speedrun.com/'} rel="noopener" target="_blank">speedrun.com</a>
+          {ko ? ' — CC BY-NC 4.0 라이선스에 따라 출처를 표기합니다.' : ', used under CC BY-NC 4.0 with attribution.'}
+          {sr.timing && <> {ko ? '계측 방식' : 'Timed by'}: <code>{sr.timing}</code>.</>}
+        </p>
+      </>
+    ) : (
+      <aside class="callout no-rank">
+        <p class="callout-title">{ko ? '공개된 순위 없음' : 'No public ranking available'}</p>
+        <p>{noRankingReason(game.name, lang)}</p>
+      </aside>
+    )}
+  </section>
+
+  {/* ---------- Patch notes ---------- */}
+  {game.patches?.entries?.length > 0 && (
+    <section class="mt-7">
+      <div class="section-head"><h2>{ko ? '최근 업데이트' : 'Recent updates'}</h2></div>
+      <ul role="list" class="patches">
+        {game.patches.entries.slice(0, 5).map((e: any) => (
+          <li>
+            <div class="patch-top">
+              {e.version && <span class="badge badge-brand">{e.version}</span>}
+              {e.date && <time datetime={e.date}>{relativeTime(e.date, lang)}</time>}
+            </div>
+            <a href={e.url} rel="noopener nofollow" target="_blank">{e.title}</a>
+            {e.summary && <p class="clamp-2">{e.summary}</p>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {/* ---------- Clips ---------- */}
+  {game.clips.length > 0 && (
+    <section class="mt-7">
+      <div class="section-head"><h2>{ko ? '관련 영상' : 'Clips mentioning this game'}</h2></div>
+      <div class="grid grid-auto">
+        {game.clips.map((c: any) => <ClipCard clip={c} />)}
+      </div>
+    </section>
+  )}
+
+  <p class="back mt-7">
+    <a href={localeHref('/leaderboards', lang)}>← {t('nav.leaderboards')}</a>
+  </p>
+</div>
+
+<style>
+  .crumbs { display: flex; gap: 0.5rem; font-size: var(--step--1); color: var(--text-mute); margin-bottom: var(--space-5); flex-wrap: wrap; }
+  .crumbs a { color: var(--text-mute); text-decoration: none; }
+  .crumbs a:hover { color: var(--brand); }
+
+  .game-head { display: flex; gap: var(--space-5); align-items: flex-start; flex-wrap: wrap; }
+  .cover { width: 120px; height: auto; border-radius: var(--radius); border: 1px solid var(--border); flex: none; }
+  .game-head h1 { font-size: var(--step-4); margin-block: 0.15em 0.3em; }
+  .tags-row { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+  .head-links { display: flex; gap: var(--space-2); flex-wrap: wrap; margin-top: var(--space-4); }
+  .head-links a { text-decoration: none; }
+
+  .stat-row { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr)); }
+  .stat { background: var(--bg-elev); border: 1px solid var(--border); border-radius: var(--radius); padding: var(--space-4); display: flex; flex-direction: column; gap: 0.15rem; }
+  .stat-label { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-mute); font-weight: 640; }
+  .stat-value { font-size: var(--step-2); font-weight: 700; font-variant-numeric: tabular-nums; }
+  .stat-sub { font-size: var(--step--1); color: var(--text-dim); }
+
+  .chart { margin-top: var(--space-4); padding: var(--space-5); }
+  .chart:hover { transform: none; }
+  .chart-label { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-mute); font-weight: 640; margin-bottom: var(--space-3); }
+  .chart :global(.spark) { width: 100%; height: 90px; }
+
+  .guest { font-size: 0.62rem; margin-left: 0.35em; padding-inline: 0.4em; }
+  .fine { font-size: 0.76rem; color: var(--text-mute); margin-top: var(--space-3); }
+  .attribution { font-size: 0.78rem; color: var(--text-mute); margin-top: var(--space-4); line-height: 1.6; }
+  .no-rank { border-left-color: var(--text-mute); }
+  .no-rank .callout-title { color: var(--text-dim); }
+
+  .patches { display: flex; flex-direction: column; gap: var(--space-4); }
+  .patches li { padding-bottom: var(--space-4); border-bottom: 1px solid var(--border); }
+  .patch-top { display: flex; align-items: center; gap: var(--space-2); margin-bottom: 0.3rem; }
+  .patch-top time { font-size: 0.72rem; color: var(--text-mute); }
+  .patches a { color: var(--text); text-decoration: none; font-weight: 600; }
+  .patches a:hover { color: var(--brand); }
+  .patches p { font-size: var(--step--1); color: var(--text-dim); margin-top: 0.35em; }
+
+  .back a { font-weight: 600; text-decoration: none; }
+</style>

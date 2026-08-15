@@ -54,6 +54,14 @@ export async function request(url, opts = {}) {
 
       if (res.ok) return res;
 
+      /* 420 is speedrun.com's rate-limit status (100 req/min per IP). It is not
+         429 and not in any RFC, so a generic "retry only on 429" rule treats it
+         as fatal and silently drops the whole leaderboard. */
+      if (res.status === 420) {
+        warn(scope, `rate limited (420) on attempt ${attempt + 1}/${retries + 1} — backing off`);
+        if (attempt < retries) await sleep(4000 * (attempt + 1));
+        continue;
+      }
       // 4xx other than 408/429 will not succeed on retry — bail immediately.
       if (res.status >= 400 && res.status < 500 && res.status !== 429 && res.status !== 408) {
         warn(scope, `${res.status} ${res.statusText} — ${short(url)} (not retrying)`);

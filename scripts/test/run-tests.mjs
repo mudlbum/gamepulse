@@ -573,6 +573,143 @@ section('News clustering');
   });
 }
 
+
+/* ---------- mobile ---------- */
+section('Mobile charts');
+{
+  const { fetchMobile } = await import('../fetch-mobile.mjs');
+
+  const appleMocks = () => [
+    ['rss.marketingtools.apple.com', (u) => F.appleChart(new URL(u).pathname.split('/')[4])],
+    ['itunes.apple.com/lookup', (u) => F.itunesLookup(new URL(u).searchParams.get('id'))],
+  ];
+
+  await test('filters the general app chart down to games only', async () => {
+    mockFetch(appleMocks());
+    const m = await fetchMobile();
+    assert.ok(m, 'returned null');
+    const names = m.charts.us['top-free'].map((g) => g.name);
+    assert.ok(names.includes('Roblox'), 'lost a real game');
+    // The live chart is NOT games-only and ?genre= is silently ignored, so these
+    // must be filtered out client-side or the page shows a coffee app at #1.
+    assert.ok(!names.includes('7 Brew Coffee'), 'a coffee app was listed as a top game');
+    assert.ok(!names.includes('ChatGPT'), 'a productivity app was listed as a top game');
+    assert.ok(!names.includes('TikTok Pro'), 'an entertainment app was listed as a top game');
+  });
+
+  await test('synthesises rank from array position (no rank field exists)', async () => {
+    mockFetch(appleMocks());
+    const m = await fetchMobile();
+    const ranks = m.charts.us['top-free'].map((g) => g.rank);
+    assert.deepEqual(ranks, ranks.map((_, i) => i + 1), 'ranks are not 1..n');
+  });
+
+  await test('includes the Korean storefront', async () => {
+    mockFetch(appleMocks());
+    const m = await fetchMobile();
+    assert.ok(m.charts.kr, 'no Korean chart');
+    assert.ok(m.charts.kr['top-free'].length > 0);
+  });
+
+  await test('SKIPS a storefront rather than showing unfiltered apps when lookup fails', async () => {
+    mockFetch([
+      ['rss.marketingtools.apple.com', (u) => F.appleChart(new URL(u).pathname.split('/')[4])],
+      ['itunes.apple.com/lookup', null], // genre lookup down
+    ]);
+    const m = await fetchMobile();
+    assert.equal(m, null, 'showed an unfiltered app list instead of nothing');
+  });
+
+  await test('reports that Android is unavailable', async () => {
+    mockFetch(appleMocks());
+    const m = await fetchMobile();
+    assert.equal(m.androidAvailable, false);
+    assert.match(m.note, /Google Play/);
+  });
+}
+
+/* ---------- speedruns ---------- */
+section('Speedrun leaderboards');
+{
+  const { fetchSpeedruns } = await import('../fetch-speedruns.mjs');
+
+  const srMocks = () => [
+    ['speedrun.com/api/v1/games?name=', (u) => F.srGameSearch(new URL(u).searchParams.get('name'))],
+    ['/categories', F.srCategories],
+    ['speedrun.com/api/v1/leaderboards', F.srLeaderboard],
+  ];
+
+  await test('builds a per-game runner leaderboard', async () => {
+    mockFetch(srMocks());
+    const sr = await fetchSpeedruns();
+    assert.ok(sr, 'returned null');
+    const board = Object.values(sr.boards)[0];
+    assert.ok(board.runs.length >= 3);
+    assert.equal(board.runs[0].place, 1);
+    assert.equal(board.category, 'Any%', 'picked a miscellaneous or per-level category');
+  });
+
+  await test('TRAP: joins players from the flat embed list, not from run stubs', async () => {
+    mockFetch(srMocks());
+    const sr = await fetchSpeedruns();
+    const board = Object.values(sr.boards)[0];
+    // embed=players returns ONE list at data.players.data[]; run.players stays
+    // as id stubs. Without the join every name would be "Unknown".
+    assert.equal(board.runs[0].players[0].name, 'Distortion2');
+    assert.ok(!board.runs.some((r) => r.players.some((p) => p.name === 'Unknown')), 'a player failed to resolve');
+  });
+
+  await test('TRAP: handles guest players, which have a flat name and no id', async () => {
+    mockFetch(srMocks());
+    const sr = await fetchSpeedruns();
+    const board = Object.values(sr.boards)[0];
+    const guest = board.runs.flatMap((r) => r.players).find((p) => p.guest);
+    assert.ok(guest, 'no guest player found in fixture');
+    assert.equal(guest.name, 'AnonRunner', 'guest name read from the wrong field');
+  });
+
+  await test('TRAP: survives null videos and null dates', async () => {
+    mockFetch(srMocks());
+    const sr = await fetchSpeedruns();
+    const board = Object.values(sr.boards)[0];
+    const noVideo = board.runs.find((r) => r.video === null);
+    assert.ok(noVideo, 'null-video run was dropped or crashed');
+    assert.equal(noVideo.date, null);
+    // videos.text present but videos.links absent must also yield null, not throw.
+    assert.ok(board.runs.every((r) => r.video === null || typeof r.video === 'string'));
+  });
+
+  await test('TRAP: preserves ties (top=N can return more than N runs)', async () => {
+    mockFetch(srMocks());
+    const sr = await fetchSpeedruns();
+    const board = Object.values(sr.boards)[0];
+    const places = board.runs.map((r) => r.place);
+    assert.equal(places.filter((p) => p === 2).length, 2, 'tie was collapsed');
+    assert.equal(board.hasTies, true);
+  });
+
+  await test('formats run times from primary_t seconds', async () => {
+    mockFetch(srMocks());
+    const sr = await fetchSpeedruns();
+    const board = Object.values(sr.boards)[0];
+    assert.equal(board.runs[0].time, '5:50.500');
+    assert.equal(board.runs[1].time, '6:01');
+  });
+
+  await test('carries the CC-BY-NC attribution requirement in the payload', async () => {
+    mockFetch(srMocks());
+    const sr = await fetchSpeedruns();
+    assert.match(sr.licence, /CC-BY-NC/);
+    assert.ok(Object.values(sr.boards)[0].boardWeblink, 'lost the attribution link');
+  });
+
+  await test('returns null when speedrun.com is unreachable', async () => {
+    mockFetch([['speedrun.com', null]]);
+    const sr = await fetchSpeedruns();
+    assert.equal(sr, null);
+  });
+}
+
 /* ---------- text utilities ---------- */
 section('Text utilities');
 {

@@ -225,6 +225,20 @@ export const ENDPOINTS = {
   cheapSharkDeals:
     'https://www.cheapshark.com/api/1.0/deals?storeID=1,7,8,11,25&upperPrice=60&pageSize=40&sortBy=Savings&onSale=1',
   cheapSharkStores: 'https://www.cheapshark.com/api/1.0/stores',
+  /* speedrun.com v1. Keyless reads, 100 req/min per IP, rate-limit status is
+     420 (not 429). Content is CC-BY-NC 4.0 — attribution required. */
+  speedrunBase: 'https://www.speedrun.com/api/v1',
+
+  /* Apple marketing RSS. Verified live 2026-08-15 on this exact host —
+     rss.marketing.services.apple.com does not resolve at all, and
+     rss.applemarketingtools.com only 302-redirects here. No games-only path
+     exists and ?genre= is silently ignored, so filtering needs itunesLookup. */
+  appleChart: (cc, kind, limit = 50) =>
+    `https://rss.marketingtools.apple.com/api/v2/${cc}/apps/${kind}/${limit}/apps.json`,
+  /* Accepts up to 200 comma-separated ids per call and returns primaryGenreName. */
+  itunesLookup: (ids, cc = 'us') =>
+    `https://itunes.apple.com/lookup?id=${ids.join(',')}&country=${cc}&entity=software&limit=200`,
+
   bskyAuthorFeed: (actor, limit = 12) =>
     `https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=${encodeURIComponent(actor)}&limit=${limit}&filter=posts_with_media`,
   bskyProfile: (actor) =>

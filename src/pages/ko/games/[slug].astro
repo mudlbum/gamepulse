@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import GamePage from '../../../views/GamePage.astro';
+import { buildGameIndex } from '../../../lib/games';
+import { localeHref } from '../../../lib/paths';
+
+export function getStaticPaths() {
+  return buildGameIndex().map((game) => ({ params: { slug: game.slug }, props: { game } }));
+}
+
+const { game } = Astro.props;
+const s = game.steam;
+const desc = s
+  ? `${game.name} 스팀 동시접속자 ${s.rank}위, 현재 ${s.current.toLocaleString('ko-KR')}명이 플레이 중입니다. 30분마다 갱신되는 실시간 접속자 수와 오늘 최고치, 8일 추이, 최신 패치노트${game.speedrun ? ', 스피드런 순위' : ''}를 한 페이지에서 확인하세요.`
+  : `${game.name}의 최신 패치노트와 관련 영상${game.speedrun ? ', 스피드런 기록 순위' : ''}을 자동으로 수집해 정리합니다. 이 게임에 공개된 플레이어 순위가 있는지, 없다면 왜 없는지도 솔직하게 밝혀 두었습니다.`;
+
+const SUFFIX = ' — 실시간 접속자 및 순위';
+const title = (game.name + SUFFIX).length <= 52 ? game.name + SUFFIX : game.name;
+---
+<BaseLayout
+  title={title}
+  description={desc}
+  schema={[{ '@type': 'VideoGame', name: game.name, ...(game.platforms.length ? { gamePlatform: game.platforms } : {}) }]}
+  breadcrumbs={[
+    { name: '홈', url: localeHref('/', 'ko') },
+    { name: '실시간 순위', url: localeHref('/leaderboards', 'ko') },
+    { name: game.name, url: Astro.url.pathname },
+  ]}
+>
+  <GamePage game={game} />
+</BaseLayout>

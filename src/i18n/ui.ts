@@ -39,7 +39,7 @@ export const ui = {
     'lb.risers': 'Climbing',
     'lb.fallers': 'Falling',
     'lb.total': 'Total players across top 100',
-    'lb.note': 'Steam concurrents only. Console and mobile players are not included — no platform holder publishes a comparable live figure.',
+    'lb.note': 'Player counts are Steam concurrents only — no console platform holder publishes a comparable live figure, so console players are absent. The mobile section is an App Store chart position, not a player count.',
 
     'up.title': 'Game Update Tracker',
     'up.sub': 'Patch notes and season launches for the biggest live-service games, pulled straight from official sources.',
@@ -152,7 +152,7 @@ export const ui = {
     'lb.risers': '상승',
     'lb.fallers': '하락',
     'lb.total': '상위 100개 게임 총 접속자',
-    'lb.note': '스팀 동시접속자 기준입니다. 콘솔과 모바일은 플랫폼사가 동등한 실시간 수치를 공개하지 않아 포함되지 않습니다.',
+    'lb.note': '접속자 수는 스팀 동시접속자 기준입니다. 콘솔은 플랫폼사가 동등한 실시간 수치를 공개하지 않아 포함되지 않습니다. 모바일 항목은 앱스토어 차트 순위이며 접속자 수가 아닙니다.',
 
     'up.title': '게임 업데이트 트래커',
     'up.sub': '주요 라이브 서비스 게임의 패치노트와 시즌 소식을 공식 출처에서 바로 가져옵니다.',

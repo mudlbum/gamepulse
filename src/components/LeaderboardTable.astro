@@ -1,7 +1,8 @@
 ---
 import Sparkline from './Sparkline.astro';
 import { getLangFromUrl, useTranslations } from '../i18n/ui';
-import { formatNumber, formatCompact } from '../lib/paths';
+import { formatNumber, formatCompact, localeHref } from '../lib/paths';
+import { gameSlug } from '../lib/games';
 
 export interface Props {
   entries: any[];
@@ -43,11 +44,20 @@ const rows = limit ? entries.slice(0, limit) : entries;
             )}
           </td>
           <td>
-            <a class="game" href={e.url} rel="noopener nofollow" target="_blank">
-              <img src={e.image} alt="" width="46" height="21" loading="lazy" decoding="async" />
-              <span class="game-name">{e.name}</span>
-              {e.free && <span class="badge badge-brand hide-sm">F2P</span>}
-            </a>
+            {/* Apps whose store metadata has not resolved yet are named
+                "App 12345" and get no page, so they must not be linked. */}
+            {/^App \d+$/.test(e.name) ? (
+              <span class="game">
+                <img src={e.image} alt="" width="46" height="21" loading="lazy" decoding="async" />
+                <span class="game-name text-mute">{e.name}</span>
+              </span>
+            ) : (
+              <a class="game" href={localeHref(`/games/${gameSlug(e.name)}`, lang)}>
+                <img src={e.image} alt="" width="46" height="21" loading="lazy" decoding="async" />
+                <span class="game-name">{e.name}</span>
+                {e.free && <span class="badge badge-brand hide-sm">F2P</span>}
+              </a>
+            )}
           </td>
           <td class="num players" data-players={e.current}>{formatNumber(e.current, lang)}</td>
           {!compact && <td class="num hide-sm text-mute">{e.peak ? formatCompact(e.peak, lang) : '—'}</td>}
