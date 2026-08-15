@@ -17,6 +17,8 @@ export interface Props {
   section?: string;
   tags?: string[];
   noindex?: boolean;
+  /** Also stop crawlers following outbound links. Only right for real dead ends. */
+  nofollow?: boolean;
   /** Extra JSON-LD graph nodes to merge into the page's @graph. */
   schema?: Record<string, unknown>[];
   /** Question/answer pairs — emitted as FAQPage and highly quotable by AI engines. */
@@ -37,6 +39,7 @@ const {
   section,
   tags = [],
   noindex = false,
+  nofollow = false,
   schema = [],
   faq = [],
   breadcrumbs = [],
@@ -61,6 +64,19 @@ const ogImage = image
       : absolute(image, siteOrigin)
   : absolute('/og-default.png', siteOrigin);
 
+/* Google truncates meta descriptions around 160 characters. Individual pages
+   kept drifting past it (the Steam game pages were reaching 195), so the clamp
+   lives here rather than in fifteen call sites — cut on a word boundary, never
+   mid-word, and only when it is actually too long. */
+const MAX_DESC = 158;
+const metaDescription = (() => {
+  const d = description.trim();
+  if (d.length <= MAX_DESC) return d;
+  const cut = d.slice(0, MAX_DESC);
+  const at = Math.max(cut.lastIndexOf(' '), cut.lastIndexOf('. '));
+  return (at > MAX_DESC * 0.6 ? cut.slice(0, at) : cut).replace(/[,.;:\s]+$/, '') + '…';
+})();
+
 const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline[lang]}` : `${title} | ${SITE.name}`;
 const locale = lang === 'ko' ? 'ko_KR' : 'en_US';
 
@@ -78,7 +94,11 @@ const graph: Record<string, unknown>[] = [
     url: siteRoot,
     description: SITE.description[lang],
     logo: { '@type': 'ImageObject', url: absolute('/logo.png', siteOrigin), width: 512, height: 512 },
-    sameAs: Object.values(SITE.social).filter(Boolean),
+    // Omitted entirely when there are no profiles — an empty sameAs array is a
+    // validator warning and tells Google nothing.
+    ...(Object.values(SITE.social).filter(Boolean).length
+      ? { sameAs: Object.values(SITE.social).filter(Boolean) }
+      : {}),
   },
   {
     '@type': 'WebSite',
@@ -88,18 +108,17 @@ const graph: Record<string, unknown>[] = [
     description: SITE.description[lang],
     publisher: { '@id': orgId },
     inLanguage: lang === 'ko' ? 'ko-KR' : 'en-US',
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: { '@type': 'EntryPoint', urlTemplate: `${siteRoot}search?q={search_term_string}` },
-      'query-input': 'required name=search_term_string',
-    },
+    /* No SearchAction. It used to advertise /search?q= — a page that does not
+       exist and that robots.txt disallows. Declaring a sitelinks search box for
+       a missing endpoint is a structured-data error, not a free feature. Add it
+       back the same day a real search page ships. */
   },
   {
     '@type': 'WebPage',
     '@id': `${canonical}#webpage`,
     url: canonical,
     name: fullTitle,
-    description,
+    description: metaDescription,
     isPartOf: { '@id': siteId },
     inLanguage: lang === 'ko' ? 'ko-KR' : 'en-US',
     ...(modifiedTime ? { dateModified: new Date(modifiedTime).toISOString() } : {}),
@@ -138,20 +157,23 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 ---
 
 <title>{fullTitle}</title>
-<meta name="description" content={description} />
+<meta name="description" content={metaDescription} />
 <link rel="canonical" href={canonical} />
 
 <link rel="alternate" hreflang="en" href={enUrl} />
 <link rel="alternate" hreflang="ko" href={koUrl} />
 <link rel="alternate" hreflang="x-default" href={enUrl} />
 
+{/* noindex does NOT imply nofollow. A thin game page should still pass crawlers
+    along to the related games and the games index it links to; only a genuine
+    dead end like /404 deserves nofollow. */}
 {noindex
-  ? <meta name="robots" content="noindex, nofollow" />
+  ? <meta name="robots" content={`noindex, ${nofollow ? 'nofollow' : 'follow'}`} />
   : <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />}
 
 <meta property="og:type" content={type} />
 <meta property="og:title" content={title} />
-<meta property="og:description" content={description} />
+<meta property="og:description" content={metaDescription} />
 <meta property="og:url" content={canonical} />
 <meta property="og:site_name" content={SITE.name} />
 <meta property="og:locale" content={locale} />
@@ -173,7 +195,7 @@ const jsonLd = { '@context': 'https://schema.org', '@graph': graph };
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
-<meta name="twitter:description" content={description} />
+<meta name="twitter:description" content={metaDescription} />
 <meta name="twitter:image" content={ogImage} />
 
 <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} is:inline />
