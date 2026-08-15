@@ -20,6 +20,11 @@ export const SITE = {
     name: 'GamePulse Desk',
     url: '/about',
   },
+  /* Published on the Contact page and checked by AdSense reviewers, so it has
+     to be an address a human actually reads. The +tag is deliberate: it filters
+     cleanly in Gmail, and if it is ever harvested and spammed it can be
+     abandoned without touching the main inbox. */
+  contactEmail: 'mudlbum+gamepulse@gmail.com',
   social: {
     bluesky: '',
     youtube: '',
