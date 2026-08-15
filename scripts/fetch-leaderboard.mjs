@@ -111,6 +111,11 @@ export async function fetchLeaderboard() {
       peak,
       free: !!m.free,
       genres: m.genres || [],
+      /* Already fetched from appdetails and cached in history.meta, but never
+         emitted until now — so every game page was missing the facts that make
+         it worth indexing (who made it, when it shipped, what it is). */
+      developers: m.developers || [],
+      releaseDate: m.releaseDate || null,
       change24h: change24h === null ? null : Math.round(change24h * 10) / 10,
       rankChange: prevRank === null ? null : prevRank - r.rank,
       lastWeekRank: r.last_week_rank ?? null,
