@@ -62,8 +62,10 @@ globalThis.fetch = async (url) => {
     const handle = actor.startsWith('did:') ? 'sample.bsky.social' : actor;
     return json(F.bskyAuthorFeed(handle, handle.split('.')[0]));
   }
-  if (u.includes('rss.marketingtools.apple.com')) return json(F.appleChart(new URL(u).pathname.split('/')[4]));
-  if (u.includes('itunes.apple.com/lookup')) return json(F.itunesLookup(new URL(u).searchParams.get('id')));
+  if (u.includes('itunes.apple.com/search'))
+    return json(F.itunesSearch(new URL(u).searchParams.get('term'), new URL(u).searchParams.get('country')));
+  if (u.includes('itunes.apple.com/lookup'))
+    return json(F.itunesLookup(new URL(u).searchParams.get('id'), new URL(u).searchParams.get('country')));
   if (u.includes('speedrun.com/api/v1/games?name=')) return json(F.srGameSearch(new URL(u).searchParams.get('name')));
   if (u.includes('/categories')) return json(F.srCategories);
   if (u.includes('speedrun.com/api/v1/leaderboards')) return json(F.srLeaderboard);

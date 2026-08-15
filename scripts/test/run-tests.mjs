@@ -7,7 +7,7 @@
  * only the network is faked. Run with: npm test
  */
 import assert from 'node:assert/strict';
-import { rm, readFile } from 'node:fs/promises';
+import { rm, readFile, writeFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as F from './fixtures.mjs';
@@ -16,6 +16,10 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 
 // Must be set before any fetcher imports lib/history.mjs.
 process.env.GP_HISTORY_PATH = resolve(ROOT, '.test-history.json');
+// No politeness delays against a stubbed fetch, and resolve the whole mobile
+// roster in one pass so the tests do not depend on the production batch size.
+process.env.GP_PACE_MS = '0';
+process.env.GP_MOBILE_RESOLVE_LIMIT = '500';
 
 let passed = 0;
 let failed = 0;
@@ -578,84 +582,160 @@ section('News clustering');
 
 
 /* ---------- mobile ---------- */
-section('Mobile charts');
+section('Mobile games');
 {
-  const { fetchMobile } = await import('../fetch-mobile.mjs');
-
+  const cc = (u) => new URL(u).searchParams.get('country') || 'us';
   const appleMocks = () => [
-    ['rss.marketingtools.apple.com', (u) => F.appleChart(new URL(u).pathname.split('/')[4])],
-    ['itunes.apple.com/lookup', (u) => F.itunesLookup(new URL(u).searchParams.get('id'))],
+    ['itunes.apple.com/search', (u) => F.itunesSearch(new URL(u).searchParams.get('term'), cc(u))],
+    ['itunes.apple.com/lookup', (u) => F.itunesLookup(new URL(u).searchParams.get('id'), cc(u))],
   ];
 
-  await test('filters the general app chart down to games only', async () => {
+  const { fetchMobile } = await import('../fetch-mobile.mjs');
+  const HIST = resolve(ROOT, '.test-history.json');
+
+  /* fetchMobile caches resolved app ids and rating samples in the history
+     store, so without a reset the second test reads the first one's cache and
+     the velocity assertions become meaningless. Only the mobile keys are
+     cleared — the Steam series other sections rely on stays put.
+     (Re-importing the module with a cache-busting query would NOT work:
+     lib/history.mjs resolves its path once at load and is shared.) */
+  const resetMobileCache = async (seedSeries) => {
+    let h = {};
+    try {
+      h = JSON.parse(await readFile(HIST, 'utf8'));
+    } catch {
+      h = { version: 1, series: {}, meta: {} };
+    }
+    delete h.mobileApps;
+    h.series ??= {};
+    for (const k of Object.keys(h.series)) if (k.startsWith('m:')) delete h.series[k];
+    Object.assign(h.series, seedSeries ?? {});
+    await writeFile(HIST, JSON.stringify(h), 'utf8');
+  };
+
+  const freshMobile = async () => {
+    await resetMobileCache();
+    return fetchMobile;
+  };
+
+  await test('rejects guide apps and clones that outrank the real game in search', async () => {
+    const fetchMobile = await freshMobile();
     mockFetch(appleMocks());
     const m = await fetchMobile();
     assert.ok(m, 'returned null');
-    const names = m.charts.us['top-free'].map((g) => g.name);
-    assert.ok(names.includes('Roblox'), 'lost a real game');
-    // The live chart is NOT games-only and ?genre= is silently ignored, so these
-    // must be filtered out client-side or the page shows a coffee app at #1.
-    assert.ok(!names.includes('7 Brew Coffee'), 'a coffee app was listed as a top game');
-    assert.ok(!names.includes('ChatGPT'), 'a productivity app was listed as a top game');
-    assert.ok(!names.includes('TikTok Pro'), 'an entertainment app was listed as a top game');
+    const names = m.charts.us.entries.map((g) => g.name);
+    assert.ok(names.includes('Roblox'), 'lost the real game');
+    // results[0] is "Guide for Roblox" and results[1] is a wallpaper app.
+    assert.ok(!names.some((n) => /Guide for/.test(n)), 'a guide app was listed as a game');
+    assert.ok(!names.some((n) => /Wallpapers/.test(n)), 'a wallpaper app was listed as a game');
   });
 
-  await test('synthesises rank from array position (no rank field exists)', async () => {
+  await test('ranks by rating count and numbers the rows 1..n', async () => {
+    const fetchMobile = await freshMobile();
     mockFetch(appleMocks());
     const m = await fetchMobile();
-    const ranks = m.charts.us['top-free'].map((g) => g.rank);
-    assert.deepEqual(ranks, ranks.map((_, i) => i + 1), 'ranks are not 1..n');
+    const rows = m.charts.us.entries;
+    assert.deepEqual(rows.map((r) => r.rank), rows.map((_, i) => i + 1), 'ranks are not 1..n');
+    for (let i = 1; i < rows.length; i++) {
+      assert.ok(rows[i - 1].ratings >= rows[i].ratings, 'not sorted by rating count');
+    }
+    assert.equal(rows[0].name, 'Roblox', 'the most-rated game is not first');
   });
 
-  await test('includes the Korean storefront', async () => {
+  await test('uses each storefront’s own localised title and rating count', async () => {
+    const fetchMobile = await freshMobile();
     mockFetch(appleMocks());
     const m = await fetchMobile();
-    assert.ok(m.charts.kr, 'no Korean chart');
-    assert.ok(m.charts.kr['top-free'].length > 0);
+    assert.ok(m.charts.kr, 'no Korean storefront');
+    const ba = m.charts.kr.entries.find((e) => e.appId === '1642013251');
+    assert.ok(ba, 'Blue Archive missing from the KR board');
+    assert.equal(ba.name, '블루 아카이브', 'KR board used the US title');
+    const baUs = m.charts.us.entries.find((e) => e.appId === '1642013251');
+    assert.ok(ba.ratings > baUs.ratings, 'KR and US rating counts are not independent');
   });
 
-  await test('SKIPS a storefront rather than showing unfiltered apps when lookup fails', async () => {
+  await test('carries a game that exists only in the Korean storefront', async () => {
+    const fetchMobile = await freshMobile();
+    mockFetch(appleMocks());
+    const m = await fetchMobile();
+    assert.ok(
+      m.charts.kr.entries.some((e) => e.appId === '1571023359'),
+      'Lineage W, which never shipped in the US, was dropped'
+    );
+    assert.ok(
+      !m.charts.us.entries.some((e) => e.appId === '1571023359'),
+      'a KR-only game leaked into the US board'
+    );
+  });
+
+  await test('keeps the previous board rather than writing a partial one when lookup dies', async () => {
+    const fetchMobile = await freshMobile();
     mockFetch([
-      ['rss.marketingtools.apple.com', (u) => F.appleChart(new URL(u).pathname.split('/')[4])],
-      ['itunes.apple.com/lookup', null], // genre lookup down
+      ['itunes.apple.com/search', (u) => F.itunesSearch(new URL(u).searchParams.get('term'), cc(u))],
+      ['itunes.apple.com/lookup', null],
     ]);
     const m = await fetchMobile();
-    assert.equal(m, null, 'showed an unfiltered app list instead of nothing');
+    assert.equal(m, null, 'returned a board built from a dead lookup');
   });
 
-  await test('chunks the genre lookup and merges every batch', async () => {
+  await test('chunks the lookup so a long id list is never truncated server-side', async () => {
     const seen = [];
+    const fetchMobile = await freshMobile();
     mockFetch([
-      ['rss.marketingtools.apple.com', (u) => F.appleChart(new URL(u).pathname.split('/')[4])],
+      ['itunes.apple.com/search', (u) => F.itunesSearch(new URL(u).searchParams.get('term'), cc(u))],
       ['itunes.apple.com/lookup', (u) => {
         const ids = new URL(u).searchParams.get('id').split(',');
         seen.push(ids.length);
-        // A 50-id URL is capped server-side, so batches must stay small.
         assert.ok(ids.length <= 20, `sent a batch of ${ids.length} ids`);
-        return F.itunesLookup(ids.join(','));
+        return F.itunesLookup(ids.join(','), cc(u));
       }],
     ]);
     const m = await fetchMobile();
     assert.ok(m, 'returned null');
     assert.ok(seen.length > 0, 'lookup was never called');
-    assert.ok(m.charts.us['top-free'].some((g) => g.name === 'Roblox'));
   });
 
-  await test('drops a chart when too few ids resolve to be trustworthy', async () => {
-    mockFetch([
-      ['rss.marketingtools.apple.com', (u) => F.appleChart(new URL(u).pathname.split('/')[4])],
-      // Resolve only the first id of each batch — well under the 60% floor.
-      ['itunes.apple.com/lookup', (u) => F.itunesLookup(new URL(u).searchParams.get('id').split(',')[0])],
-    ]);
+  await test('reports ratings velocity as null until there is a real time span', async () => {
+    const fetchMobile = await freshMobile();
+    mockFetch(appleMocks());
     const m = await fetchMobile();
-    assert.equal(m, null, 'rendered a chart from a partial genre map');
+    // First ever run: one sample, no span, so no weekly figure may be claimed.
+    for (const e of m.charts.us.entries) {
+      assert.equal(e.ratingsPerWeek, null, `invented a weekly delta from a single sample for ${e.name}`);
+    }
   });
 
-  await test('reports that Android is unavailable', async () => {
+  await test('extrapolates a weekly delta from an older sample', async () => {
+    // Roblox sat 140,000 ratings lower 3.5 days ago -> ~280,000/week.
+    const threeAndAHalfDaysAgo = Date.now() - 3.5 * 24 * 3600_000;
+    await resetMobileCache({
+      'm:us:1477376905': [{ t: threeAndAHalfDaysAgo, v: 8_140_233 - 140_000 }],
+    });
+    mockFetch(appleMocks());
+    const m = await fetchMobile();
+    const roblox = m.charts.us.entries.find((e) => e.appId === '1477376905');
+    assert.ok(roblox.ratingsPerWeek > 270_000 && roblox.ratingsPerWeek < 290_000,
+      `weekly delta was ${roblox.ratingsPerWeek}`);
+  });
+
+  await test('refuses a negative delta rather than showing a game shrinking', async () => {
+    // Apple resets counts on some relaunches; that is not negative growth.
+    await resetMobileCache({
+      'm:us:1477376905': [{ t: Date.now() - 3 * 24 * 3600_000, v: 9_999_999 }],
+    });
+    mockFetch(appleMocks());
+    const m = await fetchMobile();
+    const roblox = m.charts.us.entries.find((e) => e.appId === '1477376905');
+    assert.equal(roblox.ratingsPerWeek, null, 'reported a negative weekly delta');
+  });
+
+  await test('labels the metric honestly and reports Android as unavailable', async () => {
+    const fetchMobile = await freshMobile();
     mockFetch(appleMocks());
     const m = await fetchMobile();
     assert.equal(m.androidAvailable, false);
-    assert.match(m.note, /Google Play/);
+    assert.match(m.note, /NOT a player count/i);
+    assert.match(m.androidNote, /Google Play/);
   });
 }
 
