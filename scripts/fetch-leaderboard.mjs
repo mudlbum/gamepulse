@@ -61,7 +61,15 @@ export async function fetchLeaderboard() {
   // art in the history file and only look up apps we have never seen.
   const history = await readHistory();
   const meta = history.meta ?? {};
-  const unknown = ranks.filter((r) => !meta[r.appid]?.name && !NAME_BY_APPID.has(r.appid));
+  /* Resolve anything we have no METADATA for — not merely anything we have no
+     name for. The old test also skipped every app in TRACKED_APPS, on the logic
+     that we already knew its name. But the name was never the point: skipping
+     the lookup also skipped is_free, genres, developers and release date, so
+     the 25 biggest games on the site carried none of them, and `free: false`
+     defaulted Counter-Strike 2 — a free-to-play game — to "Paid" on its own
+     page. A hardcoded name is a display fallback, not a reason to stay
+     ignorant about the game. */
+  const unknown = ranks.filter((r) => !meta[r.appid]?.name);
 
   if (unknown.length) {
     log(scope, `resolving metadata for ${unknown.length} new app(s)`);
@@ -110,6 +118,9 @@ export async function fetchLeaderboard() {
       current,
       peak,
       free: !!m.free,
+      /* Whether appdetails actually answered for this app. Without it, `free`
+         is just a default, and the UI must not present a default as a fact. */
+      metaResolved: !!m.name,
       genres: m.genres || [],
       /* Already fetched from appdetails and cached in history.meta, but never
          emitted until now — so every game page was missing the facts that make
