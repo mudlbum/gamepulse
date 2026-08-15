@@ -201,6 +201,82 @@ export const COSPLAY_ACTORS = [
   { handle: 'cosfame.bsky.social', name: 'CosFame', role: 'photographer' },
 ];
 
+/* ------------------------------------------------------------------ *
+ * 5b. Mobile games.
+ *
+ * WHY THERE IS NO CHART HERE. Apple's marketing RSS
+ * (rss.marketingtools.apple.com/api/v2/<cc>/apps/top-free/<n>/apps.json) mirrors
+ * the App Store's *Apps* chart, and on the App Store "Apps" and "Games" are
+ * separate top-chart tabs — the Apps chart structurally contains no games. The
+ * first version of this pipeline fetched that chart and filtered to
+ * primaryGenreName === 'Games', which is why the mobile section was silently
+ * empty in production for every run: the filter was correct and the source had
+ * nothing to filter. `?genre=6014` is accepted and ignored, `/games.json` and
+ * `/<cc>/games/...` both 404, and `top-grossing` 404s for apps entirely.
+ * Google Play has no public API of any kind, so Android is absent and the page
+ * says so.
+ *
+ * WHAT WE DO INSTEAD. iTunes Lookup is keyless, documented, per-storefront, and
+ * returns real numbers for a game we name ourselves: lifetime rating count,
+ * average rating, current version and its release date, and the release notes.
+ * Ranking by rating count is a popularity proxy, NOT a player count, and every
+ * surface that shows it must say so. Sampling the count over time turns it into
+ * something better — new ratings per week is genuine live activity.
+ *
+ * The roster is editorial and deliberately mixes global hits with the Korean
+ * market, because half this site's readers are Korean and the KR storefront's
+ * top games are not the US storefront's.
+ */
+export const MOBILE_GAMES = [
+  // Global
+  'Roblox',
+  'Honor of Kings',
+  'Genshin Impact',
+  'Honkai: Star Rail',
+  'Zenless Zone Zero',
+  'PUBG MOBILE',
+  'Call of Duty: Mobile',
+  'Free Fire',
+  'Clash of Clans',
+  'Clash Royale',
+  'Brawl Stars',
+  'Pokémon GO',
+  'Monopoly GO!',
+  'Royal Match',
+  'Candy Crush Saga',
+  'Subway Surfers',
+  'Among Us!',
+  'Stumble Guys',
+  'Minecraft',
+  'Marvel Snap',
+  'Diablo Immortal',
+  'Whiteout Survival',
+  'Last War: Survival',
+  'eFootball',
+  'EA SPORTS FC Mobile Soccer',
+  'League of Legends: Wild Rift',
+  'Teamfight Tactics',
+  'Arknights',
+  'Fate/Grand Order',
+  'Umamusume: Pretty Derby',
+  // Korea-heavy
+  'Blue Archive',
+  'NIKKE',
+  'Epic Seven',
+  'Cookie Run: Kingdom',
+  'Summoners War',
+  'Lineage M',
+  'Lineage W',
+  'ODIN: Valhalla Rising',
+  'Seven Knights',
+  'DUNGEON&FIGHTER MOBILE',
+];
+
+export const MOBILE_STOREFRONTS = [
+  { cc: 'us', label: 'United States', labelKo: '미국' },
+  { cc: 'kr', label: 'South Korea', labelKo: '대한민국' },
+];
+
 /** Terms used to auto-discover new cosplay accounts via searchActors. */
 export const COSPLAY_DISCOVERY_TERMS = ['cosplay', 'cosplayer', 'cosplay photographer'];
 
@@ -229,19 +305,17 @@ export const ENDPOINTS = {
      420 (not 429). Content is CC-BY-NC 4.0 — attribution required. */
   speedrunBase: 'https://www.speedrun.com/api/v1',
 
-  /* Apple marketing RSS. Verified live 2026-08-15 on this exact host —
-     rss.marketing.services.apple.com does not resolve at all, and
-     rss.applemarketingtools.com only 302-redirects here. No games-only path
-     exists and ?genre= is silently ignored, so filtering needs itunesLookup. */
-  appleChart: (cc, kind, limit = 50) =>
-    `https://rss.marketingtools.apple.com/api/v2/${cc}/apps/${kind}/${limit}/apps.json`,
-  /* Bulk id lookup, returns primaryGenreName per app.
+  /* Bulk id lookup. The whole mobile section is built on this one endpoint.
      Deliberately minimal: `entity` and `limit` are NOT passed. On a lookup-by-id
      `entity` changes what Apple returns rather than filtering it, and `limit`
      defaults to 50 and can silently truncate a longer id list. Both were in the
      first version and the whole mobile section came back empty in production. */
   itunesLookup: (ids, cc = 'us') =>
     `https://itunes.apple.com/lookup?id=${ids.join(',')}&country=${cc}`,
+  /* Name -> trackId resolution. `entity=software` is correct HERE (it scopes a
+     text search to iPhone apps); it is only harmful on /lookup. */
+  itunesSearch: (term, cc = 'us') =>
+    `https://itunes.apple.com/search?term=${encodeURIComponent(term)}&country=${cc}&entity=software&limit=8`,
 
   bskyAuthorFeed: (actor, limit = 12) =>
     `https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=${encodeURIComponent(actor)}&limit=${limit}&filter=posts_with_media`,

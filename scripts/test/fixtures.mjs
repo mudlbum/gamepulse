@@ -399,57 +399,88 @@ export const valorantVersion = {
 };
 
 /* ------------------------------------------------------------------ *
- * Apple App Store marketing RSS.
- * Shape captured from a live 2026-08-15 response. Note what is faithfully
- * reproduced here because it is what breaks naive code:
- *   - there is NO `rank` field; position in the array IS the rank
- *   - `genres` is present on every entry and is ALWAYS an empty array
- *   - the chart is NOT games-only, so non-games are included on purpose
+ * Apple iTunes Search + Lookup.
+ *
+ * There is deliberately NO marketing-RSS fixture here any more. That endpoint
+ * mirrors the App Store's "Apps" chart, which structurally excludes games, so a
+ * fixture for it could only ever encode a source that cannot work.
+ *
+ * What this fixture faithfully reproduces, because it is what breaks naive code:
+ *   - search ranks by relevance, so a "Guide for <game>" clone outranks the
+ *     real game, and non-Games results are mixed in
+ *   - a storefront omits apps it does not carry, with no error and no gap
+ *   - localised trackName differs per storefront, while trackId does not
+ *   - userRatingCount differs per storefront
  * ------------------------------------------------------------------ */
-const APPLE_ROWS = [
-  { id: '6762023973', name: '7 Brew Coffee', artistName: 'Brew Culture, LLC', genre: 'Food & Drink' },
-  { id: '1477376905', name: 'Roblox', artistName: 'Roblox Corporation', genre: 'Games' },
-  { id: '1094591345', name: 'Honor of Kings', artistName: 'Level Infinite', genre: 'Games' },
-  { id: '1195621598', name: 'TikTok Pro', artistName: 'TikTok Ltd.', genre: 'Entertainment' },
-  { id: '1234567890', name: 'Genshin Impact', artistName: 'COGNOSPHERE PTE. LTD.', genre: 'Games' },
-  { id: '1637438956', name: 'Monopoly GO!', artistName: 'Scopely, Inc.', genre: 'Games' },
-  { id: '1666118126', name: 'ChatGPT', artistName: 'OpenAI', genre: 'Productivity' },
-  { id: '1599719164', name: 'Honkai: Star Rail', artistName: 'COGNOSPHERE PTE. LTD.', genre: 'Games' },
-  { id: '1053012308', name: 'Royal Match', artistName: 'Dream Games', genre: 'Games' },
-  { id: '1094591346', name: 'Whiteout Survival', artistName: 'Century Games', genre: 'Games' },
+const APP_ROWS = [
+  { id: 1477376905, bundle: 'roblox', name: 'Roblox', nameKo: '로블록스', artist: 'Roblox Corporation', ratings: 8_140_233, ratingsKr: 74_112 },
+  { id: 1094591345, bundle: 'honorofkings', name: 'Honor of Kings', artist: 'Level Infinite', ratings: 412_880, ratingsKr: 0, kr: false },
+  { id: 1517783697, bundle: 'genshinimpact', name: 'Genshin Impact', nameKo: '원신', artist: 'COGNOSPHERE PTE. LTD.', ratings: 1_302_455, ratingsKr: 88_900 },
+  { id: 1637438956, bundle: 'monopolygo', name: 'Monopoly GO!', artist: 'Scopely, Inc.', ratings: 2_940_118, ratingsKr: 0, kr: false },
+  { id: 1599719164, bundle: 'honkaistarrail', name: 'Honkai: Star Rail', nameKo: '붕괴: 스타레일', artist: 'COGNOSPHERE PTE. LTD.', ratings: 640_302, ratingsKr: 51_004 },
+  { id: 1053012308, bundle: 'royalmatch', name: 'Royal Match', artist: 'Dream Games', ratings: 3_115_770, ratingsKr: 12_400 },
+  { id: 1642013251, bundle: 'bluearchive', name: 'Blue Archive', nameKo: '블루 아카이브', artist: 'NEXON Games', ratings: 41_220, ratingsKr: 132_884 },
+  { id: 1571023359, bundle: 'lineagew', name: 'Lineage W', nameKo: '리니지W', artist: 'NCSOFT', ratings: 0, ratingsKr: 66_301, us: false },
 ];
 
-export const appleChart = (cc = 'us') => ({
-  feed: {
-    title: cc === 'kr' ? '무료 앱 순위' : 'Top Free Apps',
-    id: `https://rss.marketingtools.apple.com/api/v2/${cc}/apps/top-free/50/apps.json`,
-    author: { name: 'Apple', url: 'https://www.apple.com/' },
-    copyright: 'Copyright © 2026 Apple Inc. All rights reserved.',
-    country: cc,
-    updated: new Date().toUTCString(),
-    results: APPLE_ROWS.map((r) => ({
-      artistName: r.artistName,
-      id: r.id,
-      name: r.name,
-      releaseDate: '2026-08-11',
-      kind: 'apps',
-      artworkUrl100: `https://is1-ssl.mzstatic.com/image/thumb/${r.id}/100x100bb.png`,
-      genres: [], // always empty in the real payload
-      url: `https://apps.apple.com/${cc}/app/id${r.id}`,
-    })),
-  },
-});
+const rowById = new Map(APP_ROWS.map((r) => [r.id, r]));
 
-export const itunesLookup = (idsCsv) => {
-  const ids = String(idsCsv || '').split(',');
-  const rows = APPLE_ROWS.filter((r) => ids.includes(r.id));
+/** Relevance-ranked search: junk first, on purpose. */
+export const itunesSearch = (term, cc = 'us') => {
+  const t = String(term || '').toLowerCase();
+  const row = APP_ROWS.find((r) => r.name.toLowerCase() === t);
+  if (!row) return { resultCount: 0, results: [] };
+  if (cc === 'us' && row.us === false) return { resultCount: 0, results: [] };
+  if (cc === 'kr' && row.kr === false) return { resultCount: 0, results: [] };
+
+  return {
+    resultCount: 3,
+    results: [
+      // A guide app. Contains the game's name, is NOT the game, and outranks it.
+      { trackId: row.id + 900000, trackName: `Guide for ${row.name}`, bundleId: `com.guides.${row.bundle}`, primaryGenreName: 'Reference', genres: ['Reference'] },
+      // A different genre entirely, matched on a word in the title.
+      { trackId: row.id + 800000, trackName: `${row.name} Wallpapers HD`, bundleId: `com.wall.${row.bundle}`, primaryGenreName: 'Entertainment', genres: ['Entertainment'] },
+      // The real game. In a non-English storefront its title is LOCALISED, so
+      // the only thing tying it to our search term is the bundle id.
+      { trackId: row.id, trackName: cc === 'kr' && row.nameKo ? row.nameKo : row.name, bundleId: `com.publisher.${row.bundle}`, primaryGenreName: 'Games', genres: ['Games', 'Action'] },
+    ],
+  };
+};
+
+export const itunesLookup = (idsCsv, cc = 'us') => {
+  const ids = String(idsCsv || '')
+    .split(',')
+    .map((n) => Number(n))
+    .filter(Boolean);
+
+  const rows = ids
+    .map((id) => rowById.get(id))
+    .filter(Boolean)
+    // A storefront silently omits what it does not carry.
+    .filter((r) => (cc === 'kr' ? r.kr !== false : r.us !== false));
+
   return {
     resultCount: rows.length,
     results: rows.map((r) => ({
-      trackId: Number(r.id),
-      trackName: r.name,
-      primaryGenreName: r.genre,
-      artistName: r.artistName,
+      trackId: r.id,
+      trackName: cc === 'kr' && r.nameKo ? r.nameKo : r.name,
+      bundleId: `com.publisher.${r.bundle}`,
+      artistName: r.artist,
+      primaryGenreName: 'Games',
+      genres: ['Games', 'Action'],
+      userRatingCount: cc === 'kr' ? r.ratingsKr : r.ratings,
+      averageUserRating: 4.62731,
+      version: '5.4.1',
+      currentVersionReleaseDate: '2026-08-13T09:12:00Z',
+      releaseNotes: 'Fixed a crash on launch for some devices.\nBalance pass on ranked matchmaking.',
+      price: 0,
+      formattedPrice: 'Free',
+      releaseDate: '2020-09-28T07:00:00Z',
+      contentAdvisoryRating: '12+',
+      trackViewUrl: `https://apps.apple.com/${cc}/app/id${r.id}`,
+      artworkUrl512: `https://is1-ssl.mzstatic.com/image/thumb/${r.id}/512x512bb.png`,
+      artworkUrl100: `https://is1-ssl.mzstatic.com/image/thumb/${r.id}/100x100bb.png`,
+      screenshotUrls: [`https://is1-ssl.mzstatic.com/image/thumb/${r.id}/s1.png`],
     })),
   };
 };

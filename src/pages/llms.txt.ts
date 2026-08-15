@@ -42,6 +42,14 @@ articles are researched against primary sources and list every reference used.
   ranked by concurrent players, with 24-hour change and up to 8 days of history.
   Source: Valve's public \`ISteamChartsService\` endpoint. Refreshed every 30 minutes.
   ${lbData.updated ? `Last refreshed: ${lbData.updated}.` : ''}
+- **Per-game pages** (${root}/games) — one page per tracked game across PC, mobile and
+  console, carrying that game's live figures, its leaderboard where a public one exists, and
+  its recent patch notes. Games with no public ranking say so explicitly and explain why,
+  rather than showing an estimated or invented one.
+- **Mobile games** (${root}/games) — App Store rating volume and version history per
+  storefront (US and Korea) from Apple's public iTunes Lookup API. Rating volume is a
+  popularity proxy, NOT a player count: Apple publishes no player numbers, and Google Play
+  has no public API at all, so Android is not covered.
 - **Game update tracker** (${root}/updates) — patch notes and season launches for major
   live-service games, taken from Steam's news API, publisher RSS, and live build-version
   probes for publishers that ship no feed. ${(upData.games ?? []).length} games tracked.
@@ -70,6 +78,8 @@ All datasets are served as JSON and may be read directly:
 - ${root}/data/deals.json
 - ${root}/data/cosplay.json
 - ${root}/data/news.json
+- ${root}/data/mobile.json
+- ${root}/data/speedruns.json
 - ${root}/data/health.json — per-source fetch status for the last refresh
 
 ## Recent articles

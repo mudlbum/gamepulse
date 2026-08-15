@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import View from '../../../views/GamesIndex.astro';
+import { localeHref } from '../../../lib/paths';
+---
+<BaseLayout
+  title="추적 중인 게임 — 실시간 접속자, 순위표, 패치 노트"
+  description="게임펄스가 추적하는 PC·모바일·콘솔 게임 전체 목록. 실시간 접속자 수와, 공개된 순위표가 있는 게임은 순위표까지, 그리고 최신 패치 노트를 함께 제공합니다."
+  breadcrumbs={[{ name: '홈', url: localeHref('/', 'ko') }, { name: '게임', url: Astro.url.pathname }]}
+>
+  <View />
+</BaseLayout>

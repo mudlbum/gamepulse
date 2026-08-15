@@ -18,36 +18,48 @@ const sr = game.speedrun;
 const platformLabel: Record<string, string> = {
   pc: 'PC', playstation: 'PlayStation', xbox: 'Xbox', switch: 'Switch', mobile: 'Mobile', vr: 'VR',
 };
+
+const stores = Object.values<any>(game.mobile ?? {});
+// Storefronts agree on version and release notes, so take them from whichever
+// entry actually carries them rather than hardcoding 'us' — plenty of these
+// games are Korea-only.
+const app = stores.find((m: any) => m.releaseNotes) ?? stores[0] ?? null;
+const coverSrc = sr?.cover || s?.image || app?.artwork || null;
 ---
 
 <div class="wrap">
   <nav class="crumbs" aria-label="Breadcrumb">
     <a href={localeHref('/', lang)}>{t('nav.home')}</a>
     <span aria-hidden="true">/</span>
-    <a href={localeHref('/leaderboards', lang)}>{t('nav.leaderboards')}</a>
+    <a href={localeHref('/games', lang)}>{t('nav.games')}</a>
     <span aria-hidden="true">/</span>
     <span aria-current="page">{game.name}</span>
   </nav>
 
   <header class="game-head">
-    {(sr?.cover || s?.image) && (
-      <img class="cover" src={sr?.cover || s?.image} alt="" loading="eager" width="120" height="160" />
-    )}
+    {coverSrc && <img class="cover" src={coverSrc} alt="" loading="eager" width="120" height="160" />}
     <div>
       <div class="tags-row">
         {game.platforms.map((p) => <span class="badge">{platformLabel[p] ?? p}</span>)}
         {s?.free && <span class="badge badge-brand">F2P</span>}
       </div>
       <h1>{game.name}</h1>
-      {s && (
+      {s ? (
         <p class="lede">
           {ko
             ? `스팀 동시접속자 순위 ${s.rank}위, 현재 ${formatNumber(s.current, lang)}명이 플레이 중입니다.`
             : `#${s.rank} on Steam right now with ${formatNumber(s.current, lang)} players in game.`}
         </p>
-      )}
+      ) : app ? (
+        <p class="lede">
+          {ko
+            ? `App Store 누적 평점 ${formatNumber(app.ratings, lang)}개${app.rating ? `, 평균 ${app.rating}점` : ''}. 최신 버전 ${app.version ?? '—'}.`
+            : `${formatNumber(app.ratings, lang)} App Store ratings${app.rating ? `, averaging ${app.rating}` : ''}. Current version ${app.version ?? '—'}.`}
+        </p>
+      ) : null}
       <div class="head-links">
         {s?.url && <a class="btn btn-sm" href={s.url} rel="noopener nofollow" target="_blank">Steam ↗</a>}
+        {app?.url && <a class="btn btn-sm" href={app.url} rel="noopener nofollow" target="_blank">App Store ↗</a>}
         {game.patches?.official && (
           <a class="btn btn-sm" href={game.patches.official} rel="noopener nofollow" target="_blank">
             {ko ? '공식 패치노트' : 'Official patch notes'} ↗
@@ -95,6 +107,62 @@ const platformLabel: Record<string, string> = {
           <Sparkline values={s.spark} width={640} height={90} label={`${game.name} player trend`} />
         </div>
       )}
+    </section>
+  )}
+
+  {/* ---------- App Store ---------- */}
+  {stores.length > 0 && (
+    <section class="mt-6">
+      <div class="section-head">
+        <h2>{ko ? 'App Store 지표' : 'App Store metrics'}</h2>
+        <span class="badge badge-warn">{ko ? '접속자 수 아님' : 'not a player count'}</span>
+      </div>
+      <div class="store-grid">
+        {stores.map((m: any) => (
+          <div class="stat">
+            <span class="stat-label">{ko ? m.storeLabelKo ?? m.storeLabel : m.storeLabel}</span>
+            <strong class="stat-value">{formatCompact(m.ratings, lang)}</strong>
+            <span class="stat-sub">
+              {ko ? '누적 평점' : 'lifetime ratings'}
+              {m.rating != null && <> · ★ {m.rating}</>}
+            </span>
+            <span class="stat-sub">
+              {m.ratingsPerWeek != null
+                ? ko
+                  ? `주간 +${formatCompact(m.ratingsPerWeek, lang)}`
+                  : `+${formatCompact(m.ratingsPerWeek, lang)} this week`
+                : ko
+                  ? '주간 증감 집계 중'
+                  : 'weekly change: collecting'}
+            </span>
+          </div>
+        ))}
+      </div>
+      <p class="fine">
+        {ko
+          ? '평점 개수는 인기도를 가늠하는 대리 지표입니다. 애플은 플레이어 수를 공개하지 않으며, Google Play는 공개 API가 없어 안드로이드 수치는 포함되지 않습니다.'
+          : 'Rating volume is a popularity proxy. Apple publishes no player numbers, and Google Play has no public API, so Android is not reflected here.'}
+      </p>
+    </section>
+  )}
+
+  {/* Mobile release notes are the only patch notes these games publish in a
+      machine-readable form, so they get the same treatment as Steam's. */}
+  {app?.releaseNotes && (
+    <section class="mt-6">
+      <div class="section-head"><h2>{ko ? '최신 버전 변경사항' : "What's new in this version"}</h2></div>
+      <div class="card release-notes">
+        <div class="patch-top">
+          {app.version && <span class="badge badge-brand">{app.version}</span>}
+          {app.versionDate && <time datetime={app.versionDate}>{relativeTime(app.versionDate, lang)}</time>}
+        </div>
+        <p>{app.releaseNotes}</p>
+        {app.url && (
+          <a href={app.url} rel="noopener nofollow" target="_blank">
+            {ko ? 'App Store에서 보기' : 'View on the App Store'} ↗
+          </a>
+        )}
+      </div>
     </section>
   )}
 
@@ -164,7 +232,7 @@ const platformLabel: Record<string, string> = {
     ) : (
       <aside class="callout no-rank">
         <p class="callout-title">{ko ? '공개된 순위 없음' : 'No public ranking available'}</p>
-        <p>{noRankingReason(game.name, lang)}</p>
+        <p>{noRankingReason(game.name, lang, !s && stores.length > 0)}</p>
       </aside>
     )}
   </section>
@@ -199,7 +267,7 @@ const platformLabel: Record<string, string> = {
   )}
 
   <p class="back mt-7">
-    <a href={localeHref('/leaderboards', lang)}>← {t('nav.leaderboards')}</a>
+    <a href={localeHref('/games', lang)}>← {t('nav.games')}</a>
   </p>
 </div>
 
@@ -231,6 +299,12 @@ const platformLabel: Record<string, string> = {
   .attribution { font-size: 0.78rem; color: var(--text-mute); margin-top: var(--space-4); line-height: 1.6; }
   .no-rank { border-left-color: var(--text-mute); }
   .no-rank .callout-title { color: var(--text-dim); }
+
+  .store-grid { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); }
+  .release-notes { padding: var(--space-5); }
+  .release-notes:hover { transform: none; }
+  .release-notes p { margin: var(--space-2) 0 var(--space-3); color: var(--text-dim); }
+  .release-notes a { font-size: var(--step--1); font-weight: 600; text-decoration: none; }
 
   .patches { display: flex; flex-direction: column; gap: var(--space-4); }
   .patches li { padding-bottom: var(--space-4); border-bottom: 1px solid var(--border); }

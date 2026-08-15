@@ -1,0 +1,170 @@
+---
+import AdSlot from '../components/AdSlot.astro';
+import Sparkline from '../components/Sparkline.astro';
+import { getLangFromUrl, useTranslations } from '../i18n/ui';
+import { localeHref, formatNumber, formatCompact, relativeTime } from '../lib/paths';
+import { buildGameIndex, groupGames } from '../lib/games';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const ko = lang === 'ko';
+
+const games = buildGameIndex();
+const { pc, mobile, other } = groupGames(games);
+
+const sections = [
+  {
+    id: 'pc',
+    title: ko ? 'PC · 실시간 접속자' : 'PC — live players',
+    blurb: ko
+      ? '밸브 공개 API에서 30분마다 가져오는 스팀 동시접속자 기준입니다.'
+      : 'Steam concurrents, pulled from Valve’s public API every 30 minutes.',
+    items: pc,
+  },
+  {
+    id: 'mobile',
+    title: ko ? '모바일 · 평점 규모' : 'Mobile — ratings volume',
+    blurb: ko
+      ? 'App Store 누적 평점 개수 기준입니다. 접속자 수가 아니라 인기도 대리 지표입니다.'
+      : 'Ranked by lifetime App Store rating count — a popularity proxy, not a player count.',
+    items: mobile,
+  },
+  {
+    id: 'other',
+    title: ko ? '그 외 추적 중인 게임' : 'Also tracked',
+    blurb: ko
+      ? '공개된 실시간 수치가 없는 게임입니다. 패치 노트와 관련 영상은 계속 추적합니다.'
+      : 'Games with no public live figure. We still track their patch notes and clips.',
+    items: other,
+  },
+].filter((s) => s.items.length);
+
+const ranking = (g: any) => (g.speedrun ? (ko ? '기록 순위 있음' : 'leaderboard') : null);
+
+/* These two are helpers rather than inline expressions because a `<any>` type
+   argument inside the template body is parsed as an HTML tag and breaks the
+   build. */
+const topRatings = (g: any) =>
+  Math.max(0, ...Object.values(g.mobile ?? {}).map((m: any) => m.ratings ?? 0));
+const thumbOf = (g: any) =>
+  g.speedrun?.cover || g.steam?.image || Object.values(g.mobile ?? {})[0]?.artwork || null;
+---
+
+<div class="wrap">
+  <header class="page-head">
+    <p class="eyebrow">{ko ? '게임 데이터베이스' : 'Game database'}</p>
+    <h1>{ko ? '추적 중인 게임' : 'Games we track'}</h1>
+    <p class="lede">
+      {ko
+        ? `PC, 모바일, 콘솔에 걸쳐 ${games.length}개 게임의 실시간 수치와 패치 노트를 추적합니다. 게임을 누르면 해당 게임의 순위표가 있으면 함께 보여주고, 없으면 없다고 밝힙니다.`
+        : `Live numbers and patch notes for ${games.length} games across PC, mobile and console. Open any game to see its leaderboard where one exists — and a plain explanation where it does not.`}
+    </p>
+  </header>
+
+  <nav class="jump" aria-label={ko ? '섹션 바로가기' : 'Jump to section'}>
+    {sections.map((s) => (
+      <a href={`#${s.id}`}>{s.title} <span class="count">{s.items.length}</span></a>
+    ))}
+  </nav>
+
+  {sections.map((section, si) => (
+    <>
+      <section id={section.id} class="mt-7">
+        <div class="section-head">
+          <div>
+            <h2>{section.title}</h2>
+            <p class="blurb">{section.blurb}</p>
+          </div>
+        </div>
+
+        <ul role="list" class="game-grid">
+          {section.items.map((g: any) => (
+            <li class="card game-card">
+              <a class="stretch" href={localeHref(`/games/${g.slug}`, lang)}>
+                <span class="sr-only">{g.name}</span>
+              </a>
+              {thumbOf(g) && (
+                <img class="thumb" src={thumbOf(g)} alt="" loading="lazy" width="56" height="56" />
+              )}
+              <div class="meta">
+                <h3>{g.name}</h3>
+                <p class="sub">
+                  {g.steam ? (
+                    <>
+                      <strong>{formatNumber(g.steam.current, lang)}</strong>{' '}
+                      {ko ? '명 접속 중' : 'playing now'}
+                    </>
+                  ) : g.mobile ? (
+                    <>
+                      <strong>{formatCompact(topRatings(g), lang)}</strong>{' '}
+                      {ko ? '개 평점' : 'ratings'}
+                    </>
+                  ) : g.patches?.entries?.[0]?.date ? (
+                    <>{ko ? '최근 업데이트 ' : 'updated '}{relativeTime(g.patches.entries[0].date, lang)}</>
+                  ) : (
+                    <span class="text-mute">{ko ? '패치 추적 중' : 'tracking patches'}</span>
+                  )}
+                </p>
+                <div class="chips">
+                  {g.platforms.map((p: string) => <span class="chip">{p}</span>)}
+                  {ranking(g) && <span class="chip chip-brand">{ranking(g)}</span>}
+                </div>
+              </div>
+              {g.steam?.spark?.length > 1 && (
+                <Sparkline values={g.steam.spark} width={64} height={26} label="" />
+              )}
+            </li>
+          ))}
+        </ul>
+      </section>
+      {si === 0 && <AdSlot slot="inArticle" />}
+    </>
+  ))}
+
+  <aside class="callout mt-7">
+    <p class="callout-title">{ko ? '순위표가 없는 게임에 대하여' : 'About the games with no leaderboard'}</p>
+    <p>
+      {ko
+        ? '리그 오브 레전드, 오버워치 2, 발로란트처럼 랭킹 사다리가 분명히 존재하는 게임도 있습니다. 다만 라이엇과 블리자드는 그 데이터를 API 키 없이 공개하지 않고, 개발자 키는 24시간마다 만료되어 자동화에 쓸 수 없습니다. 그런 게임은 순위를 지어내는 대신 패치 노트와 영상만 싣고, 순위가 없는 이유를 각 페이지에 그대로 적어 두었습니다.'
+        : 'Some of these games plainly have ranked ladders — League of Legends, Overwatch 2, VALORANT. Riot and Blizzard just do not publish that data without an API key, and development keys expire every 24 hours, which rules them out for an automated site. So those games carry patch notes and clips instead of an invented ranking, and each page says why.'}
+    </p>
+  </aside>
+</div>
+
+<style>
+  .page-head { margin-bottom: var(--space-5); }
+  .page-head h1 { margin-block: 0.1em 0.3em; }
+  .eyebrow { font-size: var(--step--1); color: var(--text-mute); text-transform: uppercase; letter-spacing: 0.09em; font-weight: 620; }
+
+  .jump { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+  .jump a {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    font-size: var(--step--1); font-weight: 580; text-decoration: none;
+    color: var(--text-dim); border: 1px solid var(--border);
+    padding: 0.4em 0.75em; border-radius: 999px;
+  }
+  .jump a:hover { color: var(--text); border-color: var(--text-mute); background: var(--surface-hover); }
+  .count { font-variant-numeric: tabular-nums; color: var(--text-mute); font-size: 0.72rem; }
+
+  .blurb { font-size: var(--step--1); color: var(--text-dim); margin-top: 0.25em; max-width: 68ch; }
+
+  .game-grid { display: grid; gap: var(--space-3); grid-template-columns: repeat(auto-fill, minmax(min(290px, 100%), 1fr)); }
+  .game-card {
+    position: relative; display: flex; align-items: center; gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+  }
+  .stretch { position: absolute; inset: 0; z-index: 1; }
+  .thumb { border-radius: 10px; object-fit: cover; background: var(--bg-inset); flex: none; width: 56px; height: 56px; }
+  .meta { min-width: 0; flex: 1; }
+  .meta h3 { font-size: 0.95rem; margin: 0; line-height: 1.25; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .sub { font-size: var(--step--1); color: var(--text-dim); margin: 0.15em 0 0.35em; }
+  .sub strong { color: var(--text); font-variant-numeric: tabular-nums; }
+
+  .chips { display: flex; gap: 0.3rem; flex-wrap: wrap; }
+  .chip {
+    font-size: 0.63rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 660;
+    padding: 0.18em 0.45em; border-radius: 5px;
+    background: var(--bg-inset); color: var(--text-mute);
+  }
+  .chip-brand { background: var(--brand-soft); color: var(--brand); }
+</style>

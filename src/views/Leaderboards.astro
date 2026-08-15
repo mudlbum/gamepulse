@@ -4,7 +4,8 @@ import LiveBadge from '../components/LiveBadge.astro';
 import Sparkline from '../components/Sparkline.astro';
 import AdSlot from '../components/AdSlot.astro';
 import { getLangFromUrl, useTranslations } from '../i18n/ui';
-import { formatNumber, formatCompact } from '../lib/paths';
+import { formatNumber, formatCompact, localeHref } from '../lib/paths';
+import { gameSlug } from '../lib/games';
 import lb from '../data/leaderboard.json';
 import mobileData from '../data/mobile.json';
 
@@ -14,6 +15,12 @@ const data: any = lb;
 const mobile: any = mobileData;
 const ko = lang === 'ko';
 const entries = data.entries ?? [];
+
+// Computed here, not inline: a `<any>` type argument inside the template body
+// is parsed as an HTML tag and breaks the build.
+const mobileCharts: any[] = Object.values(mobile.charts ?? {});
+const mobileNoteKo =
+  '각 스토어의 누적 평점 개수를 기준으로 정렬했습니다. 인기도를 가늠하는 대리 지표일 뿐 접속자 수가 아닙니다 — 애플은 어떤 게임의 플레이어 수도 공개하지 않습니다. 실시간 신호는 "주간 신규 평점" 쪽입니다.';
 ---
 
 <div class="wrap">
@@ -118,24 +125,32 @@ const entries = data.entries ?? [];
     <section class="mt-7">
       <div class="section-head">
         <div>
-          <span class="eyebrow">{ko ? '앱스토어 순위' : 'App Store chart'}</span>
+          <span class="eyebrow">{ko ? '앱스토어 평점 규모' : 'App Store ratings volume'}</span>
           <h2>{ko ? '모바일 게임' : 'Mobile games'}</h2>
         </div>
         <span class="badge badge-warn">{ko ? '접속자 수 아님' : 'not a player count'}</span>
       </div>
-      <p class="mobile-note">{mobile.note}</p>
+      <p class="mobile-note">{ko ? mobileNoteKo : mobile.note}</p>
       <div class="mobile-cols">
-        {Object.entries(mobile.charts).map(([cc, chart]: [string, any]) => (
+        {mobileCharts.map((chart: any) => (
           <div>
-            <h3 class="store-head">{chart.label} · {ko ? '무료 인기' : 'Top free'}</h3>
+            <h3 class="store-head">{ko ? chart.labelKo ?? chart.label : chart.label}</h3>
             <ol role="list" class="mobile-list">
-              {(chart['top-free'] ?? []).slice(0, 10).map((g: any) => (
+              {(chart.entries ?? []).slice(0, 12).map((g: any) => (
                 <li>
                   <span class="m-rank">{g.rank}</span>
                   <img src={g.artwork} alt="" width="34" height="34" loading="lazy" />
                   <span class="m-name">
-                    <a href={g.url} rel="noopener nofollow" target="_blank">{g.name}</a>
+                    <a href={localeHref(`/games/${gameSlug(g.name)}`, lang)}>{g.name}</a>
                     <span class="m-artist">{g.artist}</span>
+                  </span>
+                  <span class="m-nums">
+                    <strong>{formatCompact(g.ratings, lang)}</strong>
+                    <span class="m-sub">
+                      {g.ratingsPerWeek != null
+                        ? `+${formatCompact(g.ratingsPerWeek, lang)}/${ko ? '주' : 'wk'}`
+                        : ko ? '집계 중' : 'collecting'}
+                    </span>
                   </span>
                 </li>
               ))}
@@ -143,13 +158,11 @@ const entries = data.entries ?? [];
           </div>
         ))}
       </div>
-      {!mobile.androidAvailable && (
-        <p class="fine">
-          {ko
-            ? 'Google Play는 공개 API가 전혀 없어 안드로이드 순위는 포함하지 못했습니다. 관련 API는 모두 유료 third-party 스크래퍼입니다.'
-            : 'Android is absent because Google Play publishes no public API of any kind — every "Play top charts API" is a paid third-party scraper.'}
-        </p>
-      )}
+      <p class="fine">
+        {ko
+          ? '숫자는 해당 스토어의 누적 평점 개수입니다. 순위는 본 사이트가 선정한 목록 안에서의 순서이며 애플 차트 순위가 아닙니다. Google Play는 공개 API가 전혀 없어 안드로이드는 포함하지 못했습니다 — 관련 API는 모두 유료 third-party 스크래퍼입니다.'
+          : 'The number is the lifetime App Store rating count in that storefront. The rank is our ordering of our own roster, not an Apple chart position. Android is absent because Google Play publishes no public API of any kind — every "Play top charts API" is a paid third-party scraper.'}
+      </p>
     </section>
   )}
 
@@ -203,7 +216,10 @@ const entries = data.entries ?? [];
   .mobile-cols { display: grid; gap: var(--space-6); grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); }
   .store-head { font-size: var(--step--1); text-transform: uppercase; letter-spacing: 0.07em; color: var(--text-mute); font-weight: 660; margin-bottom: var(--space-3); }
   .mobile-list { display: flex; flex-direction: column; }
-  .mobile-list li { display: grid; grid-template-columns: 1.6rem 34px 1fr; align-items: center; gap: var(--space-3); padding: var(--space-2) var(--space-2); border-radius: var(--radius-sm); }
+  .mobile-list li { display: grid; grid-template-columns: 1.6rem 34px 1fr auto; align-items: center; gap: var(--space-3); padding: var(--space-2) var(--space-2); border-radius: var(--radius-sm); }
+  .m-nums { text-align: right; line-height: 1.25; }
+  .m-nums strong { display: block; font-variant-numeric: tabular-nums; font-size: 0.9rem; }
+  .m-sub { font-size: 0.68rem; color: var(--text-mute); white-space: nowrap; }
   .mobile-list li:nth-child(odd) { background: var(--bg-elev); }
   .m-rank { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--text-mute); font-size: var(--step--1); }
   .mobile-list img { border-radius: 8px; background: var(--bg-inset); }
