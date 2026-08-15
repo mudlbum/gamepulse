@@ -14,6 +14,9 @@ import * as F from './fixtures.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 
+// Must be set before any fetcher imports lib/history.mjs.
+process.env.GP_HISTORY_PATH = resolve(ROOT, '.test-history.json');
+
 let passed = 0;
 let failed = 0;
 const failures = [];
@@ -69,7 +72,7 @@ function restoreFetch() {
 console.log('\n━━━ GamePulse pipeline tests ━━━');
 
 // Start from a clean history so delta assertions are deterministic.
-await rm(resolve(ROOT, 'data-store/history.json'), { force: true });
+await rm(resolve(ROOT, '.test-history.json'), { force: true });
 
 /* ---------- feed parsing ---------- */
 section('Feed parsing & health gating');
@@ -729,6 +732,25 @@ section('Speedrun leaderboards');
     const sr = await fetchSpeedruns();
     assert.match(sr.licence, /CC-BY-NC/);
     assert.ok(Object.values(sr.boards)[0].boardWeblink, 'lost the attribution link');
+  });
+
+  await test('REGRESSION: a failed resolve is not cached as permanently missing', async () => {
+    const { readHistory } = await import('../lib/history.mjs');
+    // Search endpoint down; leaderboards would work if a game resolved.
+    mockFetch([
+      ['speedrun.com/api/v1/games?name=', null],
+      ['/categories', F.srCategories],
+      ['speedrun.com/api/v1/leaderboards', F.srLeaderboard],
+    ]);
+    await fetchSpeedruns();
+    const h = await readHistory();
+    const cached = Object.values(h.srcGames ?? {});
+    // A transient failure must leave NOTHING behind, or the game is
+    // blacklisted forever and no later run ever retries it.
+    assert.ok(
+      !cached.some((v) => v && v.none === true),
+      'a transient failure was cached as {none:true}, permanently disabling that game'
+    );
   });
 
   await test('returns null when speedrun.com is unreachable', async () => {

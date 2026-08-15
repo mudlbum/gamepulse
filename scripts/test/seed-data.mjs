@@ -32,6 +32,9 @@ const CLIP_TITLES = [
   'I tested every new Apex attachment',
 ];
 
+// Keep fixture state out of production's history file entirely.
+process.env.GP_HISTORY_PATH = resolve(ROOT, '.seed-history.json');
+
 const realFetch = globalThis.fetch;
 globalThis.fetch = async (url) => {
   const u = String(url);
@@ -192,4 +195,6 @@ const health = {
 for (const dir of DIRS) await writeFile(resolve(dir, 'health.json'), JSON.stringify(health), 'utf8');
 
 globalThis.fetch = realFetch;
+
+
 console.log('\nSeed data written. Run `npm run data` to replace it with live data.\n');

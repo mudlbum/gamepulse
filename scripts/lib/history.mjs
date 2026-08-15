@@ -10,7 +10,18 @@ import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
-const HISTORY_PATH = resolve(ROOT, 'data-store/history.json');
+
+/**
+ * data-store/history.json is production state: the rolling player series AND
+ * the speedrun.com game-id cache. Tests and the offline seeder run the real
+ * fetchers against fixtures, so without redirecting this path they write
+ * fixture values straight into it — and a fixture-resolved game id 404s
+ * against the live API, silently disabling the speedruns dataset in CI.
+ * Both set GP_HISTORY_PATH to a scratch file so production state is untouched.
+ */
+const HISTORY_PATH = process.env.GP_HISTORY_PATH
+  ? resolve(process.env.GP_HISTORY_PATH)
+  : resolve(ROOT, 'data-store/history.json');
 
 const RETENTION_MS = 8 * 24 * 3600_000; // 8 days
 const MAX_POINTS = 400; // hard cap per game

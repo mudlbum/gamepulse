@@ -50,11 +50,12 @@ export async function fetchSpeedruns() {
      so it is cached in the committed history file. Only genuinely new names
      hit the search endpoint, and only a few per run to stay well inside the
      100 req/min cap. */
-  const unresolved = CANDIDATES.filter((n) => !(n in history.srcGames));
+  const unresolved = CANDIDATES.filter((n) => history.srcGames[n] == null);
   if (unresolved.length) {
-    log(scope, `resolving ${Math.min(unresolved.length, 8)} new game(s)`);
+    log(scope, `resolving ${Math.min(unresolved.length, 8)} game(s)`);
     for (const name of unresolved.slice(0, 8)) {
-      history.srcGames[name] = await resolveGame(name, scope);
+      const result = await resolveGame(name, scope);
+      if (result) history.srcGames[name] = result; // null = retry next run
       await sleep(700);
     }
     await writeHistory(history);
@@ -94,6 +95,16 @@ async function resolveGame(name, scope) {
     `${ENDPOINTS.speedrunBase}/games?name=${encodeURIComponent(name)}&max=5`,
     { scope, retries: 1 }
   );
+
+  /* Distinguish "speedrun.com says there is no such game" from "the request
+     failed". Only the former deserves a permanent {none:true} in the cache —
+     caching a transient 420/timeout would blacklist a real game forever, and
+     nothing would ever retry it. A null return means "ask again next run". */
+  if (json === null) {
+    warn(scope, `resolve request failed for "${name}" — not caching, will retry next run`);
+    return null;
+  }
+
   const games = json?.data;
   if (!Array.isArray(games) || !games.length) return { none: true };
 
