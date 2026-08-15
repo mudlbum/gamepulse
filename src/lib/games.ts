@@ -3,13 +3,15 @@ import srData from '../data/speedruns.json';
 import upData from '../data/updates.json';
 import clipData from '../data/clips.json';
 import mobileData from '../data/mobile.json';
+import newsData from '../data/news.json';
 
 /**
  * Builds the index of games that get their own page.
  *
  * A game earns a page if we hold something real about it: live Steam numbers,
- * a speedrun ladder, or tracked patch notes. Games we know nothing about do not
- * get a stub — thin pages help nobody and hurt an AdSense review.
+ * a speedrun ladder, App Store metrics, or tracked patch notes. Pages that end
+ * up sparse anyway are flagged `thin` and kept out of the index — see the
+ * comment on the filter below.
  */
 
 export function gameSlug(name: string): string {
@@ -34,9 +36,15 @@ export interface GameEntry {
   /** Per-storefront App Store data, keyed by country code. */
   mobile: Record<string, any> | null;
   clips: any[];
+  /** News clusters whose headline or summary names this game. */
+  news: any[];
+  /** Other published games sharing a genre or platform — internal linking. */
+  related: GameEntry[];
   platforms: string[];
   /** True when no public per-player ranking exists for this game anywhere. */
   noRanking: boolean;
+  /** Too sparse to deserve indexing — reachable, but noindex and out of the sitemap. */
+  thin: boolean;
 }
 
 export function buildGameIndex(): GameEntry[] {
@@ -45,6 +53,7 @@ export function buildGameIndex(): GameEntry[] {
   const up: any = upData;
   const clips: any = clipData;
   const mob: any = mobileData;
+  const news: any = newsData;
 
   const bySlug = new Map<string, GameEntry>();
 
@@ -59,8 +68,11 @@ export function buildGameIndex(): GameEntry[] {
         patches: null,
         mobile: null,
         clips: [],
+        news: [],
+        related: [],
         platforms: [],
         noRanking: true,
+        thin: false,
       });
     }
     return bySlug.get(slug)!;
@@ -105,17 +117,77 @@ export function buildGameIndex(): GameEntry[] {
     }
   }
 
-  // Attach clips whose title or channel names the game.
+  /* Attach clips and news that name the game.
+     `needle` deliberately cuts at the first colon and requires four characters:
+     "Tom Clancy's Rainbow Six Siege" matches on the full string almost never,
+     while a two-letter needle would match half the internet. */
   const allClips = [...(clips.trending ?? []), ...(clips.breakout ?? [])];
+  const allClusters = [
+    ...((news.feeds?.en?.clusters ?? []) as any[]),
+    ...((news.feeds?.en?.latest ?? []) as any[]),
+  ];
+
   for (const g of bySlug.values()) {
     const needle = g.name.toLowerCase().split(':')[0].trim();
     if (needle.length < 4) continue;
     g.clips = allClips.filter((c: any) => (c.title ?? '').toLowerCase().includes(needle)).slice(0, 3);
+    g.news = allClusters
+      .filter((c: any) => `${c.headline ?? c.title ?? ''} ${c.summary ?? ''}`.toLowerCase().includes(needle))
+      .slice(0, 4);
   }
 
-  return [...bySlug.values()]
-    .filter((g) => g.steam || g.speedrun || g.patches || g.mobile)
-    .sort((a, b) => (b.steam?.current ?? 0) - (a.steam?.current ?? 0));
+  /* Every game we hold anything about gets a page — a reader looking for
+     League of Legends should find it. But a page carrying a version number and
+     nothing else should not be in Google's index: ~60 of those is what gets a
+     site classified as thin content. So sparse pages are marked `thin`, which
+     makes them noindex and drops them from the sitemap while leaving them
+     reachable. The flag is recomputed every build, so a page becomes indexable
+     by itself the moment real material arrives for it. */
+  const published = [...bySlug.values()].filter((g) => g.steam || g.speedrun || g.patches || g.mobile);
+  for (const g of published) g.thin = substanceOf(g) < 3;
+
+  /* Related games, computed after the filter so nothing links to a page that
+     was never built. Shared genre first, then shared platform. */
+  for (const g of published) {
+    const genres: string[] = g.steam?.genres ?? [];
+    const score = (o: GameEntry) => {
+      if (o.slug === g.slug) return -1;
+      const og: string[] = o.steam?.genres ?? [];
+      const sharedGenre = genres.filter((x) => og.includes(x)).length;
+      const sharedPlatform = g.platforms.filter((p) => o.platforms.includes(p)).length;
+      return sharedGenre * 10 + sharedPlatform;
+    };
+    g.related = published
+      .map((o) => ({ o, s: score(o) }))
+      .filter((x) => x.s > 0)
+      .sort((a, b) => b.s - a.s || (b.o.steam?.current ?? 0) - (a.o.steam?.current ?? 0))
+      .slice(0, 6)
+      .map((x) => x.o);
+  }
+
+  return published.sort((a, b) => (b.steam?.current ?? 0) - (a.steam?.current ?? 0));
+}
+
+/**
+ * How much verifiable material a game page would actually carry.
+ *
+ * Each point is one real section a reader gets. The threshold of 3 was chosen
+ * against the live data: it keeps every game with live numbers, every game with
+ * a runner ladder, every mobile title, and the Riot/Blizzard games that have a
+ * patch feed plus clips or coverage — and drops the handful that would render
+ * as a title, a platform badge and nothing else.
+ */
+export function substanceOf(g: GameEntry): number {
+  let n = 0;
+  if (g.steam) n += 2; // live count, peak, 24h change, 8-day chart
+  if (g.steam?.spark?.length > 2) n += 1;
+  if (g.speedrun?.runs?.length) n += 2; // a full ranked table
+  if (g.mobile && Object.keys(g.mobile).length) n += 2; // per-storefront metrics
+  if (Object.values<any>(g.mobile ?? {}).some((m: any) => m.releaseNotes)) n += 1;
+  if (g.patches?.entries?.length) n += Math.min(2, g.patches.entries.length);
+  if (g.clips.length) n += 1;
+  if (g.news.length) n += 1;
+  return n;
 }
 
 /**
@@ -169,4 +241,15 @@ export function noRankingReason(name: string, lang: 'en' | 'ko', mobileOnly = fa
   if (blizzard)
     return 'Blizzard publishes no public ranking API. Official standings are visible only inside the game client.';
   return 'No free public API publishes a player ranking for this game. We would rather say so than invent a number.';
+}
+
+/**
+ * Slugs that must stay out of the sitemap, for astro.config.mjs.
+ *
+ * Derived from the same index the pages are built from rather than
+ * reimplemented, because a sitemap that disagrees with the pages' own robots
+ * meta produces "Submitted URL marked noindex" all over Search Console.
+ */
+export function thinGameSlugs(): Set<string> {
+  return new Set(buildGameIndex().filter((g) => g.thin).map((g) => g.slug));
 }
