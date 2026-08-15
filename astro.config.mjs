@@ -28,7 +28,7 @@ export default defineConfig({
       filter: (page) =>
         !page.includes('/404') && !page.includes('/search'),
       serialize(item) {
-        if (item.url.match(/\/(leaderboards|clips|updates|deals)/)) {
+        if (item.url.match(/\/(leaderboards|games|clips|updates|deals)/)) {
           item.changefreq = 'hourly';
           item.priority = 0.9;
         } else if (item.url.match(/\/(posts|cosplay|news)/)) {
