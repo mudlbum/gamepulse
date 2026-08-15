@@ -1,6 +1,6 @@
 ---
 import { SITE } from '../config';
-import { alternatePath } from '../lib/paths';
+import { alternatePath, absolute } from '../lib/paths';
 import type { Lang } from '../i18n/ui';
 
 export interface Props {
@@ -50,38 +50,47 @@ const koPath = alternatePath(Astro.url.pathname, 'ko');
 const enUrl = new URL(enPath, siteOrigin).toString();
 const koUrl = new URL(koPath, siteOrigin).toString();
 
+/* `new URL('/x', origin)` silently discards the base path, so on a project
+   site (/repo/) every one of these resolved to the domain root and 404'd.
+   absolute() prefixes BASE_URL before joining. */
 const ogImage = image
-  ? image.startsWith('http') ? image : new URL(image, siteOrigin).toString()
-  : new URL('/og-default.png', siteOrigin).toString();
+  ? image.startsWith('http')
+    ? image
+    : image.startsWith(import.meta.env.BASE_URL)
+      ? new URL(image, siteOrigin).toString() // already base-prefixed by Astro's asset pipeline
+      : absolute(image, siteOrigin)
+  : absolute('/og-default.png', siteOrigin);
 
 const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline[lang]}` : `${title} | ${SITE.name}`;
 const locale = lang === 'ko' ? 'ko_KR' : 'en_US';
 
 /* ---------- JSON-LD graph ---------- */
-const orgId = `${siteOrigin}/#organization`;
-const siteId = `${siteOrigin}/#website`;
+// The site's own root, base path included — not just the origin.
+const siteRoot = absolute('/', siteOrigin);
+const orgId = `${siteRoot}#organization`;
+const siteId = `${siteRoot}#website`;
 
 const graph: Record<string, unknown>[] = [
   {
     '@type': 'Organization',
     '@id': orgId,
     name: SITE.name,
-    url: siteOrigin,
+    url: siteRoot,
     description: SITE.description[lang],
-    logo: { '@type': 'ImageObject', url: new URL('/logo.png', siteOrigin).toString(), width: 512, height: 512 },
+    logo: { '@type': 'ImageObject', url: absolute('/logo.png', siteOrigin), width: 512, height: 512 },
     sameAs: Object.values(SITE.social).filter(Boolean),
   },
   {
     '@type': 'WebSite',
     '@id': siteId,
-    url: siteOrigin,
+    url: siteRoot,
     name: SITE.name,
     description: SITE.description[lang],
     publisher: { '@id': orgId },
     inLanguage: lang === 'ko' ? 'ko-KR' : 'en-US',
     potentialAction: {
       '@type': 'SearchAction',
-      target: { '@type': 'EntryPoint', urlTemplate: `${siteOrigin}/search?q={search_term_string}` },
+      target: { '@type': 'EntryPoint', urlTemplate: `${siteRoot}search?q={search_term_string}` },
       'query-input': 'required name=search_term_string',
     },
   },

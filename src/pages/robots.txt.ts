@@ -1,8 +1,14 @@
 import type { APIContext } from 'astro';
 import { SITE } from '../config';
+import { absolute } from '../lib/paths';
 
 export async function GET(context: APIContext) {
   const origin = context.site?.origin ?? SITE.url;
+  // Root of THIS site including any base path — a project site lives at
+  // /<repo>/, and pointing crawlers at the domain root sends them nowhere.
+  const root = absolute('/', origin);
+  // robots.txt rules are origin-relative, so Disallow paths need the base too.
+  const basePath = new URL(root).pathname;
 
   /**
    * AI crawlers are allowed on purpose.
@@ -14,12 +20,12 @@ export async function GET(context: APIContext) {
    * to Disallow if that trade stops being worth it.
    */
   const body = `# ${SITE.name}
-# Full policy: ${origin}/editorial-policy
+# Full policy: ${root}editorial-policy
 
 User-agent: *
-Allow: /
-Disallow: /search
-Disallow: /*?q=
+Allow: ${basePath}
+Disallow: ${basePath}search
+Disallow: ${basePath}*?q=
 
 # Search engines
 User-agent: Googlebot
@@ -66,9 +72,9 @@ User-agent: CCBot
 Allow: /
 
 # Structured summary for language models
-# ${origin}/llms.txt
+# ${root}llms.txt
 
-Sitemap: ${origin}/sitemap-index.xml
+Sitemap: ${root}sitemap-index.xml
 Host: ${new URL(origin).host}
 `;
 

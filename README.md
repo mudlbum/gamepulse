@@ -41,6 +41,31 @@ npm run build
 
 ## Deploying
 
+### The one-command way
+
+```bash
+./setup-github.sh
+```
+
+Creates the repo, pushes, sets `SITE_URL` and `BASE_PATH`, enables Pages with
+the Actions build source, and starts the first deploy. Requires the
+[GitHub CLI](https://cli.github.com) (`brew install gh`); it will prompt you to
+sign in if you are not already. Safe to re-run — every step checks first.
+
+```bash
+./setup-github.sh --dry-run                    # print the plan, change nothing
+./setup-github.sh my-repo-name                 # pick the repo name
+./setup-github.sh <user>.github.io             # user site, serves from /
+./setup-github.sh --domain gamepulse.dev site  # custom domain
+```
+
+The repo name decides where the site is served from, and the script derives
+`BASE_PATH` accordingly — a repo named `<user>.github.io` serves from `/`,
+anything else from `/<repo>/`.
+
+<details>
+<summary>Or do it manually</summary>
+
 ### 1. Push to GitHub
 
 ```bash
@@ -65,14 +90,16 @@ Getting `BASE_PATH` wrong is the single most common cause of a deployed site
 with no CSS. If the repo is named `<user>.github.io`, use `/`. Otherwise use
 `/<repo-name>/`.
 
-### 4. Optional secrets
+</details>
+
+### Optional secrets
 
 | Secret | Effect if set |
 | --- | --- |
 | `PAT_TOKEN` | A fine-grained PAT with `contents: write`. Lets the data-refresh commit trigger the deploy directly instead of dispatching it. Slightly faster; entirely optional. |
 | `ANTHROPIC_API_KEY` | Enables automatic article drafting. Without it the pipeline still produces research briefs — you just write from them yourself. |
 
-### 5. Before you launch — the config checklist
+### Before you launch — the config checklist
 
 - [ ] `src/config.ts` — set `SITE.url` and the `social` handles
 - [ ] `src/views/pages/Contact.astro` — replace `hello@example.com` with a real, monitored address

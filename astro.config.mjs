@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { rehypeBasePath } from './src/lib/rehype-base-path.mjs';
 
 // SITE_URL is set by the GitHub Actions workflow. Change the fallback to your own domain.
 const SITE = process.env.SITE_URL || 'https://example.github.io';
@@ -13,6 +14,11 @@ export default defineConfig({
   build: { format: 'directory', inlineStylesheets: 'auto' },
   compressHTML: true,
   prefetch: { prefetchAll: true, defaultStrategy: 'viewport' },
+  markdown: {
+    // Article bodies link to /leaderboards and friends; Astro does not rewrite
+    // markdown hrefs for the base path, so this does it at build time.
+    rehypePlugins: [[rehypeBasePath, { base: BASE }]],
+  },
   integrations: [
     sitemap({
       i18n: {

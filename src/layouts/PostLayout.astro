@@ -6,7 +6,7 @@ import YouTubeEmbed from '../components/YouTubeEmbed.astro';
 import { Image } from 'astro:assets';
 import { useTranslations } from '../i18n/ui';
 import type { Lang } from '../i18n/ui';
-import { localeHref, formatDate } from '../lib/paths';
+import { localeHref, formatDate, absolute } from '../lib/paths';
 import { SITE } from '../config';
 
 export interface Props {
@@ -20,6 +20,7 @@ const d = post.data;
 const lang: Lang = d.lang;
 const t = useTranslations(lang);
 const siteOrigin = Astro.site?.origin ?? SITE.url;
+// Astro.url.pathname already carries the base path, so this one is safe as-is.
 const canonical = new URL(Astro.url.pathname, siteOrigin).toString();
 
 const toc = headings.filter((h) => h.depth === 2 || h.depth === 3);
@@ -45,11 +46,11 @@ const articleSchema = {
   author: {
     '@type': 'Organization',
     name: d.author,
-    url: new URL(localeHref('/about', lang), siteOrigin).toString(),
+    url: new URL(localeHref('/about', lang), siteOrigin).toString(), // localeHref adds the base
   },
-  publisher: { '@id': `${siteOrigin}/#organization` },
+  publisher: { '@id': `${absolute('/', siteOrigin)}#organization` },
   mainEntityOfPage: { '@id': `${canonical}#webpage` },
-  ...(ogImage ? { image: [new URL(ogImage, siteOrigin).toString()] } : {}),
+  ...(ogImage ? { image: [ogImage.startsWith('http') ? ogImage : new URL(ogImage, siteOrigin).toString()] } : {}),
   ...(d.keyTakeaway ? { abstract: d.keyTakeaway } : {}),
   articleSection: d.category,
   keywords: [...(d.tags ?? []), ...(d.games ?? [])].join(', '),

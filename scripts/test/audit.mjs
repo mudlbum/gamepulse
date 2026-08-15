@@ -10,7 +10,7 @@ import { chromium } from 'playwright';
 import { readdirSync, readFileSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
-const BASE = 'process.env.AUDIT_URL || 'http://localhost:4321'';
+const BASE = process.env.AUDIT_URL || 'http://localhost:4321';
 const issues = [];
 const ok = [];
 
