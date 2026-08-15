@@ -55,7 +55,7 @@ const rows = limit ? entries.slice(0, limit) : entries;
               <a class="game" href={localeHref(`/games/${gameSlug(e.name)}`, lang)}>
                 <img src={e.image} alt="" width="46" height="21" loading="lazy" decoding="async" />
                 <span class="game-name">{e.name}</span>
-                {e.free && <span class="badge badge-brand hide-sm">F2P</span>}
+                {e.metaResolved !== false && e.free && <span class="badge badge-brand hide-sm">F2P</span>}
               </a>
             )}
           </td>
