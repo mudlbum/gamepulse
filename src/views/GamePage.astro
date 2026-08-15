@@ -36,7 +36,11 @@ if (s?.releaseDate) facts.push({ k: ko ? '출시' : 'Released', v: s.releaseDate
 else if (stores[0]?.releaseDate)
   facts.push({ k: ko ? '출시' : 'Released', v: formatDate(stores[0].releaseDate, lang) });
 if (s?.genres?.length) facts.push({ k: ko ? '장르' : 'Genres', v: s.genres.join(', ') });
-if (s) facts.push({ k: ko ? '가격' : 'Price', v: s.free ? (ko ? '무료' : 'Free to play') : (ko ? '유료' : 'Paid') });
+/* Only claim a price when Steam actually told us. `free` defaults to false, so
+   an unresolved app would otherwise be labelled "Paid" — which is how CS2, a
+   free-to-play game, ended up marked Paid on its own page. */
+if (s?.metaResolved)
+  facts.push({ k: ko ? '가격' : 'Price', v: s.free ? (ko ? '무료' : 'Free to play') : (ko ? '유료' : 'Paid') });
 else if (stores[0]?.price) facts.push({ k: ko ? '가격' : 'Price', v: stores[0].price });
 if (stores[0]?.contentRating) facts.push({ k: ko ? '이용등급' : 'Rated', v: stores[0].contentRating });
 if (game.platforms.length)
@@ -62,7 +66,7 @@ const coverSrc = sr?.cover || s?.image || app?.artwork || null;
     <div>
       <div class="tags-row">
         {game.platforms.map((p) => <span class="badge">{platformLabel[p] ?? p}</span>)}
-        {s?.free && <span class="badge badge-brand">F2P</span>}
+        {s?.metaResolved && s.free && <span class="badge badge-brand">F2P</span>}
       </div>
       <h1>{game.name}</h1>
       {s ? (
