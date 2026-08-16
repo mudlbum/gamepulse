@@ -13,8 +13,6 @@
  *  - genshin-feed.com — valid RSS, zero items.
  *  - thisisgame.com — no working RSS endpoint exists.
  *  - RAWG / IGDB / MobyGames / Giant Bomb — all require API keys.
- *  - Bluesky app.bsky.feed.searchPosts — the one public read endpoint that
- *    returns 403 without auth. We use searchActors + getAuthorFeed instead.
  */
 
 /* ------------------------------------------------------------------ *
@@ -182,26 +180,6 @@ export const NEWS_FEEDS = {
 };
 
 /* ------------------------------------------------------------------ *
- * 5. Cosplay — Bluesky is the only major social platform with a genuinely
- *    open, unauthenticated read API. DIDs are pinned where verified so a
- *    handle change does not break the feed.
- * ------------------------------------------------------------------ */
-export const COSPLAY_ACTORS = [
-  { handle: 'catcosplay.bsky.social', did: 'did:plc:5kg4nfgtmwlvrvqy2mllyeaa', name: 'Cat Cosplay', role: 'cosplayer' },
-  { handle: 'usatame.bsky.social', did: 'did:plc:ktj2uvqphhryapeqdprajjn4', name: 'Usatame', role: 'cosplayer' },
-  { handle: 'mangoloo.bsky.social', did: 'did:plc:g42olcxwaakpaeth4cruyis3', name: 'Mangoloo Cosplays', role: 'cosplayer' },
-  { handle: 'jessicanigri.bsky.social', did: 'did:plc:6axj7b52tzzd7awexaqcfzsq', name: 'Jessica Nigri', role: 'cosplayer' },
-  { handle: 'looshcos.bsky.social', did: 'did:plc:5napl6h4xa5gs7ffucr44ltd', name: 'loosh', role: 'cosplayer' },
-  { handle: 'uniquesora.bsky.social', name: 'UniqueSora Cosplay', role: 'cosplayer' },
-  { handle: 'kittybitgames.bsky.social', name: 'Kitty-Bit', role: 'cosplayer' },
-  { handle: 'mythicmikaela.bsky.social', name: 'Mythic Mikaela', role: 'cosplayer' },
-  { handle: 'copito-chai.bsky.social', name: 'Copito Chai', role: 'cosplayer' },
-  { handle: 'dtjaaaam.bsky.social', name: 'DTJAAAAM', role: 'photographer' },
-  { handle: 'ikemaphoto.bsky.social', name: 'Ikema Photo', role: 'photographer' },
-  { handle: 'cosfame.bsky.social', name: 'CosFame', role: 'photographer' },
-];
-
-/* ------------------------------------------------------------------ *
  * 5b. Mobile games.
  *
  * WHY THERE IS NO CHART HERE. Apple's marketing RSS
@@ -277,8 +255,6 @@ export const MOBILE_STOREFRONTS = [
   { cc: 'kr', label: 'South Korea', labelKo: '대한민국' },
 ];
 
-/** Terms used to auto-discover new cosplay accounts via searchActors. */
-export const COSPLAY_DISCOVERY_TERMS = ['cosplay', 'cosplayer', 'cosplay photographer'];
 
 export const ENDPOINTS = {
   /* LIVE concurrents. This is the one that carries `concurrent_in_game`.
@@ -317,12 +293,6 @@ export const ENDPOINTS = {
   itunesSearch: (term, cc = 'us') =>
     `https://itunes.apple.com/search?term=${encodeURIComponent(term)}&country=${cc}&entity=software&limit=8`,
 
-  bskyAuthorFeed: (actor, limit = 12) =>
-    `https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor=${encodeURIComponent(actor)}&limit=${limit}&filter=posts_with_media`,
-  bskyProfile: (actor) =>
-    `https://public.api.bsky.app/xrpc/app.bsky.actor.getProfile?actor=${encodeURIComponent(actor)}`,
-  bskySearchActors: (q, limit = 25) =>
-    `https://public.api.bsky.app/xrpc/app.bsky.actor.searchActors?q=${encodeURIComponent(q)}&limit=${limit}`,
 };
 
 /** Steam news feed types that represent actual game updates, not press blurbs. */
