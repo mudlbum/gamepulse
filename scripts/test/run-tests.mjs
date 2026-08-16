@@ -395,50 +395,6 @@ section('Clips');
   });
 }
 
-/* ---------- cosplay ---------- */
-section('Cosplay');
-{
-  const { fetchCosplay } = await import('../fetch-cosplay.mjs');
-
-  await test('normalises Bluesky posts and keeps image embeds', async () => {
-    mockFetch([['getAuthorFeed', (u) => {
-      const actor = decodeURIComponent(new URL(u).searchParams.get('actor'));
-      return F.bskyAuthorFeed(actor.includes('did:') ? 'test.bsky.social' : actor, 'Test Cosplayer');
-    }]]);
-    const cos = await fetchCosplay();
-    assert.ok(cos, 'returned null');
-    assert.ok(cos.spotlight.length > 0);
-    const p = cos.spotlight[0];
-    assert.ok(p.images.length > 0, 'no images on the post');
-    assert.ok(p.images[0].full.startsWith('https://'), 'image URL missing');
-    assert.ok(p.url.startsWith('https://bsky.app/profile/'), 'post permalink missing');
-    assert.ok(p.authorHandle, 'author credit missing');
-  });
-
-  await test('drops reposts and text-only posts', async () => {
-    mockFetch([['getAuthorFeed', () => F.bskyAuthorFeed('test.bsky.social', 'Test')]]);
-    const cos = await fetchCosplay();
-    for (const p of cos.spotlight) {
-      assert.ok(p.images.length > 0, 'a post with no images slipped through');
-      assert.notEqual(p.authorHandle, 'someone.else', 'a repost slipped through');
-    }
-  });
-
-  await test('every card carries attribution back to the creator', async () => {
-    mockFetch([['getAuthorFeed', () => F.bskyAuthorFeed('test.bsky.social', 'Test')]]);
-    const cos = await fetchCosplay();
-    for (const p of cos.spotlight) {
-      assert.ok(p.url && p.authorHandle && p.authorName, 'incomplete attribution');
-    }
-  });
-
-  await test('returns null when Bluesky is unreachable', async () => {
-    mockFetch([['bsky.app', null]]);
-    const cos = await fetchCosplay();
-    assert.equal(cos, null);
-  });
-}
-
 /* ---------- deals ---------- */
 section('Deals');
 {

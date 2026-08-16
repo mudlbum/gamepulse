@@ -321,70 +321,8 @@ export const cheapSharkStores = [
   { storeID: '8', storeName: 'Origin', isActive: 1 },
 ];
 
-export const bskyAuthorFeed = (handle, displayName) => ({
-  feed: [
-    {
-      post: {
-        uri: `at://did:plc:example/app.bsky.feed.post/3abcxyz`,
-        cid: 'bafy...',
-        author: {
-          did: 'did:plc:example',
-          handle,
-          displayName,
-          avatar: 'https://cdn.bsky.app/img/avatar/plain/did:plc:example/abc@jpeg',
-        },
-        record: {
-          $type: 'app.bsky.feed.post',
-          text: 'Finished my Cryo Traveler build just in time for 7.0! Photos by @ikemaphoto.',
-          createdAt: new Date(Date.now() - 20 * 3600_000).toISOString(),
-        },
-        embed: {
-          $type: 'app.bsky.embed.images#view',
-          images: [
-            {
-              thumb: 'https://cdn.bsky.app/img/feed_thumbnail/plain/did:plc:example/img1@jpeg',
-              fullsize: 'https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:example/img1@jpeg',
-              alt: 'Cryo Traveler cosplay, full body shot',
-              aspectRatio: { width: 1500, height: 2000 },
-            },
-          ],
-        },
-        likeCount: 1421,
-        repostCount: 143,
-        replyCount: 37,
-        indexedAt: new Date(Date.now() - 20 * 3600_000).toISOString(),
-      },
-    },
-    {
-      // A repost — must be filtered out.
-      reason: { $type: 'app.bsky.feed.defs#reasonRepost' },
-      post: {
-        uri: `at://did:plc:other/app.bsky.feed.post/3zzz`,
-        author: { did: 'did:plc:other', handle: 'someone.else', displayName: 'Someone Else' },
-        record: { text: 'reposted content', createdAt: new Date().toISOString() },
-        embed: {
-          $type: 'app.bsky.embed.images#view',
-          images: [{ thumb: 't', fullsize: 'f', alt: 'x', aspectRatio: { width: 1, height: 1 } }],
-        },
-        likeCount: 10,
-        repostCount: 1,
-        replyCount: 0,
-      },
-    },
-    {
-      // A text-only post — no images, must be filtered out.
-      post: {
-        uri: `at://did:plc:example/app.bsky.feed.post/3textonly`,
-        author: { did: 'did:plc:example', handle, displayName },
-        record: { text: 'Con crunch is real, see you all Saturday', createdAt: new Date().toISOString() },
-        likeCount: 88,
-        repostCount: 2,
-        replyCount: 4,
-      },
-    },
-  ],
-});
 
+/* Riot ships no patch RSS; these two keyless endpoints expose the live build. */
 export const ddragonVersions = ['26.16.1', '26.15.1', '26.14.1', '26.13.1'];
 
 export const valorantVersion = {

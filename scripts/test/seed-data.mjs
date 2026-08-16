@@ -57,11 +57,6 @@ globalThis.fetch = async (url) => {
     const rot = (n) => CLIP_TITLES[(Math.max(0, i) + n) % CLIP_TITLES.length];
     return xml(F.youtubeFeed(id, name, [rot(0), rot(1), rot(2)]));
   }
-  if (u.includes('getAuthorFeed')) {
-    const actor = decodeURIComponent(new URL(u).searchParams.get('actor'));
-    const handle = actor.startsWith('did:') ? 'sample.bsky.social' : actor;
-    return json(F.bskyAuthorFeed(handle, handle.split('.')[0]));
-  }
   if (u.includes('itunes.apple.com/search'))
     return json(F.itunesSearch(new URL(u).searchParams.get('term'), new URL(u).searchParams.get('country')));
   if (u.includes('itunes.apple.com/lookup'))
@@ -143,7 +138,6 @@ globalThis.fetch = async (url) => {
 const { fetchLeaderboard } = await import('../fetch-leaderboard.mjs');
 const { fetchUpdates } = await import('../fetch-updates.mjs');
 const { fetchClips } = await import('../fetch-clips.mjs');
-const { fetchCosplay } = await import('../fetch-cosplay.mjs');
 const { fetchDeals } = await import('../fetch-deals.mjs');
 const { fetchNews } = await import('../fetch-news.mjs');
 const { fetchMobile } = await import('../fetch-mobile.mjs');
@@ -171,7 +165,6 @@ const datasets = {
   updates: await fetchUpdates(),
   clips: await fetchClips(),
   deals: await fetchDeals(),
-  cosplay: await fetchCosplay(),
   news: await fetchNews(),
   mobile: await fetchMobile(),
   speedruns: await fetchSpeedruns(),
