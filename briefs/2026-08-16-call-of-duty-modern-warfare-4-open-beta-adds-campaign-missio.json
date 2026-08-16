@@ -1,0 +1,120 @@
+{
+  "generated": "2026-08-16T09:14:36.936Z",
+  "workingTitle": "Call Of Duty: Modern Warfare 4 Open Beta Adds Campaign Mission 'Entrenched'",
+  "heat": 61.8,
+  "outletCount": 6,
+  "outlets": [
+    "Nintendo Life",
+    "PC Gamer",
+    "Kotaku",
+    "GameSpot",
+    "IGN",
+    "Push Square"
+  ],
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Call Of Duty: Modern Warfare 4 Open Beta Adds Campaign Mission 'Entrenched'",
+        "url": "https://www.nintendolife.com/news/2026/08/call-of-duty-modern-warfare-4-open-beta-adds-campaign-mission-entrenched",
+        "date": "2026-08-16T06:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Here's a first for Call of Duty: The Modern Warfare 4 beta will have a campaign mission and Warzone stuff",
+        "url": "https://www.pcgamer.com/games/call-of-duty/heres-a-first-for-call-of-duty-the-modern-warfare-4-beta-will-have-a-campaign-mission-and-warzone-stuff/",
+        "date": "2026-08-14T21:29:32.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Activision Really Wants You To Know Call Of Duty: Modern Warfare 4′s Campaign Isn’t A Horrible Mess Like BLOPS7",
+        "url": "https://kotaku.com/activision-really-wants-you-to-know-call-of-duty-modern-warfare-4s-campaign-isnt-a-horrible-mess-like-blops7-2000724549",
+        "date": "2026-08-14T20:39:19.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Xbox Confirms Call of Duty: Modern Warfare 4 Beta Will Feature Single-Player Campaign Mission for the First Time",
+        "url": "https://www.ign.com/articles/xbox-confirms-call-of-duty-modern-warfare-4-beta-will-feature-single-player-campaign-mission-for-the-first-time",
+        "date": "2026-08-14T15:52:48.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Here’s A First Look At CoD: Warzone’s New Zodiac Map For MW4",
+        "url": "https://www.gamespot.com/articles/heres-a-first-look-at-cod-warzones-new-zodiac-map-for-mw4/",
+        "date": "2026-08-14T18:25:27.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "Call Of Duty: Modern Warfare 4 Beta Will Do Something No Previous CoD Beta Has",
+        "url": "https://www.gamespot.com/articles/call-of-duty-modern-warfare-4-beta-will-do-something-no-previous-cod-beta-has/",
+        "date": "2026-08-14T14:48:08.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "value": "mission, which can be seen in the",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Players will have access to the \"Entrenched\" mission, which can be seen in the \"first look\" trailer above.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/call-of-duty-modern-warfare-4-open-beta-adds-campaign-mission-entrenched"
+      ]
+    },
+    {
+      "kind": "figure",
+      "value": "$70",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As for why Infinity Ward is double-stuffing the beta, it has not said, though one could intuit that the studio is extending an olive branch to fans disappointed by last year's pretty bad Black Ops 7, and who might not see the urgency to buy another $70 CoD weeks before GTA6 arrives.",
+      "urls": [
+        "https://www.pcgamer.com/games/call-of-duty/heres-a-first-for-call-of-duty-the-modern-warfare-4-beta-will-have-a-campaign-mission-and-warzone-stuff/"
+      ]
+    },
+    {
+      "kind": "date",
+      "value": "October 23, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Playable in the Modern Warfare 4 Beta: ✅ Exclusive Campaign Mission ✅ New Call of Duty: Warzone Resurgence Map: Zodiac (Weekend 2) pic.twitter.com/WOXNGoUMw5\n\nCall of Duty: Modern Warfare 4 launches for PC, PS5, and Xbox Series X | S October 23, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/xbox-confirms-call-of-duty-modern-warfare-4-beta-will-feature-single-player-campaign-mission-for-the-first-time"
+      ]
+    }
+  ],
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

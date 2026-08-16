@@ -1,0 +1,169 @@
+{
+  "generated": "2026-08-16T09:14:36.828Z",
+  "workingTitle": "You'd Have to Be Heartless to Hate on This Extended Kingdom Hearts 4 Trailer",
+  "heat": 103.6,
+  "outletCount": 10,
+  "outlets": [
+    "Push Square",
+    "Polygon",
+    "IGN",
+    "Nintendo Life",
+    "GameSpot",
+    "Eurogamer",
+    "Kotaku",
+    "PC Gamer",
+    "Destructoid",
+    "Pure Xbox"
+  ],
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "You'd Have to Be Heartless to Hate on This Extended Kingdom Hearts 4 Trailer",
+        "url": "https://www.pushsquare.com/news/2026/08/youd-have-to-be-heartless-to-hate-on-this-extended-kingdom-hearts-4-trailer",
+        "date": "2026-08-16T03:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Kingdom Hearts 4 Gets Full Reveal in New D23 Extended Trailer",
+        "url": "https://www.polygon.com/kingdom-hearts-4-d23-panel-recap/",
+        "date": "2026-08-16T00:51:04.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "'I Want to Set the Record Straight: That Is Not Happening' — Kingdom Hearts 4 Devs Say KH4 '100%' Will Not Be Delayed Past Late 2027 Launch | D23 2026",
+        "url": "https://www.ign.com/articles/i-want-to-set-the-record-straight-that-is-not-happening-kingdom-hearts-4-devs-say-kh4-100-will-not-be-delayed-past-late-2027-launch-d23-2026",
+        "date": "2026-08-16T00:48:49.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Kingdom Hearts IV Is Launching On Switch 2 In Late 2027, Here's A Brand-New Trailer",
+        "url": "https://www.nintendolife.com/news/2026/08/kingdom-hearts-iv-is-launching-on-switch-2-in-late-2027-heres-a-brand-new-trailer",
+        "date": "2026-08-16T00:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Kingdom Hearts 4 Gets Extended Gameplay Trailer Featuring Playable Mickey, Donald, and Goofy | D23 2026",
+        "url": "https://www.ign.com/articles/kingdom-hearts-4-gets-extended-gameplay-trailer-featuring-playable-mickey-donald-and-goofy-d23-2026",
+        "date": "2026-08-16T00:03:45.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Kingdom Hearts 4 Extended Trailer | D23 KH4 Showcase",
+        "url": "https://www.gamespot.com/videos/kingdom-hearts-4-extended-trailer-d23-kh4-showcase/",
+        "date": "2026-08-16T00:18:22.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "value": "season 5",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Granted the Xeanhort saga is finished now, so I hope for your sake that jumping into KH4 first isn’t like jumping into Game of Thrones season 5 first.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/youd-have-to-be-heartless-to-hate-on-this-extended-kingdom-hearts-4-trailer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "One last thing I wanted to share: We announced the game is going to be coming in late 2027,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"One last thing I wanted to share: We announced the game is going to be coming in late 2027,\" Nomura said.",
+      "urls": [
+        "https://www.ign.com/articles/i-want-to-set-the-record-straight-that-is-not-happening-kingdom-hearts-4-devs-say-kh4-100-will-not-be-delayed-past-late-2027-launch-d23-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "There&#x27;s many things underway, many plans we have underway,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A lot of the marketing for the game has only just started, and so I do hope that people also look forward to hearing more news as well.\"\n\n\"There&#x27;s many things underway, many plans we have underway,\" he continued.",
+      "urls": [
+        "https://www.ign.com/articles/i-want-to-set-the-record-straight-that-is-not-happening-kingdom-hearts-4-devs-say-kh4-100-will-not-be-delayed-past-late-2027-launch-d23-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "Now that we are approaching the 25th anniversary, we&#x27;re thinking about what the 30th anniversary .",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Now that we are approaching the 25th anniversary, we&#x27;re thinking about what the 30th anniversary .\"\n\n\"I can confidently say and promise that it will launch in 2027,\" Yasue said.",
+      "urls": [
+        "https://www.ign.com/articles/i-want-to-set-the-record-straight-that-is-not-happening-kingdom-hearts-4-devs-say-kh4-100-will-not-be-delayed-past-late-2027-launch-d23-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "Creative director Tetsuya Nomura added to this, stating he's aware of fan speculation about delays and says this won't be happening:",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "So, promise you that.\"\n\nCreative director Tetsuya Nomura added to this, stating he's aware of fan speculation about delays and says this won't be happening:\n\n\"We announced the game is going to be coming late 2027, and I saw online some people were saying the actual release date might still get pushed back.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/kingdom-hearts-iv-is-launching-on-switch-2-in-late-2027-heres-a-brand-new-trailer"
+      ]
+    },
+    {
+      "kind": "date",
+      "value": "August 14, 2026",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Revealed during the Disney Entertainment Showcase on August 14, 2026, KINGDOM HEARTS IV is launching in late 2027!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/kingdom-hearts-iv-is-launching-on-switch-2-in-late-2027-heres-a-brand-new-trailer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "value": "In some related news, Disney has also announced a Kingdom Hearts anime series is",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A brand-new adventure awaits as the world of Disney and Pixar's Coco joins KINGDOM HEARTS IV.\"\n\nIn some related news, Disney has also announced a Kingdom Hearts anime series is \"coming soon\" to Disney+ and the Disney Channel.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/kingdom-hearts-iv-is-launching-on-switch-2-in-late-2027-heres-a-brand-new-trailer"
+      ]
+    }
+  ],
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
