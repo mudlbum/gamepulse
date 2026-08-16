@@ -427,3 +427,17 @@
   @media (max-width: 640px) { .hide-sm { display: none !important; } }
   @media (max-width: 880px) { .hide-md { display: none !important; } }
 }
+
+/* ============================================================
+   The [hidden] attribute must actually hide things.
+
+   This rule is deliberately UNLAYERED and !important, and both parts matter.
+   The browser's own `[hidden] { display: none }` is the weakest rule there is,
+   so any author rule that sets `display` on the same element silently defeats
+   it. That is exactly what happened to the cookie banner: `.consent` set
+   `display: flex`, so `el.hidden = true` set the attribute and changed nothing
+   on screen — clicking "Accept all" looked like a dead button. Astro's scoped
+   component styles are unlayered, so a fix inside `@layer reset` would lose to
+   them too; this has to sit outside the cascade layers to win.
+   ============================================================ */
+[hidden] { display: none !important; }
