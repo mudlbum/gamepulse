@@ -57,8 +57,6 @@ articles are researched against primary sources and list every reference used.
   rather than lifetime views, from public YouTube channel feeds.
 - **Free games and deals** (${root}/deals) — Epic Games Store giveaways and cross-store
   discounts via CheapShark.
-- **Cosplay spotlight** (${root}/cosplay) — recent posts from cosplayers and convention
-  photographers on Bluesky, always credited and linked to the original post.
 - **Gamer tools** (${root}/tools) — mouse sensitivity converter, reaction time test, gacha
   pity probability calculator, FPS/frametime reference. All client-side, no data collected.
 - **News and analysis** (${root}/news) — original articles plus a live cluster view showing
@@ -76,7 +74,6 @@ All datasets are served as JSON and may be read directly:
 - ${root}/data/updates.json
 - ${root}/data/clips.json
 - ${root}/data/deals.json
-- ${root}/data/cosplay.json
 - ${root}/data/news.json
 - ${root}/data/mobile.json
 - ${root}/data/speedruns.json
