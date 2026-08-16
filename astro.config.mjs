@@ -41,7 +41,7 @@ export default defineConfig({
         if (item.url.match(/\/(leaderboards|games|clips|updates|deals)/)) {
           item.changefreq = 'hourly';
           item.priority = 0.9;
-        } else if (item.url.match(/\/(posts|cosplay|news)/)) {
+        } else if (item.url.match(/\/(posts|news)/)) {
           item.changefreq = 'daily';
           item.priority = 0.8;
         } else {
