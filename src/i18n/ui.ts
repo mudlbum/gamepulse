@@ -11,7 +11,6 @@ export const ui = {
     'nav.updates': 'Game Updates',
     'nav.clips': 'Viral Clips',
     'nav.deals': 'Free & Deals',
-    'nav.cosplay': 'Cosplay',
     'nav.tools': 'Tools',
     'nav.about': 'About',
     'nav.menu': 'Menu',
@@ -55,12 +54,6 @@ export const ui = {
     'clip.views': 'views',
     'clip.watch': 'Watch on YouTube',
     'clip.ago': 'ago',
-
-    'cos.title': 'Cosplay Spotlight',
-    'cos.sub': 'Recent work from cosplayers and convention photographers posting on open platforms.',
-    'cos.by': 'by',
-    'cos.viewPost': 'View original post',
-    'cos.credit': 'All images link to and remain the property of their original creators.',
 
     'deal.title': 'Free Games & Deals',
     'deal.sub': 'Currently free giveaways and the steepest discounts across stores.',
@@ -126,7 +119,6 @@ export const ui = {
     'nav.updates': '게임 업데이트',
     'nav.clips': '화제의 영상',
     'nav.deals': '무료·할인',
-    'nav.cosplay': '코스프레',
     'nav.tools': '도구',
     'nav.about': '소개',
     'nav.menu': '메뉴',
@@ -170,12 +162,6 @@ export const ui = {
     'clip.views': '조회',
     'clip.watch': '유튜브에서 보기',
     'clip.ago': '전',
-
-    'cos.title': '코스프레 스포트라이트',
-    'cos.sub': '공개 플랫폼에서 활동 중인 코스플레이어와 행사 사진작가의 최근 작업입니다.',
-    'cos.by': '작가',
-    'cos.viewPost': '원본 게시물 보기',
-    'cos.credit': '모든 이미지의 저작권은 원작자에게 있으며, 원본 게시물로 연결됩니다.',
 
     'deal.title': '무료 게임 & 할인',
     'deal.sub': '지금 무료로 받을 수 있는 게임과 스토어별 최대 할인입니다.',
