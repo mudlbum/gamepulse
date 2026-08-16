@@ -48,6 +48,9 @@ const t = useTranslations(lang);
 </div>
 
 <style>
+  /* Paired with the global [hidden] rule in global.css. Kept here as well so
+     the constraint is visible next to the `display: flex` that broke it. */
+  .consent[hidden] { display: none; }
   .consent {
     position: fixed; inset: auto var(--space-4) var(--space-4) auto;
     z-index: 300; max-width: 400px;
