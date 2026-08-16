@@ -1,30 +1,47 @@
-name: Research & draft articles
+name: Daily article
+
+# Runs every day and DECIDES every day. It does not publish every day.
+#
+# scripts/select-story.mjs applies the evidence gate; on a quiet news day it
+# returns publish=false and every step below is skipped, so nothing ships.
+# Expect roughly 3-5 published posts a week. That is the design, not a fault:
+# a cron job that publishes 365 articles a year is the exact shape Google's
+# scaled-content-abuse policy is written to catch, and this site's whole
+# premise is that its numbers can be checked.
 
 on:
   schedule:
-    # 09:00 and 21:00 UTC — 18:00 and 06:00 KST.
-    - cron: '0 9,21 * * *'
+    # 23:00 UTC = 08:00 KST. Late enough that the US news day has happened,
+    # early enough to be there before the Korean morning.
+    - cron: '0 23 * * *'
   workflow_dispatch:
     inputs:
       count:
-        description: 'How many story briefs to build'
+        description: 'How many story briefs to build before choosing'
         type: string
-        default: '3'
+        default: '5'
+      force_draft:
+        description: 'Write as a draft even if the gate passes (dry run)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
-  pull-requests: write
-  issues: write
+  # `gh workflow run` creates a workflow_dispatch event, which needs this.
+  # Without it the commit lands and the deploy dispatch 403s.
+  actions: write
 
 concurrency:
   group: write-articles
   cancel-in-progress: false
 
 jobs:
-  draft:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.PAT_TOKEN || github.token }}
 
       - uses: actions/setup-node@v5
         with:
@@ -33,53 +50,84 @@ jobs:
 
       - run: npm ci
 
-      - name: Refresh news so briefs are built on current clusters
-        run: node scripts/refresh-all.mjs news || echo "::warning::news refresh failed, using committed data"
+      - name: Refresh news so briefs are built on today's clusters
+        run: node scripts/refresh-all.mjs news || echo "::warning::news refresh failed, falling back to committed data"
 
       - name: Generate research briefs
         env:
-          BRIEF_COUNT: ${{ inputs.count || '3' }}
+          BRIEF_COUNT: ${{ inputs.count || '5' }}
         run: node scripts/generate-brief.mjs
 
-      - name: Draft articles from the top brief
-        id: draft
-        env:
-          # Optional. Without it this step no-ops and you get briefs to write
-          # from by hand — the pipeline still produces something useful.
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/write-article.mjs
+      # The gate. Everything after this is conditional on it.
+      - name: Choose today's story
+        id: pick
+        run: node scripts/select-story.mjs
 
-      - name: Validate any generated drafts still build
+      - name: Nothing to publish
+        if: steps.pick.outputs.publish != 'true'
+        run: |
+          echo "No story cleared the gate: ${{ steps.pick.outputs.reason }}"
+          echo "A quiet day is a valid outcome — see scripts/select-story.mjs." >> $GITHUB_STEP_SUMMARY
+
+      - name: Write the article
+        id: write
+        if: steps.pick.outputs.publish == 'true'
+        env:
+          # Without this the script exits cleanly and the run commits briefs
+          # only — the pipeline degrades to "research for a human" rather than
+          # breaking.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GP_PUBLISH: ${{ inputs.force_draft && '0' || '1' }}
+        run: node scripts/write-article.mjs "${{ steps.pick.outputs.brief }}"
+
+      - name: Check an article was actually produced
+        id: produced
+        if: steps.pick.outputs.publish == 'true'
+        run: |
+          if [ -f .article-output.json ]; then
+            echo "ok=true" >> $GITHUB_OUTPUT
+            node -e "const a=require('./.article-output.json');console.log('### Published\n\n**'+a.title+'**\n\nKorean edition: '+(a.hasKorean?'yes':'no')+'  \nFrom brief: `'+a.brief+'`')" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ok=false" >> $GITHUB_OUTPUT
+            echo "::warning::Gate passed but no article was written — ANTHROPIC_API_KEY is probably unset."
+            echo "### Gate passed, nothing written\n\nANTHROPIC_API_KEY is probably not configured. Briefs are committed; write from them by hand." >> $GITHUB_STEP_SUMMARY
+          fi
+
+      # A generated article that breaks the build must never reach main.
+      - name: Build must pass with the new article in place
+        if: steps.produced.outputs.ok == 'true'
         run: npm run build
         env:
           SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io', github.repository_owner) }}
           BASE_PATH: ${{ vars.BASE_PATH || '/' }}
 
-      - name: Open pull request
-        uses: peter-evans/create-pull-request@v7
-        with:
-          branch: auto/drafts-${{ github.run_number }}
-          commit-message: "content: research briefs and drafts for ${{ github.run_number }}"
-          title: "Draft articles — ${{ github.run_number }}"
-          labels: automated, needs-review
-          body: |
-            Automated research + drafting run.
+      - name: Commit
+        id: commit
+        if: always() && steps.pick.outputs.publish == 'true'
+        run: |
+          git config user.name  "gamepulse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add briefs src/content/posts src/data public/data
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            TITLE=$(node -e "try{console.log(require('./.article-output.json').title)}catch(e){console.log('research briefs')}")
+            git commit -m "content: ${TITLE}"
+            git pull --rebase --autostash origin main
+            git push
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
 
-            **Everything here is `draft: true` and will not appear on the live site until you set it to `false` and merge.**
-
-            ## Review checklist
-
-            Read the brief in `briefs/` alongside each draft:
-
-            - [ ] Every figure in the article appears in the brief's **corroborated facts** table
-            - [ ] Nothing from **single-sourced** is stated as fact without in-text attribution
-            - [ ] Every **conflict** flagged in the brief is either resolved against a primary source or reported as a discrepancy
-            - [ ] `sources[]` in the frontmatter lists every URL actually used
-            - [ ] No invented quotes, dates, version numbers or prices
-            - [ ] The writing does not read as machine-generated (see `scripts/write-article.mjs` for the banned-phrase list)
-            - [ ] `keyTakeaway` stands alone and contains the key numbers
-            - [ ] Korean version carries identical figures to the English
-
-            When satisfied: set `draft: false` in both language files, set `reviewedBy` to your name, and merge.
-
-            If `ANTHROPIC_API_KEY` is not configured this PR contains briefs only — write from them by hand.
+      # Same reason as refresh-data.yml: a push made with the default token
+      # deliberately does not trigger other workflows.
+      - name: Trigger deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HAS_PAT: ${{ secrets.PAT_TOKEN != '' }}
+        run: |
+          if [ "$HAS_PAT" = "true" ]; then
+            echo "PAT configured — the push already triggered deploy.yml."
+          else
+            gh workflow run deploy.yml
+          fi
