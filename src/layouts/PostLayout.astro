@@ -118,10 +118,18 @@ const breadcrumbs = [
           </>
         )}
       </div>
+      {/* The badge must match reality. "human-reviewed" is only true when a
+          person is named in reviewedBy; auto-published pieces say plainly that
+          nobody has read them yet. Claiming review that did not happen is worse
+          than publishing without it. */}
       {(d.factChecked || d.aiAssisted) && (
         <div class="transparency">
           {d.factChecked && <span class="tr-item ok">✓ {t('post.factChecked')}</span>}
-          {d.aiAssisted && <span class="tr-item">ⓘ {t('post.aiAssisted')}{d.reviewedBy ? ` — ${d.reviewedBy}` : ''}</span>}
+          {d.aiAssisted && (
+            d.reviewedBy
+              ? <span class="tr-item">ⓘ {t('post.aiAssisted')} — {d.reviewedBy}</span>
+              : <span class="tr-item warn">ⓘ {t('post.aiUnreviewed')}</span>
+          )}
         </div>
       )}
     </header>
@@ -253,6 +261,7 @@ const breadcrumbs = [
     padding: 0.25em 0.7em; background: var(--bg-elev);
   }
   .tr-item.ok { color: var(--up); border-color: color-mix(in oklab, var(--up) 30%, transparent); }
+  .tr-item.warn { color: var(--warn, #d8a53a); border-color: color-mix(in oklab, var(--warn, #d8a53a) 40%, transparent); }
 
   .hero-fig { margin-bottom: var(--space-6); }
   .hero-fig img { width: 100%; border-radius: var(--radius); border: 1px solid var(--border); }
