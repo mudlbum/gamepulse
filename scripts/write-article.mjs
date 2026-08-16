@@ -7,11 +7,19 @@
  * missing key never breaks the pipeline — you just get a brief to hand to a
  * writer instead of a draft.
  *
- * Everything published this way lands as a PULL REQUEST with draft: true.
- * Nothing reaches the live site without a human merging it. That gate is the
- * difference between an automated publication and a content farm, and it is
- * also what keeps the site on the right side of Google's scaled-content-abuse
- * policy.
+ * TWO MODES.
+ *
+ *   default        — writes `draft: true`. Nothing reaches the live site until
+ *                    a human flips it. Use this for ad-hoc runs.
+ *   GP_PUBLISH=1   — writes `draft: false` and the article goes live on the
+ *                    next deploy. The daily workflow sets this ONLY for a brief
+ *                    that scripts/select-story.mjs has already passed.
+ *
+ * The gate is what separates an automated publication from a content farm, and
+ * it is what keeps the site on the right side of Google's scaled-content-abuse
+ * policy. In publish mode that gate is select-story.mjs, not a human — so read
+ * its header before loosening anything there. Publishing is still refused here
+ * if the brief is thin, because two independent refusals are better than one.
  */
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
@@ -24,6 +32,9 @@ const POSTS = resolve(ROOT, 'src/content/posts');
 
 const API_KEY = process.env.ANTHROPIC_API_KEY;
 const MODEL = process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-5';
+/* Set by the daily workflow, and only after select-story.mjs has passed the
+   brief. Anything else gets a draft. */
+const PUBLISH = process.env.GP_PUBLISH === '1';
 
 const STYLE_RULES = `
 VOICE — this is the part that matters most.
@@ -81,10 +92,15 @@ async function main() {
   const brief = JSON.parse(await readFile(resolve(BRIEFS, briefFile), 'utf8'));
   log('write', `writing from ${briefFile}`);
 
-  if (brief.facts.length < 4) {
-    warn('write', `brief has only ${brief.facts.length} corroborated facts — too thin to publish. Skipping.`);
+  /* A second, independent refusal. select-story.mjs already applies a stricter
+     bar, but this script can also be run by hand, and "publish" should never be
+     one typo away from shipping an article built on three facts. */
+  const floor = PUBLISH ? 6 : 4;
+  if (brief.facts.length < floor) {
+    warn('write', `brief has only ${brief.facts.length} corroborated facts (floor ${floor}) — too thin. Skipping.`);
     process.exit(0);
   }
+  log('write', PUBLISH ? 'PUBLISH mode — this will go live on the next deploy' : 'draft mode — output needs a human to publish it');
 
   const en = await generate(brief, 'en');
   if (!en) process.exit(1);
@@ -106,7 +122,7 @@ async function main() {
   // Surfaced by the workflow into the PR body.
   await writeFile(
     resolve(ROOT, '.article-output.json'),
-    JSON.stringify({ slug: en.slug, title: en.title, translationKey, brief: briefFile, hasKorean: !!ko }, null, 2),
+    JSON.stringify({ slug: en.slug, title: en.title, translationKey, brief: briefFile, hasKorean: !!ko, published: PUBLISH }, null, 2),
     'utf8'
   );
 }
@@ -164,8 +180,7 @@ games: []
 tags: []
 author: GamePulse Desk
 aiAssisted: true
-reviewedBy: "Pending human review"
-factChecked: true
+factChecked: false
 readingTime: 5
 keyTakeaway: "..."         # ONE paragraph, 60-110 words, complete and self-contained.
                            # This is what an AI search engine will quote verbatim,
@@ -195,15 +210,35 @@ Return ONLY the markdown file. No preamble, no explanation.`;
   const title = titleMatch ? titleMatch[1] : brief.workingTitle;
   const slug = enVersion ? enVersion.slug : slugify(title).slice(0, 70);
 
-  // Force draft:true regardless of what the model produced. Publication is a
-  // human decision, always.
+  /* Never trust the model's own draft flag — it is decided here, from the mode
+     and the evidence, not from whatever the model felt like emitting. */
+  const draftValue = PUBLISH ? 'false' : 'true';
   const withDraft = /^draft:/m.test(markdown)
-    ? markdown.replace(/^draft:.*$/m, 'draft: true')
-    : markdown.replace(/^---\n/, '---\ndraft: true\n');
+    ? markdown.replace(/^draft:.*$/m, `draft: ${draftValue}`)
+    : markdown.replace(/^---\n/, `---\ndraft: ${draftValue}\n`);
 
-  const fixed = withDraft.replace(/^translationKey:.*$/m, `translationKey: ${slug}`);
+  let fixed = withDraft.replace(/^translationKey:.*$/m, `translationKey: ${slug}`);
+
+  /* PROVENANCE IS STAMPED HERE, NEVER TAKEN FROM THE MODEL.
+     The old template hardcoded `factChecked: true` and
+     `reviewedBy: "Pending human review"`. That was survivable when every
+     article went through a human before merge. On the daily auto-publish path
+     nobody reviews anything, so those two lines would have put
+     "✓ Fact-checked against primary sources" and "human-reviewed" on the page
+     under an article no human had read. Both claims are stamped false here and
+     the badge says so. A human who reviews a piece later can set reviewedBy and
+     factChecked by hand — that is the only way they become true. */
+  fixed = setFrontmatter(fixed, 'aiAssisted', 'true');
+  fixed = setFrontmatter(fixed, 'factChecked', 'false');
+  fixed = fixed.replace(/^reviewedBy:.*$\n?/m, '');
 
   return { markdown: fixed, title, slug };
+}
+
+/** Set a frontmatter scalar, inserting it if the model omitted it. */
+function setFrontmatter(md, key, value) {
+  const re = new RegExp(`^${key}:.*$`, 'm');
+  return re.test(md) ? md.replace(re, `${key}: ${value}`) : md.replace(/^---\n/, `---\n${key}: ${value}\n`);
 }
 
 async function callAnthropic(prompt) {

@@ -122,6 +122,12 @@ async function buildBrief(cluster, context) {
     heat: cluster.heat,
     outletCount: cluster.outletCount,
     outlets: cluster.outlets,
+    /* Recorded so the publish gate can judge the brief on its own terms rather
+       than re-deriving them: how fresh the newest source is, and how many
+       articles actually yielded body text. Facts extracted from headlines
+       alone are not facts. */
+    newest: cluster.newest ?? null,
+    readableCount: usable.length,
     games,
     sources: {
       primary: primary.map(pickMeta),
