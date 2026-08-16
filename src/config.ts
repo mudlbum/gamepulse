@@ -26,7 +26,6 @@ export const SITE = {
      abandoned without touching the main inbox. */
   contactEmail: 'mudlbum+gamepulse@gmail.com',
   social: {
-    bluesky: '',
     youtube: '',
     discord: '',
     github: '',
