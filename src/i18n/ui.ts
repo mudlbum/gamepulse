@@ -88,6 +88,7 @@ export const ui = {
     'post.faq': 'Frequently asked questions',
     'post.factChecked': 'Fact-checked against primary sources',
     'post.aiAssisted': 'AI-assisted draft, human-reviewed',
+    'post.aiUnreviewed': 'Written by AI from corroborated sources — not yet reviewed by a person',
     'post.tags': 'Tags',
     'post.backTo': 'All articles',
 
@@ -202,6 +203,7 @@ export const ui = {
     'post.faq': '자주 묻는 질문',
     'post.factChecked': '1차 출처로 사실 확인을 마쳤습니다',
     'post.aiAssisted': 'AI 초안 작성 후 사람이 검수했습니다',
+    'post.aiUnreviewed': '교차 검증된 출처를 바탕으로 AI가 작성했으며, 아직 사람의 검수를 거치지 않았습니다',
     'post.tags': '태그',
     'post.backTo': '전체 기사',
 
