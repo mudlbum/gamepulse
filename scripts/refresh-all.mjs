@@ -19,7 +19,6 @@ import { fileURLToPath } from 'node:url';
 import { fetchLeaderboard } from './fetch-leaderboard.mjs';
 import { fetchUpdates } from './fetch-updates.mjs';
 import { fetchClips } from './fetch-clips.mjs';
-import { fetchCosplay } from './fetch-cosplay.mjs';
 import { fetchDeals } from './fetch-deals.mjs';
 import { fetchNews } from './fetch-news.mjs';
 import { fetchMobile } from './fetch-mobile.mjs';
@@ -31,14 +30,12 @@ const PUBLIC_DIR = resolve(ROOT, 'public/data');
 const SRC_DIR = resolve(ROOT, 'src/data');
 
 const only = process.argv.slice(2).filter((a) => !a.startsWith('-'));
-const discover = process.argv.includes('--discover');
 
 const TASKS = [
   { name: 'leaderboard', run: fetchLeaderboard },
   { name: 'updates', run: fetchUpdates },
   { name: 'clips', run: fetchClips },
   { name: 'deals', run: fetchDeals },
-  { name: 'cosplay', run: () => fetchCosplay({ discover }) },
   { name: 'news', run: fetchNews },
   { name: 'mobile', run: fetchMobile },
   { name: 'speedruns', run: fetchSpeedruns },
