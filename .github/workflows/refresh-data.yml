@@ -6,11 +6,6 @@ on:
     # under load — treat 30 minutes as a floor, not a guarantee.
     - cron: '*/30 * * * *'
   workflow_dispatch:
-    inputs:
-      discover:
-        description: 'Also run Bluesky cosplay account discovery'
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -43,11 +38,7 @@ jobs:
       - name: Fetch all datasets
         id: fetch
         run: |
-          if [ "${{ inputs.discover }}" = "true" ]; then
-            node scripts/refresh-all.mjs --discover
-          else
-            node scripts/refresh-all.mjs
-          fi
+          node scripts/refresh-all.mjs
 
       - name: Report source health
         if: always()
