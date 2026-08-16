@@ -82,7 +82,16 @@ async function buildBrief(cluster, context) {
 
   const usable = fetched.filter((f) => f && f.ok && f.text.length > 250);
   if (usable.length < fetched.length) {
-    warn('brief', `${fetched.length - usable.length}/${fetched.length} sources unreadable for "${cluster.headline.slice(0, 50)}"`);
+    /* Name the hosts. Most outlets block unknown user agents or paywall the
+       body, and when that happens there is nothing to cross-check facts
+       against no matter how many outlets covered the story. Knowing WHICH
+       hosts refuse is the difference between fixing this and guessing at it.
+       We do not spoof a browser UA to get around it — a publisher blocking
+       bots has made a decision we respect. */
+    const refused = fetched
+      .filter((f) => f && (!f.ok || f.text.length <= 250))
+      .map((f) => `${safeHost(f.url)}${f.ok ? ' (too short)' : ' (unreachable)'}`);
+    warn('brief', `${refused.length}/${fetched.length} sources unreadable for "${cluster.headline.slice(0, 50)}" — ${refused.join(', ')}`);
   }
 
   const primary = usable.filter((a) => PRIMARY_HOSTS.some((h) => safeHost(a.url).includes(h)));
@@ -128,6 +137,7 @@ async function buildBrief(cluster, context) {
        alone are not facts. */
     newest: cluster.newest ?? null,
     readableCount: usable.length,
+    sourceCount: fetched.length,
     games,
     sources: {
       primary: primary.map(pickMeta),

@@ -123,13 +123,16 @@ function evaluate(brief, recent) {
 
   const fail = (reason) => ({ pass: false, reason, score: 0 });
 
+  /* Readability is checked FIRST because it is the most diagnostic failure.
+     The first live run reported "0 corroborated facts" for all five stories,
+     which reads like a clustering problem; the actual cause was that not one
+     source body could be fetched, so there was nothing to extract facts from.
+     A gate that misreports why it refused is worse than one that refuses. */
+  if (brief.readableCount != null && readable < MIN_READABLE)
+    return fail(`only ${readable}/${brief.sourceCount ?? '?'} source bodies were readable — nothing to fact-check against`);
   if (outlets < MIN_OUTLETS && !hasPrimary)
     return fail(`only ${outlets} outlet(s) and no primary source`);
   if (facts < MIN_FACTS) return fail(`${facts} corroborated facts, need ${MIN_FACTS}`);
-  /* readableCount may be absent on briefs written by an older generator; only
-     enforce it when the generator actually reported it. */
-  if (brief.readableCount != null && readable < MIN_READABLE)
-    return fail(`only ${readable} article(s) had readable body text`);
   if (ageHours > MAX_AGE_HOURS)
     return fail(`newest source is ${Math.round(ageHours)}h old, limit ${MAX_AGE_HOURS}h`);
   if (facts > 0 && conflicts / facts > MAX_CONFLICT_RATIO)
