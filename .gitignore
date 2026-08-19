@@ -6,5 +6,6 @@ dist/
 .env
 .env.*
 .article-output.json
+.digest-output.json
 .seed-history.json
 .test-history.json
