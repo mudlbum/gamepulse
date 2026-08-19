@@ -1,13 +1,22 @@
-name: Daily article
+name: Daily post
 
-# Runs every day and DECIDES every day. It does not publish every day.
+# Two independent producers run here every day, and they fail independently.
 #
-# scripts/select-story.mjs applies the evidence gate; on a quiet news day it
-# returns publish=false and every step below is skipped, so nothing ships.
-# Expect roughly 3-5 published posts a week. That is the design, not a fault:
-# a cron job that publishes 365 articles a year is the exact shape Google's
-# scaled-content-abuse policy is written to catch, and this site's whole
-# premise is that its numbers can be checked.
+#   1. The DATA DIGEST (scripts/write-digest.mjs) assembles a page from our own
+#      measurements — 24-hour player deltas, publisher posts, price drops. No
+#      model, no API key, nothing that can hallucinate. It publishes almost
+#      every day, because our trackers almost always have something in them,
+#      and it skips the day entirely when they do not.
+#
+#   2. The NEWS ARTICLE (select-story.mjs → write-article.mjs) covers an actual
+#      story, and only when the evidence gate says the sourcing supports one.
+#      Expect roughly 3-5 a week. It needs ANTHROPIC_API_KEY; without the secret
+#      it degrades to committing research briefs and says so in the summary.
+#
+# Splitting them this way is deliberate. A cron job that publishes 365 rewrites
+# of other people's reporting a year is the exact shape Google's
+# scaled-content-abuse policy is written to catch. A daily page of first-party
+# measurements is the opposite: nobody else can publish our numbers.
 
 on:
   schedule:
@@ -50,8 +59,10 @@ jobs:
 
       - run: npm ci
 
-      - name: Refresh news so briefs are built on today's clusters
-        run: node scripts/refresh-all.mjs news || echo "::warning::news refresh failed, falling back to committed data"
+      # Everything, not just news: the digest publishes today's player counts,
+      # patch notes and prices, so they have to be today's.
+      - name: Refresh live data
+        run: node scripts/refresh-all.mjs || echo "::warning::refresh failed, falling back to committed data"
 
       - name: Generate research briefs
         env:
@@ -80,6 +91,11 @@ jobs:
           GP_PUBLISH: ${{ inputs.force_draft && '0' || '1' }}
         run: node scripts/write-article.mjs "${{ steps.pick.outputs.brief }}"
 
+      # Independent of the gate above. Runs whether or not there was a story.
+      - name: Write the daily data digest
+        id: digest
+        run: node scripts/write-digest.mjs
+
       - name: Check an article was actually produced
         id: produced
         if: steps.pick.outputs.publish == 'true'
@@ -94,24 +110,32 @@ jobs:
           fi
 
       # A generated article that breaks the build must never reach main.
-      - name: Build must pass with the new article in place
-        if: steps.produced.outputs.ok == 'true'
+      - name: Build must pass with the new posts in place
+        if: steps.produced.outputs.ok == 'true' || steps.digest.outputs.wrote == 'true'
         run: npm run build
         env:
           SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io', github.repository_owner) }}
           BASE_PATH: ${{ vars.BASE_PATH || '/' }}
 
+      # `always()` because either producer may have shipped something, and the
+      # digest does not care whether the news gate passed.
       - name: Commit
         id: commit
-        if: always() && steps.pick.outputs.publish == 'true'
+        if: always()
         run: |
           git config user.name  "gamepulse-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add briefs src/content/posts src/data public/data
+          git add src/content/posts src/data public/data
+          # Briefs are research working papers. Keeping them is useful on a day
+          # we published from one; committing five a day forever is not.
+          if [ "${{ steps.pick.outputs.publish }}" = "true" ]; then
+            git add briefs
+          fi
           if git diff --staged --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
+            echo "Nothing changed — no story, no digest, no data movement."
           else
-            TITLE=$(node -e "try{console.log(require('./.article-output.json').title)}catch(e){console.log('research briefs')}")
+            TITLE=$(node -e 'const r=[];try{r.push(require("./.article-output.json").title)}catch{};try{r.push(require("./.digest-output.json").title)}catch{};console.log(r.length?r.join(" + "):"daily data refresh")')
             git commit -m "content: ${TITLE}"
             git pull --rebase --autostash origin main
             git push
