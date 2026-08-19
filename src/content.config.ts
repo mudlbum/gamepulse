@@ -48,6 +48,10 @@ const posts = defineCollection({
       aiAssisted: z.boolean().default(false),
       reviewedBy: z.string().optional(),
       factChecked: z.boolean().default(false),
+      /* Assembled by a script from our own measurements — no model wrote it and
+         no person edited it. Neither aiAssisted nor factChecked describes that
+         honestly, so it gets its own label rather than borrowing one. */
+      dataGenerated: z.boolean().default(false),
       sources: z.array(sourceSchema).default([]),
       videoIds: z.array(z.string()).default([]),
       faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
