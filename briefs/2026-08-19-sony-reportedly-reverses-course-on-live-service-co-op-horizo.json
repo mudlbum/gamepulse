@@ -1,0 +1,156 @@
+{
+  "generated": "2026-08-19T23:13:58.883Z",
+  "workingTitle": "Sony reportedly reverses course on live service co-op Horizon game after 'negative player feedback'",
+  "heat": 79.6,
+  "outletCount": 8,
+  "outlets": [
+    "PC Gamer",
+    "Rock Paper Shotgun",
+    "Destructoid",
+    "Eurogamer",
+    "Game Developer",
+    "IGN",
+    "Push Square",
+    "Kotaku"
+  ],
+  "newest": "2026-08-19T19:54:21.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Sony reportedly reverses course on live service co-op Horizon game after 'negative player feedback'",
+        "url": "https://www.pcgamer.com/games/action/sony-reportedly-reverses-course-on-live-service-co-op-horizon-game-after-negative-player-feedback/",
+        "date": "2026-08-19T19:54:21.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Sony are rebooting their live service Horizon game as a more traditional co-op affair, claim sources, with a proper Horizon Forbidden West sequel still years…",
+        "url": "https://www.rockpapershotgun.com/sony-are-rebooting-their-live-service-horizon-game-as-a-more-traditional-co-op-affair-claim-sources-with-a-proper-horizon-forbidden-west-sequel-still-years-away",
+        "date": "2026-08-19T15:10:15.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Sony’s latest live-service misfire is a ‘reboot’ for Horizon Hunters Gathering following ‘poor feedback’ in play tests",
+        "url": "https://www.destructoid.com/sony-latest-live-service-misfire-reboot-horizon-hunters-gathering/",
+        "date": "2026-08-19T14:16:13.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Horizon Hunters Gathering is reportedly no longer a live service game following negative feedback",
+        "url": "https://www.eurogamer.net/horizon-hunters-gathering-reboot-away-live-service",
+        "date": "2026-08-19T13:43:57.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Report: PlayStation scales back live service ambitions for Horizon Hunters Gathering, reassigns devs",
+        "url": "https://www.gamedeveloper.com/business/report-playstation-reworks-horizon-live-service-game-after-negative-feedback",
+        "date": "2026-08-19T13:43:14.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "PlayStation Reportedly Reboots Horizon Multiplayer Spinoff Following Negative Feedback",
+        "url": "https://www.ign.com/articles/playstation-reportedly-reboots-horizon-multiplayer-spinoff-following-negative-feedback",
+        "date": "2026-08-19T13:07:53.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "familiar with the company s plans",
+      "value": "familiar with the company's plans",
+      "outlets": [
+        "Rock Paper Shotgun",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Speaking to Bloomberg's Jason Schreier, several people \"familiar with the company's plans\" say that Sony now plan to remove the live service element entirely and turn Hunters Gathering into a more straightforward co-op game.",
+      "urls": [
+        "https://www.rockpapershotgun.com/sony-are-rebooting-their-live-service-horizon-game-as-a-more-traditional-co-op-affair-claim-sources-with-a-proper-horizon-forbidden-west-sequel-still-years-away",
+        "https://www.eurogamer.net/horizon-hunters-gathering-reboot-away-live-service"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "combat is tactical reactive and deeply skill based building on the tactical precision of the horizon games while embracing the dynamics of team play",
+      "value": "Combat is tactical, reactive, and deeply skill-based, building on the tactical precision of the Horizon games while embracing the dynamics of team play,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Combat is tactical, reactive, and deeply skill-based, building on the tactical precision of the Horizon games while embracing the dynamics of team play,\" Bak said at the time.",
+      "urls": [
+        "https://www.ign.com/articles/playstation-reportedly-reboots-horizon-multiplayer-spinoff-following-negative-feedback"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "which will introduce new mysteries characters and threats but we re keeping it under wraps for now",
+      "value": "which will introduce new mysteries, characters, and threats, but we’re keeping it under wraps for now,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Story wise, there was a narrative campaign \"which will introduce new mysteries, characters, and threats, but we’re keeping it under wraps for now,\" Bak said back in February.",
+      "urls": [
+        "https://www.ign.com/articles/playstation-reportedly-reboots-horizon-multiplayer-spinoff-following-negative-feedback"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "what we can say is that hunters gathering is fully canon and its story doesn t stop at launch",
+      "value": "What we can say is that Hunters Gathering is fully canon and its story doesn’t stop at launch!",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"What we can say is that Hunters Gathering is fully canon and its story doesn’t stop at launch!\"\n\nThe social hub is the name of the game: Hunters Gathering.",
+      "urls": [
+        "https://www.ign.com/articles/playstation-reportedly-reboots-horizon-multiplayer-spinoff-following-negative-feedback"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:12000000:copies",
+      "value": "12 million copies",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While Arrowhead’s Helldivers 2 was a breakout hit, becoming the fastest-selling PlayStation Studios game of all time with 12 million copies sold in just 12 weeks, Sony’s other live service games were either canceled or suffered disastrous launches.",
+      "urls": [
+        "https://www.ign.com/articles/playstation-reportedly-reboots-horizon-multiplayer-spinoff-following-negative-feedback"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "4 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

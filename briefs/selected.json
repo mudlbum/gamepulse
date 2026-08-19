@@ -1,15 +1,39 @@
 {
-  "decided": "2026-08-19T13:57:01.879Z",
+  "decided": "2026-08-19T23:14:05.396Z",
   "publish": true,
-  "reason": "selected on score 42.8",
+  "reason": "selected on score 39.7",
   "brief": "2026-08-19-industry-legend-warren-spector-announces-his-retirement-from.json",
   "title": "Industry Legend Warren Spector Announces His Retirement From Game Development",
   "considered": [
     {
+      "file": "2026-08-19-want-a-modern-warfare-4-beta-code-just-talk-trash.json",
+      "title": "Want A Modern Warfare 4 Beta Code? Just Talk Trash",
+      "pass": false,
+      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-08-19-sony-reportedly-reverses-course-on-live-service-co-op-horizo.json",
+      "title": "Sony reportedly reverses course on live service co-op Horizon game after 'negative player feedback'",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-08-19-mortal-shell-2-shells-tier-list-best-ones-to-use.json",
+      "title": "Mortal Shell 2 Shells tier list: Best ones to use",
+      "pass": false,
+      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
       "file": "2026-08-19-industry-legend-warren-spector-announces-his-retirement-from.json",
       "title": "Industry Legend Warren Spector Announces His Retirement From Game Development",
       "pass": true,
-      "reason": "5/22 claims corroborated · 6 outlets · secondary only · 11h old"
+      "reason": "5/22 claims corroborated · 6 outlets · secondary only · 21h old"
+    },
+    {
+      "file": "2026-08-19-gta-6-is-too-big-for-these-leaks-to-hurt-it.json",
+      "title": "GTA 6 Is Too Big For These Leaks To Hurt It",
+      "pass": false,
+      "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     },
     {
       "file": "2026-08-19-gta-6-gameplay-leaks-continue-as-group-makes-demands-of-rock.json",
@@ -24,16 +48,10 @@
       "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     },
     {
-      "file": "2026-08-19-cod-modern-warfare-4-official-multiplayer-trailer.json",
-      "title": "COD: Modern Warfare 4 – Official Multiplayer Trailer",
+      "file": "2026-08-19-every-pokemon-game-on-the-nintendo-switch-and-switch-2-in-20.json",
+      "title": "Every Pokémon Game on the Nintendo Switch and Switch 2 in 2026",
       "pass": false,
-      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-08-19-best-weapons-tier-list-in-mortal-shell-2.json",
-      "title": "Best weapons tier list in Mortal Shell 2",
-      "pass": false,
-      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }

@@ -1,0 +1,181 @@
+{
+  "generated": "2026-08-19T23:13:55.906Z",
+  "workingTitle": "GTA 6 Is Too Big For These Leaks To Hurt It",
+  "heat": 125.2,
+  "outletCount": 10,
+  "outlets": [
+    "Polygon",
+    "GameSpot",
+    "PC Gamer",
+    "Destructoid",
+    "Kotaku",
+    "Eurogamer",
+    "Push Square",
+    "IGN",
+    "Rock Paper Shotgun",
+    "Pure Xbox"
+  ],
+  "newest": "2026-08-19T21:44:19.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "GTA 6 Is Too Big For These Leaks To Hurt It",
+        "url": "https://www.polygon.com/gta-6-leaks-rockstar-games-impact/",
+        "date": "2026-08-19T21:44:19.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "GTA 6 cars need gas? OK, I'm finally on board",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cars-need-gas-ok-im-finally-on-board/",
+        "date": "2026-08-19T19:52:57.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Stop Killing Games distances itself from GTA 6 leak manifesto: 'Using illegal means to make a point is unacceptable to us'",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/stop-killing-games-distances-itself-from-gta-6-leak-manifesto-using-illegal-means-to-make-a-point-is-unacceptable-to-us/",
+        "date": "2026-08-19T19:34:09.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "More GTA 6 leaks reveal new details: Cloning keys, combat changes, random bird deaths",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/more-gta-6-leaks-reveal-new-details-cloning-keys-combat-changes-random-bird-deaths/",
+        "date": "2026-08-19T18:46:37.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "We Already Know What GTA 6 Is Going To Be",
+        "url": "https://www.gamespot.com/articles/we-already-know-what-gta-6-is-going-to-be/",
+        "date": "2026-08-19T21:17:20.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Has Already Made $400 Million+ From Preorders, Apparently",
+        "url": "https://www.gamespot.com/articles/gta-6-has-already-made-400-million-from-preorders-apparently/",
+        "date": "2026-08-19T18:35:18.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "These include locking some character customizations behind the $100 Ultimate Edition and only selling digital copies of the game.",
+      "urls": [
+        "https://www.polygon.com/gta-6-leaks-rockstar-games-impact/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i beelined to a waypoint in a very fast car maybe buying a new gun on the way",
+      "value": "I beelined to a waypoint in a very fast car, maybe buying a new gun on the way.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The story of a journey in GTA is usually \"I beelined to a waypoint in a very fast car, maybe buying a new gun on the way.\"\n\nThe flip side of introducing complexity to GTA is that some folks will be caught off guard (or put off) by new points of friction.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cars-need-gas-ok-im-finally-on-board/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "why the hell do i need to worry about gas in gta",
+      "value": "Why the hell do I need to worry about gas in GTA?!",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I can see the \"Why the hell do I need to worry about gas in GTA?!\" posts coming from a mile away, but ya know, Rockstar is capable of accomodation.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cars-need-gas-ok-im-finally-on-board/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "not participate or engage with these kinds of actions",
+      "value": "not participate or engage with these kinds of actions.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In response, Stop Killing Games has now issued a statement disavowing the whole thing and urging its followers to \"not participate or engage with these kinds of actions.\"\n\nStop Killing Games said the leaks appear genuine, noting the speed with which GTA publisher Take-Two Interactive has been issuing copyright strikes against them.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/stop-killing-games-distances-itself-from-gta-6-leak-manifesto-using-illegal-means-to-make-a-point-is-unacceptable-to-us/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "attaching crypto links and qr codes to the footage and asking people to pay for more",
+      "value": "attaching crypto links and QR codes to the footage and asking people to pay for more.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Be that as it may, it also pointed out that the leaker is using the leak to promote a memecoin, \"attaching crypto links and QR codes to the footage and asking people to pay for more.\"\n\n\"Do not send these people your money, no matter how much sympathy you may feel for their actions,\" Stop Killing Games said in a statement posted on Reddit.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/stop-killing-games-distances-itself-from-gta-6-leak-manifesto-using-illegal-means-to-make-a-point-is-unacceptable-to-us/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the traditional gta car stealing move or to",
+      "value": "(the traditional GTA car-stealing move) or to",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "When Jason gets close to a car that's not his, there's an option to \"Smash Window\" (the traditional GTA car-stealing move) or to \"Clone Key,\" which is new.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/more-gta-6-leaks-reveal-new-details-cloning-keys-combat-changes-random-bird-deaths/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "if cities are full of pigeons how come we don t see more dead pigeons lying around",
+      "value": "If cities are full of pigeons, how come we don't see more dead pigeons lying around?",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sometimes people wonder, \"If cities are full of pigeons, how come we don't see more dead pigeons lying around?\" One answer, I've been told, is that the bodies just decompose quite quickly.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/more-gta-6-leaks-reveal-new-details-cloning-keys-combat-changes-random-bird-deaths/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 7,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

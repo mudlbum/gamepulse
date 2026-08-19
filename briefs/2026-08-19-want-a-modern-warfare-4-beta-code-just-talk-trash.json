@@ -1,0 +1,92 @@
+{
+  "generated": "2026-08-19T23:14:00.919Z",
+  "workingTitle": "Want A Modern Warfare 4 Beta Code? Just Talk Trash",
+  "heat": 50.8,
+  "outletCount": 5,
+  "outlets": [
+    "GameSpot",
+    "Xbox Wire",
+    "IGN",
+    "Destructoid",
+    "Eurogamer"
+  ],
+  "newest": "2026-08-19T19:54:11.000Z",
+  "readableCount": 3,
+  "sourceCount": 6,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Call of Duty: Modern Warfare 4 Beta Will Fix Issues That Have Plagued the Series for the Better Part of a Decade",
+        "url": "https://www.ign.com/articles/call-of-duty-modern-warfare-4-beta-will-fix-issues-that-have-plagued-the-series-for-the-better-part-of-a-decade",
+        "date": "2026-08-19T17:03:14.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Modern Warfare 4 – Minimum and Recommended PC specs",
+        "url": "https://www.destructoid.com/modern-warfare-4-minimum-and-recommended-pc-specs/",
+        "date": "2026-08-19T17:00:45.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Battlefield 6 is hosting a free trial, just in time for Call of Duty: Modern Warfare 4's beta",
+        "url": "https://www.eurogamer.net/battlefield-6-free-trial-call-of-duty-modern-warfare-4-beta",
+        "date": "2026-08-18T11:54:47.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Want A Modern Warfare 4 Beta Code? Just Talk Trash",
+        "url": "https://www.gamespot.com/articles/want-a-modern-warfare-4-beta-code-just-talk-trash/",
+        "date": "2026-08-19T19:54:11.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "CoD: Modern Warfare 4 Beta Preload And PC Spec Requirements",
+        "url": "https://www.gamespot.com/articles/cod-modern-warfare-4-beta-preload-and-pc-spec-requirements/",
+        "date": "2026-08-19T17:12:51.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "key": "v:season:4",
+      "value": "Season 4",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Battlefield 6's latest free trial kicks off today alongside Season 4's mid-season update, and while that mightn't be especially notable in itself, the timing is moreso: it coincides with Call of Duty: Modern Warfare 4's highly anticipated, and stuffed, beta.",
+      "urls": [
+        "https://www.eurogamer.net/battlefield-6-free-trial-call-of-duty-modern-warfare-4-beta"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
