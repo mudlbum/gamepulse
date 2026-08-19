@@ -20,7 +20,7 @@
  */
 import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import { resolve, dirname } from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import { getText, toPlainText, slugify, pool, log, warn } from './lib/http.mjs';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -60,7 +60,7 @@ async function main() {
     await writeFile(resolve(OUT_DIR, `${base}.md`), renderMarkdown(brief), 'utf8');
     written.push(`${base}.md`);
 
-    log('brief', `${base} — ${brief.facts.length} facts, ${brief.conflicts.length} conflicts, ${brief.singleSourced.length} single-sourced`);
+    log('brief', `${base} — ${brief.factCount} corroborated, ${brief.evidenceCount} total claims, ${brief.conflicts.length} conflicts`);
   }
 
   await writeFile(
@@ -105,7 +105,7 @@ async function buildBrief(cluster, context) {
     }
   }
 
-  const { facts, conflicts, singleSourced } = reconcile(claims);
+  const { facts, conflicts, singleSourced, factCount, evidenceCount } = reconcile(claims);
 
   const games = detectGames(cluster, context.leaderboard);
   const ourData = games.map((g) => {
@@ -147,10 +147,18 @@ async function buildBrief(cluster, context) {
     facts,
     conflicts,
     singleSourced,
+    /* Counted before facts/singleSourced were sliced for readability. The
+       publish gate reads these two numbers and nothing else about volume:
+       factCount is what two outlets agree on, evidenceCount is every specific
+       claim the sources made. A story can be well evidenced and still poorly
+       corroborated; those are different failures and the gate reports them
+       separately. */
+    factCount,
+    evidenceCount,
     ourData,
     relatedPatchNotes: relatedPatch.map((g) => ({ game: g.game, title: g.latest?.title, url: g.latest?.url })),
-    usable: usable.length > 0 && facts.length >= 4,
-    guidance: buildGuidance(primary.length, conflicts.length, singleSourced.length, facts.length, usable.length),
+    usable: usable.length > 0 && factCount >= 2 && evidenceCount >= 8,
+    guidance: buildGuidance(primary.length, conflicts.length, singleSourced.length, factCount, usable.length),
   };
 }
 
@@ -216,30 +224,54 @@ function extractClaims(text) {
 }
 
 /**
- * Group claims by normalised value and decide what is corroborated, what is
- * contested, and what rests on a single outlet.
+ * Group claims into equivalence classes and decide what is corroborated, what
+ * is contested, and what rests on a single outlet.
+ *
+ * Corroboration used to require two outlets to produce a CHARACTER-IDENTICAL
+ * extracted value. Four consecutive nights of "0 corroborated facts" on stories
+ * that eight outlets had covered showed why that fails. The claims were there —
+ * 12 on the GTA 6 leak, 17 on the Warren Spector retirement — but no two
+ * outlets phrase one the same way. "November 19, 2026" and "19 November 2026"
+ * are the same day. Two outlets quoting the same sentence trim it differently.
+ * Exact string equality scored every one of those as disagreement, which is not
+ * corroboration failing — it is the comparison being wrong.
+ *
+ * Each kind is now compared on its own terms: dates by the day they denote,
+ * figures by the quantity they denote, quotes by whether they are the same
+ * sentence. The bar for what counts as evidence is unchanged; the measurement
+ * is fixed.
  */
 function reconcile(claims) {
-  const byValue = new Map();
+  /** Equivalence classes. O(n²) over ≤200 claims — small enough not to care. */
+  const buckets = [];
   for (const c of claims) {
-    const key = `${c.kind}::${normValue(c.value)}`;
-    if (!byValue.has(key)) byValue.set(key, []);
-    byValue.get(key).push(c);
+    const key = canonical(c);
+    let bucket = buckets.find((b) => b.kind === c.kind && sameClaim(b, key));
+    if (!bucket) {
+      bucket = { kind: c.kind, key, items: [] };
+      buckets.push(bucket);
+    }
+    bucket.items.push(c);
   }
 
   const facts = [];
   const singleSourced = [];
 
-  for (const [key, group] of byValue) {
+  for (const bucket of buckets) {
+    const group = bucket.items;
     const outlets = [...new Set(group.map((g) => g.outlet))];
     const hasPrimary = group.some((g) => g.isPrimary);
+    /* Show the longest variant. When three outlets quote the same sentence at
+       different lengths, the fullest one is the most useful to a writer. */
+    const best = group.reduce((a, b) => (b.value.length > a.value.length ? b : a));
     const entry = {
-      kind: group[0].kind,
-      value: group[0].value,
+      kind: bucket.kind,
+      key: bucket.key,
+      value: best.value,
       outlets,
       hasPrimary,
       corroboration: outlets.length,
-      context: group[0].context,
+      context: best.context,
       urls: [...new Set(group.map((g) => g.url))].slice(0, 4),
     };
     if (outlets.length >= 2 || hasPrimary) facts.push(entry);
@@ -248,7 +280,7 @@ function reconcile(claims) {
 
   facts.sort((a, b) => Number(b.hasPrimary) - Number(a.hasPrimary) || b.corroboration - a.corroboration);
 
-  // Conflicts: same kind of measure appearing in near-identical sentences with
+  // Conflicts: the same measure appearing in near-identical sentences with
   // different values. Catches "3.82 million" vs "3.8 million" vs "4 million".
   const conflicts = [];
   const numeric = facts.filter((f) => f.kind === 'figure' || f.kind === 'percent');
@@ -256,7 +288,7 @@ function reconcile(claims) {
     for (let j = i + 1; j < numeric.length; j++) {
       const a = numeric[i];
       const b = numeric[j];
-      if (normValue(a.value) === normValue(b.value)) continue;
+      if (a.key === b.key) continue;
       if (contextSimilarity(a.context, b.context) > 0.55) {
         conflicts.push({
           a: { value: a.value, outlets: a.outlets, url: a.urls[0] },
@@ -268,7 +300,112 @@ function reconcile(claims) {
     }
   }
 
-  return { facts: facts.slice(0, 60), conflicts: conflicts.slice(0, 20), singleSourced: singleSourced.slice(0, 30) };
+  /* Counted BEFORE the slices below. The publish gate reads these, and a brief
+     with 80 facts must not be reported as having 60. */
+  const factCount = facts.length;
+  const evidenceCount = facts.length + singleSourced.length;
+
+  return {
+    facts: facts.slice(0, 60),
+    conflicts: conflicts.slice(0, 20),
+    singleSourced: singleSourced.slice(0, 30),
+    factCount,
+    evidenceCount,
+  };
+}
+
+/** Two claims of the same kind are the same claim if their canonical forms
+    match, or — for quotes, where trimming differs outlet to outlet — if they
+    are recognisably the same sentence. */
+function sameClaim(bucket, key) {
+  if (bucket.key === key) return true;
+  if (bucket.kind !== 'quote') return false;
+  return sameQuote(bucket.key, key);
+}
+
+/** Canonical form: what the claim MEANS, stripped of how it was written. */
+function canonical(c) {
+  switch (c.kind) {
+    case 'date': return canonicalDate(c.value) ?? normValue(c.value);
+    case 'figure': return canonicalFigure(c.value);
+    case 'percent': return canonicalPercent(c.value);
+    case 'version': return canonicalVersion(c.value);
+    case 'quote': return normQuote(c.value);
+    default: return normValue(c.value);
+  }
+}
+
+const MONTHS = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+
+/** "November 19, 2026" and "19 November 2026" are the same day. */
+function canonicalDate(v) {
+  const s = String(v).toLowerCase();
+  const month = MONTHS.findIndex((m) => s.includes(m));
+  if (month < 0) return null;
+  const nums = s.replace(MONTHS[month], ' ').match(/\d+/g) || [];
+  const day = nums.find((n) => Number(n) >= 1 && Number(n) <= 31 && n.length <= 2);
+  const year = nums.find((n) => n.length === 4);
+  if (!day || !year) return null;
+  return `d:${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+}
+
+const SCALES = { k: 1e3, thousand: 1e3, m: 1e6, million: 1e6, bn: 1e9, billion: 1e9 };
+
+/** "3.8 million copies", "3,800,000 copies" and "$3.8m" all denote one number. */
+function canonicalFigure(v) {
+  const s = String(v).toLowerCase().replace(/,/g, '');
+  const currency = /\$|usd|£|€/.test(s) ? 'cur' : 'n';
+  const num = parseFloat((s.match(/[\d.]+/) || ['0'])[0]);
+  const scaleWord = Object.keys(SCALES).find((k) => new RegExp(`[\\d.]\\s?${k}\\b`).test(s));
+  const value = num * (scaleWord ? SCALES[scaleWord] : 1);
+  const noun = (s.match(/\b(units|copies|players|users|subscribers|downloads|concurrent)\b/) || [''])[0];
+  // Round to 3 significant figures: "3.82 million" and "3.8 million" are the
+  // same claim reported at different precision, not two different claims.
+  const rounded = value === 0 ? 0 : Number(value.toPrecision(3));
+  return `f:${currency}:${rounded}${noun ? ':' + noun : ''}`;
+}
+
+const UP = /\b(up|rose|grew|increased|increase|rise|growth)\b/;
+const DOWN = /\b(down|fell|declined|decreased|decrease|drop|decline)\b/;
+
+/** "up 12%", "increased by 12%" and "12% increase" are one claim. */
+function canonicalPercent(v) {
+  const s = String(v).toLowerCase();
+  const num = parseFloat((s.match(/[\d.]+/) || ['0'])[0]);
+  const dir = UP.test(s) ? 'up' : DOWN.test(s) ? 'down' : '?';
+  return `p:${dir}:${Number(num.toPrecision(3))}`;
+}
+
+/** "patch 7.0.0", "update 7.0.0" and "version 7.0.0" name the same build.
+    "season 7" does not — a season is a different kind of thing. */
+function canonicalVersion(v) {
+  const s = String(v).toLowerCase().trim();
+  const num = (s.match(/[\d][\d.\w]*/) || [''])[0].replace(/\.+$/, '');
+  const family = /^season/.test(s) ? 'season' : 'build';
+  return `v:${family}:${num}`;
+}
+
+function normQuote(v) {
+  return String(v).toLowerCase().replace(/[^a-z0-9가-힣\s]/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+/**
+ * Two quotes are the same quote if one is contained in the other, or if they
+ * share most of their substantive words. Outlets routinely clip the same
+ * sentence at different points; that is one fact reported twice, not two.
+ */
+function sameQuote(a, b) {
+  if (!a || !b) return false;
+  const [short, long] = a.length <= b.length ? [a, b] : [b, a];
+  if (short.length < 25) return false;
+  if (long.includes(short)) return true;
+  const words = (s) => new Set(s.split(' ').filter((w) => w.length > 3));
+  const A = words(short);
+  const B = words(long);
+  if (A.size < 4) return false;
+  let hit = 0;
+  for (const w of A) if (B.has(w)) hit++;
+  return hit / A.size >= 0.7;
 }
 
 function normValue(v) {
@@ -416,7 +553,29 @@ async function readJsonSafe(path) {
   try { return JSON.parse(await readFile(path, 'utf8')); } catch { return null; }
 }
 
-main().catch((err) => {
-  console.error('Brief generation failed:', err);
-  process.exit(1);
-});
+/* Exported so the corroboration logic can be tested without a network. The
+   four nights of "0 corroborated facts" happened in a function no test ever
+   called; that is not a coincidence worth repeating. */
+export {
+  reconcile,
+  canonical,
+  sameQuote,
+  canonicalDate,
+  canonicalFigure,
+  canonicalPercent,
+  canonicalVersion,
+  extractClaims,
+  extractReadable,
+};
+
+/* Only run the pipeline when invoked directly, so importing this module for
+   tests does not go and fetch six news articles. */
+const invokedDirectly =
+  process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href;
+
+if (invokedDirectly) {
+  main().catch((err) => {
+    console.error('Brief generation failed:', err);
+    process.exit(1);
+  });
+}

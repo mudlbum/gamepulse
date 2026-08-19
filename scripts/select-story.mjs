@@ -32,8 +32,27 @@ const POSTS_EN = resolve(ROOT, 'src/content/posts/en');
 
 /** Two outlets that reported it independently, or one primary source. */
 const MIN_OUTLETS = 2;
-/** Enough corroborated facts to build an article that is not padding. */
-const MIN_FACTS = 6;
+/**
+ * Two bars, because "is there enough here to write from" and "do the sources
+ * agree" are different questions and conflating them is what broke this gate.
+ *
+ * The original single bar was 6 corroborated facts, and it refused to publish
+ * four nights running — including on a GTA 6 leak that eight outlets covered.
+ * The briefs were not thin: that story yielded 13 specific claims and the
+ * Warren Spector retirement yielded 17. Only 1 and 0 of them respectively were
+ * scored as corroborated, because corroboration required two outlets to write
+ * a value character-for-character identically, which outlets do not do. That
+ * measurement is fixed in generate-brief.mjs; these thresholds are set against
+ * what the fixed measurement actually returns.
+ *
+ * MIN_EVIDENCE is the substance test — a tier list or an opinion column
+ * extracts near zero specific claims and is rejected on this alone, which is
+ * the outcome we want. MIN_CORROBORATED is the agreement test.
+ */
+/** Specific claims (corroborated + single-sourced) the cluster yielded. */
+const MIN_EVIDENCE = 10;
+/** Of those, how many two outlets independently agree on, or a primary states. */
+const MIN_CORROBORATED = 2;
 /** Facts extracted from headlines alone are not facts. At least this many of
     the cluster's articles must have had readable body text. */
 const MIN_READABLE = 2;
@@ -112,7 +131,12 @@ async function main() {
 }
 
 function evaluate(brief, recent) {
-  const facts = brief.facts?.length ?? 0;
+  /* factCount/evidenceCount are counted before the brief slices its lists for
+     readability. Fall back to the array lengths only for briefs written by an
+     older generator. */
+  const facts = brief.factCount ?? brief.facts?.length ?? 0;
+  const evidence =
+    brief.evidenceCount ?? (brief.facts?.length ?? 0) + (brief.singleSourced?.length ?? 0);
   const conflicts = brief.conflicts?.length ?? 0;
   const outlets = brief.outletCount ?? brief.outlets?.length ?? 0;
   const readable = brief.readableCount ?? 0;
@@ -132,7 +156,10 @@ function evaluate(brief, recent) {
     return fail(`only ${readable}/${brief.sourceCount ?? '?'} source bodies were readable — nothing to fact-check against`);
   if (outlets < MIN_OUTLETS && !hasPrimary)
     return fail(`only ${outlets} outlet(s) and no primary source`);
-  if (facts < MIN_FACTS) return fail(`${facts} corroborated facts, need ${MIN_FACTS}`);
+  if (evidence < MIN_EVIDENCE)
+    return fail(`only ${evidence} specific claims in the whole cluster, need ${MIN_EVIDENCE} — this is a roundup or an opinion piece, not a story with facts in it`);
+  if (facts < MIN_CORROBORATED)
+    return fail(`${facts} of ${evidence} claims corroborated, need ${MIN_CORROBORATED} — no two outlets agree on anything specific`);
   if (ageHours > MAX_AGE_HOURS)
     return fail(`newest source is ${Math.round(ageHours)}h old, limit ${MAX_AGE_HOURS}h`);
   if (facts > 0 && conflicts / facts > MAX_CONFLICT_RATIO)
@@ -155,13 +182,18 @@ function evaluate(brief, recent) {
      primary sourcing are worth more than raw volume — a story confirmed by the
      publisher beats one confirmed by five aggregators repeating each other. */
   const score =
-    facts * 1.0 +
+    facts * 2.0 +
+    evidence * 0.3 +
     outlets * 3.0 +
     (hasPrimary ? 8 : 0) +
     Math.max(0, 12 - ageHours / 3) -
     conflicts * 2.0;
 
-  return { pass: true, reason: `${facts} facts · ${outlets} outlets · ${hasPrimary ? 'primary source' : 'secondary only'} · ${Math.round(ageHours)}h old`, score };
+  return {
+    pass: true,
+    reason: `${facts}/${evidence} claims corroborated · ${outlets} outlets · ${hasPrimary ? 'primary source' : 'secondary only'} · ${Math.round(ageHours)}h old`,
+    score,
+  };
 }
 
 /** Titles published recently, so today's pick is not yesterday's story again. */

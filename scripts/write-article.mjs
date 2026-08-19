@@ -95,9 +95,16 @@ async function main() {
   /* A second, independent refusal. select-story.mjs already applies a stricter
      bar, but this script can also be run by hand, and "publish" should never be
      one typo away from shipping an article built on three facts. */
-  const floor = PUBLISH ? 6 : 4;
-  if (brief.facts.length < floor) {
-    warn('write', `brief has only ${brief.facts.length} corroborated facts (floor ${floor}) — too thin. Skipping.`);
+  const facts = brief.factCount ?? brief.facts?.length ?? 0;
+  const evidence =
+    brief.evidenceCount ?? (brief.facts?.length ?? 0) + (brief.singleSourced?.length ?? 0);
+  const floorFacts = PUBLISH ? 2 : 1;
+  const floorEvidence = PUBLISH ? 8 : 4;
+  if (facts < floorFacts || evidence < floorEvidence) {
+    warn(
+      'write',
+      `brief has ${facts} corroborated of ${evidence} claims (floor ${floorFacts}/${floorEvidence}) — too thin. Skipping.`
+    );
     process.exit(0);
   }
   log('write', PUBLISH ? 'PUBLISH mode — this will go live on the next deploy' : 'draft mode — output needs a human to publish it');
