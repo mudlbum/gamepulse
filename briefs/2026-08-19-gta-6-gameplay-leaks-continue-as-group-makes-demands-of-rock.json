@@ -1,0 +1,248 @@
+{
+  "generated": "2026-08-19T13:56:58.738Z",
+  "workingTitle": "GTA 6 Gameplay Leaks Continue as Group Makes Demands of Rockstar",
+  "heat": 84.6,
+  "outletCount": 8,
+  "outlets": [
+    "Push Square",
+    "Eurogamer",
+    "IGN",
+    "Rock Paper Shotgun",
+    "Kotaku",
+    "Pure Xbox",
+    "GameSpot",
+    "PC Gamer"
+  ],
+  "newest": "2026-08-19T12:15:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "GTA 6 Gameplay Leaks Continue as Group Makes Demands of Rockstar",
+        "url": "https://www.pushsquare.com/news/2026/08/gta-6-gameplay-leaks-continue-as-group-makes-demands-of-rockstar",
+        "date": "2026-08-19T12:15:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "GTA 6 gameplay footage and map appear to leak online, as group seemingly responsible makes demands of Rockstar",
+        "url": "https://www.eurogamer.net/gta-6-leaked-gameplay-map-cyberleek",
+        "date": "2026-08-19T10:49:16.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Gameplay and Map Appear to Leak Online, Group Reportedly Responsible Threatens Rockstar Over All-Digital Future",
+        "url": "https://www.ign.com/articles/gta-6-gameplay-and-map-appear-to-leak-online-group-reportedly-responsible-threatens-rockstar-over-all-digital-future",
+        "date": "2026-08-18T22:15:13.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "GTA 6 footage once again appears to leak online, this time because of a group that wants games like The Crew to have offline modes and the end of digital…",
+        "url": "https://www.rockpapershotgun.com/gta-6-footage-once-again-appears-to-leak-online-this-time-because-of-a-group-that-wants-games-like-the-crew-to-have-offline-modes-and-the-end-of-digital-preorders",
+        "date": "2026-08-18T20:31:08.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Group Claiming Responsibility For Supposed GTA 6 Gameplay Leak Demands End to Digital Pre-Orders: ‘If Publishers Want Revenue Before Launch, They Can Press…",
+        "url": "https://kotaku.com/gta-6-leak-group-end-digital-pre-orders-2000725477",
+        "date": "2026-08-18T20:00:15.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Multiple GTA 6 Gameplay Videos Appear To Have Leaked, But There's A Catch Or Two",
+        "url": "https://www.purexbox.com/news/2026/08/multiple-gta-6-gameplay-videos-appear-to-have-leaked-but-theres-a-catch-or-two",
+        "date": "2026-08-18T19:55:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "this is a message to all big corpo behave or be the next target",
+      "value": "This is a message to all big corpo: behave, or be the next target.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This is a message to all big corpo: behave, or be the next target.\"\n\nOriginal Story: Multiple videos of what appear to be legitimate GTA 6 gameplay are currently being posted to the Internet by a leaker.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/gta-6-gameplay-leaks-continue-as-group-makes-demands-of-rockstar"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:2",
+      "value": "2% increase",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For a successful dunk, Jason gets a 2% increase to his Focus.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/gta-6-gameplay-leaks-continue-as-group-makes-demands-of-rockstar"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "yeah r is going full digital in order to avoid leaks",
+      "value": "Yeah R* is going full digital in order to avoid leaks",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Let's hope they are wizards and they cant be traced because Rockstar lawyers are like velociraptors\n\nI remember people saying \"Yeah R* is going full digital in order to avoid leaks\".",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/gta-6-gameplay-leaks-continue-as-group-makes-demands-of-rockstar"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:down:40",
+      "value": "down 40%",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Smooshy Their site and their Telegram handler is still up, their Coin is down 40% so if they are planning and keeping it going they'll have to drop some more videos today or cash their Coin in then jump.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/gta-6-gameplay-leaks-continue-as-group-makes-demands-of-rockstar"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we take leaks very seriously indeed and they disappoint all of us it x27 s really frustrating and upsetting to the team",
+      "value": "We take leaks very seriously indeed and they disappoint all of us, it&#x27;s really frustrating and upsetting to the team,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We take leaks very seriously indeed and they disappoint all of us, it&#x27;s really frustrating and upsetting to the team,\" Take-Two CEO Strauss Zelnick said in response.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-gameplay-and-map-appear-to-leak-online-group-reportedly-responsible-threatens-rockstar-over-all-digital-future"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "in terms of the leak that x27 s always disappointing for the team but ultimately i don x27 t think it hurt us",
+      "value": "In terms of the leak, that&#x27;s always disappointing for the team, but ultimately, I don&#x27;t think it hurt us,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Rockstar developers took to social media to express their frustration at the leak, which Zelnick later called \"disappointing.\" \"In terms of the leak, that&#x27;s always disappointing for the team, but ultimately, I don&#x27;t think it hurt us,\" he said.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-gameplay-and-map-appear-to-leak-online-group-reportedly-responsible-threatens-rockstar-over-all-digital-future"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-19",
+      "value": "November 19, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In April this year, Rockstar confirmed company information was accessed as part of a third-party data breach, but it insisted the incident had “no impact on our organization or our players.”\n\nGTA 6 is due out on PlayStation 5 and Xbox Series X and S on November 19, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-gameplay-and-map-appear-to-leak-online-group-reportedly-responsible-threatens-rockstar-over-all-digital-future"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "already present in the base game files the consumer purchased",
+      "value": "already present in the base game files the consumer purchased,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I'm not going to directly link to anything Cyberleek have posted, but to summarise their three commandments, it's that they want the end of digital preorders, the end of single-player DLC that's \"already present in the base game files the consumer purchased,\" and that single-player games shall be preserved by the release of a patch to ensure they're always playable offline.",
+      "urls": [
+        "https://www.rockpapershotgun.com/gta-6-footage-once-again-appears-to-leak-online-this-time-because-of-a-group-that-wants-games-like-the-crew-to-have-offline-modes-and-the-end-of-digital-preorders"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "these three commandments are the floor not the ceiling of what is acceptable",
+      "value": "These three commandments are the floor - not the ceiling - of what is acceptable,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"These three commandments are the floor - not the ceiling - of what is acceptable,\" Cyberleek write at the end of their statement.",
+      "urls": [
+        "https://www.rockpapershotgun.com/gta-6-footage-once-again-appears-to-leak-online-this-time-because-of-a-group-that-wants-games-like-the-crew-to-have-offline-modes-and-the-end-of-digital-preorders"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20000000",
+      "value": "$20 m",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "GTA 6 launches with tons of extra vehicles, cosmetics, a salon, and other bits and bobs locked behind the game’s “Ultimate Edition,” which costs $20 more than the regular one.",
+      "urls": [
+        "https://kotaku.com/gta-6-leak-group-end-digital-pre-orders-2000725477"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It’s also possible it’s a combination of both Commandment 1 and 2 that’s pissing off Cyberleek, especially given the recent news that the $100 digital-only ultimate edition of GTA 6 is being pre-ordered far, far more than the regular $80 version.",
+      "urls": [
+        "https://kotaku.com/gta-6-leak-group-end-digital-pre-orders-2000725477"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:80",
+      "value": "$80",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It’s also possible it’s a combination of both Commandment 1 and 2 that’s pissing off Cyberleek, especially given the recent news that the $100 digital-only ultimate edition of GTA 6 is being pre-ordered far, far more than the regular $80 version.",
+      "urls": [
+        "https://kotaku.com/gta-6-leak-group-end-digital-pre-orders-2000725477"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 12,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

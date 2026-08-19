@@ -1,0 +1,141 @@
+{
+  "generated": "2026-08-19T13:56:59.152Z",
+  "workingTitle": "Fired Rockstar workers say you shouldn't boycott GTA 6 for them: 'We spent years pouring our hard work, skill, and creativity into making GTA'",
+  "heat": 49.9,
+  "outletCount": 5,
+  "outlets": [
+    "PC Gamer",
+    "GameSpot",
+    "Eurogamer",
+    "Rock Paper Shotgun",
+    "IGN"
+  ],
+  "newest": "2026-08-19T10:42:27.000Z",
+  "readableCount": 4,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Fired Rockstar workers say you shouldn't boycott GTA 6 for them: 'We spent years pouring our hard work, skill, and creativity into making GTA'",
+        "url": "https://www.pcgamer.com/gaming-industry/fired-rockstar-workers-say-you-shouldnt-boycott-gta-6-for-them-we-spent-years-pouring-our-hard-work-skill-and-creativity-into-making-gta/",
+        "date": "2026-08-19T10:42:27.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Don't boycott Grand Theft Auto 6, say workers fired by Rockstar - buy a T-shirt to help fund the legal battle instead",
+        "url": "https://www.eurogamer.net/rockstar-workers-dont-boycott-grand-theft-auto-6-support-union-costs",
+        "date": "2026-08-18T13:27:24.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Rather than calling for GTA 6 boycott, fired Rockstar workers urge players to support them in their legal battle against the studio by buying union merch",
+        "url": "https://www.rockpapershotgun.com/rather-than-calling-for-gta-6-boycott-fired-rockstar-workers-urge-players-to-support-them-in-their-legal-battle-against-the-studio-by-buying-union-merch",
+        "date": "2026-08-18T12:20:46.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Do Not Boycott GTA 6, Fired Rockstar Workers Tell Fans: 'There’s a Better Way to Support Us and Hold Rockstar to Account'",
+        "url": "https://www.ign.com/articles/do-not-boycott-gta-6-fired-rockstar-workers-tell-fans-theres-a-better-way-to-support-us-and-hold-rockstar-to-account",
+        "date": "2026-08-18T10:26:00.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Don’t Boycott GTA 6, Help Win Justice Instead, Fired Devs Say",
+        "url": "https://www.gamespot.com/articles/dont-boycott-gta-6-help-win-justice-instead-fired-devs-say/",
+        "date": "2026-08-18T18:28:08.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "we spent years pouring our hard work skill and creativity making gta and we want people to experience the universe we helped build",
+      "value": "We spent years pouring our hard work, skill, and creativity making GTA, and we want people to experience the universe we helped build,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We spent years pouring our hard work, skill, and creativity making GTA, and we want people to experience the universe we helped build,\" the developers featured in the IWGB's video said.",
+      "urls": [
+        "https://www.eurogamer.net/rockstar-workers-dont-boycott-grand-theft-auto-6-support-union-costs"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but that doesn t mean we want you to let rockstar off the hook",
+      "value": "But that doesn't mean we want you to let Rockstar off the hook.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"But that doesn't mean we want you to let Rockstar off the hook.\"\n\nThis all began when 31 members of Rockstar Games were fired last year for \"gross misconduct\".",
+      "urls": [
+        "https://www.eurogamer.net/rockstar-workers-dont-boycott-grand-theft-auto-6-support-union-costs"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "confidential information on a public forum",
+      "value": "confidential information on a public forum",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Rockstar accused the staff of leaking \"confidential information on a public forum\", while the Independent Workers' union of Great Britain (IWGB) accused Rockstar of union busting.",
+      "urls": [
+        "https://www.rockpapershotgun.com/rather-than-calling-for-gta-6-boycott-fired-rockstar-workers-urge-players-to-support-them-in-their-legal-battle-against-the-studio-by-buying-union-merch"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3750000000",
+      "value": "$3.75 billion",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "When Rockstar officially announced that GTA 6 would be delayed by six months to November 19, 2026, the market value of Take-Two plummeted $3.75 billion in a single day.",
+      "urls": [
+        "https://www.ign.com/articles/do-not-boycott-gta-6-fired-rockstar-workers-tell-fans-theres-a-better-way-to-support-us-and-hold-rockstar-to-account"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-19",
+      "value": "November 19, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "When Rockstar officially announced that GTA 6 would be delayed by six months to November 19, 2026, the market value of Take-Two plummeted $3.75 billion in a single day.",
+      "urls": [
+        "https://www.ign.com/articles/do-not-boycott-gta-6-fired-rockstar-workers-tell-fans-theres-a-better-way-to-support-us-and-hold-rockstar-to-account"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

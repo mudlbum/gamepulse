@@ -1,0 +1,39 @@
+{
+  "decided": "2026-08-19T13:57:01.879Z",
+  "publish": true,
+  "reason": "selected on score 42.8",
+  "brief": "2026-08-19-industry-legend-warren-spector-announces-his-retirement-from.json",
+  "title": "Industry Legend Warren Spector Announces His Retirement From Game Development",
+  "considered": [
+    {
+      "file": "2026-08-19-industry-legend-warren-spector-announces-his-retirement-from.json",
+      "title": "Industry Legend Warren Spector Announces His Retirement From Game Development",
+      "pass": true,
+      "reason": "5/22 claims corroborated · 6 outlets · secondary only · 11h old"
+    },
+    {
+      "file": "2026-08-19-gta-6-gameplay-leaks-continue-as-group-makes-demands-of-rock.json",
+      "title": "GTA 6 Gameplay Leaks Continue as Group Makes Demands of Rockstar",
+      "pass": false,
+      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-08-19-fired-rockstar-workers-say-you-shouldnt-boycott-gta-6-for-th.json",
+      "title": "Fired Rockstar workers say you shouldn't boycott GTA 6 for them: 'We spent years pouring our hard work, skill, and creativity into making GTA'",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-08-19-cod-modern-warfare-4-official-multiplayer-trailer.json",
+      "title": "COD: Modern Warfare 4 – Official Multiplayer Trailer",
+      "pass": false,
+      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-08-19-best-weapons-tier-list-in-mortal-shell-2.json",
+      "title": "Best weapons tier list in Mortal Shell 2",
+      "pass": false,
+      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    }
+  ]
+}

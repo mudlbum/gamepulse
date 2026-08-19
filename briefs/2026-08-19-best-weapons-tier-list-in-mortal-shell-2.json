@@ -1,0 +1,77 @@
+{
+  "generated": "2026-08-19T13:56:59.060Z",
+  "workingTitle": "Best weapons tier list in Mortal Shell 2",
+  "heat": 68.1,
+  "outletCount": 6,
+  "outlets": [
+    "Destructoid",
+    "Pure Xbox",
+    "Kotaku",
+    "Push Square",
+    "Rock Paper Shotgun",
+    "PCGamesN"
+  ],
+  "newest": "2026-08-19T11:55:54.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Best weapons tier list in Mortal Shell 2",
+        "url": "https://www.destructoid.com/best-weapons-tier-list-in-mortal-shell-2/",
+        "date": "2026-08-19T11:55:54.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Best Tiel build in Mortal Shell 2",
+        "url": "https://www.destructoid.com/best-tiel-build-in-mortal-shell-2/",
+        "date": "2026-08-19T09:21:20.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Mortal Shell 2 Shells tier list: Best ones to use",
+        "url": "https://www.destructoid.com/mortal-shell-2-shells-tier-list/",
+        "date": "2026-08-18T21:07:05.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "All Tarforge upgrades in Mortal Shell 2 and how to find them",
+        "url": "https://www.destructoid.com/all-tarforge-upgrades-in-mortal-shell-2-and-how-to-find-them/",
+        "date": "2026-08-18T20:42:23.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Mortal Shell 2 Comparison Shows Difference Between Xbox Series X And Series S",
+        "url": "https://www.purexbox.com/news/2026/08/mortal-shell-2-comparison-shows-difference-between-xbox-series-x-and-series-s",
+        "date": "2026-08-18T17:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "12 Tips To Know Before You Start Playing Mortal Shell 2",
+        "url": "https://kotaku.com/12-tips-to-know-before-you-start-playing-mortal-shell-2-2000725388",
+        "date": "2026-08-18T17:10:29.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [],
+  "factCount": 0,
+  "evidenceCount": 0,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

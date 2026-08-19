@@ -1,0 +1,98 @@
+{
+  "generated": "2026-08-19T13:57:01.831Z",
+  "workingTitle": "COD: Modern Warfare 4 – Official Multiplayer Trailer",
+  "heat": 43.6,
+  "outletCount": 4,
+  "outlets": [
+    "GameSpot",
+    "IGN",
+    "Destructoid",
+    "Eurogamer"
+  ],
+  "newest": "2026-08-19T13:36:16.000Z",
+  "readableCount": 3,
+  "sourceCount": 4,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Call of Duty Socials Accidentally Post Placeholder Marketing Image for Modern Warfare 4, Fans Suspect AI Usage",
+        "url": "https://www.ign.com/articles/call-of-duty-socials-accidentally-post-placeholder-marketing-image-for-modern-warfare-4-fans-suspect-ai-usage",
+        "date": "2026-08-18T23:00:04.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "All Modern Warfare 4 beta rewards and how to get them",
+        "url": "https://www.destructoid.com/mw4-beta-rewards-and-how-to-get-them/",
+        "date": "2026-08-18T20:35:43.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Battlefield 6 is hosting a free trial, just in time for Call of Duty: Modern Warfare 4's beta",
+        "url": "https://www.eurogamer.net/battlefield-6-free-trial-call-of-duty-modern-warfare-4-beta",
+        "date": "2026-08-18T11:54:47.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "COD: Modern Warfare 4 – Official Multiplayer Trailer",
+        "url": "https://www.gamespot.com/videos/cod-modern-warfare-4-official-multiplayer-trailer/",
+        "date": "2026-08-19T13:36:16.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "earlier today an image was mistakenly posted to one of the call of duty accounts",
+      "value": "Earlier today, an image was mistakenly posted to one of the Call of Duty accounts,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Earlier today, an image was mistakenly posted to one of the Call of Duty accounts,\" said a Call of Duty rep on social media.",
+      "urls": [
+        "https://www.ign.com/articles/call-of-duty-socials-accidentally-post-placeholder-marketing-image-for-modern-warfare-4-fans-suspect-ai-usage"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:4",
+      "value": "Season 4",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Battlefield 6's latest free trial kicks off today alongside Season 4's mid-season update, and while that mightn't be especially notable in itself, the timing is moreso: it coincides with Call of Duty: Modern Warfare 4's highly anticipated, and stuffed, beta.",
+      "urls": [
+        "https://www.eurogamer.net/battlefield-6-free-trial-call-of-duty-modern-warfare-4-beta"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

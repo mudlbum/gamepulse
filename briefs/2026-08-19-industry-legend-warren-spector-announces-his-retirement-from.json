@@ -1,0 +1,404 @@
+{
+  "generated": "2026-08-19T13:57:00.724Z",
+  "workingTitle": "Industry Legend Warren Spector Announces His Retirement From Game Development",
+  "heat": 48.1,
+  "outletCount": 6,
+  "outlets": [
+    "Nintendo Life",
+    "PC Gamer",
+    "Game Developer",
+    "PCGamesN",
+    "Rock Paper Shotgun",
+    "Eurogamer"
+  ],
+  "newest": "2026-08-19T02:35:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Industry Legend Warren Spector Announces His Retirement From Game Development",
+        "url": "https://www.nintendolife.com/news/2026/08/industry-legend-warren-spector-announces-his-retirement-from-game-development",
+        "date": "2026-08-19T02:35:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Industry legend Warren Spector is retiring: 'I'm feeling like I've done what I set out to do'",
+        "url": "https://www.pcgamer.com/gaming-industry/industry-legend-warren-spector-is-retiring-im-feeling-like-ive-done-what-i-set-out-to-do/",
+        "date": "2026-08-18T22:03:27.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Epic Mickey creator Warren Spector is 'a little bitter' that his studio isn't getting props for sparking Oswald the Lucky Rabbit's big comeback",
+        "url": "https://www.pcgamer.com/movies-tv/epic-mickey-creator-warren-spector-is-a-little-bitter-that-his-studio-isnt-getting-props-for-sparking-oswald-the-lucky-rabbits-big-comeback/",
+        "date": "2026-08-18T17:46:54.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Deus Ex director Warren Spector is retiring after nearly 45 years in game dev",
+        "url": "https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years",
+        "date": "2026-08-18T17:14:19.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Warren Spector retires from game development, at least he thinks so",
+        "url": "https://www.pcgamesn.com/warren-spector-retires",
+        "date": "2026-08-18T10:08:43.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Deus Ex director and immersive sim legend Warren Spector is retiring, despite having \"three games in particular\" he'd still like to make",
+        "url": "https://www.rockpapershotgun.com/deus-ex-director-and-immersive-sim-legend-warren-spector-is-retiring-despite-having-three-games-in-particular-hed-still-like-to-make",
+        "date": "2026-08-18T09:28:51.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "i want you to remember that games are not a solved problem yet there is i hope plenty of experimentation and innovation to come",
+      "value": "To all of you reading this I want you to remember that games are not a solved problem yet - there is, I hope, plenty of experimentation and innovation to come,",
+      "outlets": [
+        "PC Gamer",
+        "Game Developer",
+        "PCGamesN",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 4,
+      "context": "\"To all of you reading this I want you to remember that games are not a solved problem yet - there is, I hope, plenty of experimentation and innovation to come,\" he added as a closing message.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/industry-legend-warren-spector-is-retiring-im-feeling-like-ive-done-what-i-set-out-to-do/",
+        "https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years",
+        "https://www.pcgamesn.com/warren-spector-retires",
+        "https://www.rockpapershotgun.com/deus-ex-director-and-immersive-sim-legend-warren-spector-is-retiring-despite-having-three-games-in-particular-hed-still-like-to-make"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but the game business has changed and it s just not as much fun for me anymore",
+      "value": "But the game business has changed and it&#x27;s just not as much fun for me anymore,",
+      "outlets": [
+        "Nintendo Life",
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"But the game business has changed and it&#x27;s just not as much fun for me anymore,\" he says.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/industry-legend-warren-spector-announces-his-retirement-from-game-development",
+        "https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i x27 m retiring from game development",
+      "value": "I&#x27;m retiring from game development,",
+      "outlets": [
+        "Game Developer",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"I&#x27;m retiring from game development,\" he writes.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years",
+        "https://www.rockpapershotgun.com/deus-ex-director-and-immersive-sim-legend-warren-spector-is-retiring-despite-having-three-games-in-particular-hed-still-like-to-make"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "and to all you young developers out there i x27 ve said it before and i x27 ll say it again your job is to make people forget people like me ever existed",
+      "value": "And to all you young developers out there, I&#x27;ve said it before and I&#x27;ll say it again, your job is to make people forget people like me ever existed.",
+      "outlets": [
+        "Game Developer",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"And to all you young developers out there, I&#x27;ve said it before and I&#x27;ll say it again, your job is to make people forget people like me ever existed.\"\n\nRelated:'I feel dirty:' EA workers trapped in a maelstrom of cynicism and doubt after Saudi buyout\n\nHe concludes: \"Will I come back?",
+      "urls": [
+        "https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years",
+        "https://www.rockpapershotgun.com/deus-ex-director-and-immersive-sim-legend-warren-spector-is-retiring-despite-having-three-games-in-particular-hed-still-like-to-make"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there are three games in particular i d still like to make",
+      "value": "I mean there are three games in particular I'd still like to make,",
+      "outlets": [
+        "PCGamesN",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"I mean there are three games in particular I'd still like to make,\" he wrote.",
+      "urls": [
+        "https://www.pcgamesn.com/warren-spector-retires",
+        "https://www.rockpapershotgun.com/deus-ex-director-and-immersive-sim-legend-warren-spector-is-retiring-despite-having-three-games-in-particular-hed-still-like-to-make"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "lost forgotten technology",
+      "value": "lost/forgotten technology",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Many devs say there is lots of \"lost/forgotten technology\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/industry-legend-warren-spector-announces-his-retirement-from-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "developers in these comments feels like a bunch olds sitting around going",
+      "value": "developers in these comments feels like a bunch olds sitting around going",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "👍\n\nComplaining about \"new\" developers in these comments feels like a bunch olds sitting around going \"tHiS geNeRatIoN.\"\n\nAnd let's not even get into how many absolute classic video games these \"new\" developers have pumped out in the past decade.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/industry-legend-warren-spector-announces-his-retirement-from-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "these new developers dont got it",
+      "value": "tHesE neW deveLopeRs doNt goT iT.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "20 years from today, people will rattle off ten classic games from the 20's and bemoan that \"tHesE neW deveLopeRs doNt goT iT.\"\n\nLegend for sure.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/industry-legend-warren-spector-announces-his-retirement-from-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "spector said he s had a",
+      "value": "Spector said he's had a",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I've been here before and changed my mind but this time I'm pretty sure I mean it.\"\n\nSpector said he's had a \"great career\" and wouldn't change a thing, but added that he's coming up on 44 years as a developer, a span that's seen him work on tabletop RPGs, board games, and \"more digital games than can remember,\" as part of teams ranging in size from a dozen people to 800.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/industry-legend-warren-spector-is-retiring-im-feeling-like-ive-done-what-i-set-out-to-do/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i ve worked for big companies and done startups",
+      "value": "I've worked for big companies and done startups,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I've worked for big companies and done startups,\" he wrote.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/industry-legend-warren-spector-is-retiring-im-feeling-like-ive-done-what-i-set-out-to-do/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "that reflects something i ve always respected and admired about spector he s commonly held up as the",
+      "value": "That reflects something I've always respected and admired about Spector: He's commonly held up as the",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(Feel free to get in touch about those last two.) Also there's a keyboard here just waiting for me to get my piano chops back.\"\n\nThat reflects something I've always respected and admired about Spector: He's commonly held up as the \"creator\" of this game or that (I do it myself) but he's made a point in the past of reminding people that these aren't solo ventures.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/industry-legend-warren-spector-is-retiring-im-feeling-like-ive-done-what-i-set-out-to-do/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the team at junction point",
+      "value": "the team at Junction Point",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "More recently, he took a similar stance with Epic Mickey, calling out Disney for failing to give \"the team at Junction Point\" proper credit for bringing Oswald the Lucky Rabbit back into the public eye.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/industry-legend-warren-spector-is-retiring-im-feeling-like-ive-done-what-i-set-out-to-do/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but the business has changed",
+      "value": "But the business has changed,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "and one I don't know how to make which scares me.\" But the business has changed, \"and it's just not as much fun\" anymore—and, he added, \"there's a new generation of developers coming up who deserve their time in the sun.\"\n\nKeep up to date with the most important stories and the best deals, as picked by the PC Gamer team.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/industry-legend-warren-spector-is-retiring-im-feeling-like-ive-done-what-i-set-out-to-do/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "seriously looking forward to it",
+      "value": "I'm seriously looking forward to it but it seems as if people are looking at it as the debut of the character,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I'm seriously looking forward to it but it seems as if people are looking at it as the debut of the character,\" Spector wrote.",
+      "urls": [
+        "https://www.pcgamer.com/movies-tv/epic-mickey-creator-warren-spector-is-a-little-bitter-that-his-studio-isnt-getting-props-for-sparking-oswald-the-lucky-rabbits-big-comeback/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we ve seen him pop up in games and in shorts and things",
+      "value": "we've seen him pop up in games and in shorts and things",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Disney reacquired the rights to Oswald in 2006, and \"we've seen him pop up in games and in shorts and things\" since then, Favreau said—and, well, that's the extent of it.",
+      "urls": [
+        "https://www.pcgamer.com/movies-tv/epic-mickey-creator-warren-spector-is-a-little-bitter-that-his-studio-isnt-getting-props-for-sparking-oswald-the-lucky-rabbits-big-comeback/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a little bitter about the lack of credit the team gets",
+      "value": "a little bitter about the lack of credit the team gets",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "None of that dates back to Disney.\"\n\nSpector admitted he's \"a little bitter about the lack of credit the team gets\" for all the work they put into bringing such a foundational character back into the public eye.",
+      "urls": [
+        "https://www.pcgamer.com/movies-tv/epic-mickey-creator-warren-spector-is-a-little-bitter-that-his-studio-isnt-getting-props-for-sparking-oswald-the-lucky-rabbits-big-comeback/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i was blown away that disney trusted us and saw fit to reintroduce the little guy in a game",
+      "value": "I was blown away that Disney trusted us and saw fit to reintroduce the little guy in a game,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I was blown away that Disney trusted us and saw fit to reintroduce the little guy in a game,\" he wrote.",
+      "urls": [
+        "https://www.pcgamer.com/movies-tv/epic-mickey-creator-warren-spector-is-a-little-bitter-that-his-studio-isnt-getting-props-for-sparking-oswald-the-lucky-rabbits-big-comeback/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but the team did a great job and deserves to be recognized for it before hollywood makes people forget the games ever existed",
+      "value": "But the team did a great job and deserves to be recognized for it before Hollywood makes people forget the games ever existed.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"But the team did a great job and deserves to be recognized for it before Hollywood makes people forget the games ever existed.\"\n\nOne of the challenges facing Spector here is that the Epic Mickey games were, well, forgettable, despite some striking concept art.",
+      "urls": [
+        "https://www.pcgamer.com/movies-tv/epic-mickey-creator-warren-spector-is-a-little-bitter-that-his-studio-isnt-getting-props-for-sparking-oswald-the-lucky-rabbits-big-comeback/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i x27 ve run teams as small as a dozen and as big as 800",
+      "value": "I&#x27;ve run teams as small as a dozen and as big as 800,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I&#x27;ve run teams as small as a dozen and as big as 800,\" Spector says.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "plus there x27 s a new generation of developers coming up who deserve their time in the sun",
+      "value": "Plus there&#x27;s a new generation of developers coming up who deserve their time in the sun.",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Plus there&#x27;s a new generation of developers coming up who deserve their time in the sun.\"\n\nSpector&#x27;s latest venture yielded uneven results.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5",
+      "value": "$5",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It was introduced as a larger competitive multiplayer immersive sim before being turned into a smaller, $5 game focused on single-player and co-op play.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/deus-ex-director-warren-spector-is-retiring-after-43-years"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "and the fact that the game business is",
+      "value": "and the fact that the game business is",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Just about to tick over into his 44th year as a developer, Spector cites a mixture of \"age and health\" and the fact that the game business is \"not as much fun for me anymore\" as reasons for stepping back.",
+      "urls": [
+        "https://www.pcgamesn.com/warren-spector-retires"
+      ]
+    }
+  ],
+  "factCount": 5,
+  "evidenceCount": 22,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "17 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
