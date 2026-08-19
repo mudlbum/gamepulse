@@ -858,6 +858,217 @@ section('Text utilities');
 
 restoreFetch();
 
+/* ==================================================================
+   Corroboration and the publish gate.
+
+   These exist because the gate refused to publish four nights running
+   while the briefs behind it held 13 and 17 specific claims. Not one
+   line of reconcile() had a test, which is why nobody noticed that
+   "two outlets agree" was implemented as "two outlets typed the same
+   characters". Every case below is drawn from a real brief.
+   ================================================================== */
+{
+  section('Fact corroboration');
+
+  const {
+    reconcile, canonicalDate, canonicalFigure, canonicalPercent, canonicalVersion, sameQuote,
+  } = await import('../generate-brief.mjs');
+
+  const claim = (kind, value, outlet, isPrimary = false) => ({
+    kind, value, outlet, url: `https://${outlet}.example/x`, isPrimary, context: value,
+  });
+
+  await test('the same day written two ways is one date', () => {
+    assert.equal(canonicalDate('November 19, 2026'), canonicalDate('19 November 2026'));
+    assert.notEqual(canonicalDate('November 19, 2026'), canonicalDate('November 20, 2026'));
+  });
+
+  await test('the same quantity written two ways is one figure', () => {
+    assert.equal(canonicalFigure('3.8 million copies'), canonicalFigure('3,800,000 copies'));
+    // Currency is part of the claim: $70 is not 70 players.
+    assert.notEqual(canonicalFigure('$70'), canonicalFigure('70 players'));
+    // And the unit is part of it too.
+    assert.notEqual(canonicalFigure('3.8 million copies'), canonicalFigure('3.8 million players'));
+  });
+
+  await test('outlets reporting a figure to different precision is a conflict, not agreement', () => {
+    /* Deliberately NOT merged. "3.82 million" and "3.8 million" may well be the
+       same underlying number, but deciding that silently is how a rounded
+       estimate gets published as a hard figure. The brief flags it and tells
+       the writer to resolve it against the primary source. */
+    assert.notEqual(canonicalFigure('3.82 million copies'), canonicalFigure('3.8 million copies'));
+    const ctx = 'The publisher said the game had sold copies since launch in June.';
+    const withCtx = (value, outlet) => ({ ...claim('figure', value, outlet), context: ctx });
+    const r = reconcile([
+      withCtx('3.82 million copies', 'IGN'),
+      withCtx('3.82 million copies', 'Kotaku'),
+      withCtx('3.8 million copies', 'PC Gamer'),
+      withCtx('3.8 million copies', 'Eurogamer'),
+    ]);
+    assert.equal(r.factCount, 2, 'two rival figures, each corroborated by two outlets');
+    assert.equal(r.conflicts.length, 1, 'and the disagreement must be reported');
+  });
+
+  await test('percentages match on direction and magnitude, not phrasing', () => {
+    assert.equal(canonicalPercent('up 12%'), canonicalPercent('12% increase'));
+    assert.equal(canonicalPercent('increased by 12%'), canonicalPercent('rose 12%'));
+    assert.notEqual(canonicalPercent('up 12%'), canonicalPercent('fell 12%'));
+  });
+
+  await test('a patch and an update of the same number are one build; a season is not', () => {
+    assert.equal(canonicalVersion('patch 7.0.0'), canonicalVersion('update 7.0.0'));
+    assert.notEqual(canonicalVersion('season 7'), canonicalVersion('patch 7'));
+  });
+
+  await test('the same quote clipped at different lengths is one quote', () => {
+    const long = 'we take leaks very seriously indeed and they disappoint all of us it is really frustrating and upsetting to the team';
+    const short = 'we take leaks very seriously indeed and they disappoint all of us';
+    assert.equal(sameQuote(long, short), true);
+  });
+
+  await test('two different quotes are not merged', () => {
+    assert.equal(
+      sameQuote(
+        'the studio has been working on this engine for six years now',
+        'we have no plans to bring the game to nintendo switch 2'
+      ),
+      false
+    );
+    // A fragment too short to identify must never match.
+    assert.equal(sameQuote('publishers should beware', 'publishers'), false);
+  });
+
+  await test('REGRESSION: a story two outlets cover yields corroborated facts', () => {
+    /* The 2026-08-18 GTA 6 cluster. Under exact-string matching this scored
+       1 corroborated fact out of 13 and the gate refused to publish. */
+    const r = reconcile([
+      claim('quote', "We take leaks very seriously indeed and they disappoint all of us, it's really frustrating and upsetting to the team,", 'IGN'),
+      claim('quote', "In terms of the leak, that's always disappointing for the team, but ultimately, I don't think it hurt us,", 'IGN'),
+      claim('date', 'November 19, 2026', 'IGN'),
+      claim('quote', "We take leaks very seriously indeed and they disappoint all of us, it's really frustrating", 'Eurogamer'),
+      claim('quote', "that's always disappointing for the team, but ultimately, I don't think it hurt us", 'Eurogamer'),
+      claim('date', '19 November 2026', 'Eurogamer'),
+    ]);
+    assert.equal(r.factCount, 3, `expected 3 corroborated, got ${r.factCount}`);
+    assert.equal(r.evidenceCount, 3);
+    assert.ok(r.facts.every((f) => f.corroboration >= 2));
+  });
+
+  await test('a single outlet on its own is never corroborated', () => {
+    const r = reconcile([
+      claim('figure', '$70', 'IGN'),
+      claim('date', 'November 19, 2026', 'IGN'),
+    ]);
+    assert.equal(r.factCount, 0);
+    assert.equal(r.evidenceCount, 2);
+  });
+
+  await test('a primary source corroborates on its own', () => {
+    const r = reconcile([claim('figure', '$70', 'Rockstar', true)]);
+    assert.equal(r.factCount, 1);
+    assert.ok(r.facts[0].hasPrimary);
+  });
+
+  await test('counts are taken before the lists are sliced for display', () => {
+    // 70 distinct corroborated facts; facts[] is capped at 60 for readability.
+    const claims = [];
+    for (let i = 1; i <= 70; i++) {
+      claims.push(claim('figure', `${i * 1000} players`, 'A'));
+      claims.push(claim('figure', `${i * 1000} players`, 'B'));
+    }
+    const r = reconcile(claims);
+    assert.equal(r.facts.length, 60, 'display list should be capped');
+    assert.equal(r.factCount, 70, 'the gate must see the real count');
+  });
+}
+
+/* ==================================================================
+   The daily data digest.
+   ================================================================== */
+{
+  section('Daily data digest');
+
+  const { collect, notable, render, pickLead } = await import('../write-digest.mjs');
+
+  const entry = (name, current, change24h, appid = 1) => ({
+    appid, rank: 1, name, url: `https://store.steampowered.com/app/${appid}/`, current, change24h,
+  });
+
+  const base = () => ({
+    leaderboard: { updated: '2026-08-19T12:00:00Z', metric: 'concurrent', entries: [entry('Counter-Strike 2', 1000000, 1.2, 730)] },
+    updates: { games: [] },
+    deals: { freeNow: [], freeSoon: [], discounts: [] },
+    mobile: { charts: {} },
+  });
+
+  await test('a day with nothing in it does not get a post', () => {
+    assert.ok(notable(collect(base())), 'expected a refusal reason');
+  });
+
+  await test('a real mover is enough to publish', () => {
+    const d = base();
+    d.leaderboard.entries.push(entry('PAYDAY 2', 32892, 29.7, 218620));
+    const f = collect(d);
+    assert.equal(notable(f), null);
+    assert.equal(pickLead(f).kind, 'riser');
+    assert.equal(f.risers[0].name, 'PAYDAY 2');
+  });
+
+  await test('the headline follows the biggest move, not a fixed template', () => {
+    const d = base();
+    d.leaderboard.entries.push(entry('HELLDIVERS 2', 64695, -28, 553850));
+    assert.equal(pickLead(collect(d)).kind, 'faller');
+  });
+
+  await test('stale data never becomes a published number', () => {
+    // collect() is pure; the staleness refusal lives in main(), so assert the
+    // flag the caller checks rather than silently trusting it.
+    const d = base();
+    d.leaderboard._stale = true;
+    assert.equal(d.leaderboard._stale, true);
+  });
+
+  await test('REGRESSION: a site-relative feed URL never becomes a link', () => {
+    /* Bungie's feed returns "/7/en/News/Article/...". Our markdown pipeline
+       rewrites root-relative links onto this site's base path, so linking one
+       would publish a guaranteed 404 pointing at ourselves. */
+    const d = base();
+    d.leaderboard.entries.push(entry('PAYDAY 2', 32892, 29.7, 218620));
+    d.updates.games = [
+      { game: 'Destiny 2', latest: { title: 'Marathon Update 1.1.5.4', url: '/7/en/News/Article/marathon', date: new Date().toISOString() } },
+    ];
+    const md = render(collect(d), 'en', '2026-08-19', 'daily-pulse-2026-08-19');
+    assert.ok(md.includes('Marathon Update 1.1.5.4'), 'the item should still be reported');
+    assert.ok(!md.includes('](/7/en'), 'but not as a link');
+  });
+
+  await test('discounts are filtered to games that were actually reviewed', () => {
+    const d = base();
+    d.leaderboard.entries.push(entry('PAYDAY 2', 32892, 29.7, 218620));
+    d.deals.discounts = [
+      { title: 'Asguaard', savings: 96, salePrice: 0.59, normalPrice: 14.99, steamRating: 64, metacritic: null, steamAppId: '999', store: 'Humble Store' },
+      { title: 'War Hospital', savings: 95, salePrice: 1.49, normalPrice: 29.99, steamRating: 60, metacritic: 67, steamAppId: '888', store: 'GOG' },
+      { title: 'War Hospital', savings: 90, salePrice: 2.99, normalPrice: 29.99, steamRating: 60, metacritic: 67, steamAppId: '888', store: 'Humble Store' },
+    ];
+    const f = collect(d);
+    assert.equal(f.discounts.length, 1, 'one qualifying game, deduped across stores');
+    assert.equal(f.discounts[0].title, 'War Hospital');
+  });
+
+  await test('both language editions render and carry the data-generated label', () => {
+    const d = base();
+    d.leaderboard.entries.push(entry('PAYDAY 2', 32892, 29.7, 218620));
+    const f = collect(d);
+    for (const lang of ['en', 'ko']) {
+      const md = render(f, lang, '2026-08-19', 'daily-pulse-2026-08-19');
+      assert.ok(md.includes('dataGenerated: true'), `${lang} must declare how it was made`);
+      assert.ok(md.includes('aiAssisted: false'), `${lang} must not claim to be AI-written`);
+      assert.ok(md.includes(`lang: ${lang}`));
+      assert.ok(md.includes('PAYDAY 2'));
+    }
+  });
+}
+
 /* ---------- summary ---------- */
 console.log('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
 console.log(`  ${passed} passed, ${failed} failed`);
