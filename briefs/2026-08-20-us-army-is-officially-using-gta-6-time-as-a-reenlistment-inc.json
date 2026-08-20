@@ -1,0 +1,287 @@
+{
+  "generated": "2026-08-20T23:16:19.309Z",
+  "workingTitle": "US Army Is Officially Using 'GTA 6' Time as a Reenlistment Incentive",
+  "heat": 146.3,
+  "outletCount": 12,
+  "outlets": [
+    "Polygon",
+    "PC Gamer",
+    "GameSpot",
+    "Destructoid",
+    "IGN",
+    "Kotaku",
+    "Push Square",
+    "Pure Xbox",
+    "Eurogamer",
+    "Rock Paper Shotgun",
+    "Nintendo Life",
+    "PCGamesN"
+  ],
+  "newest": "2026-08-20T23:06:08.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "US Army Is Officially Using 'GTA 6' Time as a Reenlistment Incentive",
+        "url": "https://www.polygon.com/gta-6-us-army-reenlistment-rockstar-games-release-date/",
+        "date": "2026-08-20T23:06:08.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "US Army confirms it's offering 4 days to play GTA 6 to soldiers who reenlist for at least 2 years",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/",
+        "date": "2026-08-20T21:43:32.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Who is Cyberleek? What we know about the GTA 6 leaker",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/who-is-cyberleek-what-we-know-about-the-gta-6-leaker/",
+        "date": "2026-08-20T21:09:46.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Rockstar owner Take-Two Interactive suffers massive financial blow amid GTA 6 leak fiasco",
+        "url": "https://www.destructoid.com/rockstar-owner-take-two-interactive-suffers-massive-financial-blow-amid-gta-6-leak-fiasco/",
+        "date": "2026-08-20T17:28:46.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Best Buy Is Offering $100 Gift Cards For $60 This Weekend, And That’s Great If You Want GTA 6’s Premium Edition",
+        "url": "https://www.gamespot.com/articles/best-buy-is-offering-100-gift-cards-for-60-this-weekend-and-thats-great-if-you-want-gta-6s-premium-edition/",
+        "date": "2026-08-20T18:40:52.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "Step Aside, GTA 6 Leaks, We Have To Talk About Zork",
+        "url": "https://www.gamespot.com/articles/step-aside-gta-6-leaks-we-have-to-talk-about-zork/",
+        "date": "2026-08-20T18:01:13.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "the idea was to have a unique incentives program that connects to what soldiers are interested in",
+      "value": "The idea was to have a unique incentives program that connects to what soldiers are interested in,",
+      "outlets": [
+        "Polygon",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"The idea was to have a unique incentives program that connects to what soldiers are interested in,\" Tomko later told PC Gamer.",
+      "urls": [
+        "https://www.polygon.com/gta-6-us-army-reenlistment-rockstar-games-release-date/",
+        "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:80",
+      "value": "$79.99.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "19 with the standard edition priced at $79.99.",
+      "urls": [
+        "https://www.polygon.com/gta-6-us-army-reenlistment-rockstar-games-release-date/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "special reenlistment incentive",
+      "value": "Special Reenlistment Incentive",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The \"Special Reenlistment Incentive\" memo is dated July 28, and came to light via the US Army WTF!",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-08-01",
+      "value": "1 August 2026",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It states, quite explicitly, that \"any soldier who signs a reenlistment contract between 1 August 2026 and 14 November 2026 will be authorized for a special four day pass.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-14",
+      "value": "14 November 2026",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It states, quite explicitly, that \"any soldier who signs a reenlistment contract between 1 August 2026 and 14 November 2026 will be authorized for a special four day pass.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "reenlistment incentives are routine for the us army to reward our soldiers",
+      "value": "Reenlistment incentives are routine for the US Army to reward our soldiers,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Reenlistment incentives are routine for the US Army to reward our soldiers,\" Tomko said.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we want to retain the best talent and it s a credit to the creativity of the career counselor within the organization to develop this unique opportunity surrounding the launch of this popular videogame",
+      "value": "We want to retain the best talent and it's a credit to the creativity of the career counselor within the organization to develop this unique opportunity surrounding the launch of this popular videogame.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We want to retain the best talent and it's a credit to the creativity of the career counselor within the organization to develop this unique opportunity surrounding the launch of this popular videogame.\"\n\nKeep up to date with the most important stories and the best deals, as picked by the PC Gamer team.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the heightened interest in the press does not change the purpose of the program to reward dedicated soldiers for service to their nation",
+      "value": "The heightened interest in the press does not change the purpose of the program: to reward dedicated soldiers for service to their nation,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The heightened interest in the press does not change the purpose of the program: to reward dedicated soldiers for service to their nation,\" Tomko explained.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "marketing and engagement brigade based at fort knox",
+      "value": "Marketing and Engagement Brigade based at Fort Knox,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In 2018 the Army launched its own esports team, which operates as part of its \"Marketing and Engagement Brigade based at Fort Knox,\" and in 2020 it began a Twitch channel for game streams.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1100000",
+      "value": "$1.1M",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The leaker is promoting the $Cyberleek token alongside the leaks—the market cap is $1.1M at the time of writing—and claims that the funds will go toward \"a secret project.\"\n\nFor now, the tokens are being used to vote in polls that determine the next clip to be released.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/who-is-cyberleek-what-we-know-about-the-gta-6-leaker/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:2800000000",
+      "value": "$2.8 billion",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And, naturally, the market panicked and started selling off Take-Two Interactive’s stock, leading to a massive loss in valuation, priced around $2.8 billion.",
+      "urls": [
+        "https://www.destructoid.com/rockstar-owner-take-two-interactive-suffers-massive-financial-blow-amid-gta-6-leak-fiasco/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:15.3",
+      "value": "$15.29",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This was first spotted by Insider Gaming, which writes that T2 lost some $15.29 in value per share, for a grand total of $2.83 billion in decreased valuation.",
+      "urls": [
+        "https://www.destructoid.com/rockstar-owner-take-two-interactive-suffers-massive-financial-blow-amid-gta-6-leak-fiasco/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:2830000000",
+      "value": "$2.83 billion",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This was first spotted by Insider Gaming, which writes that T2 lost some $15.29 in value per share, for a grand total of $2.83 billion in decreased valuation.",
+      "urls": [
+        "https://www.destructoid.com/rockstar-owner-take-two-interactive-suffers-massive-financial-blow-amid-gta-6-leak-fiasco/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:43000000000",
+      "value": "$43 billion",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While Take-Two Interactive’s market cap remains quite strong at over $43 billion, this nevertheless represents a five percent drop caused by a single miscreant running wild on the internet.",
+      "urls": [
+        "https://www.destructoid.com/rockstar-owner-take-two-interactive-suffers-massive-financial-blow-amid-gta-6-leak-fiasco/"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 14,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "13 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

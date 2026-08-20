@@ -1,0 +1,456 @@
+{
+  "generated": "2026-08-20T23:16:19.845Z",
+  "workingTitle": "Call of Duty: Modern Warfare 4 beta dates: How to sign up for both MW4 beta weekends",
+  "heat": 63.8,
+  "outletCount": 6,
+  "outlets": [
+    "PC Gamer",
+    "IGN",
+    "Eurogamer",
+    "PCGamesN",
+    "Nintendo Life",
+    "Xbox Wire"
+  ],
+  "newest": "2026-08-20T21:38:54.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Call of Duty: Modern Warfare 4 beta dates: How to sign up for both MW4 beta weekends",
+        "url": "https://www.pcgamer.com/games/call-of-duty/mw4-beta-dates-times/",
+        "date": "2026-08-20T21:38:54.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Modern Warfare 4 Developers Address Need for Balance in Call of Duty",
+        "url": "https://www.ign.com/articles/modern-warfare-4-developers-address-need-for-balance-in-call-of-duty",
+        "date": "2026-08-20T17:01:04.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "The Big Call of Duty: Modern Warfare 4 Interview — Infinity Ward on the Beta, Matchmaking, and Much More",
+        "url": "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more",
+        "date": "2026-08-20T17:00:33.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Call of Duty: Modern Warfare 4 beta may have eradicated the annoying 'Compiling Shaders' wait PC players loathe",
+        "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-beta-compiling-shaders-fix",
+        "date": "2026-08-20T14:20:46.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Modern Warfare 4 reopens the skill-based matchmaking can of worms: \"Matchmaking isn't just data, it's a feeling\"",
+        "url": "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate",
+        "date": "2026-08-20T11:52:14.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Video: Call Of Duty: Modern Warfare 4 Drops Official Multiplayer Trailer",
+        "url": "https://www.nintendolife.com/news/2026/08/video-call-of-duty-modern-warfare-4-drops-official-multiplayer-trailer",
+        "date": "2026-08-20T00:45:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "version",
+      "key": "v:season:5",
+      "value": "Season 5",
+      "outlets": [
+        "IGN",
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Especially in Season 5, you&#x27;re in the middle of the life cycle and the player base is mostly the more hardcore players.",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more",
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "i think in general the average player is just so much better than they were 15 years ago",
+      "value": "I think in general, the average player is just so much better than they were 15 years ago,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I think in general, the average player is just so much better than they were 15 years ago,\" Reynolds said as part of a sweeping interview on all things Modern Warfare 4.",
+      "urls": [
+        "https://www.ign.com/articles/modern-warfare-4-developers-address-need-for-balance-in-call-of-duty"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:2010:players",
+      "value": "2009, players",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Kind of like when you had One Man Army and grenade launcher rounds and you could just infinitely shoot them across the map .\"\n\nIn the original Modern Warfare 2 from 2009, players were able to combine various systems together to cause mayhem.",
+      "urls": [
+        "https://www.ign.com/articles/modern-warfare-4-developers-address-need-for-balance-in-call-of-duty"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as far as balancing all those things out we x27 ve tried to lean into the fun but also making things fair",
+      "value": "As far as balancing all those things out, we&#x27;ve tried to lean into the fun, but also making things fair,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"As far as balancing all those things out, we&#x27;ve tried to lean into the fun, but also making things fair,\" added Reynolds.",
+      "urls": [
+        "https://www.ign.com/articles/modern-warfare-4-developers-address-need-for-balance-in-call-of-duty"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "hey here x27 s what we tried and here x27 s what x27 s worked and what hasn x27 t worked",
+      "value": "Hey, here&#x27;s what we tried and here&#x27;s what&#x27;s worked and what hasn&#x27;t worked.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "So the exciting thing is that they&#x27;re actually starting to share data and be really open about things like, \"Hey, here&#x27;s what we tried and here&#x27;s what&#x27;s worked and what hasn&#x27;t worked.\" And they&#x27;re being open again about how we&#x27;re going into Modern Warfare with our different options.",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "balance this tweak this",
+      "value": "Balance this, tweak this.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And yet, if you tried to bring those games back, people would be like, \"Balance this, tweak this.\" It&#x27;s a tough balancing act.",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "hooray i got hit by a bomb glider",
+      "value": "Hooray, I got hit by a Bomb Glider.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And you&#x27;re never like, \"Hooray, I got hit by a Bomb Glider.\" But that Bomb Glider is loud.",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "enemy bomb glider incoming",
+      "value": "Enemy bomb glider incoming.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The guy yells, \"Enemy bomb glider incoming.\" And then you hear .",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "oh i heard that unique sound or i heard the announcer tell me this thing and i did not run to cover",
+      "value": "Oh, I heard that unique sound or I heard the announcer tell me this thing and I did not run to cover,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ideally, you&#x27;re like, \"Oh, I heard that unique sound or I heard the announcer tell me this thing and I did not run to cover,\" so that it feels fair.",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "hey in mw2 we went a little bit too tactical",
+      "value": "Hey, in MW2, we went a little bit too tactical.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We kind of presented and we said, \"Hey, in MW2, we went a little bit too tactical.\" In 2019, we felt like we hit this sweet spot coming off the previous game.",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "that thing x27 s really hard",
+      "value": "That thing&#x27;s really hard.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "So Jacky would be like, \"I want to do this thing.\" And I&#x27;ll be like, \"That thing&#x27;s really hard.\" And he&#x27;d be like, \"But I really want to do it.\" And I&#x27;ll be like, \"All right, you can go for it.",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i really want to try and do this mode",
+      "value": "I really want to try and do this mode.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Jacky was like, \"I really want to try and do this mode.\"\n\nWe worked through it and it was hard.",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i don x27 t think this is going to work",
+      "value": "I don&#x27;t think this is going to work.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There were moments where we were like, \"I don&#x27;t think this is going to work.\" But we got there and we got to something really fun.",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "hey come in give us our feedback",
+      "value": "Hey, come in, give us our feedback.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It wasn&#x27;t like, \"Hey, come in, give us our feedback.\" It was, \"Hey, come in, give us your feedback.",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "hey we want to respond to this",
+      "value": "Hey, we want to respond to this.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Even with the amount of stuff that I get sent to my desk to review like, \"Hey, we want to respond to this.\" And then I review copy or I&#x27;m writing something, it&#x27;s a huge shift.",
+      "urls": [
+        "https://www.ign.com/articles/the-big-call-of-duty-modern-warfare-4-interview-infinity-ward-on-the-beta-matchmaking-and-much-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "while update requires restart isn t disappearing completely the goal is simple fewer required restarts and fewer interruptions between you and your next match",
+      "value": "While 'Update Requires Restart' isn't disappearing completely, the goal is simple: fewer required restarts and fewer interruptions between you and your next match,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"While 'Update Requires Restart' isn't disappearing completely, the goal is simple: fewer required restarts and fewer interruptions between you and your next match,\" the developer said.",
+      "urls": [
+        "https://www.eurogamer.net/call-of-duty-modern-warfare-4-beta-compiling-shaders-fix"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "open questions around matchmaking",
+      "value": "open questions around matchmaking",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Call of Duty: Modern Warfare 4 developer Infinity Ward knows there are still \"open questions around matchmaking\" in the new COD game, \"and some confusion about what we've shared,\" so it's given some answers.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "shed light on where things stand going into the mw4 beta",
+      "value": "shed light on where things stand going into the MW4 beta.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Modern Warfare 4 team has just taken to X to address the thorny topic of matchmaking, and \"shed light on where things stand going into the MW4 beta.\" To start with some context, Black Ops 7 Season 5, which kicked off in July, introduced a new matchmaking system that Treyarch said was inspired by \"classic games\" like the first Black Ops and BO2.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the initial batch of data is showing strong improvements with the new system",
+      "value": "the initial batch of data is showing strong improvements with the new system.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Following the introduction of this setup in Season 5, it now reports that \"the initial batch of data is showing strong improvements with the new system.\" As such, it will be present in the MW4 beta, although with the caveat that the team will \"also have open matchmaking available so we can keep learning from both.\"\n\nIW adds some additional context.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the developer claims that since the season 5 launch",
+      "value": "The developer claims that since the Season 5 launch,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The new system is finding a better balance across all of these for the best experience.\"\n\nThe developer claims that since the Season 5 launch, \"quit rates are down across every skill group.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:4",
+      "value": "Season 4",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For more than half of players, they dropped 41%.\" It adds that search times are down from Season 4, and average ping is better, although acknowledges this will still be most affected by \"time of day, location, and your connection.\" It adds that while top players are now facing tougher competition, \"they're quitting less,\" but acknowledges that match variety remains important at that level.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it adds that search times are down from season 4 and average ping is better although acknowledges this will still be most affected by",
+      "value": "It adds that search times are down from Season 4, and average ping is better, although acknowledges this will still be most affected by",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For more than half of players, they dropped 41%.\" It adds that search times are down from Season 4, and average ping is better, although acknowledges this will still be most affected by \"time of day, location, and your connection.\" It adds that while top players are now facing tougher competition, \"they're quitting less,\" but acknowledges that match variety remains important at that level.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we know some players like open but the issues were clear",
+      "value": "We know some players like open, but the issues were clear,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The work isn't done.\"\n\n\"We know some players like open, but the issues were clear,\" it continues.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "not too surprising given how oppressive a one sided match can be in that situation while",
+      "value": "(not too surprising given how oppressive a one-sided match can be in that situation), while",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It notes that quit rates on the Nuketown 24/7 playlist \"jumped 141%\" (not too surprising given how oppressive a one-sided match can be in that situation), while \"our most competitive players were leaving one in every three matches.\"\n\nAnother feature that Infinity Ward intends to keep in MW4 is disbanding lobbies.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "about 50 of players leave after the first match and by game three almost none of the original lobby remains",
+      "value": "About 50% of players leave after the first match, and by game three, almost none of the original lobby remains,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"About 50% of players leave after the first match, and by game three, almost none of the original lobby remains,\" it explains.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we asked for feedback and you definitely gave it to us",
+      "value": "We asked for feedback and you definitely gave it to us,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "These latest posts naturally stirred up that hive again: \"We asked for feedback and you definitely gave it to us,\" the Call of Duty account posted just eight hours later, \"and that's what a beta is for.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/matchmaking-sbmm-debate"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 26,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "25 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

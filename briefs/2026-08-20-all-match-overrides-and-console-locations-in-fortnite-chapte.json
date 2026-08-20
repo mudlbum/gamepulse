@@ -1,0 +1,113 @@
+{
+  "generated": "2026-08-20T23:16:20.257Z",
+  "workingTitle": "All match overrides and console locations in Fortnite Chapter 7 Season 4",
+  "heat": 48,
+  "outletCount": 4,
+  "outlets": [
+    "Polygon",
+    "GameSpot",
+    "Destructoid",
+    "PCGamesN"
+  ],
+  "newest": "2026-08-20T20:53:27.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Fortnite"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "All match overrides and console locations in Fortnite Chapter 7 Season 4",
+        "url": "https://www.polygon.com/fortnite-chapter-7-season-4-match-overrides-console-locations-c7s4/",
+        "date": "2026-08-20T20:53:27.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "All sprites in Fortnite Chapter 7 Season 4",
+        "url": "https://www.polygon.com/fortnite-chapter-7-season-4-sprite-list-abilities-c7s4/",
+        "date": "2026-08-20T19:09:23.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "All NPC locations in Fortnite Chapter 7, season 4",
+        "url": "https://www.destructoid.com/all-npc-locations-in-fortnite-chapter-7-season-4/",
+        "date": "2026-08-20T13:24:16.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to activate Overrides at Consoles in Fortnite Chapter 7, season 4",
+        "url": "https://www.destructoid.com/how-to-activate-overrides-at-consoles-in-fortnite-chapter-7-season-4/",
+        "date": "2026-08-20T12:35:05.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to find and enter Cheat Codes in Fortnite Chapter 7, season 4",
+        "url": "https://www.destructoid.com/how-to-find-and-enter-cheat-codes-in-fortnite-chapter-7-season-4/",
+        "date": "2026-08-20T11:57:17.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "New Weapons In Fortnite Chapter 7 Season 4",
+        "url": "https://www.gamespot.com/articles/new-weapons-in-fortnite-chapter-7-season-4/",
+        "date": "2026-08-20T17:28:05.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "key": "v:season:4",
+      "value": "Season 4.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There are nine override console locations in Fortnite Chapter 7 Season 4.",
+      "urls": [
+        "https://www.polygon.com/fortnite-chapter-7-season-4-match-overrides-console-locations-c7s4/",
+        "https://www.polygon.com/fortnite-chapter-7-season-4-sprite-list-abilities-c7s4/"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:3",
+      "value": "Season 3",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The sprites from Chapter 7 Season 3 are not usable this season, but you'll be able to interact with them in a separate Sprite Garden game mode.",
+      "urls": [
+        "https://www.polygon.com/fortnite-chapter-7-season-4-sprite-list-abilities-c7s4/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [
+    {
+      "game": "Fortnite",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

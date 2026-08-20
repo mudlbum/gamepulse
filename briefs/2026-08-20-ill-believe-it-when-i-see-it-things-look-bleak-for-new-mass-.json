@@ -1,0 +1,256 @@
+{
+  "generated": "2026-08-20T23:16:20.683Z",
+  "workingTitle": "'I'll Believe It When I See It': Things Look Bleak for New Mass Effect, Says Former EA Manager",
+  "heat": 43.3,
+  "outletCount": 5,
+  "outlets": [
+    "Push Square",
+    "IGN",
+    "Eurogamer",
+    "PC Gamer",
+    "PCGamesN"
+  ],
+  "newest": "2026-08-20T15:15:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 5,
+  "games": [
+    "VALORANT"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Mass Effect 5 and BioWare's Future Uncertain Following Buyout, Former EA Manager Now Says",
+        "url": "https://www.ign.com/articles/mass-effect-5-and-biowares-future-uncertain-following-buyout-former-ea-manager-now-says",
+        "date": "2026-08-20T09:46:55.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "\"I don't know if they will keep funding that one\" - Former EA manager doesn't believe the next Mass Effect will survive Saudi takeover",
+        "url": "https://www.eurogamer.net/next-mass-effect-ea-bioware-saudi-ownership",
+        "date": "2026-08-20T08:30:56.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Will the next Mass Effect actually release under EA's new owners? 'I'll believe it when I see it,' says Newzoo's director of market intelligence and former EA…",
+        "url": "https://www.pcgamer.com/gaming-industry/will-the-next-mass-effect-actually-release-under-eas-new-owners-ill-believe-it-when-i-see-it-says-former-ea-manager-turned-newzoo-analyst/",
+        "date": "2026-08-20T06:29:41.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Next Valorant Night Market 2026 dates",
+        "url": "https://www.pcgamesn.com/valorant/night-market",
+        "date": "2026-08-19T11:51:23.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "Push Square",
+        "title": "'I'll Believe It When I See It': Things Look Bleak for New Mass Effect, Says Former EA Manager",
+        "url": "https://www.pushsquare.com/news/2026/08/ill-believe-it-when-i-see-it-things-look-bleak-for-new-mass-effect-says-former-ea-manager",
+        "date": "2026-08-20T15:15:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "in the middle you have these ips like the bioware ips",
+      "value": "Then in the middle you have these IPs like the BioWare IPs,",
+      "outlets": [
+        "IGN",
+        "Eurogamer",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "\"Then in the middle you have these IPs like the BioWare IPs,\" Rosier said.",
+      "urls": [
+        "https://www.ign.com/articles/mass-effect-5-and-biowares-future-uncertain-following-buyout-former-ea-manager-now-says",
+        "https://www.eurogamer.net/next-mass-effect-ea-bioware-saudi-ownership",
+        "https://www.pcgamer.com/gaming-industry/will-the-next-mass-effect-actually-release-under-eas-new-owners-ill-believe-it-when-i-see-it-says-former-ea-manager-turned-newzoo-analyst/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i will believe it when i see it the next mass effect game let x27 s put it that way",
+      "value": "I will believe it when I see it, the next Mass Effect game, let&#x27;s put it that way,",
+      "outlets": [
+        "IGN",
+        "Eurogamer",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "\"I will believe it when I see it, the next Mass Effect game, let&#x27;s put it that way,\" Rosier stated, noting that BioWare projects typically take a very long time to release, something that sees development costs spiral.",
+      "urls": [
+        "https://www.ign.com/articles/mass-effect-5-and-biowares-future-uncertain-following-buyout-former-ea-manager-now-says",
+        "https://www.eurogamer.net/next-mass-effect-ea-bioware-saudi-ownership",
+        "https://www.pcgamer.com/gaming-industry/will-the-next-mass-effect-actually-release-under-eas-new-owners-ill-believe-it-when-i-see-it-says-former-ea-manager-turned-newzoo-analyst/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:55000000000",
+      "value": "$55 billion",
+      "outlets": [
+        "IGN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "A former EA manager has cast doubt on whether Mass Effect 5 will survive the company&#x27;s recent $55 billion takeover.",
+      "urls": [
+        "https://www.ign.com/articles/mass-effect-5-and-biowares-future-uncertain-following-buyout-former-ea-manager-now-says",
+        "https://www.eurogamer.net/next-mass-effect-ea-bioware-saudi-ownership"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i x27 ve worked many years with bioware sometimes it can stretch for years and years until something comes",
+      "value": "I&#x27;ve worked many years with BioWare, sometimes it can stretch for years and years until something comes,",
+      "outlets": [
+        "IGN",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"I&#x27;ve worked many years with BioWare, sometimes it can stretch for years and years until something comes,\" he continued.",
+      "urls": [
+        "https://www.ign.com/articles/mass-effect-5-and-biowares-future-uncertain-following-buyout-former-ea-manager-now-says",
+        "https://www.pcgamer.com/gaming-industry/will-the-next-mass-effect-actually-release-under-eas-new-owners-ill-believe-it-when-i-see-it-says-former-ea-manager-turned-newzoo-analyst/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20000000000",
+      "value": "$20 billion",
+      "outlets": [
+        "Eurogamer",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "The company took on $20 billion in debt as part of the deal.",
+      "urls": [
+        "https://www.eurogamer.net/next-mass-effect-ea-bioware-saudi-ownership",
+        "https://www.pcgamer.com/gaming-industry/will-the-next-mass-effect-actually-release-under-eas-new-owners-ill-believe-it-when-i-see-it-says-former-ea-manager-turned-newzoo-analyst/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "more appealing to non gamers",
+      "value": "more appealing to non-gamers.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Earlier this year, Mass Effect TV series co-showrunner Daniel Casey refuted a report that suggested the upcoming adaptation had recently undergone rewrites to be \"more appealing to non-gamers.\" Will the existence of this TV project encourage EA bosses to keep BioWare cooking?",
+      "urls": [
+        "https://www.ign.com/articles/mass-effect-5-and-biowares-future-uncertain-following-buyout-former-ea-manager-now-says"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the kind of games that this new company isn t interested in making any more",
+      "value": "the kind of games that this new company isn't interested in making any more",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Reacting to the initial announcement of the $55bn buyout, Darrah said EA might sell off studios that have struggled in the last few years, haven't been very profitable, haven't shipped a game in a while, or make \"the kind of games that this new company isn't interested in making any more\".",
+      "urls": [
+        "https://www.eurogamer.net/next-mass-effect-ea-bioware-saudi-ownership"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i think everything is open at this point",
+      "value": "I think everything is open at this point,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I think everything is open at this point,\" Rosier says.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/will-the-next-mass-effect-actually-release-under-eas-new-owners-ill-believe-it-when-i-see-it-says-former-ea-manager-turned-newzoo-analyst/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "they have a lot of dormant ips that have not been used for so many years",
+      "value": "They have a lot of dormant IPs that have not been used for so many years,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"They have a lot of dormant IPs that have not been used for so many years,\" Rosier says.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/will-the-next-mass-effect-actually-release-under-eas-new-owners-ill-believe-it-when-i-see-it-says-former-ea-manager-turned-newzoo-analyst/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i think there are plenty of ips like that at ea that nobody cares about at this moment",
+      "value": "I think there are plenty of IPs like that at EA that nobody cares about at this moment,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I think there are plenty of IPs like that at EA that nobody cares about at this moment,\" he says.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/will-the-next-mass-effect-actually-release-under-eas-new-owners-ill-believe-it-when-i-see-it-says-former-ea-manager-turned-newzoo-analyst/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-06-18",
+      "value": "June 18, 2026",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That cycle was broken on June 18, 2026, however, with three weeks coming and going with no reappearance from the market until late July.",
+      "urls": [
+        "https://www.pcgamesn.com/valorant/night-market"
+      ]
+    }
+  ],
+  "factCount": 5,
+  "evidenceCount": 11,
+  "ourData": [
+    {
+      "game": "VALORANT",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [
+    {
+      "game": "VALORANT",
+      "title": "VALORANT patch 13.04",
+      "url": "https://playvalorant.com/en-us/news/game-updates/valorant-patch-notes-13-04/"
+    }
+  ],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "6 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
