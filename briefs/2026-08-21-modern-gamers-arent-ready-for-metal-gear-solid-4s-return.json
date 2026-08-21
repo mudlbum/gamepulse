@@ -1,0 +1,166 @@
+{
+  "generated": "2026-08-21T23:14:40.887Z",
+  "workingTitle": "Modern gamers aren’t ready for Metal Gear Solid 4’s return",
+  "heat": 31.7,
+  "outletCount": 3,
+  "outlets": [
+    "Destructoid",
+    "PC Gamer",
+    "Push Square"
+  ],
+  "newest": "2026-08-21T21:56:39.000Z",
+  "readableCount": 3,
+  "sourceCount": 3,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Modern gamers aren’t ready for Metal Gear Solid 4’s return",
+        "url": "https://www.destructoid.com/modern-gamers-arent-ready-for-metal-gear-solid-4s-return/",
+        "date": "2026-08-21T21:56:39.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Metal Gear Solid 4: Guns of the Patriots review",
+        "url": "https://www.pcgamer.com/games/third-person-shooter/metal-gear-solid-4-guns-of-the-patriots-review/",
+        "date": "2026-08-21T07:01:43.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Review: Metal Gear Solid: Master Collection Vol. 2 (PS5) - MGS 4 Is Finally Free from PS3, and It's the Best It's Ever Been",
+        "url": "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2",
+        "date": "2026-08-21T07:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$50",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Release date August 27, 2026 Expect to pay $50/&pound;40 Publisher Konami Developer Kojima Productions, Konami Reviewed on RTX 5090, Ryzen 7 9800X3D 4.7 GHz, 64GB RAM & Steam Deck Multiplayer None Steam Deck Verified Link Official site\n\nIt's no longer about avoidance, visibility, or tension.",
+      "urls": [
+        "https://www.pcgamer.com/games/third-person-shooter/metal-gear-solid-4-guns-of-the-patriots-review/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-08-27",
+      "value": "August 27, 2026",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Release date August 27, 2026 Expect to pay $50/&pound;40 Publisher Konami Developer Kojima Productions, Konami Reviewed on RTX 5090, Ryzen 7 9800X3D 4.7 GHz, 64GB RAM & Steam Deck Multiplayer None Steam Deck Verified Link Official site\n\nIt's no longer about avoidance, visibility, or tension.",
+      "urls": [
+        "https://www.pcgamer.com/games/third-person-shooter/metal-gear-solid-4-guns-of-the-patriots-review/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "he now has new lines about being on the",
+      "value": "He now has new lines about being on the",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And the Codec call where Otacon jokes about putting in \"disc two?\" He now has new lines about being on the \"PC platform, a digital title!\" Nice one, Konami.",
+      "urls": [
+        "https://www.pcgamer.com/games/third-person-shooter/metal-gear-solid-4-guns-of-the-patriots-review/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "non canon spin off a lot of people probably haven t even heard of",
+      "value": "non-canon spin-off a lot of people probably haven't even heard of.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"non-canon spin-off a lot of people probably haven't even heard of.\" Put some respect on Ghost Babels name!",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the post mgs 4 games feel like an unnecessary addendum to a franchise that was utterly demonstrably sometimes exhaustively finished with 4",
+      "value": "the post-MGS 4 games feel like an unnecessary addendum to a franchise that was utterly, demonstrably, sometimes exhaustively finished with 4",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"the post-MGS 4 games feel like an unnecessary addendum to a franchise that was utterly, demonstrably, sometimes exhaustively finished with 4\"\n\nWholesale agree.",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but then the digital soundtracks for mgs 4 and peace walker are on the bonus features app rather than the apps for their respective games",
+      "value": "But then the digital soundtracks for MGS 4 and Peace Walker are on the bonus features app rather than the apps for their respective games.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"But then the digital soundtracks for MGS 4 and Peace Walker are on the bonus features app rather than the apps for their respective games.\"\n\nWhy is it a con and why would you want to download the entire game to listen to OST?",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "one downside to this collection is that it isn t presented as one cohesive package but rather three separate launchers",
+      "value": "One downside to this collection is that it isn't presented as one cohesive package, but rather three separate launchers.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I still regularly play it on the ps3 and will still probably continue to do so but really looking forward to this remaster\n\n\"One downside to this collection is that it isn't presented as one cohesive package, but rather three separate launchers.\"\n\nThis is a plus.",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the mgs 4 database a sort of wikipedia for metal gear solid lore that originally launched at the same time as mgs 4 on ps3 is on the mgs 4 app rather than the bonus features app",
+      "value": "the MGS 4 Database — a sort of Wikipedia for Metal Gear Solid lore that originally launched at the same time as MGS 4 on PS3 — is on the MGS 4 app rather than the bonus features app.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"the MGS 4 Database — a sort of Wikipedia for Metal Gear Solid lore that originally launched at the same time as MGS 4 on PS3 — is on the MGS 4 app rather than the bonus features app.\"\n\nIDK.",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 8,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

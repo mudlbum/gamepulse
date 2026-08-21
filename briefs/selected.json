@@ -1,10 +1,40 @@
 {
-  "decided": "2026-08-20T23:16:20.734Z",
+  "decided": "2026-08-21T23:14:40.932Z",
   "publish": true,
-  "reason": "selected on score 37.6",
+  "reason": "selected on score 29.6",
   "brief": "2026-08-20-ill-believe-it-when-i-see-it-things-look-bleak-for-new-mass-.json",
   "title": "'I'll Believe It When I See It': Things Look Bleak for New Mass Effect, Says Former EA Manager",
   "considered": [
+    {
+      "file": "2026-08-21-the-gta-6-leaker-is-selling-ads-now.json",
+      "title": "The GTA 6 leaker is selling ads now",
+      "pass": false,
+      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-08-21-mortal-shell-2s-latest-update-alleviates-one-of-the-games-bi.json",
+      "title": "Mortal Shell 2’s Latest Update Alleviates One Of The Game’s Biggest Headaches",
+      "pass": false,
+      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-08-21-modern-gamers-arent-ready-for-metal-gear-solid-4s-return.json",
+      "title": "Modern gamers aren’t ready for Metal Gear Solid 4’s return",
+      "pass": false,
+      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-08-21-fromsoftware-shutters-the-duskbloods-first-public-playtest-a.json",
+      "title": "FromSoftware shutters The Duskbloods’ first public playtest after just a few hours due to ‘server issues’",
+      "pass": false,
+      "reason": "1 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-08-21-call-of-duty-modern-warfare-4-on-switch-2-actually-looks-to-.json",
+      "title": "Call of Duty: Modern Warfare 4 on Switch 2 actually looks to be running and playing really well",
+      "pass": false,
+      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-08-20-us-army-is-officially-using-gta-6-time-as-a-reenlistment-inc.json",
       "title": "US Army Is Officially Using 'GTA 6' Time as a Reenlistment Incentive",
@@ -21,37 +51,7 @@
       "file": "2026-08-20-ill-believe-it-when-i-see-it-things-look-bleak-for-new-mass-.json",
       "title": "'I'll Believe It When I See It': Things Look Bleak for New Mass Effect, Says Former EA Manager",
       "pass": true,
-      "reason": "5/11 claims corroborated · 5 outlets · secondary only · 8h old"
-    },
-    {
-      "file": "2026-08-20-call-of-duty-modern-warfare-4-beta-dates-how-to-sign-up-for-.json",
-      "title": "Call of Duty: Modern Warfare 4 beta dates: How to sign up for both MW4 beta weekends",
-      "pass": false,
-      "reason": "1 of 26 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-08-20-all-match-overrides-and-console-locations-in-fortnite-chapte.json",
-      "title": "All match overrides and console locations in Fortnite Chapter 7 Season 4",
-      "pass": false,
-      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-08-19-want-a-modern-warfare-4-beta-code-just-talk-trash.json",
-      "title": "Want A Modern Warfare 4 Beta Code? Just Talk Trash",
-      "pass": false,
-      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-08-19-sony-reportedly-reverses-course-on-live-service-co-op-horizo.json",
-      "title": "Sony reportedly reverses course on live service co-op Horizon game after 'negative player feedback'",
-      "pass": false,
-      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-08-19-mortal-shell-2-shells-tier-list-best-ones-to-use.json",
-      "title": "Mortal Shell 2 Shells tier list: Best ones to use",
-      "pass": false,
-      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+      "reason": "5/11 claims corroborated · 5 outlets · secondary only · 32h old"
     }
   ]
 }

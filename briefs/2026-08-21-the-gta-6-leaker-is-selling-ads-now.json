@@ -1,0 +1,208 @@
+{
+  "generated": "2026-08-21T23:14:39.269Z",
+  "workingTitle": "The GTA 6 leaker is selling ads now",
+  "heat": 116.1,
+  "outletCount": 9,
+  "outlets": [
+    "PC Gamer",
+    "Pure Xbox",
+    "GameSpot",
+    "Kotaku",
+    "IGN",
+    "Eurogamer",
+    "Rock Paper Shotgun",
+    "Push Square",
+    "Destructoid"
+  ],
+  "newest": "2026-08-21T22:16:19.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "The GTA 6 leaker is selling ads now",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/the-gta-6-leaker-is-selling-ads-now/",
+        "date": "2026-08-21T22:16:19.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Xbox CTO Issues Brief Statement On GTA 6 Leaks",
+        "url": "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks",
+        "date": "2026-08-21T21:33:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Rockstar Games Reportedly Remains In The Dark About Who’s Leaking GTA 6 But Still Moving Ahead With Netflix Reveal",
+        "url": "https://kotaku.com/rockstar-games-reportedly-still-in-the-dark-about-whos-leaking-gta-6-and-how-2000726726",
+        "date": "2026-08-21T19:20:07.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Fan Thinks They’ve Tracked Down The GTA 6 Leaker’s Crypto Wallet, And That It’s Only A Matter Of Time Before Rockstar Catches Them",
+        "url": "https://kotaku.com/gta-6-leaks-crypto-scam-2000726671",
+        "date": "2026-08-21T17:40:22.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Leaker Has Not Been Identified Yet – Report",
+        "url": "https://www.gamespot.com/articles/gta-6-leaker-has-not-been-identified-yet-report/",
+        "date": "2026-08-21T19:29:14.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Could Do For Cars What Red Dead Redemption 2 Did For Horses",
+        "url": "https://www.gamespot.com/articles/gta-6-could-do-for-cars-what-red-dead-redemption-2-did-for-horses/",
+        "date": "2026-08-21T17:59:33.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:165000",
+      "value": "$164,730.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It costs a \"donation\" of 400 Monero XMR, which currently converts to, roughly, $164,730.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/the-gta-6-leaker-is-selling-ads-now/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we don t deem microsoft safe better make gtavi a ps exclusive",
+      "value": "We don't deem Microsoft safe, better make GTAVI a PS exclusive",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Waiting for Take Two/Sony to pull a \"We don't deem Microsoft safe, better make GTAVI a PS exclusive\" announcement /s\n\nThe walls are closing in on CyberLeek.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we care deeply about our consumers private data",
+      "value": "we care deeply about our consumers private data",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We get a token quote like \"we care deeply about our consumers private data\" and thats the end of it.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "crimes don t matter if it happens to a company i don t like agree with",
+      "value": "Crimes don't matter if it happens to a company I don't like / agree with",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Crimes don't matter if it happens to a company I don't like / agree with\" is a pretty ***** take.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10000000000",
+      "value": "$10billion",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They will still make $10billion+ on the game.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "suck it up you ll be fine you have insurance",
+      "value": "suck it up you'll be fine, you have insurance.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's like someone stealing your vehicle and then being told, \"suck it up you'll be fine, you have insurance.\" Meanwhile you've worked your ass off for years to be able to afford said vehicle.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:29000",
+      "value": "$29,000",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to Vice Cit, Cyberleek invested about $29,000 into creating the coin.",
+      "urls": [
+        "https://kotaku.com/gta-6-leaks-crypto-scam-2000726671"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30000",
+      "value": "$30,000",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Vice Cit suggests they probably made about $30,000 on fees on the first day of the leak, essentially making back what they put in, and since then have been getting several thousand per day.",
+      "urls": [
+        "https://kotaku.com/gta-6-leaks-crypto-scam-2000726671"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:391000",
+      "value": "$391k",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The creator also apparently has 270 million tokens set aside in an additional, private wallet that was worth about $391k at the time of Vice Cit’s post, which could conceivably be sold off for profit as well.",
+      "urls": [
+        "https://kotaku.com/gta-6-leaks-crypto-scam-2000726671"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 9,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "generated": "2026-08-21T23:14:40.426Z",
+  "workingTitle": "Mortal Shell 2’s Latest Update Alleviates One Of The Game’s Biggest Headaches",
+  "heat": 40.4,
+  "outletCount": 4,
+  "outlets": [
+    "GameSpot",
+    "Destructoid",
+    "Eurogamer",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-08-21T18:40:53.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "The best ways to farm Gloom and Gold in Mortal Shell 2",
+        "url": "https://www.destructoid.com/the-best-ways-to-farm-gloom-and-gold-in-mortal-shell-2/",
+        "date": "2026-08-21T17:31:07.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Mortal Shell 2 review",
+        "url": "https://www.eurogamer.net/mortal-shell-2-review",
+        "date": "2026-08-21T09:23:13.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Mortal Shell 2's first balance patch makes its in-game economy a lot more lenient and nerfs some enemies and bosses for a smoother ride",
+        "url": "https://www.rockpapershotgun.com/mortal-shell-2s-first-balance-patch-makes-its-in-game-economy-a-lot-more-lenient-and-nerfs-some-enemies-and-bosses-for-a-smoother-ride",
+        "date": "2026-08-20T21:53:50.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Amid accusations of a post-beta difficulty bump, Mortal Shell 2 devs patch the new soulslike to stop players riposting so hard they steal enemy weapons",
+        "url": "https://www.rockpapershotgun.com/amid-accusations-of-a-post-beta-difficulty-bump-mortal-shell-2-devs-patch-the-new-soulslike-to-stop-players-riposting-so-hard-they-steal-enemy-weapons",
+        "date": "2026-08-19T14:16:46.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Mortal Shell 2’s Latest Update Alleviates One Of The Game’s Biggest Headaches",
+        "url": "https://www.gamespot.com/articles/mortal-shell-2s-latest-update-alleviates-one-of-the-games-biggest-headaches/",
+        "date": "2026-08-21T18:40:53.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "Your Mortal Shell 2 Weapons Don’t Have To Get You Killed",
+        "url": "https://www.gamespot.com/articles/your-mortal-shell-2-weapons-dont-have-to-get-you-killed/",
+        "date": "2026-08-21T17:29:43.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "more gold with the lot you find in mammon specifically dropping double the amount they were previously",
+      "value": "more gold, with the lot you find in Mammon specifically dropping double the amount they were previously (",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Enemies will generally drop \"significantly\" more gold, with the lot you find in Mammon specifically dropping double the amount they were previously (\"This brings the gold economy more in line with the weapon crafting item discovery,\" the devs explain).",
+      "urls": [
+        "https://www.rockpapershotgun.com/mortal-shell-2s-first-balance-patch-makes-its-in-game-economy-a-lot-more-lenient-and-nerfs-some-enemies-and-bosses-for-a-smoother-ride"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

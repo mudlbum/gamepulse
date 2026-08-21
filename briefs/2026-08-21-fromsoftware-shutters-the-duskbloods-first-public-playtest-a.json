@@ -1,0 +1,251 @@
+{
+  "generated": "2026-08-21T23:14:40.202Z",
+  "workingTitle": "FromSoftware shutters The Duskbloods’ first public playtest after just a few hours due to ‘server issues’",
+  "heat": 50,
+  "outletCount": 5,
+  "outlets": [
+    "Destructoid",
+    "IGN",
+    "Kotaku",
+    "Nintendo Life",
+    "Eurogamer"
+  ],
+  "newest": "2026-08-21T17:59:25.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "FromSoftware shutters The Duskbloods’ first public playtest after just a few hours due to ‘server issues’",
+        "url": "https://www.destructoid.com/duskbloods-playtest-cancelled/",
+        "date": "2026-08-21T17:59:25.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "FromSoftware 'Sincerely Apologizes' for The Duskbloods Network Test 'Server Issues,' Ends First Slot Early",
+        "url": "https://www.ign.com/articles/fromsoftware-sincerely-apologizes-for-the-duskbloods-network-test-server-issues-ends-first-slot-early",
+        "date": "2026-08-21T16:14:06.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "FromSoftware Gives Up On Today’s The Duskbloods Network Test After Two Hours Of Failed Logins",
+        "url": "https://kotaku.com/fromsoftware-gives-up-duskbloods-network-test-2000726612",
+        "date": "2026-08-21T12:34:05.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "The Duskbloods Network Test Session Closed After Disastrous Server Issues",
+        "url": "https://www.nintendolife.com/news/2026/08/the-duskbloods-network-test-session-closed-after-disastrous-server-issues",
+        "date": "2026-08-21T12:15:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Connectivity issues force FromSoftware to close The Duskbloods network test early",
+        "url": "https://www.eurogamer.net/the-duskbloods-network-test-connection-problems-fromsoftware",
+        "date": "2026-08-21T11:03:41.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Guide: The Duskbloods Network Test Times & How To Join",
+        "url": "https://www.nintendolife.com/guides/duskbloods-network-test-sign-up-dates-start-time-access",
+        "date": "2026-08-21T10:00:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "failed to log in to the duskbloods game server",
+      "value": "We sincerely apologise for any inconvenience caused to those who were waiting for the first The Duskbloods network test due to game server issues,",
+      "outlets": [
+        "IGN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We sincerely apologise for any inconvenience caused to those who were waiting for the first The Duskbloods network test due to game server issues,\" the statement read.",
+      "urls": [
+        "https://www.ign.com/articles/fromsoftware-sincerely-apologizes-for-the-duskbloods-network-test-server-issues-ends-first-slot-early",
+        "https://www.eurogamer.net/the-duskbloods-network-test-connection-problems-fromsoftware"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-08-21",
+      "value": "August 21, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The first of five early gameplay periods kicked off today, August 21, 2026, at 3 a.m.",
+      "urls": [
+        "https://www.ign.com/articles/fromsoftware-sincerely-apologizes-for-the-duskbloods-network-test-server-issues-ends-first-slot-early"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "select x27 ok x27 to attempt to log in again",
+      "value": "Select &#x27;OK&#x27; to attempt to log in again.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Select &#x27;OK&#x27; to attempt to log in again.\"\n\nThe upside is that, yes, The Duskbloods network test was a resounding success, but only because it proved that there was much more testing to be done.",
+      "urls": [
+        "https://www.ign.com/articles/fromsoftware-sincerely-apologizes-for-the-duskbloods-network-test-server-issues-ends-first-slot-early"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we sincerely apologize for any inconvenience",
+      "value": "We sincerely apologize for any inconvenience.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "FromSoftware acknowledged the hangups with a message on its X/Twitter page, saying, \"We sincerely apologize for any inconvenience.\"\n\nThe message to fans also notified them that the first test had been closed before its originally planned time of 7 a.m.",
+      "urls": [
+        "https://www.ign.com/articles/fromsoftware-sincerely-apologizes-for-the-duskbloods-network-test-server-issues-ends-first-slot-early"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "work on improving the servers",
+      "value": "work on improving the servers",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It&#x27;s unclear if the remaining times have been impacted, with the studio&#x27;s message on social media, meanwhile, promising to \"work on improving the servers\" and \"announced future schedules at a later date.\"\n\nWe sincerely apologize for any inconvenience caused to those who were waiting for the first The Duskbloods network test due to game server issues.",
+      "urls": [
+        "https://www.ign.com/articles/fromsoftware-sincerely-apologizes-for-the-duskbloods-network-test-server-issues-ends-first-slot-early"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "become a bloodsworn of dusk a supernatural being imbued with special abilities by the power of blood and leap into online battles of up to eight players",
+      "value": "Become a Bloodsworn of Dusk — a supernatural being imbued with special abilities by the power of blood — and leap into online battles of up to eight players,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We will continue to work on improving the servers and will announce…\n\n\"Become a Bloodsworn of Dusk — a supernatural being imbued with special abilities by the power of blood — and leap into online battles of up to eight players,\" an official description for The Duskbloods says.",
+      "urls": [
+        "https://www.ign.com/articles/fromsoftware-sincerely-apologizes-for-the-duskbloods-network-test-server-issues-ends-first-slot-early"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i fear people are forgetting this is a network test and it x27 s stuff like this they are testing for",
+      "value": "I fear people are forgetting this is a Network Test and it&#x27;s stuff like this they are testing for,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I fear people are forgetting this is a Network Test and it&#x27;s stuff like this they are testing for,\" another added.",
+      "urls": [
+        "https://www.ign.com/articles/fromsoftware-sincerely-apologizes-for-the-duskbloods-network-test-server-issues-ends-first-slot-early"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "why bother doing sessions in the first place",
+      "value": "Why bother doing sessions in the first place?",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Wishing the dev team luck with fixing things.\"\n\n\"Why bother doing sessions in the first place?\" one dissatisfied user said.",
+      "urls": [
+        "https://www.ign.com/articles/fromsoftware-sincerely-apologizes-for-the-duskbloods-network-test-server-issues-ends-first-slot-early"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:2pm",
+      "value": "UPDATE 2PM",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "UPDATE 2PM BST: FormSoftware has closed today's The Duskbloods network test early due to connectivity issues.",
+      "urls": [
+        "https://www.eurogamer.net/the-duskbloods-network-test-connection-problems-fromsoftware"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "what previous games have you played before",
+      "value": "what previous games have you played before?",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I signed up but funny how they asked, \"what previous games have you played before?\" I only played Armored Core and I'm over McDonalds WiFi.",
+      "urls": [
+        "https://www.nintendolife.com/guides/duskbloods-network-test-sign-up-dates-start-time-access"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "why would you make a multiplayer mode for a single player game like assassin s creed",
+      "value": "why would you make a multiplayer mode for a single-player game like Assassin's Creed?",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The prevailing sentiment was \"why would you make a multiplayer mode for a single-player game like Assassin's Creed?\" From what I remember, It didn't help that this was the era when publishers were adding multiplayer modes to games to try to curtail used games sales by requiring a one-time use \"game pass\" to access multiplayer modes.",
+      "urls": [
+        "https://www.nintendolife.com/guides/duskbloods-network-test-sign-up-dates-start-time-access"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we are experiencing issues with logging into the",
+      "value": "We are experiencing issues with logging into the",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We are experiencing issues with logging into the \"The Duskbloods\" Network Test Ver.",
+      "urls": [
+        "https://www.nintendolife.com/guides/duskbloods-network-test-sign-up-dates-start-time-access"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 12,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "11 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
