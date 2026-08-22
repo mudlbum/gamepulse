@@ -1,0 +1,159 @@
+{
+  "generated": "2026-08-22T23:11:20.423Z",
+  "workingTitle": "Here's What Call Of Duty: Modern Warfare 4 Looks Like On Xbox Series X|S",
+  "heat": 98.3,
+  "outletCount": 9,
+  "outlets": [
+    "Pure Xbox",
+    "Nintendo Life",
+    "Destructoid",
+    "GameSpot",
+    "Xbox Wire",
+    "PlayStation Blog",
+    "Push Square",
+    "Eurogamer",
+    "PCGamesN"
+  ],
+  "newest": "2026-08-22T20:30:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "Here's What Call Of Duty: Modern Warfare 4 Looks Like On Xbox Series X|S",
+        "url": "https://www.purexbox.com/news/2026/08/heres-what-call-of-duty-modern-warfare-4-looks-like-on-xbox-series-xs",
+        "date": "2026-08-22T20:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Round Up: The First Impressions Of Call Of Duty: Modern Warfare 4 Switch 2 Are In",
+        "url": "https://www.nintendolife.com/news/2026/08/round-up-the-first-impressions-of-call-of-duty-modern-warfare-4-switch-2-are-in",
+        "date": "2026-08-22T06:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Call Of Duty: Modern Warfare 4 Switch 2 Partner Developer Revealed By Activision",
+        "url": "https://www.nintendolife.com/news/2026/08/call-of-duty-modern-warfare-4-switch-2-partner-developer-revealed-by-activision",
+        "date": "2026-08-22T04:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Call of Duty: Modern Warfare 4 on Switch 2 actually looks to be running and playing really well",
+        "url": "https://www.destructoid.com/call-of-duty-modern-warfare-4-on-switch-2-actually-looks-to-be-running-and-playing-really-well/",
+        "date": "2026-08-21T20:27:29.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Here's What The New Stalker 2.0 Update Looks Like On Xbox Series X|S",
+        "url": "https://www.purexbox.com/news/2026/08/heres-what-the-new-stalker-2-0-update-looks-like-on-xbox-series-xs",
+        "date": "2026-08-21T19:01:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Call Of Duty’s Most Controversial Item Is Back In Modern Warfare 4, But With Some Major Changes",
+        "url": "https://www.gamespot.com/articles/call-of-dutys-most-controversial-item-is-back-in-modern-warfare-4-but-with-some-major-changes/",
+        "date": "2026-08-21T20:02:01.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-10-23",
+      "value": "October 23, 2026",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Of course, Modern Warfare 4 is still in beta, which means performance is subject to change before its full release on October 23, 2026, but so far we're impressed, specifically by the lighting.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/heres-what-call-of-duty-modern-warfare-4-looks-like-on-xbox-series-xs"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "interesting to see call of duty make its return to nintendo with the switch 2 and actually put on a performance that is at least parity with the other platforms",
+      "value": "interesting to see Call of Duty make its return to Nintendo with the Switch 2 and actually put on a performance that is at least parity with the other platforms",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He adds it's still \"interesting to see Call of Duty make its return to Nintendo with the Switch 2 and actually put on a performance that is at least parity with the other platforms\":\n\n\"As I understand, not everyone's going to be as sensitive to the frame rate or resolution as I or others may be.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/round-up-the-first-impressions-of-call-of-duty-modern-warfare-4-switch-2-are-in"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "docked resolution but does seem to be targeting",
+      "value": "docked resolution, but does seem to be targeting",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to these first impressions, this version runs at a \"very low\" docked resolution, but does seem to be targeting \"and mostly hitting\" 60fps.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/round-up-the-first-impressions-of-call-of-duty-modern-warfare-4-switch-2-are-in"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$70",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Are people willing to pay $70 though is another question entirely…\n\nHopefully the final release will be significantly improved, at the moment this port is not on par with the best we’ve seen from 3rd party releases on Switch 2.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/round-up-the-first-impressions-of-call-of-duty-modern-warfare-4-switch-2-are-in"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "our biggest overhaul to how the zone looks feels and lives since launch",
+      "value": "our biggest overhaul to how the Zone looks, feels, and lives since launch",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This is a seriously massive update for Stalker 2 that's described by the team as \"our biggest overhaul to how the Zone looks, feels, and lives since launch\", featuring a new Unreal Engine upgrade, tons of A-Life updates, new weapons, new ways to customise your experience, and so much more.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/heres-what-the-new-stalker-2-0-update-looks-like-on-xbox-series-xs"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

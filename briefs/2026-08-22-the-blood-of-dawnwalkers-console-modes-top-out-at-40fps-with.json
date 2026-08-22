@@ -1,0 +1,118 @@
+{
+  "generated": "2026-08-22T23:11:20.980Z",
+  "workingTitle": "The Blood of Dawnwalker's console modes top out at 40fps, with no 60fps option at launch",
+  "heat": 34.6,
+  "outletCount": 4,
+  "outlets": [
+    "Eurogamer",
+    "Pure Xbox",
+    "IGN",
+    "Push Square"
+  ],
+  "newest": "2026-08-22T15:06:33.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Eurogamer",
+        "title": "The Blood of Dawnwalker's console modes top out at 40fps, with no 60fps option at launch",
+        "url": "https://www.eurogamer.net/blood-of-dawnwalker-no-60fps-console-launch",
+        "date": "2026-08-22T15:06:33.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "The Blood Of Dawnwalker Has Two Performance Modes On Xbox Series X, But No 60FPS",
+        "url": "https://www.purexbox.com/news/2026/08/the-blood-of-dawnwalker-has-two-performance-modes-on-xbox-series-x-but-no-60fps",
+        "date": "2026-08-21T16:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "The Blood of Dawnwalker Won’t Run at 60fps on Console, and Fans Aren’t Happy",
+        "url": "https://www.ign.com/articles/the-blood-of-dawnwalker-wont-run-at-60fps-on-console-and-fans-arent-happy",
+        "date": "2026-08-21T15:02:59.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "The Blood of Dawnwalker Won't Have 60FPS Mode on PS5 or Even PS5 Pro",
+        "url": "https://www.pushsquare.com/news/2026/08/the-blood-of-dawnwalker-wont-have-60fps-mode-on-ps5-or-even-ps5-pro",
+        "date": "2026-08-21T15:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "it s 2026 60 fps is the bare minimum at this point",
+      "value": "It's 2026, 60 fps is the bare minimum at this point",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Another said: \"It's 2026, 60 fps is the bare minimum at this point\".",
+      "urls": [
+        "https://www.eurogamer.net/blood-of-dawnwalker-no-60fps-console-launch"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "offers enhanced visual quality across both modes",
+      "value": "offers enhanced visual quality across both modes",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "On both base PS5 and PS5 Pro, there are the same two modes to choose from:\n\nThe video above notes the PS5 Pro \"offers enhanced visual quality across both modes\", but there's seemingly no way of making the console version run at 60fps.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/the-blood-of-dawnwalker-wont-have-60fps-mode-on-ps5-or-even-ps5-pro"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "modes so i m holding out hope that means there will be a",
+      "value": "modes, so I'm holding out hope that means there will be a",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Their tweet said they were showcasing the graphics \"Quality\" modes, so I'm holding out hope that means there will be a \"performance\" mode as well.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/the-blood-of-dawnwalker-wont-have-60fps-mode-on-ps5-or-even-ps5-pro"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a balance of quality and performance",
+      "value": "a balance of quality and performance",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"balanced\" refers to \"a balance of quality and performance\", not \"a balance between the 30fps mode and the 60fps mode\".",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/the-blood-of-dawnwalker-wont-have-60fps-mode-on-ps5-or-even-ps5-pro"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
