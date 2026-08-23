@@ -1,0 +1,342 @@
+{
+  "generated": "2026-08-23T23:11:29.688Z",
+  "workingTitle": "Modern Warfare 4 beta sheds half its player base after just a day",
+  "heat": 117.2,
+  "outletCount": 11,
+  "outlets": [
+    "Destructoid",
+    "Kotaku",
+    "PCGamesN",
+    "PC Gamer",
+    "Pure Xbox",
+    "Eurogamer",
+    "Nintendo Life",
+    "GameSpot",
+    "Xbox Wire",
+    "PlayStation Blog",
+    "Push Square"
+  ],
+  "newest": "2026-08-23T20:05:23.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Rust",
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Modern Warfare 4 beta sheds half its player base after just a day",
+        "url": "https://www.destructoid.com/modern-warfare-4-beta-sheds-half-its-player-base-after-just-a-day/",
+        "date": "2026-08-23T20:05:23.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Maps, Spawn Issues, And Overall Lack Of Razzle Dazzle Is Leaving Some Players Cold On The Modern Warfare 4 Beta",
+        "url": "https://kotaku.com/maps-spawn-issues-and-overall-lack-of-razzle-dazzle-leaves-players-cold-on-modern-warfare-4-beta-2000727258",
+        "date": "2026-08-23T18:15:23.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "As another Modern Warfare 4 beta update adds a new map, IW admits spawns \"need to improve\"",
+        "url": "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/mw4-beta-patch-notes-august-23",
+        "date": "2026-08-23T16:59:15.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Call of Duty: Modern Warfare 4's first beta patch adds a new map and mode, as Infinity Ward responds to complaints about footstep noise and weapon lethality",
+        "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4s-first-beta-patch-adds-a-new-map-and-mode-as-infinity-ward-responds-to-complaints-about-footstep-noise-and-weapon-lethality/",
+        "date": "2026-08-23T10:11:37.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Here's What Call Of Duty: Modern Warfare 4 Looks Like On Xbox Series X|S",
+        "url": "https://www.purexbox.com/news/2026/08/heres-what-call-of-duty-modern-warfare-4-looks-like-on-xbox-series-xs",
+        "date": "2026-08-22T20:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "A Modern Warfare 4 beta update nerfs footsteps, and adds a new map and mode",
+        "url": "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-update-august-22-patch-notes",
+        "date": "2026-08-22T16:45:51.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:n:115000:concurrent",
+      "value": "115,000 concurrent",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Modern Warfare 4 closed beta is currently underway, with over 115,000 concurrent players on Steam alone tuning in to check what’s new for Call of Duty.",
+      "urls": [
+        "https://www.destructoid.com/modern-warfare-4-beta-sheds-half-its-player-base-after-just-a-day/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:44000:concurrent",
+      "value": "44,000 concurrent",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As of this article, the beta has just over 44,000 concurrent players, while it peaked at 49,706 concurrents overall on Sunday.",
+      "urls": [
+        "https://www.destructoid.com/modern-warfare-4-beta-sheds-half-its-player-base-after-just-a-day/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:49700:concurrent",
+      "value": "49,706 concurrent",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As of this article, the beta has just over 44,000 concurrent players, while it peaked at 49,706 concurrents overall on Sunday.",
+      "urls": [
+        "https://www.destructoid.com/modern-warfare-4-beta-sheds-half-its-player-base-after-just-a-day/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the beta is critical for testing multiplayer spawns because it allows us to find patterns across a huge volume of matches",
+      "value": "The beta is critical for testing multiplayer spawns because it allows us to find patterns across a huge volume of matches,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The beta is critical for testing multiplayer spawns because it allows us to find patterns across a huge volume of matches,\" Infinity Ward writes.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/mw4-beta-patch-notes-august-23"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "based on what we re seeing we need to improve",
+      "value": "Based on what we're seeing, we need to improve.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Based on what we're seeing, we need to improve.\" It says work to refine both spawn placements and logic is ongoing \"across all maps and modes,\" although we'll be waiting a little longer to see whether these improvements actually make a difference.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/mw4-beta-patch-notes-august-23"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "time to kill remains a focus",
+      "value": "time to kill remains a focus,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Additionally, the team notes that \"time to kill remains a focus,\" along with making some underperforming attachments more viable.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/mw4-beta-patch-notes-august-23"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "more accurately reflect functionality",
+      "value": "more accurately reflect functionality.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "All muzzles have had their pros, cons, and stats updated in the Gunsmith to \"more accurately reflect functionality.\"\n\nSeveral underbarrel attachments have also received buffs.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/mw4-beta-patch-notes-august-23"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:17",
+      "value": "17% increase",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Additionally, the former now has less of a penalty on Sprint to Fire Speed, while the latter gains a 17% increase to Jog Speed and 50% to Strafe Speed.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/mw4-beta-patch-notes-august-23"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "making important cues easier to identify during combat while reducing sounds that overpower critical intel",
+      "value": "making important cues easier to identify during combat while reducing sounds that overpower critical intel.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Infinity Ward continues to tweak game audio alongside this, with the goal of \"making important cues easier to identify during combat while reducing sounds that overpower critical intel.\" There's a general remixing for the Artillery Beacon, and a volume increase for Kill Confirmed pickups, Domination point captures, the fuse on Frag Grenades, and the Attack Helicopter killstreak.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/mw4-beta-patch-notes-august-23"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "kill cams reducing the amount of gunny notifications and",
+      "value": "kill cams, reducing the amount of Gunny notifications, and",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As for what's next, Infinity Ward says it's still working on improving Hardpoint spawns on Transit 213, fixing instances of \"inaccurate\" kill cams, reducing the amount of Gunny notifications, and \"trimming several countdowns including map voting time in order to get people into matches faster.\"",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/mw4-beta-patch-notes-august-23"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "time to till isn t quite right yet",
+      "value": "time-to-till isn't quite right yet",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "On top of that, Infinity Ward concurs with players that \"time-to-till isn't quite right yet\" and as such has \"turned down the lethality of some of our guns.\" Oh, and map voting has been introduced, with Infinity Ward stating that the system needed four maps to work effectively—which it now has with the addition of Cachette.",
+      "urls": [
+        "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4s-first-beta-patch-adds-a-new-map-and-mode-as-infinity-ward-responds-to-complaints-about-footstep-noise-and-weapon-lethality/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-10-23",
+      "value": "October 23, 2026",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Of course, Modern Warfare 4 is still in beta, which means performance is subject to change before its full release on October 23, 2026, but so far we're impressed, specifically by the lighting.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/heres-what-call-of-duty-modern-warfare-4-looks-like-on-xbox-series-xs"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "thank you to everyone for your energy",
+      "value": "Thank you to everyone for your energy,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Thank you to everyone for your energy,\" the team writes.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-update-august-22-patch-notes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we had a blast playing with you and we re ready to run it back all weekend",
+      "value": "We had a blast playing with you, and we're ready to run it back all weekend.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We had a blast playing with you, and we're ready to run it back all weekend.\" On the cards for this initial update are a couple of weapon nerfs, a reduction in footstep sounds, improved visibility on Transit 213, map voting, and the new Inflation game mode.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-update-august-22-patch-notes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we heard you loud and clear on the footstep volume so we ve adjusted things downward for today",
+      "value": "We heard you loud and clear on the footstep volume, so we've adjusted things downward for today,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We heard you loud and clear on the footstep volume, so we've adjusted things downward for today,\" the Modern Warfare 4 team writes.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-update-august-22-patch-notes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "our objective for movement audio is to indicate when enemies are approaching without revealing their exact positions at a distance",
+      "value": "Our objective for movement audio is to indicate when enemies are approaching without revealing their exact positions at a distance,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Our objective for movement audio is to indicate when enemies are approaching without revealing their exact positions at a distance,\" Infinity Ward explains.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-update-august-22-patch-notes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "actively working on a fix",
+      "value": "actively working on a fix",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The developer notes that it's still \"actively working on a fix\" for an issue preventing join-in-progress on Kill Block, and is also investigating reports that cooking lethal equipment can cause framerate drops.",
+      "urls": [
+        "https://www.pcgamesn.com/call-of-duty-modern-warfare-4/beta-update-august-22-patch-notes"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 17,
+  "ourData": [
+    {
+      "game": "Rust",
+      "concurrent": 86903,
+      "rank": 11,
+      "change24h": -15.8,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    },
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [
+    {
+      "game": "Rust",
+      "title": "POWER TRIP",
+      "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1840310314342737"
+    }
+  ],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

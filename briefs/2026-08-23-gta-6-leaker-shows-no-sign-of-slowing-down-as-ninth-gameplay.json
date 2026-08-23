@@ -1,0 +1,311 @@
+{
+  "generated": "2026-08-23T23:11:30.878Z",
+  "workingTitle": "GTA 6 Leaker Shows No Sign of Slowing Down as Ninth Gameplay Video Hits the Internet",
+  "heat": 45.9,
+  "outletCount": 8,
+  "outlets": [
+    "IGN",
+    "Kotaku",
+    "PC Gamer",
+    "Pure Xbox",
+    "GameSpot",
+    "Eurogamer",
+    "Rock Paper Shotgun",
+    "Push Square"
+  ],
+  "newest": "2026-08-22T22:16:40.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Leaker Shows No Sign of Slowing Down as Ninth Gameplay Video Hits the Internet",
+        "url": "https://www.ign.com/articles/gta-6-leaker-releases-more-gameplay-videos-despite-rockstar-owner-take-twos-microsoft-and-discord-subpoenas",
+        "date": "2026-08-22T22:16:40.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "GTA 6 Leaker Takes Fans To A Strip Club In Latest Gameplay Dump As Netflix Tries To Act Normal About The Whole Thing",
+        "url": "https://kotaku.com/gta-6-leaker-takes-fans-to-a-strip-club-in-seventh-gameplay-dump-2000727032",
+        "date": "2026-08-22T13:55:15.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "The GTA 6 leaker is selling ads now",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/the-gta-6-leaker-is-selling-ads-now/",
+        "date": "2026-08-21T22:16:19.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 U.S. Army Deal Has Already Convinced at Least 20 Soldiers to Reenlist",
+        "url": "https://www.ign.com/articles/gta-6-us-army-deal-has-already-convinced-at-least-20-soldiers-to-reenlist",
+        "date": "2026-08-21T21:40:40.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Xbox CTO Issues Brief Statement On GTA 6 Leaks",
+        "url": "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks",
+        "date": "2026-08-21T21:33:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Leaker Has Not Been Identified Yet – Report",
+        "url": "https://www.gamespot.com/articles/gta-6-leaker-has-not-been-identified-yet-report/",
+        "date": "2026-08-21T19:29:14.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:165000",
+      "value": "$164,730.",
+      "outlets": [
+        "Kotaku",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "It costs a \"donation\" of 400 Monero XMR, which currently converts to, roughly, $164,730.",
+      "urls": [
+        "https://kotaku.com/gta-6-leaker-takes-fans-to-a-strip-club-in-seventh-gameplay-dump-2000727032",
+        "https://www.pcgamer.com/games/grand-theft-auto/the-gta-6-leaker-is-selling-ads-now/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-08-23",
+      "value": "AUGUST 23, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "UPDATE AUGUST 23, 2026: The GTA 6 leaks have stretched into a sixth consecutive day, as the person or group responsible shows no sign of slowing down even in the face of court action from Rockstar parent company Take-Two.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-leaker-releases-more-gameplay-videos-despite-rockstar-owner-take-twos-microsoft-and-discord-subpoenas"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-08-22",
+      "value": "AUGUST 22, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "ORIGINAL STORY AUGUST 22, 2026: The alleged GTA 6 leaker has released two further gameplay videos despite Rockstar owner Take-Two&#x27;s subpoenas requesting identifying information from Microsoft and Discord.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-leaker-releases-more-gameplay-videos-despite-rockstar-owner-take-twos-microsoft-and-discord-subpoenas"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we are working closely with take two and rockstar games to support efforts to protect creative works and intellectual property",
+      "value": "We are working closely with Take-Two and Rockstar Games to support efforts to protect creative works and intellectual property.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Last night, Xbox Chief Technical Officer Scott Van Vliet tweeted to address the situation, saying: \"We are working closely with Take-Two and Rockstar Games to support efforts to protect creative works and intellectual property.\"\n\nDiscord told Variety: “Discord sometimes receives subpoenas related to the Digital Millennium Copyright Act (DMCA).",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-leaker-releases-more-gameplay-videos-despite-rockstar-owner-take-twos-microsoft-and-discord-subpoenas"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-19",
+      "value": "November 19, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "GTA 6 is due out on PlayStation 5 and Xbox Series X and S on November 19, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-leaker-releases-more-gameplay-videos-despite-rockstar-owner-take-twos-microsoft-and-discord-subpoenas"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:32",
+      "value": "$32",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The footage begins with Jason pulling into a gas station in a beat-up sports car and checking the fuel pump, which gives him the option to refuel ($32) or repair the vehicle ($2,429).",
+      "urls": [
+        "https://kotaku.com/gta-6-leaker-takes-fans-to-a-strip-club-in-seventh-gameplay-dump-2000727032"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:2430",
+      "value": "$2,429",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The footage begins with Jason pulling into a gas station in a beat-up sports car and checking the fuel pump, which gives him the option to refuel ($32) or repair the vehicle ($2,429).",
+      "urls": [
+        "https://kotaku.com/gta-6-leaker-takes-fans-to-a-strip-club-in-seventh-gameplay-dump-2000727032"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:8",
+      "value": "Update 8",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "No scams.”\n\nUpdate 8/22/2026, 4:13 p.m.",
+      "urls": [
+        "https://kotaku.com/gta-6-leaker-takes-fans-to-a-strip-club-in-seventh-gameplay-dump-2000727032"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the idea was to have a unique incentives program that connects to what soldiers are interested in",
+      "value": "The idea was to have a unique incentives program that connects to what soldiers are interested in,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The idea was to have a unique incentives program that connects to what soldiers are interested in,\" 3rd Infantry Division Lt.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-us-army-deal-has-already-convinced-at-least-20-soldiers-to-reenlist"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the command team in conjunction with the career counselor wanted to get soldiers excited to reenlist",
+      "value": "The command team, in conjunction with the career counselor, wanted to get soldiers excited to reenlist.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The command team, in conjunction with the career counselor, wanted to get soldiers excited to reenlist.\"\n\nThere are about 130 soldiers eligible to sign up, with the offer specifying that they must commit to a reenlistment period for at least two years to as long as six years.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-us-army-deal-has-already-convinced-at-least-20-soldiers-to-reenlist"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-14",
+      "value": "November 14, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Those interested have from now until November 14, 2026 to sign up, which just so happens to coincide with the November 19 launch of GTA 6.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-us-army-deal-has-already-convinced-at-least-20-soldiers-to-reenlist"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we don t deem microsoft safe better make gtavi a ps exclusive",
+      "value": "We don't deem Microsoft safe, better make GTAVI a PS exclusive",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Waiting for Take Two/Sony to pull a \"We don't deem Microsoft safe, better make GTAVI a PS exclusive\" announcement /s\n\nThe walls are closing in on CyberLeek.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we care deeply about our consumers private data",
+      "value": "we care deeply about our consumers private data",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We get a token quote like \"we care deeply about our consumers private data\" and thats the end of it.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "crimes don t matter if it happens to a company i don t like agree with",
+      "value": "Crimes don't matter if it happens to a company I don't like / agree with",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Crimes don't matter if it happens to a company I don't like / agree with\" is a pretty ***** take.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10000000000",
+      "value": "$10billion",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They will still make $10billion+ on the game.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "suck it up you ll be fine you have insurance",
+      "value": "suck it up you'll be fine, you have insurance.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's like someone stealing your vehicle and then being told, \"suck it up you'll be fine, you have insurance.\" Meanwhile you've worked your ass off for years to be able to afford said vehicle.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/xbox-cto-issues-brief-statement-on-gta-6-leaks"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 16,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "15 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "generated": "2026-08-23T23:11:32.080Z",
+  "workingTitle": "Orbitals – Everything To Know",
+  "heat": 30.1,
+  "outletCount": 3,
+  "outlets": [
+    "GameSpot",
+    "Xbox Wire",
+    "Push Square"
+  ],
+  "newest": "2026-08-23T19:00:00.000Z",
+  "readableCount": 1,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "Onimusha: Way of the Sword May Be Another PS5 Capcom Hit as It Crosses 2 Million Wishlists",
+        "url": "https://www.pushsquare.com/news/2026/08/onimusha-way-of-the-sword-may-be-another-ps5-capcom-hit-as-it-crosses-2-million-wishlists",
+        "date": "2026-08-21T11:15:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Orbitals – Everything To Know",
+        "url": "https://www.gamespot.com/videos/orbitals-everything-to-know/",
+        "date": "2026-08-23T19:00:00.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "Onimusha: Way of the Sword – Everything To Know",
+        "url": "https://www.gamespot.com/videos/onimusha-way-of-the-sword-everything-to-know/",
+        "date": "2026-08-22T19:00:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$70",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I think for $70 it’s a pass for me.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/onimusha-way-of-the-sword-may-be-another-ps5-capcom-hit-as-it-crosses-2-million-wishlists"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

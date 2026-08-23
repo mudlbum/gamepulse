@@ -1,0 +1,182 @@
+{
+  "generated": "2026-08-23T23:11:31.788Z",
+  "workingTitle": "Video: Metal Gear Solid 4 Side-By-Side Graphics Comparison (Switch 2, PS5, PS3)",
+  "heat": 34.1,
+  "outletCount": 5,
+  "outlets": [
+    "Nintendo Life",
+    "IGN",
+    "Destructoid",
+    "Pure Xbox",
+    "Push Square"
+  ],
+  "newest": "2026-08-23T07:00:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Video: Metal Gear Solid 4 Side-By-Side Graphics Comparison (Switch 2, PS5, PS3)",
+        "url": "https://www.nintendolife.com/news/2026/08/video-metal-gear-solid-4-side-by-side-graphics-comparison-switch-2-ps5-ps3",
+        "date": "2026-08-23T07:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Metal Gear Solid 4: The Flawed Masterpiece Kojima Didn't Want to Make",
+        "url": "https://www.ign.com/articles/metal-gear-solid-4-the-flawed-masterpiece-kojima-didnt-want-to-make",
+        "date": "2026-08-22T15:30:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Modern gamers aren’t ready for Metal Gear Solid 4’s return",
+        "url": "https://www.destructoid.com/modern-gamers-arent-ready-for-metal-gear-solid-4s-return/",
+        "date": "2026-08-21T21:56:39.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Metal Gear Solid: Master Collection Vol. 2 Is Getting Great Reviews Ahead Of Release",
+        "url": "https://www.purexbox.com/news/2026/08/metal-gear-solid-master-collection-vol-2-is-getting-great-reviews-ahead-of-release",
+        "date": "2026-08-21T10:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Review: Metal Gear Solid: Master Collection Vol. 2 (PS5) - MGS 4 Is Finally Free from PS3, and It's the Best It's Ever Been",
+        "url": "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2",
+        "date": "2026-08-21T07:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "improvements to resolution shadows and textures",
+      "value": "improvements to resolution, shadows, and textures",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As mentioned in the description of this same video, the main differences apparently include \"improvements to resolution, shadows, and textures\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/video-metal-gear-solid-4-side-by-side-graphics-comparison-switch-2-ps5-ps3"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "which is a step up on the original ps3 release targeting 30fps with",
+      "value": ", which is a step up on the original PS3 release (targeting 30fps with",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Switch 2 version also supposedly offers a \"stable 60fps\", which is a step up on the original PS3 release (targeting 30fps with \"drops as low as 15fps\").",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/video-metal-gear-solid-4-side-by-side-graphics-comparison-switch-2-ps5-ps3"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$49.99,",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you're interested in picking this up, Metal Gear Solid: Master Collection Vol.2 is available to pre-order on the Xbox Store at a price of £44.98 / $49.99, but we don't yet know what the individual game prices will be.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/08/metal-gear-solid-master-collection-vol-2-is-getting-great-reviews-ahead-of-release"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "non canon spin off a lot of people probably haven t even heard of",
+      "value": "non-canon spin-off a lot of people probably haven't even heard of.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"non-canon spin-off a lot of people probably haven't even heard of.\" Put some respect on Ghost Babels name!",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the post mgs 4 games feel like an unnecessary addendum to a franchise that was utterly demonstrably sometimes exhaustively finished with 4",
+      "value": "the post-MGS 4 games feel like an unnecessary addendum to a franchise that was utterly, demonstrably, sometimes exhaustively finished with 4",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"the post-MGS 4 games feel like an unnecessary addendum to a franchise that was utterly, demonstrably, sometimes exhaustively finished with 4\"\n\nWholesale agree.",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but then the digital soundtracks for mgs 4 and peace walker are on the bonus features app rather than the apps for their respective games",
+      "value": "But then the digital soundtracks for MGS 4 and Peace Walker are on the bonus features app rather than the apps for their respective games.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"But then the digital soundtracks for MGS 4 and Peace Walker are on the bonus features app rather than the apps for their respective games.\"\n\nWhy is it a con and why would you want to download the entire game to listen to OST?",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "one downside to this collection is that it isn t presented as one cohesive package but rather three separate launchers",
+      "value": "One downside to this collection is that it isn't presented as one cohesive package, but rather three separate launchers.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I still regularly play it on the ps3 and will still probably continue to do so but really looking forward to this remaster\n\n\"One downside to this collection is that it isn't presented as one cohesive package, but rather three separate launchers.\"\n\nThis is a plus.",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the mgs 4 database a sort of wikipedia for metal gear solid lore that originally launched at the same time as mgs 4 on ps3 is on the mgs 4 app rather than the bonus features app",
+      "value": "the MGS 4 Database — a sort of Wikipedia for Metal Gear Solid lore that originally launched at the same time as MGS 4 on PS3 — is on the MGS 4 app rather than the bonus features app.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"the MGS 4 Database — a sort of Wikipedia for Metal Gear Solid lore that originally launched at the same time as MGS 4 on PS3 — is on the MGS 4 app rather than the bonus features app.\"\n\nIDK.",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/metal-gear-solid-master-collection-vol-2"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 8,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

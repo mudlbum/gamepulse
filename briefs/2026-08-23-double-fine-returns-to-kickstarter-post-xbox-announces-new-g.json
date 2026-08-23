@@ -1,0 +1,274 @@
+{
+  "generated": "2026-08-23T23:11:30.482Z",
+  "workingTitle": "Double Fine Returns To Kickstarter Post-Xbox, Announces New Game Jam",
+  "heat": 47.3,
+  "outletCount": 6,
+  "outlets": [
+    "Nintendo Life",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "IGN",
+    "PC Gamer",
+    "Push Square"
+  ],
+  "newest": "2026-08-23T12:00:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Double Fine Returns To Kickstarter Post-Xbox, Announces New Game Jam",
+        "url": "https://www.nintendolife.com/news/2026/08/double-fine-returns-to-kickstarter-post-xbox-announces-new-game-jam",
+        "date": "2026-08-23T12:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "\"Buying any of our games helps support the studio\": Psychonauts studio Double Fine are the latest former Xbox-owned studio to get the rights to their games back",
+        "url": "https://www.rockpapershotgun.com/buying-any-of-our-games-helps-support-the-studio-psychonauts-studio-double-fine-are-the-latest-former-xbox-owned-studio-to-get-the-rights-to-their-games-back",
+        "date": "2026-08-22T16:18:43.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Double Fine confirms it owns all its games' IP and publishing rights after Xbox split",
+        "url": "https://www.eurogamer.net/double-fine-ip-publishing-rights-xbox-split",
+        "date": "2026-08-22T10:33:31.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Double Fine Owns IP and Publishing Rights for All of Its Games Following Xbox Split, Psychonauts Studio Confirms",
+        "url": "https://www.ign.com/articles/double-fine-owns-ip-and-publishing-rights-for-all-of-its-games-following-xbox-split-psychonauts-studio-confirms",
+        "date": "2026-08-21T22:53:30.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "The newly independent Psychonauts dev now earns all the revenue when you buy games it made under Xbox: 'Buying any of our games helps support the studio'",
+        "url": "https://www.pcgamer.com/gaming-industry/the-newly-independent-psychonauts-dev-now-earns-all-the-revenue-when-you-buy-games-it-made-under-xbox-buying-any-of-our-games-helps-support-the-studio/",
+        "date": "2026-08-21T21:05:18.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Psychonauts Dev Double Fine Will Let You Decide What Game It Makes Next",
+        "url": "https://www.pushsquare.com/news/2026/08/psychonauts-dev-double-fine-will-let-you-decide-what-game-it-makes-next",
+        "date": "2026-08-21T19:45:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "i saw a question there do you guys make the money on games",
+      "value": "I saw a question, there, &#x27;Do you guys make the money on games?&#x27; The transfer of the IP came back to us, and we get the publishing rights back to all our games,",
+      "outlets": [
+        "Eurogamer",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"I saw a question, there, &#x27;Do you guys make the money on games?&#x27; The transfer of the IP came back to us, and we get the publishing rights back to all our games,\" Schafer said.",
+      "urls": [
+        "https://www.eurogamer.net/double-fine-ip-publishing-rights-xbox-split",
+        "https://www.ign.com/articles/double-fine-owns-ip-and-publishing-rights-for-all-of-its-games-following-xbox-split-psychonauts-studio-confirms"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the transfer of the ip came back to us and we get the publishing rights back to all our games",
+      "value": "Everything we got back, the transfer of the IP came back to us, and we got the publishing rights back for all our games,",
+      "outlets": [
+        "Eurogamer",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"Everything we got back, the transfer of the IP came back to us, and we got the publishing rights back for all our games,\" he said.",
+      "urls": [
+        "https://www.eurogamer.net/double-fine-ip-publishing-rights-xbox-split",
+        "https://www.pcgamer.com/gaming-industry/the-newly-independent-psychonauts-dev-now-earns-all-the-revenue-when-you-buy-games-it-made-under-xbox-buying-any-of-our-games-helps-support-the-studio/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we can turn that money into revenue that helps us extend that runway",
+      "value": "We can turn that money into revenue that helps us extend that runway.",
+      "outlets": [
+        "Eurogamer",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We can turn that money into revenue that helps us extend that runway.\"\n\nSchafer also revealed Double Fine's next move will be to revive its Amnesia Fortnight game jam as a Kickstarter campaign, letting backers vote on which prototype becomes the studio's next full project.",
+      "urls": [
+        "https://www.eurogamer.net/double-fine-ip-publishing-rights-xbox-split",
+        "https://www.ign.com/articles/double-fine-owns-ip-and-publishing-rights-for-all-of-its-games-following-xbox-split-psychonauts-studio-confirms"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a size that we can sustain",
+      "value": "a size that we can sustain.",
+      "outlets": [
+        "Eurogamer",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Double Fine itself laid off roughly a quarter of its 90-person team as part of the transition, saying at the time that the cuts were needed to reach \"a size that we can sustain.\"\n\nCompulsion Games, the We Happy Few and South of Midnight studio also cut loose from Xbox in the same restructuring, has similarly confirmed it retains ownership of its IP.",
+      "urls": [
+        "https://www.eurogamer.net/double-fine-ip-publishing-rights-xbox-split",
+        "https://www.pcgamer.com/gaming-industry/the-newly-independent-psychonauts-dev-now-earns-all-the-revenue-when-you-buy-games-it-made-under-xbox-buying-any-of-our-games-helps-support-the-studio/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it just takes a while for it to all process",
+      "value": "it just takes a while for it to all process.",
+      "outlets": [
+        "IGN",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "He went on, explaining, \"it just takes a while for it to all process.\" The headline, though, is that \"when people buy our games, it supports the studio.\"\n\n\"If you&#x27;re curious, buying any of our games helps support the studio,\" he repeated.",
+      "urls": [
+        "https://www.ign.com/articles/double-fine-owns-ip-and-publishing-rights-for-all-of-its-games-following-xbox-split-psychonauts-studio-confirms",
+        "https://www.pcgamer.com/gaming-industry/the-newly-independent-psychonauts-dev-now-earns-all-the-revenue-when-you-buy-games-it-made-under-xbox-buying-any-of-our-games-helps-support-the-studio/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:8300000",
+      "value": "$8.3 million",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Not that Kiln and Keeper are bad games, but as I said before, they're too niche to sustain a company like Double Fine\n\nBe interesting to see how well this does $8.3 million was used for the first part of Broken Age.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/double-fine-returns-to-kickstarter-post-xbox-announces-new-game-jam"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "if you re curious buying any of our games helps support the studio",
+      "value": "If you're curious, buying any of our games helps support the studio,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"If you're curious, buying any of our games helps support the studio,\" he emphasised.",
+      "urls": [
+        "https://www.eurogamer.net/double-fine-ip-publishing-rights-xbox-split"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "runway for their next games",
+      "value": "runway for their next games",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Xbox CEO Asha Sharma promised that Double Fine, as well as South of Midnight developer Compulsion Games, would retain their IP, catalog, and a \"runway for their next games\" when they were listed as part of a grand restructuring plan early last month.",
+      "urls": [
+        "https://www.ign.com/articles/double-fine-owns-ip-and-publishing-rights-for-all-of-its-games-following-xbox-split-psychonauts-studio-confirms"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "are other projects we x27 re working on",
+      "value": "are other projects we&#x27;re working on,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Schafer said during today&#x27;s interview that there \"are other projects we&#x27;re working on,\" though what those are remains to be seen.",
+      "urls": [
+        "https://www.ign.com/articles/double-fine-owns-ip-and-publishing-rights-for-all-of-its-games-following-xbox-split-psychonauts-studio-confirms"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "seem to be just the tip of the iceberg with schafer also promising to drop the price",
+      "value": "seem to be just the tip of the iceberg, with Schafer also promising to drop the price",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"New maps and modes\" seem to be just the tip of the iceberg, with Schafer also promising to drop the price \"because we&#x27;re crazy.\"\n\nDouble Fine&#x27;s transition back into an independent studio was almost immediately followed by layoffs affecting 25% of its team.",
+      "urls": [
+        "https://www.ign.com/articles/double-fine-owns-ip-and-publishing-rights-for-all-of-its-games-following-xbox-split-psychonauts-studio-confirms"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "when people buy our games it helps support the studio",
+      "value": "When people buy our games it helps support the studio.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"When people buy our games it helps support the studio.\"\n\nLater this month, the studio will start a Kickstarter campaign based around its annual Amnesia Fortnight game jam, which is the same game jam where some of its previous games, like Costume Quest and Stacking, were born.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/the-newly-independent-psychonauts-dev-now-earns-all-the-revenue-when-you-buy-games-it-made-under-xbox-buying-any-of-our-games-helps-support-the-studio/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "have as much runway as possible",
+      "value": "have as much runway as possible",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Schafer said the Kickstarter campaign and the revenue from its games will help the studio \"have as much runway as possible\" as it works on pitching other projects to publishers.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/the-newly-independent-psychonauts-dev-now-earns-all-the-revenue-when-you-buy-games-it-made-under-xbox-buying-any-of-our-games-helps-support-the-studio/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "what s next for the studio",
+      "value": "what's next for the studio",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Original Story: Psychonauts team Double Fine is going to share \"what's next for the studio\" today as part of a livestream on the Kinda Funny Games YouTube channel.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/08/psychonauts-dev-double-fine-will-let-you-decide-what-game-it-makes-next"
+      ]
+    }
+  ],
+  "factCount": 5,
+  "evidenceCount": 13,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "8 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

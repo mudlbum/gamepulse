@@ -1,10 +1,40 @@
 {
-  "decided": "2026-08-22T23:11:21.308Z",
+  "decided": "2026-08-23T23:11:32.135Z",
   "publish": true,
-  "reason": "selected on score 41.3",
-  "brief": "2026-08-22-buying-any-of-our-games-helps-support-the-studio-psychonauts.json",
-  "title": "\"Buying any of our games helps support the studio\": Psychonauts studio Double Fine are the latest former Xbox-owned studio to get the rights to their games back",
+  "reason": "selected on score 40.2",
+  "brief": "2026-08-23-double-fine-returns-to-kickstarter-post-xbox-announces-new-g.json",
+  "title": "Double Fine Returns To Kickstarter Post-Xbox, Announces New Game Jam",
   "considered": [
+    {
+      "file": "2026-08-23-video-metal-gear-solid-4-side-by-side-graphics-comparison-sw.json",
+      "title": "Video: Metal Gear Solid 4 Side-By-Side Graphics Comparison (Switch 2, PS5, PS3)",
+      "pass": false,
+      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-08-23-orbitals-everything-to-know.json",
+      "title": "Orbitals – Everything To Know",
+      "pass": false,
+      "reason": "only 1/4 source bodies were readable — nothing to fact-check against"
+    },
+    {
+      "file": "2026-08-23-modern-warfare-4-beta-sheds-half-its-player-base-after-just-.json",
+      "title": "Modern Warfare 4 beta sheds half its player base after just a day",
+      "pass": false,
+      "reason": "0 of 17 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-08-23-gta-6-leaker-shows-no-sign-of-slowing-down-as-ninth-gameplay.json",
+      "title": "GTA 6 Leaker Shows No Sign of Slowing Down as Ninth Gameplay Video Hits the Internet",
+      "pass": false,
+      "reason": "1 of 16 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-08-23-double-fine-returns-to-kickstarter-post-xbox-announces-new-g.json",
+      "title": "Double Fine Returns To Kickstarter Post-Xbox, Announces New Game Jam",
+      "pass": true,
+      "reason": "5/13 claims corroborated · 6 outlets · secondary only · 11h old"
+    },
     {
       "file": "2026-08-22-the-blood-of-dawnwalkers-console-modes-top-out-at-40fps-with.json",
       "title": "The Blood of Dawnwalker's console modes top out at 40fps, with no 60fps option at launch",
@@ -22,36 +52,6 @@
       "title": "Here's What Call Of Duty: Modern Warfare 4 Looks Like On Xbox Series X|S",
       "pass": false,
       "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-08-22-gta-6-leaker-releases-more-gameplay-videos-despite-rockstar-.json",
-      "title": "GTA 6 Leaker Releases More Gameplay Videos Despite Rockstar Owner Take-Two's Microsoft and Discord Subpoenas",
-      "pass": false,
-      "reason": "1 of 15 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-08-22-buying-any-of-our-games-helps-support-the-studio-psychonauts.json",
-      "title": "\"Buying any of our games helps support the studio\": Psychonauts studio Double Fine are the latest former Xbox-owned studio to get the rights to their games back",
-      "pass": true,
-      "reason": "5/12 claims corroborated · 6 outlets · secondary only · 7h old"
-    },
-    {
-      "file": "2026-08-21-the-gta-6-leaker-is-selling-ads-now.json",
-      "title": "The GTA 6 leaker is selling ads now",
-      "pass": false,
-      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-08-21-mortal-shell-2s-latest-update-alleviates-one-of-the-games-bi.json",
-      "title": "Mortal Shell 2’s Latest Update Alleviates One Of The Game’s Biggest Headaches",
-      "pass": false,
-      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-08-21-modern-gamers-arent-ready-for-metal-gear-solid-4s-return.json",
-      "title": "Modern gamers aren’t ready for Metal Gear Solid 4’s return",
-      "pass": false,
-      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }
