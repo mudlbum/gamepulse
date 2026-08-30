@@ -1,0 +1,263 @@
+{
+  "generated": "2026-08-30T00:54:38.114Z",
+  "workingTitle": "GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says",
+  "heat": 112.4,
+  "outletCount": 9,
+  "outlets": [
+    "IGN",
+    "Kotaku",
+    "Destructoid",
+    "PC Gamer",
+    "Eurogamer",
+    "Push Square",
+    "Rock Paper Shotgun",
+    "Pure Xbox",
+    "PCGamesN"
+  ],
+  "newest": "2026-08-29T22:16:08.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says",
+        "url": "https://www.ign.com/articles/gta-6-will-have-no-microtransactions-or-generative-ai-at-launch-rockstar-says",
+        "date": "2026-08-29T22:16:08.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Rockstar Is Using One Of Its Old Tricks To Create GTA 6 TV Shows",
+        "url": "https://kotaku.com/rockstar-is-using-one-of-its-old-tricks-to-create-gta-6-tv-shows-2000729503",
+        "date": "2026-08-28T23:00:13.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "My favorite part of GTA 6’s reveal has been seeing proud Rockstar Games devs finally able to breathe a bit",
+        "url": "https://www.destructoid.com/favorite-part-gta6-reveal-proud-rockstar-devs-breathe/",
+        "date": "2026-08-28T20:42:14.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Kick Streamer Neon Responds After Rockstar Seemingly Includes a Reference to Him in GTA 6 Netflix Showcase",
+        "url": "https://www.ign.com/articles/kick-streamer-neon-responds-after-rockstar-seemingly-includes-a-reference-to-him-in-gta-6-netflix-showcase",
+        "date": "2026-08-28T19:42:32.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Rockstar Approached Netflix for Exclusive GTA 6 Extended Look, Not the Other Way Around",
+        "url": "https://www.ign.com/articles/rockstar-approached-netflix-for-exclusive-gta-6-extended-look-not-the-other-way-around",
+        "date": "2026-08-28T19:40:15.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Rockstar has to 'be careful' about what GTA 6 picks to satirize because 'very specific political issues or memes will date fast'",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-to-be-careful-about-what-gta-6-picks-to-satirize-because-very-specific-political-issues-or-memes-will-date-fast/",
+        "date": "2026-08-28T15:27:18.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "no monetizations in this game",
+      "value": "no monetizations in this game.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He went on, saying, \"no monetizations in this game.\"\n\nThe site&#x27;s Greg Miller immediately followed that topic, saying he asked Rockstar \"point-blank\" if there is generative AI in GTA 6.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-will-have-no-microtransactions-or-generative-ai-at-launch-rockstar-says"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$99.99",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Priced at $99.99 – a $20 increase from the $79.99 standard edition – this version of the game grants access to a host of exclusive content, including cosmetic packs, cars, guns, and even some shops, such as the Electric Fang tattoo parlor and Stock 305 clothing store.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-will-have-no-microtransactions-or-generative-ai-at-launch-rockstar-says"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Priced at $99.99 – a $20 increase from the $79.99 standard edition – this version of the game grants access to a host of exclusive content, including cosmetic packs, cars, guns, and even some shops, such as the Electric Fang tattoo parlor and Stock 305 clothing store.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-will-have-no-microtransactions-or-generative-ai-at-launch-rockstar-says"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:80",
+      "value": "$79.99",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Priced at $99.99 – a $20 increase from the $79.99 standard edition – this version of the game grants access to a host of exclusive content, including cosmetic packs, cars, guns, and even some shops, such as the Electric Fang tattoo parlor and Stock 305 clothing store.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-will-have-no-microtransactions-or-generative-ai-at-launch-rockstar-says"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "ultimate edition bonuses are threaded across all aspects of jason and lucia x27 s story with new items uncovered behind each chapter",
+      "value": "Ultimate Edition bonuses are threaded across all aspects of Jason and Lucia&#x27;s story, with new items uncovered behind each chapter,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Ultimate Edition bonuses are threaded across all aspects of Jason and Lucia&#x27;s story, with new items uncovered behind each chapter,\" the page added.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-will-have-no-microtransactions-or-generative-ai-at-launch-rockstar-says"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-19",
+      "value": "November 19, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Other than that, it sounds like players shouldn&#x27;t expect any other microtransaction tactics – or generative AI – when GTA 6 launches for PS5 and Xbox Series X/S November 19, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-will-have-no-microtransactions-or-generative-ai-at-launch-rockstar-says"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we wanted to go to netflix",
+      "value": "We wanted to go to Netflix.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The quote is: \"We wanted to go to Netflix.\"\n\nIt&#x27;s a response that may generate more questions than answers.",
+      "urls": [
+        "https://www.ign.com/articles/rockstar-approached-netflix-for-exclusive-gta-6-extended-look-not-the-other-way-around"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this is unbelievably scummy",
+      "value": "This is unbelievably scummy,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This is unbelievably scummy,\" said one fan on X at the time.",
+      "urls": [
+        "https://www.ign.com/articles/rockstar-approached-netflix-for-exclusive-gta-6-extended-look-not-the-other-way-around"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "an example of rockstar trying new things",
+      "value": "an example of Rockstar trying new things",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He went as far as to say that the plan was \"an example of Rockstar trying new things\" as marketing for GTA 6 truly kicked off.",
+      "urls": [
+        "https://www.ign.com/articles/rockstar-approached-netflix-for-exclusive-gta-6-extended-look-not-the-other-way-around"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i think when the title is launched on netflix if you watch it you x27 ll understand more",
+      "value": "I think when the title is launched on Netflix, if you watch it, you&#x27;ll understand more.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He also told Bloomberg, \"I think when the title is launched on Netflix, if you watch it, you&#x27;ll understand more.\"\n\n\"If you&#x27;re not a Netflix subscriber, you definitely should be one,\" he told IGN at the time.",
+      "urls": [
+        "https://www.ign.com/articles/rockstar-approached-netflix-for-exclusive-gta-6-extended-look-not-the-other-way-around"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "and as for the trailer itself it x27 s coming soon enough that i x27 ll let you arrive at your own conclusion",
+      "value": "And as for the trailer itself, it&#x27;s coming soon enough that I&#x27;ll let you arrive at your own conclusion.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"And as for the trailer itself, it&#x27;s coming soon enough that I&#x27;ll let you arrive at your own conclusion.\"\n\nWell, the trailer is here, and while it certainly managed to impress, it&#x27;s still not clear why Rockstar felt the need to bring GTA 6: Extended Look to Netflix, specifically.",
+      "urls": [
+        "https://www.ign.com/articles/rockstar-approached-netflix-for-exclusive-gta-6-extended-look-not-the-other-way-around"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "that s a question a lot of people ask how do you deal with satire in today s world",
+      "value": "That's a question a lot of people ask: how do you deal with satire in today's world?",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"That's a question a lot of people ask: how do you deal with satire in today's world?\" Rockstar North's co-studio head, Ron Nelson, tells IGN.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-to-be-careful-about-what-gta-6-picks-to-satirize-because-very-specific-political-issues-or-memes-will-date-fast/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we have to be careful that what we re choosing to satirize is not going to feel dated in a weird way",
+      "value": "We have to be careful that what we're choosing to satirize is not going to feel dated in a weird way,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We have to be careful that what we're choosing to satirize is not going to feel dated in a weird way,\" Nelson explains.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/rockstar-has-to-be-careful-about-what-gta-6-picks-to-satirize-because-very-specific-political-issues-or-memes-will-date-fast/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 13,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

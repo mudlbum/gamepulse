@@ -1,0 +1,197 @@
+{
+  "generated": "2026-08-30T00:54:39.260Z",
+  "workingTitle": "Elden Ring players are hard at work putting the new Tarnished Edition DLC's gear to the test",
+  "heat": 39.3,
+  "outletCount": 4,
+  "outlets": [
+    "PC Gamer",
+    "Destructoid",
+    "Nintendo Life",
+    "PCGamesN"
+  ],
+  "newest": "2026-08-29T20:17:04.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [
+    "ELDEN RING"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Elden Ring players are hard at work putting the new Tarnished Edition DLC's gear to the test",
+        "url": "https://www.pcgamer.com/games/rpg/elden-ring-players-are-hard-at-work-putting-the-new-tarnished-edition-dlcs-new-gear-to-the-test/",
+        "date": "2026-08-29T20:17:04.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to get Leontiel’s Greatsword in Elden Ring",
+        "url": "https://www.destructoid.com/how-to-get-leontiels-greatsword-in-elden-ring/",
+        "date": "2026-08-28T17:56:39.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Move over, Milady: Elden Ring’s Tarnished Pack brings the new king of style",
+        "url": "https://www.destructoid.com/move-over-milady-elden-rings-tarnished-pack-brings-the-new-king-of-style/",
+        "date": "2026-08-28T16:36:16.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Guide: Elden Ring Tarnished Edition New Content Locations: All New Weapons, Armour Sets, NPC Invasions & Horse Armour",
+        "url": "https://www.nintendolife.com/guides/elden-ring-tarnished-edition-weapons-armor-npc-invasions-steed-attire-content",
+        "date": "2026-08-28T15:51:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "New Elden Ring patch notes bring parry improvements and perfume buffs ahead of the Tarnished Pack DLC",
+        "url": "https://www.pcgamesn.com/elden-ring/patch-notes-1-17-tarnished-pack-dlc",
+        "date": "2026-08-27T11:42:18.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:5",
+      "value": "$5.",
+      "outlets": [
+        "PC Gamer",
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "You also get three Torrent skins scattered throughout the Lands Between, which is kind of a bargain for the meager price tag of $5.",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/elden-ring-players-are-hard-at-work-putting-the-new-tarnished-edition-dlcs-new-gear-to-the-test/",
+        "https://www.destructoid.com/move-over-milady-elden-rings-tarnished-pack-brings-the-new-king-of-style/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "there s only one boss that truly deserves the matador treatment",
+      "value": "There's Only One Boss that truly deserves the Matador Treatment",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Reddit user SaxSlaveGael put it to work on the one bull-like boss in the game, titling their post, \"There's Only One Boss that truly deserves the Matador Treatment\".",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/elden-ring-players-are-hard-at-work-putting-the-new-tarnished-edition-dlcs-new-gear-to-the-test/"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:1.14",
+      "value": "Patch 1.14",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The new Ash of War seemingly works with Rellana’s Cameo, which got a stealthy but major buff with Patch 1.14 almost two years ago.",
+      "urls": [
+        "https://www.destructoid.com/move-over-milady-elden-rings-tarnished-pack-brings-the-new-king-of-style/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:80",
+      "value": "$80.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That’s a nice perk\n\nCool but no physical no buy, especially not for $80.",
+      "urls": [
+        "https://www.nintendolife.com/guides/elden-ring-tarnished-edition-weapons-armor-npc-invasions-steed-attire-content"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "changed certain items found in the field or obtained by defeating certain powerful enemies in the realm of shadow to higher tier items or other treasures",
+      "value": "changed certain items found in the field or obtained by defeating certain powerful enemies in the Realm of Shadow to higher-tier items or other treasures.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "To start with, the developer has \"changed certain items found in the field or obtained by defeating certain powerful enemies in the Realm of Shadow to higher-tier items or other treasures.\" This won't affect stuff you've already picked up, but you'll want to keep it in mind when next exploring the Elden Ring DLC, Shadow of the Erdtree.",
+      "urls": [
+        "https://www.pcgamesn.com/elden-ring/patch-notes-1-17-tarnished-pack-dlc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "improved parry performance",
+      "value": "improved parry performance",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "FromSoftware promises the frustratingly vague \"improved parry performance\" for the skills Parry, Storm Wall, and Thops's Barrier.",
+      "urls": [
+        "https://www.pcgamesn.com/elden-ring/patch-notes-1-17-tarnished-pack-dlc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "does not explode immediately upon striking terrain such as the ground or a wall",
+      "value": "does not explode immediately upon striking terrain such as the ground or a wall.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "has been expanded, and Gravitational Missile projectile now \"does not explode immediately upon striking terrain such as the ground or a wall.\"\n\nA wide range of Greatshields and Towershields have been buffed, with increased guard boost on all and reduced weight for some.",
+      "urls": [
+        "https://www.pcgamesn.com/elden-ring/patch-notes-1-17-tarnished-pack-dlc"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:1.17",
+      "value": "patch 1.17",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Elden Ring patch 1.17 is live now, while the Tarnished Pack DLC will be released on Thursday August 27 at 3pm PT / 6pm ET / 11pm BST (Friday August 28 at midnight CEST).",
+      "urls": [
+        "https://www.pcgamesn.com/elden-ring/patch-notes-1-17-tarnished-pack-dlc"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 8,
+  "ourData": [
+    {
+      "game": "ELDEN RING",
+      "concurrent": 33760,
+      "rank": 39,
+      "change24h": -8.6,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "7 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
