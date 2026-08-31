@@ -1,0 +1,262 @@
+{
+  "generated": "2026-08-31T00:59:47.541Z",
+  "workingTitle": "Creative Assembly plans ’10 or so years’ of Total War: Warhammer 40K",
+  "heat": 40.9,
+  "outletCount": 4,
+  "outlets": [
+    "Destructoid",
+    "PC Gamer",
+    "Eurogamer",
+    "PCGamesN"
+  ],
+  "newest": "2026-08-30T20:53:22.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Total War: WARHAMMER III",
+    "ARK: Survival Ascended"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Creative Assembly plans ’10 or so years’ of Total War: Warhammer 40K",
+        "url": "https://www.destructoid.com/creative-assembly-plans-10-or-so-years-of-total-war-warhammer-40k/",
+        "date": "2026-08-30T20:53:22.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Total War: Warhammer 40,000 wins best PC game at Gamescom",
+        "url": "https://www.pcgamer.com/games/strategy/total-war-warhammer-40-000-wins-best-pc-game-at-gamescom/",
+        "date": "2026-08-30T18:57:09.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "I played just an hour of Total War: Warhammer 40,000 and it was the highlight of my year",
+        "url": "https://www.pcgamer.com/games/strategy/i-played-just-one-hour-of-total-war-warhammer-40-000-and-it-was-the-highlight-of-my-year/",
+        "date": "2026-08-29T13:34:03.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Total War: Warhammer 40,000 is aiming to be the \"definitive\" game for the setting, and I think it might be exactly that",
+        "url": "https://www.eurogamer.net/total-war-warhammer-40000-impressions-gamescom",
+        "date": "2026-08-29T09:01:15.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Total War Warhammer 3's next DLC is packed with some of its most disgusting units yet",
+        "url": "https://www.pcgamesn.com/total-war-warhammer-3/lords-of-the-end-times-unit-roster",
+        "date": "2026-08-28T16:38:48.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "The Total War: Warhammer 40k campaign is \"the grimdark cherry\" on top of a \"terrifying cake of death\"",
+        "url": "https://www.pcgamesn.com/total-war-warhammer-40k/gamescom-cake",
+        "date": "2026-08-28T10:56:36.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "it s immediately obvious how special total war 40k is i don t think a tutorial has ever made me giddy before",
+      "value": "It's immediately obvious how special Total War 40k is—I don't think a tutorial has ever made me giddy before,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It's immediately obvious how special Total War 40k is—I don't think a tutorial has ever made me giddy before,\" he wrote.",
+      "urls": [
+        "https://www.pcgamer.com/games/strategy/total-war-warhammer-40-000-wins-best-pc-game-at-gamescom/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "by both an expert jury of gaming professionals and the community",
+      "value": "by both an expert jury of gaming professionals and the community.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to Gamescom's website, the winners are chosen \"by both an expert jury of gaming professionals and the community.\" In other words, it was a favorite among both professional nerds and the pro bono sort.",
+      "urls": [
+        "https://www.pcgamer.com/games/strategy/total-war-warhammer-40-000-wins-best-pc-game-at-gamescom/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "magical powerhouse wrapped in heavy armor and with decent melee stats",
+      "value": "magical powerhouse wrapped in heavy armor and with decent melee stats,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He's a \"magical powerhouse wrapped in heavy armor and with decent melee stats,\" and his arrival is accompanied by that of the Undead Legion.",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-warhammer-3/lords-of-the-end-times-unit-roster"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "harassing units who lack the means to slay them",
+      "value": "harassing units who lack the means to slay them.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "On his side you'll find Spirit Hosts, swarms of souls without physical form who are great at \"harassing units who lack the means to slay them.\" For something more corporeal, the Morghast Harbingers are flying heavy infantry with dual cleavers, and the Morghast Archai are similar, but use halberds.",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-warhammer-3/lords-of-the-end-times-unit-roster"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "quite possibly the strongest fighter within the vampires",
+      "value": "quite possibly the strongest fighter within the vampires,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Among the Legendary Heroes we find Walach Harkon, \"quite possibly the strongest fighter within the vampires,\" and elite master necromancer Dieter Helsnicht, who will prove devastating if you can keep his fragile frame out of trouble.",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-warhammer-3/lords-of-the-end-times-unit-roster"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a jack of all trades master of being gross",
+      "value": "a jack of all trades, master of being gross,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "CA describes them as \"a jack of all trades, master of being gross,\" and they're represented in TWW3 as \"an all-purpose, costly spellcaster with an incredible constitution.\" They can counter just about any infantry you care to think of, and are joined by a whole collection of freakish followers, such as the Flayerkin, marauders who replaced their arms with swords.",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-warhammer-3/lords-of-the-end-times-unit-roster"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the most expendable unit that was ever expended",
+      "value": "the most expendable unit that was ever expended.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Joining him are the Pusbags, which CA calls \"the most expendable unit that was ever expended.\" They're plentiful in number and riddled with disease that makes them extremely prone to dying - but that's the idea, as doing so causes them to explode in a contaminating mess of… well, best not to think about it.",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-warhammer-3/lords-of-the-end-times-unit-roster"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:8.99",
+      "value": "$8.99",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You can buy each of its four Legendary Lords separately for $8.99 / £7.49 apiece, or get them all in a bundle at a 15% discount, paying $30.56 / £25.48.",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-warhammer-3/lords-of-the-end-times-unit-roster"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30.6",
+      "value": "$30.56",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You can buy each of its four Legendary Lords separately for $8.99 / £7.49 apiece, or get them all in a bundle at a 15% discount, paying $30.56 / £25.48.",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-warhammer-3/lords-of-the-end-times-unit-roster"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "at the moment we re going to be focusing on armageddon and that s going to be the sort of grimdark cherry at the end of this you know terrifying cake of death",
+      "value": "At the moment, we're going to be focusing on Armageddon, and that's going to be the sort of grimdark cherry at the end of this, you know, terrifying cake of death.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"At the moment, we're going to be focusing on Armageddon, and that's going to be the sort of grimdark cherry at the end of this, you know, terrifying cake of death.\" Petry sees the campaign as the ideal scope for tackling the sometimes unwieldy depth of the 40k universe.",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-warhammer-40k/gamescom-cake"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to be able to let you have your own experience and weave your own sort of emergent narrative through these bigger arcing moments in the galaxy and it kind of sets the stage for us to build on some of the great successes that we had with warhammer",
+      "value": "To be able to let you have your own experience and weave your own sort of emergent narrative through these bigger arcing moments in the galaxy, and it kind of sets the stage for us to build on some of the great successes that we had with Warhammer.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"To be able to let you have your own experience and weave your own sort of emergent narrative through these bigger arcing moments in the galaxy, and it kind of sets the stage for us to build on some of the great successes that we had with Warhammer.\" Hinting that there may be an Immortal Empires-esque sandbox equivalent for Warhammer 40k at some point in the future.",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-warhammer-40k/gamescom-cake"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there s so much there it s representing that in the right way making sure that it comes through in the game and that those elements are coming to life",
+      "value": "There's so much there; it's representing that in the right way, making sure that it comes through in the game and that those elements are coming to life.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"There's so much there; it's representing that in the right way, making sure that it comes through in the game and that those elements are coming to life.\"\n\nIn terms of additions, Petry eases some of the fears around new factions: \"Where are the Necrons?",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-warhammer-40k/gamescom-cake"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 12,
+  "ourData": [
+    {
+      "game": "Total War: WARHAMMER III",
+      "concurrent": 26746,
+      "rank": 45,
+      "change24h": -27.1,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    },
+    {
+      "game": "ARK: Survival Ascended",
+      "concurrent": 24558,
+      "rank": 50,
+      "change24h": -3,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

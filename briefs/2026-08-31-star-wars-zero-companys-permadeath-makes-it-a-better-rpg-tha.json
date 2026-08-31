@@ -1,0 +1,91 @@
+{
+  "generated": "2026-08-31T00:59:47.647Z",
+  "workingTitle": "Star Wars Zero Company's permadeath makes it a better RPG than most RPGs, even though it's not really an RPG",
+  "heat": 39,
+  "outletCount": 4,
+  "outlets": [
+    "PC Gamer",
+    "Destructoid",
+    "GameSpot",
+    "Eurogamer"
+  ],
+  "newest": "2026-08-30T19:14:12.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Star Wars Zero Company's permadeath makes it a better RPG than most RPGs, even though it's not really an RPG",
+        "url": "https://www.pcgamer.com/games/rpg/star-wars-zero-companys-permadeath-makes-it-a-better-rpg-than-most-rpgs-even-though-its-not-really-an-rpg/",
+        "date": "2026-08-30T19:14:12.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to get and use Intel in Star Wars Zero Company",
+        "url": "https://www.destructoid.com/how-to-get-and-use-intel-in-star-wars-zero-company/",
+        "date": "2026-08-30T13:33:39.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "PSA: Swap the radial ability menu in Star Wars Zero Company for more of a trad XCOM-style experience",
+        "url": "https://www.pcgamer.com/games/strategy/psa-swap-the-radial-ability-menu-in-star-wars-zero-company-for-more-of-a-trad-xcom-style-experience/",
+        "date": "2026-08-30T00:06:05.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Best Talents for all Specializations in Star Wars Zero Company",
+        "url": "https://www.destructoid.com/best-talents-for-all-specializations-in-star-wars-zero-company/",
+        "date": "2026-08-29T19:26:57.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Star Wars Zero Company understands that Star Wars games should feel less like the movies and more like the toys",
+        "url": "https://www.eurogamer.net/star-wars-zero-company-impressions-toys-movies",
+        "date": "2026-08-28T09:06:26.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Star Wars Zero Company Actually Made Me Care About The Clone Wars Era",
+        "url": "https://www.gamespot.com/articles/star-wars-zero-company-actually-made-me-care-about-the-clone-wars-era/",
+        "date": "2026-08-28T18:14:15.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "iquest por qu eacute no los dos",
+      "value": "&iquest;Por qu&eacute; no los dos?",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There's also a Hybrid option if you're indecisive and feeling a bit \"&iquest;Por qu&eacute; no los dos?\"\n\nI'm still in the early hours of Star Wars Zero Company, but playing with a mouse and keyboard, Linear Ability Selection just feels better.",
+      "urls": [
+        "https://www.pcgamer.com/games/strategy/psa-swap-the-radial-ability-menu-in-star-wars-zero-company-for-more-of-a-trad-xcom-style-experience/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

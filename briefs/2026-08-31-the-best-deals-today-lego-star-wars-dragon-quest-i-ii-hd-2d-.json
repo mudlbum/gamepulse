@@ -1,0 +1,475 @@
+{
+  "generated": "2026-08-31T00:59:48.779Z",
+  "workingTitle": "The Best Deals Today: LEGO Star Wars, Dragon Quest I & II HD-2D Remake, Jurassic Park 4K Collection, and More",
+  "heat": 26.7,
+  "outletCount": 2,
+  "outlets": [
+    "IGN",
+    "Nintendo Life"
+  ],
+  "newest": "2026-08-30T21:23:16.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "ARK: Survival Ascended",
+    "Nintendo Switch 2"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "The Best Deals Today: LEGO Star Wars, Dragon Quest I & II HD-2D Remake, Jurassic Park 4K Collection, and More",
+        "url": "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "date": "2026-08-30T21:23:16.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "The Best Deals Today: Tomodachi Life: Living the Dream, Jurassic Park 4K Collection, Nintendo Switch 2, and More",
+        "url": "https://www.ign.com/articles/best-deals-for-august-29-2026",
+        "date": "2026-08-29T21:29:47.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Guide: Best Open World Games On Nintendo Switch 1 & 2",
+        "url": "https://www.nintendolife.com/guides/best-open-world-games-on-nintendo-switch-1-and-2",
+        "date": "2026-08-29T15:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "IGN's Top-Reviewed Nintendo Switch 2 Games",
+        "url": "https://www.ign.com/articles/best-reviewed-nintendo-switch-2-games",
+        "date": "2026-08-29T13:15:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Rayman Legends Retold Wins Best Switch 2 Game Award At Gamescom 2026",
+        "url": "https://www.nintendolife.com/news/2026/08/rayman-legends-retold-wins-best-switch-2-game-award-at-gamescom-2026",
+        "date": "2026-08-29T08:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Guide: 84 Switch 1 & 2 Games To Check Out In Nintendo's Blockbuster eShop Sale (US)",
+        "url": "https://www.nintendolife.com/guides/84-switch-1-and-2-games-to-check-out-in-nintendos-blockbuster-eshop-sale-us",
+        "date": "2026-08-28T13:00:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$39.99,",
+      "outlets": [
+        "IGN",
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Amazon has discounted copies of Dragon Quest I & II HD-2D Remake down to $39.99, which is one of the best prices we&#x27;ve seen since release.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.nintendolife.com/guides/84-switch-1-and-2-games-to-check-out-in-nintendos-blockbuster-eshop-sale-us"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:60",
+      "value": "$59.99.",
+      "outlets": [
+        "IGN",
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "In our 9/10 review, we wrote, \"Nioh 3 delivers best-in-class combat that revitalizes the established formula with a fantastic split between Samurai and Ninja styles, as well as a triumphant move to an open-world structure.\"\n\nWoot has physical copies of Breath of the Wild - Switch 2 Edition on sale today for $59.99.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026",
+        "https://www.nintendolife.com/news/2026/08/rayman-legends-retold-wins-best-switch-2-game-award-at-gamescom-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$99.99,",
+      "outlets": [
+        "IGN",
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "While this LEGO set normally costs $99.99, you can pick this up today for $76.99 at Amazon.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026",
+        "https://www.nintendolife.com/guides/84-switch-1-and-2-games-to-check-out-in-nintendos-blockbuster-eshop-sale-us"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$69.99.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Jurassic series is home to some of the most iconic movies ever, and today, you can score this seven-film collection on 4K Blu-ray for $69.99.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:35",
+      "value": "$34.99",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In our 9/10 review, we wrote, \"Dragon Quest I & II HD-2D Remake beautifully concludes this trilogy, recapturing the retro magic of the originals while giving them a modern facelift.\"\n\nFinal Fantasy VII Rebirth for Nintendo Switch 2 is on sale today for $34.99 at Amazon.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "dragon quest i ii hd 2d remake beautifully concludes this trilogy recapturing the retro magic of the originals while giving them a modern facelift",
+      "value": "Dragon Quest I & II HD-2D Remake beautifully concludes this trilogy, recapturing the retro magic of the originals while giving them a modern facelift.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In our 9/10 review, we wrote, \"Dragon Quest I & II HD-2D Remake beautifully concludes this trilogy, recapturing the retro magic of the originals while giving them a modern facelift.\"\n\nFinal Fantasy VII Rebirth for Nintendo Switch 2 is on sale today for $34.99 at Amazon.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:54",
+      "value": "$53.99.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In our 7/10 review, we wrote, \"Tomodachi Life: Living the Dream is a deeply funny and equally personal civilization simulator fueled by your creativity, but ridiculous sharing restrictions put a dark cloud over its otherwise delightful paradise.\"\n\nTarget has Resident Evil Requiem on sale this weekend for $53.99.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "tomodachi life living the dream is a deeply funny and equally personal civilization simulator fueled by your creativity but ridiculous sharing restrictions put a dark cloud over its otherwise delightful paradise",
+      "value": "Tomodachi Life: Living the Dream is a deeply funny and equally personal civilization simulator fueled by your creativity, but ridiculous sharing restrictions put a dark cloud over its otherwise delightful paradise.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In our 7/10 review, we wrote, \"Tomodachi Life: Living the Dream is a deeply funny and equally personal civilization simulator fueled by your creativity, but ridiculous sharing restrictions put a dark cloud over its otherwise delightful paradise.\"\n\nTarget has Resident Evil Requiem on sale this weekend for $53.99.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400",
+      "value": "$399.99.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Nintendo Switch 2 is set to increase in price in just a few weeks, but today, you can save on a Grade A Refurbished unit at Woot and take home a console for $399.99.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "been inspected and guaranteed to have minimal cosmetic damage has successfully passed a full diagnostic test which ensures like new functionality removal of any prior user x27 s personal information",
+      "value": "been inspected and guaranteed to have minimal cosmetic damage & has successfully passed a full diagnostic test which ensures like-new functionality & removal of any prior-user&#x27;s personal information.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to Woot, these units have \"been inspected and guaranteed to have minimal cosmetic damage & has successfully passed a full diagnostic test which ensures like-new functionality & removal of any prior-user&#x27;s personal information.\" All of the original accessories are included as well, so you won&#x27;t need to pick up a Dock or anything like that.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:56",
+      "value": "$55.99.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you&#x27;re a fan of LEGO Star Wars, this LEGO Star Wars 25th Anniversary set is a must-add to any collection at $55.99.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$29.99",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You can score Final Fantasy VII Remake Intergrade for $29.99 on the Nintendo Switch 2.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "nioh 3 delivers best in class combat that revitalizes the established formula with a fantastic split between samurai and ninja styles as well as a triumphant move to an open world structure",
+      "value": "Nioh 3 delivers best-in-class combat that revitalizes the established formula with a fantastic split between Samurai and Ninja styles, as well as a triumphant move to an open-world structure.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In our 9/10 review, we wrote, \"Nioh 3 delivers best-in-class combat that revitalizes the established formula with a fantastic split between Samurai and Ninja styles, as well as a triumphant move to an open-world structure.\"\n\nWoot has physical copies of Breath of the Wild - Switch 2 Edition on sale today for $59.99.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "if you re yet to try this masterpiece then this is the best place to jump in and if you ve already got a copy of the original then the performance upgrades alone make the upgrade price worth it",
+      "value": "If you’re yet to try this masterpiece then this is the best place to jump in, and if you’ve already got a copy of the original then the performance upgrades alone make the upgrade price worth it.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In our review of the Switch 2 Edition, we wrote, \"If you’re yet to try this masterpiece then this is the best place to jump in, and if you’ve already got a copy of the original then the performance upgrades alone make the upgrade price worth it.\" For those who care about owning games physically, this is a must-add for any Switch 2 collection.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:77",
+      "value": "$76.99",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While this LEGO set normally costs $99.99, you can pick this up today for $76.99 at Amazon.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-30-2026",
+        "https://www.ign.com/articles/best-deals-for-august-29-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$19.99",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Amazon has Civilization VII on sale for $19.99 this weekend, saving you $20 off a physical copy.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-august-29-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Wouldn't mind trying out Starlink when it goes on sale for $10-$15 again.",
+      "urls": [
+        "https://www.nintendolife.com/guides/best-open-world-games-on-nintendo-switch-1-and-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "game worlds with interconnected sandbox like areas",
+      "value": "game worlds with interconnected sandbox-like areas.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Incarna Those would be more like \"game worlds with interconnected sandbox-like areas.\" XB 1 is very linear in spots (just plugged in my 1st 8 hours of it yesterday, btw), XB2 is as well connected by pathways to big open spaces that can be gatelocked.",
+      "urls": [
+        "https://www.nintendolife.com/guides/best-open-world-games-on-nintendo-switch-1-and-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "tristan ogilvie from ign x27 s review",
+      "value": "- Tristan Ogilvie\n\nFrom IGN&#x27;s Review:",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It’s admittedly a fairly modest upgrade in terms of actual new features or content, but a welcome one, and it makes this undoubtedly the best way to play a sprawling epic that still stands tall as one of the greatest achievements in Nintendo’s iconic adventure series.\" - Tristan Ogilvie\n\nFrom IGN&#x27;s Review: \"Splatoon Raiders is an amazing action RPG with an expertly executed loop.",
+      "urls": [
+        "https://www.ign.com/articles/best-reviewed-nintendo-switch-2-games"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "jada griffin from ign x27 s review",
+      "value": "- Jada Griffin\n\nFrom IGN&#x27;s Review:",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Finding hidden routes to unlock different stages or small optimizations to push my score sky high is still much deeper than it first appears, keeping the brief campaign runs fun across multiple playthroughs.\" - Jada Griffin\n\nFrom IGN&#x27;s Review: \"I’m not sure what’s crazier: the fact that Kirby Air Riders exists, or the fact that it’s this great.",
+      "urls": [
+        "https://www.ign.com/articles/best-reviewed-nintendo-switch-2-games"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "according to gamescom the winners of each award were determined by both an",
+      "value": "According to Gamescom, the winners of each award were determined by both an",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Thank you to everyone showing their love & passion for our limbless hero this week in Cologne.\"\n\nAccording to Gamescom, the winners of each award were determined by both an \"expert jury of gaming professionals\" and the community via user votes.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/rayman-legends-retold-wins-best-switch-2-game-award-at-gamescom-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "apart from rayman s win at gamescom this year alien isolation 2 also took out",
+      "value": "Apart from Rayman's win at Gamescom this year, Alien: Isolation 2 also took out",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Available October 1.\"\n\nApart from Rayman's win at Gamescom this year, Alien: Isolation 2 also took out \"best audio\", Capcom's Onimusha: Way of the Sword won 'best gameplay', The Witcher 3: Wild Hunt Remastered won 'best trailer', and Sega won the 'best lineup' of the show.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/08/rayman-legends-retold-wins-best-switch-2-game-award-at-gamescom-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:33",
+      "value": "$33",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "$33 for Prime Remastered vs $40, even though only $7, goes a long way, especially when buying multiple games...",
+      "urls": [
+        "https://www.nintendolife.com/guides/84-switch-1-and-2-games-to-check-out-in-nintendos-blockbuster-eshop-sale-us"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:7",
+      "value": "$7,",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "$33 for Prime Remastered vs $40, even though only $7, goes a long way, especially when buying multiple games...",
+      "urls": [
+        "https://www.nintendolife.com/guides/84-switch-1-and-2-games-to-check-out-in-nintendos-blockbuster-eshop-sale-us"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:4.99",
+      "value": "$4.99.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Maybe I dodged a bullet\n\nIf you‘re a Metroidvania fan, you might wanna check out Possessor(s) for Switch 2 which is on sale for $4.99.",
+      "urls": [
+        "https://www.nintendolife.com/guides/84-switch-1-and-2-games-to-check-out-in-nintendos-blockbuster-eshop-sale-us"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the following list is comprised of titles that we ve awarded either 9 10 or 10 10",
+      "value": "the following list is comprised of titles that we've awarded either 9/10 or 10/10",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"the following list is comprised of titles that we've awarded either 9/10 or 10/10\"\n\nWhy are you saying the list is games that got a 9 or 10 score when there are clearly games with 7s and 8s??",
+      "urls": [
+        "https://www.nintendolife.com/guides/84-switch-1-and-2-games-to-check-out-in-nintendos-blockbuster-eshop-sale-us"
+      ]
+    }
+  ],
+  "factCount": 3,
+  "evidenceCount": 26,
+  "ourData": [
+    {
+      "game": "ARK: Survival Ascended",
+      "concurrent": 24558,
+      "rank": 50,
+      "change24h": -3,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    },
+    {
+      "game": "Nintendo Switch 2",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "23 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

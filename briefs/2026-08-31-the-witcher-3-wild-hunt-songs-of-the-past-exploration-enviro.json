@@ -1,0 +1,179 @@
+{
+  "generated": "2026-08-31T00:59:48.954Z",
+  "workingTitle": "The Witcher 3: Wild Hunt Songs of the Past – Exploration, Environments and Combat Showcase",
+  "heat": 24.8,
+  "outletCount": 3,
+  "outlets": [
+    "GameSpot",
+    "Xbox Wire",
+    "PCGamesN"
+  ],
+  "newest": "2026-08-30T14:00:00.000Z",
+  "readableCount": 2,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "The Witcher 3: Songs of the Past Will Give Us a Unique Way to Revisit This Beloved World",
+        "url": "https://news.xbox.com/en-us/2026/08/29/the-witcher-3-songs-of-the-past-preview/",
+        "date": "2026-08-29T12:19:42.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "PCGamesN",
+        "title": "The Witcher 3 Songs of the Past will give Geralt's best friend the spotlight he deserves",
+        "url": "https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-story-dandelion",
+        "date": "2026-08-28T11:54:41.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "The Witcher 3: Wild Hunt Songs of the Past – Exploration, Environments and Combat Showcase",
+        "url": "https://www.gamespot.com/videos/the-witcher-3-wild-hunt-songs-of-the-past-exploration-environments-and-combat-showcase/",
+        "date": "2026-08-30T14:00:00.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "The Witcher 3: Songs Of The Past Is A Mystery Centered On Dandelion",
+        "url": "https://www.gamespot.com/videos/the-witcher-3-songs-of-the-past-is-a-mystery-centered-on-dandelion/",
+        "date": "2026-08-29T15:00:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-09-29",
+      "value": "September 29, 2026",
+      "outlets": [
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "A full remaster, free to anyone who owns the original game, will be released on September 29, 2026.",
+      "urls": [
+        "https://news.xbox.com/en-us/2026/08/29/the-witcher-3-songs-of-the-past-preview/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "to say something even more about geralt before we pass the torch",
+      "value": "to say something even more about Geralt before we pass the torch,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Songs of the Past is a chance for CDPR and Fool's Theory \"to say something even more about Geralt before we pass the torch,\" Kuzia-Rokosz explains.",
+      "urls": [
+        "https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-story-dandelion"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "one of the most important guys in geralt s life",
+      "value": "one of the most important guys in Geralt's life,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The poet and bard is \"one of the most important guys in Geralt's life,\" and he's earned a wider reputation in recent years with Joey Batey's gleeful representation of him in the Netflix series (where he goes by his Polish name, Jaskier).",
+      "urls": [
+        "https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-story-dandelion"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to geralt she says dandelion is the foil that",
+      "value": "to Geralt, she says Dandelion is the foil that",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As the \"complete opposite\" to Geralt, she says Dandelion is the foil that \"completes The Witcher\" by being able to poke and prod and get Geralt to open up more about his life and feelings.",
+      "urls": [
+        "https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-story-dandelion"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i wouldn t say she s stuck but you have everything you can imagine you get rich you are living in a peaceful land",
+      "value": "I wouldn't say she's stuck, but you have everything you can imagine - you get rich, you are living in a peaceful land,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I wouldn't say she's stuck, but you have everything you can imagine - you get rich, you are living in a peaceful land,\" Kuzia-Rokosz comments.",
+      "urls": [
+        "https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-story-dandelion"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this lonely guy that finds comfort in his friends or lovers",
+      "value": "this lonely guy that finds comfort in his friends or lovers.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Kuzia-Rokosz describes the story of The Witcher, at a fundamental level, as \"this lonely guy that finds comfort in his friends or lovers.\" The adventures it takes you on are about \"freedom of exploration, making choices, making your decisions.\" While its world is fantastical, the team looks for inspiration from real life.",
+      "urls": [
+        "https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-story-dandelion"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "these people even if they are living in a world that is full of monsters they usually face the same problems",
+      "value": "These people, even if they are living in a world that is full of monsters, they usually face the same problems",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"These people, even if they are living in a world that is full of monsters, they usually face the same problems\" that we might face.",
+      "urls": [
+        "https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-story-dandelion"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "will make the story their own because they feel like they belong",
+      "value": "will make the story their own, because they feel like they belong.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In the end, the hope is that players \"will make the story their own, because they feel like they belong.\"\n\nAdditional reporting by Lauren Bergin for PCGamesN at Gamescom.",
+      "urls": [
+        "https://www.pcgamesn.com/the-witcher-3-wild-hunt/songs-of-the-past-story-dandelion"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 8,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "7 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
