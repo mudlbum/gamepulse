@@ -1,0 +1,112 @@
+{
+  "generated": "2026-09-01T01:30:48.193Z",
+  "workingTitle": "'Can't Wait to Show You': Intergalactic PS5 Wraps MoCap Days Before State of Play",
+  "heat": 56.5,
+  "outletCount": 6,
+  "outlets": [
+    "Push Square",
+    "Destructoid",
+    "IGN",
+    "Eurogamer",
+    "Kotaku",
+    "PlayStation Blog"
+  ],
+  "newest": "2026-08-31T18:30:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "'Can't Wait to Show You': Intergalactic PS5 Wraps MoCap Days Before State of Play",
+        "url": "https://www.pushsquare.com/news/2026/08/cant-wait-to-show-you-intergalactic-ps5-wraps-mocap-days-before-state-of-play",
+        "date": "2026-08-31T18:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Guide: When Is PlayStation's State of Play for September 2026?",
+        "url": "https://www.pushsquare.com/guides/when-is-playstations-state-of-play-for-september-2026",
+        "date": "2026-08-31T18:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "PlayStation’s State of Play returns this week, and the angry internet mob is waiting for it",
+        "url": "https://www.destructoid.com/playstation-state-of-play-returns-angry-internet-mob-waiting/",
+        "date": "2026-08-31T14:30:52.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Sony Confirms 2 PlayStation State of Play Presentations for This Week",
+        "url": "https://www.ign.com/articles/sony-confirms-2-playstation-state-of-play-presentations-for-this-week",
+        "date": "2026-08-31T13:38:52.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Sony's next PlayStation State of Play coming this Thursday, followed by a Japan and Asia-dedicated showcase",
+        "url": "https://www.eurogamer.net/sony-playstation-state-of-play-september-date-time",
+        "date": "2026-08-31T12:50:46.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "September State Of Play PlayStation Showcase Has Been Revealed With Fans Hoping Intergalactic: The Heretic Prophet Makes An Appearence",
+        "url": "https://kotaku.com/september-state-of-play-playstation-showcase-has-been-revealed-with-fans-hopping-intergalactic-the-heretic-prophet-makes-an-appearence-2000729844",
+        "date": "2026-08-31T12:26:04.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "updates and announcements from playstation studios and our third party partners",
+      "value": "updates and announcements from PlayStation Studios and our third-party partners",
+      "outlets": [
+        "IGN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "It&#x27;s promised to feature \"updates and announcements from PlayStation Studios and our third-party partners\" and will end with an \"extended look at the vast world\" of Square Enix&#x27;s Final Fantasy 7 Revelation.",
+      "urls": [
+        "https://www.ign.com/articles/sony-confirms-2-playstation-state-of-play-presentations-for-this-week",
+        "https://www.eurogamer.net/sony-playstation-state-of-play-september-date-time"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "offer deep dives into upcoming games from game studios in japan and asia including new gameplay announcements and more",
+      "value": "offer deep dives into upcoming games from game studios in Japan and Asia, including new gameplay, announcements, and more.",
+      "outlets": [
+        "IGN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Attack on Titan and Octopath Traveler 0 voice actor Yuki Kaji has returned to host the show, which is said to \"offer deep dives into upcoming games from game studios in Japan and Asia, including new gameplay, announcements, and more.\"\n\nHow long each show will be remains unclear, but we can already think of at least a few games that players are hoping to see.",
+      "urls": [
+        "https://www.ign.com/articles/sony-confirms-2-playstation-state-of-play-presentations-for-this-week",
+        "https://www.eurogamer.net/sony-playstation-state-of-play-september-date-time"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [],
+  "factCount": 2,
+  "evidenceCount": 2,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

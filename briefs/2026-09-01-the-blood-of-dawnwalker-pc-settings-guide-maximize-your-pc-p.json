@@ -1,0 +1,161 @@
+{
+  "generated": "2026-09-01T01:30:48.656Z",
+  "workingTitle": "The Blood of Dawnwalker PC Settings Guide: Maximize Your PC Performance By Tweaking These Options",
+  "heat": 51.8,
+  "outletCount": 5,
+  "outlets": [
+    "IGN",
+    "Destructoid",
+    "PC Gamer",
+    "PCGamesN",
+    "Eurogamer"
+  ],
+  "newest": "2026-08-31T22:54:21.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "The Blood of Dawnwalker PC Settings Guide: Maximize Your PC Performance By Tweaking These Options",
+        "url": "https://www.ign.com/articles/the-blood-of-dawnwalker-pc-settings-guide-maximize-your-pc-performance-by-tweaking-these-options",
+        "date": "2026-08-31T22:54:21.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "The Blood of Dawnwalker Review – The best game of 2026",
+        "url": "https://www.destructoid.com/reviews/the-blood-of-dawnwalker-review/",
+        "date": "2026-08-31T15:00:04.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "The Blood of Dawnwalker Review",
+        "url": "https://www.ign.com/articles/the-blood-of-dawnwalker-review",
+        "date": "2026-08-31T15:00:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "The Blood of Dawnwalker review",
+        "url": "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-review/",
+        "date": "2026-08-31T15:00:00.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "The Blood of Dawnwalker review - Time well spent",
+        "url": "https://www.pcgamesn.com/dawnwalker/review",
+        "date": "2026-08-31T15:00:00.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "The Blood of Dawnwalker review",
+        "url": "https://www.eurogamer.net/the-blood-of-dawnwalker-review-rebel-wolves",
+        "date": "2026-08-31T15:00:00.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$70",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A Witchery vampire RPG with a dark heart Release date September 3, 2026 Expect to pay $70 / &pound;60 Developer Rebel Wolves Publisher Bandai Namco Reviewed on RTX 3060 (laptop), Ryzen 5 5600H, 16GB RAM Steam Deck TBC, but unlikely to be a good experience Link Steam\n\n35 hours into The Blood of Dawnwalker I'd already witnessed the aftermath of many barbaric slayings and village razings.",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-review/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-09-03",
+      "value": "September 3, 2026",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A Witchery vampire RPG with a dark heart Release date September 3, 2026 Expect to pay $70 / &pound;60 Developer Rebel Wolves Publisher Bandai Namco Reviewed on RTX 3060 (laptop), Ryzen 5 5600H, 16GB RAM Steam Deck TBC, but unlikely to be a good experience Link Steam\n\n35 hours into The Blood of Dawnwalker I'd already witnessed the aftermath of many barbaric slayings and village razings.",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-review/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "follow these glowing yellow hints to an encounter",
+      "value": "follow these glowing yellow hints to an encounter",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Some are long and winding; others amount to \"kill these guys\" or \"follow these glowing yellow hints to an encounter\".",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-review/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this herd shall soon need culling",
+      "value": "this herd shall soon need culling.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Doing so correctly is enough to keep her alive - not a guaranteed outcome - but still earns a snide remark from Brencis that \"this herd shall soon need culling.\" Desperate for a solution, Coen and his father Pieter turn to local rebels, who are planning to break into the closed-down silver mines and spark the fuse of revolution.",
+      "urls": [
+        "https://www.pcgamesn.com/dawnwalker/review"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "wait you re bloody coen of laslea",
+      "value": "Wait, you're bloody Coen of Laslea!",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "What could have been a peaceful mid-mission guard interaction escalates when one reaches for his sword: \"Wait, you're bloody Coen of Laslea!\" At its very highest, shopkeepers rush your trades fearfully, and you can't take more than a couple of steps in the big city of Svartrau without someone calling for the guards.",
+      "urls": [
+        "https://www.pcgamesn.com/dawnwalker/review"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "when do i attempt the end",
+      "value": "When do I attempt the end?",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The question of \"When do I attempt the end?\" is far more interesting to me than \"When will the game lead me to the end?\", and all of the permutations referenced in the epilogue I'm sure will make the conversation around \"What did you do in the game - which ending do you get?\" a lively one.",
+      "urls": [
+        "https://www.eurogamer.net/the-blood-of-dawnwalker-review-rebel-wolves"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

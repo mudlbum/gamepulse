@@ -1,0 +1,154 @@
+{
+  "generated": "2026-09-01T01:30:48.482Z",
+  "workingTitle": "Pokémon World Championships 2026 Was Absolute Chaos",
+  "heat": 53.3,
+  "outletCount": 5,
+  "outlets": [
+    "Polygon",
+    "Kotaku",
+    "Eurogamer",
+    "IGN",
+    "Nintendo Life"
+  ],
+  "newest": "2026-08-31T22:34:12.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Pokémon"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Pokémon World Championships 2026 Was Absolute Chaos",
+        "url": "https://www.polygon.com/pokemon-world-championships-2026-safety-concern-reports/",
+        "date": "2026-08-31T22:34:12.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Pokémon’s World Champion Made History By Dethroning Charizard",
+        "url": "https://kotaku.com/pokemon-world-championships-mega-dragonite-charizard-finals-2000729957",
+        "date": "2026-08-31T17:00:51.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Here's every announcement from Pokémon World Championships",
+        "url": "https://www.eurogamer.net/pokemon-worlds-2026-closing-ceremony-every-announcement",
+        "date": "2026-08-31T12:05:49.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Ed Sheeran gives surprise performance of Pokémon anime theme and Celestial at World Championships",
+        "url": "https://www.eurogamer.net/ed-sheeran-surprise-performance-pokemon-anime-theme-worlds",
+        "date": "2026-08-31T10:41:24.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Everything Pokémon Announced At The World Championships’ Closing Ceremony",
+        "url": "https://kotaku.com/pokemon-world-championships-closing-ceremony-winds-waves-2000729705",
+        "date": "2026-08-31T04:04:20.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Pokémon: Wild Card Announced for 2027",
+        "url": "https://www.ign.com/articles/pokemon-wild-card-tcg-movie-announced-for-2027",
+        "date": "2026-08-31T04:03:06.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "after discussing suggestions with the fire prevention team the event organizers decided to shut down the pin giveaway after consulting with local fire officials",
+      "value": "After discussing suggestions with the fire prevention team, the event organizers decided to shut down the pin giveaway after consulting with local fire officials,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"After discussing suggestions with the fire prevention team, the event organizers decided to shut down the pin giveaway after consulting with local fire officials,\" the Fire Department said in a statement.",
+      "urls": [
+        "https://www.polygon.com/pokemon-world-championships-2026-safety-concern-reports/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-08-30",
+      "value": "August 30, 2026",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A notification sent to attendees on Saturday night read: \"Hello Trainer, Pin Rally is canceled for Sunday, August 30, 2026.",
+      "urls": [
+        "https://www.polygon.com/pokemon-world-championships-2026-safety-concern-reports/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "essentially non existent",
+      "value": "essentially non-existent.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "One user, bugcatcherhay on X, said accommodations were \"essentially non-existent.\"\n\n\"The ADA at Pokémon Worlds is essentially nonexistent.",
+      "urls": [
+        "https://www.polygon.com/pokemon-world-championships-2026-safety-concern-reports/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as we walked along following this movement i realized this isn t actually an accommodation that is going to help me and it shouldn t be possible for them to not have had ada policies that avoid this in place",
+      "value": "As we walked along, following this movement, I realized this isn’t actually an accommodation that is going to help me, and it shouldn’t be possible for them to not have had ADA policies that avoid this in place.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"As we walked along, following this movement, I realized this isn’t actually an accommodation that is going to help me, and it shouldn’t be possible for them to not have had ADA policies that avoid this in place.\"\n\nOther attendees were also vocal on X, claiming they were not allowed to use the elevator and were turned away.",
+      "urls": [
+        "https://www.polygon.com/pokemon-world-championships-2026-safety-concern-reports/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "for the first time in seven years a new pok mon movie is on its way",
+      "value": "For the first time in seven years, a new Pokémon movie is on its way,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"For the first time in seven years, a new Pokémon movie is on its way,\" The Pokémon Company President and CEO Tsunekazu Ishihara said, and highlighted that the movie&#x27;s protagonist is a Pokémon TCG player \"battling and striving to be a champion,\" like those in attendance.",
+      "urls": [
+        "https://www.ign.com/articles/pokemon-wild-card-tcg-movie-announced-for-2027"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [
+    {
+      "game": "Pokémon",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

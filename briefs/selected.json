@@ -1,10 +1,40 @@
 {
-  "decided": "2026-08-31T00:59:49.005Z",
+  "decided": "2026-09-01T01:30:48.921Z",
   "publish": true,
-  "reason": "selected on score 30.6",
-  "brief": "2026-08-31-the-best-deals-today-lego-star-wars-dragon-quest-i-ii-hd-2d-.json",
-  "title": "The Best Deals Today: LEGO Star Wars, Dragon Quest I & II HD-2D Remake, Jurassic Park 4K Collection, and More",
+  "reason": "selected on score 31.4",
+  "brief": "2026-09-01-30-new-gta-6-ps5-screenshots-to-blow-you-away-after-extended.json",
+  "title": "30 New GTA 6 PS5 Screenshots to Blow You Away After Extended Look",
   "considered": [
+    {
+      "file": "2026-09-01-the-blood-of-dawnwalker-pc-settings-guide-maximize-your-pc-p.json",
+      "title": "The Blood of Dawnwalker PC Settings Guide: Maximize Your PC Performance By Tweaking These Options",
+      "pass": false,
+      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-01-roundup-the-first-reviews-have-dropped-for-onimusha-way-of-t.json",
+      "title": "Roundup: The First Reviews Have Dropped For Onimusha: Way Of The Sword, And They're Very Good",
+      "pass": false,
+      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-01-pokemon-world-championships-2026-was-absolute-chaos.json",
+      "title": "Pokémon World Championships 2026 Was Absolute Chaos",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-01-cant-wait-to-show-you-intergalactic-ps5-wraps-mocap-days-bef.json",
+      "title": "'Can't Wait to Show You': Intergalactic PS5 Wraps MoCap Days Before State of Play",
+      "pass": false,
+      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-01-30-new-gta-6-ps5-screenshots-to-blow-you-away-after-extended.json",
+      "title": "30 New GTA 6 PS5 Screenshots to Blow You Away After Extended Look",
+      "pass": true,
+      "reason": "2/14 claims corroborated · 4 outlets · secondary only · 2h old"
+    },
     {
       "file": "2026-08-31-the-witcher-3-wild-hunt-songs-of-the-past-exploration-enviro.json",
       "title": "The Witcher 3: Wild Hunt Songs of the Past – Exploration, Environments and Combat Showcase",
@@ -15,43 +45,13 @@
       "file": "2026-08-31-the-best-deals-today-lego-star-wars-dragon-quest-i-ii-hd-2d-.json",
       "title": "The Best Deals Today: LEGO Star Wars, Dragon Quest I & II HD-2D Remake, Jurassic Park 4K Collection, and More",
       "pass": true,
-      "reason": "3/26 claims corroborated · 2 outlets · secondary only · 4h old"
+      "reason": "3/26 claims corroborated · 2 outlets · secondary only · 28h old"
     },
     {
       "file": "2026-08-31-star-wars-zero-companys-permadeath-makes-it-a-better-rpg-tha.json",
       "title": "Star Wars Zero Company's permadeath makes it a better RPG than most RPGs, even though it's not really an RPG",
       "pass": false,
       "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-08-31-gta-5s-michael-actor-defends-gta-6-after-doubters-say-rockst.json",
-      "title": "GTA 5's Michael Actor Defends GTA 6 After Doubters Say Rockstar's Games Look Too Similar",
-      "pass": false,
-      "reason": "1 of 11 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-08-31-creative-assembly-plans-10-or-so-years-of-total-war-warhamme.json",
-      "title": "Creative Assembly plans ’10 or so years’ of Total War: Warhammer 40K",
-      "pass": false,
-      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-08-30-the-best-deals-today-tomodachi-life-living-the-dream-jurassi.json",
-      "title": "The Best Deals Today: Tomodachi Life: Living the Dream, Jurassic Park 4K Collection, Nintendo Switch 2, and More",
-      "pass": true,
-      "reason": "2/22 claims corroborated · 4 outlets · secondary only · 28h old"
-    },
-    {
-      "file": "2026-08-30-psa-swap-the-radial-ability-menu-in-star-wars-zero-company-f.json",
-      "title": "PSA: Swap the radial ability menu in Star Wars Zero Company for more of a trad XCOM-style experience",
-      "pass": false,
-      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-08-30-gta-6-will-have-no-microtransactions-or-generative-ai-at-lau.json",
-      "title": "GTA 6 Will Have No Microtransactions or Generative AI at Launch, Rockstar Says",
-      "pass": false,
-      "reason": "0 of 13 claims corroborated, need 2 — no two outlets agree on anything specific"
     }
   ]
 }

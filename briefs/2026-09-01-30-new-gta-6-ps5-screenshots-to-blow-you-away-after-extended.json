@@ -1,0 +1,281 @@
+{
+  "generated": "2026-09-01T01:30:48.850Z",
+  "workingTitle": "30 New GTA 6 PS5 Screenshots to Blow You Away After Extended Look",
+  "heat": 43.1,
+  "outletCount": 4,
+  "outlets": [
+    "Push Square",
+    "IGN",
+    "Eurogamer",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-08-31T23:15:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "30 New GTA 6 PS5 Screenshots to Blow You Away After Extended Look",
+        "url": "https://www.pushsquare.com/news/2026/09/30-new-gta-6-ps5-screenshots-to-blow-you-away-after-extended-look",
+        "date": "2026-08-31T23:15:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Gets Even More New Screenshots as Rockstar Locks in for November Launch",
+        "url": "https://www.ign.com/articles/gta-6-gets-even-more-new-screenshots-as-rockstar-locks-in-for-november-launch",
+        "date": "2026-08-31T21:32:23.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 5's Michael Actor Defends GTA 6 After Doubters Say Rockstar's Games Look Too Similar",
+        "url": "https://www.ign.com/articles/gta-5s-michael-actor-defends-gta-6-after-doubters-say-rockstars-games-look-too-similar",
+        "date": "2026-08-30T22:08:13.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Rockstar confirms GTA 6 won't have microtransactions or generative AI at launch",
+        "url": "https://www.eurogamer.net/gta-6-microtransactions-generative-ai-rockstar",
+        "date": "2026-08-30T10:48:08.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Star Citizen spinoff Squadron 42 has been delayed yet again, citing everyone going gaga for GTA 6, even if it isn't coming to PC yet",
+        "url": "https://www.rockpapershotgun.com/star-citizen-spinoff-squadron-42-has-been-delayed-yet-again-citing-everyone-going-gaga-for-gta-6-even-if-it-isnt-coming-to-pc-yet",
+        "date": "2026-08-29T17:31:19.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Squadron 42 delayed to 2027, with Star Citizen dev blaming GTA 6",
+        "url": "https://www.eurogamer.net/squadron-42-delayed-2027-gta-6",
+        "date": "2026-08-29T12:09:49.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:1000000000",
+      "value": "$1 billion",
+      "outlets": [
+        "Push Square",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "It cost a reported $1 billion to make, and it really shows.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/30-new-gta-6-ps5-screenshots-to-blow-you-away-after-extended-look",
+        "https://www.eurogamer.net/squadron-42-delayed-2027-gta-6"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "at citizencon 2024 we announced we would ship in 2026",
+      "value": "At CitizenCon 2024 we announced we would ship in 2026,",
+      "outlets": [
+        "Rock Paper Shotgun",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"At CitizenCon 2024 we announced we would ship in 2026,\" a blog post from studio head Chris Roberts explains.",
+      "urls": [
+        "https://www.rockpapershotgun.com/star-citizen-spinoff-squadron-42-has-been-delayed-yet-again-citing-everyone-going-gaga-for-gta-6-even-if-it-isnt-coming-to-pc-yet",
+        "https://www.eurogamer.net/squadron-42-delayed-2027-gta-6"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "the next 11 weeks are going to be insane i hope",
+      "value": "The next 11 weeks are going to be insane (I hope),",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "https://t.co/K2NYAHUXh1\n\nBro, Jason looks different in every GTA 6 photo I have seen so far pic.twitter.com/XrBsslOoWa\n\n\"The next 11 weeks are going to be insane (I hope),\" one fan said.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-gets-even-more-new-screenshots-as-rockstar-locks-in-for-november-launch"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-19",
+      "value": "November 19, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The world will be playing GTA 6 when it launches for PlayStation 5 and Xbox Series X/S November 19, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-gets-even-more-new-screenshots-as-rockstar-locks-in-for-november-launch",
+        "https://www.ign.com/articles/gta-5s-michael-actor-defends-gta-6-after-doubters-say-rockstars-games-look-too-similar"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this looks nothing like grand theft auto 5",
+      "value": "This looks nothing like Grand Theft Auto 5,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This looks nothing like Grand Theft Auto 5,\" he said.",
+      "urls": [
+        "https://www.ign.com/articles/gta-5s-michael-actor-defends-gta-6-after-doubters-say-rockstars-games-look-too-similar"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i think they x27 re out of their minds",
+      "value": "I think they&#x27;re out of their minds.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I think they&#x27;re out of their minds.\"\n\n\"I&#x27;ll tell you one thing: I never looked that good,\" he added, pointing to an image of Jason on his screen.\"\n\nRockstar&#x27;s GTA 6 extended look officially revealed footage of a host of new features, including tons of new side activities, story missions, a reworked Wanted system, and more.",
+      "urls": [
+        "https://www.ign.com/articles/gta-5s-michael-actor-defends-gta-6-after-doubters-say-rockstars-games-look-too-similar"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "watch the way the people move",
+      "value": "Watch the way the people move,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Watch the way the people move,\" he continued.",
+      "urls": [
+        "https://www.ign.com/articles/gta-5s-michael-actor-defends-gta-6-after-doubters-say-rockstars-games-look-too-similar"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "first of all there x27 s been other female protagonists in the past but not in something as huge as this",
+      "value": "First of all, there&#x27;s been other female protagonists in the past, but not in something as huge as this.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"First of all, there&#x27;s been other female protagonists in the past, but not in something as huge as this.\"\n\nGTA 6 is scheduled to come to PlayStation 5 and Xbox Series X/S November 19, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/gta-5s-michael-actor-defends-gta-6-after-doubters-say-rockstars-games-look-too-similar"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "no monetisations in this game",
+      "value": "no monetisations in this game",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Rockstar said there are \"no monetisations in this game\", and Greg Miller followed up, asking \"point-blank\" whether generative AI had been used anywhere in GTA 6's development.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-microtransactions-generative-ai-rockstar"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "threaded across all aspects of jason and lucia s story",
+      "value": "threaded across all aspects of Jason and Lucia's story",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Rockstar's own support page confirms standard edition owners will be able to buy the Ultimate Edition upgrade separately after redeeming their copy, with the bonus content \"threaded across all aspects of Jason and Lucia's story\" and unlocked chapter by chapter.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-microtransactions-generative-ai-rockstar"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "that has had twelve years of blood sweat and tears invested into it",
+      "value": "that has had twelve years of blood, sweat and tears invested into it",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In a new blog post, however, Roberts said launching this autumn would mean going up against Rockstar's blockbuster, something he wasn't willing to risk for a game \"that has had twelve years of blood, sweat and tears invested into it\".",
+      "urls": [
+        "https://www.eurogamer.net/squadron-42-delayed-2027-gta-6"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "while gta6 isn t launching on pc this november pretty much all outlets and most content creators will be all over it not leaving a lot of room for other coverage",
+      "value": "While GTA6 isn't launching on PC this November, pretty much all outlets and most content creators will be all over it, not leaving a lot of room for other coverage.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"While GTA6 isn't launching on PC this November, pretty much all outlets and most content creators will be all over it, not leaving a lot of room for other coverage.\"\n\nCloud Imperium plans to preview Squadron 42 to \"a small number\" of content creators and early backers in October, ahead of a firmer release date it says will follow \"shortly\" after.",
+      "urls": [
+        "https://www.eurogamer.net/squadron-42-delayed-2027-gta-6"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5000",
+      "value": "$5000",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The milestone came as the game launched a new $5000 (&pound;3700) spaceship, the Anvil Odin capital ship, which was not even available when it went on sale as a \"limited vehicle concept pledge\" with no firm release date.",
+      "urls": [
+        "https://www.eurogamer.net/squadron-42-delayed-2027-gta-6"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "limited vehicle concept pledge",
+      "value": "limited vehicle concept pledge",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The milestone came as the game launched a new $5000 (&pound;3700) spaceship, the Anvil Odin capital ship, which was not even available when it went on sale as a \"limited vehicle concept pledge\" with no firm release date.",
+      "urls": [
+        "https://www.eurogamer.net/squadron-42-delayed-2027-gta-6"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 14,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "12 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

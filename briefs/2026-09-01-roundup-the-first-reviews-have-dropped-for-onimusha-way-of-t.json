@@ -1,0 +1,164 @@
+{
+  "generated": "2026-09-01T01:30:47.148Z",
+  "workingTitle": "Roundup: The First Reviews Have Dropped For Onimusha: Way Of The Sword, And They're Very Good",
+  "heat": 64.9,
+  "outletCount": 8,
+  "outlets": [
+    "Pure Xbox",
+    "Eurogamer",
+    "PCGamesN",
+    "Kotaku",
+    "IGN",
+    "PC Gamer",
+    "Push Square",
+    "Nintendo Life"
+  ],
+  "newest": "2026-08-31T15:16:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "Roundup: The First Reviews Have Dropped For Onimusha: Way Of The Sword, And They're Very Good",
+        "url": "https://www.purexbox.com/news/2026/08/roundup-the-first-reviews-have-dropped-for-onimusha-way-of-the-sword-and-theyre-very-good",
+        "date": "2026-08-31T15:16:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Onimusha: Way of the Sword review",
+        "url": "https://www.eurogamer.net/onimusha-way-of-the-sword-review",
+        "date": "2026-08-31T15:05:47.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Onimusha: Way of the Sword review - A sword saintly samurai thriller",
+        "url": "https://www.pcgamesn.com/onimusha-way-of-the-sword/review",
+        "date": "2026-08-31T15:02:00.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Onimusha: Way Of The Sword: The Kotaku Review",
+        "url": "https://kotaku.com/onimusha-way-of-the-sword-the-kotaku-review-2000729856",
+        "date": "2026-08-31T15:00:47.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Onimusha: Way of the Sword Review",
+        "url": "https://www.ign.com/articles/onimusha-way-of-the-sword-review",
+        "date": "2026-08-31T15:00:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Onimusha: Way of the Sword review",
+        "url": "https://www.pcgamer.com/games/action/onimusha-way-of-the-sword-review/",
+        "date": "2026-08-31T15:00:00.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "pay attention even to trifles",
+      "value": "Pay attention even to trifles,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Pay attention even to trifles,\" was one of the maxims he recommended.",
+      "urls": [
+        "https://www.eurogamer.net/onimusha-way-of-the-sword-review"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "develop intuitive judgement and understanding for everything",
+      "value": "Develop intuitive judgement and understanding for everything,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Develop intuitive judgement and understanding for everything,\" recommends Musashi later in his book.",
+      "urls": [
+        "https://www.eurogamer.net/onimusha-way-of-the-sword-review"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "perceive those things which cannot be seen",
+      "value": "Perceive those things, which cannot be seen,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Perceive those things, which cannot be seen,\" advises Musashi in his book - something Capcom probably took a bit too literally when it gave you a 'Press R2 to see into the demon realm' button that highlights objectives and the critical path for you.",
+      "urls": [
+        "https://www.eurogamer.net/onimusha-way-of-the-sword-review"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the quintessential samurai action actor",
+      "value": "the quintessential samurai action actor",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "When you spent two years negotiating the rights to a dead man's face because he's \"the quintessential samurai action actor\", you're going to want to make sure you do right by him.",
+      "urls": [
+        "https://www.eurogamer.net/onimusha-way-of-the-sword-review"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "become acquainted with every art",
+      "value": "become acquainted with every art",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you want to \"become acquainted with every art\" and \"pay attention even to trifles\", though, you're looking at something closer to 30.",
+      "urls": [
+        "https://www.eurogamer.net/onimusha-way-of-the-sword-review"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "do nothing which is of no use",
+      "value": "do nothing which is of no use",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It forces you to \"do nothing which is of no use\", and if you don't learn from your mistakes, you will die.",
+      "urls": [
+        "https://www.eurogamer.net/onimusha-way-of-the-sword-review"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
