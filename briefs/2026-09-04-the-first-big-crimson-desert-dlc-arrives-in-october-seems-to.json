@@ -1,0 +1,104 @@
+{
+  "generated": "2026-09-04T00:32:49.562Z",
+  "workingTitle": "The first big Crimson Desert DLC arrives in October, seems to be set in a crimson desert beyond Crimson Desert's existing crimson desert",
+  "heat": 33.6,
+  "outletCount": 4,
+  "outlets": [
+    "Rock Paper Shotgun",
+    "PC Gamer",
+    "Push Square",
+    "Eurogamer"
+  ],
+  "newest": "2026-09-03T15:30:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "The first big Crimson Desert DLC arrives in October, seems to be set in a crimson desert beyond Crimson Desert's existing crimson desert",
+        "url": "https://www.rockpapershotgun.com/the-first-big-crimson-desert-dlc-arrives-in-october-seems-to-be-set-in-a-crimson-desert-beyond-crimson-deserts-existing-crimson-desert",
+        "date": "2026-09-03T15:30:00.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Crimson Desert's upcoming DLC decides it's The Sims now, I guess",
+        "url": "https://www.pcgamer.com/games/action/crimson-deserts-upcoming-dlc-decides-its-the-sims-now-i-guess/",
+        "date": "2026-09-03T14:37:54.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Gigantic Crimson Desert Expansion Releases This October on PS5",
+        "url": "https://www.pushsquare.com/news/2026/09/gigantic-crimson-desert-expansion-releases-this-october-on-ps5",
+        "date": "2026-09-03T14:35:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Crimson Desert's first DLC is called Charting the Unknown, and it's out next month",
+        "url": "https://www.eurogamer.net/crimson-desert-charting-the-unknown-dlc-date",
+        "date": "2026-09-03T14:08:54.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "legend is countless people fell there long ago turning the sands crimson with their blood",
+      "value": "Legend is countless people fell there long ago, turning the sands crimson with their blood,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Legend is countless people fell there long ago, turning the sands crimson with their blood,\" someone tells him.",
+      "urls": [
+        "https://www.rockpapershotgun.com/the-first-big-crimson-desert-dlc-arrives-in-october-seems-to-be-set-in-a-crimson-desert-beyond-crimson-deserts-existing-crimson-desert"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:25",
+      "value": "$24.99",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The DLC, priced &pound;19.99 in the UK and $24.99 in the US, notably isn't coming to the Mac (App Store) version, but Pearl Abyss will let us know if the plan changes.",
+      "urls": [
+        "https://www.eurogamer.net/crimson-desert-charting-the-unknown-dlc-date"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:6000000:copies",
+      "value": "6 million copies",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The open-world action role-playing game has sold over 6 million copies worldwide since its release in March.",
+      "urls": [
+        "https://www.eurogamer.net/crimson-desert-charting-the-unknown-dlc-date"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 3,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

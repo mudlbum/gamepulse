@@ -1,0 +1,371 @@
+{
+  "generated": "2026-09-04T00:32:49.456Z",
+  "workingTitle": "Xbox to cap Cloud Gaming hours for Game Pass subscribers",
+  "heat": 64.3,
+  "outletCount": 6,
+  "outlets": [
+    "Game Developer",
+    "PC Gamer",
+    "Pure Xbox",
+    "Kotaku",
+    "IGN",
+    "Xbox Wire"
+  ],
+  "newest": "2026-09-03T23:40:49.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Upcoming Changes to XBOX Cloud Gaming",
+        "url": "https://news.xbox.com/en-us/2026/09/03/xbox-cloud-gaming-changes/",
+        "date": "2026-09-03T16:58:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Game Developer",
+        "title": "Xbox to cap Cloud Gaming hours for Game Pass subscribers",
+        "url": "https://www.gamedeveloper.com/cloud/xbox-to-cap-cloud-gaming-hours-for-game-pass-subscribers",
+        "date": "2026-09-03T23:40:49.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Microsoft announces cap on Xbox Cloud Gaming hours for Game Pass subscribers, admits most aren't using it much anyway",
+        "url": "https://www.pcgamer.com/gaming-industry/microsoft-announces-cap-on-xbox-cloud-gaming-hours-for-game-pass-subscribers-admits-most-arent-using-it-much-anyway/",
+        "date": "2026-09-03T19:53:34.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Xbox Is Officially Putting Time Limits On Cloud Gaming For Game Pass Members",
+        "url": "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members",
+        "date": "2026-09-03T18:12:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Game Pass Will Start Capping The Number Of Hours You Can Use Cloud Streaming Each Month But Says Not To Worry Because This Will Only Affect 4 Percent Of Players",
+        "url": "https://kotaku.com/game-pass-will-start-capping-the-number-of-hours-you-can-use-streaming-each-month-but-says-not-to-worry-because-it-will-only-affect-4-percent-of-players-2000731012",
+        "date": "2026-09-03T17:57:19.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Microsoft Announces Big Changes to Xbox Cloud Gaming, Switches to Monthly Hour Limits",
+        "url": "https://www.ign.com/articles/microsoft-announces-big-changes-to-xbox-cloud-gaming-switches-to-monthly-hour-limits",
+        "date": "2026-09-03T17:00:00.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "the cost of providing cloud gaming grows as more people use it and play for longer",
+      "value": "We're introducing this model because the cost of providing cloud gaming grows as more people use it and play for longer,",
+      "outlets": [
+        "Game Developer",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We're introducing this model because the cost of providing cloud gaming grows as more people use it and play for longer,\" Xbox said.",
+      "urls": [
+        "https://www.gamedeveloper.com/cloud/xbox-to-cap-cloud-gaming-hours-for-game-pass-subscribers",
+        "https://www.pcgamer.com/gaming-industry/microsoft-announces-cap-on-xbox-cloud-gaming-hours-for-game-pass-subscribers-admits-most-arent-using-it-much-anyway/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this will provide another option for people who want occasional access to cloud gaming or do not want a recurring game pass subscription",
+      "value": "This will provide another option for people who want occasional access to cloud gaming or do not want a recurring Game Pass subscription,",
+      "outlets": [
+        "Game Developer",
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"This will provide another option for people who want occasional access to cloud gaming or do not want a recurring Game Pass subscription,\" the company explained.",
+      "urls": [
+        "https://www.gamedeveloper.com/cloud/xbox-to-cap-cloud-gaming-hours-for-game-pass-subscribers",
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we expect this upcoming change to impact 4 of game pass subscribers",
+      "value": "We expect this upcoming change to impact 4% of Game Pass subscribers,",
+      "outlets": [
+        "PC Gamer",
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We expect this upcoming change to impact 4% of Game Pass subscribers,\" Xbox said.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/microsoft-announces-cap-on-xbox-cloud-gaming-hours-for-game-pass-subscribers-admits-most-arent-using-it-much-anyway/",
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "more information about pricing purchasing additional hours eligible games market availability and how players can check their remaining time",
+      "value": "more information about pricing, purchasing additional hours, eligible games, market availability, and how players can check their remaining time",
+      "outlets": [
+        "PC Gamer",
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Xbox didn't confirm how much cloud playtime will cost, but said it will provide \"more information about pricing, purchasing additional hours, eligible games, market availability, and how players can check their remaining time\" in November.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/microsoft-announces-cap-on-xbox-cloud-gaming-hours-for-game-pass-subscribers-admits-most-arent-using-it-much-anyway/",
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "players who wish to continue using xbox cloud gaming after hitting the monthly time limit will be able to do so if they purchase additional",
+      "value": "Players who wish to continue using Xbox Cloud Gaming after hitting the monthly time limit will be able to do so if they purchase additional",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We understand that for some players the practical result is a higher cost.\"\n\nPlayers who wish to continue using Xbox Cloud Gaming after hitting the monthly time limit will be able to do so if they purchase additional \"playtime hours\" through the Xbox Store.",
+      "urls": [
+        "https://www.gamedeveloper.com/cloud/xbox-to-cap-cloud-gaming-hours-for-game-pass-subscribers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "unavailable or unaffordable",
+      "value": "unavailable or unaffordable",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There is one other target market for Xbox&#x27;s new Cloud Gaming playtime hour purchase system: those who haven&#x27;t been able to purchase an Xbox because the devices are \"unavailable or unaffordable\" in their region.",
+      "urls": [
+        "https://www.gamedeveloper.com/cloud/xbox-to-cap-cloud-gaming-hours-for-game-pass-subscribers"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1700000000",
+      "value": "$1.7 billion",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And that needle's got a lot of moving to do: In July, Microsoft's annual financial filings confirmed that Xbox revenue had fallen by $1.7 billion over the last year.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/microsoft-announces-cap-on-xbox-cloud-gaming-hours-for-game-pass-subscribers-admits-most-arent-using-it-much-anyway/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "team xbox expects the change",
+      "value": "Team Xbox expects the change",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We understand that for some players the practical result is a higher cost.\"\n\nTeam Xbox expects the change \"to impact 4% of Game Pass subscribers\" when it's rolled out in November, but they'll also provide ways to purchase additional playtime for those who want to extend their cloud hours.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$70,",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Imagine buying a \"stream YOUR OWN game\" title for $70, paying a $25 per month subscription, and still being asked to pay for additional hours to play something you already purchased.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:25",
+      "value": "$25",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Imagine buying a \"stream YOUR OWN game\" title for $70, paying a $25 per month subscription, and still being asked to pay for additional hours to play something you already purchased.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "pay for a block of play time",
+      "value": "pay for a block of play time",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It would have been better if they kept Ultimate as unlimited, that way they could up-sell to people on the lower tiers, rather than having a \"pay for a block of play time\" option.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Well first you need to spend $100 to \"buy\" the license for the game.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:500",
+      "value": "$500",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Did you pay more than $500 for a video game console!?",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:30000000:subscribers",
+      "value": "30 million subscribers",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Sol4ris they made it - before @ASHA Idiots like S.Bond and P.Spencer promoted it as expected and this FINALLY STOPPED love it\n\nPerhaps you’re right and the 1.2 million people out of the 30 million subscribers really affect Microsoft’s bottom line, but I can’t help to be sceptical about the reasoning behind the move😉.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100000000",
+      "value": "$100m",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I wouldn't be surprised if Nadella sells off Xbox because they don't have enough products to bring more gamers in and they can't make enough from those they did get in to be profitable enough for his $100m salary every year\n\n@strzelec oh right, you just wanted to console war.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:999",
+      "value": "$999",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "These current systems will probably hit $999 in the next year, ps5 pro for sure will.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-putting-time-limits-on-cloud-gaming-for-game-pass-members"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000000000",
+      "value": "$1,000 m",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That can be especially meaningful in places where consoles are harder to find or less affordable, giving more players another way to access great games on devices they already have.”\n\nThe test of ad-supported Xbox streaming arrived amid console price rises that are pushing some gaming hardware towards the $1,000 mark.",
+      "urls": [
+        "https://www.ign.com/articles/microsoft-announces-big-changes-to-xbox-cloud-gaming-switches-to-monthly-hour-limits"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "radically different business models",
+      "value": "radically different business models",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Unlike phones, computers, speakers, and other consumer devices, consoles are typically not sold at a profit, but instead for less than they cost to make.”\n\nNew Xbox CEO Asha Sharma has said the spiralling cost of new and existing consoles would require \"radically different business models\" over the coming generation.",
+      "urls": [
+        "https://www.ign.com/articles/microsoft-announces-big-changes-to-xbox-cloud-gaming-switches-to-monthly-hour-limits"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "reached a point where it will be hard to imagine",
+      "value": "reached a point where it will be hard to imagine",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "She added that the industry had \"reached a point where it will be hard to imagine\" mass audiences still being able to afford \"thousands of dollars\" for a new console generation.",
+      "urls": [
+        "https://www.ign.com/articles/microsoft-announces-big-changes-to-xbox-cloud-gaming-switches-to-monthly-hour-limits"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1050",
+      "value": "$1,049.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And Valve has bemoaned its struggle to release Steam Machine at the price it had initially hoped, instead having to go for an eye-watering $1,049.",
+      "urls": [
+        "https://www.ign.com/articles/microsoft-announces-big-changes-to-xbox-cloud-gaming-switches-to-monthly-hour-limits"
+      ]
+    }
+  ],
+  "factCount": 4,
+  "evidenceCount": 20,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "16 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

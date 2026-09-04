@@ -1,0 +1,134 @@
+{
+  "generated": "2026-09-04T00:32:48.396Z",
+  "workingTitle": "The Blood of Dawnwalker's Most Popular Mod Completely Defeats the Purpose of the Game",
+  "heat": 113.4,
+  "outletCount": 9,
+  "outlets": [
+    "IGN",
+    "GameSpot",
+    "Polygon",
+    "Destructoid",
+    "Rock Paper Shotgun",
+    "PC Gamer",
+    "PCGamesN",
+    "Xbox Wire",
+    "Kotaku"
+  ],
+  "newest": "2026-09-03T21:32:10.000Z",
+  "readableCount": 1,
+  "sourceCount": 6,
+  "games": [
+    "The Blood of Dawnwalker"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "The Blood of Dawnwalker's Most Popular Mod Completely Defeats the Purpose of the Game",
+        "url": "https://www.ign.com/articles/the-blood-of-dawnwalkers-most-popular-mod-completely-defeats-the-purpose-of-the-game",
+        "date": "2026-09-03T21:32:10.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "The Blood Of Dawnwalker – Guides Hub",
+        "url": "https://www.gamespot.com/articles/the-blood-of-dawnwalker-guides-hub/",
+        "date": "2026-09-03T20:59:44.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "Where To Find Lacra In The Blood Of Dawnwalker",
+        "url": "https://www.gamespot.com/articles/where-to-find-lacra-in-the-blood-of-dawnwalker/",
+        "date": "2026-09-03T20:30:59.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "Where To Find The Hidden Uriash Village In The Blood Of Dawnwalker",
+        "url": "https://www.gamespot.com/articles/where-to-find-the-hidden-uriash-village-in-the-blood-of-dawnwalker/",
+        "date": "2026-09-03T20:11:27.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "How To Help Ocha In The Blood Of Dawnwalker – The Heart Wants What It Wants Guide",
+        "url": "https://www.gamespot.com/articles/blood-of-dawnwalker-ocha-heart-wants-what-it-wants/",
+        "date": "2026-09-03T20:10:29.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "There’s A Legendary Herb In The Blood Of Dawnwalker That Permanently Increases Your Health",
+        "url": "https://www.gamespot.com/articles/blood-of-dawnwalker-hedgehog-herb-razkovniche-maximum-health/",
+        "date": "2026-09-03T20:01:28.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "gamers will do anything they can to not experience a game the way the developers intended",
+      "value": "Gamers will do anything they can to not experience a game the way the developers intended,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Gamers will do anything they can to not experience a game the way the developers intended,\" said one X/Twitter user.",
+      "urls": [
+        "https://www.ign.com/articles/the-blood-of-dawnwalkers-most-popular-mod-completely-defeats-the-purpose-of-the-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the blood of dawnwalker is my new favorite vampire game and one of the best story driven rpgs i ve played in a long time",
+      "value": "The Blood of Dawnwalker is my new favorite vampire game and one of the best story-driven RPGs I’ve played in a long time,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The Blood of Dawnwalker is my new favorite vampire game and one of the best story-driven RPGs I’ve played in a long time,\" reads an excerpt from the review.",
+      "urls": [
+        "https://www.ign.com/articles/the-blood-of-dawnwalkers-most-popular-mod-completely-defeats-the-purpose-of-the-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the day night cycle that has you juggling human and vampiric forms is awesome and the constraints placed on how you spend your limited time ends up being one of the coolest most wonderfully stressful parts of the adventure",
+      "value": "The day/night cycle that has you juggling human and vampiric forms is awesome, and the constraints placed on how you spend your limited time ends up being one of the coolest, most wonderfully stressful parts of the adventure.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The day/night cycle that has you juggling human and vampiric forms is awesome, and the constraints placed on how you spend your limited time ends up being one of the coolest, most wonderfully stressful parts of the adventure.\"\n\nCade Onder is a freelancer for IGN&#x27;s news team.",
+      "urls": [
+        "https://www.ign.com/articles/the-blood-of-dawnwalkers-most-popular-mod-completely-defeats-the-purpose-of-the-game"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 3,
+  "ourData": [
+    {
+      "game": "The Blood of Dawnwalker",
+      "concurrent": 41165,
+      "rank": 25,
+      "change24h": 5.8,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
