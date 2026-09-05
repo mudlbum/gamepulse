@@ -1,0 +1,70 @@
+{
+  "generated": "2026-09-05T00:28:30.211Z",
+  "workingTitle": "Star Wars Zero Company: The Kotaku Review",
+  "heat": 50.6,
+  "outletCount": 5,
+  "outlets": [
+    "Kotaku",
+    "Polygon",
+    "Game Developer",
+    "Push Square",
+    "Nintendo Life"
+  ],
+  "newest": "2026-09-04T21:40:42.000Z",
+  "readableCount": 4,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Star Wars Zero Company: The Kotaku Review",
+        "url": "https://kotaku.com/star-wars-zero-company-review-is-it-good-performance-ps5-xcom-2000731426",
+        "date": "2026-09-04T21:40:42.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Strategically making Star Wars Zero Company, ft. Greg Foertsch",
+        "url": "https://www.gamedeveloper.com/production/strategically-making-star-wars-zero-company-ft-greg-foertsch",
+        "date": "2026-09-04T14:15:00.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Review: Star Wars Zero Company (PS5) - A Perfect Pairing of Licence and Genre Imperfectly Executed",
+        "url": "https://www.pushsquare.com/reviews/ps5/star-wars-zero-company",
+        "date": "2026-09-04T14:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Review: Star Racer (Switch) - An Indie F-Zero Through And Through",
+        "url": "https://www.nintendolife.com/reviews/switch-eshop/star-racer",
+        "date": "2026-09-03T15:00:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "Polygon",
+        "title": "'Star Wars: Revenge of the Sith' Officially Gets a New Sequel, and It's a 10/10 Masterpiece",
+        "url": "https://www.polygon.com/star-wars-andor-prequel-10/10/",
+        "date": "2026-09-04T21:00:14.000Z",
+        "host": "www.polygon.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [],
+  "factCount": 0,
+  "evidenceCount": 0,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

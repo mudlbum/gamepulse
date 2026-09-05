@@ -1,0 +1,94 @@
+{
+  "generated": "2026-09-05T00:28:30.290Z",
+  "workingTitle": "Who Should Receive Farkas’ Ring In The Blood Of Dawnwalker – The Ring Guide",
+  "heat": 47.1,
+  "outletCount": 4,
+  "outlets": [
+    "GameSpot",
+    "Destructoid",
+    "PCGamesN",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-09-04T23:00:45.000Z",
+  "readableCount": 3,
+  "sourceCount": 6,
+  "games": [
+    "The Blood of Dawnwalker",
+    "ARK: Survival Ascended"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "All recipes in The Blood of Dawnwalker and how to make them",
+        "url": "https://www.destructoid.com/all-recipes-in-the-blood-of-dawnwalker-and-how-to-make-them/",
+        "date": "2026-09-03T18:49:25.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Blood of Dawnwalker Bittersweet Toast mission - should you poison Ambrus?",
+        "url": "https://www.pcgamesn.com/dawnwalker/bittersweet-toast",
+        "date": "2026-09-03T14:54:44.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "The Blood of Dawnwalker - should you invite Ambrus in?",
+        "url": "https://www.pcgamesn.com/dawnwalker/invite-ambrus-in",
+        "date": "2026-09-03T11:43:23.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Who Should Receive Farkas’ Ring In The Blood Of Dawnwalker – The Ring Guide",
+        "url": "https://www.gamespot.com/articles/blood-of-dawnwalker-the-ring-farkas/",
+        "date": "2026-09-04T23:00:45.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "How To Complete The Gilded Gauntlet In The Blood Of Dawnwalker – Ambrus Boss Guide",
+        "url": "https://www.gamespot.com/articles/blood-of-dawnwalker-gilded-gauntlet-ambrus/",
+        "date": "2026-09-04T22:59:03.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "How To Complete The Lunar Game In The Blood Of Dawnwalker – Bakir Boss Guide",
+        "url": "https://www.gamespot.com/articles/blood-of-dawnwalker-lunar-game-bakir/",
+        "date": "2026-09-04T22:51:37.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [],
+  "factCount": 0,
+  "evidenceCount": 0,
+  "ourData": [
+    {
+      "game": "The Blood of Dawnwalker",
+      "concurrent": 42461,
+      "rank": 28,
+      "change24h": -5,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    },
+    {
+      "game": "ARK: Survival Ascended",
+      "concurrent": 25025,
+      "rank": 49,
+      "change24h": 30.2,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

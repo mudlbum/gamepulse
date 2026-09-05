@@ -1,15 +1,45 @@
 {
-  "decided": "2026-09-04T00:32:49.634Z",
+  "decided": "2026-09-05T00:28:30.809Z",
   "publish": true,
-  "reason": "selected on score 51.7",
+  "reason": "selected on score 43.7",
   "brief": "2026-09-04-xbox-to-cap-cloud-gaming-hours-for-game-pass-subscribers.json",
   "title": "Xbox to cap Cloud Gaming hours for Game Pass subscribers",
   "considered": [
     {
+      "file": "2026-09-05-who-should-receive-farkas-ring-in-the-blood-of-dawnwalker-th.json",
+      "title": "Who Should Receive Farkas’ Ring In The Blood Of Dawnwalker – The Ring Guide",
+      "pass": false,
+      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-05-star-wars-zero-company-the-kotaku-review.json",
+      "title": "Star Wars Zero Company: The Kotaku Review",
+      "pass": false,
+      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-05-square-wants-final-fantasy-resonance-to-be-both-a-tribute-to.json",
+      "title": "Square Wants Final Fantasy Resonance To Be Both A Tribute To Its Past And A Gateway To Its Future",
+      "pass": false,
+      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-05-onimusha-way-of-the-sword-gets-a-launch-day-discount-at-fana.json",
+      "title": "Onimusha: Way of the Sword Gets a Launch Day Discount at Fanatical",
+      "pass": false,
+      "reason": "0 of 11 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-09-05-all-endings-in-the-blood-of-dawnwalker-including-both-secret.json",
+      "title": "All Endings In The Blood Of Dawnwalker, Including Both Secret Endings",
+      "pass": false,
+      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
       "file": "2026-09-04-xbox-to-cap-cloud-gaming-hours-for-game-pass-subscribers.json",
       "title": "Xbox to cap Cloud Gaming hours for Game Pass subscribers",
       "pass": true,
-      "reason": "4/20 claims corroborated · 6 outlets · primary source · 1h old"
+      "reason": "4/20 claims corroborated · 6 outlets · primary source · 25h old"
     },
     {
       "file": "2026-09-04-the-first-big-crimson-desert-dlc-arrives-in-october-seems-to.json",
@@ -22,36 +52,6 @@
       "title": "The Blood of Dawnwalker's Most Popular Mod Completely Defeats the Purpose of the Game",
       "pass": false,
       "reason": "only 1/6 source bodies were readable — nothing to fact-check against"
-    },
-    {
-      "file": "2026-09-04-round-up-what-was-announced-in-sonys-state-of-play-livestrea.json",
-      "title": "Round Up: What Was Announced in Sony's State of Play Livestream for September 2026?",
-      "pass": false,
-      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-04-final-fantasy-7-revelation-will-ship-on-one-ps5-disc-digital.json",
-      "title": "Final Fantasy 7 Revelation Will Ship on One PS5 Disc, Digital Download Required",
-      "pass": true,
-      "reason": "3/16 claims corroborated · 9 outlets · secondary only · 6h old"
-    },
-    {
-      "file": "2026-09-01-the-blood-of-dawnwalker-pc-settings-guide-maximize-your-pc-p.json",
-      "title": "The Blood of Dawnwalker PC Settings Guide: Maximize Your PC Performance By Tweaking These Options",
-      "pass": false,
-      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-01-roundup-the-first-reviews-have-dropped-for-onimusha-way-of-t.json",
-      "title": "Roundup: The First Reviews Have Dropped For Onimusha: Way Of The Sword, And They're Very Good",
-      "pass": false,
-      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-01-pokemon-world-championships-2026-was-absolute-chaos.json",
-      "title": "Pokémon World Championships 2026 Was Absolute Chaos",
-      "pass": false,
-      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }
