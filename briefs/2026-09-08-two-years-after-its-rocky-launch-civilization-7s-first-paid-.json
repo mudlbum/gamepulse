@@ -1,0 +1,260 @@
+{
+  "generated": "2026-09-08T00:48:10.663Z",
+  "workingTitle": "Two years after its rocky launch, Civilization 7's first paid expansion Earthrise is on its way - but first comes the atomic age",
+  "heat": 44.2,
+  "outletCount": 5,
+  "outlets": [
+    "Eurogamer",
+    "Destructoid",
+    "Kotaku",
+    "Nintendo Life",
+    "PCGamesN"
+  ],
+  "newest": "2026-09-07T17:31:14.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Eurogamer",
+        "title": "Two years after its rocky launch, Civilization 7's first paid expansion Earthrise is on its way - but first comes the atomic age",
+        "url": "https://www.eurogamer.net/civilization-7-paid-expansion-earthrise-atomic-age-free-update",
+        "date": "2026-09-07T17:31:14.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "It took two years, but Civilization 7 is finally reaching the Atomic Age with a free update",
+        "url": "https://www.destructoid.com/civilization-7-atomic-age/",
+        "date": "2026-09-06T17:35:35.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Civilization 7’s Biggest Free Update Yet Will Finally Take It To The Atomic Age Over Two Years Later",
+        "url": "https://kotaku.com/civilization-7s-biggest-free-update-yet-will-finally-take-it-to-the-atomic-age-over-two-years-later-2000731669",
+        "date": "2026-09-06T16:05:17.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Civilization VII Unveils First Expansion \"Earthrise\" And Major Free Update",
+        "url": "https://www.nintendolife.com/news/2026/09/civilization-vii-unveils-first-expansion-earthrise-and-major-free-update",
+        "date": "2026-09-06T13:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Civilization 7 will finally enter the Atomic Age with a free update, followed by a space race DLC",
+        "url": "https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc",
+        "date": "2026-09-06T10:57:10.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "there s a compelling need to honour the uncertainty and fear present in where proxy warfare became the new norm by which global conflict was conducted and the spectre of nuclear war loomed as it still does today",
+      "value": "There's a compelling need to honour the uncertainty and fear present in , where proxy warfare became the new norm by which global conflict was conducted and the spectre of nuclear war loomed, as it still does today,",
+      "outlets": [
+        "Eurogamer",
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"There's a compelling need to honour the uncertainty and fear present in , where proxy warfare became the new norm by which global conflict was conducted and the spectre of nuclear war loomed, as it still does today,\" Firaxis writes.",
+      "urls": [
+        "https://www.eurogamer.net/civilization-7-paid-expansion-earthrise-atomic-age-free-update",
+        "https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:1.5.0",
+      "value": "Update 1.5.0",
+      "outlets": [
+        "Kotaku",
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Update 1.5.0 is also just around the corner, with tweaks to diplomacy, resource generation, and the addition of some new maps.",
+      "urls": [
+        "https://kotaku.com/civilization-7s-biggest-free-update-yet-will-finally-take-it-to-the-atomic-age-over-two-years-later-2000731669",
+        "https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "from humanity s earliest days we have always been fascinated with the sky",
+      "value": "From humanity's earliest days, we have always been fascinated with the sky,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"From humanity's earliest days, we have always been fascinated with the sky,\" it writes.",
+      "urls": [
+        "https://www.eurogamer.net/civilization-7-paid-expansion-earthrise-atomic-age-free-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "in earthrise that sense of wonder shapes your civilisation s story from the antiquity age all the way to the near future",
+      "value": "In Earthrise, that sense of wonder shapes your civilisation's story from the Antiquity Age all the way to the near future.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"In Earthrise, that sense of wonder shapes your civilisation's story from the Antiquity Age all the way to the near future.\"\n\nDetails on Earthrise are currently limited, but Firaxis says it's currently 'envisioning' space-themed gameplay mechanics that unlock new bonuses in each Age.",
+      "urls": [
+        "https://www.eurogamer.net/civilization-7-paid-expansion-earthrise-atomic-age-free-update"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:13.0.5",
+      "value": "Version 13.0.5",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ultimate Version 13.0.5 Is Now Live, Here Are The Full Patch Notes\n\nMario Kart 8 Deluxe Has Been Updated To Version 4.0.0, Here Are The Full Patch Notes\n\nNintendo Expands Switch Online's NES Library With Three More Titles\n\nVideo: Here's What Nintendo's Revised Switch 2 Console Looks Like\n\nReview: Onimusha: Way Of The Sword (Switch 2) - Capcom Delivers A Superb Samurai Revival",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/civilization-vii-unveils-first-expansion-earthrise-and-major-free-update"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:4.0.0",
+      "value": "Version 4.0.0",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ultimate Version 13.0.5 Is Now Live, Here Are The Full Patch Notes\n\nMario Kart 8 Deluxe Has Been Updated To Version 4.0.0, Here Are The Full Patch Notes\n\nNintendo Expands Switch Online's NES Library With Three More Titles\n\nVideo: Here's What Nintendo's Revised Switch 2 Console Looks Like\n\nReview: Onimusha: Way Of The Sword (Switch 2) - Capcom Delivers A Superb Samurai Revival",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/civilization-vii-unveils-first-expansion-earthrise-and-major-free-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "keep things fresh even on a familiar map",
+      "value": "keep things fresh even on a familiar map.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Expect the likes of Natural Wonders to appear in their correct locations too, although Firaxis notes that different ones will be spawned each game to \"keep things fresh even on a familiar map.\"\n\nPatch 1.5.0 also updates two more maps using the team's new 'Voronoi map generation' algorithm, which is designed to create more varied, natural-feeling layouts.",
+      "urls": [
+        "https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "without joining your allies misguided wars",
+      "value": "without joining your allies' misguided wars.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Diplomacy updates will let you use Influence to stay in an alliance \"without joining your allies' misguided wars.\" Map loading and generation has been sped up, with more varied resource placement, and you can also expect improved plot tooltips, settlement banners, and game setup, along with a tile ruler to aid city planning.",
+      "urls": [
+        "https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "our shared proximity to the recent past makes it a unique and fascinating period of history to explore",
+      "value": "Our shared proximity to the recent past makes it a unique and fascinating period of history to explore,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Our shared proximity to the recent past makes it a unique and fascinating period of history to explore,\" Firaxis notes.",
+      "urls": [
+        "https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the historic space race and deploying missions across the solar system",
+      "value": "the historic space race and deploying missions across the solar system.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This is themed around \"the historic space race and deploying missions across the solar system.\" Don't expect to go full Civilization: Beyond Earth, perhaps, although that doesn't mean the new gameplay included in Earthrise is limited to the endgame.",
+      "urls": [
+        "https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "chart the night sky and name the celestial bodies above",
+      "value": "chart the night sky and name the celestial bodies above.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Humanity's interest in the stars can begin in the Antiquity or Exploration Ages, where you're able to \"chart the night sky and name the celestial bodies above.\" Once you reach the Modern Age, you'll gain the ability to launch \"early orbital missions around Earth and the Moon,\" and then the true space race begins in the Atomic Age.",
+      "urls": [
+        "https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "planetary features and untapped resources",
+      "value": "planetary features and untapped resources",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Set up your own national space agency, launch missions across the stars, and discover \"planetary features and untapped resources\" that can feed back into bolstering your civ's power back home.",
+      "urls": [
+        "https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this is all just a brief glimpse of the plans we have in store",
+      "value": "This is all just a brief glimpse of the plans we have in store,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Expect more news on the Earthrise DLC \"in the coming months.\"\n\n\"This is all just a brief glimpse of the plans we have in store,\" Creative Director Ed Beach concludes.",
+      "urls": [
+        "https://www.pcgamesn.com/civilization-vii/arc-of-tomorrow-update-earthrise-dlc"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 13,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "11 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

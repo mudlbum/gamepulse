@@ -1,0 +1,271 @@
+{
+  "generated": "2026-09-08T00:48:10.442Z",
+  "workingTitle": "Onimusha: Way of the Sword New Game Plus, Explained",
+  "heat": 66.7,
+  "outletCount": 7,
+  "outlets": [
+    "Destructoid",
+    "IGN",
+    "Nintendo Life",
+    "Eurogamer",
+    "PC Gamer",
+    "PCGamesN",
+    "GameSpot"
+  ],
+  "newest": "2026-09-07T16:50:06.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "The Blood of Dawnwalker",
+    "Onimusha: Way of the Sword"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Onimusha: Way of the Sword New Game Plus, Explained",
+        "url": "https://www.destructoid.com/onimusha-way-of-the-sword-new-game-plus-explained/",
+        "date": "2026-09-07T16:50:06.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "As Onimusha: Way of the Sword Sells Over 1 Million Day One, Capcom Says It's 'Focusing on Re-Activating IPs That Haven’t Had a New Title Launch Recently'",
+        "url": "https://www.ign.com/articles/as-onimusha-way-of-the-sword-sells-over-1-million-day-one-capcom-says-its-focusing-on-re-activating-ips-that-havent-had-a-new-title-launch-recently",
+        "date": "2026-09-07T14:02:33.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Onimusha: Way Of The Sword Sells 1 Million Copies In Just One Day",
+        "url": "https://www.nintendolife.com/news/2026/09/onimusha-way-of-the-sword-sells-1-million-copies-in-just-one-day",
+        "date": "2026-09-07T13:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to get all charms in Onimusha: Way of the Sword and their effects",
+        "url": "https://www.destructoid.com/how-to-get-all-charms-in-onimusha-way-of-the-sword-and-their-effects/",
+        "date": "2026-09-07T12:19:00.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Onimusha: Way of the Sword has already sold over 1 million copies",
+        "url": "https://www.eurogamer.net/onimusha-way-of-the-sword-one-million-sales",
+        "date": "2026-09-07T10:19:15.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "The Blood of Dawnwalker sold 1 million copies in just 3 days",
+        "url": "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-sold-1-million-copies-in-just-3-days/",
+        "date": "2026-09-06T19:52:51.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:n:10000000:copies",
+      "value": "10 million copies",
+      "outlets": [
+        "Nintendo Life",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "With the 2015 run of had remasters and remake and zero being put outside of a Nintendo console most of not all the he remastered games have sold upwards of 10 million copies.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/onimusha-way-of-the-sword-sells-1-million-copies-in-just-one-day",
+        "https://www.eurogamer.net/onimusha-way-of-the-sword-one-million-sales"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:n:1000000:copies",
+      "value": "1 million copies",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Capcom looks like it has yet another hit video game on its hands, with Onimusha: Way of the Sword selling over 1 million copies on launch day.",
+      "urls": [
+        "https://www.ign.com/articles/as-onimusha-way-of-the-sword-sells-over-1-million-day-one-capcom-says-its-focusing-on-re-activating-ips-that-havent-had-a-new-title-launch-recently"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:10000000:units",
+      "value": "10 million units",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The milestone pushed total Onimusha franchise sales over the 10 million units sold mark, 20 years after the last new game in the series came out.",
+      "urls": [
+        "https://www.ign.com/articles/as-onimusha-way-of-the-sword-sells-over-1-million-day-one-capcom-says-its-focusing-on-re-activating-ips-that-havent-had-a-new-title-launch-recently"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:1000000:units",
+      "value": "1 million units",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "through several marketing initiatives prior to launch, such as multiple demo releases and hands-on exhibitions, Capcom worked to expand awareness among a broad range of users, resulting in sales surpassing 1 million units on the day of its release,” Capcom said in a statement online.",
+      "urls": [
+        "https://www.ign.com/articles/as-onimusha-way-of-the-sword-sells-over-1-million-day-one-capcom-says-its-focusing-on-re-activating-ips-that-havent-had-a-new-title-launch-recently"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:87",
+      "value": "up 87%",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We don't have specific data for each platform, so it's not clear how well Switch 2 did with its Onimusha sales, but with today's UK Charts at least, the platform split leant heavily in favour of the PS5, with Sony's console making up 87% of the split.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/onimusha-way-of-the-sword-sells-1-million-copies-in-just-one-day"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a successful revival of capcom s samurai franchise that pushes its gameplay in an exciting new direction while still retaining its core identity",
+      "value": "a successful revival of Capcom's samurai franchise that pushes its gameplay in an exciting new direction while still retaining its core identity",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We called it \"a successful revival of Capcom's samurai franchise that pushes its gameplay in an exciting new direction while still retaining its core identity\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/onimusha-way-of-the-sword-sells-1-million-copies-in-just-one-day"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:13.0.5",
+      "value": "Version 13.0.5",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ultimate Version 13.0.5 Is Now Live, Here Are The Full Patch Notes\n\nMario Kart 8 Deluxe Has Been Updated To Version 4.0.0, Here Are The Full Patch Notes\n\nNintendo Expands Switch Online's NES Library With Three More Titles\n\nVideo: Here's What Nintendo's Revised Switch 2 Console Looks Like\n\nReview: Onimusha: Way Of The Sword (Switch 2) - Capcom Delivers A Superb Samurai Revival",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/onimusha-way-of-the-sword-sells-1-million-copies-in-just-one-day"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:4.0.0",
+      "value": "Version 4.0.0",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ultimate Version 13.0.5 Is Now Live, Here Are The Full Patch Notes\n\nMario Kart 8 Deluxe Has Been Updated To Version 4.0.0, Here Are The Full Patch Notes\n\nNintendo Expands Switch Online's NES Library With Three More Titles\n\nVideo: Here's What Nintendo's Revised Switch 2 Console Looks Like\n\nReview: Onimusha: Way Of The Sword (Switch 2) - Capcom Delivers A Superb Samurai Revival",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/onimusha-way-of-the-sword-sells-1-million-copies-in-just-one-day"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:85100:concurrent",
+      "value": "85,081 concurrent",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Over on Steam, the game peaked at 85,081 concurrent players (via SteamDB), and ranks among the best-selling games on the platform at the moment.",
+      "urls": [
+        "https://www.eurogamer.net/onimusha-way-of-the-sword-one-million-sales"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "thank you for playing sharing supporting and being part of the community",
+      "value": "Thank you for playing, sharing, supporting, and being part of the community,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Thank you for playing, sharing, supporting, and being part of the community,\" the developer wrote in its celebratory post.",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-sold-1-million-copies-in-just-3-days/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "blood of dawnwalker is an effective piece of worldbuilding and storytelling then but it doesn t make good on its promise as an innovative piece of rpg design",
+      "value": "Blood of Dawnwalker is an effective piece of worldbuilding and storytelling then, but it doesn't make good on its promise as an innovative piece of RPG design,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Blood of Dawnwalker is an effective piece of worldbuilding and storytelling then, but it doesn't make good on its promise as an innovative piece of RPG design,\" Shaun wrote.",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-sold-1-million-copies-in-just-3-days/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "maybe rebel wolves worried that too many players would fall afoul of the passage of time and thus loosened its severity",
+      "value": "Maybe Rebel Wolves worried that too many players would fall afoul of the passage of time and thus loosened its severity.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Maybe Rebel Wolves worried that too many players would fall afoul of the passage of time and thus loosened its severity.\"\n\nHe was even more on the money than he could have realized when he wrote that: Some of the first mods for Dawnwalker do away with the time limit entirely.",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/the-blood-of-dawnwalker-sold-1-million-copies-in-just-3-days/"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 12,
+  "ourData": [
+    {
+      "game": "The Blood of Dawnwalker",
+      "concurrent": 42048,
+      "rank": 28,
+      "change24h": -19.7,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    },
+    {
+      "game": "Onimusha: Way of the Sword",
+      "concurrent": 27457,
+      "rank": 45,
+      "change24h": -3.5,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "11 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
