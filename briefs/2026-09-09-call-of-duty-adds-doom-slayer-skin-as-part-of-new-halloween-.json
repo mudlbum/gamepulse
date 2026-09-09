@@ -1,0 +1,98 @@
+{
+  "generated": "2026-09-09T00:51:18.072Z",
+  "workingTitle": "Call of Duty Adds Doom Slayer Skin as Part of New Halloween Update",
+  "heat": 30.6,
+  "outletCount": 3,
+  "outlets": [
+    "IGN",
+    "GameSpot",
+    "Pure Xbox"
+  ],
+  "newest": "2026-09-08T20:04:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 5,
+  "games": [
+    "Halloween: The Game",
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Call of Duty Adds Doom Slayer Skin as Part of New Halloween Update",
+        "url": "https://www.ign.com/articles/call-of-duty-adds-doom-slayer-skin-as-part-of-new-halloween-update",
+        "date": "2026-09-08T20:04:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Seven New Xbox Games Are Out Today, Including A Call Of Duty Game Pass Release (September 8)",
+        "url": "https://www.purexbox.com/news/2026/09/seven-new-xbox-games-are-out-today-including-a-call-of-duty-game-pass-release-september-8",
+        "date": "2026-09-08T10:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Three Games Are Confirmed For Xbox Game Pass This Week (September 8-10)",
+        "url": "https://www.purexbox.com/news/2026/09/three-games-are-confirmed-for-xbox-game-pass-this-week-september-8-10",
+        "date": "2026-09-07T10:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Guide: Xbox Adds More Perks For Game Pass Members (September 2026)",
+        "url": "https://www.purexbox.com/guides/xbox-adds-more-perks-for-game-pass-members-september-2026",
+        "date": "2026-09-06T11:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Xbox Game Pass Adds A Great Call Of Duty Game Today",
+        "url": "https://www.gamespot.com/articles/xbox-game-pass-adds-a-great-call-of-duty-game-today/",
+        "date": "2026-09-08T19:34:51.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "hit the premium rewards track for more customisation options xp boosts and more",
+      "value": "Hit the premium rewards track for more customisation options, XP boosts and more.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "September 2026's Crew Pack includes the Prisma Outfit, Prisma Wings Back Bling, and Rainboard Pickaxe!\"\n\n\"Hit the premium rewards track for more customisation options, XP boosts and more.\" (requires logging into Fortnite at least once per-month)\n\n\"Xbox Game Pass subscribers need to log in after each version update to unlock special in-game rewards.",
+      "urls": [
+        "https://www.purexbox.com/guides/xbox-adds-more-perks-for-game-pass-members-september-2026"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [
+    {
+      "game": "Halloween: The Game",
+      "concurrent": 33639,
+      "rank": 33,
+      "change24h": 13.6,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    },
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

@@ -1,15 +1,45 @@
 {
-  "decided": "2026-09-08T00:48:11.471Z",
+  "decided": "2026-09-09T00:51:18.152Z",
   "publish": true,
-  "reason": "selected on score 32.5",
+  "reason": "selected on score 24.5",
   "brief": "2026-09-08-two-years-after-its-rocky-launch-civilization-7s-first-paid-.json",
   "title": "Two years after its rocky launch, Civilization 7's first paid expansion Earthrise is on its way - but first comes the atomic age",
   "considered": [
     {
+      "file": "2026-09-09-trump-administration-tetris-clone-vanishes-from-white-house-.json",
+      "title": "Trump Administration Tetris Clone Vanishes from White House Website Days After Launch",
+      "pass": false,
+      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-09-every-legend-of-zelda-game-on-the-nintendo-switch-and-switch.json",
+      "title": "Every Legend of Zelda Game on the Nintendo Switch and Switch 2 in 2026",
+      "pass": false,
+      "reason": "1 of 21 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-09-09-call-of-duty-black-ops-7-and-warzone-season-06-launches-the-.json",
+      "title": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
+      "pass": false,
+      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-09-call-of-duty-adds-doom-slayer-skin-as-part-of-new-halloween-.json",
+      "title": "Call of Duty Adds Doom Slayer Skin as Part of New Halloween Update",
+      "pass": false,
+      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-09-6-minutes-of-extra-ocarina-of-time-remake-gameplay.json",
+      "title": "6 Minutes Of Extra Ocarina Of Time Remake Gameplay",
+      "pass": false,
+      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
       "file": "2026-09-08-two-years-after-its-rocky-launch-civilization-7s-first-paid-.json",
       "title": "Two years after its rocky launch, Civilization 7's first paid expansion Earthrise is on its way - but first comes the atomic age",
       "pass": true,
-      "reason": "2/13 claims corroborated · 5 outlets · secondary only · 7h old"
+      "reason": "2/13 claims corroborated · 5 outlets · secondary only · 31h old"
     },
     {
       "file": "2026-09-08-riot-mmos-future-is-incredibly-bright-despite-co-founder-lik.json",
@@ -22,36 +52,6 @@
       "title": "Onimusha: Way of the Sword New Game Plus, Explained",
       "pass": false,
       "reason": "1 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-09-08-halloween-the-game-has-already-axed-its-very-weird-sex-minig.json",
-      "title": "Halloween The Game has already axed its very weird sex minigame",
-      "pass": false,
-      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-08-five-reasons-to-race-into-hot-wheels-infinite-rush-out-in-ea.json",
-      "title": "Five Reasons to Race into HOT WHEELS Infinite Rush, Out in Early Access Today",
-      "pass": false,
-      "reason": "0 of 10 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-09-05-who-should-receive-farkas-ring-in-the-blood-of-dawnwalker-th.json",
-      "title": "Who Should Receive Farkas’ Ring In The Blood Of Dawnwalker – The Ring Guide",
-      "pass": false,
-      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-05-star-wars-zero-company-the-kotaku-review.json",
-      "title": "Star Wars Zero Company: The Kotaku Review",
-      "pass": false,
-      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-05-square-wants-final-fantasy-resonance-to-be-both-a-tribute-to.json",
-      "title": "Square Wants Final Fantasy Resonance To Be Both A Tribute To Its Past And A Gateway To Its Future",
-      "pass": false,
-      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }

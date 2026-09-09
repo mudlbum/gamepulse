@@ -1,0 +1,385 @@
+{
+  "generated": "2026-09-09T00:51:14.531Z",
+  "workingTitle": "Every Legend of Zelda Game on the Nintendo Switch and Switch 2 in 2026",
+  "heat": 43.1,
+  "outletCount": 4,
+  "outlets": [
+    "IGN",
+    "Kotaku",
+    "Nintendo Life",
+    "Eurogamer"
+  ],
+  "newest": "2026-09-08T21:47:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Nintendo Switch 2"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Every Legend of Zelda Game on the Nintendo Switch and Switch 2 in 2026",
+        "url": "https://www.ign.com/articles/all-zelda-games-on-nintendo-switch",
+        "date": "2026-09-08T21:47:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Nintendo Intentionally Included Loading Screens in The Legend of Zelda: Ocarina of Time Remake, and Fans Are Torn",
+        "url": "https://www.ign.com/articles/nintendo-intentionally-included-loading-screens-in-the-legend-of-zelda-ocarina-of-time-remake-and-fans-are-torn",
+        "date": "2026-09-08T19:24:45.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "A Zelda 40th Anniversary Switch 2 Is Finally Giving Us Some Gorgeous Joy-Cons",
+        "url": "https://kotaku.com/a-zelda-40th-anniversary-switch-2-is-finally-giving-us-some-gorgeous-joy-cons-2000732158",
+        "date": "2026-09-08T15:34:29.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Zelda 40th Anniversary Special Edition Switch 2 Console & Pro Controller Launch This October",
+        "url": "https://www.nintendolife.com/news/2026/09/zelda-40th-anniversary-special-edition-switch-2-console-and-pro-controller-launch-this-october",
+        "date": "2026-09-08T14:40:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "The EU's new Nintendo Switch 2 model teardown confirms smaller battery, slightly heavier console",
+        "url": "https://www.eurogamer.net/nintendo-switch-2-eu-compliant-revision-teardown",
+        "date": "2026-09-08T09:24:43.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Video: Here's What Nintendo's Revised Switch 2 Console Looks Like",
+        "url": "https://www.nintendolife.com/news/2026/09/video-heres-what-nintendos-revised-switch-2-console-looks-like",
+        "date": "2026-09-07T14:15:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:500",
+      "value": "$499.99",
+      "outlets": [
+        "Kotaku",
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "But since I have one because I didn't want to pay $499.99 in September, and would have vastly preferred a Lite version or TV Home console version for $399.99, They left me no choice, So I hope this Zelda edition costs $499.99+ that way I know deep down that I would have never paid for console that is more than $500.",
+      "urls": [
+        "https://kotaku.com/a-zelda-40th-anniversary-switch-2-is-finally-giving-us-some-gorgeous-joy-cons-2000732158",
+        "https://www.nintendolife.com/news/2026/09/zelda-40th-anniversary-special-edition-switch-2-console-and-pro-controller-launch-this-october"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:n:10000000:copies",
+      "value": "10 million copies",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Legend of Zelda: Tears of the Kingdom hit the market in 2023, selling over 10 million copies in just three days as well as quite a few special edition Switch consoles.",
+      "urls": [
+        "https://www.ign.com/articles/all-zelda-games-on-nintendo-switch"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-03-26",
+      "value": "March 26, 2027",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Zelda movie will be releasing in theaters on March 26, 2027 and Nintendo has officially confirmed the actors playing both Link and Zelda.",
+      "urls": [
+        "https://www.ign.com/articles/all-zelda-games-on-nintendo-switch"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "preserve the essence of the original game",
+      "value": "This is something we intentionally kept to preserve the essence of the original game.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This is something we intentionally kept to preserve the essence of the original game.\"\n\nLet&#x27;s take a second to break down the footage.",
+      "urls": [
+        "https://www.ign.com/articles/nintendo-intentionally-included-loading-screens-in-the-legend-of-zelda-ocarina-of-time-remake-and-fans-are-torn"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "by the way there x27 s a loading screen whenever you move between areas",
+      "value": "By the way, there&#x27;s a loading screen whenever you move between areas,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"By the way, there&#x27;s a loading screen whenever you move between areas,\" Aonuma said as Link and Navi traveled from Kokiri Forest to Hyrule Field.",
+      "urls": [
+        "https://www.ign.com/articles/nintendo-intentionally-included-loading-screens-in-the-legend-of-zelda-ocarina-of-time-remake-and-fans-are-torn"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "loading times in to preserve feel",
+      "value": "Loading times in to preserve feel?",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Loading times in to preserve feel?\" one fan said.",
+      "urls": [
+        "https://www.ign.com/articles/nintendo-intentionally-included-loading-screens-in-the-legend-of-zelda-ocarina-of-time-remake-and-fans-are-torn"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-05",
+      "value": "November 5, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That and also the loading screens are two seconds, so who gives a s**t.\"\n\n“The loading screen is intentional to keep the nostalgia of the original game” Legend of Zelda direct making me laugh pic.twitter.com/9yKxMKNZav\n\nThe Legend of Zelda: Ocarina of Time remake launches for Switch 2 November 5, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/nintendo-intentionally-included-loading-screens-in-the-legend-of-zelda-ocarina-of-time-remake-and-fans-are-torn"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:9",
+      "value": "Update 9",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Update 9/8/2026, 2:32 p.m.",
+      "urls": [
+        "https://kotaku.com/a-zelda-40th-anniversary-switch-2-is-finally-giving-us-some-gorgeous-joy-cons-2000732158"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:520",
+      "value": "$519.99",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Nintendo Switch 2 – The Legend of Zelda – 40th Anniversary Edition up at Best Buy ($519.99) https://t.co/gJRQYtzx4J #ad pic.twitter.com/3QYOYpMimp\n\nDon’t miss the latest reviews, news and tips.",
+      "urls": [
+        "https://kotaku.com/a-zelda-40th-anniversary-switch-2-is-finally-giving-us-some-gorgeous-joy-cons-2000732158"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20000000",
+      "value": "$20 m",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That’s $20 more than normal price of a Switch 2, which was raised to $500 starting this month.",
+      "urls": [
+        "https://kotaku.com/a-zelda-40th-anniversary-switch-2-is-finally-giving-us-some-gorgeous-joy-cons-2000732158"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:600",
+      "value": "$599.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If it's $599.99 or $649.99, I will feel a lot better for not getting it seeing as I got a Switch 2 on July 2026.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/zelda-40th-anniversary-special-edition-switch-2-console-and-pro-controller-launch-this-october"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:650",
+      "value": "$649.99,",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If it's $599.99 or $649.99, I will feel a lot better for not getting it seeing as I got a Switch 2 on July 2026.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/zelda-40th-anniversary-special-edition-switch-2-console-and-pro-controller-launch-this-october"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:550",
+      "value": "$549.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Though I wouldn't be surprised if it's $549.99 if Nintendo has a \"Heart\" to those who have yet to get a Switch 2 and were holding off.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/zelda-40th-anniversary-special-edition-switch-2-console-and-pro-controller-launch-this-october"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400",
+      "value": "$399.99,",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But since I have one because I didn't want to pay $499.99 in September, and would have vastly preferred a Lite version or TV Home console version for $399.99, They left me no choice, So I hope this Zelda edition costs $499.99+ that way I know deep down that I would have never paid for console that is more than $500.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/zelda-40th-anniversary-special-edition-switch-2-console-and-pro-controller-launch-this-october",
+        "https://www.nintendolife.com/news/2026/09/video-heres-what-nintendos-revised-switch-2-console-looks-like"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "toggle for all switch 1 games from the start i m talking about what comes after",
+      "value": "toggle for all switch 1 games from the start, I'm talking about what comes after",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "So much for newer tech, and newer hardware, there should have been a \"Quality Mode/Performance\" toggle for all switch 1 games from the start, I'm talking about what comes after \"Handheld Boost Mode\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/zelda-40th-anniversary-special-edition-switch-2-console-and-pro-controller-launch-this-october"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "type questions being shouted as we all tried to kind of",
+      "value": "type questions being shouted, as we all tried to kind of",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "PS - 8p MK8 is cool, and it was fun having 8 people in the same room, but without the characters having name tags a la smash, there were far too many \"wait, who's Baby Mario?\" type questions being shouted, as we all tried to kind of \"connect\" with each other in real time over the action on screen.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/zelda-40th-anniversary-special-edition-switch-2-console-and-pro-controller-launch-this-october"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:13.0.5",
+      "value": "Version 13.0.5",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ultimate Version 13.0.5 Is Now Live, Here Are The Full Patch Notes\n\nZelda: Ocarina Of Time Launches On Switch 2 On 5th November 2026\n\nVideo: Here's What Nintendo's Revised Switch 2 Console Looks Like",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/zelda-40th-anniversary-special-edition-switch-2-console-and-pro-controller-launch-this-october",
+        "https://www.nintendolife.com/news/2026/09/video-heres-what-nintendos-revised-switch-2-console-looks-like"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:down:16",
+      "value": "16% decrease",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Switch 2 has a decrease of less than 1% capacity, the Pro Controller 2 has a more drastic 16% decrease and the GameCube controller instead has a 5% increase of battery capacity.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/video-heres-what-nintendos-revised-switch-2-console-looks-like"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:5",
+      "value": "5% increase",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Switch 2 has a decrease of less than 1% capacity, the Pro Controller 2 has a more drastic 16% decrease and the GameCube controller instead has a 5% increase of battery capacity.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/video-heres-what-nintendos-revised-switch-2-console-looks-like"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@AGuyWhoLikesNintendo And this is the mentality of throwaway culture; buy a $20 part that is designed to be easily user-swapped to fix the thing one already has, or spend $400+ and replace the entire thing...",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/video-heres-what-nintendos-revised-switch-2-console-looks-like"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "appreciate the change unlikely to ever use it",
+      "value": "appreciate the change, unlikely to ever use it",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's one of those \"appreciate the change, unlikely to ever use it\" features.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/video-heres-what-nintendos-revised-switch-2-console-looks-like"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 21,
+  "ourData": [
+    {
+      "game": "Nintendo Switch 2",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "20 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

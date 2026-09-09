@@ -1,0 +1,94 @@
+{
+  "generated": "2026-09-09T00:51:14.053Z",
+  "workingTitle": "6 Minutes Of Extra Ocarina Of Time Remake Gameplay",
+  "heat": 99,
+  "outletCount": 7,
+  "outlets": [
+    "GameSpot",
+    "IGN",
+    "Kotaku",
+    "Polygon",
+    "Destructoid",
+    "Nintendo Life",
+    "Eurogamer"
+  ],
+  "newest": "2026-09-09T00:00:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "40 Changes We Noticed in the Zelda: Ocarina of Time Remake Gameplay Footage",
+        "url": "https://www.ign.com/articles/40-changes-we-noticed-in-the-zelda-ocarina-of-time-remake-gameplay-footage",
+        "date": "2026-09-08T21:44:55.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Zelda: Ocarina Of Time Remake Changes One Of The Most Iconic Sounds In Gaming And It’s Weird",
+        "url": "https://kotaku.com/ocarina-of-time-zelda-remake-navi-voice-2000732390",
+        "date": "2026-09-08T21:00:36.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "The Zelda: Ocarina of Time Remake's Art Style Has Completely Divided Fans. Everyone Is Right",
+        "url": "https://www.polygon.com/legend-zelda-ocarina-time-art-style-debate/",
+        "date": "2026-09-08T20:04:38.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "25 Zelda: Ocarina Of Time Comparison Shots Showing How Lovely The Remake Looks Compared To The Original",
+        "url": "https://kotaku.com/25-ocarina-of-time-zelda-remake-screenshots-comparison-2000732231",
+        "date": "2026-09-08T20:00:52.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "6 Minutes Of Extra Ocarina Of Time Remake Gameplay",
+        "url": "https://www.gamespot.com/videos/6-minutes-of-extra-ocarina-of-time-remake-gameplay/",
+        "date": "2026-09-09T00:00:00.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "Why Is Link The Worst-Looking Character In The Ocarina Of Time Remake?",
+        "url": "https://www.gamespot.com/articles/why-is-link-the-worst-looking-character-in-the-ocarina-of-time-remake/",
+        "date": "2026-09-08T19:18:26.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-11-05",
+      "value": "November 5, 2026",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Ocarina of Time remake is out on November 5, 2026, for Nintendo Switch 2.",
+      "urls": [
+        "https://kotaku.com/25-ocarina-of-time-zelda-remake-screenshots-comparison-2000732231"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

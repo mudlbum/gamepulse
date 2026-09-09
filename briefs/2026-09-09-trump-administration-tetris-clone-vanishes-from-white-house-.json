@@ -1,0 +1,146 @@
+{
+  "generated": "2026-09-09T00:51:17.584Z",
+  "workingTitle": "Trump Administration Tetris Clone Vanishes from White House Website Days After Launch",
+  "heat": 38.6,
+  "outletCount": 4,
+  "outlets": [
+    "IGN",
+    "PC Gamer",
+    "Kotaku",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-09-08T20:29:40.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Trump Administration Tetris Clone Vanishes from White House Website Days After Launch",
+        "url": "https://www.ign.com/articles/trump-administration-tetris-clone-vanishes-from-white-house-website-days-after-launch",
+        "date": "2026-09-08T20:29:40.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Just days after The Tetris Company warned that 'we take copyright infringement very seriously,' the Tetris clone in the White House Arcade suddenly disappears",
+        "url": "https://www.pcgamer.com/games/just-days-after-the-tetris-company-warned-that-we-take-copyright-infringement-very-seriously-the-tetris-clone-in-the-white-house-arcade-suddenly-disappears/",
+        "date": "2026-09-08T18:19:29.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "White House Removes Awful Tetris Clone From Website After The Tetris Company Posted It Takes ‘Copyright Infringement Very Seriously’",
+        "url": "https://kotaku.com/tetris-clone-white-house-trump-build-wall-removed-copyright-2000732129",
+        "date": "2026-09-08T15:23:57.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Trump regime's Tetris ripoff yanked from White House website after Tetris Company declare they \"take copyright infringement very seriously\"",
+        "url": "https://www.rockpapershotgun.com/trump-regimes-tetris-ripoff-yanked-from-white-house-website-after-tetris-company-declare-they-take-copyright-infringement-very-seriously",
+        "date": "2026-09-08T12:45:22.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "protect the border from the incoming horde",
+      "value": "protect the border from the incoming horde,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Aside from the criticism it received for its subject matter, which asked players to \"protect the border from the incoming horde,\" players quickly realized the game itself didn&#x27;t seem to be winnable at all.",
+      "urls": [
+        "https://www.ign.com/articles/trump-administration-tetris-clone-vanishes-from-white-house-website-days-after-launch"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "at tetris we believe in the power of connection and bringing people together not dividing them",
+      "value": "At Tetris, we believe in the power of connection and bringing people together, not dividing them,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"At Tetris, we believe in the power of connection and bringing people together, not dividing them,\" it said.",
+      "urls": [
+        "https://www.ign.com/articles/trump-administration-tetris-clone-vanishes-from-white-house-website-days-after-launch"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to our fans everywhere we love you we see you and we x27 re grateful to have you in our community",
+      "value": "To our fans everywhere: we love you, we see you, and we&#x27;re grateful to have you in our community.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"To our fans everywhere: we love you, we see you, and we&#x27;re grateful to have you in our community.\"\n\nP.S.",
+      "urls": [
+        "https://www.ign.com/articles/trump-administration-tetris-clone-vanishes-from-white-house-website-days-after-launch"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "copyright infringement very seriously",
+      "value": "copyright infringement very seriously,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "pic.twitter.com/Fu02khRpT3\n\nAlthough The Tetris Company also said it takes \"copyright infringement very seriously,\" it did not detail any specific plans to take action against Build the Wall.",
+      "urls": [
+        "https://www.ign.com/articles/trump-administration-tetris-clone-vanishes-from-white-house-website-days-after-launch"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "for more than 40 years tetris has brought people together across generations and cultures through play and joy",
+      "value": "For more than 40 years, Tetris has brought people together across generations and cultures through play and joy,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"For more than 40 years, Tetris has brought people together across generations and cultures through play and joy,\" it told the site.",
+      "urls": [
+        "https://www.ign.com/articles/trump-administration-tetris-clone-vanishes-from-white-house-website-days-after-launch"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the company added that they weren t involved in the creation of build the wall and that they",
+      "value": "The company added that they weren't involved in the creation of Build the Wall and that they",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "To our fans everywhere: we love you, and see you, and we're grateful to have you in our community.\" The company added that they weren't involved in the creation of Build the Wall and that they \"take copyright infringement very seriously\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/trump-regimes-tetris-ripoff-yanked-from-white-house-website-after-tetris-company-declare-they-take-copyright-infringement-very-seriously"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

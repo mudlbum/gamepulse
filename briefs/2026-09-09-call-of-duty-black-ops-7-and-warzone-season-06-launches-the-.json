@@ -1,0 +1,101 @@
+{
+  "generated": "2026-09-09T00:51:17.721Z",
+  "workingTitle": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
+  "heat": 37.6,
+  "outletCount": 4,
+  "outlets": [
+    "PlayStation Blog",
+    "GameSpot",
+    "Xbox Wire",
+    "Destructoid"
+  ],
+  "newest": "2026-09-08T18:43:44.000Z",
+  "readableCount": 2,
+  "sourceCount": 5,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "PlayStation Blog",
+        "title": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
+        "url": "https://blog.playstation.com/2026/09/08/call-of-duty-black-ops-7-and-warzone-season-06-launches-the-haunting-september-17/",
+        "date": "2026-09-08T18:43:44.000Z",
+        "host": "blog.playstation.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Doom Guy returns to CoD in Black Ops 7’s final season and fan-favorite The Haunting event",
+        "url": "https://www.destructoid.com/doom-guy-returns-cod-bo7-final-season-the-haunting/",
+        "date": "2026-09-08T17:01:03.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Check Out Call Of Duty’s Doom Skins In Black Ops 7 And Warzone",
+        "url": "https://www.gamespot.com/articles/check-out-call-of-dutys-doom-skins-in-black-ops-7-and-warzone/",
+        "date": "2026-09-08T18:20:49.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "CoD: Black Ops 7 And Warzone Season 6 Release Date And Details, Including Doom Crossover",
+        "url": "https://www.gamespot.com/articles/cod-black-ops-7-and-warzone-season-6-release-date-and-details-including-doom-crossover/",
+        "date": "2026-09-08T17:08:01.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-09-08",
+      "value": "September 8, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "September 8, 2026September 8, 2026 Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17 1 0 6 Like this The Haunting returns, bringing Bloodstead, Hordepoint, Haunted Hollow, Doom, and more.",
+      "urls": [
+        "https://blog.playstation.com/2026/09/08/call-of-duty-black-ops-7-and-warzone-season-06-launches-the-haunting-september-17/"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:06",
+      "value": "Season 06",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "September 8, 2026September 8, 2026 Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17 1 0 6 Like this The Haunting returns, bringing Bloodstead, Hordepoint, Haunted Hollow, Doom, and more.",
+      "urls": [
+        "https://blog.playstation.com/2026/09/08/call-of-duty-black-ops-7-and-warzone-season-06-launches-the-haunting-september-17/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [],
+  "factCount": 2,
+  "evidenceCount": 2,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
