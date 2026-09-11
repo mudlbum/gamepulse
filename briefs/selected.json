@@ -1,10 +1,40 @@
 {
-  "decided": "2026-09-09T00:51:18.152Z",
+  "decided": "2026-09-11T00:40:03.794Z",
   "publish": true,
-  "reason": "selected on score 24.5",
-  "brief": "2026-09-08-two-years-after-its-rocky-launch-civilization-7s-first-paid-.json",
-  "title": "Two years after its rocky launch, Civilization 7's first paid expansion Earthrise is on its way - but first comes the atomic age",
+  "reason": "selected on score 44.2",
+  "brief": "2026-09-11-xbox-to-publish-kojima-productions-physint-after-playstation.json",
+  "title": "Xbox to publish Kojima Productions' Physint after PlayStation ditches project",
   "considered": [
+    {
+      "file": "2026-09-11-xbox-to-publish-kojima-productions-physint-after-playstation.json",
+      "title": "Xbox to publish Kojima Productions' Physint after PlayStation ditches project",
+      "pass": true,
+      "reason": "3/13 claims corroborated · 8 outlets · secondary only · 5h old"
+    },
+    {
+      "file": "2026-09-11-nintendo-finally-adds-some-life-to-the-switch-2.json",
+      "title": "Nintendo Finally Adds Some Life To The Switch 2",
+      "pass": false,
+      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-11-marvels-wolverine-isnt-cutting-it-try-these-games-instead.json",
+      "title": "Marvel’s Wolverine Isn’t Cutting It? Try These Games Instead",
+      "pass": false,
+      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-11-good-days-have-come-to-gaming-as-ubisoft-connect-will-appare.json",
+      "title": "Good days have come to gaming as Ubisoft Connect will apparently no longer be required on Steam",
+      "pass": false,
+      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-11-final-fantasy-7-revelation-requires-a-download-instead-of-sh.json",
+      "title": "Final Fantasy 7 Revelation Requires A Download Instead Of Shipping Complete On Multiple Discs To Avoid Compromising The ‘Fidelity’ And ‘Quality’",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-09-09-trump-administration-tetris-clone-vanishes-from-white-house-.json",
       "title": "Trump Administration Tetris Clone Vanishes from White House Website Days After Launch",
@@ -22,36 +52,6 @@
       "title": "Call of Duty: Black Ops 7 and Warzone Season 06 launches The Haunting September 17",
       "pass": false,
       "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-09-call-of-duty-adds-doom-slayer-skin-as-part-of-new-halloween-.json",
-      "title": "Call of Duty Adds Doom Slayer Skin as Part of New Halloween Update",
-      "pass": false,
-      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-09-6-minutes-of-extra-ocarina-of-time-remake-gameplay.json",
-      "title": "6 Minutes Of Extra Ocarina Of Time Remake Gameplay",
-      "pass": false,
-      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-08-two-years-after-its-rocky-launch-civilization-7s-first-paid-.json",
-      "title": "Two years after its rocky launch, Civilization 7's first paid expansion Earthrise is on its way - but first comes the atomic age",
-      "pass": true,
-      "reason": "2/13 claims corroborated · 5 outlets · secondary only · 31h old"
-    },
-    {
-      "file": "2026-09-08-riot-mmos-future-is-incredibly-bright-despite-co-founder-lik.json",
-      "title": "Riot MMO's future is 'incredibly bright' despite co-founder likening its development to the grail: 'Many a brave knight are going to die'",
-      "pass": false,
-      "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-08-onimusha-way-of-the-sword-new-game-plus-explained.json",
-      "title": "Onimusha: Way of the Sword New Game Plus, Explained",
-      "pass": false,
-      "reason": "1 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
     }
   ]
 }

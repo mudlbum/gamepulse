@@ -1,0 +1,204 @@
+{
+  "generated": "2026-09-11T00:40:03.087Z",
+  "workingTitle": "Nintendo Finally Adds Some Life To The Switch 2",
+  "heat": 57.6,
+  "outletCount": 4,
+  "outlets": [
+    "GameSpot",
+    "Nintendo Life",
+    "Eurogamer",
+    "PCGamesN"
+  ],
+  "newest": "2026-09-10T23:34:58.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [
+    "Nintendo Switch 2"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Guide: Our Most Anticipated Nintendo Switch 1 & 2 Games In 2026",
+        "url": "https://www.nintendolife.com/guides/our-most-anticipated-nintendo-switch-1-and-2-games-in-2026",
+        "date": "2026-09-10T15:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Nintendo Switch 2 Welcome Tour Updated To Ver. 1.1.0, Here Are The Full Patch Notes",
+        "url": "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes",
+        "date": "2026-09-10T09:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Nintendo adds VRR support to docked Nintendo Switch 2 in latest console update",
+        "url": "https://www.eurogamer.net/nintendo-switch-2-update-vrr-support-docked",
+        "date": "2026-09-10T08:53:10.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Guide: Where To Pre-Order Metroid Ravenous For Switch 2, The Special Edition & amiibo",
+        "url": "https://www.nintendolife.com/guides/where-to-pre-order-metroid-ravenous-for-switch-2-the-special-edition-and-amiibo",
+        "date": "2026-09-10T08:00:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Nintendo Finally Adds Some Life To The Switch 2",
+        "url": "https://www.gamespot.com/articles/nintendo-finally-adds-some-life-to-the-switch-2/",
+        "date": "2026-09-10T23:34:58.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "Nintendo Adds VRR To Docked Nintendo Switch 2 Play In The Most Annoying Way",
+        "url": "https://www.gamespot.com/articles/nintendo-adds-vrr-to-docked-nintendo-switch-2-play-in-the-most-annoying-way/",
+        "date": "2026-09-10T17:44:58.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "version",
+      "key": "v:build:23.0.0",
+      "value": "version 23.0.0",
+      "outlets": [
+        "Nintendo Life",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Listed in the Switch 2 version 23.0.0 update released today, Nintendo explains that as long as both your TV and the software you're playing supports it, VRR should now work.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes",
+        "https://www.eurogamer.net/nintendo-switch-2-update-vrr-support-docked"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "key": "v:build:512gb",
+      "value": "version 512gb",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Plenty of cool game can coming on to Switch 2 the library is gonna be insane 256gb cant fit 10 games like this\n\nwaiting a improvement Battery and OLED version 512gb !",
+      "urls": [
+        "https://www.nintendolife.com/guides/our-most-anticipated-nintendo-switch-1-and-2-games-in-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "long lasting game backlog",
+      "value": "long lasting game backlog",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If I manage to shrink my \"long lasting game backlog\" sensibly (yes, I have 2 backlogs), I might also get Elden Ring.",
+      "urls": [
+        "https://www.nintendolife.com/guides/our-most-anticipated-nintendo-switch-1-and-2-games-in-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Of course, Kirby and the Forgotten Land DLC as well (I'm paying $20 for it, it seems worth it).",
+      "urls": [
+        "https://www.nintendolife.com/guides/our-most-anticipated-nintendo-switch-1-and-2-games-in-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@TKundNobody or maybe Nintendo could have absorbed those extra $10 and kept the console at the same price.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10000000",
+      "value": "$10 m",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Buy it or don’t - I thought it was great personally - but to still be complaining about something being $10 more than a year later is just strange to me.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:60",
+      "value": "$59.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The game is $69.99 / £58.99 physical, but $59.99 / £49.99 if you're happy with the digital version.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes",
+        "https://www.nintendolife.com/guides/where-to-pre-order-metroid-ravenous-for-switch-2-the-special-edition-and-amiibo"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$69.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The game is $69.99 / £58.99 physical, but $59.99 / £49.99 if you're happy with the digital version.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes",
+        "https://www.nintendolife.com/guides/where-to-pre-order-metroid-ravenous-for-switch-2-the-special-edition-and-amiibo"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 8,
+  "ourData": [
+    {
+      "game": "Nintendo Switch 2",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "7 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

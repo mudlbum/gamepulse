@@ -1,0 +1,135 @@
+{
+  "generated": "2026-09-11T00:40:03.621Z",
+  "workingTitle": "Marvel’s Wolverine Isn’t Cutting It? Try These Games Instead",
+  "heat": 56.7,
+  "outletCount": 6,
+  "outlets": [
+    "GameSpot",
+    "Kotaku",
+    "Eurogamer",
+    "Destructoid",
+    "IGN",
+    "Push Square"
+  ],
+  "newest": "2026-09-10T19:00:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Marvel’s Wolverine: The Kotaku Review",
+        "url": "https://kotaku.com/marvels-wolverine-review-insomniac-logan-jean-spider-man-2000732912",
+        "date": "2026-09-10T15:00:16.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Marvel's Wolverine review",
+        "url": "https://www.eurogamer.net/marvels-wolverine-review",
+        "date": "2026-09-10T15:00:15.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Marvel’s Wolverine review – Still the best there is at what he does",
+        "url": "https://www.destructoid.com/reviews/marvels-wolverine-review/",
+        "date": "2026-09-10T15:00:05.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Marvel's Wolverine Review",
+        "url": "https://www.ign.com/articles/marvels-wolverine-review",
+        "date": "2026-09-10T15:00:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Review: Marvel's Wolverine (PS5) - The Ultimate Wolverine Simulator",
+        "url": "https://www.pushsquare.com/reviews/ps5/marvels-wolverine",
+        "date": "2026-09-10T15:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Marvel’s Wolverine Isn’t Cutting It? Try These Games Instead",
+        "url": "https://www.gamespot.com/articles/marvels-wolverine-isnt-cutting-it-try-these-games-instead/",
+        "date": "2026-09-10T19:00:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "just because someone stumbles and loses their path doesn t mean they re lost forever",
+      "value": "Just because someone stumbles and loses their path, doesn't mean they're lost forever.",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Just because someone stumbles and loses their path, doesn't mean they're lost forever.\"\n\nThe core of the X-Men story still shines through, good performances, almost gleeful in the sort of “turn your brain off” bliss that comes from slicing people up.",
+      "urls": [
+        "https://kotaku.com/marvels-wolverine-review-insomniac-logan-jean-spider-man-2000732912"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "for crafting unlocked suits whiskey bottles that unlock upgrades",
+      "value": "for crafting unlocked suits; whiskey bottles that unlock upgrades;",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The collectibles, for instance, feel perhaps aptly like something from a distant and half-remembered gaming past: identikit crates that give you +50 \"material\" for crafting unlocked suits; whiskey bottles that unlock upgrades; \"caches\" that are just glowing blue or red non-entities dotted around the place that you whack for XP.",
+      "urls": [
+        "https://www.eurogamer.net/marvels-wolverine-review"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$70",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The fact that the game is 10-20 hours or so makes it worth the $70 to me and I feel like everyone will have a different take on the story.",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/marvels-wolverine"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "playstation style of game fatigue",
+      "value": "PlayStation style of game fatigue",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Most of the reviews I'm reading are starting to echo \"PlayStation style of game fatigue\" and Marvel fatigue.",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/marvels-wolverine"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

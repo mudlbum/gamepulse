@@ -1,0 +1,98 @@
+{
+  "generated": "2026-09-11T00:40:03.742Z",
+  "workingTitle": "Good days have come to gaming as Ubisoft Connect will apparently no longer be required on Steam",
+  "heat": 47.1,
+  "outletCount": 5,
+  "outlets": [
+    "Destructoid",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "Kotaku",
+    "PCGamesN"
+  ],
+  "newest": "2026-09-10T19:30:24.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Good days have come to gaming as Ubisoft Connect will apparently no longer be required on Steam",
+        "url": "https://www.destructoid.com/ubisoft-to-remove-connect-launcher-from-steam/",
+        "date": "2026-09-10T19:30:24.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Ubisoft games on Steam may soon no longer require the pesky Connect launcher, according to an announcement post that's weirdly tough to pin down",
+        "url": "https://www.rockpapershotgun.com/ubisoft-games-on-steam-may-soon-no-longer-require-the-pesky-connect-launcher-according-to-an-announcement-post-thats-weirdly-tough-to-pin-down",
+        "date": "2026-09-10T16:17:00.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Ubisoft Steam games to no longer require the Connect launcher, in \"initial step toward a smoother and more streamlined launch experience\"",
+        "url": "https://www.eurogamer.net/ubisoft-connect-steam-launcher-requirement-update",
+        "date": "2026-09-10T14:45:48.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Steam Users Might Finally Be Free From The Tyranny Of Ubisoft’s Hated Connect Launcher",
+        "url": "https://kotaku.com/steam-users-might-finally-be-free-from-the-tyranny-of-ubisofts-hated-connect-launcher-2000733182",
+        "date": "2026-09-10T14:00:32.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "A new Ubisoft Steam tool could lead to a launcher-free future for its games",
+        "url": "https://www.pcgamesn.com/prince-of-persia-the-lost-crown/ubisoft-connect-launcher-removed-steam",
+        "date": "2026-09-10T10:15:03.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "ubisoft connect services steam tool",
+      "value": "Ubisoft Connect Services Steam Tool",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ubisoft explained in a Steam post - only available to owners of the game - it's testing a new \"Ubisoft Connect Services Steam Tool\" that keeps Connect features like cross-progression, cross-play, rewards \"without requiring the Ubisoft Connect PC launcher to be installed or launched\".",
+      "urls": [
+        "https://www.eurogamer.net/ubisoft-connect-steam-launcher-requirement-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this first version is an initial step toward a smoother and more streamlined launch experience on steam",
+      "value": "This first version is an initial step toward a smoother and more streamlined launch experience on Steam,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This first version is an initial step toward a smoother and more streamlined launch experience on Steam,\" the publisher reportedly said, as shared by Reddit user NostalgiaKeeper007.",
+      "urls": [
+        "https://www.eurogamer.net/ubisoft-connect-steam-launcher-requirement-update"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

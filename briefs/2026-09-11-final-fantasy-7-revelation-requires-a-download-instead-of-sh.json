@@ -1,0 +1,156 @@
+{
+  "generated": "2026-09-11T00:40:02.372Z",
+  "workingTitle": "Final Fantasy 7 Revelation Requires A Download Instead Of Shipping Complete On Multiple Discs To Avoid Compromising The ‘Fidelity’ And ‘Quality’",
+  "heat": 72.7,
+  "outletCount": 7,
+  "outlets": [
+    "Kotaku",
+    "Polygon",
+    "Rock Paper Shotgun",
+    "Pure Xbox",
+    "Push Square",
+    "Eurogamer",
+    "Nintendo Life"
+  ],
+  "newest": "2026-09-10T20:53:59.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Fortnite"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Final Fantasy 7 Revelation Requires A Download Instead Of Shipping Complete On Multiple Discs To Avoid Compromising The ‘Fidelity’ And ‘Quality’",
+        "url": "https://kotaku.com/heres-why-final-fantasy-7-revelation-will-require-a-download-instead-of-shipping-complete-on-multiple-discs-like-the-previous-games-2000733319",
+        "date": "2026-09-10T20:53:59.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Final Fantasy 7's Future in Fortnite Is Unclear, but There’s Hope",
+        "url": "https://www.polygon.com/final-fantasy-7-rebirth-interview-fortnite-collab/",
+        "date": "2026-09-10T18:34:25.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "\"We’re going to become the new legend\": Naoki Hamaguchi on making Final Fantasy 7 Revelation as if it's the last ever Final Fantasy 7 game",
+        "url": "https://www.rockpapershotgun.com/were-going-to-become-the-new-legend-naoki-hamaguchi-on-making-final-fantasy-7-revelation-as-if-its-the-last-ever-final-fantasy-7-game",
+        "date": "2026-09-10T17:08:35.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Roundup: Here's What The Previews Are Saying About Final Fantasy VII Revelation",
+        "url": "https://www.purexbox.com/news/2026/09/roundup-heres-what-the-previews-are-saying-about-final-fantasy-vii-revelation",
+        "date": "2026-09-10T16:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Final Fantasy 7 Revelation Won't Have Remake and Rebirth's 'Cheats' at Launch",
+        "url": "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-wont-have-remake-and-rebirths-cheats-at-launch",
+        "date": "2026-09-10T14:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Final Fantasy 7 Revelation’s Director Says He Wanted To Show ‘That Final Fantasy Doesn’t Have To Be A Traditional-Style JRPG’",
+        "url": "https://kotaku.com/final-fantasy-7-revelations-director-says-he-wanted-to-show-that-final-fantasy-doesnt-have-to-be-a-traditional-style-jrpg-2000733045",
+        "date": "2026-09-10T12:30:24.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "key": "v:season:4",
+      "value": "Season 4",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Fortnite's latest season, Chapter 7 Season 4, has two main themes: video games and hacking.",
+      "urls": [
+        "https://www.polygon.com/final-fantasy-7-rebirth-interview-fortnite-collab/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i m approaching the development of revelation as if there s never going to be another final fantasy 7 game no spin offs no dlc in the future",
+      "value": "I'm approaching the development of Revelation as if there's never going to be another Final Fantasy 7 game… no spin-offs… no DLC in the future ,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I'm approaching the development of Revelation as if there's never going to be another Final Fantasy 7 game… no spin-offs… no DLC in the future ,\" director Naoki Hamaguchi said in a recent interview with Kotaku.",
+      "urls": [
+        "https://www.rockpapershotgun.com/were-going-to-become-the-new-legend-naoki-hamaguchi-on-making-final-fantasy-7-revelation-as-if-its-the-last-ever-final-fantasy-7-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i m not going to say whether there actually is or not",
+      "value": "I'm not going to say whether there actually is or not,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I'm not going to say whether there actually is or not,\" he continues, making it seem like this interview was probably held before the confirmation of DLC.",
+      "urls": [
+        "https://www.rockpapershotgun.com/were-going-to-become-the-new-legend-naoki-hamaguchi-on-making-final-fantasy-7-revelation-as-if-its-the-last-ever-final-fantasy-7-game"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-04-08",
+      "value": "April 8, 2026",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Final Fantasy VII Revelation will launch onto Xbox Series X|S on April 8, 2026.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/roundup-heres-what-the-previews-are-saying-about-final-fantasy-vii-revelation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "have made use of streamlined progression in both remake and rebirth and the team saw",
+      "value": "have made use of Streamlined Progression in both Remake and Rebirth, and the team saw",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Hamaguchi says that \"a lot of players\" have made use of Streamlined Progression in both Remake and Rebirth, and the team saw \"a lot of positive reception\" with regards to adding the options in the first place.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-wont-have-remake-and-rebirths-cheats-at-launch"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [
+    {
+      "game": "Fortnite",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
