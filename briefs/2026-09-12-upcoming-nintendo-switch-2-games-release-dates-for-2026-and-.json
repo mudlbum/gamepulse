@@ -1,0 +1,241 @@
+{
+  "generated": "2026-09-12T00:47:14.580Z",
+  "workingTitle": "Upcoming Nintendo Switch 2 Games: Release Dates for 2026 and Beyond",
+  "heat": 50.1,
+  "outletCount": 5,
+  "outlets": [
+    "IGN",
+    "Nintendo Life",
+    "Nintendo",
+    "Eurogamer",
+    "PCGamesN"
+  ],
+  "newest": "2026-09-11T16:37:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Nintendo Switch 2"
+  ],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Nintendo",
+        "title": "Nintendo eShop Highlights – 10/09/2026",
+        "url": "https://www.nintendo.com/en-gb/News/2026/September/Nintendo-eShop-Highlights-10-09-2026-3191093.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
+        "date": "2026-09-10T13:00:00.000Z",
+        "host": "www.nintendo.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Upcoming Nintendo Switch 2 Games: Release Dates for 2026 and Beyond",
+        "url": "https://www.ign.com/articles/all-upcoming-nintendo-switch-2-games",
+        "date": "2026-09-11T16:37:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Guide: Last Chance To Grab These 78 Switch 1 & 2 eShop Games In Nintendo's Blockbuster Sale (UK)",
+        "url": "https://www.nintendolife.com/guides/last-chance-to-grab-these-78-switch-1-and-2-eshop-games-in-nintendos-blockbuster-sale-uk",
+        "date": "2026-09-11T12:45:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Guide: Our Most Anticipated Nintendo Switch 1 & 2 Games In 2026",
+        "url": "https://www.nintendolife.com/guides/our-most-anticipated-nintendo-switch-1-and-2-games-in-2026",
+        "date": "2026-09-10T15:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Stellar Blade Launches On Switch 2 This November With A Proper Physical Release",
+        "url": "https://www.nintendolife.com/news/2026/09/stellar-blade-launches-on-switch-2-this-november-with-a-proper-physical-release",
+        "date": "2026-09-10T11:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Nintendo Switch 2 Welcome Tour Updated To Ver. 1.1.0, Here Are The Full Patch Notes",
+        "url": "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes",
+        "date": "2026-09-10T09:00:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-11-12",
+      "value": "November 12, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Metaphor Re:Fantazio (November 12, 2026)\n\nThis new IP from Atlus, best known for the SMT and Persona series, features similar mechanics around turn-based combat and social links.",
+      "urls": [
+        "https://www.ign.com/articles/all-upcoming-nintendo-switch-2-games"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:512gb",
+      "value": "version 512gb",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Plenty of cool game can coming on to Switch 2 the library is gonna be insane 256gb cant fit 10 games like this\n\nwaiting a improvement Battery and OLED version 512gb !",
+      "urls": [
+        "https://www.nintendolife.com/guides/our-most-anticipated-nintendo-switch-1-and-2-games-in-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "long lasting game backlog",
+      "value": "long lasting game backlog",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If I manage to shrink my \"long lasting game backlog\" sensibly (yes, I have 2 backlogs), I might also get Elden Ring.",
+      "urls": [
+        "https://www.nintendolife.com/guides/our-most-anticipated-nintendo-switch-1-and-2-games-in-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Of course, Kirby and the Forgotten Land DLC as well (I'm paying $20 for it, it seems worth it).",
+      "urls": [
+        "https://www.nintendolife.com/guides/our-most-anticipated-nintendo-switch-1-and-2-games-in-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:60",
+      "value": "$59.99,",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The game will launch on Switch 2 on 5th November for £54.99 / $59.99, and digital pre-orders are now available from the Switch eShop.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/stellar-blade-launches-on-switch-2-this-november-with-a-proper-physical-release",
+        "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$69.99.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Those after a boxed copy (which, we'll say it again, is complete on-cartridge) can now pre-order the swanky steelbook edition from Panax for £69.99 / $69.99.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/stellar-blade-launches-on-switch-2-this-november-with-a-proper-physical-release",
+        "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:53",
+      "value": "$53",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "EDIT: Just preordered for €46 with lowest preorder price guaranteed (meaning if it goes further down, i'll pay less), taxes and shipping included (that's $53 at the current exchange rate), I don't even consider that to be particularly expensive for a Switch 2 full physical release.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/stellar-blade-launches-on-switch-2-this-november-with-a-proper-physical-release"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:23.0.0",
+      "value": "update 23.0.0",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You'll find the full rundown of the system update 23.0.0 patch notes below.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But I don’t think anyone can argue that it isn’t worth $10.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10000000",
+      "value": "$10 m",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Buy it or don’t - I thought it was great personally - but to still be complaining about something being $10 more than a year later is just strange to me.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$50",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's a bargain & I guarantee almost everyone complaining has spent $50-70 on a game they completed in roughly the same amount of time.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/nintendo-switch-2-welcome-tour-updated-to-ver-1-1-0-here-are-the-full-patch-notes"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 11,
+  "ourData": [
+    {
+      "game": "Nintendo Switch 2",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "generated": "2026-09-12T00:47:14.935Z",
+  "workingTitle": "10 New Movies to Watch This Weekend on Netflix, HBO Max, and Hulu (September 11-13)",
+  "heat": 30.4,
+  "outletCount": 3,
+  "outlets": [
+    "Polygon",
+    "Pure Xbox",
+    "Xbox Wire"
+  ],
+  "newest": "2026-09-11T21:00:14.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Free Play Days – EA Sports Madden NFL 27, Borderlands 4, F1 25 2026 Season Edition, Dustborn, and More",
+        "url": "https://news.xbox.com/en-us/2026/09/10/free-play-days-09-10-2026/",
+        "date": "2026-09-10T15:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "10 New Movies to Watch This Weekend on Netflix, HBO Max, and Hulu (September 11-13)",
+        "url": "https://www.polygon.com/new-movies-streaming-this-weekend-netflix-september-11-13/",
+        "date": "2026-09-11T21:00:14.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "8 New TV Shows to Watch This Weekend on Netflix, HBO Max, and Apple TV (September 11-13)",
+        "url": "https://www.polygon.com/new-tv-shows-streaming-this-weekend-netflix-september-11-13/",
+        "date": "2026-09-11T20:31:14.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Free Play Days: Try These Xbox Games For Free (September 10-13)",
+        "url": "https://www.purexbox.com/news/2026/09/free-play-days-try-these-xbox-games-for-free-september-10-13",
+        "date": "2026-09-10T15:12:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [],
+  "factCount": 0,
+  "evidenceCount": 0,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "generated": "2026-09-12T00:47:13.260Z",
+  "workingTitle": "GTA 6 Is About to Take Over Miami IRL",
+  "heat": 88.3,
+  "outletCount": 8,
+  "outlets": [
+    "Polygon",
+    "GameSpot",
+    "PC Gamer",
+    "IGN",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "Kotaku",
+    "Game Developer"
+  ],
+  "newest": "2026-09-11T20:53:50.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "GTA 6 Is About to Take Over Miami IRL",
+        "url": "https://www.polygon.com/gta-6-miami-marketing-campaign-vice-city/",
+        "date": "2026-09-11T20:53:50.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "'We're not giving away pistols and cocaine to people': Miami Beach votes in favor of Grand Theft Auto 6 collab despite concerns",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/were-not-giving-away-pistols-and-cocaine-to-people-miami-beach-votes-in-favor-of-grand-theft-auto-6-collab-despite-concerns/",
+        "date": "2026-09-11T18:35:30.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Miami Approves 'Discreet' GTA 6 Marketing Campaign So the City Can Fix Its Football Field",
+        "url": "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field",
+        "date": "2026-09-11T17:06:15.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Rockstar had a mole in the union worker Discord server \"for over two and a half years\", GTA 6 company reveals during legal battle",
+        "url": "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle",
+        "date": "2026-09-11T15:31:24.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Go Ahead And Take Vacation Time To Play GTA 6",
+        "url": "https://www.gamespot.com/articles/go-ahead-and-take-vacation-time-to-play-gta-6/",
+        "date": "2026-09-11T18:39:30.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Developer Is Fighting Drones And Hackers To Keep The Game’s Secrets Safe",
+        "url": "https://www.gamespot.com/articles/gta-6-developer-is-fighting-drones-and-hackers-to-keep-the-games-secrets-safe/",
+        "date": "2026-09-11T17:12:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "grand theft auto is an adult video game where players steal cars deal drugs commit robberies murder civilians and assassinate police officers",
+      "value": "Grand Theft Auto is an adult video game where players steal cars, deal drugs, commit robberies, murder civilians, and assassinate police officers,",
+      "outlets": [
+        "Polygon",
+        "PC Gamer",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "\"Grand Theft Auto is an adult video game where players steal cars, deal drugs, commit robberies, murder civilians, and assassinate police officers,\" commissioner David Suarez said.",
+      "urls": [
+        "https://www.polygon.com/gta-6-miami-marketing-campaign-vice-city/",
+        "https://www.pcgamer.com/games/grand-theft-auto/were-not-giving-away-pistols-and-cocaine-to-people-miami-beach-votes-in-favor-of-grand-theft-auto-6-collab-despite-concerns/",
+        "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3000000",
+      "value": "$3 million",
+      "outlets": [
+        "Polygon",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "On Thursday, the city of Miami Beach voted in favor of a $3 million marketing campaign that will find the game being \"discreetly\" advertised by the hospitality firm Boucher Brothers, according to Commissioner Laura Dominguez (via PC Gamer), a company that has been parodied on beach umbrellas in GTA 6.",
+      "urls": [
+        "https://www.polygon.com/gta-6-miami-marketing-campaign-vice-city/",
+        "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "our city manager and those of us who have engaged have been very clear that this is not to be an in your face marketing campaign",
+      "value": "Our city manager and those of us who have engaged have been very clear that this is not to be an in-your-face marketing campaign,",
+      "outlets": [
+        "Polygon",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"Our city manager and those of us who have engaged have been very clear that this is not to be an in-your-face marketing campaign,\" Commissioner Tanya K.",
+      "urls": [
+        "https://www.polygon.com/gta-6-miami-marketing-campaign-vice-city/",
+        "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "be on their chairs and their umbrellas",
+      "value": "be on their chairs and their umbrellas,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Logos will \"be on their chairs and their umbrellas,\" Dominguez said; they won't appear in \"iconic public places\" or on city property.",
+      "urls": [
+        "https://www.polygon.com/gta-6-miami-marketing-campaign-vice-city/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "he discussed how miami police officers fight the type of crime flaunted in gta and how miami beach has tried to market itself away from",
+      "value": "He discussed how Miami police officers fight the type of crime flaunted in GTA, and how Miami Beach has tried to market itself away from",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But that doesn't mean that the city of Miami Beach has to help them do it.\" He discussed how Miami police officers fight the type of crime flaunted in GTA, and how Miami Beach has tried to market itself away from \"an image of chaos and lawlessness,\" and that a partnership with Rockstar and GTA would do the exact opposite.",
+      "urls": [
+        "https://www.polygon.com/gta-6-miami-marketing-campaign-vice-city/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "one actually kind of laughed at me he goes dude you think a video game is going to change what we do in the city or that s what we re worried about",
+      "value": "One actually kind of laughed at me, he goes, 'Dude, you think a video game is going to change what we do in the city or that's what we're worried about?'",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"One actually kind of laughed at me, he goes, 'Dude, you think a video game is going to change what we do in the city or that's what we're worried about?'\"\n\nFellow commissioner Monica Matteo-Salinas said that Miami isn't \"going to be doing live-action GTA in the city.",
+      "urls": [
+        "https://www.polygon.com/gta-6-miami-marketing-campaign-vice-city/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "its fictional world includes murder robbery drug trafficking carjacking violence against law enforcement and other conduct that the men and women of the miami dade sheriff s office work every single day to prevent",
+      "value": "Its fictional world includes murder, robbery, drug trafficking, carjacking, violence against law enforcement, and other conduct that the men and women of the Miami-Dade Sheriff’s Office work every single day to prevent,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Its fictional world includes murder, robbery, drug trafficking, carjacking, violence against law enforcement, and other conduct that the men and women of the Miami-Dade Sheriff’s Office work every single day to prevent,\" she said.",
+      "urls": [
+        "https://www.polygon.com/gta-6-miami-marketing-campaign-vice-city/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "suarez also played a montage of clips from past gta games and the upcoming grand theft auto 6 showcasing an extensive range of crimes that players can commit",
+      "value": "Suarez also played a montage of clips from past GTA games and the upcoming Grand Theft Auto 6, showcasing an extensive range of crimes that players can commit:",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "What kind of message are we sending to the world?\"\n\nSuarez also played a montage of clips from past GTA games and the upcoming Grand Theft Auto 6, showcasing an extensive range of crimes that players can commit: \"I for one don't want Miami Beach associated with this connotation of a brand.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/were-not-giving-away-pistols-and-cocaine-to-people-miami-beach-votes-in-favor-of-grand-theft-auto-6-collab-despite-concerns/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "commissioner monica matteo salinas countered by pointing out that",
+      "value": "Commissioner Monica Matteo-Salinas countered by pointing out that",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I don't think it's worth really anything.\"\n\nCommissioner Monica Matteo-Salinas countered by pointing out that \"we're not going to be doing live action GTA in the city.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/were-not-giving-away-pistols-and-cocaine-to-people-miami-beach-votes-in-favor-of-grand-theft-auto-6-collab-despite-concerns/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "boucher brothers is a florida based",
+      "value": "Boucher Brothers is a Florida-based",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "it'll be on their chairs and their umbrellas.\"\n\nBoucher Brothers is a Florida-based \"hospitality management\" company that provides services to municipalities in the state.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/were-not-giving-away-pistols-and-cocaine-to-people-miami-beach-votes-in-favor-of-grand-theft-auto-6-collab-despite-concerns/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-09-10",
+      "value": "September 10, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The City of Miami Beach gave the OK for the famed game developer to bring GTA 6 to the area September 10, 2026, following a 4-3 vote in favor of the decision.",
+      "urls": [
+        "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "she said grand theft auto will be advertised",
+      "value": "She said Grand Theft Auto will be advertised",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Rockstar will not plaster logos on city property, such as lifeguard stands or in \"iconic public spaces.\" She said Grand Theft Auto will be advertised \"discreetly\" with the city&#x27;s marketing partner, the Boucher Brothers.",
+      "urls": [
+        "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "dominguez added that through the october december marketing window miami citizens will spot things like",
+      "value": "Dominguez added that, through the October – December marketing window, Miami citizens will spot things like",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As mentioned by X/Twitter user @GTAVI_Countdown, the Boucher Brothers is a company Rockstar has parodied before, with its in-game spin instead called \"Sol Sisters.\"\n\nDominguez added that, through the October – December marketing window, Miami citizens will spot things like \"Vice City or &#x27;VI&#x27;\" on things like chairs and umbrellas.",
+      "urls": [
+        "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i think the city has done our part to make sure that our brand is protected but still keeping with the importance of the massive global reach that gaming has today and the city is going to be receiving a couple million dollars",
+      "value": "I think the city has done our part to make sure that our brand is protected but still keeping with the importance of the massive global reach that gaming has today, and the city is going to be receiving a couple million dollars,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I think the city has done our part to make sure that our brand is protected but still keeping with the importance of the massive global reach that gaming has today, and the city is going to be receiving a couple million dollars,\" Dominguez said.",
+      "urls": [
+        "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "if there x27 s wiggle room to negotiate more let us know",
+      "value": "If there&#x27;s wiggle room to negotiate more, let us know.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "She added with a smile, \"If there&#x27;s wiggle room to negotiate more, let us know.\"\n\nDominguez mentioned that the deal with Rockstar will give the City of Miami Beach money that is \"critical.\" How exactly the $3 million will be dispersed was not detailed, but Commissioner Tanya K.",
+      "urls": [
+        "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:4000000",
+      "value": "$4 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Bhatt expects the total benefits to produce a number closer to $4 million.",
+      "urls": [
+        "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "is coming to miami beach with or without us and to pretend that it isn x27 t is a missed opportunity",
+      "value": "is coming to Miami Beach with or without us, and to pretend that it isn&#x27;t is a missed opportunity.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "She said, \" is coming to Miami Beach with or without us, and to pretend that it isn&#x27;t is a missed opportunity.\"\n\nOne item on Bhatt&#x27;s mind when the money comes in is Florida&#x27;s Flamingo Park.",
+      "urls": [
+        "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-19",
+      "value": "November 19, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They&#x27;ll go around calling it &#x27;V&#x27; or &#x27;VI,&#x27; probably.\"\n\nGTA 6&#x27;s release date falls directly in its Miami Beach marketing window with a November 19, 2026, launch.",
+      "urls": [
+        "https://www.ign.com/articles/miami-approves-discreet-gta-6-marketing-campaign-so-the-city-can-fix-its-football-field"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "no official workplace channel through which concerns could be discussed independently of management",
+      "value": "no official workplace channel through which concerns could be discussed independently of management.",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Prior to this, the lawyers claim, there was \"no official workplace channel through which concerns could be discussed independently of management.\" By the time of the October 2025 dismissals, the server had around 340 members.",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "from at least february 2024 charlie kinloch had been receiving information from a junior employee on trade union activity inside the server",
+      "value": "from at least February 2024, Charlie Kinloch had been receiving information from a junior employee on trade union activity inside the Server",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Rockstar management did not have direct access to the server prior to October 2025, but the former workers and their legal team allege that \"from at least February 2024, Charlie Kinloch had been receiving information from a junior employee on trade union activity inside the Server\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "over 21 months at least 26 meetings or communications took place between mr kinloch and concerning the server roughly half of them initiated by mr kinloch himself",
+      "value": "over 21 months, at least 26 meetings or communications took place between Mr Kinloch and concerning the Server, roughly half of them initiated by Mr Kinloch himself",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They claim that \"over 21 months, at least 26 meetings or communications took place between Mr Kinloch and concerning the Server, roughly half of them initiated by Mr Kinloch himself\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "supplied screenshots and recordings reported union meetings training sessions and union membership numbers and identified individual union activists",
+      "value": "supplied screenshots and recordings, reported union meetings, training sessions and union membership numbers, and identified individual union activists",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The \"mole\" is said to have \"supplied screenshots and recordings, reported union meetings, training sessions and union membership numbers, and identified individual union activists\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the contents of the announcements and general channels",
+      "value": "the contents of the Announcements and General channels",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "At some point in this period, they go on, Rockstar management got hold of logins for the server, with Rockstar's vice president of information security Abid Ansari eventually signing in to download \"the contents of the Announcements and General channels\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "on the discord who reported security concerns including one member who had been leaking info to rockstar management",
+      "value": "on the Discord who reported security concerns, including one member who had been leaking info to Rockstar management",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The company's lawyers mention three \"whistleblowers\" on the Discord who reported security concerns, including one member who had been leaking info to Rockstar management \"for over two and a half years\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "about events on the server save for",
+      "value": "about events on the server, save for",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Rockstar's lawyers say that between 13th and 16th October, a member of the server supplied Rockstar bosses with login details; prior to this, they claim, Rockstar were \"largely in the dark\" about events on the server, save for \"occasional glimpses\" care of their primary \"whistleblower\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "invite only access restricted and subject to verification through rockstar s own internal slack platform",
+      "value": "invite-only, access-restricted and subject to verification through Rockstar's own internal Slack platform",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The unionised workers argue that the server was \"invite-only, access-restricted and subject to verification through Rockstar's own internal Slack platform\", explaining that people with an invite link were placed in a waiting room till they had been approved by mods, who could verify them using Rockstar's own Slack channels before granting \"substantive access\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "no confidential information is known to have leaked from the server into the public domain",
+      "value": "no confidential information is known to have leaked from the Server into the public domain",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They point out that \"no confidential information is known to have leaked from the Server into the public domain\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "26 on an initial analysis",
+      "value": "26 on an initial analysis",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Rockstar claim that \"26 on an initial analysis\" of the people in the third \"room\" were not actually employees, while 10 others were former staff, including a few who had \"left in poor standing with the business and were therefore well motivated to cause harm to it\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "about game projects including an",
+      "value": "about game projects, including an",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As for the incriminating info being circulated, Rockstar allege that it ranged from discussion of digital and real-world security measures, through internal correspondence such as HR emails, to \"closely guarded secrets\" about game projects, including an \"online 32 player format\" for a \"highly confidential\" project.",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "many many pieces of information",
+      "value": "many, many pieces of information",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They also claim that Discord users shared \"many, many pieces of information\" regarding GTA 6's development, including discussion of delays, overtime and crunch.",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "no posts were witnessed as disclosing the date on which gta vi would be released the date of any trailer or comparable confidential release information",
+      "value": "no posts were witnessed as disclosing the date on which GTA VI would be released, the date of any trailer, or comparable confidential release information",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The former workers, meanwhile, argue that \"no posts were witnessed as disclosing the date on which GTA VI would be released, the date of any trailer, or comparable confidential release information\", and that \"the posts generally discussed workplace policies which were essential to trade union organising\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "openly and vituperatively disparaging and defaming",
+      "value": "openly and vituperatively disparaging and defaming",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Both docs have a whole section on the other side's use of bad language, with Rockstar's lawyers accusing the union Discord members of \"openly and vituperatively disparaging and defaming\" company management, while the former workers point out that \"profanity was routinely used by management and staff at without disciplinary consequence\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "that the use of the word cunt was an apparently acceptable use of language in scotland and was used by management regularly",
+      "value": "that the use of the word 'cunt' was an 'apparently acceptable use of language in Scotland' and was used by management regularly",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to the former workers, one employee was told after joining Rockstar \"that the use of the word 'cunt' was an 'apparently acceptable use of language in Scotland' and was used by management regularly\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/rockstar-had-a-mole-in-the-union-worker-discord-server-for-over-two-and-a-half-years-gta-6-company-reveals-during-legal-battle"
+      ]
+    }
+  ],
+  "factCount": 3,
+  "evidenceCount": 39,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "30 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "generated": "2026-09-12T00:47:13.882Z",
+  "workingTitle": "Final Fantasy 7 Revelation director says Square Enix would have to compromise \"the quality of the final chapter\" to ship the game fully on disc",
+  "heat": 58.1,
+  "outletCount": 6,
+  "outlets": [
+    "Eurogamer",
+    "PC Gamer",
+    "Kotaku",
+    "Pure Xbox",
+    "Push Square",
+    "Nintendo Life"
+  ],
+  "newest": "2026-09-11T18:08:06.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Eurogamer",
+        "title": "Final Fantasy 7 Revelation director says Square Enix would have to compromise \"the quality of the final chapter\" to ship the game fully on disc",
+        "url": "https://www.eurogamer.net/final-fantasy-7-revelation-compromise-quality-physical-disc",
+        "date": "2026-09-11T18:08:06.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Final Fantasy 7 Revelation director defends its physical disk still needing a download: 'We didn't want to make any compromises for the game'",
+        "url": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-7-revelation-director-defends-its-physical-disk-still-needing-a-download-we-didnt-want-to-make-any-compromises-for-the-game/",
+        "date": "2026-09-11T11:19:18.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Final Fantasy 7 Revelation Requires A Download Instead Of Shipping Complete On Multiple Discs To Avoid Compromising The ‘Fidelity’ And ‘Quality’",
+        "url": "https://kotaku.com/heres-why-final-fantasy-7-revelation-will-require-a-download-instead-of-shipping-complete-on-multiple-discs-like-the-previous-games-2000733319",
+        "date": "2026-09-10T20:53:59.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Roundup: Here's What The Previews Are Saying About Final Fantasy VII Revelation",
+        "url": "https://www.purexbox.com/news/2026/09/roundup-heres-what-the-previews-are-saying-about-final-fantasy-vii-revelation",
+        "date": "2026-09-10T16:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Final Fantasy 7 Revelation Won't Have Remake and Rebirth's 'Cheats' at Launch",
+        "url": "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-wont-have-remake-and-rebirths-cheats-at-launch",
+        "date": "2026-09-10T14:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "If you thought Final Fantasy 7 Rebirth was bloated, you're not going to like Revelation - but I'd much rather have too much to do than too little",
+        "url": "https://www.eurogamer.net/final-fantasy-7-revelation-preview",
+        "date": "2026-09-10T12:15:00.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "each platform has limitations when it comes to physical media capacity but we believed that compromising the quality of the final chapter in order to achieve a fully on disc release would ultimately not be in the best interest of many fans",
+      "value": "Each platform has limitations when it comes to physical media capacity, but we believed that compromising the quality of the final chapter in order to achieve a fully on-disc release would ultimately not be in the best interest of many fans,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Each platform has limitations when it comes to physical media capacity, but we believed that compromising the quality of the final chapter in order to achieve a fully on-disc release would ultimately not be in the best interest of many fans,\" said Remake trilogy director Naoki Hamaguchi in an online statement.",
+      "urls": [
+        "https://www.eurogamer.net/final-fantasy-7-revelation-compromise-quality-physical-disc"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-04-08",
+      "value": "April 8, 2026",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Final Fantasy VII Revelation will launch onto Xbox Series X|S on April 8, 2026.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/roundup-heres-what-the-previews-are-saying-about-final-fantasy-vii-revelation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "have made use of streamlined progression in both remake and rebirth and the team saw",
+      "value": "have made use of Streamlined Progression in both Remake and Rebirth, and the team saw",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Hamaguchi says that \"a lot of players\" have made use of Streamlined Progression in both Remake and Rebirth, and the team saw \"a lot of positive reception\" with regards to adding the options in the first place.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-wont-have-remake-and-rebirths-cheats-at-launch"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "an overstuffed but lovable re imagining",
+      "value": "an overstuffed but lovable re-imagining",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Our own Ed Nightingale awarded the game four stars, calling it \"an overstuffed but lovable re-imagining\", a more generous take.",
+      "urls": [
+        "https://www.eurogamer.net/final-fantasy-7-revelation-preview"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
