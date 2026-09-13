@@ -1,10 +1,40 @@
 {
-  "decided": "2026-09-12T00:47:15.282Z",
+  "decided": "2026-09-13T00:29:46.279Z",
   "publish": true,
-  "reason": "selected on score 52.4",
+  "reason": "selected on score 44.5",
   "brief": "2026-09-12-gta-6-is-about-to-take-over-miami-irl.json",
   "title": "GTA 6 Is About to Take Over Miami IRL",
   "considered": [
+    {
+      "file": "2026-09-13-warcraft-3-reforged-forsaken-kingdom-review-so-far.json",
+      "title": "Warcraft 3 Reforged: Forsaken Kingdom Review So Far",
+      "pass": false,
+      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-13-substantial-reworks-for-sombra-and-roadhog-highlight-excitin.json",
+      "title": "Substantial reworks for Sombra and Roadhog highlight exciting season 5 changes in Overwatch",
+      "pass": false,
+      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-13-physint-could-be-xboxs-biggest-gamble-yet.json",
+      "title": "Physint Could Be Xbox's Biggest Gamble Yet",
+      "pass": true,
+      "reason": "2/14 claims corroborated · 6 outlets · primary source · 12h old"
+    },
+    {
+      "file": "2026-09-13-final-fantasy-7-revelation-director-confirms-his-studio-is-a.json",
+      "title": "Final Fantasy 7 Revelation director confirms his studio is also making Kingdom Hearts 4",
+      "pass": false,
+      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-13-diablo-5-gameplay-details-from-blizzcon-more-classes-than-ev.json",
+      "title": "Diablo 5 gameplay details from BlizzCon: More classes than ever before, procedurally-generated dungeons, and Diablo 2-style loot",
+      "pass": false,
+      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-09-12-upcoming-nintendo-switch-2-games-release-dates-for-2026-and-.json",
       "title": "Upcoming Nintendo Switch 2 Games: Release Dates for 2026 and Beyond",
@@ -21,37 +51,7 @@
       "file": "2026-09-12-gta-6-is-about-to-take-over-miami-irl.json",
       "title": "GTA 6 Is About to Take Over Miami IRL",
       "pass": true,
-      "reason": "3/39 claims corroborated · 8 outlets · secondary only · 4h old"
-    },
-    {
-      "file": "2026-09-12-final-fantasy-7-revelation-director-says-square-enix-would-h.json",
-      "title": "Final Fantasy 7 Revelation director says Square Enix would have to compromise \"the quality of the final chapter\" to ship the game fully on disc",
-      "pass": false,
-      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-12-10-new-movies-to-watch-this-weekend-on-netflix-hbo-max-and-h.json",
-      "title": "10 New Movies to Watch This Weekend on Netflix, HBO Max, and Hulu (September 11-13)",
-      "pass": false,
-      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-11-xbox-to-publish-kojima-productions-physint-after-playstation.json",
-      "title": "Xbox to publish Kojima Productions' Physint after PlayStation ditches project",
-      "pass": true,
-      "reason": "3/13 claims corroborated · 8 outlets · secondary only · 29h old"
-    },
-    {
-      "file": "2026-09-11-nintendo-finally-adds-some-life-to-the-switch-2.json",
-      "title": "Nintendo Finally Adds Some Life To The Switch 2",
-      "pass": false,
-      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-11-marvels-wolverine-isnt-cutting-it-try-these-games-instead.json",
-      "title": "Marvel’s Wolverine Isn’t Cutting It? Try These Games Instead",
-      "pass": false,
-      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+      "reason": "3/39 claims corroborated · 8 outlets · secondary only · 28h old"
     }
   ]
 }

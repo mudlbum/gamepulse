@@ -1,0 +1,283 @@
+{
+  "generated": "2026-09-13T00:29:45.787Z",
+  "workingTitle": "Physint Could Be Xbox's Biggest Gamble Yet",
+  "heat": 45.6,
+  "outletCount": 6,
+  "outlets": [
+    "IGN",
+    "Game Developer",
+    "Rock Paper Shotgun",
+    "Pure Xbox",
+    "Push Square",
+    "Xbox Wire"
+  ],
+  "newest": "2026-09-12T12:00:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "XBOX and KOJIMA PRODUCTIONS Expand Partnership to Publish PHYSINT",
+        "url": "https://news.xbox.com/en-us/2026/09/09/xbox-and-kojima-productions-expand-partnership-to-publish-physint/",
+        "date": "2026-09-10T02:30:35.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Physint Could Be Xbox's Biggest Gamble Yet",
+        "url": "https://www.ign.com/articles/physint-could-be-xboxs-biggest-gamble-yet",
+        "date": "2026-09-12T12:00:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Xbox to publish Kojima Productions' Physint after PlayStation ditches project",
+        "url": "https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project",
+        "date": "2026-09-10T19:35:18.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Hideo Kojima spy action game Physint switches publishing allegiance from PlayStation to Xbox, probably increasing the chances it'll hit PC",
+        "url": "https://www.rockpapershotgun.com/hideo-kojima-spy-action-game-physint-switches-publishing-allegiance-from-playstation-to-xbox-probably-increasing-the-chances-itll-hit-pc",
+        "date": "2026-09-10T09:26:51.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Xbox Is Officially Taking Over From PlayStation On Hideo Kojima's New 'PHYSINT' Game",
+        "url": "https://www.purexbox.com/news/2026/09/xbox-is-officially-taking-over-from-playstation-on-hideo-kojimas-new-physint-game",
+        "date": "2026-09-10T07:47:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Sony Cancels Physint Development, Xbox Picks Up Project",
+        "url": "https://www.pushsquare.com/news/2026/09/sony-cancels-physint-development-xbox-picks-up-project",
+        "date": "2026-09-10T06:45:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "after careful consideration we have made the difficult decision to step away from collaborating with kojima productions on its project physint",
+      "value": "After careful consideration, we have made the difficult decision to step away from collaborating with Kojima Productions on its project Physint,",
+      "outlets": [
+        "Game Developer",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"After careful consideration, we have made the difficult decision to step away from collaborating with Kojima Productions on its project Physint,\" the update reads.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project",
+        "https://www.rockpapershotgun.com/hideo-kojima-spy-action-game-physint-switches-publishing-allegiance-from-playstation-to-xbox-probably-increasing-the-chances-itll-hit-pc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "genre defining action espionage title",
+      "value": "Please rest assured that development of PHYSINT, our genre-defining action-espionage title, is ongoing and will continue moving forward.",
+      "outlets": [
+        "Pure Xbox",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"Please rest assured that development of PHYSINT, our genre-defining action-espionage title, is ongoing and will continue moving forward.\"\n\nThe reason why Sony decided to step away from Physint and cancel development hasn't been shared.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-taking-over-from-playstation-on-hideo-kojimas-new-physint-game",
+        "https://www.pushsquare.com/news/2026/09/sony-cancels-physint-development-xbox-picks-up-project"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "we continue to have great admiration for hideo kojima x27 s vision for the game",
+      "value": "We continue to have great admiration for Hideo Kojima&#x27;s vision for the game.",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We continue to have great admiration for Hideo Kojima&#x27;s vision for the game.\"\n\nShortly after PlayStation&#x27;s news, Xbox announced that it is expanding its own partnership with Kojima Productions by picking up the recently vacated publishing duties for Physint.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "creators have choices about where and how they bring their ideas to life",
+      "value": "Creators have choices about where and how they bring their ideas to life,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Creators have choices about where and how they bring their ideas to life,\" Xbox CEO Asha Sharma said.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "determined to keep the project alive we have spent the last three months searching tirelessly for a new partner",
+      "value": "Determined to keep the project alive, we have spent the last three months searching tirelessly for a new partner,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Determined to keep the project alive, we have spent the last three months searching tirelessly for a new partner,\" explains Kojima in a portion of the full statement translated by IGN.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "remains strong after three decades",
+      "value": "remains strong after three decades",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Related:EA is using genAI for commentator voiceover in NHL 27\n\nAs for the relationship between PlayStation and Kojima Productions, the company said that it \"remains strong after three decades\" following past partnerships on the Death Stranding series and that it looks forward to continued close collaboration in the future.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/xbox-to-publish-kojima-productions-physint-after-playstation-ditches-project"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as confirmed earlier through our official channels in mid june of this year we unexpectedly received notice from playstation studios that they would cancel the physint project",
+      "value": "As confirmed earlier through our official channels, in mid-June of this year, we unexpectedly received notice from PlayStation Studios that they would cancel the Physint project,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"As confirmed earlier through our official channels, in mid-June of this year, we unexpectedly received notice from PlayStation Studios that they would cancel the Physint project,\" a post to Kojima's official English Twitter on the situation read.",
+      "urls": [
+        "https://www.rockpapershotgun.com/hideo-kojima-spy-action-game-physint-switches-publishing-allegiance-from-playstation-to-xbox-probably-increasing-the-chances-itll-hit-pc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "finally xbox boss asha sharma has shared some comments this morning on how she s",
+      "value": "Finally, Xbox boss Asha Sharma has shared some comments this morning on how she's",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Please rest assured that development of PHYSINT, our genre-defining action-espionage title, is ongoing and will continue moving forward.\"\n\nFinally, Xbox boss Asha Sharma has shared some comments this morning on how she's \"honoured\" by Kojima's decision to partner with Microsoft on PHYSINT, and that \"his ambition to challenge conventions reflects the kind of creativity we want to support at XBOX\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-taking-over-from-playstation-on-hideo-kojimas-new-physint-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "using cutting edge technology and the best talents from around the world both from film and video games",
+      "value": "using cutting-edge technology and the best talents from around the world, both from film and video games",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In terms of the game itself, we don't really know much about it just yet (it's in a similar situation to Kojima's other ongoing Xbox project, OD), but as mentioned it's an action-espionage title that's supposedly being created \"using cutting-edge technology and the best talents from around the world, both from film and video games\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-taking-over-from-playstation-on-hideo-kojimas-new-physint-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re gonna brutal cancel almost every thing and then when your braced for the next one we re gonna save something someone else canceled",
+      "value": "we're gonna brutal cancel almost every thing, and then when your braced for the next one we're gonna save something someone else canceled",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": ")\n\n@FraserG Xbox really is in it's netflix era \"we're gonna brutal cancel almost every thing, and then when your braced for the next one we're gonna save something someone else canceled\"\n\n@Sol4ris afaik it’s sold less/about 2mil which is low for a big game, especially after first one did far better.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-taking-over-from-playstation-on-hideo-kojimas-new-physint-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "designer and with sony sinking obscene money on ls games that didn t launch and still doing it it makes sense they might decide kojima might not be it be",
+      "value": "designer, and with Sony sinking obscene money on LS games that didn't launch and still doing it, it makes sense They might decide Kojima might not be it be",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "let's say \"spendy\" designer, and with Sony sinking obscene money on LS games that didn't launch and still doing it, it makes sense They might decide Kojima might not be it be \"worth the squeeze\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-taking-over-from-playstation-on-hideo-kojimas-new-physint-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there aren t enough parts where you slowly walk behind an npc and listen to them yap",
+      "value": "there aren't enough parts where you slowly walk behind an npc and listen to them yap.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony must have said \"there aren't enough parts where you slowly walk behind an npc and listen to them yap.\"\n\nIs PlayStation actively TRYING to lose consumer trust and market share?!!",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-is-officially-taking-over-from-playstation-on-hideo-kojimas-new-physint-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "in the course of seeking advice and pursuing negotiations with people across many fields we found in xbox a partner with whom we share a common vision for the future and we have decided to team up with them once again",
+      "value": "In the course of seeking advice and pursuing negotiations with people across many fields, we found in XBOX a partner with whom we share a common vision for the future, and we have decided to team up with them once again,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"In the course of seeking advice and pursuing negotiations with people across many fields, we found in XBOX a partner with whom we share a common vision for the future, and we have decided to team up with them once again,\" explained Kojima.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/sony-cancels-physint-development-xbox-picks-up-project"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "from physint kojima shared the actual reality of the situation",
+      "value": "from Physint, Kojima shared the actual reality of the situation:",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While Sony took a softer approach by saying it chose to \"step away\" from Physint, Kojima shared the actual reality of the situation: \"As confirmed earlier through our official channels, in mid-June of this year, we unexpectedly received notice from PlayStation Studios that they would cancel the PHYSINT project.\" This led to the team searching for a new publishing partner.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/sony-cancels-physint-development-xbox-picks-up-project"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 14,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "12 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

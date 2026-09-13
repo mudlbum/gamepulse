@@ -1,0 +1,127 @@
+{
+  "generated": "2026-09-13T00:29:45.117Z",
+  "workingTitle": "Warcraft 3 Reforged: Forsaken Kingdom Review So Far",
+  "heat": 63.6,
+  "outletCount": 6,
+  "outlets": [
+    "IGN",
+    "PCGamesN",
+    "Polygon",
+    "PC Gamer",
+    "GameSpot",
+    "Kotaku"
+  ],
+  "newest": "2026-09-12T21:05:26.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Warcraft 3 Reforged: Forsaken Kingdom Review So Far",
+        "url": "https://www.ign.com/articles/warcraft-3-forsaken-kingdom-review",
+        "date": "2026-09-12T21:05:26.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Warcraft 3 Reforged Forsaken Kingdom is a new campaign for the classic RTS, and it's out right now",
+        "url": "https://www.pcgamesn.com/warcraft-3-reforged/forsaken-kingdom-dlc-campaign",
+        "date": "2026-09-12T20:05:52.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Warcraft 3 Just Got Its First Official New Campaign in 23 years",
+        "url": "https://www.polygon.com/warcraft-3-blizzcon-2026/",
+        "date": "2026-09-12T19:09:57.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Blizzard just dropped a new Warcraft 3 campaign, the first in 23 years",
+        "url": "https://www.pcgamer.com/games/rts/blizzard-just-dropped-a-new-warcraft-3-campaign-the-first-in-23-years/",
+        "date": "2026-09-12T18:51:39.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Warcraft 3: Reforged To Get A New Campaign Starring Arthas And Sylvanas, Out Today",
+        "url": "https://kotaku.com/warcraft-3-reforged-new-campaign-paid-dlc-free-overhaul-2000733793",
+        "date": "2026-09-12T18:51:10.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Warcraft Getting Its First New RTS Campaign In Two Decades–And It’s Playable Today",
+        "url": "https://www.gamespot.com/articles/warcraft-getting-its-first-new-rts-campaign-in-two-decades-and-its-playable-today/",
+        "date": "2026-09-12T18:51:22.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$29.99",
+      "outlets": [
+        "PCGamesN",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Expect to pay $29.99 / £24.00 for the DLC, or $49.99 / £41.99 bundled with the base game.",
+      "urls": [
+        "https://www.pcgamesn.com/warcraft-3-reforged/forsaken-kingdom-dlc-campaign",
+        "https://www.pcgamer.com/games/rts/blizzard-just-dropped-a-new-warcraft-3-campaign-the-first-in-23-years/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "over 30 hours of gameplay",
+      "value": "over 30 hours of gameplay,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Including \"over 30 hours of gameplay,\" it's a chance to revisit the classic and experience a fresh story that will reveal in more detail \"the events that led to the first days of World of Warcraft.\" Best of all, it's out right now.",
+      "urls": [
+        "https://www.pcgamesn.com/warcraft-3-reforged/forsaken-kingdom-dlc-campaign"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$49.99",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Expect to pay $29.99 / £24.00 for the DLC, or $49.99 / £41.99 bundled with the base game.",
+      "urls": [
+        "https://www.pcgamesn.com/warcraft-3-reforged/forsaken-kingdom-dlc-campaign"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 3,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "2 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

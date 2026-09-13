@@ -1,0 +1,76 @@
+{
+  "generated": "2026-09-13T00:29:45.908Z",
+  "workingTitle": "Substantial reworks for Sombra and Roadhog highlight exciting season 5 changes in Overwatch",
+  "heat": 41,
+  "outletCount": 4,
+  "outlets": [
+    "Destructoid",
+    "PC Gamer",
+    "Kotaku",
+    "IGN"
+  ],
+  "newest": "2026-09-12T22:07:45.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Substantial reworks for Sombra and Roadhog highlight exciting season 5 changes in Overwatch",
+        "url": "https://www.destructoid.com/substantial-reworks-for-sombra-and-roadhog-highlight-exciting-season-5-changes-in-overwatch/",
+        "date": "2026-09-12T22:07:45.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Overwatch's newest hero is a robo-vampire, and reworks are on the way for Roadhog and Sombra",
+        "url": "https://www.pcgamer.com/games/fps/overwatchs-newest-hero-is-a-robo-vampire-and-reworks-are-on-the-way-for-roadhog-and-sombra/",
+        "date": "2026-09-12T18:55:21.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Overwatch’s Next Hero Is Basically A Vampire",
+        "url": "https://kotaku.com/overwatchs-next-hero-basically-a-vampire-2000733777",
+        "date": "2026-09-12T18:07:29.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Overwatch Gets New Vampire-Inspired Support Hero, Map, and Big Character Reworks",
+        "url": "https://www.ign.com/articles/overwatch-2-gets-new-vampire-inspired-support-hero-map-and-big-character-reworks",
+        "date": "2026-09-12T17:59:39.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "key": "v:season:5",
+      "value": "Season 5",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In other big news, Overwatch Season 5 begins on October 6.",
+      "urls": [
+        "https://www.ign.com/articles/overwatch-2-gets-new-vampire-inspired-support-hero-map-and-big-character-reworks"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
