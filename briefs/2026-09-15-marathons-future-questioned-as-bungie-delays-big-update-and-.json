@@ -1,0 +1,258 @@
+{
+  "generated": "2026-09-15T01:04:06.173Z",
+  "workingTitle": "Marathon's Future Questioned as Bungie Delays Big Update and Scraps Seasonal Schedule",
+  "heat": 46.5,
+  "outletCount": 5,
+  "outlets": [
+    "Push Square",
+    "PC Gamer",
+    "Eurogamer",
+    "IGN",
+    "Kotaku"
+  ],
+  "newest": "2026-09-14T19:30:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "Marathon's Future Questioned as Bungie Delays Big Update and Scraps Seasonal Schedule",
+        "url": "https://www.pushsquare.com/news/2026/09/marathons-future-questioned-as-bungie-delays-big-update-and-scraps-seasonal-schedule",
+        "date": "2026-09-14T19:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Bungie delays next Marathon update and ends 'strict seasonal schedule' as it goes all-in on Destiny-like features",
+        "url": "https://www.pcgamer.com/games/fps/bungie-delays-next-marathon-update-and-ends-strict-seasonal-schedule-as-it-goes-all-in-on-destiny-like-features/",
+        "date": "2026-09-14T18:19:59.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Marathon's permanent PvE mode and next major update delayed to December days before launch, and Bungie's \"moving away from a strict season schedule\"",
+        "url": "https://www.eurogamer.net/marathon-pve-mode-delay-bungie-major-update",
+        "date": "2026-09-14T17:54:07.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Marathon Delays Next Major Update, Puts Focus on PvE, and Moves Away from Seasonal Content Amidst Bungie Struggles",
+        "url": "https://www.ign.com/articles/marathon-delays-next-major-update-puts-focus-on-pve-and-moves-away-from-seasonal-content-amidst-bungie-struggles",
+        "date": "2026-09-14T17:33:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Marathon Delays New Content And Ditches Seasons As Bungie’s Extraction Shooter Fights For Its Life",
+        "url": "https://kotaku.com/marathon-delays-new-content-and-ditches-seasons-as-bungies-extraction-shooter-fights-for-its-life-2000734322",
+        "date": "2026-09-14T17:12:16.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "version",
+      "key": "v:season:3",
+      "value": "Season 3",
+      "outlets": [
+        "Push Square",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "I'm waiting for a reason to jump back in, but am probably going to keep waiting until the official Season 3 drop.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/marathons-future-questioned-as-bungie-delays-big-update-and-scraps-seasonal-schedule",
+        "https://www.eurogamer.net/marathon-pve-mode-delay-bungie-major-update"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "we ll release a smaller focused update on october 6 that resets progression and the in game economy refreshes rewards and improves the live game",
+      "value": "We’ll release a smaller, focused update on October 6 that resets progression and the in-game economy, refreshes rewards, and improves the live game.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Still, there will be a smaller patch dropping in the meantime: \"We’ll release a smaller, focused update on October 6 that resets progression and the in-game economy, refreshes rewards, and improves the live game.\"\n\nThe broader context here is that Bungie wants to rework its development schedule.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/marathons-future-questioned-as-bungie-delays-big-update-and-scraps-seasonal-schedule"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$40.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The doomers and haters are super annoying, I'd recommend anyone who likes tense gunplay and likes the visual style to jump in - even if Bungie stopped updating it tomorrow, it's still well worth the $40.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/marathons-future-questioned-as-bungie-delays-big-update-and-scraps-seasonal-schedule"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:10",
+      "value": "update 10",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If any of them delayed an update 10 weeks I think people would move.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/marathons-future-questioned-as-bungie-delays-big-update-and-scraps-seasonal-schedule"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3600000000",
+      "value": "$3.6 billion",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony live service obsessions cost them $3.6 billion for Bungie and $250 million for this game which looks like will follow Concord in the graveyard.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/marathons-future-questioned-as-bungie-delays-big-update-and-scraps-seasonal-schedule"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:250000000",
+      "value": "$250 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony live service obsessions cost them $3.6 billion for Bungie and $250 million for this game which looks like will follow Concord in the graveyard.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/marathons-future-questioned-as-bungie-delays-big-update-and-scraps-seasonal-schedule"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:1250000:copies",
+      "value": "1.25 million copies",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Apparently it has sold 1.25 million copies, started with 88k CCU on steam and within 6 months can’t get 2.5 k on a Sunday.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/marathons-future-questioned-as-bungie-delays-big-update-and-scraps-seasonal-schedule"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "clearly a blast haver you re engaging with",
+      "value": "clearly a blast haver you’re engaging with.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Madnurz \"clearly a blast haver you’re engaging with.\" What is a blast haver?",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/marathons-future-questioned-as-bungie-delays-big-update-and-scraps-seasonal-schedule"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this made extraction more difficult to engage with and prevented the reset from working as intended",
+      "value": "This made Extraction more difficult to engage with and prevented the reset from working as intended,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(1/2)\n\n\"This made Extraction more difficult to engage with and prevented the reset from working as intended,\" Bungie wrote.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/bungie-delays-next-marathon-update-and-ends-strict-seasonal-schedule-as-it-goes-all-in-on-destiny-like-features/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "october gives us an opportunity to apply what we learned and establish a healthier progression experience",
+      "value": "October gives us an opportunity to apply what we learned and establish a healthier progression experience.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"October gives us an opportunity to apply what we learned and establish a healthier progression experience.\"\n\nThe October refresh will also see the Vault Breaker PvE mode brought back for a limited time, and there will be other \"gameplay experiments\" between the October refresh and Symbiosis update in December as well.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/bungie-delays-next-marathon-update-and-ends-strict-seasonal-schedule-as-it-goes-all-in-on-destiny-like-features/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "social space with a firing range",
+      "value": "social space with a firing range,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's the big one: PvE will finally be made a permanent mode, and there will be a new Runner shell, a \"social space with a firing range,\" an experimental Team Deathmatch mode, and various other improvements.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/bungie-delays-next-marathon-update-and-ends-strict-seasonal-schedule-as-it-goes-all-in-on-destiny-like-features/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "expect more comms from the team over the next few weeks and months",
+      "value": "expect more comms from the team over the next few weeks (and months).",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Bungie comms boss Dylan Gafner, aka dmg04, said on X that players can \"expect more comms from the team over the next few weeks (and months).\" We'll see how it goes.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/bungie-delays-next-marathon-update-and-ends-strict-seasonal-schedule-as-it-goes-all-in-on-destiny-like-features/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the content originally planned for september will now arrive as part of our symbiosis update on december 8",
+      "value": "The content originally planned for September will now arrive as part of our Symbiosis update on December 8.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The content originally planned for September will now arrive as part of our Symbiosis update on December 8.\"\n\nDecember's Symbiosis update is promising a new Runner shell, the aforementioned permanent PvE mode, a social space where players can try out weapons together, improvements to the onboarding experience for newcomers, a \"refreshed Perimeter zone\" and an \"experimental\" team deathmatch mode.",
+      "urls": [
+        "https://www.eurogamer.net/marathon-pve-mode-delay-bungie-major-update"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 13,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "12 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

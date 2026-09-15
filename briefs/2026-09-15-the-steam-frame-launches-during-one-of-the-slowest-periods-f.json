@@ -1,0 +1,421 @@
+{
+  "generated": "2026-09-15T01:04:05.780Z",
+  "workingTitle": "The Steam Frame launches during one of the slowest periods for VR on Steam, but Valve hopes to 'rekindle the excitement' for PCVR",
+  "heat": 53.9,
+  "outletCount": 5,
+  "outlets": [
+    "PC Gamer",
+    "Game Developer",
+    "Rock Paper Shotgun",
+    "Kotaku",
+    "Eurogamer"
+  ],
+  "newest": "2026-09-14T19:00:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "The Steam Frame launches during one of the slowest periods for VR on Steam, but Valve hopes to 'rekindle the excitement' for PCVR",
+        "url": "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-launches-during-one-of-the-slowest-periods-for-vr-on-steam-but-valve-hopes-to-rekindle-the-excitement-for-pcvr/",
+        "date": "2026-09-14T19:00:00.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Valve's Steam Frame pricing starts at $1,059",
+        "url": "https://www.gamedeveloper.com/extended-reality/valve-s-steam-frame-will-retail-for-1-059",
+        "date": "2026-09-14T18:04:06.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Valve decided that cutting the Steam Frame’s specs to avoid price rises wasn't \"the right product choice\" for the VR headset",
+        "url": "https://www.rockpapershotgun.com/valve-decided-that-cutting-the-steam-frames-specs-to-avoid-price-rises-wasnt-the-right-product-choice-for-the-vr-headset",
+        "date": "2026-09-14T18:00:14.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Valve targeted a lower price for the Steam Frame, then the memory crisis happened: 'I wish we could have shipped it at the price that we were at last year'",
+        "url": "https://www.pcgamer.com/hardware/vr-hardware/valve-targeted-a-lower-price-for-the-steam-frame-then-the-memory-crisis-happened-i-wish-we-could-have-shipped-it-at-the-price-that-we-were-at-last-year/",
+        "date": "2026-09-14T17:30:00.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Valve working on Steam Frame strap that adds Index-like speakers and hot-swappable batteries, 'coming soon'",
+        "url": "https://www.pcgamer.com/hardware/vr-hardware/valve-working-on-steam-frame-strap-that-adds-index-like-speakers-and-hot-swappable-batteries-coming-soon/",
+        "date": "2026-09-14T17:10:00.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Steam Frame review: Another best-in-class VR headset by Valve, though virtual realities clash with economic ones",
+        "url": "https://www.rockpapershotgun.com/steam-frame-review",
+        "date": "2026-09-14T17:00:42.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:1060",
+      "value": "$1,059",
+      "outlets": [
+        "Game Developer",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "The new virtual reality device will cost $1,059 for a basic 256GB model, while a 1TB model will cost $1,200.",
+      "urls": [
+        "https://www.gamedeveloper.com/extended-reality/valve-s-steam-frame-will-retail-for-1-059",
+        "https://www.rockpapershotgun.com/steam-frame-review"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:59",
+      "value": "$59.",
+      "outlets": [
+        "Game Developer",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "An \"ergonomic accessories kit\" will cost $59.",
+      "urls": [
+        "https://www.gamedeveloper.com/extended-reality/valve-s-steam-frame-will-retail-for-1-059",
+        "https://www.rockpapershotgun.com/steam-frame-review"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "some of the other mobile devices like the meta quest for example are some of the most popular headsets on steam",
+      "value": "Some of the other mobile devices, like the Meta Quest, for example, are some of the most popular headsets on Steam,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Some of the other mobile devices, like the Meta Quest, for example, are some of the most popular headsets on Steam,\" says Jeremy Selan, a software engineer at Valve who worked on the Steam Frame.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-launches-during-one-of-the-slowest-periods-for-vr-on-steam-but-valve-hopes-to-rekindle-the-excitement-for-pcvr/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we love the pcvr community",
+      "value": "We love the PCVR community,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We love the PCVR community,\" says Steam Frame hardware engineer Joy Lyons.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-launches-during-one-of-the-slowest-periods-for-vr-on-steam-but-valve-hopes-to-rekindle-the-excitement-for-pcvr/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we ve been making vr devices for decades now and so we ve been there since the beginning",
+      "value": "We've been making VR devices for decades now, and so we've been there since the beginning.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We've been making VR devices for decades now, and so we've been there since the beginning.\"\n\nThe Frame offers something new for Valve.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-launches-during-one-of-the-slowest-periods-for-vr-on-steam-but-valve-hopes-to-rekindle-the-excitement-for-pcvr/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we think it s great for customers to have more access to different types of games",
+      "value": "We think it's great for customers to have more access to different types of games,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Lyons explains the rationale behind Valve's approach with the Steam Frame:\n\n\"We think it's great for customers to have more access to different types of games,\" Lyons says.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-launches-during-one-of-the-slowest-periods-for-vr-on-steam-but-valve-hopes-to-rekindle-the-excitement-for-pcvr/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we wanted to with the emulation be able to have access to more games in the vr space",
+      "value": "We wanted to, with the emulation, be able to have access to more games in the VR space,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We wanted to, with the emulation, be able to have access to more games in the VR space,\" Lyons says.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-launches-during-one-of-the-slowest-periods-for-vr-on-steam-but-valve-hopes-to-rekindle-the-excitement-for-pcvr/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "and so i think some people who have done pcvr maybe haven t had access to some of the apk type games and so we re growing the catalog on that side as well",
+      "value": "And so I think some people who have done PCVR maybe haven't had access to some of the APK type games and so we're growing the catalog on that side as well.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"And so I think some people who have done PCVR maybe haven't had access to some of the APK type games and so we're growing the catalog on that side as well.\"\n\nNow, you might argue that's not really expanding PCVR so much as injecting Steam with lots of mobile VR games.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-launches-during-one-of-the-slowest-periods-for-vr-on-steam-but-valve-hopes-to-rekindle-the-excitement-for-pcvr/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this is designed for pcvr streaming and to do that really really well",
+      "value": "This is designed for PCVR streaming and to do that really, really well,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This is designed for PCVR streaming and to do that really, really well,\" Selan says of the Steam Frame.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-launches-during-one-of-the-slowest-periods-for-vr-on-steam-but-valve-hopes-to-rekindle-the-excitement-for-pcvr/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "our hope is that out of the box obviously no work is needed",
+      "value": "Our hope is that out of the box, obviously, no work is needed,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Our hope is that out of the box, obviously, no work is needed,\" Selan continues.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-launches-during-one-of-the-slowest-periods-for-vr-on-steam-but-valve-hopes-to-rekindle-the-excitement-for-pcvr/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "elected to pour all our efforts into making our partner games available",
+      "value": "elected to pour all our efforts into making our partner games available,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Of course, I asked Lyons and Selan about any plans for future release, but they told me Valve has \"elected to pour all our efforts into making our partner games available,\" and \"don't have any new titles coming out.\" Though, Half-Life: Alyx came out nearly a year after the Valve Index, so I'm holding out hope yet.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/the-steam-frame-launches-during-one-of-the-slowest-periods-for-vr-on-steam-but-valve-hopes-to-rekindle-the-excitement-for-pcvr/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1200",
+      "value": "$1,200.",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The new virtual reality device will cost $1,059 for a basic 256GB model, while a 1TB model will cost $1,200.",
+      "urls": [
+        "https://www.gamedeveloper.com/extended-reality/valve-s-steam-frame-will-retail-for-1-059"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:29",
+      "value": "$29",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Those costs are likely to be bumped further upward by additional accessories like a $29 power supply for standalone use (the Steam Frame can either act as an independent headset running SteamOS or as a device working off a separate computer).",
+      "urls": [
+        "https://www.gamedeveloper.com/extended-reality/valve-s-steam-frame-will-retail-for-1-059"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "ergonomic accessories kit",
+      "value": "ergonomic accessories kit",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "An \"ergonomic accessories kit\" will cost $59.",
+      "urls": [
+        "https://www.gamedeveloper.com/extended-reality/valve-s-steam-frame-will-retail-for-1-059"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:349",
+      "value": "$349.",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A 512GB Meta Quest currently costs $349.",
+      "urls": [
+        "https://www.gamedeveloper.com/extended-reality/valve-s-steam-frame-will-retail-for-1-059"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re super happy that a bunch of people are getting their hands on them",
+      "value": "We're super happy that a bunch of people are getting their hands on them,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We're super happy that a bunch of people are getting their hands on them,\" said SteamOS developer Pierre-Loup Griffais.",
+      "urls": [
+        "https://www.rockpapershotgun.com/valve-decided-that-cutting-the-steam-frames-specs-to-avoid-price-rises-wasnt-the-right-product-choice-for-the-vr-headset"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we can say what we want about like the pricing could have been lower or there could have been more or whatever",
+      "value": "We can say what we want about, like, the pricing could have been lower, or there could have been more , or whatever,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We can say what we want about, like, the pricing could have been lower, or there could have been more , or whatever,\" he continued.",
+      "urls": [
+        "https://www.rockpapershotgun.com/valve-decided-that-cutting-the-steam-frames-specs-to-avoid-price-rises-wasnt-the-right-product-choice-for-the-vr-headset"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:600",
+      "value": "$600",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Even following a price hike, which Meta justified on similar terms to Valve, you can buy a Quest 3 for $600 today.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/valve-targeted-a-lower-price-for-the-steam-frame-then-the-memory-crisis-happened-i-wish-we-could-have-shipped-it-at-the-price-that-we-were-at-last-year/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we looked at the steam frame pre launch a few years ago we said we can access this huge fraction of the same catalog or we can slice a major component off it and make sure that ll never run if we do a lower limit",
+      "value": "We looked at the Steam Frame pre-launch a few years ago, we said we can access this huge fraction of the same catalog , or we can slice a major component off it and make sure that'll never run, if we do a lower limit,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We looked at the Steam Frame pre-launch a few years ago, we said we can access this huge fraction of the same catalog , or we can slice a major component off it and make sure that'll never run, if we do a lower limit,\" said Selan.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/valve-targeted-a-lower-price-for-the-steam-frame-then-the-memory-crisis-happened-i-wish-we-could-have-shipped-it-at-the-price-that-we-were-at-last-year/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:450",
+      "value": "$450.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That doesn't change much from a customer perspective, mind, many of whom will now have to weigh up whether Valve's device is worth an extra $450.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/valve-targeted-a-lower-price-for-the-steam-frame-then-the-memory-crisis-happened-i-wish-we-could-have-shipped-it-at-the-price-that-we-were-at-last-year/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "so the battery the thermals i think those will be the ultimate limits of the device",
+      "value": "So the battery, the thermals; I think those will be the ultimate limits of the device,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"So the battery, the thermals; I think those will be the ultimate limits of the device,\" said Jeremy Selan, software engineer at Valve during a pre-launch chat.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/valve-working-on-steam-frame-strap-that-adds-index-like-speakers-and-hot-swappable-batteries-coming-soon/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re working to make it available as soon as we can",
+      "value": "we're working to make it available as soon as we can.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He ended up saying, \"we're working to make it available as soon as we can.\"\n\n\"The Valve Index audio is, I mean, it's awesome, and so we wanted to give people the opportunity to have that,\" says Joy Lyons, hardware engineer and audio expert at Valve.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/valve-working-on-steam-frame-strap-that-adds-index-like-speakers-and-hot-swappable-batteries-coming-soon/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the vibration caused the screen to jump with the bass which is not as exciting as it sounds",
+      "value": "The vibration caused the screen to jump with the bass, which is not as exciting as it sounds,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The vibration caused the screen to jump with the bass, which is not as exciting as it sounds,\" Lyons said.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/vr-hardware/valve-working-on-steam-frame-strap-that-adds-index-like-speakers-and-hot-swappable-batteries-coming-soon/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1300",
+      "value": "$1,299,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I don't think taking that stance that means making excuses for just how expensive the Frame is; the 1TB version I tested is &pound;1,089 / $1,299, almost double the UK price of a top-spec Quest 3.",
+      "urls": [
+        "https://www.rockpapershotgun.com/steam-frame-review"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 24,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "22 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

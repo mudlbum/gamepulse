@@ -1,0 +1,251 @@
+{
+  "generated": "2026-09-15T01:04:05.677Z",
+  "workingTitle": "8 New Things We Just Learned About World Of Warcraft: Forever From Its Lead Designers",
+  "heat": 56.8,
+  "outletCount": 5,
+  "outlets": [
+    "Kotaku",
+    "Polygon",
+    "PC Gamer",
+    "PCGamesN",
+    "Eurogamer"
+  ],
+  "newest": "2026-09-15T00:18:54.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "8 New Things We Just Learned About World Of Warcraft: Forever From Its Lead Designers",
+        "url": "https://kotaku.com/new-things-learned-world-of-warcraft-forever-2000734005",
+        "date": "2026-09-15T00:18:54.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "World of Warcraft Forever Will be the Easiest Way into WoW in 20 Years",
+        "url": "https://www.polygon.com/world-of-warcraft-forever-wow-approachable-casual-new-players/",
+        "date": "2026-09-14T18:30:14.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "World of Warcraft: Forever will get a hardcore mode by winter, say devs—which'll be interesting, given all the new and undiscovered ways to die",
+        "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-will-get-a-hardcore-mode-by-winter-say-devs-whichll-be-interesting-given-all-the-new-and-undiscovered-ways-to-die/",
+        "date": "2026-09-14T15:25:32.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Talent calculators have already been assembled for World of Warcraft: Forever, and there's some real interesting stuff in here",
+        "url": "https://www.pcgamer.com/games/world-of-warcraft/talent-calculators-have-already-been-assembled-for-world-of-warcraft-forever-and-theres-some-real-interesting-stuff-in-here/",
+        "date": "2026-09-14T13:40:24.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "World of Warcraft: Forever devs say a direct sequel like Guild Wars 2 is unlikely: 'Why would you throw that away and start over?'",
+        "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-devs-say-a-direct-sequel-like-guild-wars-2-is-unlikely-why-would-you-throw-that-away-and-start-over/",
+        "date": "2026-09-14T10:38:53.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "World of Warcraft Forever is already scaring lapsed MMORPG players",
+        "url": "https://www.pcgamesn.com/world-of-warcraft/forever-impressions-lapsed-players",
+        "date": "2026-09-13T16:15:13.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$30",
+      "outlets": [
+        "Kotaku",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "“We want to make sure that there is challenge and rewards in the 10-player content and there will always be a 10-player raid for groups every single tier forever.”\n\nI actually asked Jones and Nuthals a question about the Skyborne elves being paywalled behind a $30 purchase, and whether or not we should expect more gameplay-related content to be behind paywalls in the future.",
+      "urls": [
+        "https://kotaku.com/new-things-learned-world-of-warcraft-forever-2000734005",
+        "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-devs-say-a-direct-sequel-like-guild-wars-2-is-unlikely-why-would-you-throw-that-away-and-start-over/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "character models and more detailed",
+      "value": "character models and more detailed",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You can swap between the original low-poly \"SD\" character models and more detailed \"HD\" ones, but even the HD models have been painstakingly retrofitted with the classic game's animation routines, so they don't look out of place.",
+      "urls": [
+        "https://www.polygon.com/world-of-warcraft-forever-wow-approachable-casual-new-players/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "is why i am also so proud to announce that hardcore will be coming to wow forever as well",
+      "value": "Is why I am also so proud to announce that Hardcore will be coming to WoW Forever as well.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Which,\" he continues, \"Is why I am also so proud to announce that Hardcore will be coming to WoW Forever as well.\"\n\nWhile this isn't all too surprising on the face of it—Classic Hardcore proved to be incredibly popular—it will be interesting.",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-will-get-a-hardcore-mode-by-winter-say-devs-whichll-be-interesting-given-all-the-new-and-undiscovered-ways-to-die/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "easy to get into and play and deep enough to stay forever",
+      "value": "easy to get into and play, and deep enough to stay… forever.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "World of Warcraft Forever is \"easy to get into and play, and deep enough to stay… forever.\" Executive Producer Holly Longdale's pitch on the Blizzcon 2026 stage sounded as ominous as it did enticing.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-impressions-lapsed-players"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "getting back into this would lead to a divorce",
+      "value": "Getting back into this would lead to a divorce,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Getting back into this would lead to a divorce,\" a Reddit user remarks on r/Millenials.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-impressions-lapsed-players"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "others recall skipping classes in college one notes that seeing a friend drop out of university was",
+      "value": "Others recall skipping classes in college; one notes that seeing a friend drop out of university was",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I'm married now, and I told my wife I'd never touch that game again in my life and I meant it.\" Others recall skipping classes in college; one notes that seeing a friend drop out of university was \"a sobering wakeup\" for their friend group, all of whom were \"hooked\" on the MMO.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-impressions-lapsed-players"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we don t want to race ahead and leave our accomplishments our gear and our friends behind",
+      "value": "We don't want to race ahead and leave our accomplishments, our gear, and our friends behind,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's an experience designed to feel more relaxed and easy-going, where the level cap remains at 60 indefinitely, and catching up is just a case of playing the game as normal: \"We don't want to race ahead and leave our accomplishments, our gear, and our friends behind,\" Longdale explains.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-impressions-lapsed-players"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we are all going to meet up on our original continents and embark on the journey to 60 and stay at 60",
+      "value": "We are all going to meet up on our original continents and embark on the journey to 60 - and stay at 60.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Longdale is playing the nostalgia card: \"We are all going to meet up on our original continents and embark on the journey to 60 - and stay at 60.\" Despite this, Blizzard has already laid out its plans for a first year of updates.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-impressions-lapsed-players"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "started my wife on it during classic",
+      "value": "Started my wife on it during Classic,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Started my wife on it during Classic,\" one commenter notes, encouraging others to bring their partners along for the journey.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-impressions-lapsed-players"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "task failed successfully me and my husband will be playing together",
+      "value": "Task failed successfully, me and my husband will be playing together,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Task failed successfully, me and my husband will be playing together,\" adds a second.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-impressions-lapsed-players"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "blizzard dodging giving people high elves like a pro",
+      "value": "Blizzard dodging giving people High Elves like a pro,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Over on r/WoW, the top comments refer to \"Blizzard dodging giving people High Elves like a pro,\" or simply note, \"Skyborne about to upset everyone.\" There's plenty of excitement for the possibility to finally create an Undead Paladin, however.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-impressions-lapsed-players"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:150",
+      "value": "$150",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While it's not the only indicator of success, the $150 World of Warcraft Forever Collector's Edition is already sold out on the Blizzard store.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-impressions-lapsed-players"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 12,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "11 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

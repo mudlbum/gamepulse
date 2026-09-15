@@ -1,0 +1,308 @@
+{
+  "generated": "2026-09-15T01:03:48.680Z",
+  "workingTitle": "Blizzard Explains How Diablo 5 Avoids Diablo 4's Open-World Problem",
+  "heat": 123.5,
+  "outletCount": 11,
+  "outlets": [
+    "Polygon",
+    "GameSpot",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "IGN",
+    "PC Gamer",
+    "Push Square",
+    "Destructoid",
+    "Xbox Wire",
+    "PCGamesN",
+    "Nintendo Life"
+  ],
+  "newest": "2026-09-14T23:49:17.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Blizzard Explains How Diablo 5 Avoids Diablo 4's Open-World Problem",
+        "url": "https://www.polygon.com/diablo-5-no-open-world-blizzard-interview/",
+        "date": "2026-09-14T23:49:17.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "A StarCraft open-world shooter that's \"Deadwood in space\", Diablo 5, and a new classic-ish World of Warcraft branch out this year make up Blizzard of reveals",
+        "url": "https://www.rockpapershotgun.com/a-starcraft-open-world-shooter-thats-deadwood-in-space-diablo-5-and-a-new-classic-ish-world-of-warcraft-branch-out-this-year-make-up-blizzard-of-reveals",
+        "date": "2026-09-14T10:45:30.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Diablo 4 was basically an MMO, will Diablo 5 follow suit? Blizzard is being coy for now",
+        "url": "https://www.eurogamer.net/diablo-5-multiplayer-co-op-diablo-4-comparisons",
+        "date": "2026-09-14T10:19:13.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Blizzard explains why it's revealing StarCraft and Diablo 5 release dates so far away: \"We want to convey confidence in some of our biggest bets\"",
+        "url": "https://www.eurogamer.net/why-blizzard-dating-games-far-away-starcraft-diablo-5",
+        "date": "2026-09-14T09:33:49.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Blizzard Insists There Are 'Many Reasons to Keep Playing' Diablo 4 as Fans Debate End of Expansions and Diablo 5 in 2029",
+        "url": "https://www.ign.com/articles/blizzard-insists-there-are-many-reasons-to-keep-playing-diablo-4-as-fans-debate-end-of-expansions-and-diablo-5-in-2029",
+        "date": "2026-09-14T09:19:57.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Blizzard Says Diablo 5 Was Too Big To Be A Diablo 4 Expansion",
+        "url": "https://www.gamespot.com/articles/blizzard-says-diablo-5-was-too-big-to-be-a-diablo-4-expansion/",
+        "date": "2026-09-14T18:03:36.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "you might encounter a ruined church and that ruined church can be represented in different ways depending on the state of the region when you re there",
+      "value": "You might encounter a ruined church, and that ruined church can be represented in different ways depending on the state of the region when you're there,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"You might encounter a ruined church, and that ruined church can be represented in different ways depending on the state of the region when you're there,\" Shely provided as an example of its procedural generation in action.",
+      "urls": [
+        "https://www.polygon.com/diablo-5-no-open-world-blizzard-interview/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "well we re going to build a lot of content",
+      "value": "Well, we're going to build a lot of content,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Well, we're going to build a lot of content,\" Shely stated.",
+      "urls": [
+        "https://www.polygon.com/diablo-5-no-open-world-blizzard-interview/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "zitterman then chimed in to say that",
+      "value": "Zitterman then chimed in to say that",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's intentional.\"\n\nZitterman then chimed in to say that \"this is a technology that we've been building on since Diablo 3\" and that \"when the time is right, we can deep dive a little bit more on exactly how some of the technology allows us to solve that problem.\" As such, it sounds like we'll learn a lot more about how Diablo 5's procedural generation works before the game launches in 2029.",
+      "urls": [
+        "https://www.polygon.com/diablo-5-no-open-world-blizzard-interview/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "all did not get along but they all understood they kind of had to rely on each other to survive",
+      "value": "all did not get along, but they all understood they kind of had to rely on each other to survive",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In an interview with Destin Legarie, Hay pointed to the show's depiction of a relatively lean cast of characters who \"all did not get along, but they all understood they kind of had to rely on each other to survive\", so one would assume this StarCraft reboot'll feature lots of bickering.",
+      "urls": [
+        "https://www.rockpapershotgun.com/a-starcraft-open-world-shooter-thats-deadwood-in-space-diablo-5-and-a-new-classic-ish-world-of-warcraft-branch-out-this-year-make-up-blizzard-of-reveals"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "people to go out into these worlds and actually get a sense of what it s like to meet these different groups",
+      "value": "people to go out into these worlds and actually get a sense of what it's like to meet these different groups",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Asked by IGN why the switch from RTS to shooter's been made, Hay seems to have sidestepped getting too specific, but did say Blizzard want \"people to go out into these worlds and actually get a sense of what it's like to meet these different groups\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/a-starcraft-open-world-shooter-thats-deadwood-in-space-diablo-5-and-a-new-classic-ish-world-of-warcraft-branch-out-this-year-make-up-blizzard-of-reveals"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "at the heart of diablo v lies a defining question what must you become when the world has already fallen",
+      "value": "At the heart of Diablo V lies a defining question: what must you become when the world has already fallen?",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"At the heart of Diablo V lies a defining question: what must you become when the world has already fallen?\", Blizzard declared.",
+      "urls": [
+        "https://www.rockpapershotgun.com/a-starcraft-open-world-shooter-thats-deadwood-in-space-diablo-5-and-a-new-classic-ish-world-of-warcraft-branch-out-this-year-make-up-blizzard-of-reveals"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "an invitation to take your first steps in a legendary world of untamed frontiers warring factions untold perils and unseen mysteries",
+      "value": "an invitation to take your first steps in a legendary world of untamed frontiers, warring factions, untold perils, and unseen mysteries",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to Blizzard, it's \"an invitation to take your first steps in a legendary world of untamed frontiers, warring factions, untold perils, and unseen mysteries\", by running around \"an Azeroth that grows from the roots of WoW's first age, continually evolving through regular content patches and updates\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/a-starcraft-open-world-shooter-thats-deadwood-in-space-diablo-5-and-a-new-classic-ish-world-of-warcraft-branch-out-this-year-make-up-blizzard-of-reveals"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "like diablo 4 it is a game that you can play solo or multiplayer however you please and you should be able to play all of the content with your friends",
+      "value": "Like Diablo 4, it is a game that you can play solo or multiplayer, however you please, and you should be able to play all of the content with your friends,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Like Diablo 4, it is a game that you can play solo or multiplayer, however you please, and you should be able to play all of the content with your friends,\" said Joe Shely.",
+      "urls": [
+        "https://www.eurogamer.net/diablo-5-multiplayer-co-op-diablo-4-comparisons"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we want to convey confidence in some of our biggest bets coming forward",
+      "value": "We want to convey confidence in some of our biggest bets coming forward,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We want to convey confidence in some of our biggest bets coming forward,\" answered Blizzard president Johanna Faries, speaking to Bloomberg in an interview.",
+      "urls": [
+        "https://www.eurogamer.net/why-blizzard-dating-games-far-away-starcraft-diablo-5"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re a blizzard that s going to ship and ship big and ship on time and all hands on deck to set those projects up for success",
+      "value": "We're a Blizzard that's going to ship, and ship big, and ship on time, and all hands on deck to set those projects up for success.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We're a Blizzard that's going to ship, and ship big, and ship on time, and all hands on deck to set those projects up for success.\"\n\nOne explanation for the change of approach could come from looming Xbox layoffs.",
+      "urls": [
+        "https://www.eurogamer.net/why-blizzard-dating-games-far-away-starcraft-diablo-5"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i m completely focused on creating as healthy a blizzard as possible",
+      "value": "I'm completely focused on creating as healthy a Blizzard as possible,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I'm completely focused on creating as healthy a Blizzard as possible,\" she said.",
+      "urls": [
+        "https://www.eurogamer.net/why-blizzard-dating-games-far-away-starcraft-diablo-5"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "and to the extent that we can perform well for microsoft i think that should be seen as a mutual win",
+      "value": "And to the extent that we can perform well for Microsoft, I think that should be seen as a mutual win,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"And to the extent that we can perform well for Microsoft, I think that should be seen as a mutual win,\" she said.",
+      "urls": [
+        "https://www.eurogamer.net/why-blizzard-dating-games-far-away-starcraft-diablo-5"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "of the series and labelled it",
+      "value": "of the series and labelled it",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Faries called the new StarCraft a \"broadening\" of the series and labelled it \"a StarCraft for the modern, next generation of players without departing from our RTS roots\", which is a curious thing to say - does that suggest it has RTS elements to it?",
+      "urls": [
+        "https://www.eurogamer.net/why-blizzard-dating-games-far-away-starcraft-diablo-5"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we ll have more to say about that you know over the years here",
+      "value": "We'll have more to say about that, you know, over the years here,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We'll have more to say about that, you know, over the years here,\" Faries added.",
+      "urls": [
+        "https://www.eurogamer.net/why-blizzard-dating-games-far-away-starcraft-diablo-5"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "starting a new conversation around it",
+      "value": "starting a new conversation around it",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The intention of revealing it so early was \"starting a new conversation around it\".",
+      "urls": [
+        "https://www.eurogamer.net/why-blizzard-dating-games-far-away-starcraft-diablo-5"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "“I spent $100 on Diablo 4 and only got over a thousand hours of entertainment,” one person joked.",
+      "urls": [
+        "https://www.ign.com/articles/blizzard-insists-there-are-many-reasons-to-keep-playing-diablo-4-as-fans-debate-end-of-expansions-and-diablo-5-in-2029"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 16,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "generated": "2026-09-15T01:03:49.073Z",
+  "workingTitle": "The Last Of Us 2 Multiplayer Mod Canceled “On Behalf Of Sony,” Dev Says",
+  "heat": 66.6,
+  "outletCount": 8,
+  "outlets": [
+    "GameSpot",
+    "PC Gamer",
+    "Kotaku",
+    "Rock Paper Shotgun",
+    "PCGamesN",
+    "Eurogamer",
+    "IGN",
+    "Push Square"
+  ],
+  "newest": "2026-09-14T15:42:19.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "That Last of Us 2 multiplayer mod everyone was looking forward to has been killed by Sony",
+        "url": "https://www.pcgamer.com/games/action/that-last-of-us-2-multiplayer-mod-everyone-was-looking-forward-to-has-been-killed-by-sony/",
+        "date": "2026-09-14T15:30:36.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Last Of Us Part 2 Multiplayer Mod Shut Down By Sony After Months Of Work",
+        "url": "https://kotaku.com/last-of-us-part-2-multiplayer-mod-sony-naughty-dog-canceled-2000734244",
+        "date": "2026-09-14T13:02:53.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Sony letter spells the end for unreleased The Last of Us Part 2 multiplayer mod, its creator says",
+        "url": "https://www.rockpapershotgun.com/sony-letter-spells-the-end-for-unreleased-the-last-of-us-part-2-multiplayer-mod-its-creator-says",
+        "date": "2026-09-14T12:14:56.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "The Last of Us 2 multiplayer mod reportedly axed at the last moment by Sony",
+        "url": "https://www.pcgamesn.com/the-last-of-us/multiplayer-mod-axed-sony",
+        "date": "2026-09-14T09:35:02.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "A multiplayer mod for The Last of Us 2 was reportedly cancelled \"at Sony's request\"",
+        "url": "https://www.eurogamer.net/the-last-of-us-2-mod-cancelled-playstation",
+        "date": "2026-09-14T08:29:01.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "The Last Of Us 2 Multiplayer Mod Canceled “On Behalf Of Sony,” Dev Says",
+        "url": "https://www.gamespot.com/articles/the-last-of-us-2-multiplayer-mod-canceled-on-behalf-of-sony-dev-says/",
+        "date": "2026-09-14T15:42:19.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "hey everyone as you all know the tlou 2 multiplayer mod that has been in development since january was supposed to release this month",
+      "value": "Hey everyone, as you all know, the The Last of Us 2 multiplayer mod that has been in development since January was supposed to release this month,",
+      "outlets": [
+        "PC Gamer",
+        "Rock Paper Shotgun",
+        "PCGamesN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 4,
+      "context": "\"Hey everyone, as you all know, the The Last of Us 2 multiplayer mod that has been in development since January was supposed to release this month,\" Speclizer claims in a post on X.",
+      "urls": [
+        "https://www.pcgamer.com/games/action/that-last-of-us-2-multiplayer-mod-everyone-was-looking-forward-to-has-been-killed-by-sony/",
+        "https://www.rockpapershotgun.com/sony-letter-spells-the-end-for-unreleased-the-last-of-us-part-2-multiplayer-mod-its-creator-says",
+        "https://www.pcgamesn.com/the-last-of-us/multiplayer-mod-axed-sony",
+        "https://www.eurogamer.net/the-last-of-us-2-mod-cancelled-playstation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "gone from a buggy 1v1 test to something that actually feels like a real multiplayer mode",
+      "value": "We've gone from a buggy 1v1 test to something that actually feels like a real multiplayer mode,",
+      "outlets": [
+        "PC Gamer",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We've gone from a buggy 1v1 test to something that actually feels like a real multiplayer mode,\" the modder said in that video, touting newly added features like public matchmaking and a loadout system.",
+      "urls": [
+        "https://www.pcgamer.com/games/action/that-last-of-us-2-multiplayer-mod-everyone-was-looking-forward-to-has-been-killed-by-sony/",
+        "https://www.rockpapershotgun.com/sony-letter-spells-the-end-for-unreleased-the-last-of-us-part-2-multiplayer-mod-its-creator-says"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "developed it almost to 80 completion",
+      "value": "developed it almost to 80% completion,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "TLOU Online director Vinit Agarwal said earlier this year that the game was really good, which I suppose is what you'd expect him to say, and also that Naughty Dog had \"developed it almost to 80% completion,\" which makes the disappointment of not getting it even more acute.",
+      "urls": [
+        "https://www.pcgamer.com/games/action/that-last-of-us-2-multiplayer-mod-everyone-was-looking-forward-to-has-been-killed-by-sony/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "gain early access to starlight",
+      "value": "gain early access to Starlight",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Monetisation might have been where Speclizer came a cropper, as the description of a TLOU 2 multiplayer mod showcase video they posted back in June touts being able to \"gain early access to Starlight\" via a Patreon page - which now only seems to host a \"Notice\" posted on September 6th.",
+      "urls": [
+        "https://www.rockpapershotgun.com/sony-letter-spells-the-end-for-unreleased-the-last-of-us-part-2-multiplayer-mod-its-creator-says"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "just to answer a commonly asked question co op will be worked on after the public release of this pvp mode",
+      "value": "Just to answer a commonly asked question, co-op will be worked on after the public release of this PvP mode,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Just to answer a commonly asked question, co-op will be worked on after the public release of this PvP mode,\" Speclizer wrote several weeks prior in a pinned YouTube comment.",
+      "urls": [
+        "https://www.pcgamesn.com/the-last-of-us/multiplayer-mod-axed-sony"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "pvp turned out to be the easier path and it creates a solid base for when co op development starts",
+      "value": "PvP turned out to be the easier path, and it creates a solid base for when co-op development starts.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"PvP turned out to be the easier path, and it creates a solid base for when co-op development starts.\"\n\nWith Sony stepping in to halt competitive multiplayer, however, it seems likely that any attempts to release a co-op mod would share a similar fate.",
+      "urls": [
+        "https://www.pcgamesn.com/the-last-of-us/multiplayer-mod-axed-sony"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "4 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
