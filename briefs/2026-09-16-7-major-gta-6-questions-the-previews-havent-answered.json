@@ -1,0 +1,162 @@
+{
+  "generated": "2026-09-16T00:53:19.960Z",
+  "workingTitle": "7 Major GTA 6 Questions the Previews Haven't Answered",
+  "heat": 51.8,
+  "outletCount": 5,
+  "outlets": [
+    "Polygon",
+    "GameSpot",
+    "Push Square",
+    "IGN",
+    "Eurogamer"
+  ],
+  "newest": "2026-09-15T21:35:50.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "7 Major GTA 6 Questions the Previews Haven't Answered",
+        "url": "https://www.polygon.com/gta-6-major-questions/",
+        "date": "2026-09-15T21:35:50.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Multiple Music Artists Tease GTA 6 Collaborations",
+        "url": "https://www.pushsquare.com/news/2026/09/multiple-music-artists-tease-gta-6-collaborations",
+        "date": "2026-09-15T15:45:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 for PS5: Save $11, Today Only",
+        "url": "https://www.ign.com/articles/gta-6-for-ps5-save-11-today-only",
+        "date": "2026-09-15T14:08:26.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "GTA 6's first confirmed actor is King of the Hill's Stephen Root: \"It's an amazing thing to look at\"",
+        "url": "https://www.eurogamer.net/gta-6-confirmed-actor-king-of-the-hill-stephen-root",
+        "date": "2026-09-14T19:04:43.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Big GTA 6 News Could Be Coming Up Soon",
+        "url": "https://www.gamespot.com/articles/big-gta-6-news-could-be-coming-up-soon/",
+        "date": "2026-09-15T15:58:42.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6’s Stephen Root Is The Franchise’s Second-Ever Emmy Winning Actor",
+        "url": "https://www.gamespot.com/articles/gta-6s-stephen-root-is-the-franchises-second-ever-emmy-winning-actor/",
+        "date": "2026-09-15T14:59:37.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "By entering code GGUF434 at checkout, you can get $100 in PlayStation Store credit for $89.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-for-ps5-save-11-today-only"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:89",
+      "value": "$89.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "By entering code GGUF434 at checkout, you can get $100 in PlayStation Store credit for $89.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-for-ps5-save-11-today-only"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100000000",
+      "value": "$100 M",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Which means, if you’ve held off on preordering GTA 6 so far, you can get the ultimate edition for $89 rather than the $100 MSRP.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-for-ps5-save-11-today-only"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "yeah you re gonna see me in that",
+      "value": "Yeah, you're gonna see me in that.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Asked about the fan speculation by AP News, Stephen Root said, \"Yeah, you're gonna see me in that.\"\n\nYou might recognise Root's face from his work in the Oscar-winning horror film Get Out and the Emmy-winning HBO series Barry, but his voice acting career is just as prolific.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-confirmed-actor-king-of-the-hill-stephen-root"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it s coming out november 19th is the latest i know of",
+      "value": "It's coming out November 19th, is the latest I know of,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It's coming out November 19th, is the latest I know of,\" said Root.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-confirmed-actor-king-of-the-hill-stephen-root"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "classic drug runner from the golden age of smuggling",
+      "value": "classic drug runner from the golden age of smuggling",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Straight from the horse's mouth, Rockstar's website explains that Brian's a \"classic drug runner from the golden age of smuggling\" who's \"still moving product through his boat yard with his third wife, Lori.\" You can see Lucia and Jason going out for drinks with Brian and Lori in the GTA 6 extended look.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-confirmed-actor-king-of-the-hill-stephen-root"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

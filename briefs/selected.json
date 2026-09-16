@@ -1,15 +1,45 @@
 {
-  "decided": "2026-09-15T01:04:06.243Z",
+  "decided": "2026-09-16T00:53:20.921Z",
   "publish": true,
-  "reason": "selected on score 36.2",
-  "brief": "2026-09-15-the-steam-frame-launches-during-one-of-the-slowest-periods-f.json",
-  "title": "The Steam Frame launches during one of the slowest periods for VR on Steam, but Valve hopes to 'rekindle the excitement' for PCVR",
+  "reason": "selected on score 35.0",
+  "brief": "2026-09-16-steam-deck-2-plans-arent-affected-by-ongoing-component-crisi.json",
+  "title": "Steam Deck 2 plans aren't affected by ongoing component crisis, Valve maintains, as Steam Frame arrives later and more expensive than expected",
   "considered": [
+    {
+      "file": "2026-09-16-xbox-game-pass-september-2026-wave-2-lineup-announced.json",
+      "title": "Xbox Game Pass September 2026 Wave 2 Lineup Announced",
+      "pass": false,
+      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-16-steam-deck-2-plans-arent-affected-by-ongoing-component-crisi.json",
+      "title": "Steam Deck 2 plans aren't affected by ongoing component crisis, Valve maintains, as Steam Frame arrives later and more expensive than expected",
+      "pass": true,
+      "reason": "5/16 claims corroborated · 4 outlets · secondary only · 12h old"
+    },
+    {
+      "file": "2026-09-16-lies-of-ps-sequel-is-a-wizard-of-oz-homage-called-wonders-of.json",
+      "title": "Lies of P's sequel is a Wizard of Oz homage called Wonders of O, going by a Neowiz trademark, and probably not a videogame based on a famous work of French…",
+      "pass": false,
+      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-16-diablo-5-devs-address-the-release-date-skepticism-the-team-a.json",
+      "title": "Diablo 5 Devs Address The Release Date Skepticism: ‘The Team All Agreed That It Was A Great Time To Tell The World’",
+      "pass": false,
+      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-16-7-major-gta-6-questions-the-previews-havent-answered.json",
+      "title": "7 Major GTA 6 Questions the Previews Haven't Answered",
+      "pass": false,
+      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-09-15-the-steam-frame-launches-during-one-of-the-slowest-periods-f.json",
       "title": "The Steam Frame launches during one of the slowest periods for VR on Steam, but Valve hopes to 'rekindle the excitement' for PCVR",
       "pass": true,
-      "reason": "2/24 claims corroborated · 5 outlets · secondary only · 6h old"
+      "reason": "2/24 claims corroborated · 5 outlets · secondary only · 30h old"
     },
     {
       "file": "2026-09-15-the-last-of-us-2-multiplayer-mod-canceled-on-behalf-of-sony-.json",
@@ -22,36 +52,6 @@
       "title": "Marathon's Future Questioned as Bungie Delays Big Update and Scraps Seasonal Schedule",
       "pass": false,
       "reason": "1 of 13 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-09-15-blizzard-explains-how-diablo-5-avoids-diablo-4s-open-world-p.json",
-      "title": "Blizzard Explains How Diablo 5 Avoids Diablo 4's Open-World Problem",
-      "pass": false,
-      "reason": "0 of 16 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-09-15-8-new-things-we-just-learned-about-world-of-warcraft-forever.json",
-      "title": "8 New Things We Just Learned About World Of Warcraft: Forever From Its Lead Designers",
-      "pass": false,
-      "reason": "1 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-09-13-warcraft-3-reforged-forsaken-kingdom-review-so-far.json",
-      "title": "Warcraft 3 Reforged: Forsaken Kingdom Review So Far",
-      "pass": false,
-      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-13-substantial-reworks-for-sombra-and-roadhog-highlight-excitin.json",
-      "title": "Substantial reworks for Sombra and Roadhog highlight exciting season 5 changes in Overwatch",
-      "pass": false,
-      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-13-physint-could-be-xboxs-biggest-gamble-yet.json",
-      "title": "Physint Could Be Xbox's Biggest Gamble Yet",
-      "pass": false,
-      "reason": "newest source is 61h old, limit 36h"
     }
   ]
 }

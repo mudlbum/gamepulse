@@ -1,0 +1,129 @@
+{
+  "generated": "2026-09-16T00:53:19.692Z",
+  "workingTitle": "Diablo 5 Devs Address The Release Date Skepticism: ‘The Team All Agreed That It Was A Great Time To Tell The World’",
+  "heat": 69.6,
+  "outletCount": 6,
+  "outlets": [
+    "Kotaku",
+    "Polygon",
+    "GameSpot",
+    "PC Gamer",
+    "Destructoid",
+    "Eurogamer"
+  ],
+  "newest": "2026-09-15T21:31:05.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Diablo 5 Devs Address The Release Date Skepticism: ‘The Team All Agreed That It Was A Great Time To Tell The World’",
+        "url": "https://kotaku.com/diablo-5-developers-release-date-skepticism-2000734728",
+        "date": "2026-09-15T21:31:05.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Diablo 4 Season 15 release time in your time zone",
+        "url": "https://www.polygon.com/diablo-4-d4-season-15-hells-legacy-release-time-edt-pdt/",
+        "date": "2026-09-15T21:21:50.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Blizzard Delays Diablo 4′s Big 30th Anniversary Season 15 Kick-Off After A Flood Of Error Codes",
+        "url": "https://kotaku.com/blizzard-delays-diablo-4s-big-30th-anniversary-season-15-kick-off-after-a-flood-of-error-codes-2000734752",
+        "date": "2026-09-15T20:08:55.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Diablo 4 player discovers secret Diablo 2 easter egg in its new throwback season and now everyone is wondering what else Blizzard hid in there",
+        "url": "https://www.pcgamer.com/games/rpg/diablo-4-player-discovers-secret-diablo-2-easter-egg-in-its-new-throwback-season-and-now-everyone-is-wondering-what-else-blizzard-hid-in-there/",
+        "date": "2026-09-15T18:55:37.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "FC 27 release countdown: Exact date and time",
+        "url": "https://www.destructoid.com/fc-27-release-countdown-exact-date-and-time/",
+        "date": "2026-09-15T18:10:19.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Devs Explain Why Diablo 5 Needed to be a New Game Instead Of An Expansion For 4",
+        "url": "https://www.gamespot.com/videos/devs-explain-why-diablo-5-needed-to-be-a-new-game-instead-of-an-expansion-for-4/",
+        "date": "2026-09-15T21:00:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "version",
+      "key": "v:season:15",
+      "value": "Season 15.",
+      "outlets": [
+        "Polygon",
+        "Kotaku",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "Now, if you're a veteran Diablo player, then you can focus on chasing the nine legacy Uniques coming in Season 15.",
+      "urls": [
+        "https://www.polygon.com/diablo-4-d4-season-15-hells-legacy-release-time-edt-pdt/",
+        "https://kotaku.com/blizzard-delays-diablo-4s-big-30th-anniversary-season-15-kick-off-after-a-flood-of-error-codes-2000734752",
+        "https://www.pcgamer.com/games/rpg/diablo-4-player-discovers-secret-diablo-2-easter-egg-in-its-new-throwback-season-and-now-everyone-is-wondering-what-else-blizzard-hid-in-there/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "greater splinter of the black soultone",
+      "value": "Greater Splinter of the Black Soultone",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For example, the \"Greater Splinter of the Black Soultone\" present in the 3.2.0 PTR could not only give a character plus 30 to all stats, but also add the effect of collecting souls from enemies and buffing the character based on the number of absorbed souls.",
+      "urls": [
+        "https://www.polygon.com/diablo-4-d4-season-15-hells-legacy-release-time-edt-pdt/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "will be instantly recognizable to veteran players",
+      "value": "will be instantly recognizable to veteran players.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Blizzard promises that these items \"will be instantly recognizable to veteran players.\" Among them, you will see \"Leoric's Crown,\" the \"Stone of Jordan,\" and \"The Furnace.\"\n\nFor a full list of upcoming features, make sure to check out Blizzard's official Season 15 explainer.",
+      "urls": [
+        "https://www.polygon.com/diablo-4-d4-season-15-hells-legacy-release-time-edt-pdt/"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 3,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "2 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

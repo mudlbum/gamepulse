@@ -1,0 +1,99 @@
+{
+  "generated": "2026-09-16T00:53:20.419Z",
+  "workingTitle": "Xbox Game Pass September 2026 Wave 2 Lineup Announced",
+  "heat": 40.7,
+  "outletCount": 4,
+  "outlets": [
+    "IGN",
+    "Pure Xbox",
+    "GameSpot",
+    "Xbox Wire"
+  ],
+  "newest": "2026-09-15T16:56:47.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Minecraft"
+  ],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Coming to XBOX Game Pass: Gears of War: E-Day, Minecraft Dungeons II, Dune: Awakening, and More",
+        "url": "https://news.xbox.com/en-us/2026/09/15/xbox-game-pass-september-2026-wave-2/",
+        "date": "2026-09-15T16:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Xbox Game Pass September 2026 Wave 2 Lineup Announced",
+        "url": "https://www.ign.com/articles/xbox-game-pass-september-2026-wave-2-lineup-announced",
+        "date": "2026-09-15T16:56:47.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Eight Games Are Leaving Xbox Game Pass In Late September 2026",
+        "url": "https://www.purexbox.com/news/2026/09/eight-games-are-leaving-xbox-game-pass-in-late-september-2026",
+        "date": "2026-09-15T16:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "These 15 Games Are Coming To Xbox Game Pass (September 15 - October 6)",
+        "url": "https://www.purexbox.com/news/2026/09/these-15-games-are-coming-to-xbox-game-pass-september-15-october-6",
+        "date": "2026-09-15T16:10:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Seven Xbox Games Are Releasing Today, Including A Gorgeous Time-Bending Military Shooter (September 15)",
+        "url": "https://www.purexbox.com/news/2026/09/seven-xbox-games-are-releasing-today-including-a-gorgeous-time-bending-military-shooter-september-15",
+        "date": "2026-09-15T10:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Xbox Game Pass Gets 12 More Games In September",
+        "url": "https://www.gamespot.com/articles/xbox-game-pass-gets-12-more-games-in-september/",
+        "date": "2026-09-15T16:19:19.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "key": "v:build:1.0",
+      "value": "version 1.0",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Kicking things off is TCG Card Shop Simulator, which has finally launched into version 1.0 today.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/seven-xbox-games-are-releasing-today-including-a-gorgeous-time-bending-military-shooter-september-15"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [
+    {
+      "game": "Minecraft",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
