@@ -1,0 +1,256 @@
+{
+  "generated": "2026-09-17T00:57:32.112Z",
+  "workingTitle": "Fire Emblem: Fortune’s Weave’s Fantastic Reviews Have Me Feeling FOMO",
+  "heat": 65,
+  "outletCount": 7,
+  "outlets": [
+    "GameSpot",
+    "IGN",
+    "Nintendo Life",
+    "Kotaku",
+    "Nintendo",
+    "Eurogamer",
+    "Destructoid"
+  ],
+  "newest": "2026-09-16T16:37:50.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Nintendo Switch 2"
+  ],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Nintendo",
+        "title": "Nintendo Switch 2 bundles available for the holidays!",
+        "url": "https://www.nintendo.com/en-gb/News/2026/September/Nintendo-Switch-2-bundles-available-for-the-holidays--3198890.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
+        "date": "2026-09-16T13:00:00.000Z",
+        "host": "www.nintendo.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Save $10 on Fire Emblem: Fortune’s Weave for Nintendo Switch 2",
+        "url": "https://www.ign.com/articles/save-10-on-fire-emblem-fortunes-weave-for-nintendo-switch-2",
+        "date": "2026-09-16T15:10:07.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Fire Emblem: Fortune's Weave Gets A Day One Update, Here Are The Patch Notes",
+        "url": "https://www.nintendolife.com/news/2026/09/fire-emblem-fortunes-weave-gets-a-day-one-update-here-are-the-patch-notes",
+        "date": "2026-09-16T15:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Fire Emblem: Fortune’s Weave Reviews Praise Tactical Combat, Warn Of Exhaustingly Long Runtime And Pacing Issues",
+        "url": "https://kotaku.com/fire-emblem-fortunes-weave-review-round-up-switch-2-2000735072",
+        "date": "2026-09-16T13:31:53.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Round Up: The Reviews For Fire Emblem: Fortune's Weave Are In",
+        "url": "https://www.nintendolife.com/news/2026/09/round-up-the-reviews-for-fire-emblem-fortunes-weave-are-in",
+        "date": "2026-09-16T13:30:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Fire Emblem: Fortune’s Weave’s Fantastic Reviews Have Me Feeling FOMO",
+        "url": "https://www.gamespot.com/articles/fire-emblem-fortunes-weaves-fantastic-reviews-have-me-feeling-fomo/",
+        "date": "2026-09-16T16:37:50.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That means today is your last chance to save $10 off physical copies of the game at Amazon and Walmart.",
+      "urls": [
+        "https://www.ign.com/articles/save-10-on-fire-emblem-fortunes-weave-for-nintendo-switch-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:80",
+      "value": "$79.99,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But once the game comes out, the price goes back up to MSRP – $79.99, in this case.",
+      "urls": [
+        "https://www.ign.com/articles/save-10-on-fire-emblem-fortunes-weave-for-nintendo-switch-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$69.99",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Digital copies are $69.99 on the Nintendo eShop, and will be for the foreseeable future.",
+      "urls": [
+        "https://www.ign.com/articles/save-10-on-fire-emblem-fortunes-weave-for-nintendo-switch-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10000000",
+      "value": "$10 m",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But earlier this year, Nintendo started charging $10 more for physical games versus digital, presumably because physical cartridges and printing and shipping cost more than serving up downloads of data.",
+      "urls": [
+        "https://www.ign.com/articles/save-10-on-fire-emblem-fortunes-weave-for-nintendo-switch-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the battles have never felt better and there s no knocking the sheer amount to do",
+      "value": "the battles have never felt better, and there’s no knocking the sheer amount to do",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We awarded it an 8/10, stating that while there are some pacing issues, \"the battles have never felt better, and there’s no knocking the sheer amount to do\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/fire-emblem-fortunes-weave-gets-a-day-one-update-here-are-the-patch-notes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "dense deep and really rather delightful",
+      "value": "dense, deep, and really rather delightful",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You can check what we think in our 8/10 review, in which Jim Norman called it \"dense, deep, and really rather delightful\", praising the battle controls, protagonists, and side quests, but noting that the pacing is a bit off.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/round-up-the-reviews-for-fire-emblem-fortunes-weave-are-in"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it takes a lot for a game to hold my attention for as long as fortune s weave and with a bunch of content still waiting for me i ll be happy to pour even more days into it",
+      "value": "It takes a lot for a game to hold my attention for as long as Fortune’s Weave, and with a bunch of content still waiting for me, I’ll be happy to pour even more days into it.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It takes a lot for a game to hold my attention for as long as Fortune’s Weave, and with a bunch of content still waiting for me, I’ll be happy to pour even more days into it.\"\n\nSo now it's time to see what other outlets think.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/round-up-the-reviews-for-fire-emblem-fortunes-weave-are-in"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "fire emblem fortune s weave ended up being something of an inversion of gfinity 7 10",
+      "value": "Fire Emblem: Fortune's Weave ended up being something of an inversion of…\n\nGfinity - 7/10:",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "All you need is time, and turns, to spare.\" RPG Site - 8/10: \"Fire Emblem: Fortune's Weave ended up being something of an inversion of…\n\nGfinity - 7/10: \"Fire Emblem: Fortune's Weave is a visually stunning departure that trades the series' beloved tactical combat for heavy JRPG exploration.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/round-up-the-reviews-for-fire-emblem-fortunes-weave-are-in"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:8000000:copies",
+      "value": "8 million copies",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They would need to sell around 7 to 8 million copies to recover the costs as Marvel takes a cut.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/round-up-the-reviews-for-fire-emblem-fortunes-weave-are-in"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you should ve got someone who likes the series to review it",
+      "value": "you should've got someone who likes the series to review it",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If a game gets a lower score than some fans want they say, \"you should've got someone who likes the series to review it\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/round-up-the-reviews-for-fire-emblem-fortunes-weave-are-in"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "are you expecting to love this",
+      "value": "are you expecting to love this",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I want a \"are you expecting to love this\" score and a \"are you an outsider wondering what the hype is about\" score\n\n@Markatron84 If things haven’t changed too much on IGN, then the comments section will be everyone claiming Nintendo paid IGN off\n\nThere are so many games that interest me, that look so geniully good...",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/round-up-the-reviews-for-fire-emblem-fortunes-weave-are-in"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:23.0.0",
+      "value": "Update 23.0.0",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Where To Pre-Order The Legend Of Zelda: Ocarina Of Time & Zelda Nintendo Switch 2 Console\n\nNintendo Direct September 2026 - Every Game, Announcement And Trailer\n\nZelda: Ocarina Of Time Switch 2 Pre-Order Comes With Bonus N64-Style Slipcover\n\nNintendo Switch 2 System Update 23.0.0 Is Now Live, Here Are The Full Patch Notes\n\nAdds VRR in docked, system transfers between Switch 2 and more!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/round-up-the-reviews-for-fire-emblem-fortunes-weave-are-in"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 12,
+  "ourData": [
+    {
+      "game": "Nintendo Switch 2",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

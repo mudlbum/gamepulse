@@ -1,0 +1,268 @@
+{
+  "generated": "2026-09-17T00:57:32.713Z",
+  "workingTitle": "MindsEye developer Build a Rocket Boy may finally be closing",
+  "heat": 55.2,
+  "outletCount": 6,
+  "outlets": [
+    "PC Gamer",
+    "Game Developer",
+    "Destructoid",
+    "Kotaku",
+    "Rock Paper Shotgun",
+    "IGN"
+  ],
+  "newest": "2026-09-16T18:22:31.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "MindsEye developer Build a Rocket Boy may finally be closing",
+        "url": "https://www.pcgamer.com/gaming-industry/mindseye-developer-build-a-rocket-boy-may-finally-be-closing/",
+        "date": "2026-09-16T18:22:31.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Report: MindsEye developer Build a Rocket Boy seemingly closing after more layoffs",
+        "url": "https://www.gamedeveloper.com/business/report-mindseye-developer-build-a-rocket-boy-seemingly-closing-after-more-layoffs",
+        "date": "2026-09-16T18:00:00.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "It seems MindsEye studio Build a Rocket Boy is closing for good",
+        "url": "https://www.destructoid.com/minds-eye-studio-shutdown-imminent/",
+        "date": "2026-09-16T16:34:04.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The Studio Behind MindsEye Is Closing Following Latest Round Of Layoffs",
+        "url": "https://kotaku.com/the-studio-behind-mindseye-is-closing-following-latest-round-of-layoffs-2000735090",
+        "date": "2026-09-16T15:05:36.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "MindsEye studio Build A Rocket Boy appear to be making fresh redundancies, as one staffer says he's \"helping wrap things up here in the HR department\"",
+        "url": "https://www.rockpapershotgun.com/mindseye-studio-build-a-rocket-boy-appear-to-be-making-fresh-redundancies-as-one-staffer-says-hes-helping-wrap-things-up-here-in-the-hr-department",
+        "date": "2026-09-16T14:50:26.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "MindsEye Developers Say They've Been Laid Off Amid Questions Over Build a Rocket Boy's Future",
+        "url": "https://www.ign.com/articles/mindseye-developers-say-theyve-been-laid-off-amid-questions-over-build-a-rocket-boys-future",
+        "date": "2026-09-16T14:20:22.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "will be seeing barb through till the very end helping wrap things up here in the hr department",
+      "value": "will be seeing BARB through till the very end, helping wrap things up here in the HR department,",
+      "outlets": [
+        "PC Gamer",
+        "Game Developer",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "I am 'Open to Work' actively looking for a new adventure.\" Hawkins added that he \"will be seeing BARB through till the very end, helping wrap things up here in the HR department,\" suggesting that \"the end\" is at hand.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/mindseye-developer-build-a-rocket-boy-may-finally-be-closing/",
+        "https://www.gamedeveloper.com/business/report-mindseye-developer-build-a-rocket-boy-seemingly-closing-after-more-layoffs",
+        "https://www.rockpapershotgun.com/mindseye-studio-build-a-rocket-boy-appear-to-be-making-fresh-redundancies-as-one-staffer-says-hes-helping-wrap-things-up-here-in-the-hr-department"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "unfortunately along with the rest of my colleagues at build a rocket boy i am facing redundancy and now looking for a new opportunity",
+      "value": "Unfortunately, along with the rest of my colleagues at Build a Rocket Boy, I am facing redundancy and now looking for a new opportunity,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Unfortunately, along with the rest of my colleagues at Build a Rocket Boy, I am facing redundancy and now looking for a new opportunity,\" lead weapon and prop artist Adam Ridsdale wrote on LinkedIn.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/mindseye-developer-build-a-rocket-boy-may-finally-be-closing/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "along with everybody else left at barb my role is being made redundant",
+      "value": "Along with everybody else left at Barb my role is being made redundant.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Senior VFX artist Jason Waller also pointed to a studio closure: \"Along with everybody else left at Barb my role is being made redundant.\" Numerous other employees have also reported their layoffs, without mentioning the wider impact of the cuts, including Rockstar veteran Stuart Ross, who served as head of audio at BARB.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/mindseye-developer-build-a-rocket-boy-may-finally-be-closing/"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:9",
+      "value": "Update 9",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Update 9/16/2026, 11: 52a.m.",
+      "urls": [
+        "https://kotaku.com/the-studio-behind-mindseye-is-closing-following-latest-round-of-layoffs-2000735090"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "hawkins went on to add that he",
+      "value": "Hawkins went on to add that he",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Being the first hire into our internal recruitment team, taking the studio from 200 to 550 in a short period of time.\"\n\nHawkins went on to add that he \"will be seeing BARB through till the very end, helping wrap things up here in the HR department\", but is \"very interested in hearing about any opportunities, both within and outside of the games industry to join growing companies\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/mindseye-studio-build-a-rocket-boy-appear-to-be-making-fresh-redundancies-as-one-staffer-says-hes-helping-wrap-things-up-here-in-the-hr-department"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "after four years at build a rocket boy i ve unfortunately been given my redundancy notice along with some of my fellow colleagues",
+      "value": "After four years at Build a Rocket Boy, I've unfortunately been given my redundancy notice along with some of my fellow colleagues,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"After four years at Build a Rocket Boy, I've unfortunately been given my redundancy notice along with some of my fellow colleagues,\" she wrote.",
+      "urls": [
+        "https://www.rockpapershotgun.com/mindseye-studio-build-a-rocket-boy-appear-to-be-making-fresh-redundancies-as-one-staffer-says-hes-helping-wrap-things-up-here-in-the-hr-department"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i m incredibly proud of how much i ve learned and how far i ve come during my time there from an entry position junior qa into a release manager",
+      "value": "I'm incredibly proud of how much I've learned and how far I've come during my time there, from an entry position Junior QA into a Release Manager.",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I'm incredibly proud of how much I've learned and how far I've come during my time there, from an entry position Junior QA into a Release Manager.\"\n\nAn IGN report on the situation cites a source familiar with BARB as having told them that the company might not be dissolved even if all staff are let go.",
+      "urls": [
+        "https://www.rockpapershotgun.com/mindseye-studio-build-a-rocket-boy-appear-to-be-making-fresh-redundancies-as-one-staffer-says-hes-helping-wrap-things-up-here-in-the-hr-department"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:313000000",
+      "value": "$313 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "With the GTA link in place, BARB attracted more than £233 million ($313 million) of investment by 2024.",
+      "urls": [
+        "https://www.ign.com/articles/mindseye-developers-say-theyve-been-laid-off-amid-questions-over-build-a-rocket-boys-future"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:6100000",
+      "value": "$6.1 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "BARB&#x27;s latest financial statements, made up to September 30, 2025, reveal it had generated revenue of £4.6 million ($6.1 million), but had total operating costs of £52.1 million ($70 million).",
+      "urls": [
+        "https://www.ign.com/articles/mindseye-developers-say-theyve-been-laid-off-amid-questions-over-build-a-rocket-boys-future"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70000000",
+      "value": "$70 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "BARB&#x27;s latest financial statements, made up to September 30, 2025, reveal it had generated revenue of £4.6 million ($6.1 million), but had total operating costs of £52.1 million ($70 million).",
+      "urls": [
+        "https://www.ign.com/articles/mindseye-developers-say-theyve-been-laid-off-amid-questions-over-build-a-rocket-boys-future"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2025-09-30",
+      "value": "September 30, 2025",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "BARB&#x27;s latest financial statements, made up to September 30, 2025, reveal it had generated revenue of £4.6 million ($6.1 million), but had total operating costs of £52.1 million ($70 million).",
+      "urls": [
+        "https://www.ign.com/articles/mindseye-developers-say-theyve-been-laid-off-amid-questions-over-build-a-rocket-boys-future"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:48600000",
+      "value": "$48.6 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It declared a net loss of £36.2 million ($48.6 million) for the period.",
+      "urls": [
+        "https://www.ign.com/articles/mindseye-developers-say-theyve-been-laid-off-amid-questions-over-build-a-rocket-boys-future"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "making hits seems to get harder and harder and harder as entertainment industries mature",
+      "value": "Making hits seems to get harder and harder and harder as entertainment industries mature,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Making hits seems to get harder and harder and harder as entertainment industries mature,\" Zelnick said, speaking at the TD Cowen 54th Annual Technology, Media & Telecom Conference.",
+      "urls": [
+        "https://www.ign.com/articles/mindseye-developers-say-theyve-been-laid-off-amid-questions-over-build-a-rocket-boys-future"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 13,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "12 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

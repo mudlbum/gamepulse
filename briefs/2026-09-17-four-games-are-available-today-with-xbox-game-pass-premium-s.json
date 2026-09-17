@@ -1,0 +1,103 @@
+{
+  "generated": "2026-09-17T00:57:34.132Z",
+  "workingTitle": "Four Games Are Available Today With Xbox Game Pass Premium (September 16)",
+  "heat": 36.9,
+  "outletCount": 4,
+  "outlets": [
+    "Pure Xbox",
+    "Eurogamer",
+    "Xbox Wire",
+    "Push Square"
+  ],
+  "newest": "2026-09-16T13:00:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Minecraft",
+    "Pokémon"
+  ],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Coming to XBOX Game Pass: Gears of War: E-Day, Minecraft Dungeons II, Dune: Awakening, and More",
+        "url": "https://news.xbox.com/en-us/2026/09/15/xbox-game-pass-september-2026-wave-2/",
+        "date": "2026-09-15T16:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "Four Games Are Available Today With Xbox Game Pass Premium (September 16)",
+        "url": "https://www.purexbox.com/news/2026/09/four-games-are-available-today-with-xbox-game-pass-premium-september-16",
+        "date": "2026-09-16T13:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Here's the second wave of Xbox Game Pass games coming in September",
+        "url": "https://www.eurogamer.net/xbox-game-pass-second-wave-september-gears-of-war",
+        "date": "2026-09-16T11:41:29.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Six Xbox Games Are Out Today, Including A Pokémon-Inspired Creature Collecting RPG (September 16)",
+        "url": "https://www.purexbox.com/news/2026/09/six-xbox-games-are-out-today-including-a-pokemon-inspired-creature-collecting-rpg-september-16",
+        "date": "2026-09-16T10:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Eight Games Are Leaving Xbox Game Pass In Late September 2026",
+        "url": "https://www.purexbox.com/news/2026/09/eight-games-are-leaving-xbox-game-pass-in-late-september-2026",
+        "date": "2026-09-15T16:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "These 15 Games Are Coming To Xbox Game Pass (September 15 - October 6)",
+        "url": "https://www.purexbox.com/news/2026/09/these-15-games-are-coming-to-xbox-game-pass-september-15-october-6",
+        "date": "2026-09-15T16:10:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "inept handling of their business",
+      "value": "inept handling of their business",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Bionic-Spencer 🤣 \"inept handling of their business\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/eight-games-are-leaving-xbox-game-pass-in-late-september-2026"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [
+    {
+      "game": "Minecraft",
+      "note": "Not currently in our tracked Steam top 60."
+    },
+    {
+      "game": "Pokémon",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

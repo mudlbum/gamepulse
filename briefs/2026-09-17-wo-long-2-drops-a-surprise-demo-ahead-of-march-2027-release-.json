@@ -1,0 +1,152 @@
+{
+  "generated": "2026-09-17T00:57:33.777Z",
+  "workingTitle": "Wo Long 2 Drops A Surprise Demo Ahead Of March 2027 Release On Xbox Game Pass",
+  "heat": 42.5,
+  "outletCount": 5,
+  "outlets": [
+    "Pure Xbox",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "Nintendo Life",
+    "PlayStation Blog"
+  ],
+  "newest": "2026-09-16T15:30:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "PlayStation Blog",
+        "title": "Wo Long 2: Wings of Ember launches March 4, 2027, demo live today",
+        "url": "https://blog.playstation.com/2026/09/15/wo-long-2-wings-of-ember-launches-march-4-2027-demo-live-today/",
+        "date": "2026-09-16T01:00:22.000Z",
+        "host": "blog.playstation.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "Wo Long 2 Drops A Surprise Demo Ahead Of March 2027 Release On Xbox Game Pass",
+        "url": "https://www.purexbox.com/news/2026/09/wo-long-2-drops-a-surprise-demo-ahead-of-march-2027-release-on-xbox-game-pass",
+        "date": "2026-09-16T15:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Wo Long 2: Wings of Ember has a demo out, as Koei Tecmo carve an early 2027 release date into some hulking demons from Chinese mythology",
+        "url": "https://www.rockpapershotgun.com/wo-long-2-wings-of-ember-has-a-demo-out-as-koei-tecmo-carve-an-early-2027-release-date-into-some-hulking-demons-from-chinese-mythology",
+        "date": "2026-09-16T09:35:00.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "You can play a sizeable demo of Wo Long 2: Wings of Ember right now, getting you ready for its March 2027 release date",
+        "url": "https://www.eurogamer.net/wo-long-2-wings-of-ember-demo-release-date",
+        "date": "2026-09-16T09:00:00.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Koei Tecmo's Dark Fantasy Action RPG Sequel Locks In A Switch 2 Release Date",
+        "url": "https://www.nintendolife.com/news/2026/09/koei-tecmos-dark-fantasy-action-rpg-sequel-locks-in-a-switch-2-release-date",
+        "date": "2026-09-16T01:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Wo Long 2: Wings of Ember isn't just a sequel - it's a culmination of everything Team Ninja has learned from Nioh, Ninja Gaiden, and Dead or Alive",
+        "url": "https://www.eurogamer.net/wo-long-2-wings-of-ember-preview",
+        "date": "2026-09-16T01:00:00.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-09-15",
+      "value": "September 15, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "September 15, 2026September 15, 2026 Wo Long 2: Wings of Ember launches March 4, 2027, demo live today 2 0 26 Like this Dark Three Kingdoms RPG returns with evolved combat!",
+      "urls": [
+        "https://blog.playstation.com/2026/09/15/wo-long-2-wings-of-ember-launches-march-4-2027-demo-live-today/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-03-04",
+      "value": "March 4, 2027",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "September 15, 2026September 15, 2026 Wo Long 2: Wings of Ember launches March 4, 2027, demo live today 2 0 26 Like this Dark Three Kingdoms RPG returns with evolved combat!",
+      "urls": [
+        "https://blog.playstation.com/2026/09/15/wo-long-2-wings-of-ember-launches-march-4-2027-demo-live-today/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$69.99",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Pre-orders have also gone live today for Wo Long 2: Wings of Ember, with the game retailing at £64.99 / $69.99 on the Xbox Store.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/wo-long-2-drops-a-surprise-demo-ahead-of-march-2027-release-on-xbox-game-pass"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "multiple plagues widespread famines and civil war",
+      "value": "multiple plagues, widespread famines, and civil war",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Koei Tecmo have injected the usual array of demons and creatures inspired by the pages of Chinese literature into proceedings, lest you think an era that, based on a glance at Wikipedia, was chock full of \"multiple plagues, widespread famines, and civil war\" isn't dangerous enough to survive without the addition of floppy killer monkeys and rock-laden giants wielding stone pillars.",
+      "urls": [
+        "https://www.rockpapershotgun.com/wo-long-2-wings-of-ember-has-a-demo-out-as-koei-tecmo-carve-an-early-2027-release-date-into-some-hulking-demons-from-chinese-mythology"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:23.0.0",
+      "value": "Update 23.0.0",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Where To Pre-Order The Legend Of Zelda: Ocarina Of Time & Zelda Nintendo Switch 2 Console\n\nNintendo Direct September 2026 - Every Game, Announcement And Trailer\n\nZelda: Ocarina Of Time Switch 2 Pre-Order Comes With Bonus N64-Style Slipcover\n\nNintendo Switch 2 System Update 23.0.0 Is Now Live, Here Are The Full Patch Notes\n\nAdds VRR in docked, system transfers between Switch 2 and more!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/koei-tecmos-dark-fantasy-action-rpg-sequel-locks-in-a-switch-2-release-date"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "3 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
