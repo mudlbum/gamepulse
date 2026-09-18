@@ -1,10 +1,40 @@
 {
-  "decided": "2026-09-17T00:57:34.186Z",
+  "decided": "2026-09-18T00:53:49.553Z",
   "publish": true,
-  "reason": "selected on score 26.9",
-  "brief": "2026-09-16-steam-deck-2-plans-arent-affected-by-ongoing-component-crisi.json",
-  "title": "Steam Deck 2 plans aren't affected by ongoing component crisis, Valve maintains, as Steam Frame arrives later and more expensive than expected",
+  "reason": "selected on score 35.5",
+  "brief": "2026-09-18-nearly-everyone-laid-off-at-hyper-light-drifter-devs-heart-m.json",
+  "title": "\"Nearly everyone\" laid off at Hyper Light Drifter devs Heart Machine after publisher drops unannounced game",
   "considered": [
+    {
+      "file": "2026-09-18-two-games-announced-for-xbox-game-pass-at-tokyo-game-show-20.json",
+      "title": "Two Games Announced For Xbox Game Pass At Tokyo Game Show 2026",
+      "pass": false,
+      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-18-resident-evil-ending-explained-how-zach-cregger-quietly-sets.json",
+      "title": "'Resident Evil' Ending Explained: How Zach Cregger Quietly Sets Up a Sequel",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-18-nearly-everyone-laid-off-at-hyper-light-drifter-devs-heart-m.json",
+      "title": "\"Nearly everyone\" laid off at Hyper Light Drifter devs Heart Machine after publisher drops unannounced game",
+      "pass": true,
+      "reason": "3/17 claims corroborated · 5 outlets · secondary only · 8h old"
+    },
+    {
+      "file": "2026-09-18-gta-6s-robberies-need-to-be-unpredictable.json",
+      "title": "GTA 6’s Robberies NEED To Be Unpredictable",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-18-choosing-who-to-play-in-fire-emblem-fortunes-weave-made-me-r.json",
+      "title": "Choosing Who To Play In Fire Emblem: Fortune’s Weave Made Me Realize This Game Is Gonna Take Forever",
+      "pass": false,
+      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-09-17-wo-long-2-drops-a-surprise-demo-ahead-of-march-2027-release-.json",
       "title": "Wo Long 2 Drops A Surprise Demo Ahead Of March 2027 Release On Xbox Game Pass",
@@ -22,36 +52,6 @@
       "title": "MindsEye developer Build a Rocket Boy may finally be closing",
       "pass": false,
       "reason": "1 of 13 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-09-17-four-games-are-available-today-with-xbox-game-pass-premium-s.json",
-      "title": "Four Games Are Available Today With Xbox Game Pass Premium (September 16)",
-      "pass": false,
-      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-17-fire-emblem-fortunes-weaves-fantastic-reviews-have-me-feelin.json",
-      "title": "Fire Emblem: Fortune’s Weave’s Fantastic Reviews Have Me Feeling FOMO",
-      "pass": false,
-      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-09-16-xbox-game-pass-september-2026-wave-2-lineup-announced.json",
-      "title": "Xbox Game Pass September 2026 Wave 2 Lineup Announced",
-      "pass": false,
-      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-16-steam-deck-2-plans-arent-affected-by-ongoing-component-crisi.json",
-      "title": "Steam Deck 2 plans aren't affected by ongoing component crisis, Valve maintains, as Steam Frame arrives later and more expensive than expected",
-      "pass": true,
-      "reason": "5/16 claims corroborated · 4 outlets · secondary only · 36h old"
-    },
-    {
-      "file": "2026-09-16-lies-of-ps-sequel-is-a-wizard-of-oz-homage-called-wonders-of.json",
-      "title": "Lies of P's sequel is a Wizard of Oz homage called Wonders of O, going by a Neowiz trademark, and probably not a videogame based on a famous work of French…",
-      "pass": false,
-      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }

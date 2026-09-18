@@ -1,0 +1,160 @@
+{
+  "generated": "2026-09-18T00:53:47.883Z",
+  "workingTitle": "GTA 6’s Robberies NEED To Be Unpredictable",
+  "heat": 91,
+  "outletCount": 9,
+  "outlets": [
+    "GameSpot",
+    "PC Gamer",
+    "Destructoid",
+    "Rock Paper Shotgun",
+    "Kotaku",
+    "Eurogamer",
+    "Pure Xbox",
+    "Push Square",
+    "IGN"
+  ],
+  "newest": "2026-09-17T21:00:00.000Z",
+  "readableCount": 3,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Twitch CEO says GTA 6 multiplayer will launch in 2027",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/twitch-ceo-says-gta-6-multiplayer-will-launch-in-2027/",
+        "date": "2026-09-17T18:19:36.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "GTA 6: The Album to launch on both vinyl and CD—and yet the game remains digital only",
+        "url": "https://www.destructoid.com/gta-6-the-album-to-launch-on-both-vinyl-and-cd-and-yet-the-game-remains-digital-only/",
+        "date": "2026-09-17T17:28:25.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Twitch CEO expects GTA 6 online multiplayer will launch next year, which if accurate would leave only the PC port's arrival point up in the air",
+        "url": "https://www.rockpapershotgun.com/twitch-ceo-expects-gta-6-online-multiplayer-will-launch-next-year-which-if-accurate-would-leave-only-the-pc-ports-arrival-point-up-in-the-air",
+        "date": "2026-09-17T15:02:50.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6’s Robberies NEED To Be Unpredictable",
+        "url": "https://www.gamespot.com/videos/gta-6s-robberies-need-to-be-unpredictable/",
+        "date": "2026-09-17T21:00:00.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Will Feature The “Next Evolution Of In-Game Radio,” Rockstar Says",
+        "url": "https://www.gamespot.com/articles/gta-6-will-feature-the-next-evolution-of-in-game-radio-rockstar-says/",
+        "date": "2026-09-17T19:17:49.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "Scientists Discovered A New Cat Before Rockstar Could Finish GTA 6",
+        "url": "https://www.gamespot.com/articles/scientists-discovered-a-new-cat-before-rockstar-could-finish-gta-6/",
+        "date": "2026-09-17T18:53:17.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "we spent a lot of time talking with rockstar about their plans and also helping them think about how they can engage our creators",
+      "value": "We spent a lot of time talking with Rockstar about their plans, and also helping them think about how they can engage our creators,",
+      "outlets": [
+        "PC Gamer",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We spent a lot of time talking with Rockstar about their plans, and also helping them think about how they can engage our creators,\" Clancy told the publication.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/twitch-ceo-says-gta-6-multiplayer-will-launch-in-2027/",
+        "https://www.rockpapershotgun.com/twitch-ceo-expects-gta-6-online-multiplayer-will-launch-next-year-which-if-accurate-would-leave-only-the-pc-ports-arrival-point-up-in-the-air"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you are going to see this big bump with gta 6 but then an even bigger one next year when they launch multiplayer",
+      "value": "You are going to see this big bump with GTA 6, but then an even bigger one next year when they launch multiplayer.",
+      "outlets": [
+        "PC Gamer",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"You are going to see this big bump with GTA 6, but then an even bigger one next year when they launch multiplayer.\"\n\nGTA 6 guide: Everything we know GTA 6 cars: The garage lineup GTA 6 characters: Your anti-hero cast GTA 6 map: Confirmed Vice City locales GTA 6 PC release: When's it going to happen?",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/twitch-ceo-says-gta-6-multiplayer-will-launch-in-2027/",
+        "https://www.rockpapershotgun.com/twitch-ceo-expects-gta-6-online-multiplayer-will-launch-next-year-which-if-accurate-would-leave-only-the-pc-ports-arrival-point-up-in-the-air"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$19.98.",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Either way, GTA VI: The Album, as it’s officially called, is currently available for pre-order, with the CD edition coming in cheapest at $19.98.",
+      "urls": [
+        "https://www.destructoid.com/gta-6-the-album-to-launch-on-both-vinyl-and-cd-and-yet-the-game-remains-digital-only/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$49.98,",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The vinyl will set you back $49.98, whereas the limited edition vinyl—the one with liquid inside it as we saw in the case of The Witcher 3‘s special edition—is being sold for $124.98, or around 45 bucks more than GTA 6‘s standard edition.",
+      "urls": [
+        "https://www.destructoid.com/gta-6-the-album-to-launch-on-both-vinyl-and-cd-and-yet-the-game-remains-digital-only/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:125",
+      "value": "$124.98,",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The vinyl will set you back $49.98, whereas the limited edition vinyl—the one with liquid inside it as we saw in the case of The Witcher 3‘s special edition—is being sold for $124.98, or around 45 bucks more than GTA 6‘s standard edition.",
+      "urls": [
+        "https://www.destructoid.com/gta-6-the-album-to-launch-on-both-vinyl-and-cd-and-yet-the-game-remains-digital-only/"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "3 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

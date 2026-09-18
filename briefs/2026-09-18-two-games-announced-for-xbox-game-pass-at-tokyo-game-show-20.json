@@ -1,0 +1,209 @@
+{
+  "generated": "2026-09-18T00:53:49.272Z",
+  "workingTitle": "Two Games Announced For Xbox Game Pass At Tokyo Game Show 2026",
+  "heat": 51.4,
+  "outletCount": 5,
+  "outlets": [
+    "Pure Xbox",
+    "Xbox Wire",
+    "Game Developer",
+    "PlayStation Blog",
+    "Push Square"
+  ],
+  "newest": "2026-09-17T18:30:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "XBOX @ Tokyo Game Show 2026: All the Announcements, Including an Appearance by Hideo Kojima",
+        "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/",
+        "date": "2026-09-17T10:44:54.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "Two Games Announced For Xbox Game Pass At Tokyo Game Show 2026",
+        "url": "https://www.purexbox.com/news/2026/09/two-games-announced-for-xbox-game-pass-at-tokyo-game-show-2026",
+        "date": "2026-09-17T18:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Feature: 25+ Of The Best Discounted Games From Xbox's Tokyo Game Show Sale",
+        "url": "https://www.purexbox.com/features/25plus-of-the-best-discounted-games-from-xboxs-tokyo-game-show-sale",
+        "date": "2026-09-17T14:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Roundup: All The Reveals From The Xbox Showcase At Tokyo Game Show 2026",
+        "url": "https://www.purexbox.com/features/roundup-all-the-reveals-from-the-xbox-showcase-at-tokyo-game-show-2026",
+        "date": "2026-09-17T10:45:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Poll: How Would You Grade Xbox's Tokyo Game Show 2026 Event?",
+        "url": "https://www.purexbox.com/features/poll-how-would-you-grade-xboxs-tokyo-game-show-2026-event",
+        "date": "2026-09-17T10:39:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Live: Watch Xbox's Tokyo Game Show 2026 Showcase Here",
+        "url": "https://www.purexbox.com/news/2026/09/live-watch-xboxs-tokyo-game-show-2026-showcase-here",
+        "date": "2026-09-17T08:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-10-23",
+      "value": "October 23, 2026",
+      "outlets": [
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "We saw a new campaign trailer for Call of Duty: Modern Warfare 4, launching October 23, 2026, while Fallout 76 showed an animated trailer for its eerie new update, The Slasher, available now.",
+      "urls": [
+        "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-10-22",
+      "value": "October 22, 2026",
+      "outlets": [
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "Isles of Abyss launches October 22, 2026 on XBOX Series X|S and is included with Game Pass.",
+      "urls": [
+        "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-02-18",
+      "value": "February 18, 2027",
+      "outlets": [
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "Persona 4 Revival is scheduled for release on February 18, 2027, and will be available on XBOX Series X|S, XBOX on PC, cloud, and included with Game Pass.",
+      "urls": [
+        "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-03-04",
+      "value": "March 4, 2027",
+      "outlets": [
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "Wo Long 2: Wings of Ember launches March 4, 2027 for XBOX Series X|S, XBOX on PC, and cloud.",
+      "urls": [
+        "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-11-10",
+      "value": "November 10, 2026",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Hope in the City comes to XBOX Series X|S, XBOX on PC, and Game Pass on November 10, 2026, with XBOX Play Anywhere support.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/two-games-announced-for-xbox-game-pass-at-tokyo-game-show-2026",
+        "https://www.purexbox.com/features/roundup-all-the-reveals-from-the-xbox-showcase-at-tokyo-game-show-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30000000",
+      "value": "$29.99 m",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Getting the RL upgrade costs another $29.99 making the total $59.98.",
+      "urls": [
+        "https://www.purexbox.com/features/25plus-of-the-best-discounted-games-from-xboxs-tokyo-game-show-sale"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:60",
+      "value": "$59.98.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Getting the RL upgrade costs another $29.99 making the total $59.98.",
+      "urls": [
+        "https://www.purexbox.com/features/25plus-of-the-best-discounted-games-from-xboxs-tokyo-game-show-sale"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:45",
+      "value": "$44.99",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The bundled version Dying Light the Beast RL Edition is on sale for $44.99 and is the better deal if you want it all.",
+      "urls": [
+        "https://www.purexbox.com/features/25plus-of-the-best-discounted-games-from-xboxs-tokyo-game-show-sale"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i ll believe it when i see it",
+      "value": "I'll believe it when I see it",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "However, that fall firmly into the \"I'll believe it when I see it\" category of things for me.",
+      "urls": [
+        "https://www.purexbox.com/features/roundup-all-the-reveals-from-the-xbox-showcase-at-tokyo-game-show-2026"
+      ]
+    }
+  ],
+  "factCount": 4,
+  "evidenceCount": 9,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "5 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

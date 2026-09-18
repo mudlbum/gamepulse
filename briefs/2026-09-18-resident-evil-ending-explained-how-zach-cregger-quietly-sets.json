@@ -1,0 +1,149 @@
+{
+  "generated": "2026-09-18T00:53:48.898Z",
+  "workingTitle": "'Resident Evil' Ending Explained: How Zach Cregger Quietly Sets Up a Sequel",
+  "heat": 73.7,
+  "outletCount": 7,
+  "outlets": [
+    "Polygon",
+    "Push Square",
+    "Nintendo Life",
+    "Kotaku",
+    "Destructoid",
+    "IGN",
+    "Game Developer"
+  ],
+  "newest": "2026-09-17T22:31:18.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "'Resident Evil' Ending Explained: How Zach Cregger Quietly Sets Up a Sequel",
+        "url": "https://www.polygon.com/resident-evil-ending-explained/",
+        "date": "2026-09-17T22:31:18.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Movie Review: Resident Evil - The Best Resident Evil Film Ever",
+        "url": "https://www.pushsquare.com/features/movie-review-resident-evil-the-best-resident-evil-film-ever",
+        "date": "2026-09-17T13:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Resident Evil Is Now The Highest-Rated Video Game Movie Ever",
+        "url": "https://www.nintendolife.com/news/2026/09/resident-evil-is-now-the-highest-rated-video-game-movie-ever",
+        "date": "2026-09-17T10:15:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Early Reviews Hail Zach Cregger’s Resident Evil As A Clever Homage That Doesn’t Get Bogged Down By The Details: ‘This Is How Movies And Video Games Can Merge…",
+        "url": "https://kotaku.com/early-reviews-hail-zach-creggers-resident-evil-as-a-clever-homage-that-doesnt-get-bogged-down-by-the-details-this-is-how-movies-and-video-games-can-merge-in-a-way-that-makes-them-stronger-2000735209",
+        "date": "2026-09-16T23:00:20.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Resident Evil director Zach Cregger is now accepting your apologies as it becomes the highest-rated video game adaptation ever",
+        "url": "https://www.destructoid.com/resident-evil-director-zach-cregger-is-now-accepting-your-apologies-as-it-becomes-the-highest-rated-video-game-adaptation-ever/",
+        "date": "2026-09-16T20:44:17.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Resident Evil Creator Shinji Mikami to Be Inducted Into D.I.C.E. Hall of Fame",
+        "url": "https://www.ign.com/articles/resident-evil-creator-shinji-mikami-to-be-inducted-into-dice-hall-of-fame",
+        "date": "2026-09-16T18:51:13.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "the best resident evil film ever",
+      "value": "the best Resident Evil film ever",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I already know what you're thinking: after six Milla Jovovich-led movies and Welcome to Raccoon City, calling something \"the best Resident Evil film ever\" isn't exactly saying very much.",
+      "urls": [
+        "https://www.pushsquare.com/features/movie-review-resident-evil-the-best-resident-evil-film-ever"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "whether it s intentional or not the film is also lightly structured similarly to a resident evil game campaign",
+      "value": "Whether it's intentional or not, the film is also lightly structured similarly to a Resident Evil game campaign.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Whether it's intentional or not, the film is also lightly structured similarly to a Resident Evil game campaign.\"\n\nAlmost certainly intentional.",
+      "urls": [
+        "https://www.pushsquare.com/features/movie-review-resident-evil-the-best-resident-evil-film-ever"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "an original story set within raccoon city focusing on a medical courier called bryan",
+      "value": "an original story set within Raccoon City, focusing on a medical courier called Bryan.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A: \"an original story set within Raccoon City, focusing on a medical courier called Bryan.\"\n\nQ: What is a zombie flick with licensed nouns (but not Leon or Jill?)\n\n@SBandy1 It's not a scoring system.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/resident-evil-is-now-the-highest-rated-video-game-movie-ever"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-02-18",
+      "value": "February 18, 2027",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Awards ceremony on February 18, 2027.",
+      "urls": [
+        "https://www.ign.com/articles/resident-evil-creator-shinji-mikami-to-be-inducted-into-dice-hall-of-fame"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "close friend and creative collaborator",
+      "value": "close friend and creative collaborator.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Academy of Interactive Arts & Sciences (AIAS) announced the news today and shared that Grasshopper Manufacture&#x27;s Goichi Suda (SUDA51) will present the award to his \"close friend and creative collaborator.\"\n\n“It was from Mikami-san that I learned how to approach game development, both as a director and as a designer.",
+      "urls": [
+        "https://www.ign.com/articles/resident-evil-creator-shinji-mikami-to-be-inducted-into-dice-hall-of-fame"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

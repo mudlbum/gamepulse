@@ -1,0 +1,318 @@
+{
+  "generated": "2026-09-18T00:53:49.468Z",
+  "workingTitle": "\"Nearly everyone\" laid off at Hyper Light Drifter devs Heart Machine after publisher drops unannounced game",
+  "heat": 43.4,
+  "outletCount": 5,
+  "outlets": [
+    "Rock Paper Shotgun",
+    "Push Square",
+    "Nintendo Life",
+    "Game Developer",
+    "IGN"
+  ],
+  "newest": "2026-09-17T17:00:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "\"Nearly everyone\" laid off at Hyper Light Drifter devs Heart Machine after publisher drops unannounced game",
+        "url": "https://www.rockpapershotgun.com/nearly-everyone-laid-off-at-hyper-light-drifter-devs-heart-machine-after-publisher-drops-unannounced-game",
+        "date": "2026-09-17T17:00:00.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "'It's Devastating': Hyper Light Drifter Dev Lays Off Nearly All Staff After Publisher Pulls Funding",
+        "url": "https://www.pushsquare.com/news/2026/09/its-devastating-hyper-light-drifter-dev-lays-off-nearly-all-staff-after-publisher-pulls-funding",
+        "date": "2026-09-17T12:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Hyper Light Drifter Studio Forced To Lay Off \"Nearly Everyone\" As Publishing Deal Falls Through",
+        "url": "https://www.nintendolife.com/news/2026/09/hyper-light-drifter-studio-forced-to-lay-off-nearly-everyone-as-publishing-deal-falls-through",
+        "date": "2026-09-17T09:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Hyper Light Drifter developer Heart Machine has laid off the majority of staff",
+        "url": "https://www.gamedeveloper.com/business/hyper-light-drifter-developer-heart-machine-has-laid-off-the-majority-of-staff",
+        "date": "2026-09-17T09:13:32.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Studio Behind Hyper Light Drifter In Peril After Publisher Withdraws Funding for Unannounced Project",
+        "url": "https://www.ign.com/articles/studio-behind-hyper-light-drifter-in-peril-after-publisher-withdraws-funding-for-unannounced-project",
+        "date": "2026-09-16T19:46:54.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "everyone will be provided with as much support as possible including assisting with placement",
+      "value": "Everyone will be provided with as much support as possible, including assisting with placement,",
+      "outlets": [
+        "Rock Paper Shotgun",
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "It's devastating.\"\n\nPreston adds that \"Everyone will be provided with as much support as possible, including assisting with placement,\" before thanking the affected staffers.",
+      "urls": [
+        "https://www.rockpapershotgun.com/nearly-everyone-laid-off-at-hyper-light-drifter-devs-heart-machine-after-publisher-drops-unannounced-game",
+        "https://www.nintendolife.com/news/2026/09/hyper-light-drifter-studio-forced-to-lay-off-nearly-everyone-as-publishing-deal-falls-through"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "navigating an increasingly challenging industry has been extremely difficult and i m not sure yet what s next for heart machine to survive",
+      "value": "Navigating an increasingly challenging industry has been extremely difficult, and I'm not sure yet what's next for Heart Machine to survive,",
+      "outlets": [
+        "Rock Paper Shotgun",
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"Navigating an increasingly challenging industry has been extremely difficult, and I'm not sure yet what's next for Heart Machine to survive,\" he says.",
+      "urls": [
+        "https://www.rockpapershotgun.com/nearly-everyone-laid-off-at-hyper-light-drifter-devs-heart-machine-after-publisher-drops-unannounced-game",
+        "https://www.nintendolife.com/news/2026/09/hyper-light-drifter-studio-forced-to-lay-off-nearly-everyone-as-publishing-deal-falls-through"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "however we ll keep pushing to build a path while we are still here",
+      "value": "However, we'll keep pushing to build a path while we are still here.",
+      "outlets": [
+        "Rock Paper Shotgun",
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"However, we'll keep pushing to build a path while we are still here.\"\n\nThe cancelled game would have been Heart Machine's fifth, including their 2016 debut Drifter and 2021's sci-fi surfer Solar Ash.",
+      "urls": [
+        "https://www.rockpapershotgun.com/nearly-everyone-laid-off-at-hyper-light-drifter-devs-heart-machine-after-publisher-drops-unannounced-game",
+        "https://www.nintendolife.com/news/2026/09/hyper-light-drifter-studio-forced-to-lay-off-nearly-everyone-as-publishing-deal-falls-through"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "we had been working on an unannounced title funded by a publisher",
+      "value": "We had been working on an unannounced title, funded by a publisher,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We had been working on an unannounced title, funded by a publisher,\" Preston writes.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/its-devastating-hyper-light-drifter-dev-lays-off-nearly-all-staff-after-publisher-pulls-funding"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "he assures that those affected will be",
+      "value": "He assures that those affected will be",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's devastating.\"\n\nHe assures that those affected will be \"provided with as much support as possible\" as they begin searching for new work.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/its-devastating-hyper-light-drifter-dev-lays-off-nearly-all-staff-after-publisher-pulls-funding"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "just make a good game and it ll sell",
+      "value": "Just make a good game and it'll sell",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This terrible news at least makes even more of a mockery of the \"Just make a good game and it'll sell\" line that gets trotted out now and again.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/its-devastating-hyper-light-drifter-dev-lays-off-nearly-all-staff-after-publisher-pulls-funding"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Possessor(s) is sick and only $10.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/its-devastating-hyper-light-drifter-dev-lays-off-nearly-all-staff-after-publisher-pulls-funding"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "decided to no longer move forward",
+      "value": "decided to no longer move forward",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Alx Preston, the founder of Hyper Light Drifter studio Heart Machine, has announced that the studio is facing closure after a key publisher \"decided to no longer move forward\" with an unannounced title, resulting in \"nearly everyone\" on the team being laid off.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/hyper-light-drifter-studio-forced-to-lay-off-nearly-everyone-as-publishing-deal-falls-through"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:200",
+      "value": "$200",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's a shame as I was hoping for a separate physical of Solar Ash (as there was a massive compilation of Annapurna games which cost $200 but that was the only game I wanted as already have Pathless)\n\nSad to hear.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/hyper-light-drifter-studio-forced-to-lay-off-nearly-everyone-as-publishing-deal-falls-through"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:10000000:copies",
+      "value": "10million copies",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Mechachameleon was made by two french dudes and sold over 10million copies in a couple weeks.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/hyper-light-drifter-studio-forced-to-lay-off-nearly-everyone-as-publishing-deal-falls-through"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "dad i was looking forward to their next 3d effort they were working on of the sequel",
+      "value": "Dad I was looking forward to their next 3d effort they were working on of the sequel.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Dad I was looking forward to their next 3d effort they were working on of the sequel.\"\n\n@Alcea lol.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/hyper-light-drifter-studio-forced-to-lay-off-nearly-everyone-as-publishing-deal-falls-through"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:4.99",
+      "value": "$4.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It was on sale (Can't remember if it was $4.99 or $9.99 or whatever) but that was a super fun time waster.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/hyper-light-drifter-studio-forced-to-lay-off-nearly-everyone-as-publishing-deal-falls-through"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:9.99",
+      "value": "$9.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It was on sale (Can't remember if it was $4.99 or $9.99 or whatever) but that was a super fun time waster.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/hyper-light-drifter-studio-forced-to-lay-off-nearly-everyone-as-publishing-deal-falls-through"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "without innovation as he discontinues game designers award hyper light drifter studio forced to lay off",
+      "value": "Without Innovation As He Discontinues Game Designers Award\n\nHyper Light Drifter Studio Forced To Lay Off",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sakurai Believes Industry Will \"Slowly Die\" Without Innovation As He Discontinues Game Designers Award\n\nHyper Light Drifter Studio Forced To Lay Off \"Nearly Everyone\" As Publishing Deal Falls Through\n\nFire Emblem Dev Intelligent Systems Adds Fortune's Weave To Its Completed Works",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/hyper-light-drifter-studio-forced-to-lay-off-nearly-everyone-as-publishing-deal-falls-through"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "preston said navigating the video game industry has become",
+      "value": "Preston said navigating the video game industry has become",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you know of any roles for extraordinarily talented, kind people, please reach out and we will coordinate.\"\n\nPreston said navigating the video game industry has become \"extremely difficult\" and cast doubt on whether the studio can bounce back from its latest round of layoffs.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/hyper-light-drifter-developer-heart-machine-has-laid-off-the-majority-of-staff"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:150000000",
+      "value": "$150 million",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Related:Nex Playground maker secures over $150 million to expand globally\n\nHeart Machine has downsized significantly in recent years.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/hyper-light-drifter-developer-heart-machine-has-laid-off-the-majority-of-staff"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-09-16",
+      "value": "September 16, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The news was shared to LinkedIn by Heart Machine’s founder, Alx Preston, on September 16, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/studio-behind-hyper-light-drifter-in-peril-after-publisher-withdraws-funding-for-unannounced-project"
+      ]
+    }
+  ],
+  "factCount": 3,
+  "evidenceCount": 17,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "14 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
