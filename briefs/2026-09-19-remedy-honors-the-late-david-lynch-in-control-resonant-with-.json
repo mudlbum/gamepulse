@@ -1,0 +1,105 @@
+{
+  "generated": "2026-09-19T00:46:26.247Z",
+  "workingTitle": "Remedy Honors the Late David Lynch in Control Resonant With Powerful Twin Peaks Quote",
+  "heat": 51.1,
+  "outletCount": 5,
+  "outlets": [
+    "IGN",
+    "PC Gamer",
+    "PCGamesN",
+    "Eurogamer",
+    "Push Square"
+  ],
+  "newest": "2026-09-18T20:17:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Remedy Honors the Late David Lynch in Control Resonant With Powerful Twin Peaks Quote",
+        "url": "https://www.ign.com/articles/remedy-honors-the-late-david-lynch-in-control-resonant-with-powerful-twin-peaks-quote",
+        "date": "2026-09-18T20:17:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Control Resonant Review",
+        "url": "https://www.ign.com/articles/control-resonant-review",
+        "date": "2026-09-18T13:00:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Control Resonant Is Almost a Picture Perfect PC Port",
+        "url": "https://www.ign.com/articles/control-resonant-is-almost-a-picture-perfect-pc-port",
+        "date": "2026-09-18T13:00:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Control Resonant review",
+        "url": "https://www.pcgamer.com/games/action/control-resonant-review/",
+        "date": "2026-09-18T13:00:00.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Control Resonant review - A kaleidoscopic ode to creativity",
+        "url": "https://www.pcgamesn.com/control-resonant/review",
+        "date": "2026-09-18T13:00:00.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Control Resonant review",
+        "url": "https://www.eurogamer.net/control-resonant-review",
+        "date": "2026-09-18T13:00:00.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-09-18",
+      "value": "September 18, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While its story follows a more standard framework, its gravitational pull is in the inventive world built around it and the humanization that grounds the paranatural intrigue.\" It published on September 18, 2026, and if you can believe it, that&#x27;s a Friday once again.",
+      "urls": [
+        "https://www.ign.com/articles/remedy-honors-the-late-david-lynch-in-control-resonant-with-powerful-twin-peaks-quote"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "dylan swooping around new york",
+      "value": "Dylan swooping around New York",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Yes, walking up walls is always cool, but a lot of the \"Dylan swooping around New York\" stuff plays out like Spider-Man helping literal puppies and saving civilians.",
+      "urls": [
+        "https://www.eurogamer.net/control-resonant-review"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

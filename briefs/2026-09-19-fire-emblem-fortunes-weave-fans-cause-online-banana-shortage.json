@@ -1,0 +1,135 @@
+{
+  "generated": "2026-09-19T00:46:25.122Z",
+  "workingTitle": "Fire Emblem: Fortune’s Weave Fans Cause Online Banana Shortage At Walmart",
+  "heat": 67.1,
+  "outletCount": 6,
+  "outlets": [
+    "Kotaku",
+    "Polygon",
+    "GameSpot",
+    "Nintendo Life",
+    "Nintendo",
+    "Eurogamer"
+  ],
+  "newest": "2026-09-18T22:45:30.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Fire Emblem: Fortune’s Weave Fans Cause Online Banana Shortage At Walmart",
+        "url": "https://kotaku.com/fire-emblem-fortunes-weave-fans-cause-online-banana-shortage-at-walmart-2000735758",
+        "date": "2026-09-18T22:45:30.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Should you skip the War Arc (Act 2) in Fire Emblem: Fortune's Weave?",
+        "url": "https://www.polygon.com/fire-emblem-fortunes-weave-war-arc-skip-act-2/",
+        "date": "2026-09-18T21:35:53.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Where to find wonder leaves in Fire Emblem Fortune's Weave",
+        "url": "https://www.polygon.com/fire-emblem-fortunes-weave-wonder-leaves-location-where-to-find/",
+        "date": "2026-09-18T21:26:24.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Classes and unlock requirements in Fire Emblem Fortune's Weave",
+        "url": "https://www.polygon.com/fire-emblem-fortunes-weave-classes-unlock-secret/",
+        "date": "2026-09-18T21:14:55.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Fire Emblem: Fortune's Weave Is Way Easier If You Play a Second Route",
+        "url": "https://www.polygon.com/fire-emblem-fortunes-weave-should-you-play-more-than-one-route/",
+        "date": "2026-09-18T21:00:15.000Z",
+        "host": "www.polygon.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "The New Fire Emblem Lets You Skip A Massive Chunk Of Fire Emblem",
+        "url": "https://www.gamespot.com/articles/the-new-fire-emblem-lets-you-skip-a-massive-chunk-of-fire-emblem/",
+        "date": "2026-09-18T18:22:21.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Last night, the account shared an ongoing Walmart promotion that gives $10 off online pickup or delivery orders, pointing out that fans could use it to get almost 15 percent off the $70 digital version of Fire Emblem: Fortune’s Weave.",
+      "urls": [
+        "https://kotaku.com/fire-emblem-fortunes-weave-fans-cause-online-banana-shortage-at-walmart-2000735758"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$70",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Last night, the account shared an ongoing Walmart promotion that gives $10 off online pickup or delivery orders, pointing out that fans could use it to get almost 15 percent off the $70 digital version of Fire Emblem: Fortune’s Weave.",
+      "urls": [
+        "https://kotaku.com/fire-emblem-fortunes-weave-fans-cause-online-banana-shortage-at-walmart-2000735758"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:80",
+      "value": "$80",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Despite the game running $80 for boxed copies, lots of players have reportedly opted to pay the higher price.",
+      "urls": [
+        "https://kotaku.com/fire-emblem-fortunes-weave-fans-cause-online-banana-shortage-at-walmart-2000735758"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to collect plants in the game you need to visit specific nodes on the world map and use the command",
+      "value": "To collect plants in the game, you need to visit specific nodes on the world map and use the command",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You need one of these plants to complete one of Leda's perform quests called \"Elegant Drink Recipes.\" To collect plants in the game, you need to visit specific nodes on the world map and use the command \"Search,\" but some plants are more difficult to find because you can collect them from only a few nodes.",
+      "urls": [
+        "https://www.polygon.com/fire-emblem-fortunes-weave-wonder-leaves-location-where-to-find/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

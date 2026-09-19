@@ -1,0 +1,231 @@
+{
+  "generated": "2026-09-19T00:46:25.785Z",
+  "workingTitle": "Final Fantasy 7 Revelation Director Warns of 200GB Install Size for Remake Trilogy's Final Chapter",
+  "heat": 62.5,
+  "outletCount": 6,
+  "outlets": [
+    "IGN",
+    "PC Gamer",
+    "GameSpot",
+    "Push Square",
+    "Eurogamer",
+    "PlayStation Blog"
+  ],
+  "newest": "2026-09-18T22:26:58.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Final Fantasy 7 Revelation Director Warns of 200GB Install Size for Remake Trilogy's Final Chapter",
+        "url": "https://www.ign.com/articles/final-fantasy-7-revelation-director-warns-of-200gb-install-size-for-remake-trilogys-final-chapter",
+        "date": "2026-09-18T22:26:58.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Final Fantasy 7 Revelation is apparently a super heavyweight 200GB installation: 'We need to overcome the hardware to a certain extent'",
+        "url": "https://www.pcgamer.com/games/final-fantasy/final-fantasy-7-revelation-is-apparently-a-super-heavyweight-200gb-installation-we-need-to-overcome-the-hardware-to-a-certain-extent/",
+        "date": "2026-09-18T21:55:19.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Final Fantasy 7 Revelation on PS5 Will Be a Mammoth 200GB, Director Says",
+        "url": "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-on-ps5-will-be-a-mammoth-200gb-director-says",
+        "date": "2026-09-18T16:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Final Fantasy 7 Revelation will be \"around 200GB\" says game director, as he details Sephiroth and Vincent Valentine DLC plans",
+        "url": "https://www.eurogamer.net/final-fantasy-7-revelation-200gb-file-size-dlc",
+        "date": "2026-09-18T13:04:26.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Final Fantasy 7 Revelation: Second-Take Preview",
+        "url": "https://www.ign.com/articles/final-fantasy-7-revelation-second-take-preview",
+        "date": "2026-09-18T13:00:00.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Final Fantasy 7 Revelation Could Take 100 Hours To Beat, And Its Director Has Done It 46 Times",
+        "url": "https://www.gamespot.com/articles/final-fantasy-7-revelation-could-take-100-hours-to-beat-and-its-director-has-done-it-46-times/",
+        "date": "2026-09-18T17:33:41.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "things are still getting worked out but it s probably going to be around 200gb of game",
+      "value": "Things are still getting worked out, but it’s probably going to be around 200GB of game,",
+      "outlets": [
+        "IGN",
+        "PC Gamer",
+        "Push Square",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 4,
+      "context": "\"Things are still getting worked out, but it’s probably going to be around 200GB of game,\" Hamaguchi said when asked about additional downloads for physical versions of Final Fantasy 7 Revelation.",
+      "urls": [
+        "https://www.ign.com/articles/final-fantasy-7-revelation-director-warns-of-200gb-install-size-for-remake-trilogys-final-chapter",
+        "https://www.pcgamer.com/games/final-fantasy/final-fantasy-7-revelation-is-apparently-a-super-heavyweight-200gb-installation-we-need-to-overcome-the-hardware-to-a-certain-extent/",
+        "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-on-ps5-will-be-a-mammoth-200gb-director-says",
+        "https://www.eurogamer.net/final-fantasy-7-revelation-200gb-file-size-dlc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i understand there are a lot of opinions about this topic but at the end of the day the fact is we need to overcome the hardware to a certain extent",
+      "value": "I understand there are a lot of opinions about this topic, but at the end of the day, the fact is we need to overcome the hardware to a certain extent.",
+      "outlets": [
+        "PC Gamer",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"I understand there are a lot of opinions about this topic, but at the end of the day, the fact is we need to overcome the hardware to a certain extent.\"\n\nThat's one big boy.",
+      "urls": [
+        "https://www.pcgamer.com/games/final-fantasy/final-fantasy-7-revelation-is-apparently-a-super-heavyweight-200gb-installation-we-need-to-overcome-the-hardware-to-a-certain-extent/",
+        "https://www.eurogamer.net/final-fantasy-7-revelation-200gb-file-size-dlc"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "a larger file size may not necessarily mean a better game",
+      "value": "a larger file size may not necessarily mean a better game,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In a separate post on X/Twitter, Hamaguchi acknowledged that \"a larger file size may not necessarily mean a better game,\" but there are other reasons to look forward to its 2027 release date.",
+      "urls": [
+        "https://www.ign.com/articles/final-fantasy-7-revelation-director-warns-of-200gb-install-size-for-remake-trilogys-final-chapter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "however this title is the culmination of more than 10 years of work from our development team and serves as the conclusion to the ffvii remake series",
+      "value": "However, this title is the culmination of more than 10 years of work from our development team and serves as the conclusion to the FFVII Remake series,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"However, this title is the culmination of more than 10 years of work from our development team and serves as the conclusion to the FFVII Remake series,\" he said.",
+      "urls": [
+        "https://www.ign.com/articles/final-fantasy-7-revelation-director-warns-of-200gb-install-size-for-remake-trilogys-final-chapter"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-04-08",
+      "value": "April 8, 2027",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We are committed to delivering a game that not only meets the expectations of our fans, but is also a work that we, as creators, can be truly proud of.\"\n\nPlayers will learn why Final Fantasy 7 Revelation takes up so much space when it launches for PC via the Epic Games Store and Steam, Nintendo Switch 2, PlayStation 5, and Xbox Series X/S come April 8, 2027.",
+      "urls": [
+        "https://www.ign.com/articles/final-fantasy-7-revelation-director-warns-of-200gb-install-size-for-remake-trilogys-final-chapter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we are committed to delivering a game that not only meets the expectations of our fans but is also a work that we as creators can be truly proud of",
+      "value": "We are committed to delivering a game that not only meets the expectations of our fans, but is also a work that we, as creators, can be truly proud of.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We are committed to delivering a game that not only meets the expectations of our fans, but is also a work that we, as creators, can be truly proud of.\"\n\nPlayers will learn why Final Fantasy 7 Revelation takes up so much space when it launches for PC via the Epic Games Store and Steam, Nintendo Switch 2, PlayStation 5, and Xbox Series X/S come April 8, 2027.",
+      "urls": [
+        "https://www.ign.com/articles/final-fantasy-7-revelation-director-warns-of-200gb-install-size-for-remake-trilogys-final-chapter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "digging deeper into the characters of vincent and sephiroth",
+      "value": "digging deeper into the characters of Vincent and Sephiroth.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As for the DLC packs, he likens them to Intermission, saying they're \"digging deeper into the characters of Vincent and Sephiroth.\"\n\nStorage space is always at a premium these days, but 200GB for one game is quite a big ask, isn't it?",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-on-ps5-will-be-a-mammoth-200gb-director-says"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000",
+      "value": "$1,000",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But who am I kidding, we'll get a $1,000+ console with minimal storage.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-on-ps5-will-be-a-mammoth-200gb-director-says"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "omg cloud and barret blarrrrgh",
+      "value": "OMG CLOUD AND BARRET BLARRRRGH",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This game sounds like the hand-holding training wheels du jour, so 8 out of 10 but with a \"OMG CLOUD AND BARRET BLARRRRGH\" push to a 9.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/final-fantasy-7-revelation-on-ps5-will-be-a-mammoth-200gb-director-says"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "not worried about the scale",
+      "value": "not worried about the scale",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In a new interview with VGC, the outspoken director notes that he's \"not worried about the scale\".",
+      "urls": [
+        "https://www.eurogamer.net/final-fantasy-7-revelation-200gb-file-size-dlc"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 10,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "8 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

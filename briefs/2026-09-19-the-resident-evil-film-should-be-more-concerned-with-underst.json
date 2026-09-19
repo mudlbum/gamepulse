@@ -1,0 +1,107 @@
+{
+  "generated": "2026-09-19T00:46:26.178Z",
+  "workingTitle": "The Resident Evil film should be more concerned with understanding the roots of its survival horror than adhering to strict lore accuracy",
+  "heat": 61.8,
+  "outletCount": 6,
+  "outlets": [
+    "PC Gamer",
+    "Kotaku",
+    "Destructoid",
+    "GameSpot",
+    "Push Square",
+    "Nintendo Life"
+  ],
+  "newest": "2026-09-18T22:04:14.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "The Resident Evil film should be more concerned with understanding the roots of its survival horror than adhering to strict lore accuracy",
+        "url": "https://www.pcgamer.com/movies-tv/the-resident-evil-film-should-be-more-concerned-with-understanding-the-roots-of-its-survival-horror-than-adhering-to-strict-lore-accuracy/",
+        "date": "2026-09-18T22:04:14.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Resident Evil: The Kotaku Review",
+        "url": "https://kotaku.com/resident-evil-zach-cregger-movie-film-review-bryan-2000735710",
+        "date": "2026-09-18T18:50:44.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Resident Evil movie review—Cregger nails RE’s gameplay at the expense of its story",
+        "url": "https://www.destructoid.com/reviews/resident-evil-movie-review/",
+        "date": "2026-09-18T17:40:03.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Humor And Ending Divide Resident Evil Fans On Zach Cregger’s Film: ‘The Movie Can Be Renamed Into Anything Else And Make As Much Sense’",
+        "url": "https://kotaku.com/resident-evil-zach-cregger-reactions-reddit-humor-ending-2000735614",
+        "date": "2026-09-18T15:15:29.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Movie Review: Resident Evil - The Best Resident Evil Film Ever",
+        "url": "https://www.pushsquare.com/features/movie-review-resident-evil-the-best-resident-evil-film-ever",
+        "date": "2026-09-17T13:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Resident Evil Village Gold Edition Is Cheaper Than Ever, And You’re Basically Getting Another Game For Free",
+        "url": "https://www.gamespot.com/articles/resident-evil-village-gold-edition-is-cheaper-than-ever-and-youre-basically-getting-another-game-for-free/",
+        "date": "2026-09-18T17:00:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "the best resident evil film ever",
+      "value": "the best Resident Evil film ever",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I already know what you're thinking: after six Milla Jovovich-led movies and Welcome to Raccoon City, calling something \"the best Resident Evil film ever\" isn't exactly saying very much.",
+      "urls": [
+        "https://www.pushsquare.com/features/movie-review-resident-evil-the-best-resident-evil-film-ever"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "whether it s intentional or not the film is also lightly structured similarly to a resident evil game campaign",
+      "value": "Whether it's intentional or not, the film is also lightly structured similarly to a Resident Evil game campaign.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Whether it's intentional or not, the film is also lightly structured similarly to a Resident Evil game campaign.\"\n\nAlmost certainly intentional.",
+      "urls": [
+        "https://www.pushsquare.com/features/movie-review-resident-evil-the-best-resident-evil-film-ever"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
