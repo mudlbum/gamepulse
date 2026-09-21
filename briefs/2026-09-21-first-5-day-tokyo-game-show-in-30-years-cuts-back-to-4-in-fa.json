@@ -1,0 +1,138 @@
+{
+  "generated": "2026-09-21T00:38:51.069Z",
+  "workingTitle": "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan",
+  "heat": 30,
+  "outletCount": 3,
+  "outlets": [
+    "PC Gamer",
+    "Kotaku",
+    "Push Square"
+  ],
+  "newest": "2026-09-20T19:13:08.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan",
+        "url": "https://www.pcgamer.com/gaming-industry/first-5-day-tokyo-game-show-in-30-years-cuts-back-to-4-in-face-of-typhoon-dujuan/",
+        "date": "2026-09-20T19:13:08.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Everything announced at the PC Gaming Show Tokyo Direct 2026",
+        "url": "https://www.pcgamer.com/gaming-industry/events-conferences/everything-announced-at-the-pc-gaming-show-tokyo-direct-2026/",
+        "date": "2026-09-20T16:58:05.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Typhoon Dujuan Forces Tokyo Game Show 2026 To Shut Down A Day Early",
+        "url": "https://kotaku.com/typhoon-dujuan-forces-tokyo-game-show-2026-to-shut-down-a-day-early-2000735879",
+        "date": "2026-09-19T18:30:07.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Grand Theft Auto 6 T-Shirts And More Cause Scalper-Fueled Chaos at Tokyo Game Show",
+        "url": "https://kotaku.com/grand-theft-auto-6-t-shirts-and-more-cause-scalper-fueled-chaos-at-tokyo-game-show-2000735854",
+        "date": "2026-09-19T17:30:31.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Longest-Ever Tokyo Game Show Curtailed Due to Typhoon Warning in Japan",
+        "url": "https://www.pushsquare.com/news/2026/09/longest-ever-tokyo-game-show-curtailed-due-to-typhoon-warning-in-japan",
+        "date": "2026-09-19T16:30:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "therefore prioritizing the safety of all attendees exhibitors and related parties as well as ensuring safe return home we have decided to cancel the event for the entire day",
+      "value": "Therefore, prioritizing the safety of all attendees, exhibitors, and related parties, as well as ensuring safe return home, we have decided to cancel the event for the entire day.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Therefore, prioritizing the safety of all attendees, exhibitors, and related parties, as well as ensuring safe return home, we have decided to cancel the event for the entire day.\"\n\nThe TGS showfloor will remain open for today, September 20, with potential modifications.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/first-5-day-tokyo-game-show-in-30-years-cuts-back-to-4-in-face-of-typhoon-dujuan/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-16",
+      "value": "November 16, 2026",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The game launches November 16, 2026, but you can download the demo right now.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/events-conferences/everything-announced-at-the-pc-gaming-show-tokyo-direct-2026/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-02-11",
+      "value": "February 11, 2027",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The game is launching into early access February 11, 2027.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/events-conferences/everything-announced-at-the-pc-gaming-show-tokyo-direct-2026/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:76",
+      "value": "$76",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Not only did it take no time for even business attendees to start selling the shirts on Japanese auction site Mercari for over 12,000yen each (roughly $76), its first public day saw entry tickets distributed in their entirety for the day almost entirely as a mad dash broke out to secure entry and the t-shirt.",
+      "urls": [
+        "https://kotaku.com/grand-theft-auto-6-t-shirts-and-more-cause-scalper-fueled-chaos-at-tokyo-game-show-2000735854"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:38",
+      "value": "$38",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Distribution did resume later that day, but even these have been resold on Mercari for over 6000yen ($38).",
+      "urls": [
+        "https://kotaku.com/grand-theft-auto-6-t-shirts-and-more-cause-scalper-fueled-chaos-at-tokyo-game-show-2000735854"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

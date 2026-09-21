@@ -1,10 +1,40 @@
 {
-  "decided": "2026-09-19T00:46:26.315Z",
+  "decided": "2026-09-21T00:38:51.498Z",
   "publish": true,
-  "reason": "selected on score 36.2",
-  "brief": "2026-09-19-final-fantasy-7-revelation-director-warns-of-200gb-install-s.json",
-  "title": "Final Fantasy 7 Revelation Director Warns of 200GB Install Size for Remake Trilogy's Final Chapter",
+  "reason": "selected on score 27.5",
+  "brief": "2026-09-21-the-last-of-us-director-apologises-for-calling-out-sony-sant.json",
+  "title": "The Last of Us director apologises for calling out Sony Santa Monica's God of War Laufey after saying he was \"not excited\"",
   "considered": [
+    {
+      "file": "2026-09-21-the-last-of-us-director-apologises-for-calling-out-sony-sant.json",
+      "title": "The Last of Us director apologises for calling out Sony Santa Monica's God of War Laufey after saying he was \"not excited\"",
+      "pass": true,
+      "reason": "2/14 claims corroborated · 4 outlets · secondary only · 14h old"
+    },
+    {
+      "file": "2026-09-21-slayers-2-codes-september-2026.json",
+      "title": "Slayers 2 codes (September 2026)",
+      "pass": false,
+      "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-21-first-5-day-tokyo-game-show-in-30-years-cuts-back-to-4-in-fa.json",
+      "title": "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-21-final-fantasy-7-revelation-will-easily-take-over-100-hours-f.json",
+      "title": "Final Fantasy 7 Revelation Will 'Easily Take Over 100 Hours' for Completionists to Beat, Director Teases",
+      "pass": false,
+      "reason": "1 of 14 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-09-21-3-games-you-have-to-play-if-you-loved-the-new-resident-evil-.json",
+      "title": "3 Games You Have to Play if You Loved the New Resident Evil Movie",
+      "pass": false,
+      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-09-19-the-resident-evil-film-should-be-more-concerned-with-underst.json",
       "title": "The Resident Evil film should be more concerned with understanding the roots of its survival horror than adhering to strict lore accuracy",
@@ -22,36 +52,6 @@
       "title": "'Players got better than we expected': Monster Hunter Wilds DLC director says Capcom is retuning its difficulty standards for the expansion's endgame",
       "pass": false,
       "reason": "1 of 18 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-09-19-fire-emblem-fortunes-weave-fans-cause-online-banana-shortage.json",
-      "title": "Fire Emblem: Fortune’s Weave Fans Cause Online Banana Shortage At Walmart",
-      "pass": false,
-      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-19-final-fantasy-7-revelation-director-warns-of-200gb-install-s.json",
-      "title": "Final Fantasy 7 Revelation Director Warns of 200GB Install Size for Remake Trilogy's Final Chapter",
-      "pass": true,
-      "reason": "2/10 claims corroborated · 6 outlets · secondary only · 2h old"
-    },
-    {
-      "file": "2026-09-18-two-games-announced-for-xbox-game-pass-at-tokyo-game-show-20.json",
-      "title": "Two Games Announced For Xbox Game Pass At Tokyo Game Show 2026",
-      "pass": false,
-      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-18-resident-evil-ending-explained-how-zach-cregger-quietly-sets.json",
-      "title": "'Resident Evil' Ending Explained: How Zach Cregger Quietly Sets Up a Sequel",
-      "pass": false,
-      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-18-nearly-everyone-laid-off-at-hyper-light-drifter-devs-heart-m.json",
-      "title": "\"Nearly everyone\" laid off at Hyper Light Drifter devs Heart Machine after publisher drops unannounced game",
-      "pass": true,
-      "reason": "3/17 claims corroborated · 5 outlets · secondary only · 32h old"
     }
   ]
 }

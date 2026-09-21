@@ -1,0 +1,166 @@
+{
+  "generated": "2026-09-21T00:38:51.431Z",
+  "workingTitle": "Slayers 2 codes (September 2026)",
+  "heat": 23.9,
+  "outletCount": 3,
+  "outlets": [
+    "PCGamesN",
+    "Destructoid",
+    "Game Developer"
+  ],
+  "newest": "2026-09-20T12:22:38.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [
+    "Genshin Impact"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PCGamesN",
+        "title": "Slayers 2 codes (September 2026)",
+        "url": "https://www.pcgamesn.com/roblox/slayers-2-codes",
+        "date": "2026-09-20T12:22:38.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Genshin Impact codes (September 2026)",
+        "url": "https://www.pcgamesn.com/genshin-impact/codes-redeem-promo",
+        "date": "2026-09-19T13:47:54.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to Become a Demon in Slayers 2 – Muzan Quest",
+        "url": "https://www.destructoid.com/how-to-become-a-demon-in-slayers-2/",
+        "date": "2026-09-19T09:33:57.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "MiHoYo awarded $112,000 by Chinese court after AI voice service dupes Genshin Impact characters",
+        "url": "https://www.gamedeveloper.com/business/mihoyo-awarded-112-000-by-chinese-court-after-ai-voice-service-dupes-genshin-impact-characters",
+        "date": "2026-09-18T15:15:39.000Z",
+        "host": "www.gamedeveloper.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-09-20",
+      "value": "September 20, 2026",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Updated September 20, 2026 If you didn't play on launch, you'll have just one new Slayers 2 code to claim today.",
+      "urls": [
+        "https://www.pcgamesn.com/roblox/slayers-2-codes"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:7.1",
+      "value": "Version 7.1.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Redeem the new Genshin Impact codes for free Primogems, Mora, and other in-game items, all updated with the latest freebies for Version 7.1.",
+      "urls": [
+        "https://www.pcgamesn.com/genshin-impact/codes-redeem-promo"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-09-19",
+      "value": "September 19, 2026",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Updated September 19, 2026 Redeem this new Genshin Impact code for 60 primos and five EXP books before the 7.2 livestream comes our way.",
+      "urls": [
+        "https://www.pcgamesn.com/genshin-impact/codes-redeem-promo"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:112000",
+      "value": "$112,000",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "MiHoYo has scored a legal victory in China after a Shanghai court ordered an unnamed generative AI developer to to pay ¥750,000 (about $112,000) after it found the company inappropriately reproduced and sold the voices of Genshin Impact.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/mihoyo-awarded-112-000-by-chinese-court-after-ai-voice-service-dupes-genshin-impact-characters"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "images and story animations",
+      "value": "images and story animations",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "MiHoYo accused the defendant of not only using generative AI to replicate the voices of 63 Genshin Impact characters, but also used \"images and story animations\" from the game to advertise and sell its illicit voice packs to customers.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/mihoyo-awarded-112-000-by-chinese-court-after-ai-voice-service-dupes-genshin-impact-characters"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "demonstrated an intent to capitalize on the game x27 s popularity",
+      "value": "demonstrated an intent to capitalize on the game&#x27;s popularity,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The court ruled that this \"demonstrated an intent to capitalize on the game&#x27;s popularity,\" as described by The Paper.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/mihoyo-awarded-112-000-by-chinese-court-after-ai-voice-service-dupes-genshin-impact-characters"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:150000000",
+      "value": "$150 million",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Related:Nex Playground maker secures over $150 million to expand globally\n\nThis ruling offers some guidance for how courts in China will assess the use of generative AI to replicate copyrighted material like the visual and audio likenesses of video game characters—relevant information for any developers looking to do business in the growing region.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/mihoyo-awarded-112-000-by-chinese-court-after-ai-voice-service-dupes-genshin-impact-characters"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 7,
+  "ourData": [
+    {
+      "game": "Genshin Impact",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

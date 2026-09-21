@@ -1,0 +1,267 @@
+{
+  "generated": "2026-09-21T00:38:51.321Z",
+  "workingTitle": "The Last of Us director apologises for calling out Sony Santa Monica's God of War Laufey after saying he was \"not excited\"",
+  "heat": 29.1,
+  "outletCount": 4,
+  "outlets": [
+    "Eurogamer",
+    "IGN",
+    "GameSpot",
+    "Push Square"
+  ],
+  "newest": "2026-09-20T10:41:45.000Z",
+  "readableCount": 3,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Eurogamer",
+        "title": "The Last of Us director apologises for calling out Sony Santa Monica's God of War Laufey after saying he was \"not excited\"",
+        "url": "https://www.eurogamer.net/last-of-us-director-apologises-god-of-war-laufey-not-excited",
+        "date": "2026-09-20T10:41:45.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "The Last of Us Director Apologizes to God of War Laufey Devs After Calling Recent AAA Games 'Boring'",
+        "url": "https://www.ign.com/articles/the-last-of-us-director-apologizes-to-god-of-war-laufey-devs-after-calling-recent-aaa-games-boring",
+        "date": "2026-09-19T19:08:59.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "The Last of Us Game Director Apologises for Dragging God of War Laufey into 'Boring' AAA Game Discussion",
+        "url": "https://www.pushsquare.com/news/2026/09/the-last-of-us-game-director-apologises-for-dragging-god-of-war-laufey-into-boring-aaa-game-discussion",
+        "date": "2026-09-18T16:45:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Ex-Naughty Dog Dev Apologizes To God Of War Studio For What He Said About Laufey",
+        "url": "https://www.gamespot.com/articles/ex-naughty-dog-dev-apologizes-to-god-of-war-studio-for-what-he-said-about-laufey/",
+        "date": "2026-09-18T18:15:44.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "god of war laufey i look at that game and every pixel is mindblowing",
+      "value": "God Of War Laufey, I look at that game, and every pixel is mindblowing,",
+      "outlets": [
+        "Eurogamer",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"God Of War Laufey, I look at that game, and every pixel is mindblowing,\" he added.",
+      "urls": [
+        "https://www.eurogamer.net/last-of-us-director-apologises-god-of-war-laufey-not-excited",
+        "https://www.ign.com/articles/the-last-of-us-director-apologizes-to-god-of-war-laufey-devs-after-calling-recent-aaa-games-boring"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the verbs and experiences we x27 re delivering in the triple a space are i wanna say boring",
+      "value": "I think the verbs and experiences we’re delivering in the triple-A space are… I wanna say boring,",
+      "outlets": [
+        "IGN",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"I think the verbs and experiences we’re delivering in the triple-A space are… I wanna say boring,\" Straley says.",
+      "urls": [
+        "https://www.ign.com/articles/the-last-of-us-director-apologizes-to-god-of-war-laufey-devs-after-calling-recent-aaa-games-boring",
+        "https://www.pushsquare.com/news/2026/09/the-last-of-us-game-director-apologises-for-dragging-god-of-war-laufey-into-boring-aaa-game-discussion"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "the game industry is broken can we fix it",
+      "value": "The game industry is broken - can we fix it?",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Edge's latest cover story, entitled \"The game industry is broken - can we fix it?\", talked to nine industry figures, including Straley, about the industry's ongoing crisis of layoffs, ballooning budgets, and shrinking studios.",
+      "urls": [
+        "https://www.eurogamer.net/last-of-us-director-apologises-god-of-war-laufey-not-excited"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "make the triple a game he actually wants to because modern blockbusters are",
+      "value": "make the triple-A game he actually wants to because modern blockbusters are",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In the interview, Straley said he'll \"probably never\" make the triple-A game he actually wants to because modern blockbusters are \"boring\".",
+      "urls": [
+        "https://www.eurogamer.net/last-of-us-director-apologises-god-of-war-laufey-not-excited"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i have an idea for a triple a game",
+      "value": "I have an idea for a triple-A game,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I have an idea for a triple-A game,\" he tells Edge.",
+      "urls": [
+        "https://www.eurogamer.net/last-of-us-director-apologises-god-of-war-laufey-not-excited"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "shortly afterwards straley apologised to sony santa monica and said his comment had been",
+      "value": "Shortly afterwards, Straley apologised to Sony Santa Monica and said his comment had been",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Just, across the board in triple-A, it feels like there's no opportunity to inject fresh, innovative ideas.\"\n\nShortly afterwards, Straley apologised to Sony Santa Monica and said his comment had been \"used out of context and for clickbait\".",
+      "urls": [
+        "https://www.eurogamer.net/last-of-us-director-apologises-god-of-war-laufey-not-excited"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "my fear is that our player base is getting tired of playing the same verbs for the last 20 years",
+      "value": "My fear is that our player base is getting tired of playing the same verbs for the last 20 years.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"My fear is that our player base is getting tired of playing the same verbs for the last 20 years.\"\n\nIn a follow-up tweet Straley added: \"My hypothesis: Our medium is unique because players are DOING a thing.",
+      "urls": [
+        "https://www.eurogamer.net/last-of-us-director-apologises-god-of-war-laufey-not-excited"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "uninvited and unnecessary negative attention",
+      "value": "I want to apologize to the Laufey team for dragging you all into this uninvited and unnecessary negative attention,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I want to apologize to the Laufey team for dragging you all into this uninvited and unnecessary negative attention,\" he said.",
+      "urls": [
+        "https://www.ign.com/articles/the-last-of-us-director-apologizes-to-god-of-war-laufey-devs-after-calling-recent-aaa-games-boring"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "straley then pointed to half life 2 gears of war bioshock uncharted 2 and the last of us as a string of games that helped",
+      "value": "Straley then pointed to Half-Life 2, Gears of War, BioShock, Uncharted 2, and The Last of Us as a string of games that helped",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This requires us creators to continue to push and create new experiences, or we run the risk of diminishing players’ dopamine.\"\n\nStraley then pointed to Half-Life 2, Gears of War, BioShock, Uncharted 2, and The Last of Us as a string of games that helped \"set the &#x27;modern AAA&#x27; mold,\" saying that each title felt like it wanted to bring new experiences to the space.",
+      "urls": [
+        "https://www.ign.com/articles/the-last-of-us-director-apologizes-to-god-of-war-laufey-devs-after-calling-recent-aaa-games-boring"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "is only one side of my concerns",
+      "value": "is only one side of my concerns.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He then clarified that this part of the conversation \"is only one side of my concerns.\"\n\n\"Unfortunately the platforms that need to bring stability have eroded the ability to innovate,\" he continued.",
+      "urls": [
+        "https://www.ign.com/articles/the-last-of-us-director-apologizes-to-god-of-war-laufey-devs-after-calling-recent-aaa-games-boring"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-02-16",
+      "value": "February 16, 2027",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "God of War Laufey director Ariel Lawrence has asked skeptical fans to give Faye&#x27;s story a chance ahead of its February 16, 2027 launch.",
+      "urls": [
+        "https://www.ign.com/articles/the-last-of-us-director-apologizes-to-god-of-war-laufey-devs-after-calling-recent-aaa-games-boring"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100000000",
+      "value": "$100M",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Not every game can reinvent itself, especially for AAA games with budgets in the $100M’s.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/the-last-of-us-game-director-apologises-for-dragging-god-of-war-laufey-into-boring-aaa-game-discussion"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But, when some devs brave enough to took risk with $100+ million budget under their belt to do an experimental game like Kojima did with Death Stranding for example, there's a lot of resistance from gamers themself who just wants to play games that fits with their comfort zone.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/the-last-of-us-game-director-apologises-for-dragging-god-of-war-laufey-into-boring-aaa-game-discussion"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i think it was pretty clear from his original quote that he didn t intend to slander the work of santa monica studio",
+      "value": "I think it was pretty clear from his original quote that he didn't intend to slander the work of Santa Monica Studio.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Quintumply \"I think it was pretty clear from his original quote that he didn't intend to slander the work of Santa Monica Studio.\" Where did he slander them?",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/the-last-of-us-game-director-apologises-for-dragging-god-of-war-laufey-into-boring-aaa-game-discussion"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 14,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "12 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

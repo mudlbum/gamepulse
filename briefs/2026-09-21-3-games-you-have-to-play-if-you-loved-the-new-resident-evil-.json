@@ -1,0 +1,117 @@
+{
+  "generated": "2026-09-21T00:38:50.351Z",
+  "workingTitle": "3 Games You Have to Play if You Loved the New Resident Evil Movie",
+  "heat": 32.9,
+  "outletCount": 3,
+  "outlets": [
+    "Polygon",
+    "Kotaku",
+    "Destructoid"
+  ],
+  "newest": "2026-09-20T23:30:15.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "3 Games You Have to Play if You Loved the New Resident Evil Movie",
+        "url": "https://www.polygon.com/best-games-for-resident-evil-movie-fans/",
+        "date": "2026-09-20T23:30:15.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Theater Gives Fans A Perfectly Faithful Resident Evil Adaptation To Accompany Zach Cregger’s Movie",
+        "url": "https://kotaku.com/multiplex-staff-film-more-accurate-resident-evil-adaptation-to-accompany-zach-creggers-movie-2000735945",
+        "date": "2026-09-20T15:48:05.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Zach Cregger’s Resident Evil movie breaks multiple records in gruesome opening week",
+        "url": "https://www.destructoid.com/resident-evil-box-office-records/",
+        "date": "2026-09-19T19:01:53.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "It seems Zach Cregger’s Resident Evil movie accidentally adapted a darling indie game",
+        "url": "https://www.destructoid.com/it-seems-zach-creggers-resident-evil-movie-accidentally-adapted-a-darling-indie-game/",
+        "date": "2026-09-18T21:25:55.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:60000000",
+      "value": "$60 million",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "“ came up the brilliant idea to create this video, emulating the humor and fun of the original video game.”\n\nDespite resistance from the die-hards and an R rating, Cregger’s Resident Evil grossed $60 million over the weekend.",
+      "urls": [
+        "https://kotaku.com/multiplex-staff-film-more-accurate-resident-evil-adaptation-to-accompany-zach-creggers-movie-2000735945"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:53",
+      "value": "$53",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In just its opening days, Deadline reports, Resident Evil has grossed between $53 and 60 million.",
+      "urls": [
+        "https://www.destructoid.com/resident-evil-box-office-records/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:26300000",
+      "value": "$26.3 million",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "18, the film grossed $26.3 million domestically, which is almost as much as Resident Evil: The Final Chapter earned domestically during its entire run.",
+      "urls": [
+        "https://www.destructoid.com/resident-evil-box-office-records/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:43500000",
+      "value": "$43.5 million",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It’s also Cregger’s best opening to date, beating out his previous hit Weapons, which grossed $43.5 million during its first three days.",
+      "urls": [
+        "https://www.destructoid.com/resident-evil-box-office-records/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
