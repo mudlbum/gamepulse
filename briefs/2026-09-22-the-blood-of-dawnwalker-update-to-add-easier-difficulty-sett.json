@@ -1,0 +1,282 @@
+{
+  "generated": "2026-09-22T01:21:26.407Z",
+  "workingTitle": "The Blood of Dawnwalker Update to Add Easier Difficulty Setting for Players Who Don't Want Combat",
+  "heat": 42.1,
+  "outletCount": 4,
+  "outlets": [
+    "IGN",
+    "Kotaku",
+    "Push Square",
+    "Eurogamer"
+  ],
+  "newest": "2026-09-21T23:53:45.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "The Blood of Dawnwalker Update to Add Easier Difficulty Setting for Players Who Don't Want Combat",
+        "url": "https://www.ign.com/articles/the-blood-of-dawnwalker-update-to-add-easier-difficulty-setting-for-players-who-dont-want-combat",
+        "date": "2026-09-21T23:53:45.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The Blood Of Dawnwalker’s First Big Patch Will Add An Easier Difficulty That Eliminates Combat",
+        "url": "https://kotaku.com/the-blood-of-dawnwalker-patch-october-new-difficulty-2000736195",
+        "date": "2026-09-21T20:30:47.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Dawnwalker's First Big PS5 Patch Adds an Even Easier Difficulty Mode and Improves Combat",
+        "url": "https://www.pushsquare.com/news/2026/09/dawnwalkers-first-big-ps5-patch-adds-an-even-easier-difficulty-mode-and-improves-combat",
+        "date": "2026-09-21T17:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "The Blood of Dawnwalker getting a new difficulty option, combat changes and more in game's first \"big\" patch scheduled for early October",
+        "url": "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update",
+        "date": "2026-09-21T16:41:09.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "we will introduce an additional difficulty level but an easier one because many people are asking for a more easy difficulty",
+      "value": "We will introduce an additional difficulty level, but an easier one, because many people are asking for a more easy difficulty,",
+      "outlets": [
+        "IGN",
+        "Push Square",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "\"We will introduce an additional difficulty level, but an easier one, because many people are asking for a more easy difficulty,\" Tomaszkiewicz said.",
+      "urls": [
+        "https://www.ign.com/articles/the-blood-of-dawnwalker-update-to-add-easier-difficulty-setting-for-players-who-dont-want-combat",
+        "https://www.pushsquare.com/news/2026/09/dawnwalkers-first-big-ps5-patch-adds-an-even-easier-difficulty-mode-and-improves-combat",
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there will be three hits you need to take off this stun",
+      "value": "There will be three hits you need to take off this stun,",
+      "outlets": [
+        "IGN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"There will be three hits you need to take off this stun,\" he said.",
+      "urls": [
+        "https://www.ign.com/articles/the-blood-of-dawnwalker-update-to-add-easier-difficulty-setting-for-players-who-dont-want-combat",
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "people who don x27 t want to experience combat",
+      "value": "people who don&#x27;t want to experience combat",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The first major The Blood of Dawnwalker update will introduce an easier difficulty option for \"people who don&#x27;t want to experience combat\" when it launches in October.",
+      "urls": [
+        "https://www.ign.com/articles/the-blood-of-dawnwalker-update-to-add-easier-difficulty-setting-for-players-who-dont-want-combat"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:1000000:copies",
+      "value": "1 million copies",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It was released for PC, PlayStation 5, and Xbox Series X/S September 3 and reached more than 1 million copies sold in just two days.",
+      "urls": [
+        "https://www.ign.com/articles/the-blood-of-dawnwalker-update-to-add-easier-difficulty-setting-for-players-who-dont-want-combat"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:40000000",
+      "value": "$40 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For more on The Blood of Dawnwalker, you can read about how Bandai Namco and Rebel Wolves managed to bring their vision to life on a $40 million budget.",
+      "urls": [
+        "https://www.ign.com/articles/the-blood-of-dawnwalker-update-to-add-easier-difficulty-setting-for-players-who-dont-want-combat"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there is a chance but i don t want to speak about it yet",
+      "value": "There is a chance but I don't want to speak about it yet,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"There is a chance but I don't want to speak about it yet,\" he said.",
+      "urls": [
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we will have the proper beats with our publishing team and if i tell you more they will kill me",
+      "value": "We will have the proper beats with our publishing team and if I tell you more, they will kill me.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We will have the proper beats with our publishing team and if I tell you more, they will kill me.\"\n\nThe game's new difficulty is not a harder difficulty, by the way - Rebel Wolves feels Duelist difficulty, without directional attack indicators, is challenging enough.",
+      "urls": [
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re observing this we re trying to ask people about the hardware and we are trying to do the fixes",
+      "value": "We're observing this, we're trying to ask people about the hardware, and we are trying to do the fixes.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But he said: \"We're observing this, we're trying to ask people about the hardware, and we are trying to do the fixes.\"\n\nAnd he added: \"But yes, when you see that the game works well - over 60 FPS - but people still complain that it's not 120, but 90 or 70...\" He exhaled here in an exasperated kind of way.",
+      "urls": [
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "right now we re doing the fix where when you run or escape you will ignore the nav mesh and it will be fluid it will not be clunky",
+      "value": "Right now we're doing the fix where when you run or escape, you will ignore the nav mesh and it will be fluid - it will not be clunky,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Right now we're doing the fix where when you run or escape, you will ignore the nav mesh and it will be fluid - it will not be clunky,\" Tomaszkiewicz said.",
+      "urls": [
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re working on escaping from combat and running in combat and it will be a big change for people",
+      "value": "We're working on escaping from combat and running in combat and it will be a big change for people.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We're working on escaping from combat and running in combat and it will be a big change for people.\"\n\nThis extends to enemy animal behaviour, so animals won't \"hard-catch\" you if you aggravate them while whizzing by in fast mode (wolf form or witch-sprint mode).",
+      "urls": [
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you are safe and you can run and explore the world freely",
+      "value": "you are safe and you can run and explore the world freely",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They will try to hit you, but if they don't manage to, \"you are safe and you can run and explore the world freely\".",
+      "urls": [
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it depends a lot on how you develop your character and what gear you have",
+      "value": "It depends a lot on how you develop your character and what gear you have,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It depends a lot on how you develop your character and what gear you have,\" Tomaszkiewicz explained.",
+      "urls": [
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "and we had these problems",
+      "value": "And we had these problems,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"And we had these problems,\" he said.",
+      "urls": [
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "cd projekt red alumni create a familiar dark fantasy adventure but one with bold and provocative ideas of its own that s mostly enormously successful",
+      "value": "CD Projekt Red alumni create a familiar dark fantasy adventure, but one with bold and provocative ideas of its own, that's mostly, enormously successful,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"CD Projekt Red alumni create a familiar dark fantasy adventure, but one with bold and provocative ideas of its own, that's mostly, enormously successful,\" I wrote in Eurogamer's Dawnwalker review.",
+      "urls": [
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we are also considering and researching some other crazy ideas which can make the rpg genre different to surprise people in the future",
+      "value": "We are also considering and researching some other crazy ideas which can make the RPG genre different to surprise people in the future,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We are also considering and researching some other crazy ideas which can make the RPG genre different to surprise people in the future,\" Tomaszkiewicz previously said.",
+      "urls": [
+        "https://www.eurogamer.net/blood-of-dawnwalker-difficulty-combat-patch-update"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 15,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "13 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "generated": "2026-09-22T01:21:25.382Z",
+  "workingTitle": "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough",
+  "heat": 75.6,
+  "outletCount": 7,
+  "outlets": [
+    "PC Gamer",
+    "Game Developer",
+    "Pure Xbox",
+    "Destructoid",
+    "Push Square",
+    "IGN",
+    "Kotaku"
+  ],
+  "newest": "2026-09-21T23:24:23.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Destiny 2"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough",
+        "url": "https://www.pcgamer.com/games/fps/bungie-unvaulting-destiny-2-content-was-a-studio-saving-emergency-decision-because-marathon-updates-were-never-going-to-be-enough/",
+        "date": "2026-09-21T23:24:23.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Bungie declares it's 'not done with Destiny' as it lays out studio's future",
+        "url": "https://www.gamedeveloper.com/console/bungie-declares-it-s-not-done-with-destiny-as-it-lays-out-studio-s-future",
+        "date": "2026-09-21T20:30:57.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "'We Are Ready To Do The Work' - Former Xbox Studio Bungie Outlines Plans For The Future",
+        "url": "https://www.purexbox.com/news/2026/09/we-are-ready-to-do-the-work-former-xbox-studio-bungie-outlines-plans-for-the-future",
+        "date": "2026-09-21T20:23:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "With Destiny’s future confirmed alive, Bungie will continue to focus on ‘strengthening’ Marathon alongside it",
+        "url": "https://www.destructoid.com/destiny-future-alive-bungie-continue-focus-strengthening-marathon-alongside/",
+        "date": "2026-09-21T18:03:00.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Bungie un-cancels Destiny: Vaulted content is coming back as new leadership promises 'Destiny is foundational to our future'",
+        "url": "https://www.pcgamer.com/games/bungie-un-cancels-destiny-vaulted-content-is-coming-back-as-new-leadership-promises-destiny-is-foundational-to-our-future/",
+        "date": "2026-09-21T17:13:29.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "'We Are Not Done with Destiny': Bungie Commits to Sci-Fi Series After Fan Backlash, Restores Destiny 2 Content",
+        "url": "https://www.pushsquare.com/news/2026/09/we-are-not-done-with-destiny-bungie-commits-to-sci-fi-series-after-fan-backlash-restores-destiny-2-content",
+        "date": "2026-09-21T16:45:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "this restoration is the first step to lay the foundation for how we reforge into new stories and games that you all deserve",
+      "value": "This restoration is the first step to lay the foundation for how we reforge into new stories and games that you all deserve,",
+      "outlets": [
+        "Game Developer",
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Torkan and Deane noted that recent expansions to Destiny 2 overhauled elements such as the games&#x27; lighting, combat, and other \"underlying systems.\" \"This restoration is the first step to lay the foundation for how we reforge into new stories and games that you all deserve,\" they wrote.",
+      "urls": [
+        "https://www.gamedeveloper.com/console/bungie-declares-it-s-not-done-with-destiny-as-it-lays-out-studio-s-future",
+        "https://www.purexbox.com/news/2026/09/we-are-ready-to-do-the-work-former-xbox-studio-bungie-outlines-plans-for-the-future"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "depends on making clear choices about where we focus delivering what we say we will and being honest about our successes and our failures",
+      "value": "Our future depends on making clear choices about where we focus, delivering what we say we will, and being honest about our successes and failures,",
+      "outlets": [
+        "Game Developer",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"Our future depends on making clear choices about where we focus, delivering what we say we will, and being honest about our successes and failures,\" they state.",
+      "urls": [
+        "https://www.gamedeveloper.com/console/bungie-declares-it-s-not-done-with-destiny-as-it-lays-out-studio-s-future",
+        "https://www.pushsquare.com/news/2026/09/we-are-not-done-with-destiny-bungie-commits-to-sci-fi-series-after-fan-backlash-restores-destiny-2-content"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "deeper survival experience",
+      "value": "deeper survival experience",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We know the next major update is now coming in December with a permanent PvE mode, and that the studio aims to turn the game into a \"deeper survival experience\" and shed its \"genre constraints\" as a hardcore PvP FPS.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/bungie-unvaulting-destiny-2-content-was-a-studio-saving-emergency-decision-because-marathon-updates-were-never-going-to-be-enough/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "destiny is foundational to bungie x27 s future",
+      "value": "Destiny is foundational to Bungie&#x27;s future,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Destiny is foundational to Bungie&#x27;s future,\" the studio declared in a blog post penned by the two studio higher-ups.",
+      "urls": [
+        "https://www.gamedeveloper.com/console/bungie-declares-it-s-not-done-with-destiny-as-it-lays-out-studio-s-future"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we have more stories to tell new worlds to build but we have to do it right and give our teams the time they need to do justice to this amazing universe",
+      "value": "We have more stories to tell, new worlds to build, but we have to do it right and give our teams the time they need to do justice to this amazing universe.",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We have more stories to tell, new worlds to build, but we have to do it right and give our teams the time they need to do justice to this amazing universe.\"\n\n\"We want to return Destiny to its original promise, to recapture the qualities that have always made it special.",
+      "urls": [
+        "https://www.gamedeveloper.com/console/bungie-declares-it-s-not-done-with-destiny-as-it-lays-out-studio-s-future"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we have lost trust lost incredible colleagues and our ambitions as a studio stalled",
+      "value": "we have lost trust, lost incredible colleagues, and our ambitions as a studio stalled.",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Torkan acknowledged these and other turbulent events in a video accompanying the post, saying that \"we have lost trust, lost incredible colleagues, and our ambitions as a studio stalled.\"\n\n\"We chased vision without enough focus on what players loved and that&#x27;s on us.",
+      "urls": [
+        "https://www.gamedeveloper.com/console/bungie-declares-it-s-not-done-with-destiny-as-it-lays-out-studio-s-future"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the process of rebuilding that trust apparently begins with restoring years of",
+      "value": "The process of rebuilding that trust apparently begins with restoring years of",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We own that.\"\n\nThe process of rebuilding that trust apparently begins with restoring years of \"vaulted\" Destiny 2 content.",
+      "urls": [
+        "https://www.gamedeveloper.com/console/bungie-declares-it-s-not-done-with-destiny-as-it-lays-out-studio-s-future"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we ve made several changes with how we operate by simplifying our priorities reducing competing initiatives moving decisions closer to the teams building our games and changing how we measure success to place greater emphasis on player satisfaction",
+      "value": "We’ve made several changes with how we operate by simplifying our priorities, reducing competing initiatives, moving decisions closer to the teams building our games, and changing how we measure success to place greater emphasis on player satisfaction,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We’ve made several changes with how we operate by simplifying our priorities, reducing competing initiatives, moving decisions closer to the teams building our games, and changing how we measure success to place greater emphasis on player satisfaction,\" they concluded.",
+      "urls": [
+        "https://www.gamedeveloper.com/console/bungie-declares-it-s-not-done-with-destiny-as-it-lays-out-studio-s-future"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "via bungie net morgan park bungie s new leadership duo laid out the",
+      "value": "(via Bungie.net)\n\nMorgan Park Bungie's new leadership duo laid out the",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We cannot change the decision we made, but we can acknowledge its impact and do the work to make it right by restoring these important parts of Destiny's history.\" (via Bungie.net)\n\nMorgan Park Bungie's new leadership duo laid out the \"next chapter of Bungie\" today in a blog post with an accompanying video.",
+      "urls": [
+        "https://www.pcgamer.com/games/bungie-un-cancels-destiny-vaulted-content-is-coming-back-as-new-leadership-promises-destiny-is-foundational-to-our-future/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "vaulted destiny 2 campaigns destinations and raids",
+      "value": "vaulted Destiny 2 campaigns, destinations, and raids",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Well, for starters, the developers confirm that they're currently working to bring back \"vaulted Destiny 2 campaigns, destinations, and raids\" for all players.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/we-are-not-done-with-destiny-bungie-commits-to-sci-fi-series-after-fan-backlash-restores-destiny-2-content"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "bringing this content back is not as simple as restoring old files",
+      "value": "Bringing this content back is not as simple as restoring old files,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Bringing this content back is not as simple as restoring old files,\" the leads warn.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/we-are-not-done-with-destiny-bungie-commits-to-sci-fi-series-after-fan-backlash-restores-destiny-2-content"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we ll learn more in the",
+      "value": "We'll learn more in the",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That work will take time, but it is necessary to ensure returning content meets the stability and gameplay standards of Destiny 2 today.\"\n\nWe'll learn more in the \"months ahead\", when the studio will also reveal more about Destiny's future in general.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/we-are-not-done-with-destiny-bungie-commits-to-sci-fi-series-after-fan-backlash-restores-destiny-2-content"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "bungie then outlines several key principles that it hops to follow going forward torkan and deane conclude the post by asking players to",
+      "value": "Bungie then outlines several key principles that it hops to follow going forward:\n\nTorkan and Deane conclude the post by asking players to",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It just means that we have to focus on the things you want to see from us, and making sure our vision matches our reality.\"\n\nBungie then outlines several key principles that it hops to follow going forward:\n\nTorkan and Deane conclude the post by asking players to \"keep us accountable\".",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/we-are-not-done-with-destiny-bungie-commits-to-sci-fi-series-after-fan-backlash-restores-destiny-2-content"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "sorry we were wrong and we let our players down in so many ways no apology would ever make up for our actions",
+      "value": "Sorry, we were wrong and we let our players down in so many ways no apology would ever make up for our actions",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But I'd settle with just a \"Sorry, we were wrong and we let our players down in so many ways no apology would ever make up for our actions\", because that's what I expect from a serious company.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/we-are-not-done-with-destiny-bungie-commits-to-sci-fi-series-after-fan-backlash-restores-destiny-2-content"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 14,
+  "ourData": [
+    {
+      "game": "Destiny 2",
+      "concurrent": 24131,
+      "rank": 49,
+      "change24h": 18.3,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [
+    {
+      "game": "Destiny 2 / Marathon",
+      "title": "The Next Chapter for Bungie",
+      "url": "/7/en/News/Article/nextchapterofbungie"
+    }
+  ],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "12 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "generated": "2026-09-22T01:21:26.185Z",
+  "workingTitle": "Pokémon Ruby & Sapphire HD Footage Reignites Rumours About Switch Ports",
+  "heat": 42.1,
+  "outletCount": 4,
+  "outlets": [
+    "Nintendo Life",
+    "Eurogamer",
+    "IGN",
+    "Kotaku"
+  ],
+  "newest": "2026-09-21T23:55:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [
+    "Pokémon"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Pokémon Ruby & Sapphire HD Footage Reignites Rumours About Switch Ports",
+        "url": "https://www.nintendolife.com/news/2026/09/pokemon-ruby-and-sapphire-hd-footage-reignites-rumours-about-switch-ports",
+        "date": "2026-09-21T23:55:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Nintendo Switch ports of Pokémon Ruby and Sapphire look even more likely after official account shares suspiciously HD footage of the GBA games",
+        "url": "https://www.eurogamer.net/nintendo-switch-pokemon-ruby-sapphire-hd-port",
+        "date": "2026-09-21T18:36:03.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Suspiciously Crisp-Looking Pokémon Ruby and Sapphire Footage Sparks Fresh Nintendo Switch Port Speculation",
+        "url": "https://www.ign.com/articles/suspiciously-crisp-looking-pokemon-ruby-and-sapphire-footage-sparks-fresh-nintendo-switch-port-speculation",
+        "date": "2026-09-21T15:02:49.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "High-Definition Footage Of Pokémon Ruby And Sapphire On Official Pokémon Socials Sparks Nintendo Switch Port Speculation",
+        "url": "https://kotaku.com/high-definition-footage-of-pokemon-ruby-and-sapphire-on-official-pokemon-socials-sparks-nintendo-switch-port-speculation-2000736061",
+        "date": "2026-09-21T14:30:25.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "suspiciously high definition video",
+      "value": "suspiciously high-definition video",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As highlighted by Kotaku, an official Japanese Pokémon account on social media, known as Poké Times, has shared a \"suspiciously high-definition video\" of the Game Boy Advance titles, showing \"fan-favorite Wingull, Peeko, chasing Mr.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/pokemon-ruby-and-sapphire-hd-footage-reignites-rumours-about-switch-ports"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "never post emulated footage",
+      "value": "never post emulated footage",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Official Pokémon accounts, such as this one, apparently \"never post emulated footage\", either.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/pokemon-ruby-and-sapphire-hd-footage-reignites-rumours-about-switch-ports"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this is an official account tweeting out high res gameplay from pokemon ruby sapphire",
+      "value": "This is an official account tweeting out high-res gameplay from Pokemon Ruby/Sapphire,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This is an official account tweeting out high-res gameplay from Pokemon Ruby/Sapphire,\" YouTuber That Bald Gamer tweeted.",
+      "urls": [
+        "https://www.eurogamer.net/nintendo-switch-pokemon-ruby-sapphire-hd-port"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "since these graphics aren t possible on their original official hardware i d say this essentially means pokemon ruby sapphire ports are coming to the nintendo switch in some fashion",
+      "value": "Since these graphics aren't possible on their original official hardware, I'd say this essentially means Pokemon Ruby/Sapphire ports are coming to the Nintendo Switch in some fashion.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Since these graphics aren't possible on their original official hardware, I'd say this essentially means Pokemon Ruby/Sapphire ports are coming to the Nintendo Switch in some fashion.\"\n\nAdding more fuel to the fire is the fact that Nintendo Switch and Switch 2 recordings automatically captures footage from the last 30 seconds of gameplay, which is exactly how long the video above lasts.",
+      "urls": [
+        "https://www.eurogamer.net/nintendo-switch-pokemon-ruby-sapphire-hd-port"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While controversial online at the time of their announcement, FireRed and LeafGreen&#x27;s eye-opening $20 price point (each) did nothing to stave off demand to buy the games again (despite other GBA games simply being offered as part of the Nintendo Switch Online subscription).",
+      "urls": [
+        "https://www.ign.com/articles/suspiciously-crisp-looking-pokemon-ruby-and-sapphire-footage-sparks-fresh-nintendo-switch-port-speculation"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [
+    {
+      "game": "Pokémon",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

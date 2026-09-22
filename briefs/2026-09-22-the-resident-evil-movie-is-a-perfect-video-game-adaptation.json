@@ -1,0 +1,273 @@
+{
+  "generated": "2026-09-22T01:21:25.928Z",
+  "workingTitle": "The Resident Evil Movie Is a Perfect Video Game Adaptation",
+  "heat": 48.3,
+  "outletCount": 5,
+  "outlets": [
+    "Polygon",
+    "GameSpot",
+    "PC Gamer",
+    "Eurogamer",
+    "Push Square"
+  ],
+  "newest": "2026-09-21T21:00:15.000Z",
+  "readableCount": 4,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "The Resident Evil Movie Is a Perfect Video Game Adaptation",
+        "url": "https://www.polygon.com/resident-evil-movie-zach-cregger-adaptation/",
+        "date": "2026-09-21T21:00:15.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Resident Evil is the best videogame movie because Bryan sucks",
+        "url": "https://www.pcgamer.com/games/resident-evil/resident-evil-is-the-best-videogame-movie-because-bryan-sucks/",
+        "date": "2026-09-21T13:43:12.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Zach Cregger's quirky Resident Evil film proves sceptics wrong with series-best opening weekend",
+        "url": "https://www.eurogamer.net/zach-cregger-resident-evil-film-opening-weekend-earnings",
+        "date": "2026-09-21T10:38:55.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Sony's Acclaimed Resident Evil Movie Breaks Box Office Records",
+        "url": "https://www.pushsquare.com/news/2026/09/sonys-acclaimed-resident-evil-movie-breaks-box-office-records",
+        "date": "2026-09-21T05:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Resident Evil Director Reacts To People Who Didn’t Like The Controversial Ending, Says It Was Almost Completely Different",
+        "url": "https://www.gamespot.com/articles/resident-evil-director-reacts-to-people-who-didnt-like-the-controversial-ending-says-it-was-almost-completely-different/",
+        "date": "2026-09-21T18:29:05.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:60000000",
+      "value": "$60 million",
+      "outlets": [
+        "Eurogamer",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "(Now the highest-grossing movie of all time in North America.)\n\nThe firm’s new Resident Evil movie – directed by Zach Cregger – has blown past all expectations, collecting $60 million at the Box Office domestically.",
+      "urls": [
+        "https://www.eurogamer.net/zach-cregger-resident-evil-film-opening-weekend-earnings",
+        "https://www.pushsquare.com/news/2026/09/sonys-acclaimed-resident-evil-movie-breaks-box-office-records"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "it s good but here are 50 caveats",
+      "value": "It's good, but here are 50 caveats.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Not just good for a videogame movie, or \"It's good, but here are 50 caveats.\" It's simply brilliant.",
+      "urls": [
+        "https://www.pcgamer.com/games/resident-evil/resident-evil-is-the-best-videogame-movie-because-bryan-sucks/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "how would a resident evil player handle a real t virus outbreak",
+      "value": "How would a Resident Evil player handle a real t-Virus outbreak?",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Resident Evil doesn't just ask, \"How would a Resident Evil player handle a real t-Virus outbreak?\" It also attempts to capture the actual experience of playing the games.",
+      "urls": [
+        "https://www.pcgamer.com/games/resident-evil/resident-evil-is-the-best-videogame-movie-because-bryan-sucks/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:108",
+      "value": "$108.3",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Cregger's Resident Evil pulled in $108.3 (&pound;93m) globally during its opening weekend, Deadline reported, split $60m in the US market and $48.3m internationally.",
+      "urls": [
+        "https://www.eurogamer.net/zach-cregger-resident-evil-film-opening-weekend-earnings"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:48300000",
+      "value": "$48.3m",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Cregger's Resident Evil pulled in $108.3 (&pound;93m) globally during its opening weekend, Deadline reported, split $60m in the US market and $48.3m internationally.",
+      "urls": [
+        "https://www.eurogamer.net/zach-cregger-resident-evil-film-opening-weekend-earnings"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70000000",
+      "value": "$70m",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's more than Cregger's hit horror Weapons ($70m) and comfortably higher than any of the previous Resident Evil films.",
+      "urls": [
+        "https://www.eurogamer.net/zach-cregger-resident-evil-film-opening-weekend-earnings"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:118000000",
+      "value": "$118m",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's apparently the second-best result for a horror film this year behind the sensation that was Backrooms ($118m).",
+      "urls": [
+        "https://www.eurogamer.net/zach-cregger-resident-evil-film-opening-weekend-earnings"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:103000000",
+      "value": "$102.9m",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Incidentally, the first Jovovich Resident Evil film, released in 2002, made $102.9m in total, Deadline noted, so Cregger's film has already beaten it.",
+      "urls": [
+        "https://www.eurogamer.net/zach-cregger-resident-evil-film-opening-weekend-earnings"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:312000000",
+      "value": "$312m",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "2016's Resident Evil: The Final Chapter has a lifetime total of approximately $312m (half of that apparently coming from China).",
+      "urls": [
+        "https://www.eurogamer.net/zach-cregger-resident-evil-film-opening-weekend-earnings"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:26000000",
+      "value": "$26 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That’s more than double Resident Evil: Afterlife, the franchise’s previous front-runner, which managed a $26 million opening in 2010 – not adjusted for inflation.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/sonys-acclaimed-resident-evil-movie-breaks-box-office-records"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:108000000",
+      "value": "$108.3 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The new film did even better globally, taking $108.3 million internationally on a $75 million budget.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/sonys-acclaimed-resident-evil-movie-breaks-box-office-records"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:75000000",
+      "value": "$75 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The new film did even better globally, taking $108.3 million internationally on a $75 million budget.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/sonys-acclaimed-resident-evil-movie-breaks-box-office-records"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the movie did not meet our expectations",
+      "value": "The movie did not meet our expectations.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The movie did not meet our expectations.\" ~ alternate universe where RE is under Square Enix\n\nI've not seen it yet but it's on my list.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/sonys-acclaimed-resident-evil-movie-breaks-box-office-records"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1.8",
+      "value": "$1.8",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Total box office for the trilogy are $1.8+ billion.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/sonys-acclaimed-resident-evil-movie-breaks-box-office-records"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 14,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "13 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

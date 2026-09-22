@@ -1,0 +1,408 @@
+{
+  "generated": "2026-09-22T01:21:25.556Z",
+  "workingTitle": "GTA 6 release date and time, delay, trailers, and latest news",
+  "heat": 58,
+  "outletCount": 7,
+  "outlets": [
+    "PCGamesN",
+    "Destructoid",
+    "Rock Paper Shotgun",
+    "PlayStation Blog",
+    "PC Gamer",
+    "Eurogamer",
+    "Push Square"
+  ],
+  "newest": "2026-09-21T13:25:49.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "PlayStation Blog",
+        "title": "Silent Hill: Townfall — 9 ways first-person changes the iconic horror formula",
+        "url": "https://blog.playstation.com/2026/09/21/silent-hill-townfall-9-ways-first-person-changes-the-iconic-horror-formula/",
+        "date": "2026-09-21T07:00:18.000Z",
+        "host": "blog.playstation.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "PCGamesN",
+        "title": "GTA 6 release date and time, delay, trailers, and latest news",
+        "url": "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers",
+        "date": "2026-09-21T13:25:49.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Silent Hill: Townfall release countdown — Exact date and time",
+        "url": "https://www.destructoid.com/silent-hill-townfall-release-countdown-exact-date-and-time/",
+        "date": "2026-09-21T11:22:00.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "This week in PC games: Control: Resonant, Silent Hill: Townfall, and the history of Western philosophy as a pinball table",
+        "url": "https://www.rockpapershotgun.com/this-week-in-pc-games-control-resonant-silent-hill-townfall-and-the-history-of-western-philosophy-as-a-pinball-table",
+        "date": "2026-09-21T11:18:36.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Disney Dreamlight Valley Season of Scares update release countdown: Exact start time and date",
+        "url": "https://www.destructoid.com/disney-dreamlight-valley-season-of-scares-update-release-countdown-exact-start-time-and-date/",
+        "date": "2026-09-21T10:13:38.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Silent Hill: Townfall review - an often inspired, if slightly lumbering trek into the fog",
+        "url": "https://www.rockpapershotgun.com/silent-hill-townfall-review-an-often-inspired-if-slightly-lumbering-trek-into-the-fog",
+        "date": "2026-09-21T08:26:38.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-09-21",
+      "value": "September 21, 2026",
+      "outlets": [
+        "PCGamesN",
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 2,
+      "context": "September 21, 2026: The GTA 6 release date is still on track following the leaked videos and the official reveal on Netflix.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers",
+        "https://blog.playstation.com/2026/09/21/silent-hill-townfall-9-ways-first-person-changes-the-iconic-horror-formula/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-11-19",
+      "value": "November 19, 2026",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The GTA 6 release date is Thursday, November 19, 2026.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "rockstar has an approach to platforms which we ve seen before and they will make more announcements in due time",
+      "value": "Rockstar has an approach to platforms which we've seen before, and they will make more announcements in due time,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Rockstar has an approach to platforms which we've seen before, and they will make more announcements in due time,\" Zelnick said.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "wanted to get the game out before end of fiscal year",
+      "value": "wanted to get the game out before end of fiscal year",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Only three responded, but all claimed that Take-Two and Rockstar \"wanted to get the game out before end of fiscal year\" - in other words, sometime before April 2027.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:80",
+      "value": "$79.99",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "GTA 6 will cost $79.99 for the Standard Edition and $99.99 for the Ultimate Edition.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$99.99",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "GTA 6 will cost $79.99 for the Standard Edition and $99.99 for the Ultimate Edition.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2025-05-06",
+      "value": "May 6, 2025",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Also, GTA 6 trailer 2 dropped on Tuesday, May 6, 2025, less than a week after the initial release date confirmation.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2023-12-05",
+      "value": "December 5, 2023",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It was originally scheduled to drop on Tuesday, December 5, 2023, but Rockstar Games made it available to view a day earlier due to the breach.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2022-02-04",
+      "value": "February 4, 2022",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Despite the major setback of leaked game footage, Rockstar released a statement to clarify that while it was \"extremely disappointed\" that early footage had leaked, work on \"the next Grand Theft Auto will continue as planned.\"\n\nRockstar later confirmed that \"active development for the next entry in the Grand Theft Auto series was well underway\" in a community update on February 4, 2022.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "that early footage had leaked work on",
+      "value": "that early footage had leaked, work on",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Despite the major setback of leaked game footage, Rockstar released a statement to clarify that while it was \"extremely disappointed\" that early footage had leaked, work on \"the next Grand Theft Auto will continue as planned.\"\n\nRockstar later confirmed that \"active development for the next entry in the Grand Theft Auto series was well underway\" in a community update on February 4, 2022.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "games may be a bit shorter",
+      "value": "games may be a bit shorter",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It could also mean that \"games may be a bit shorter\" while still being robustly supported post-launch.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i wrote the last ten or 11 of them so i think the world has probably had enough gta from me",
+      "value": "I wrote the last ten or 11 of them so I think the world has probably had enough GTA from me,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I wrote the last ten or 11 of them so I think the world has probably had enough GTA from me,\" he confirmed.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "in a conversation with lex fridman houser says stepping away from gta",
+      "value": "In a conversation with Lex Fridman, Houser says stepping away from GTA",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's not going to be a story I've written or character set that I've developed.\"\n\nIn a conversation with Lex Fridman, Houser says stepping away from GTA \"is a big change\" but that it would be \"sadder\" to miss out on RDR3 than GTA 6.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "definitely going to be me and my own person on there playing my own music",
+      "value": "Definitely going to be me and my own person on there, playing my own music,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Definitely going to be me and my own person on there, playing my own music,\" he said.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "still allow the player to do weird things",
+      "value": "still allow the player to do […] weird things.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "However you choose to get around, ex-Rockstar developer Ben Hinchcliffe asserts that creative freedom will be a priority, to \"still allow the player to do […] weird things.\"\n\nSome raw test footage shows more about the movement mechanics, including a cover system, crouching, and crawling.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "modify the game s environment and assets to bring their own intellectual property and potentially their brand sponsors into gta s virtual sandbox",
+      "value": "modify the game's environment and assets to bring their own intellectual property - and potentially their brand sponsors - into GTA's virtual sandbox.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This would be powered by user-generated content, allowing creators to \"modify the game's environment and assets to bring their own intellectual property - and potentially their brand sponsors - into GTA's virtual sandbox.\" This comes after rumors that Rockstar Games has reached out to Roblox and Fortnite creators to discuss how they might create in-game custom content for GTA 6.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there is no creativity that can exist by definition in any ai model because it is data driven",
+      "value": "there is no creativity that can exist by definition in any AI model, because it is data-driven.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In October 2025, Zelnick made it very clear that a game like GTA 6 could never be made using AI, claiming \"there is no creativity that can exist by definition in any AI model, because it is data-driven.\"\n\nZelnick went on to confirm that GTA 6 will have no generative AI in the Take-Two earnings call held in February 2026.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "built from the ground up building by building street by street neighborhood by neighborhood",
+      "value": "built from the ground up, building by building, street by street, neighborhood by neighborhood,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\" built from the ground up, building by building, street by street, neighborhood by neighborhood,\" he said.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "these tools may help you create assets but that won t help you create hits",
+      "value": "These tools may help you create assets, but that won't help you create hits,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's what makes great entertainment.\"\n\n\"These tools may help you create assets, but that won't help you create hits,\" he went on to say in an interview with Christopher Dring on The Game Business Show.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you can create assets that might look like a big release but creating a hit of that magnitude is a completely different animal and does require human engagement does require human creativity",
+      "value": "You can create assets that might look like a big release […] but creating a hit of that magnitude is a completely different animal and does require human engagement; does require human creativity.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"You can create assets that might look like a big release […] but creating a hit of that magnitude is a completely different animal and does require human engagement; does require human creativity.\"\n\nRockstar's anti-AI stance was reaffirmed by Dan Houser in an appearance on Virgin Radio UK's Chris Evans Breakfast Show.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "ai is gonna eventually eat itself",
+      "value": "AI is gonna eventually eat itself,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"AI is gonna eventually eat itself,\" Houser says.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i think people spend too much time talking about the woe is me risk related to ai",
+      "value": "I think people spend too much time talking about the 'woe is me' risk related to AI,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I think people spend too much time talking about the 'woe is me' risk related to AI,\" he said at the Semafor World Economy summit.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-vi/gta-6-release-date-setting-map-characters-gameplay-trailers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "our grief is their failure",
+      "value": "our grief is their failure",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There are remnants of mass protests – fliers for rallies, and hand-made signs reading \"our grief is their failure\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/silent-hill-townfall-review-an-often-inspired-if-slightly-lumbering-trek-into-the-fog"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 23,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "22 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
