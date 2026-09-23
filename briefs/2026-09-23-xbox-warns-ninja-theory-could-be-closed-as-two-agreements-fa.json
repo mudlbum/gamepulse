@@ -1,0 +1,110 @@
+{
+  "generated": "2026-09-23T01:03:19.881Z",
+  "workingTitle": "Xbox Warns Ninja Theory Could Be Closed As Two Agreements Fall Through",
+  "heat": 32.3,
+  "outletCount": 4,
+  "outlets": [
+    "Pure Xbox",
+    "Kotaku",
+    "Eurogamer",
+    "IGN"
+  ],
+  "newest": "2026-09-22T14:40:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "Xbox Warns Ninja Theory Could Be Closed As Two Agreements Fall Through",
+        "url": "https://www.purexbox.com/news/2026/09/xbox-warns-ninja-theory-could-be-closed-as-two-agreements-fall-through",
+        "date": "2026-09-22T14:40:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Xbox Working Toward Closing Hellblade Studio Ninja Theory After Multiple Deals Fall Through",
+        "url": "https://kotaku.com/xbox-working-toward-closing-hellblade-studio-ninja-theory-after-multiple-deals-fall-through-2000736441",
+        "date": "2026-09-22T14:14:49.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Hellblade developer Ninja Theory heading towards closure in new wave of Xbox cuts, as two separate agreements collapse",
+        "url": "https://www.eurogamer.net/ninja-theory-closed-shut-down-xbox-layoffs",
+        "date": "2026-09-22T14:09:57.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Microsoft Signals Intention to Close Down Ninja Theory After Deals to Save the Hellblade Developer Fall Through",
+        "url": "https://www.ign.com/articles/microsoft-signals-intention-to-close-down-ninja-theory-after-deals-to-save-the-hellblade-developer-fall-through",
+        "date": "2026-09-22T14:03:24.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "begin consultation with employees on a proposed closure",
+      "value": "We will now begin consultation with employees on a proposed closure while continuing to explore other paths forward.",
+      "outlets": [
+        "Pure Xbox",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We will now begin consultation with employees on a proposed closure while continuing to explore other paths forward.\"\n\nIn June, at an Xbox Games Showcase event, Microsoft announced Senua, the third game in the Hellblade series.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/xbox-warns-ninja-theory-could-be-closed-as-two-agreements-fall-through",
+        "https://www.ign.com/articles/microsoft-signals-intention-to-close-down-ninja-theory-after-deals-to-save-the-hellblade-developer-fall-through"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "hellblade developer ninja theory to be shut down in new wave of xbox cuts as two separate agreements collapse",
+      "value": "Hellblade developer Ninja Theory to be shut down in new wave of Xbox cuts, as two separate agreements collapse",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A previous version of this article had the headline \"Hellblade developer Ninja Theory to be shut down in new wave of Xbox cuts, as two separate agreements collapse\".",
+      "urls": [
+        "https://www.eurogamer.net/ninja-theory-closed-shut-down-xbox-layoffs"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "unfortunately two separate agreements for ninja theory fell through",
+      "value": "Unfortunately, two separate agreements for Ninja Theory fell through,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Unfortunately, two separate agreements for Ninja Theory fell through,\" Xbox Chief Content Officer Matt Booty said in a blog post issued today.",
+      "urls": [
+        "https://www.ign.com/articles/microsoft-signals-intention-to-close-down-ninja-theory-after-deals-to-save-the-hellblade-developer-fall-through"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 3,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "2 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

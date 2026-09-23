@@ -1,0 +1,76 @@
+{
+  "generated": "2026-09-23T01:03:19.563Z",
+  "workingTitle": "CONTROL Resonant release countdown: Exact date and time",
+  "heat": 48.2,
+  "outletCount": 5,
+  "outlets": [
+    "Destructoid",
+    "PCGamesN",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "Push Square"
+  ],
+  "newest": "2026-09-22T15:19:50.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "CONTROL Resonant release countdown: Exact date and time",
+        "url": "https://www.destructoid.com/control-resonant-release-countdown-exact-date-and-time/",
+        "date": "2026-09-22T15:19:50.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "How to get into the Central Factory in Control Resonant",
+        "url": "https://www.pcgamesn.com/control-resonant/how-to-get-into-the-central-factory-in-control-resonant",
+        "date": "2026-09-22T14:01:00.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to solve the Laundry puzzle in Central in CONTROL Resonant",
+        "url": "https://www.destructoid.com/how-to-solve-the-laundry-puzzle-in-central-in-control-resonant/",
+        "date": "2026-09-22T14:00:00.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to get Living Shards in CONTROL Resonant",
+        "url": "https://www.destructoid.com/how-to-get-living-shards-in-control-resonant/",
+        "date": "2026-09-22T14:00:00.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to solve the Gallery Puzzle in the Evacuation Zone in CONTROL Resonant",
+        "url": "https://www.destructoid.com/how-to-solve-the-gallery-puzzle-in-the-evacuation-zone-in-control-resonant/",
+        "date": "2026-09-22T14:00:00.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to help the mysterious dog in CONTROL Resonant",
+        "url": "https://www.destructoid.com/how-to-help-the-mysterious-dog-in-control-resonant/",
+        "date": "2026-09-22T14:00:00.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [],
+  "factCount": 0,
+  "evidenceCount": 0,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

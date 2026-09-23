@@ -1,10 +1,40 @@
 {
-  "decided": "2026-09-22T01:21:26.478Z",
+  "decided": "2026-09-23T01:03:19.939Z",
   "publish": true,
-  "reason": "selected on score 40.5",
-  "brief": "2026-09-22-bungie-unvaulting-destiny-2-content-was-a-studio-saving-emer.json",
-  "title": "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough",
+  "reason": "selected on score 24.1",
+  "brief": "2026-09-22-the-blood-of-dawnwalker-update-to-add-easier-difficulty-sett.json",
+  "title": "The Blood of Dawnwalker Update to Add Easier Difficulty Setting for Players Who Don't Want Combat",
   "considered": [
+    {
+      "file": "2026-09-23-xbox-warns-ninja-theory-could-be-closed-as-two-agreements-fa.json",
+      "title": "Xbox Warns Ninja Theory Could Be Closed As Two Agreements Fall Through",
+      "pass": false,
+      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-23-state-of-decay-developer-undead-labs-responds-to-significant.json",
+      "title": "State of Decay Developer Undead Labs Responds to 'Significant' Layoffs Following Independence from Xbox",
+      "pass": false,
+      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-23-nba-star-steven-adams-says-gta-6s-launch-will-lead-to-a-leag.json",
+      "title": "NBA Star Steven Adams Says GTA 6's Launch Will Lead to a 'League-Wide' Drop in Performance for Athletes and Coaches",
+      "pass": false,
+      "reason": "0 of 32 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-09-23-halo-studios-cinematic-director-promoted-and-laid-off-within.json",
+      "title": "Halo Studios Cinematic Director Promoted and Laid Off Within the Same Week as Xbox's Brutal Restructuring Continues",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-09-23-control-resonant-release-countdown-exact-date-and-time.json",
+      "title": "CONTROL Resonant release countdown: Exact date and time",
+      "pass": false,
+      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-09-22-the-resident-evil-movie-is-a-perfect-video-game-adaptation.json",
       "title": "The Resident Evil Movie Is a Perfect Video Game Adaptation",
@@ -15,41 +45,11 @@
       "file": "2026-09-22-the-blood-of-dawnwalker-update-to-add-easier-difficulty-sett.json",
       "title": "The Blood of Dawnwalker Update to Add Easier Difficulty Setting for Players Who Don't Want Combat",
       "pass": true,
-      "reason": "2/15 claims corroborated · 4 outlets · secondary only · 1h old"
+      "reason": "2/15 claims corroborated · 4 outlets · secondary only · 25h old"
     },
     {
       "file": "2026-09-22-pokemon-ruby-sapphire-hd-footage-reignites-rumours-about-swi.json",
       "title": "Pokémon Ruby & Sapphire HD Footage Reignites Rumours About Switch Ports",
-      "pass": false,
-      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-22-gta-6-release-date-and-time-delay-trailers-and-latest-news.json",
-      "title": "GTA 6 release date and time, delay, trailers, and latest news",
-      "pass": false,
-      "reason": "1 of 23 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-09-22-bungie-unvaulting-destiny-2-content-was-a-studio-saving-emer.json",
-      "title": "Bungie unvaulting Destiny 2 content was a studio-saving emergency decision, because Marathon updates were never going to be enough",
-      "pass": true,
-      "reason": "2/14 claims corroborated · 7 outlets · secondary only · 2h old"
-    },
-    {
-      "file": "2026-09-21-the-last-of-us-director-apologises-for-calling-out-sony-sant.json",
-      "title": "The Last of Us director apologises for calling out Sony Santa Monica's God of War Laufey after saying he was \"not excited\"",
-      "pass": false,
-      "reason": "newest source is 39h old, limit 36h"
-    },
-    {
-      "file": "2026-09-21-slayers-2-codes-september-2026.json",
-      "title": "Slayers 2 codes (September 2026)",
-      "pass": false,
-      "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-21-first-5-day-tokyo-game-show-in-30-years-cuts-back-to-4-in-fa.json",
-      "title": "First 5-day Tokyo Game Show in 30 years cuts back to 4 in face of Typhoon Dujuan",
       "pass": false,
       "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }

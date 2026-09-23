@@ -1,0 +1,154 @@
+{
+  "generated": "2026-09-23T01:03:18.295Z",
+  "workingTitle": "Halo Studios Cinematic Director Promoted and Laid Off Within the Same Week as Xbox's Brutal Restructuring Continues",
+  "heat": 114.1,
+  "outletCount": 11,
+  "outlets": [
+    "IGN",
+    "Kotaku",
+    "Polygon",
+    "GameSpot",
+    "Pure Xbox",
+    "Rock Paper Shotgun",
+    "Game Developer",
+    "Push Square",
+    "Destructoid",
+    "Eurogamer",
+    "Nintendo Life"
+  ],
+  "newest": "2026-09-22T20:41:47.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Halo Studios Cinematic Director Promoted and Laid Off Within the Same Week as Xbox's Brutal Restructuring Continues",
+        "url": "https://www.ign.com/articles/halo-studios-cinematic-director-promoted-and-laid-off-within-the-same-week-as-xboxs-brutal-restructuring-continues",
+        "date": "2026-09-22T20:41:47.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Halo Developer Gets Promoted And Laid Off In The Same Week",
+        "url": "https://kotaku.com/halo-developer-gets-promoted-and-laid-off-in-the-same-week-2000736533",
+        "date": "2026-09-22T19:30:18.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Xbox is Turning its Back on Xbox Game Studios",
+        "url": "https://www.polygon.com/xbox-layoffs-studio-consolidation-xbox-game-studios/",
+        "date": "2026-09-22T19:00:16.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Xbox Game Studios Is Quickly Disappearing",
+        "url": "https://kotaku.com/xbox-game-studios-looks-like-its-about-to-disappear-completely-2000736477",
+        "date": "2026-09-22T17:45:02.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Arkane Studios' Future With Xbox Remains A Total Mystery",
+        "url": "https://www.purexbox.com/news/2026/09/arkane-studios-future-with-xbox-remains-a-total-mystery",
+        "date": "2026-09-22T17:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "What Is Xbox Game Studios At This Point?",
+        "url": "https://www.gamespot.com/articles/what-is-xbox-game-studios-at-this-point/",
+        "date": "2026-09-22T18:04:36.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "operating fewer business units aligning groups that already work closely together and focusing our publishing expertise",
+      "value": "operating fewer business units, aligning groups that already work closely together, and focusing our publishing expertise.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "On Tuesday, Microsoft announced a confusion of other moves in the name of \"operating fewer business units, aligning groups that already work closely together, and focusing our publishing expertise.\"\n\nRare and World's Edge (which collaborates with outside studios on the Age of Empires strategy games) go to Activision.",
+      "urls": [
+        "https://www.polygon.com/xbox-layoffs-studio-consolidation-xbox-game-studios/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the xgs management and central functions layer",
+      "value": "the XGS management and central functions layer",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Indeed, studios boss Matt Booty mentioned \"the XGS management and central functions layer\" as a focus of today's layoffs, alongside Halo Studios.",
+      "urls": [
+        "https://www.polygon.com/xbox-layoffs-studio-consolidation-xbox-game-studios/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "consultation with arkane remains underway and is expected to continue through the end of the year",
+      "value": "Consultation with Arkane remains underway and is expected to continue through the end of the year.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Consultation with Arkane remains underway and is expected to continue through the end of the year.\"\n\nWe've not heard much about Arkane's Blade.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/arkane-studios-future-with-xbox-remains-a-total-mystery"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "saw some stuff just yesterday and the folks at arkane are doing a really really great job",
+      "value": "saw some stuff just yesterday and the folks at Arkane are doing a really, really great job",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Back in May, during an interview with Entertainment Weekly, Bethesda boss Todd Howard casually remarked that he \"saw some stuff just yesterday and the folks at Arkane are doing a really, really great job\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/arkane-studios-future-with-xbox-remains-a-total-mystery"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "microsoft wants to cancel blade as part of a wave of cost cuts and job losses",
+      "value": "Microsoft wants to cancel Blade as part of a wave of cost cuts and job losses",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Just mere days later, reports emerged from The Verge claiming that \"Microsoft wants to cancel Blade as part of a wave of cost cuts and job losses\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/arkane-studios-future-with-xbox-remains-a-total-mystery"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

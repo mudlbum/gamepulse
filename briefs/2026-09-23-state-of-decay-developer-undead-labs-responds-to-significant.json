@@ -1,0 +1,201 @@
+{
+  "generated": "2026-09-23T01:03:19.245Z",
+  "workingTitle": "State of Decay Developer Undead Labs Responds to 'Significant' Layoffs Following Independence from Xbox",
+  "heat": 98,
+  "outletCount": 9,
+  "outlets": [
+    "IGN",
+    "Push Square",
+    "GameSpot",
+    "Kotaku",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "Game Developer",
+    "Pure Xbox",
+    "Destructoid"
+  ],
+  "newest": "2026-09-22T23:19:27.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "State of Decay Developer Undead Labs Responds to 'Significant' Layoffs Following Independence from Xbox",
+        "url": "https://www.ign.com/articles/state-of-decay-developer-undead-labs-confirms-significant-layoffs-following-independence-from-xbox",
+        "date": "2026-09-22T23:19:27.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "State of Decay 3 Dev Hit with 'Significant' Layoffs After Going Independent",
+        "url": "https://www.pushsquare.com/news/2026/09/state-of-decay-3-dev-hit-with-significant-layoffs-after-going-independent",
+        "date": "2026-09-22T23:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The Internet Reacts To Even More Xbox Layoffs And Studio Shakeups: ‘I Loathe Those Responsible’",
+        "url": "https://kotaku.com/internet-reacts-xbox-layoffs-halo-activision-physint-hideo-kojima-2000736479",
+        "date": "2026-09-22T16:50:25.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Undead Labs Goes Independent After Xbox Separation, Confirms State of Decay 3 Is Still In Development",
+        "url": "https://www.ign.com/articles/undead-labs-goes-independent-after-xbox-separation-confirms-state-of-decay-3-is-still-in-development",
+        "date": "2026-09-22T16:31:53.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "State Of Decay 3 Studio Announces It’s Now Free From Xbox And Employee-Owned",
+        "url": "https://kotaku.com/state-of-decay-3-studio-announces-its-now-free-from-xbox-and-employee-owned-2000736481",
+        "date": "2026-09-22T15:45:43.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Xbox Layoffs Are Not Done Yet",
+        "url": "https://www.gamespot.com/articles/xbox-layoffs-are-not-done-yet/",
+        "date": "2026-09-22T17:47:36.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "state of decay 3 remains in active development and these changes will not impact the game x27 s launch",
+      "value": "State of Decay 3 remains in active development, and these changes will not impact the game&#x27;s launch,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"State of Decay 3 remains in active development, and these changes will not impact the game&#x27;s launch,\" said Holt.",
+      "urls": [
+        "https://www.ign.com/articles/state-of-decay-developer-undead-labs-confirms-significant-layoffs-following-independence-from-xbox"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "state of decay 3 developer undead labs has confirmed that it underwent",
+      "value": "State of Decay 3 developer Undead Labs has confirmed that it underwent",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We&#x27;re grateful to everyone who has contributed to the game.\"\n\nState of Decay 3 developer Undead Labs has confirmed that it underwent \"significant\" layoffs following its independence from Xbox.",
+      "urls": [
+        "https://www.ign.com/articles/state-of-decay-developer-undead-labs-confirms-significant-layoffs-following-independence-from-xbox"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "unfortunately today we are also saying goodbye to a significant number of our colleagues",
+      "value": "Unfortunately, today we are also saying goodbye to a significant number of our colleagues,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Unfortunately, today we are also saying goodbye to a significant number of our colleagues,\" reads the studio&#x27;s announcement.",
+      "urls": [
+        "https://www.ign.com/articles/state-of-decay-developer-undead-labs-confirms-significant-layoffs-following-independence-from-xbox"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "transitioning out of xbox",
+      "value": "transitioning out of Xbox",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This direction of travel was previously confirmed a few months back, when the developer said that it was \"transitioning out of Xbox\".",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/state-of-decay-3-dev-hit-with-significant-layoffs-after-going-independent"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "independence brings us closer to our community and lets us focus on what matters most making the best games we can and earning the continued support of the people who choose to spend their time with us",
+      "value": "Independence brings us closer to our community and lets us focus on what matters most: making the best games we can and earning the continued support of the people who choose to spend their time with us,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Independence brings us closer to our community and lets us focus on what matters most: making the best games we can and earning the continued support of the people who choose to spend their time with us,\" reads a statement from studio head Philip Holt.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/state-of-decay-3-dev-hit-with-significant-layoffs-after-going-independent"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "microsoft has been part of the state of decay story from the very beginning and we re proud of everything we ve accomplished together",
+      "value": "Microsoft has been part of the State of Decay story from the very beginning, and we’re proud of everything we’ve accomplished together.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Holt goes on to acknowledge that lengthy relationship: \"Microsoft has been part of the State of Decay story from the very beginning, and we’re proud of everything we’ve accomplished together.\"\n\nDespite the shift, State of Decay 3 remains in development — which makes sense, seeing as it was announced over six whole years ago at this point.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/state-of-decay-3-dev-hit-with-significant-layoffs-after-going-independent"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "round of layoffs seem much more innocuous when they say they trimmed",
+      "value": "round of layoffs seem much more innocuous when they say they trimmed",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Makes the \"next\" round of layoffs seem much more innocuous when they say they trimmed \"5%\" because there are now 5k devs under Activision (thats a made up number I just know it's a lot).",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/state-of-decay-3-dev-hit-with-significant-layoffs-after-going-independent"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "activision will also be developing the next halo title",
+      "value": "Activision will also be developing the next Halo title",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Activision will also be developing the next Halo title\" sounds like a threat.",
+      "urls": [
+        "https://kotaku.com/internet-reacts-xbox-layoffs-halo-activision-physint-hideo-kojima-2000736479"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 8,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
