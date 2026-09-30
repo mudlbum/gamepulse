@@ -1,0 +1,147 @@
+{
+  "generated": "2026-09-30T01:45:00.582Z",
+  "workingTitle": "You Can Get A Free Digital Copy Of The Witcher 3 Remastered On Switch 2 If You Just Borrow An Old Physical Switch Copy Of The RPG",
+  "heat": 110.3,
+  "outletCount": 9,
+  "outlets": [
+    "Kotaku",
+    "Destructoid",
+    "Eurogamer",
+    "IGN",
+    "Push Square",
+    "Pure Xbox",
+    "PCGamesN",
+    "Rock Paper Shotgun",
+    "Nintendo Life"
+  ],
+  "newest": "2026-09-30T00:07:06.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "The Witcher 3: Wild Hunt — Remastered"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "You Can Get A Free Digital Copy Of The Witcher 3 Remastered On Switch 2 If You Just Borrow An Old Physical Switch Copy Of The RPG",
+        "url": "https://kotaku.com/you-can-get-a-free-digital-copy-of-the-witcher-3-remastered-on-switch-2-if-you-just-borrow-an-old-physical-switch-copy-of-the-rpg-2000738492",
+        "date": "2026-09-30T00:07:06.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Best answers when simulating The Witcher 2 in The Witcher 3: Remastered",
+        "url": "https://www.destructoid.com/best-answers-when-simulating-the-witcher-2-in-the-witcher-3-remastered/",
+        "date": "2026-09-29T19:19:08.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "The Witcher 3 surges to its highest Steam concurrent player-count ever, following Remastered edition's release",
+        "url": "https://www.eurogamer.net/witcher-3-steam-most-played-record-remastered",
+        "date": "2026-09-29T16:24:48.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "The Witcher 3 Remastered Has Already Broken Steam Concurrent Player Record",
+        "url": "https://www.ign.com/articles/the-witcher-3-remastered-has-already-broken-steam-concurrent-player-record",
+        "date": "2026-09-29T15:23:41.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "The Witcher 3 Remastered PS5 Pays Homage to the Worst DLC in History",
+        "url": "https://www.pushsquare.com/news/2026/09/the-witcher-3-remastered-ps5-pays-homage-to-the-worst-dlc-in-history",
+        "date": "2026-09-29T15:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "The Witcher 3 Remastered Is Reportedly Broken on AMD GPUs Ahead of New Driver",
+        "url": "https://www.ign.com/articles/the-witcher-3-remastered-is-reportedly-broken-on-amd-gpus-ahead-of-new-driver",
+        "date": "2026-09-29T14:26:19.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:n:115000:players",
+      "value": "114,696 players",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Now that the remaster is here, The Witcher 3 has reached a new peak of 114,696 players, a massive 258% jump from last month, where 31,959 people were playing.",
+      "urls": [
+        "https://www.ign.com/articles/the-witcher-3-remastered-has-already-broken-steam-concurrent-player-record"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:2.5",
+      "value": "$2.50,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Bethesda flogged fresh horse armour in Oblivion for $2.50, and the pack has lived in infamy ever since.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/the-witcher-3-remastered-ps5-pays-homage-to-the-worst-dlc-in-history"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:9",
+      "value": "$9",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's $9-23 for a skin in Fortnite.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/the-witcher-3-remastered-ps5-pays-homage-to-the-worst-dlc-in-history"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400000000",
+      "value": "$400 Million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony Fighting PS5 Pro Scalpers in Japan with 60 Hour Gameplay Requirement\n\nXbox Allegedly Paying a 'Fraction' of the $400 Million Budget Kojima Is Rumoured to Have Quoted Sony for Physint\n\n2 More September 2026 PS Plus Extra Games Available to Download Now\n\nPS5 Fans Encouraged to Give Feedback on Discs in New Sony Survey",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/the-witcher-3-remastered-ps5-pays-homage-to-the-worst-dlc-in-history"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [
+    {
+      "game": "The Witcher 3: Wild Hunt — Remastered",
+      "concurrent": 63616,
+      "rank": 12,
+      "change24h": null,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

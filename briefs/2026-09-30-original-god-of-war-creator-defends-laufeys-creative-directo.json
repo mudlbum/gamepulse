@@ -1,0 +1,199 @@
+{
+  "generated": "2026-09-30T01:45:02.839Z",
+  "workingTitle": "Original God of War Creator Defends Laufey's Creative Director From Harassment After His Critical Remarks Go Viral",
+  "heat": 53.2,
+  "outletCount": 5,
+  "outlets": [
+    "IGN",
+    "GameSpot",
+    "Push Square",
+    "PlayStation Blog",
+    "Destructoid"
+  ],
+  "newest": "2026-09-29T23:21:54.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "PlayStation Blog",
+        "title": "(For SEA) God of War Laufey pre-orders available starting September 29, editions detailed",
+        "url": "https://blog.playstation.com/2026/09/28/20260929-gow/",
+        "date": "2026-09-29T02:05:06.000Z",
+        "host": "blog.playstation.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Original God of War Creator Defends Laufey's Creative Director From Harassment After His Critical Remarks Go Viral",
+        "url": "https://www.ign.com/articles/original-god-of-war-creator-defends-laufeys-creative-director-from-harassment-after-his-critical-remarks-go-viral",
+        "date": "2026-09-29T23:21:54.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "God of War Laufey: Here’s What Comes in Each Edition",
+        "url": "https://www.ign.com/articles/god-of-war-laufey-heres-what-comes-in-each-edition",
+        "date": "2026-09-29T14:32:08.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "God of War Laufey PS5 Pre-Orders Live Now, Starting at $70",
+        "url": "https://www.pushsquare.com/news/2026/09/god-of-war-laufey-ps5-pre-orders-live-now-starting-at-usd70",
+        "date": "2026-09-29T13:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "The more I see of God of War Laufey’s combat, the more hyped I get",
+        "url": "https://www.destructoid.com/the-more-i-see-of-god-of-war-laufeys-combat-the-more-hyped-i-get/",
+        "date": "2026-09-28T14:28:18.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "God of War Laufey – Pre-Orders Open Now Trailer",
+        "url": "https://www.gamespot.com/videos/god-of-war-laufey-pre-orders-open-now-trailer/",
+        "date": "2026-09-29T18:52:48.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2027-02-16",
+      "value": "February 16, 2027",
+      "outlets": [
+        "IGN",
+        "Push Square",
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 3,
+      "context": "God of War Laufey releases on February 16, 2027, exclusively for PlayStation 5.",
+      "urls": [
+        "https://www.ign.com/articles/original-god-of-war-creator-defends-laufeys-creative-director-from-harassment-after-his-critical-remarks-go-viral",
+        "https://www.pushsquare.com/news/2026/09/god-of-war-laufey-ps5-pre-orders-live-now-starting-at-usd70",
+        "https://blog.playstation.com/2026/09/28/20260929-gow/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-09-28",
+      "value": "September 28, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "September 28, 2026September 28, 2026 (For SEA) God of War Laufey pre-orders available starting September 29, editions detailed 1 0 601 Like this Plus new information on Faye’s deadly combat abilities.",
+      "urls": [
+        "https://blog.playstation.com/2026/09/28/20260929-gow/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The digital-only deluxe edition of God of War Laufey comes with the game, plus the following digital extras:\n\nIf you buy the physical edition, or you buy the standard digital edition and start to feel FOMO, you can get all the digital extras by purchasing the digital deluxe upgrade for $10 in the PlayStation Store.",
+      "urls": [
+        "https://www.ign.com/articles/god-of-war-laufey-heres-what-comes-in-each-edition"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$70",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I’ll need someone else to take that bullet before I drop $70 on it; I’ll be checking reviews to see if it’s worth my time or not.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/god-of-war-laufey-ps5-pre-orders-live-now-starting-at-usd70"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$50",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Makes me think it’s a full game and not just spun-off dlc that would have sold for $50 or $60.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/god-of-war-laufey-ps5-pre-orders-live-now-starting-at-usd70"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:60",
+      "value": "$60.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Makes me think it’s a full game and not just spun-off dlc that would have sold for $50 or $60.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/god-of-war-laufey-ps5-pre-orders-live-now-starting-at-usd70"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$30",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Though Wolverine is also $70 and that’s only a 15 hour game, so Laufey may still be linear, short, and not worth more than $30 to me.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/god-of-war-laufey-ps5-pre-orders-live-now-starting-at-usd70"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400000000",
+      "value": "$400 Million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony Fighting PS5 Pro Scalpers in Japan with 60 Hour Gameplay Requirement\n\nXbox Allegedly Paying a 'Fraction' of the $400 Million Budget Kojima Is Rumoured to Have Quoted Sony for Physint\n\n2 More September 2026 PS Plus Extra Games Available to Download Now\n\nPS5 Fans Encouraged to Give Feedback on Discs in New Sony Survey",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/god-of-war-laufey-ps5-pre-orders-live-now-starting-at-usd70"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 8,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "6 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

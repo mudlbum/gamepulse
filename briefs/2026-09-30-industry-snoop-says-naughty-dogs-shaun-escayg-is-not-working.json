@@ -1,0 +1,240 @@
+{
+  "generated": "2026-09-30T01:45:02.303Z",
+  "workingTitle": "Industry Snoop Says Naughty Dog's Shaun Escayg Is Not Working on The Last of Us",
+  "heat": 53.4,
+  "outletCount": 5,
+  "outlets": [
+    "Push Square",
+    "Game Developer",
+    "Eurogamer",
+    "IGN",
+    "Destructoid"
+  ],
+  "newest": "2026-09-29T23:30:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "Industry Snoop Says Naughty Dog's Shaun Escayg Is Not Working on The Last of Us",
+        "url": "https://www.pushsquare.com/news/2026/09/industry-snoop-says-naughty-dogs-shaun-escayg-is-not-working-on-the-last-of-us",
+        "date": "2026-09-29T23:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Naughty Dog is working on new The Last Of Us 'projects'",
+        "url": "https://www.gamedeveloper.com/console/naughty-dog-is-working-on-new-the-last-of-us-projects-",
+        "date": "2026-09-29T17:52:48.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Naughty Dog confirms two more The Last of Us projects are in the works, won't show off Intergalactic: The Heretic Prophet until 2027",
+        "url": "https://www.eurogamer.net/naughty-dog-confirms-two-more-the-last-of-us-projects-are-in-the-works-wont-show-off-intergalactic-the-heretic-prophet-until-2027",
+        "date": "2026-09-29T08:36:23.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "No Intergalactic PS5 Updates Until 2027, New Artwork for Now",
+        "url": "https://www.pushsquare.com/news/2026/09/no-intergalactic-ps5-updates-until-2027-new-artwork-for-now",
+        "date": "2026-09-29T00:45:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Naughty Dog Will 'Fully Reveal' Intergalactic in 2027, but No Release Window Yet",
+        "url": "https://www.ign.com/articles/naughty-dog-will-fully-reveal-intergalactic-in-2027-but-no-release-window-yet",
+        "date": "2026-09-29T00:37:32.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Rare Naughty Dog update confirms 2 new The Last of Us projects, no Intergalactic updates at all this year",
+        "url": "https://www.destructoid.com/rare-naughty-dog-update-2-new-last-of-us-projects-no-intergalactic-this-year/",
+        "date": "2026-09-29T00:34:21.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "a couple of very exciting new projects in very early stages",
+      "value": "We have a couple of very exciting new projects in very early stages – so we can’t say much about them at this point,",
+      "outlets": [
+        "Game Developer",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We have a couple of very exciting new projects in very early stages – so we can’t say much about them at this point,\" he said.",
+      "urls": [
+        "https://www.gamedeveloper.com/console/naughty-dog-is-working-on-new-the-last-of-us-projects-",
+        "https://www.ign.com/articles/naughty-dog-will-fully-reveal-intergalactic-in-2027-but-no-release-window-yet"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there s an electricity around the studio right now as all the pieces come together and we re stoked to finally unveil intergalactic in all its glory",
+      "value": "There's an electricity around the studio right now as all the pieces come together, and we're stoked to finally unveil Intergalactic in all its glory,",
+      "outlets": [
+        "Eurogamer",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"There's an electricity around the studio right now as all the pieces come together, and we're stoked to finally unveil Intergalactic in all its glory,\" Druckmann later on in the note.",
+      "urls": [
+        "https://www.eurogamer.net/naughty-dog-confirms-two-more-the-last-of-us-projects-are-in-the-works-wont-show-off-intergalactic-the-heretic-prophet-until-2027",
+        "https://www.ign.com/articles/naughty-dog-will-fully-reveal-intergalactic-in-2027-but-no-release-window-yet"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "bombastic set piece 3rd person hero game",
+      "value": "bombastic set piece 3rd person hero game",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "honestly kind of tired of the Sony formula of \" bombastic set piece 3rd person hero game\"\n\nClearly he's scouting locations for Jak 6.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/industry-snoop-says-naughty-dogs-shaun-escayg-is-not-working-on-the-last-of-us"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400000000",
+      "value": "$400 Million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony Fighting PS5 Pro Scalpers in Japan with 60 Hour Gameplay Requirement\n\nXbox Allegedly Paying a 'Fraction' of the $400 Million Budget Kojima Is Rumoured to Have Quoted Sony for Physint\n\n2 More September 2026 PS Plus Extra Games Available to Download Now\n\nPS5 Fans Encouraged to Give Feedback on Discs in New Sony Survey",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/industry-snoop-says-naughty-dogs-shaun-escayg-is-not-working-on-the-last-of-us",
+        "https://www.pushsquare.com/news/2026/09/no-intergalactic-ps5-updates-until-2027-new-artwork-for-now"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "very ambitious intergalactic cinematic shoot",
+      "value": "very ambitious Intergalactic cinematic shoot.",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In August, the studio announced it had wrapped up its \"very ambitious Intergalactic cinematic shoot.\"\n\nIf that sounds familiar, that&#x27;s because Druckmann posted something very similar on social media in 2019 when Naughty Dog wrapped its \"most ambitious cinematic shoot [it&#x27;s] ever done\"—for The Last of Us Part II.",
+      "urls": [
+        "https://www.gamedeveloper.com/console/naughty-dog-is-working-on-new-the-last-of-us-projects-"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "heads down on what is shaping up to be naughty dog x27 s most ambitious game yet",
+      "value": "heads down on what is shaping up to be Naughty Dog&#x27;s most ambitious game yet,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Beyond The Last of Us, Druckmann said that Naughty Dog is \"heads down on what is shaping up to be Naughty Dog&#x27;s most ambitious game yet,\" Intergalactic: The Heretic Prophet, a science fiction adventure game..",
+      "urls": [
+        "https://www.gamedeveloper.com/console/naughty-dog-is-working-on-new-the-last-of-us-projects-"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "since grounded 2 we ve talked about the possibility of telling more stories in the world of the last of us",
+      "value": "Since Grounded 2, we've talked about the possibility of telling more stories in the world of The Last of Us,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Since Grounded 2, we've talked about the possibility of telling more stories in the world of The Last of Us,\" Druckmann said in a message.",
+      "urls": [
+        "https://www.eurogamer.net/naughty-dog-confirms-two-more-the-last-of-us-projects-are-in-the-works-wont-show-off-intergalactic-the-heretic-prophet-until-2027"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:100000000:units",
+      "value": "100 million units",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A new console will only have a handful of units sold by comparison whereas PS5 will be well over 100 million units by then.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/no-intergalactic-ps5-updates-until-2027-new-artwork-for-now"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:11000",
+      "value": "$11,000",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Writing on the Naughty Dog blog, Druckmann thanked fans for helping raise over $11,000 for AbleGamers before addressing the status of the studio&#x27;s ongoing projects.",
+      "urls": [
+        "https://www.ign.com/articles/naughty-dog-will-fully-reveal-intergalactic-in-2027-but-no-release-window-yet"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "regarding naughty dog x27 s next game the sci fi intergalactic the heretic project druckmann said that the studio will stay quiet for the few remaining months of the year but",
+      "value": "Regarding Naughty Dog&#x27;s next game, the sci-fi Intergalactic: The Heretic Project, Druckmann said that the studio will stay quiet for the few remaining months of the year, but",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We believe these stories are worth telling.\"\n\nRegarding Naughty Dog&#x27;s next game, the sci-fi Intergalactic: The Heretic Project, Druckmann said that the studio will stay quiet for the few remaining months of the year, but \"in 2027, that changes.",
+      "urls": [
+        "https://www.ign.com/articles/naughty-dog-will-fully-reveal-intergalactic-in-2027-but-no-release-window-yet"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but we need to cook for just a little bit longer",
+      "value": "But…we need to cook for just a little bit longer.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"But…we need to cook for just a little bit longer.\"\n\nDruckmann concluded with, \"We know it’s been a long time since we’ve had much to share with you.",
+      "urls": [
+        "https://www.ign.com/articles/naughty-dog-will-fully-reveal-intergalactic-in-2027-but-no-release-window-yet"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 11,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "9 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "generated": "2026-09-30T01:45:00.997Z",
+  "workingTitle": "Ace Combat 8 Steam reviewers are steaming mad about its pre-order bonus not being a standalone app",
+  "heat": 63.1,
+  "outletCount": 6,
+  "outlets": [
+    "PC Gamer",
+    "Polygon",
+    "Destructoid",
+    "Kotaku",
+    "Push Square",
+    "Eurogamer"
+  ],
+  "newest": "2026-09-29T22:05:43.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Ace Combat 8 Steam reviewers are steaming mad about its pre-order bonus not being a standalone app",
+        "url": "https://www.pcgamer.com/games/sim/ace-combat-8-steam-reviewers-are-steaming-mad-about-its-pre-order-bonus-not-being-a-standalone-app/",
+        "date": "2026-09-29T22:05:43.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Ace Combat 8 Wings of Theve release time in your time zone",
+        "url": "https://www.polygon.com/ace-combat-8-wings-of-theve-release-time-edt-pdt/",
+        "date": "2026-09-29T22:01:15.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Ace Combat 8: Wings of Theve aircraft tier list",
+        "url": "https://www.destructoid.com/ace-combat-8-wings-of-theve-aircraft-tier-list/",
+        "date": "2026-09-29T21:32:09.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "An Ace Combat 8: Wings Of Theve PC Pre-Order Bonus Snafu Has Fans Pissed Off Enough To Tank Its Steam Reviews",
+        "url": "https://kotaku.com/an-ace-combat-8-wings-of-theve-pc-pre-order-bonus-snafu-has-fans-pissed-off-enough-to-tank-its-steam-reviews-2000738328",
+        "date": "2026-09-29T18:00:04.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "PSA: Ace Combat 8 Comes with a Whole Other Game, But Only if You Pre-Order, and You Don't Have Long",
+        "url": "https://www.pushsquare.com/news/2026/09/psa-ace-combat-8-comes-with-a-whole-other-game-but-only-if-you-pre-order-and-you-dont-have-long",
+        "date": "2026-09-29T14:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Controversy erupts around Ace Combat 8 on PC as bundled Belkan War re-release remains problematically attached to the new game, whereas it's standalone on…",
+        "url": "https://www.eurogamer.net/ace-combat-8-the-belkan-war-pre-order-bonus-steam-community-reaction",
+        "date": "2026-09-29T13:15:16.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:90",
+      "value": "$90",
+      "outlets": [
+        "PC Gamer",
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Copy link Facebook X Reddit Pinterest Flipboard Email Share this article 0 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter Ace Combat 8: Wings of Theve is technically out on Thursday, but as is commonplace now folks who pre-order the $90 deluxe edition get to hop into the cockpit a few days early.",
+      "urls": [
+        "https://www.pcgamer.com/games/sim/ace-combat-8-steam-reviewers-are-steaming-mad-about-its-pre-order-bonus-not-being-a-standalone-app/",
+        "https://kotaku.com/an-ace-combat-8-wings-of-theve-pc-pre-order-bonus-snafu-has-fans-pissed-off-enough-to-tank-its-steam-reviews-2000738328"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "ace combat zero the belkan war is a standalone application separate from the ace combat 8 wings of theve full game",
+      "value": "'*ACE COMBAT ZERO: THE BELKAN WAR is a standalone application separate from the ACE COMBAT 8: WINGS OF THEVE full game.'",
+      "outlets": [
+        "PC Gamer",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"'*ACE COMBAT ZERO: THE BELKAN WAR is a standalone application separate from the ACE COMBAT 8: WINGS OF THEVE full game.'\n\n\"*ACE COMBAT ZERO: THE BELKAN WAR (Steam Version) is available as a DLC executable launched separately from the base game.\"\n\nKeep up to date with the most important stories and the best deals, as picked by the PC Gamer team.",
+      "urls": [
+        "https://www.pcgamer.com/games/sim/ace-combat-8-steam-reviewers-are-steaming-mad-about-its-pre-order-bonus-not-being-a-standalone-app/",
+        "https://www.eurogamer.net/ace-combat-8-the-belkan-war-pre-order-bonus-steam-community-reaction"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$70",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Anyone who pre-orders the $70 standard edition, meanwhile, gets a pretty sweet bonus: Ace Combat Zero, a 2006 entry in the series that has never been on PC before now.",
+      "urls": [
+        "https://www.pcgamer.com/games/sim/ace-combat-8-steam-reviewers-are-steaming-mad-about-its-pre-order-bonus-not-being-a-standalone-app/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you need to install 140gb of data to play a 3gb 20 years old game",
+      "value": "You need to install 140gb of data to play a 3gb 20 years old game.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As another reviewer points out, \"You need to install 140gb of data to play a 3gb 20 years old game.\" That's not an exaggeration: Ace Combat 8 is currently using up 140.24 gigs on my SSD, with the Zero DLC making up only 3.2GB of that total.",
+      "urls": [
+        "https://www.pcgamer.com/games/sim/ace-combat-8-steam-reviewers-are-steaming-mad-about-its-pre-order-bonus-not-being-a-standalone-app/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "notice at the request of the publisher hitman 3 access pass hitman 1 complete first season is unlisted on the steam store and will not appear in search",
+      "value": "Notice: At the request of the publisher, HITMAN 3 Access Pass: HITMAN 1 Complete First Season is unlisted on the Steam store and will not appear in search,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Notice: At the request of the publisher, HITMAN 3 Access Pass: HITMAN 1 Complete First Season is unlisted on the Steam store and will not appear in search,\" reads a warning message at the top of the store page.",
+      "urls": [
+        "https://www.pcgamer.com/games/sim/ace-combat-8-steam-reviewers-are-steaming-mad-about-its-pre-order-bonus-not-being-a-standalone-app/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i had no hope of ac8 running on my steam deck",
+      "value": "I had no hope of AC8 running on my Steam Deck,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I had no hope of AC8 running on my Steam Deck,\" the user wrote.",
+      "urls": [
+        "https://www.eurogamer.net/ace-combat-8-the-belkan-war-pre-order-bonus-steam-community-reaction"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "4 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

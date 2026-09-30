@@ -1,0 +1,124 @@
+{
+  "generated": "2026-09-30T01:45:01.471Z",
+  "workingTitle": "Call Of Duty: Modern Warfare 4 PC Specs Revealed, Ray Tracing & New Collateral Mode",
+  "heat": 55.6,
+  "outletCount": 6,
+  "outlets": [
+    "Pure Xbox",
+    "GameSpot",
+    "Xbox Wire",
+    "Eurogamer",
+    "Push Square",
+    "Destructoid"
+  ],
+  "newest": "2026-09-29T20:00:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "Call Of Duty: Modern Warfare 4 PC Specs Revealed, Ray Tracing & New Collateral Mode",
+        "url": "https://www.purexbox.com/news/2026/09/call-of-duty-modern-warfare-4-pc-specs-revealed-ray-tracing-and-new-collateral-mode",
+        "date": "2026-09-29T20:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "In another unprecedented move, Call of Duty: Modern Warfare 4 is changing double XP tokens so they count down in match and not real-time",
+        "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-double-xp-tokens-count-down-change",
+        "date": "2026-09-29T08:22:00.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Double XP Tokens Finally Work How You'd Think They Would in Modern Warfare 4",
+        "url": "https://www.pushsquare.com/news/2026/09/double-xp-tokens-finally-work-how-youd-think-they-would-in-modern-warfare-4",
+        "date": "2026-09-28T21:15:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Modern Warfare 4 is kowtowing to several long-running CoD complaints. What took so long?",
+        "url": "https://www.destructoid.com/mw4-kowtowing-long-running-complaints-what-took-so-long/",
+        "date": "2026-09-28T17:41:05.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "CoD: Modern Warfare 4 Features A Brand-New MP Mode Similar To Counter-Strike",
+        "url": "https://www.gamespot.com/articles/cod-modern-warfare-4-features-a-brand-new-mp-mode-similar-to-counter-strike/",
+        "date": "2026-09-29T18:43:26.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "raising the bar for pc performance",
+      "value": "raising the bar for PC performance",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Infinity Ward is also \"raising the bar for PC performance\", now targeting 90FPS at recommended settings without sacrificing any visual quality.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/call-of-duty-modern-warfare-4-pc-specs-revealed-ray-tracing-and-new-collateral-mode"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-10-23",
+      "value": "October 23, 2026",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Call of Duty: Modern Warfare 4 launches for Xbox and PC on October 23, 2026 - and after sifting through all of this, we're keen to see just how fast booting up MW4 on some pretty worn-out, albeit, recommended-spec PC hardware.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/09/call-of-duty-modern-warfare-4-pc-specs-revealed-ray-tracing-and-new-collateral-mode"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400000000",
+      "value": "$400 Million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "💪🏽💪🏽💪🏽\n\nSony Fighting PS5 Pro Scalpers in Japan with 60 Hour Gameplay Requirement\n\nXbox Allegedly Paying a 'Fraction' of the $400 Million Budget Kojima Is Rumoured to Have Quoted Sony for Physint\n\n2 More September 2026 PS Plus Extra Games Available to Download Now\n\nPS5 Fans Encouraged to Give Feedback on Discs in New Sony Survey",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/double-xp-tokens-finally-work-how-youd-think-they-would-in-modern-warfare-4"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 3,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "concurrent": 29784,
+      "rank": 37,
+      "change24h": null,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
