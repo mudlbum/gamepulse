@@ -1,0 +1,162 @@
+{
+  "generated": "2026-10-01T01:41:08.722Z",
+  "workingTitle": "Rockstar Suggests Disney World and SeaWorld Probably Won't Be in GTA 6",
+  "heat": 61.9,
+  "outletCount": 6,
+  "outlets": [
+    "IGN",
+    "PCGamesN",
+    "Rock Paper Shotgun",
+    "Pure Xbox",
+    "Push Square",
+    "Destructoid"
+  ],
+  "newest": "2026-09-30T21:54:59.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Rockstar Suggests Disney World and SeaWorld Probably Won't Be in GTA 6",
+        "url": "https://www.ign.com/articles/rockstar-suggests-disney-world-and-seaworld-probably-wont-be-in-gta-6",
+        "date": "2026-09-30T21:54:59.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 6: Everything the New Screenshots Tell Us",
+        "url": "https://www.ign.com/articles/gta-6-everything-the-new-screenshots-tell-us",
+        "date": "2026-09-30T16:15:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "GTA 6 PC release date estimate",
+        "url": "https://www.pcgamesn.com/grand-theft-auto-6/pc",
+        "date": "2026-09-30T16:12:03.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "GTA 6 will simulate hurricanes, rainbows and persistent, dynamic clouds, among other efforts to make you stop doing crime and become a weather nerd",
+        "url": "https://www.rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd",
+        "date": "2026-09-30T09:30:00.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Five Key Things We Learned About GTA 6 From The Game Informer Cover Story",
+        "url": "https://www.purexbox.com/news/2026/09/five-key-things-we-learned-about-gta-6-from-the-game-informer-cover-story",
+        "date": "2026-09-29T19:06:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "GTA 6 Reveals Massive, Dense Open World in 13 New Screenshots, Details",
+        "url": "https://www.pushsquare.com/news/2026/09/gta-6-reveals-massive-dense-open-world-in-13-new-screenshots-details",
+        "date": "2026-09-29T18:15:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "grand theft auto vi is coming to playstation 5 computer entertainment systems and xbox series x s games and entertainment systems",
+      "value": "Grand Theft Auto VI is coming to PlayStation 5 computer entertainment systems and Xbox Series X|S games and entertainment systems,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The official GTA 6 site now lists the PlayStation 5 and Xbox Series X|S as the consoles available at launch, and a previous press release sent out by Rockstar Games confirms that \"Grand Theft Auto VI is coming to PlayStation 5 computer entertainment systems and Xbox Series X|S games and entertainment systems,\" seemingly confirming that GTA 6 will only release on next-gen consoles.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-6/pc"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "more localized and persistent",
+      "value": "more localized and persistent",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Grand Theft Auto 6 features a re-engineered, \"more localized and persistent\" weather system that ranges in intensity from physically credible rainbows to full-bore hurricanes, according to Rockstar vice president of art for lighting and rendering Owen Shepherd.",
+      "urls": [
+        "https://www.rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "new fully dynamic cloudscapes that roll across the map",
+      "value": "new fully dynamic cloudscapes that roll across the map",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The insights come via the latest issue of Game Informer, in which Shepherd touts the presence of \"new fully dynamic cloudscapes that roll across the map\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "and what the employees in question describe as",
+      "value": ", and what the employees in question describe as",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "GTA 6 aside, Rockstar are currently embroiled in legal proceedings with former employees fired on charges of what Rockstar has called \"gross misconduct\", and what the employees in question describe as \"union-busting\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/gta-6-will-simulate-hurricanes-rainbows-and-persistent-dynamic-clouds-among-other-efforts-to-make-you-stop-doing-crime-and-become-a-weather-nerd"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:2000000000",
+      "value": "$2 Billion",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This game is going to make $2 Billion in revenue on launch day alone\n\nNone of these pictures gives me the feeling of “I want to be there and do things”.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/gta-6-reveals-massive-dense-open-world-in-13-new-screenshots-details"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400000000",
+      "value": "$400 Million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony Fighting PS5 Pro Scalpers in Japan with 60 Hour Gameplay Requirement\n\nThe Witcher 3: Wild Hunt Remastered (PS5) - How to Improve a Masterpiece\n\nXbox Allegedly Paying a 'Fraction' of the $400 Million Budget Kojima Is Rumoured to Have Quoted Sony for Physint",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/gta-6-reveals-massive-dense-open-world-in-13-new-screenshots-details"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

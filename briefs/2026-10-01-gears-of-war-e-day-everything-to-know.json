@@ -1,0 +1,234 @@
+{
+  "generated": "2026-10-01T01:41:08.276Z",
+  "workingTitle": "Gears of War E-Day – Everything To Know",
+  "heat": 69,
+  "outletCount": 7,
+  "outlets": [
+    "GameSpot",
+    "Push Square",
+    "Destructoid",
+    "Pure Xbox",
+    "Eurogamer",
+    "PlayStation Blog",
+    "Xbox Wire"
+  ],
+  "newest": "2026-09-30T19:00:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "Analyst Argues Gears of War: E-Day Shouldn't Have Been Cancelled on PS5 After 'Soft' Steam Pre-Orders",
+        "url": "https://www.pushsquare.com/news/2026/09/analyst-argues-gears-of-war-e-day-shouldnt-have-been-cancelled-on-ps5-after-soft-steam-pre-orders",
+        "date": "2026-09-30T16:45:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Gears of War: E-Day was ‘built from scratch,’ so meat shields and chainsaw duels are missing in the final product",
+        "url": "https://www.destructoid.com/gears-eday-made-scratch-no-chainsaw-duels-meatshields/",
+        "date": "2026-09-30T16:27:27.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "'Absolutely Massive' God of War Laufey Pre-Orders as PS5 Exclusive Starts Strong",
+        "url": "https://www.pushsquare.com/news/2026/09/absolutely-massive-god-of-war-laufey-pre-orders-as-ps5-exclusive-starts-strong",
+        "date": "2026-09-30T15:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Guide: Gears Of War E-Day Release Date, Release Times & Everything You Need To Know On Xbox & PC",
+        "url": "https://www.purexbox.com/guides/gears-of-war-e-day-release-date-release-times-and-everything-you-need-to-know-on-xbox-and-pc",
+        "date": "2026-09-30T15:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Xbox CEO Asha Sharma Shares 'First Look' At Unlocking The Mythic In Gears Of War: E-Day",
+        "url": "https://www.purexbox.com/news/2026/09/xbox-ceo-asha-sharma-shares-first-look-at-unlocking-the-mythic-in-gears-of-war-e-day",
+        "date": "2026-09-29T18:23:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Gears of War E-Day – Everything To Know",
+        "url": "https://www.gamespot.com/videos/gears-of-war-e-day-everything-to-know/",
+        "date": "2026-09-30T19:00:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:n:85000:players",
+      "value": "85,000 players",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "No interest being forced to waste my time killing 85,000 players or whatever the criteria is to unlock the associated trophies in those crappy horde and vs modes.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/analyst-argues-gears-of-war-e-day-shouldnt-have-been-cancelled-on-ps5-after-soft-steam-pre-orders"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re definitely coming back i promise",
+      "value": "we're definitely coming back, I promise!",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If they don't want to accept the way things are now and want to convince their players of their whole \"we're definitely coming back, I promise!\" schtick, then that's one way to show confidence in their product.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/analyst-argues-gears-of-war-e-day-shouldnt-have-been-cancelled-on-ps5-after-soft-steam-pre-orders"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "enough of the death threats lol",
+      "value": "enough of the death threats lol",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That’s how I’m rolling:)\n\nIf someone goes \"enough of the death threats lol\" then I don't think they were death threats.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/analyst-argues-gears-of-war-e-day-shouldnt-have-been-cancelled-on-ps5-after-soft-steam-pre-orders"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400000000",
+      "value": "$400 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It’s going to be hard to guess what will happen, if e-day does have a $400 million budget and then making it an exclusive was a huge mistake and is only setting the studio up for failure.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/analyst-argues-gears-of-war-e-day-shouldnt-have-been-cancelled-on-ps5-after-soft-steam-pre-orders"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:700000000",
+      "value": "$700 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@DennisReynolds Doomsday's budget is over 400 million, plus another 300 million for marketing for a grand total of $700 million.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/analyst-argues-gears-of-war-e-day-shouldnt-have-been-cancelled-on-ps5-after-soft-steam-pre-orders"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:5000000:copies",
+      "value": "5 million copies",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Dan12836666 the same way Forza horizon 6 sold over 5 million copies, 6.4 million according to estimates from this same guy.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/analyst-argues-gears-of-war-e-day-shouldnt-have-been-cancelled-on-ps5-after-soft-steam-pre-orders"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$50",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For gamepass to actually pay for itself as the gaming platform it would have needed to be priced at $50 a month minimum\n\n@Trojan Fun fact film studios never disclose what film and marketing budgets actually are.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/analyst-argues-gears-of-war-e-day-shouldnt-have-been-cancelled-on-ps5-after-soft-steam-pre-orders"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:2",
+      "value": "season 2",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Look at Alyx (Half Life: Alyx), Heather Mason (Silent Hill 3), Emily Kaldwin (Dishonored 2), Ciri (Witcher 4), Clementine (TWD season 2), 2B (Nier Automata), Zero (Drakengard 3), Zelda (Zelda: Echoes of Wisdom), Terra (FF VI), Yuna (FF X-2), Ashe (FF XII), or Lightning (FF XIII) for example.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/absolutely-massive-god-of-war-laufey-pre-orders-as-ps5-exclusive-starts-strong"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$70",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@A-steak-with-ketchup They made this game for die-hard God of War fans like me lol\n\nAll these clowns who could be letting their $70 sit in their bank accounts gaining $1.50 interest over 6 months instead of letting Sony make money off of their money with their preorders.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/absolutely-massive-god-of-war-laufey-pre-orders-as-ps5-exclusive-starts-strong"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1.5",
+      "value": "$1.50",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@A-steak-with-ketchup They made this game for die-hard God of War fans like me lol\n\nAll these clowns who could be letting their $70 sit in their bank accounts gaining $1.50 interest over 6 months instead of letting Sony make money off of their money with their preorders.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/absolutely-massive-god-of-war-laufey-pre-orders-as-ps5-exclusive-starts-strong"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you may as well make interest on your money until the very last moment no",
+      "value": "you may as well make interest on your money until the very last moment, no?",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": ">\"you may as well make interest on your money until the very last moment, no?\" Eh?",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/absolutely-massive-god-of-war-laufey-pre-orders-as-ps5-exclusive-starts-strong"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 11,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

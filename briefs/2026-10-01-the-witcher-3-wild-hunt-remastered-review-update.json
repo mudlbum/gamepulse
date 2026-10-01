@@ -1,0 +1,287 @@
+{
+  "generated": "2026-10-01T01:41:07.857Z",
+  "workingTitle": "The Witcher 3: Wild Hunt Remastered Review Update",
+  "heat": 96.9,
+  "outletCount": 9,
+  "outlets": [
+    "IGN",
+    "Kotaku",
+    "Push Square",
+    "Eurogamer",
+    "Nintendo Life",
+    "Destructoid",
+    "Pure Xbox",
+    "PCGamesN",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-09-30T22:07:44.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "The Witcher 3: Wild Hunt — Remastered"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "The Witcher 3: Wild Hunt Remastered Review Update",
+        "url": "https://www.ign.com/articles/the-witcher-3-wild-hunt-remastered-review",
+        "date": "2026-09-30T22:07:44.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Try These Two Things To Fix Witcher 3 Remastered Performance On PC",
+        "url": "https://kotaku.com/try-these-two-things-to-fix-witcher-3-remastered-performance-on-pc-2000738713",
+        "date": "2026-09-30T19:00:01.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "The Witcher 3 Remastered PS5 Pro Performance Seems to Vary Massively Between Players, and No One Knows Why",
+        "url": "https://www.pushsquare.com/news/2026/09/the-witcher-3-remastered-ps5-pro-performance-seems-to-vary-massively-between-players-and-no-one-knows-why",
+        "date": "2026-09-30T15:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "\"My god this new lighting is lifeless\" - The Witcher 3 Remastered Edition divides players for a few key reasons",
+        "url": "https://www.eurogamer.net/witcher-3-remastered-community-reaction-lighting",
+        "date": "2026-09-30T14:15:01.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "You Can Get The Witcher 3 Remastered For Free On Switch 2, If You Can Borrow A Switch 1 Cart",
+        "url": "https://www.nintendolife.com/news/2026/09/you-can-get-the-witcher-3-remastered-for-free-on-switch-2-if-you-can-borrow-a-switch-1-cart",
+        "date": "2026-09-30T13:45:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to use Loot Merge in The Witcher 3: Remastered",
+        "url": "https://www.destructoid.com/how-to-use-loot-merge-in-the-witcher-3-remastered/",
+        "date": "2026-09-30T09:46:09.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "key": "v:build:5.0",
+      "value": "update 5.0",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The colors and saturation are through the roof with update 5.0, even when setting every display setting at the lowest level possible.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/the-witcher-3-remastered-ps5-pro-performance-seems-to-vary-massively-between-players-and-no-one-knows-why"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400000000",
+      "value": "$400 Million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony Fighting PS5 Pro Scalpers in Japan with 60 Hour Gameplay Requirement\n\nThe Witcher 3: Wild Hunt Remastered (PS5) - How to Improve a Masterpiece\n\nXbox Allegedly Paying a 'Fraction' of the $400 Million Budget Kojima Is Rumoured to Have Quoted Sony for Physint",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/the-witcher-3-remastered-ps5-pro-performance-seems-to-vary-massively-between-players-and-no-one-knows-why"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you people should figure out a way for xbox users to play the older version because my god this new lighting is lifeless",
+      "value": "You people should figure out a way for Xbox users to play the older version because my god this new lighting is lifeless,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"You people should figure out a way for Xbox users to play the older version because my god this new lighting is lifeless,\" wrote one irate person on X.",
+      "urls": [
+        "https://www.eurogamer.net/witcher-3-remastered-community-reaction-lighting"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it has better contrast with stronger highlights and a more pronounced overall image",
+      "value": "It has better contrast, with stronger highlights and a more pronounced overall image.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It has better contrast, with stronger highlights and a more pronounced overall image.\" Another video was linked that painstakingly compares the Witcher 3 Remastered edition with the next-gen edition and the original edition of the game.",
+      "urls": [
+        "https://www.eurogamer.net/witcher-3-remastered-community-reaction-lighting"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i don t think anyone is disputing that models texture foliage density and all that is bad that s improved for sure",
+      "value": "I don't think anyone is disputing that models, texture, foliage density and all that is bad - that's improved for sure,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I don't think anyone is disputing that models, texture, foliage density and all that is bad - that's improved for sure,\" wrote another subreddit commenter.",
+      "urls": [
+        "https://www.eurogamer.net/witcher-3-remastered-community-reaction-lighting"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "here s how you can exploit the generosity of a great dev and avoid giving them any money",
+      "value": "here's how you can exploit the generosity of a great dev and avoid giving them any money",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Seems very out of character for this website to be like \"here's how you can exploit the generosity of a great dev and avoid giving them any money\"\n\nThat being said it does feel kinda whack to do this when the devs have been so generous.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/you-can-get-the-witcher-3-remastered-for-free-on-switch-2-if-you-can-borrow-a-switch-1-cart"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "now available on switch 2",
+      "value": "Now available on Switch 2",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You need to:\n\n3) There is a new option on the start menu which says \"Now available on Switch 2\" - click this\n\n5) Wait for the download to complete and voila you have the remaster for free and no longer need the Switch 1 cart\n\nI feel like this goes against the spirit of the goodwill the devs showed the userbase\n\nI can't imagine this is how they intended it to work, at all.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/you-can-get-the-witcher-3-remastered-for-free-on-switch-2-if-you-can-borrow-a-switch-1-cart"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:15",
+      "value": "$15.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "CDPR sold me the complete edition soon after it released for only $15.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/you-can-get-the-witcher-3-remastered-for-free-on-switch-2-if-you-can-borrow-a-switch-1-cart"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$70",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "CDPR isn’t Nintendo, they don’t charge $70 for a remake.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/you-can-get-the-witcher-3-remastered-for-free-on-switch-2-if-you-can-borrow-a-switch-1-cart"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The digital Switch version regularly goes on deep discount for $10 or less.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/you-can-get-the-witcher-3-remastered-for-free-on-switch-2-if-you-can-borrow-a-switch-1-cart"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i agree but i think the word you are looking for is",
+      "value": "I agree but I think the word you are looking for is",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Please, buy the game.\"\n\nI agree but I think the word you are looking for is \"remuneration.\" 😅✌️\n\nIt's all about the framing.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/you-can-get-the-witcher-3-remastered-for-free-on-switch-2-if-you-can-borrow-a-switch-1-cart"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you don t have to keep your witcher 3 cartridge in your switch 2 to play the remastered version",
+      "value": "you don't have to keep your Witcher 3 cartridge in your switch 2 to play the remastered version!",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The focus could've been \"you don't have to keep your Witcher 3 cartridge in your switch 2 to play the remastered version!\" and allow readers to draw their own conclusions.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/you-can-get-the-witcher-3-remastered-for-free-on-switch-2-if-you-can-borrow-a-switch-1-cart"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "if we don t report it everyone else will do anyway",
+      "value": "If we don't report it, everyone else will do anyway",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As for the ethics, well, as all news companies will tell you \"If we don't report it, everyone else will do anyway\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/you-can-get-the-witcher-3-remastered-for-free-on-switch-2-if-you-can-borrow-a-switch-1-cart"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "fox in the galaxy movie spoiler",
+      "value": "Fox in the Galaxy movie spoiler",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "i thought i remembered your user name from the \"Fox in the Galaxy movie spoiler\" debacle!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/09/you-can-get-the-witcher-3-remastered-for-free-on-switch-2-if-you-can-borrow-a-switch-1-cart"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 14,
+  "ourData": [
+    {
+      "game": "The Witcher 3: Wild Hunt — Remastered",
+      "concurrent": 57448,
+      "rank": 16,
+      "change24h": 9,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
