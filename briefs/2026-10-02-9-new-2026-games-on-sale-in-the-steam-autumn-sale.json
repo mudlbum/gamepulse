@@ -1,0 +1,299 @@
+{
+  "generated": "2026-10-02T01:52:52.209Z",
+  "workingTitle": "9 new 2026 games on sale in the Steam Autumn Sale",
+  "heat": 42.6,
+  "outletCount": 4,
+  "outlets": [
+    "PC Gamer",
+    "Kotaku",
+    "Destructoid",
+    "GameSpot"
+  ],
+  "newest": "2026-10-02T00:46:56.000Z",
+  "readableCount": 3,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "9 new 2026 games on sale in the Steam Autumn Sale",
+        "url": "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/",
+        "date": "2026-10-02T00:46:56.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Fall 2026 Steam Sale Features So Many Great Games For $15 Or Less",
+        "url": "https://kotaku.com/fall-2026-steam-sale-features-so-many-great-games-for-15-or-less-2000739030",
+        "date": "2026-10-01T21:04:49.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "The Steam Autumn Sale is live—here are some of its hottest deals",
+        "url": "https://www.destructoid.com/steam-autumn-sale-deals/",
+        "date": "2026-10-01T18:13:33.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "The Best Steam Autumn Sale 2026 Deals",
+        "url": "https://www.gamespot.com/articles/the-best-steam-autumn-sale-deals/",
+        "date": "2026-10-01T17:59:11.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$19.99",
+      "outlets": [
+        "PC Gamer",
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "(Steam)\n\n$15.99 (was $19.99) Grab some friends (at least one but up to 12 if you've got 'em) and enjoy a tranquil but challenging world full of puzzles.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/",
+        "https://kotaku.com/fall-2026-steam-sale-features-so-many-great-games-for-15-or-less-2000739030"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:12",
+      "value": "$11.99.",
+      "outlets": [
+        "PC Gamer",
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "And, lastly, one of my favorite extraction shooters ever made: Hunt: Showdown (though you could call it a battle royale instead) is just $11.99.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/",
+        "https://www.destructoid.com/steam-autumn-sale-deals/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:25",
+      "value": "$24.99.",
+      "outlets": [
+        "PC Gamer",
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Fans of first-person shooters and gritty realistic games will rejoice to hear that Ready or Not is finally having a big discount, slashing the price in half to $24.99.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/",
+        "https://www.destructoid.com/steam-autumn-sale-deals/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:15",
+      "value": "$14.99.",
+      "outlets": [
+        "Kotaku",
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Warhammer: Space Marine 2, Saber’s latest big hit that doesn’t have any AI, is 75 percent off at just $14.99.",
+      "urls": [
+        "https://kotaku.com/fall-2026-steam-sale-features-so-many-great-games-for-15-or-less-2000739030",
+        "https://www.destructoid.com/steam-autumn-sale-deals/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:49",
+      "value": "$48.99",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "$48.99 (was $69.99) If $70 was too rich for your blood when Capcom's latest survival horror adventure launched back in February, you can now pick it up for under $50.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$69.99",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "$48.99 (was $69.99) If $70 was too rich for your blood when Capcom's latest survival horror adventure launched back in February, you can now pick it up for under $50.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$49.99",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(Steam)\n\n$24.99 (was $49.99) This strategy game has been in early access, but only just hit 1.0 and is \"a magnificent example of why Amplitude is so loved by 4X fans,\" we said in our review.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it s the most arkham game since the last arkham game",
+      "value": "It's the most Arkham game since the last Arkham game.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(Steam)\n\n$48.99 (was $69.99) The new Lego Batman game received some high praise from Jody earlier this year: \"It's the most Arkham game since the last Arkham game.\" (Steam)\n\n$48.99 (was $69.99) Another $70 game that's dropped below $50.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:16",
+      "value": "$15.99",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(Steam)\n\n$15.99 (was $19.99) Grab some friends (at least one but up to 12 if you've got 'em) and enjoy a tranquil but challenging world full of puzzles.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5.99",
+      "value": "$5.99",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(Steam )\n\n$5.99 (was $11.99) This one just released in September.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a magnificent example of why amplitude is so loved by 4x fans",
+      "value": "a magnificent example of why Amplitude is so loved by 4X fans,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(Steam)\n\n$24.99 (was $49.99) This strategy game has been in early access, but only just hit 1.0 and is \"a magnificent example of why Amplitude is so loved by 4X fans,\" we said in our review.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:24",
+      "value": "$23.99",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(Steam)\n\n$23.99 (was $39.99) This discount is liable to result in as much social media dunking as it does buying, but Marathon's a great game, regardless of Bungie's struggles.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$39.99",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(Steam)\n\n$23.99 (was $39.99) This discount is liable to result in as much social media dunking as it does buying, but Marathon's a great game, regardless of Bungie's struggles.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/9-new-2026-games-on-sale-in-the-steam-autumn-sale/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10.",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In fact, most of these cost less than $10.",
+      "urls": [
+        "https://kotaku.com/fall-2026-steam-sale-features-so-many-great-games-for-15-or-less-2000739030"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5",
+      "value": "$5,",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Speaking of Imperials, Skyrim Special Edition is only $5, just in time for another anniversary for the franchise, where Todd Howard will definitely not relaunch the game on a dozen more platforms.",
+      "urls": [
+        "https://www.destructoid.com/steam-autumn-sale-deals/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:8.99",
+      "value": "$8.99,",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you’re in for some old classics, the entire Arkham collection is $8.99, containing all four games in Rocksteady’s Arkham franchise.",
+      "urls": [
+        "https://www.destructoid.com/steam-autumn-sale-deals/"
+      ]
+    }
+  ],
+  "factCount": 4,
+  "evidenceCount": 16,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "12 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

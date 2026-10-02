@@ -1,0 +1,257 @@
+{
+  "generated": "2026-10-02T01:52:52.731Z",
+  "workingTitle": "Anime Mysterious codes (October 2026)",
+  "heat": 37.1,
+  "outletCount": 4,
+  "outlets": [
+    "PCGamesN",
+    "Nintendo Life",
+    "Push Square",
+    "Nintendo"
+  ],
+  "newest": "2026-10-01T16:21:48.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Minecraft",
+    "Nintendo Switch 2"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PCGamesN",
+        "title": "Anime Mysterious codes (October 2026)",
+        "url": "https://www.pcgamesn.com/roblox/anime-mysterious-codes",
+        "date": "2026-10-01T16:21:48.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Minecraft Dungeons 2 codes (October 2026)",
+        "url": "https://www.pcgamesn.com/minecraft-dungeons-2/codes",
+        "date": "2026-10-01T15:56:47.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Guide: Upcoming Nintendo Switch 2 Games & Accessories For October & November 2026",
+        "url": "https://www.nintendolife.com/guides/upcoming-nintendo-switch-2-games-and-accessories-for-october-and-november-2026",
+        "date": "2026-10-01T15:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Former Sony Exec Shuhei Yoshida Thinks Nintendo Is \"Going To Do Pretty Well\" With Switch 2 \"For Many Years To Come\"",
+        "url": "https://www.nintendolife.com/news/2026/10/former-sony-exec-shuhei-yoshida-thinks-nintendo-is-going-to-do-pretty-well-with-switch-2-for-many-years-to-come",
+        "date": "2026-10-01T08:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "'People Are Very Happy Using PS5': Former Sony Exec Shuhei Yoshida Thinks PS6 Can Wait",
+        "url": "https://www.pushsquare.com/news/2026/09/people-are-very-happy-using-ps5-former-sony-exec-shuhei-yoshida-thinks-ps6-can-wait",
+        "date": "2026-09-30T14:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Meow Madness codes October 2026",
+        "url": "https://www.pcgamesn.com/roblox/meow-madness-codes",
+        "date": "2026-09-30T12:15:44.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "key": "v:build:23.0.1",
+      "value": "Update 23.0.1",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Nintendo Switch 2 System Update 23.0.1 Is Now Live, Here Are The Full Patch Notes\n\nRound Up: The First Reviews For The Witcher 3 Remastered Are In\n\nPSA: The Witcher 3 Remastered File Size And Release Time Confirmed, Separate Purchase Required",
+      "urls": [
+        "https://www.nintendolife.com/guides/upcoming-nintendo-switch-2-games-and-accessories-for-october-and-november-2026",
+        "https://www.nintendolife.com/news/2026/10/former-sony-exec-shuhei-yoshida-thinks-nintendo-is-going-to-do-pretty-well-with-switch-2-for-many-years-to-come"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "people who have systems like ps5 switch 2 or good enough pcs probably will be happy to play games on them and not necessarily consider replacing them",
+      "value": "People who have systems like PS5, Switch 2 or good enough PCs probably will be happy to play games on them, and not necessarily consider replacing them,",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"People who have systems like PS5, Switch 2 or good enough PCs probably will be happy to play games on them, and not necessarily consider replacing them,\" he says.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/former-sony-exec-shuhei-yoshida-thinks-nintendo-is-going-to-do-pretty-well-with-switch-2-for-many-years-to-come"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this is just the beginning of the switch 2 lifecycle",
+      "value": "this is just the beginning of the Switch 2 lifecycle",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Scoopz nah, Nintendo probably expects a 10 year lifespan with the Switch 2, and this console is gonna age so much better than the first Switch, as the new CEO of NOA stated \"this is just the beginning of the Switch 2 lifecycle\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/former-sony-exec-shuhei-yoshida-thinks-nintendo-is-going-to-do-pretty-well-with-switch-2-for-many-years-to-come"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:421",
+      "value": "$420.69",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I also had a Xbox Series X about 2 years ago back when GameStop was doing dumb meme stuff and buying them for $420.69 and sold mine (with a promo it came closer to $450 on a system I bought for $500).",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/former-sony-exec-shuhei-yoshida-thinks-nintendo-is-going-to-do-pretty-well-with-switch-2-for-many-years-to-come"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:450",
+      "value": "$450",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I also had a Xbox Series X about 2 years ago back when GameStop was doing dumb meme stuff and buying them for $420.69 and sold mine (with a promo it came closer to $450 on a system I bought for $500).",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/former-sony-exec-shuhei-yoshida-thinks-nintendo-is-going-to-do-pretty-well-with-switch-2-for-many-years-to-come"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:500",
+      "value": "$500",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I also had a Xbox Series X about 2 years ago back when GameStop was doing dumb meme stuff and buying them for $420.69 and sold mine (with a promo it came closer to $450 on a system I bought for $500).",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/former-sony-exec-shuhei-yoshida-thinks-nintendo-is-going-to-do-pretty-well-with-switch-2-for-many-years-to-come"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "while sony and nintendo have sold enough numbers of current generation hardware because of the cost of goods they might be looking pushing back the launch of next gen",
+      "value": "While Sony and Nintendo have sold enough numbers of current generation hardware, because of the cost of goods they might be looking pushing back the launch of next-gen,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"While Sony and Nintendo have sold enough numbers of current generation hardware, because of the cost of goods they might be looking pushing back the launch of next-gen,\" he says.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/people-are-very-happy-using-ps5-former-sony-exec-shuhei-yoshida-thinks-ps6-can-wait"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i think they should try to keep the current generation as long as possible because i think people are very happy using ps5 and switch 2",
+      "value": "I think they should try to keep the current generation as long as possible, because I think people are very happy using PS5 and Switch 2.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I think they should try to keep the current generation as long as possible, because I think people are very happy using PS5 and Switch 2.\"\n\nHe explains that, generally, people have \"finite budgets\", and the rapid increase in the cost of components has made hardware like consoles and gaming PC much more expensive.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/people-are-very-happy-using-ps5-former-sony-exec-shuhei-yoshida-thinks-ps6-can-wait"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "xbox is a team who wants to change the competing landscape so it s going to be hard for them but it s their time to play",
+      "value": "Xbox is a team who wants to change the competing landscape, so it's going to be hard for them, but it's their time to play,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Xbox is a team who wants to change the competing landscape, so it's going to be hard for them, but it's their time to play,\" he says.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/people-are-very-happy-using-ps5-former-sony-exec-shuhei-yoshida-thinks-ps6-can-wait"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "so it s very exciting you know what s going to happen next year",
+      "value": "So it's very exciting, you know, what's going to happen next year?",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"So it's very exciting, you know, what's going to happen next year?\"\n\nI think people are quite split on this topic.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/people-are-very-happy-using-ps5-former-sony-exec-shuhei-yoshida-thinks-ps6-can-wait"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000",
+      "value": "$1000",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If the PS6 doesn't have some unique hook like portability, and it's just another console box with digital-only games and launches at $1000+, I don't see who is buying that except the most hardcore of the hardcore early adopters who just absolutely need the newest, bleeding edge tech at any cost - i.e., PC players or diehard Sony mega fans with money to burn.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/people-are-very-happy-using-ps5-former-sony-exec-shuhei-yoshida-thinks-ps6-can-wait"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400000000",
+      "value": "$400 Million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But I still think next gen will be released in 2029\n\nSony Fighting PS5 Pro Scalpers in Japan with 60 Hour Gameplay Requirement\n\nThe Witcher 3: Wild Hunt Remastered (PS5) - How to Improve a Masterpiece\n\nXbox Allegedly Paying a 'Fraction' of the $400 Million Budget Kojima Is Rumoured to Have Quoted Sony for Physint",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/09/people-are-very-happy-using-ps5-former-sony-exec-shuhei-yoshida-thinks-ps6-can-wait"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 12,
+  "ourData": [
+    {
+      "game": "Minecraft",
+      "note": "Not currently in our tracked Steam top 60."
+    },
+    {
+      "game": "Nintendo Switch 2",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

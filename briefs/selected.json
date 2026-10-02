@@ -1,10 +1,40 @@
 {
-  "decided": "2026-10-01T01:41:09.207Z",
+  "decided": "2026-10-02T01:52:52.811Z",
   "publish": true,
-  "reason": "selected on score 25.6",
-  "brief": "2026-09-30-industry-snoop-says-naughty-dogs-shaun-escayg-is-not-working.json",
-  "title": "Industry Snoop Says Naughty Dog's Shaun Escayg Is Not Working on The Last of Us",
+  "reason": "selected on score 48.7",
+  "brief": "2026-10-02-nintendo-download-1st-october-north-america-plus-3-discounte.json",
+  "title": "Nintendo Download: 1st October (North America) - Plus 3 Discounted eShop Games Worth A Look",
   "considered": [
+    {
+      "file": "2026-10-02-nintendo-download-1st-october-north-america-plus-3-discounte.json",
+      "title": "Nintendo Download: 1st October (North America) - Plus 3 Discounted eShop Games Worth A Look",
+      "pass": true,
+      "reason": "3/38 claims corroborated · 5 outlets · primary source · 11h old"
+    },
+    {
+      "file": "2026-10-02-gears-of-war-e-days-campaign-is-buried-in-the-past-review.json",
+      "title": "Gears Of War: E-Day’s Campaign Is Buried In The Past – Review",
+      "pass": false,
+      "reason": "0 of 11 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-10-02-anime-mysterious-codes-october-2026.json",
+      "title": "Anime Mysterious codes (October 2026)",
+      "pass": false,
+      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-10-02-all-secret-hideout-locations-and-puzzle-solutions-in-control.json",
+      "title": "All secret hideout locations and puzzle solutions in Control Resonant",
+      "pass": false,
+      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-02-9-new-2026-games-on-sale-in-the-steam-autumn-sale.json",
+      "title": "9 new 2026 games on sale in the Steam Autumn Sale",
+      "pass": true,
+      "reason": "4/16 claims corroborated · 4 outlets · secondary only · 1h old"
+    },
     {
       "file": "2026-10-01-the-witcher-3-wild-hunt-remastered-review-update.json",
       "title": "The Witcher 3: Wild Hunt Remastered Review Update",
@@ -22,36 +52,6 @@
       "title": "Rockstar Suggests Disney World and SeaWorld Probably Won't Be in GTA 6",
       "pass": false,
       "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-01-gears-of-war-e-day-everything-to-know.json",
-      "title": "Gears of War E-Day – Everything To Know",
-      "pass": false,
-      "reason": "0 of 11 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-10-01-control-resonant-has-the-coolest-bit-of-video-game-audio-in-.json",
-      "title": "Control Resonant Has The Coolest Bit Of Video Game Audio In 2026",
-      "pass": false,
-      "reason": "1 of 10 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-09-30-you-can-get-a-free-digital-copy-of-the-witcher-3-remastered-.json",
-      "title": "You Can Get A Free Digital Copy Of The Witcher 3 Remastered On Switch 2 If You Just Borrow An Old Physical Switch Copy Of The RPG",
-      "pass": false,
-      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-30-original-god-of-war-creator-defends-laufeys-creative-directo.json",
-      "title": "Original God of War Creator Defends Laufey's Creative Director From Harassment After His Critical Remarks Go Viral",
-      "pass": false,
-      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-09-30-industry-snoop-says-naughty-dogs-shaun-escayg-is-not-working.json",
-      "title": "Industry Snoop Says Naughty Dog's Shaun Escayg Is Not Working on The Last of Us",
-      "pass": true,
-      "reason": "2/11 claims corroborated · 5 outlets · secondary only · 26h old"
     }
   ]
 }

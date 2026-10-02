@@ -1,0 +1,240 @@
+{
+  "generated": "2026-10-02T01:52:51.754Z",
+  "workingTitle": "Gears Of War: E-Day’s Campaign Is Buried In The Past – Review",
+  "heat": 131.3,
+  "outletCount": 12,
+  "outlets": [
+    "GameSpot",
+    "Polygon",
+    "Kotaku",
+    "Pure Xbox",
+    "Xbox Wire",
+    "PC Gamer",
+    "Eurogamer",
+    "Destructoid",
+    "IGN",
+    "PCGamesN",
+    "Push Square",
+    "PlayStation Blog"
+  ],
+  "newest": "2026-10-01T23:21:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Gears of War: E-Day is Available in Early Access Today, Watch the Launch Gameplay Trailer",
+        "url": "https://news.xbox.com/en-us/2026/10/01/gears-of-war-e-day-early-access-launch-trailer-xbox/",
+        "date": "2026-10-01T15:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Gears of War: E-Day Is 100x More Fun Playing Co-op",
+        "url": "https://www.polygon.com/gears-war-e-day-co-op-interview/",
+        "date": "2026-10-01T23:00:15.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Gears Of War Devs Explain Missing Features: ‘We Started E-Day With An Empty Hard Drive Building Our Entire Gameplay Sandbox From Scratch’",
+        "url": "https://kotaku.com/gears-of-war-devs-explain-missing-features-we-started-e-day-with-an-empty-hard-drive-building-our-entire-gameplay-sandbox-from-scratch-2000739072",
+        "date": "2026-10-01T20:40:20.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Roundup: Here's What The Critics Have To Say About Gears Of War: E-Day",
+        "url": "https://www.purexbox.com/news/2026/10/roundup-heres-what-the-critics-have-to-say-about-gears-of-war-e-day",
+        "date": "2026-10-01T17:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Gears of War: E-Day system requirements require ray tracing-capable graphics card to play, alongside 115 GB of free space on an SSD",
+        "url": "https://www.pcgamer.com/games/action/gears-of-war-e-day-system-requirements-require-ray-tracing-capable-graphics-card-to-play-alongside-115-gb-of-free-space-on-an-ssd/",
+        "date": "2026-10-01T14:47:03.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Gears Of War: E-Day’s Campaign Is Buried In The Past – Review",
+        "url": "https://www.gamespot.com/videos/gears-of-war-e-days-campaign-is-buried-in-the-past-review/",
+        "date": "2026-10-01T23:21:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "key": "v:season:1",
+      "value": "Season 1",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Season 1 will include limited themed events like Halloween, 20 Years of Gears, and Thanksgibbing, before wrapping up December 1.",
+      "urls": [
+        "https://kotaku.com/gears-of-war-devs-explain-missing-features-we-started-e-day-with-an-empty-hard-drive-building-our-entire-gameplay-sandbox-from-scratch-2000739072"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:2",
+      "value": "Season 2",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Season 2, called Legacy and Beyond, will kick off after that with content themed around a 20-year celebration of the franchise’s “greatest hits.” The studio also previewed the names of the remaining seasons on E-Day‘s calendar: Season 3: Infiltration, Season 4: Pendulum, and Season 5: Devotion.",
+      "urls": [
+        "https://kotaku.com/gears-of-war-devs-explain-missing-features-we-started-e-day-with-an-empty-hard-drive-building-our-entire-gameplay-sandbox-from-scratch-2000739072"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:3",
+      "value": "Season 3",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Season 2, called Legacy and Beyond, will kick off after that with content themed around a 20-year celebration of the franchise’s “greatest hits.” The studio also previewed the names of the remaining seasons on E-Day‘s calendar: Season 3: Infiltration, Season 4: Pendulum, and Season 5: Devotion.",
+      "urls": [
+        "https://kotaku.com/gears-of-war-devs-explain-missing-features-we-started-e-day-with-an-empty-hard-drive-building-our-entire-gameplay-sandbox-from-scratch-2000739072"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:4",
+      "value": "Season 4",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Season 2, called Legacy and Beyond, will kick off after that with content themed around a 20-year celebration of the franchise’s “greatest hits.” The studio also previewed the names of the remaining seasons on E-Day‘s calendar: Season 3: Infiltration, Season 4: Pendulum, and Season 5: Devotion.",
+      "urls": [
+        "https://kotaku.com/gears-of-war-devs-explain-missing-features-we-started-e-day-with-an-empty-hard-drive-building-our-entire-gameplay-sandbox-from-scratch-2000739072"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:5",
+      "value": "Season 5",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Season 2, called Legacy and Beyond, will kick off after that with content themed around a 20-year celebration of the franchise’s “greatest hits.” The studio also previewed the names of the remaining seasons on E-Day‘s calendar: Season 3: Infiltration, Season 4: Pendulum, and Season 5: Devotion.",
+      "urls": [
+        "https://kotaku.com/gears-of-war-devs-explain-missing-features-we-started-e-day-with-an-empty-hard-drive-building-our-entire-gameplay-sandbox-from-scratch-2000739072"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the most beautiful and most fun game of this entire generation",
+      "value": "the most beautiful and most fun game of this entire generation",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For myself \"the most beautiful and most fun game of this entire generation\" goes to Kingdom Come Deliverance 2.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/roundup-heres-what-the-critics-have-to-say-about-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5300",
+      "value": "$5300",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It was about $5300 (on sale!) but that exact same build is now $7200 on their site so I feel like I got a deal lol.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/roundup-heres-what-the-critics-have-to-say-about-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:7200",
+      "value": "$7200",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It was about $5300 (on sale!) but that exact same build is now $7200 on their site so I feel like I got a deal lol.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/roundup-heres-what-the-critics-have-to-say-about-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "xbox gamers don t buy games anymore",
+      "value": "Xbox gamers don't buy games anymore",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's often said \"Xbox gamers don't buy games anymore\" and, well, it's hard to argue otherwise when a poll reveals 50% of gamers who pass through here are waiting for E-Day to land on Game Pass.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/roundup-heres-what-the-critics-have-to-say-about-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:140000000",
+      "value": "$140m",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Additionally, the premium edition and upgrade sales generated $140m before the official launch and Game Pass inclusion.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/roundup-heres-what-the-critics-have-to-say-about-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-10-01",
+      "value": "October 1, 2026",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Copy link Facebook X Reddit Pinterest Flipboard Email Share this article 19 Join the conversation Follow us Add us as a preferred source on Google Newsletter Subscribe to our newsletter Recent updates October 1, 2026: With the game in its early access period, you can read our review in progress right now.",
+      "urls": [
+        "https://www.pcgamer.com/games/action/gears-of-war-e-day-system-requirements-require-ray-tracing-capable-graphics-card-to-play-alongside-115-gb-of-free-space-on-an-ssd/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 11,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

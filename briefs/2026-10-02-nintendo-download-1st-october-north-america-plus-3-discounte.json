@@ -1,0 +1,537 @@
+{
+  "generated": "2026-10-02T01:52:52.485Z",
+  "workingTitle": "Nintendo Download: 1st October (North America) - Plus 3 Discounted eShop Games Worth A Look",
+  "heat": 39.7,
+  "outletCount": 5,
+  "outlets": [
+    "Nintendo Life",
+    "Nintendo",
+    "Eurogamer",
+    "Push Square",
+    "PlayStation Blog"
+  ],
+  "newest": "2026-10-01T14:55:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Nintendo",
+        "title": "Nintendo eShop Highlights – 01/10/2026",
+        "url": "https://www.nintendo.com/en-gb/News/2026/October/Nintendo-eShop-Highlights-01-10-2026-3208927.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
+        "date": "2026-10-01T13:00:00.000Z",
+        "host": "www.nintendo.com"
+      },
+      {
+        "outlet": "PlayStation Blog",
+        "title": "PlayStation Plus Monthly Games for October: F1 25, Hunt: Showdown 1896, Earth Defense Force: World Brothers 2",
+        "url": "https://blog.playstation.com/2026/09/30/playstation-plus-monthly-games-for-october-f1-25-hunt-showdown-1896-earth-defense-force-world-brothers-2/",
+        "date": "2026-09-30T15:30:30.000Z",
+        "host": "blog.playstation.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Nintendo Download: 1st October (North America) - Plus 3 Discounted eShop Games Worth A Look",
+        "url": "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look",
+        "date": "2026-10-01T14:55:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Here are our PS Plus monthly games for October 2026",
+        "url": "https://www.eurogamer.net/playstation-ps-plus-games-lineup-october-2026",
+        "date": "2026-10-01T10:39:11.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "PS Plus Essential Games for October 2026 Announced",
+        "url": "https://www.pushsquare.com/news/2026/09/ps-plus-essential-games-for-october-2026-announced",
+        "date": "2026-09-30T15:35:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-09-30",
+      "value": "September 30, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "September 30, 2026September 30, 2026 PlayStation Plus Monthly Games for October: F1 25, Hunt: Showdown 1896, Earth Defense Force: World Brothers 2 50 0 95 Like this All playable from October 6.",
+      "urls": [
+        "https://blog.playstation.com/2026/09/30/playstation-plus-monthly-games-for-october-f1-25-hunt-showdown-1896-earth-defense-force-world-brothers-2/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-10-20",
+      "value": "October 20, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "Terms apply: play.st/psplus-usageterms\n\n**Promotion ends October 20, 2026.",
+      "urls": [
+        "https://blog.playstation.com/2026/09/30/playstation-plus-monthly-games-for-october-f1-25-hunt-showdown-1896-earth-defense-force-world-brothers-2/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-10-06",
+      "value": "6 October 2027",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "Avatar voucher code expires 6 October 2027.",
+      "urls": [
+        "https://blog.playstation.com/2026/09/30/playstation-plus-monthly-games-for-october-f1-25-hunt-showdown-1896-earth-defense-force-world-brothers-2/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$29.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Minecraft Dungeons II (Mojang, 29th Sep, $29.99) – A hero’s work is never done!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:60",
+      "value": "$59.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Witcher 3: Wild Hunt — Remastered (CD PROJEKT RED, 29th Sep, $59.99) – Monster slayer for hire Geralt of Rivia returns in this modernized version of the acclaimed RPG, featuring visual, performance, and gameplay enhancements – including gyro aiming, Joy-Con 2 mouse controls and touch screen support.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:17",
+      "value": "$16.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Arcade Archives 2 XEVIOUS 3D/G (HAMSTER, 24th Sep, $16.99) - \"XEVIOUS 3D/G\" is a shooting game released by NAMCO LIMITED (current Bandai Namco Entertainment Inc.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:7.99",
+      "value": "$7.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Console Archives KARATE CHAMP (HAMSTER, 24th Sep, $7.99) - *The game includes only the English version; the Japanese version is not included.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$39.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Disney Epic Mickey: Rebrushed (THQ Nordic, 6th Oct, $39.99) - Disney Epic Mickey: Rebrushed brings the magic of Disney to life in a vibrant 3D platformer.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:13.5",
+      "value": "$13.49",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "FOUNTAINS – Nintendo Switch 2 Edition (Crunching Koalas, 24th Sep, $13.49) - The Fountain of Youth was hidden away.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:9.99",
+      "value": "$9.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Middle-earth: Shadow of Mordor Game of the Year Edition (Aspyr, 30th Sep, $9.99) - Winner of over 50 Awards including Game of the Year, Best Action Game and Most Innovative Game.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:25",
+      "value": "$24.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Middle-earth: Shadow of War: Definitive Edition (Aspyr, 30th Sep, $24.99) - Nothing will be forgotten.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:3000000:copies",
+      "value": "3 million copies",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "- Read our Octopath Traveler Switch 1 review\n\nOCTOPATH TRAVELER II (SQUARE ENIX, 1st Oct, $59.99) - This game is a brand-new entry in the OCTOPATH TRAVELER series, the first installment of which was initially released in 2018 and sold over 3 million copies worldwide.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:28",
+      "value": "$27.98",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Nintendo Switch 2 Edition (Sting, 1st Oct, $27.98) - Your journey begins with a single roll of the dice.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:4.99",
+      "value": "$4.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Aery – Calm Horizon 2 (EpiXR Games, 1st Oct, $4.99) - This game is an interactive game experience that is designed to relax your mind and soul.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:2.99",
+      "value": "$2.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Boreal Tenebrae Act 0 (REDDEER.GAMES, 1st Oct, $2.99) - Tamarack Narrows is a town running out of time - fading industry, mounting resentment, and a blood-red aurora bleeding across the sky.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:19",
+      "value": "$19.00",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Down Pit (Tackorama, 1st Oct, $19.00) - Down Pit is a relaxed mining platform game set across many off-world underground locations.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:7.34",
+      "value": "$7.34",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "EGGCONSOLE Nyan Pi MSX2 (D4 Enterprise, 1st Oct, $7.34) - This action-puzzle gem originally debuted in 1990 as part of COMPILE’s Disc Station DX #3.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:12",
+      "value": "$11.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Funi Raccoon Game (The Crayon Eating Company, 2nd Oct, $11.99) - Funi Raccoon Game, a 3D Platformer Collectathon.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:16",
+      "value": "$15.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Highway Blossoms: Gold Rush Edition (Sometimes You, 7th Oct, $15.99) - This is the Gold Rush edition of the game, which includes both the base game and Next Exit DLC in one release!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:4.49",
+      "value": "$4.49",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "KESU-JI (peakvox / O-TWO, 1st Oct, $4.49) - Aim for the top of the World Rankings in each mode!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5.99",
+      "value": "$5.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Larcin Lazer (Seaven Studio, 28th Sep, $5.99) - In this puzzle game combining action and stealth, your memory will be your best tool!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:6.99",
+      "value": "$6.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Mel The Pyramid Cat (Brainium Games, 24th Sep, $6.99) - Explore ancient pyramids with Mel in this cute and challenging 2D platformer!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:7.19",
+      "value": "$7.19",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Monster Nursery (MifaGames, 1st Oct, $7.19) - 1.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:36",
+      "value": "$35.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "& PinkSweets Boosted (Clear River Games, 1st Oct, $35.99) - MUCHI MUCHI PORK!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$19.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(TROOOZE, 24th Sep, $19.99) - Become the skeleton.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:15",
+      "value": "$14.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sorcerer’s Servant SweetWitch (2202GAMES, 1st Oct, $14.99) - As a sorcerer's servant, you'll strategically use weapons and items to gain the upper hand in battle.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5",
+      "value": "$5.00",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Soup Weather (GiantMargarita, 1st Oct, $5.00) - Soup Weather is a short narrative exploration game in which you play as Bean, she’s unemployed, doesn’t seem to have any hobbies and all she does to fill up her time is talk to her neighbors.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:18",
+      "value": "$17.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Tales from The Dancing Moon (DjMonkey, 1st Oct, $17.99) - After the events of a shadow-beast invasion on a seaside town, complete villager quests and find hidden diaries to understand your role in this mysterious character-driven story.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3.99",
+      "value": "$3.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I've gone with the GBA one, because Aria of Sorrow, but the others are on offer, too ($3.99 for Anniversary, 12.49 for Dominus).",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3",
+      "value": "$3",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Another $3 gets you the Gold Edition with all the DLC.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "three games on sale to consider",
+      "value": "three games on sale to consider",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I am really enjoying the \"three games on sale to consider\" part of the article.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:23.0.1",
+      "value": "Update 23.0.1",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Nintendo Switch 2 System Update 23.0.1 Is Now Live, Here Are The Full Patch Notes\n\nRound Up: The First Reviews For The Witcher 3 Remastered Are In\n\nPSA: The Witcher 3 Remastered File Size And Release Time Confirmed, Separate Purchase Required\n\nVideo: The Witcher 3 Remastered Side-By-Side Comparison, Switch Vs.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/nintendo-download-1st-october-north-america-plus-3-discounted-eshop-games-worth-a-look"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "if hunt showdown s unusual and as it turns out fantastically exhilarating and engrossing mixture of inspirations has a single guiding principle it s that predators become prey",
+      "value": "If Hunt: Showdown's unusual - and, as it turns out, fantastically exhilarating and engrossing - mixture of inspirations has a single guiding principle, it's that predators become prey,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"If Hunt: Showdown's unusual - and, as it turns out, fantastically exhilarating and engrossing - mixture of inspirations has a single guiding principle, it's that predators become prey,\" wrote Edwin in his Hunt: Showdown review.",
+      "urls": [
+        "https://www.eurogamer.net/playstation-ps-plus-games-lineup-october-2026"
+      ]
+    }
+  ],
+  "factCount": 3,
+  "evidenceCount": 38,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "2 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "30 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
