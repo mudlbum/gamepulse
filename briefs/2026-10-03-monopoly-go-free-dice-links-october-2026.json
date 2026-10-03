@@ -1,0 +1,165 @@
+{
+  "generated": "2026-10-03T01:33:22.353Z",
+  "workingTitle": "Monopoly Go free dice links (October 2026)",
+  "heat": 36.1,
+  "outletCount": 4,
+  "outlets": [
+    "PCGamesN",
+    "Pure Xbox",
+    "Xbox Wire",
+    "Push Square"
+  ],
+  "newest": "2026-10-02T16:58:24.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Free Play Days – FARCRY 6, Assassin’s Creed Odyssey, Avatar: Frontiers of Pandora, Skull and Bones, The Crew Motorfest",
+        "url": "https://news.xbox.com/en-us/2026/10/01/free-play-days-01-10-2026/",
+        "date": "2026-10-01T15:30:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "PCGamesN",
+        "title": "Monopoly Go free dice links (October 2026)",
+        "url": "https://www.pcgamesn.com/monopoly-go/dice-links-free",
+        "date": "2026-10-02T16:58:24.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Free Play Days: Try These Xbox Games For Free (October 1-4)",
+        "url": "https://www.purexbox.com/news/2026/10/free-play-days-try-these-xbox-games-for-free-october-1-4",
+        "date": "2026-10-01T15:40:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Two Metro Redux Games Are Getting Free Xbox Series X|S Upgrades This October",
+        "url": "https://www.purexbox.com/news/2026/10/two-metro-redux-games-are-getting-free-xbox-series-xs-upgrades-this-october",
+        "date": "2026-10-01T15:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Free PS5 Upgrades for Metro 2033 and Last Light, Out This Month",
+        "url": "https://www.pushsquare.com/news/2026/10/free-ps5-upgrades-for-metro-2033-and-last-light-out-this-month",
+        "date": "2026-10-01T15:15:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Five New Xbox Games Are Finishing Off The Month, Including A Free-To-Play Shadow Drop (September 30)",
+        "url": "https://www.purexbox.com/news/2026/09/five-new-xbox-games-are-finishing-off-the-month-including-a-free-to-play-shadow-drop-september-30",
+        "date": "2026-09-30T10:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "version",
+      "key": "v:season:2",
+      "value": "Season 2",
+      "outlets": [
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "Skull and Bones Skull and Bones is free to play during Xbox Free Play Days, the perfect time to jump into Year 3 Season 2: Crimson Waters.",
+      "urls": [
+        "https://news.xbox.com/en-us/2026/10/01/free-play-days-01-10-2026/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-10-02",
+      "value": "October 2, 2026",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Updated October 2, 2026 Two new Monopoly Go dice links have popped up, and you can follow them now to claim a total of 50 free dice rolls\n\nOnce you run out of dice rolls in Monopoly Go, you're forced to wait up to an hour for more.",
+      "urls": [
+        "https://www.pcgamesn.com/monopoly-go/dice-links-free"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-09-23",
+      "value": "September 23, 2026",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Monopoly Go recently ran a collaboration event with Looney Tunes called Happy Harvest Season, which ran from July 29 to September 23, 2026.",
+      "urls": [
+        "https://www.pcgamesn.com/monopoly-go/dice-links-free"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "platform specific features",
+      "value": "platform-specific features",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "More details will apparently be revealed closer to launch, including \"platform-specific features\", so we'll circle back around at the end of the month with more information.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/two-metro-redux-games-are-getting-free-xbox-series-xs-upgrades-this-october"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:50000000:players",
+      "value": "50 million players",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"For new players, it’s time to join the 50 million players who fell in love with our acclaimed METRO storytelling and prepare yourself for what’s in store for METRO 2039 come February 4th.\"\n\nExcited for these Metro Xbox upgrades?",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/two-metro-redux-games-are-getting-free-xbox-series-xs-upgrades-this-october"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "for new players it s time to join the 50 million players who fell in love with our acclaimed metro storytelling and prepare yourself for what s in store for metro 2039 come february 4th",
+      "value": "For new players, it’s time to join the 50 million players who fell in love with our acclaimed METRO storytelling and prepare yourself for what’s in store for METRO 2039 come February 4th.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"For new players, it’s time to join the 50 million players who fell in love with our acclaimed METRO storytelling and prepare yourself for what’s in store for METRO 2039 come February 4th.\"\n\nExcited for these Metro Xbox upgrades?",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/two-metro-redux-games-are-getting-free-xbox-series-xs-upgrades-this-october"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "5 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

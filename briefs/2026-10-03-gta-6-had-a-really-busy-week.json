@@ -1,0 +1,291 @@
+{
+  "generated": "2026-10-03T01:33:21.284Z",
+  "workingTitle": "GTA 6 Had A Really Busy Week",
+  "heat": 98.5,
+  "outletCount": 8,
+  "outlets": [
+    "Kotaku",
+    "PC Gamer",
+    "GameSpot",
+    "Eurogamer",
+    "IGN",
+    "Push Square",
+    "Destructoid",
+    "PCGamesN"
+  ],
+  "newest": "2026-10-02T23:00:55.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "GTA 6 Had A Really Busy Week",
+        "url": "https://kotaku.com/gta-6-had-a-really-busy-week-2000739409",
+        "date": "2026-10-02T23:00:55.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "GTA 6 marketing stunt reveals none of our UK editors have heard of the Miami Heat",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-marketing-stunt-reveals-none-of-our-uk-editors-have-heard-of-the-miami-heat/",
+        "date": "2026-10-02T22:49:09.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "GTA 6's 18+ age rating reveals Lucia and Jason can partake in drug use \"directly from their inventory\" and \"at any time\"",
+        "url": "https://www.eurogamer.net/gta6-age-rating-pegi-lucia-jason-drug-use",
+        "date": "2026-10-02T19:08:59.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Ex-Rockstar Boss Dan Houser Doesn't Play a Lot of Open-World Games – and Doesn't Plan to Play GTA 6",
+        "url": "https://www.ign.com/articles/ex-rockstar-boss-dan-houser-doesnt-play-a-lot-of-open-world-games-and-doesnt-plan-to-play-gta-6",
+        "date": "2026-10-02T18:10:29.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Rockstar Co-Founder Dan Houser Says He Still Hasn’t Watched The Big GTA 6 Netflix Reveal",
+        "url": "https://kotaku.com/rockstar-cofounder-dan-houser-says-he-still-hasnt-watched-the-big-gta-6-netflix-reveal-2000739350",
+        "date": "2026-10-02T18:06:33.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Screenshot Suggests It Won’t Be Shy About Movie References",
+        "url": "https://www.gamespot.com/articles/gta-6-screenshot-suggests-it-wont-be-shy-about-movie-references/",
+        "date": "2026-10-02T19:41:02.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "the team will temporarily rebrand though from what i can tell it s as",
+      "value": "The team will temporarily rebrand, though from what I can tell it's as",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Miami's NBA basketball team, the Heat, is doing a cross-promotion event with Rockstar, \"A Night in Vice City.\" The team will temporarily rebrand, though from what I can tell it's as \"Vice City\" and not \"The Vice City Heat,\" which feels weird but what do I know.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-marketing-stunt-reveals-none-of-our-uk-editors-have-heard-of-the-miami-heat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a basketball stunt is so much more niche than say the netflix trailer",
+      "value": "A basketball stunt is so much more niche than, say, the Netflix trailer,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"A basketball stunt is so much more niche than, say, the Netflix trailer,\" Fraser argued.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-marketing-stunt-reveals-none-of-our-uk-editors-have-heard-of-the-miami-heat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i don t see the marketing value of sports because i don t follow sports",
+      "value": "I don't see the marketing value of sports because I don't follow sports.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Lauren pointed out that Fraser was effectively saying, \"I don't see the marketing value of sports because I don't follow sports.\" Fraser dug in.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-marketing-stunt-reveals-none-of-our-uk-editors-have-heard-of-the-miami-heat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i have heard of the miami dolphins",
+      "value": "I have heard of the Miami Dolphins,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I have heard of the Miami Dolphins,\" Fraser remarked, perhaps as some manner of conciliatory gesture to his American colleagues, \"but only because they featured in Ace Ventura.\"\n\nJoshua Wolens Knows every major and minor participant in the October Revolution and their party affiliation.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-marketing-stunt-reveals-none-of-our-uk-editors-have-heard-of-the-miami-heat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i also don t know what a miami heat is",
+      "value": ", I also don't know what a Miami Heat is,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Then, the other shoe dropped: \" , I also don't know what a Miami Heat is,\" news writer Joshua Wolens, who lives in England, unhelpfully proffered.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-marketing-stunt-reveals-none-of-our-uk-editors-have-heard-of-the-miami-heat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but i generally assume i don t know most of what s happening in the modern world",
+      "value": "But I generally assume I don't know most of what's happening in the modern world.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"But I generally assume I don't know most of what's happening in the modern world.\"\n\nIt was around this juncture that Fraser agreed to be subject to a formal write-up on PC Gamer dot com.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-marketing-stunt-reveals-none-of-our-uk-editors-have-heard-of-the-miami-heat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "basketballs are a myth created by 2k to sell their annual videogame",
+      "value": "basketballs are a myth created by 2K to sell their annual videogame,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "At 9:06 am, UK-based social video editor Paul Broughton introduced the new argument that \"basketballs are a myth created by 2K to sell their annual videogame,\" but I think it would be dishonest of me to add him to the counter.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-marketing-stunt-reveals-none-of-our-uk-editors-have-heard-of-the-miami-heat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i learned what they are two hours ago",
+      "value": "I learned what they are two hours ago!",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I learned what they are two hours ago!\" Sam informed us.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-marketing-stunt-reveals-none-of-our-uk-editors-have-heard-of-the-miami-heat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i m aware of the miami dolphins",
+      "value": "I'm aware of the Miami Dolphins.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I'm aware of the Miami Dolphins.\" Unlike Fraser, Sam did not come by this knowledge through the works of Jim Carrey, but rather some kind of hazy osmosis through American podcasts.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-marketing-stunt-reveals-none-of-our-uk-editors-have-heard-of-the-miami-heat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "drug use that you can try",
+      "value": "drug use that you can try",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Joining the strip clubs and violent car-jackings and carefree murder is \"frequent and prominent\" drug use that you can try \"at any time,\" according to a new age rating.",
+      "urls": [
+        "https://www.eurogamer.net/gta6-age-rating-pegi-lucia-jason-drug-use"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "drug use is frequent and prominent with the player being able to partake in drug use with others and to use illegal drugs directly from their inventory",
+      "value": "Drug use is frequent and prominent with the player being able to partake in drug use with others and to use illegal drugs directly from their inventory,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Drug use is frequent and prominent with the player being able to partake in drug use with others and to use illegal drugs directly from their inventory,\" the now-deleted rating stated.",
+      "urls": [
+        "https://www.eurogamer.net/gta6-age-rating-pegi-lucia-jason-drug-use"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "most notably cocaine can be carried around by the player and snorted directly from their hand at any time",
+      "value": "Most notably, cocaine can be carried around by the player and snorted directly from their hand at any time.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Most notably, cocaine can be carried around by the player and snorted directly from their hand at any time.\"\n\nWhile most GTA stories usually centre drug trade in some fashion, most of the series' protagonists aren't so enthusiastic about using the goods they sell.",
+      "urls": [
+        "https://www.eurogamer.net/gta6-age-rating-pegi-lucia-jason-drug-use"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "given that i spend a large amount of time trying to make open world games and the rest of my conscious time trying to figure out innovative ways to market them i don t need to see what other people are",
+      "value": "Given that I spend a large amount of time trying to make open-world games, and the rest of my conscious time trying to figure out innovative ways to market them, I don’t need to see what other people are ,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Given that I spend a large amount of time trying to make open-world games, and the rest of my conscious time trying to figure out innovative ways to market them, I don’t need to see what other people are ,\" he told Variety.",
+      "urls": [
+        "https://www.ign.com/articles/ex-rockstar-boss-dan-houser-doesnt-play-a-lot-of-open-world-games-and-doesnt-plan-to-play-gta-6"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it s not my job within any company that i ve ever worked at thankfully to be the person that understands what everyone else is doing",
+      "value": "It’s not my job within any company that I’ve ever worked at, thankfully, to be the person that understands what everyone else is doing,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I’m always trying to think about new ways of doing it, not sit there in some kind of comparison of what I would have done differently.\"\n\n\"It’s not my job within any company that I’ve ever worked at, thankfully, to be the person that understands what everyone else is doing,\" Houser continued.",
+      "urls": [
+        "https://www.ign.com/articles/ex-rockstar-boss-dan-houser-doesnt-play-a-lot-of-open-world-games-and-doesnt-plan-to-play-gta-6"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "on not playing many other open world games houser said",
+      "value": "On not playing many other open-world games, Houser said,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "So I really try and avoid things that I think are going to overly influence me.\"\n\nOn not playing many other open-world games, Houser said, \"I find when I play them, I can almost deconstruct the strengths and weaknesses of the team in real time and it’s distracting.",
+      "urls": [
+        "https://www.ign.com/articles/ex-rockstar-boss-dan-houser-doesnt-play-a-lot-of-open-world-games-and-doesnt-plan-to-play-gta-6"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 15,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

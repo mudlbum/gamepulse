@@ -1,15 +1,45 @@
 {
-  "decided": "2026-10-02T01:52:52.811Z",
+  "decided": "2026-10-03T01:33:22.431Z",
   "publish": true,
-  "reason": "selected on score 48.7",
+  "reason": "selected on score 40.9",
   "brief": "2026-10-02-nintendo-download-1st-october-north-america-plus-3-discounte.json",
   "title": "Nintendo Download: 1st October (North America) - Plus 3 Discounted eShop Games Worth A Look",
   "considered": [
     {
+      "file": "2026-10-03-star-wars-galactic-racer-review.json",
+      "title": "Star Wars: Galactic Racer review",
+      "pass": false,
+      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-03-monopoly-go-free-dice-links-october-2026.json",
+      "title": "Monopoly Go free dice links (October 2026)",
+      "pass": false,
+      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-03-gta-6-had-a-really-busy-week.json",
+      "title": "GTA 6 Had A Really Busy Week",
+      "pass": false,
+      "reason": "0 of 15 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-10-03-all-character-and-weapon-skins-in-gears-of-war-e-day-and-how.json",
+      "title": "All character and weapon skins in Gears of War: E-Day and how to get them",
+      "pass": false,
+      "reason": "0 of 14 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-10-03-5-big-things-that-just-changed-in-the-world-of-warcraft-fore.json",
+      "title": "5 Big Things That Just Changed In The World Of Warcraft: Forever Beta",
+      "pass": false,
+      "reason": "0 of 11 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
       "file": "2026-10-02-nintendo-download-1st-october-north-america-plus-3-discounte.json",
       "title": "Nintendo Download: 1st October (North America) - Plus 3 Discounted eShop Games Worth A Look",
       "pass": true,
-      "reason": "3/38 claims corroborated · 5 outlets · primary source · 11h old"
+      "reason": "3/38 claims corroborated · 5 outlets · primary source · 35h old"
     },
     {
       "file": "2026-10-02-gears-of-war-e-days-campaign-is-buried-in-the-past-review.json",
@@ -22,36 +52,6 @@
       "title": "Anime Mysterious codes (October 2026)",
       "pass": false,
       "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-10-02-all-secret-hideout-locations-and-puzzle-solutions-in-control.json",
-      "title": "All secret hideout locations and puzzle solutions in Control Resonant",
-      "pass": false,
-      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-02-9-new-2026-games-on-sale-in-the-steam-autumn-sale.json",
-      "title": "9 new 2026 games on sale in the Steam Autumn Sale",
-      "pass": true,
-      "reason": "4/16 claims corroborated · 4 outlets · secondary only · 1h old"
-    },
-    {
-      "file": "2026-10-01-the-witcher-3-wild-hunt-remastered-review-update.json",
-      "title": "The Witcher 3: Wild Hunt Remastered Review Update",
-      "pass": false,
-      "reason": "0 of 14 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-10-01-rumour-new-uncharted-game-in-the-works-at-naughty-dog-nathan.json",
-      "title": "Rumour: New Uncharted Game in the Works at Naughty Dog, Nathan Drake Not the Lead Character",
-      "pass": false,
-      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-01-rockstar-suggests-disney-world-and-seaworld-probably-wont-be.json",
-      "title": "Rockstar Suggests Disney World and SeaWorld Probably Won't Be in GTA 6",
-      "pass": false,
-      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }

@@ -1,0 +1,107 @@
+{
+  "generated": "2026-10-03T01:33:21.898Z",
+  "workingTitle": "Star Wars: Galactic Racer review",
+  "heat": 53.1,
+  "outletCount": 7,
+  "outlets": [
+    "Eurogamer",
+    "Pure Xbox",
+    "PCGamesN",
+    "IGN",
+    "PC Gamer",
+    "Destructoid",
+    "Push Square"
+  ],
+  "newest": "2026-10-02T13:00:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Eurogamer",
+        "title": "Star Wars: Galactic Racer review",
+        "url": "https://www.eurogamer.net/star-wars-galactic-racer-review",
+        "date": "2026-10-02T13:00:00.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Star Wars: Galactic Racer Is Getting Some Phenomenal Review Scores Ahead Of Launch",
+        "url": "https://www.purexbox.com/news/2026/10/star-wars-galactic-racer-is-getting-some-phenomenal-review-scores-ahead-of-launch",
+        "date": "2026-10-02T12:18:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Star Wars Galactic Racer review - breakneck revenge",
+        "url": "https://www.pcgamesn.com/star-wars-galactic-racer/review",
+        "date": "2026-10-02T12:00:15.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Star Wars: Galactic Racer Review",
+        "url": "https://www.ign.com/articles/star-wars-galactic-racer-review",
+        "date": "2026-10-02T12:00:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Star Wars: Galactic Racer review – Run-based bash racer with Burnout-style takedowns",
+        "url": "https://www.pcgamer.com/games/racing/star-wars-galactic-racer-review/",
+        "date": "2026-10-02T12:00:00.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Star Wars: Galactic Racer review – Finger-breakin’ good",
+        "url": "https://www.destructoid.com/reviews/star-wars-galactic-racer-review/",
+        "date": "2026-10-02T12:00:00.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "the thrilling throwback to arcade racing s glory days wows with visual might and a great single player offering",
+      "value": "The thrilling throwback to arcade racing’s glory days wows with visual might and a great single-player offering.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The thrilling throwback to arcade racing’s glory days wows with visual might and a great single-player offering.\"\n\n\"Star Wars: Galactic Racer is everything I hoped it would be.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/star-wars-galactic-racer-is-getting-some-phenomenal-review-scores-ahead-of-launch"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:60",
+      "value": "$60",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Expect to pay: $60/&pound;50 Developer: Fuse Games Publisher: Secret Mode Reviewed on: Windows 11, Intel Core i9, 32GB RAM, Nvidia RTX 4060 Multiplayer?: Yes Steam Deck: Unknown Link: Steam\n\nThe Star Wars movies have always had a mashup quality.",
+      "urls": [
+        "https://www.pcgamer.com/games/racing/star-wars-galactic-racer-review/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
