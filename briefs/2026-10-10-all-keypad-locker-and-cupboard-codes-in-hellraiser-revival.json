@@ -1,0 +1,76 @@
+{
+  "generated": "2026-10-10T01:59:10.411Z",
+  "workingTitle": "All Keypad, Locker, and Cupboard codes in Hellraiser: Revival",
+  "heat": 37.1,
+  "outletCount": 4,
+  "outlets": [
+    "Destructoid",
+    "Eurogamer",
+    "PCGamesN",
+    "Push Square"
+  ],
+  "newest": "2026-10-09T20:20:18.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "All Keypad, Locker, and Cupboard codes in Hellraiser: Revival",
+        "url": "https://www.destructoid.com/all-keypad-locker-and-cupboard-codes-in-hellraiser-revival/",
+        "date": "2026-10-09T20:20:18.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Hellraiser: Revival review",
+        "url": "https://www.eurogamer.net/hellraiser-revival-review",
+        "date": "2026-10-08T12:00:32.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Hellraiser Revival review - Angels, demons, and everything in between",
+        "url": "https://www.pcgamesn.com/hellraiser-revival/review",
+        "date": "2026-10-08T12:00:04.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Review: Hellraiser: Revival (PS5) - Faithful Adaptation Let Down by Severe Gameplay Woes",
+        "url": "https://www.pushsquare.com/reviews/ps5/hellraiser-revival",
+        "date": "2026-10-08T12:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "why did that feel kind of good",
+      "value": "why did that feel kind of good?",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Even seemingly mundane things like increasing your health or saving the game require you to shove your hand into weird, pain-inducing contraptions, often prompting a \"why did that feel kind of good?\" from Aidan.",
+      "urls": [
+        "https://www.pcgamesn.com/hellraiser-revival/review"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

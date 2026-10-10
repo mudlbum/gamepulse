@@ -1,0 +1,163 @@
+{
+  "generated": "2026-10-10T01:59:09.872Z",
+  "workingTitle": "Call Of Duty: MW4 Early Access Also Includes DMZ, Here’s How To Get In",
+  "heat": 45,
+  "outletCount": 5,
+  "outlets": [
+    "GameSpot",
+    "Destructoid",
+    "IGN",
+    "Xbox Wire",
+    "Eurogamer"
+  ],
+  "newest": "2026-10-09T19:17:24.000Z",
+  "readableCount": 4,
+  "sourceCount": 5,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "DMZ — 5 Features to Get Excited for in Call of Duty: Modern Warfare 4’s New Mode",
+        "url": "https://news.xbox.com/en-us/2026/10/09/dmz-5-features-get-excited-for-mw4/",
+        "date": "2026-10-09T17:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Modern Warfare 4’s DMZ mode gets 3-day early access on Oct. 20",
+        "url": "https://www.destructoid.com/modern-warfare-4s-dmz-mode-gets-one-week-early-access-on-oct-20/",
+        "date": "2026-10-09T18:07:57.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Call of Duty: Modern Warfare 4 Launch Rollout Adds DMZ Early Access",
+        "url": "https://www.ign.com/articles/call-of-duty-modern-warfare-4-launch-rollout-adds-dmz-early-access",
+        "date": "2026-10-09T17:11:53.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Call of Duty: Modern Warfare 4 reveals pricey spawn options for DMZ, which offer rich players an enormous advantage over poor players spawning on foot",
+        "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-paid-infil-spawn-options",
+        "date": "2026-10-08T12:17:13.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Call Of Duty: MW4 Early Access Also Includes DMZ, Here’s How To Get In",
+        "url": "https://www.gamespot.com/articles/call-of-duty-mw4-early-access-also-includes-dmz-heres-how-to-get-in/",
+        "date": "2026-10-09T19:17:24.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "definitive extraction shooter experience",
+      "value": "definitive extraction shooter experience,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In today&#x27;s post, Infinity Ward described the new take on the mode as the series&#x27; \"definitive extraction shooter experience,\" promising persistent progression in the open-world combat environment known as the Hajin Exclusion Zone.",
+      "urls": [
+        "https://www.ign.com/articles/call-of-duty-modern-warfare-4-launch-rollout-adds-dmz-early-access"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there x27 s an interesting story with the dmz beta where we had to make some decisions",
+      "value": "There&#x27;s an interesting story with the DMZ beta, where we had to make some decisions,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"There&#x27;s an interesting story with the DMZ beta, where we had to make some decisions,\" studio multiplayer creative director Joe Cecot said in a recent behind-the-scenes video (below).",
+      "urls": [
+        "https://www.ign.com/articles/call-of-duty-modern-warfare-4-launch-rollout-adds-dmz-early-access"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100000",
+      "value": "$100,000",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "These range from being free to costing a whopping $100,000 in DMZ Cash per deployment.",
+      "urls": [
+        "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-paid-infil-spawn-options"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5000",
+      "value": "$5,000",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The next infil option costs $5,000 and spawns the squad in a Polaris Dagor A1, a tactical off-road vehicle, offering a significant speed advantage.",
+      "urls": [
+        "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-paid-infil-spawn-options"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:25000",
+      "value": "$25,000",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you're willing to spend $25,000 to deploy, meanwhile, you'll do so in a Light Tactical Vehicle (LTV), which has considerably more armour.",
+      "urls": [
+        "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-paid-infil-spawn-options"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50000",
+      "value": "$50,000",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Then there's the $50,000 option, which spawns the squad in a helicopter, which represents an enormous advantage over people spawning on foot.",
+      "urls": [
+        "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-paid-infil-spawn-options"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 6,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
