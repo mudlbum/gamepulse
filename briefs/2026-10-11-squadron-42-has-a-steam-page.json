@@ -1,0 +1,160 @@
+{
+  "generated": "2026-10-11T01:24:45.828Z",
+  "workingTitle": "Squadron 42 has a Steam page",
+  "heat": 40.2,
+  "outletCount": 4,
+  "outlets": [
+    "PC Gamer",
+    "Destructoid",
+    "PCGamesN",
+    "IGN"
+  ],
+  "newest": "2026-10-10T22:25:54.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Squadron 42 has a Steam page",
+        "url": "https://www.pcgamer.com/games/fps/squadron-42-has-a-steam-page/",
+        "date": "2026-10-10T22:25:54.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "It took Squadron 42 14 years but it finally crawled onto Steam",
+        "url": "https://www.destructoid.com/squadron-42-on-steam/",
+        "date": "2026-10-10T19:50:47.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Star Citizen's blockbuster story spin-off Squadron 42 just got a Steam page",
+        "url": "https://www.pcgamesn.com/star-citizen/squadron-42-steam",
+        "date": "2026-10-10T15:00:42.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Star Citizen Single-Player Spinoff Squadron 42 Reemerges With Flashy New Trailer, Steam Wishlists, and Cast Confirmation",
+        "url": "https://www.ign.com/articles/star-citizen-single-player-spinoff-squadron-42-reemerges-with-flashy-new-trailer-steam-wishlists-and-cast-confirmation",
+        "date": "2026-10-10T15:00:00.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "the heart of a galactic war",
+      "value": "the heart of a galactic war,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In Squadron 42, the Star Citizen team promises to deliver a single-player game telling the tale of a UEE Navy recruit thrown into \"the heart of a galactic war,\" and filled with spectacular action both on the ground and among the stars.",
+      "urls": [
+        "https://www.pcgamesn.com/star-citizen/squadron-42-steam"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "active participant in the unfolding drama",
+      "value": "active participant in the unfolding drama.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Their performances aren't just limited to big-budget cutscenes, either; CIG notes that the characters will be heavily featured during the gameplay, ensuring you always feel like an \"active participant in the unfolding drama.\" Our setting is 2945, where the United Empire of Earth is on the brink of collapse, threatened by human outlaws and hostile alien forces alike.",
+      "urls": [
+        "https://www.pcgamesn.com/star-citizen/squadron-42-steam"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "face the sacrifices and split second decisions",
+      "value": "face the sacrifices and split-second decisions",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Your character will be working alongside the crew of a vast capital ship, where you'll build relationships and \"face the sacrifices and split-second decisions\" that will shape your legacy.",
+      "urls": [
+        "https://www.pcgamesn.com/star-citizen/squadron-42-steam"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it is truly something special and so needs the opportunity to have the focus of the wider gaming world",
+      "value": "It is truly something special, and so needs the opportunity to have the focus of the wider gaming world.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It is truly something special, and so needs the opportunity to have the focus of the wider gaming world.\" Its arrival now on Steam, as simple as it seems, might lend some additional confidence in that newfound target.",
+      "urls": [
+        "https://www.pcgamesn.com/star-citizen/squadron-42-steam"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000000000",
+      "value": "$1 billion",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Star Citizen crossed the $1 billion raised barrier in May — a significant milestone that came shortly after a $5,000 virtual spaceship you couldn’t actually fly in-game went on sale.",
+      "urls": [
+        "https://www.ign.com/articles/star-citizen-single-player-spinoff-squadron-42-reemerges-with-flashy-new-trailer-steam-wishlists-and-cast-confirmation"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5000",
+      "value": "$5,000",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Star Citizen crossed the $1 billion raised barrier in May — a significant milestone that came shortly after a $5,000 virtual spaceship you couldn’t actually fly in-game went on sale.",
+      "urls": [
+        "https://www.ign.com/articles/star-citizen-single-player-spinoff-squadron-42-reemerges-with-flashy-new-trailer-steam-wishlists-and-cast-confirmation"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50000000",
+      "value": "$50 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It’s since raised a further $50 million.",
+      "urls": [
+        "https://www.ign.com/articles/star-citizen-single-player-spinoff-squadron-42-reemerges-with-flashy-new-trailer-steam-wishlists-and-cast-confirmation"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 7,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

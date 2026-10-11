@@ -1,0 +1,286 @@
+{
+  "generated": "2026-10-11T01:24:45.142Z",
+  "workingTitle": "Arc Raiders' 2.0 Update and 'Spider-Man' Grappling Hook Drive Player Count to Reach 7-Month High",
+  "heat": 85.4,
+  "outletCount": 8,
+  "outlets": [
+    "IGN",
+    "Destructoid",
+    "Eurogamer",
+    "GameSpot",
+    "PC Gamer",
+    "PCGamesN",
+    "Xbox Wire",
+    "Pure Xbox"
+  ],
+  "newest": "2026-10-10T21:07:54.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "ARC Raiders"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Arc Raiders' 2.0 Update and 'Spider-Man' Grappling Hook Drive Player Count to Reach 7-Month High",
+        "url": "https://www.ign.com/articles/arc-raiders-20-update-and-spider-man-grappling-hook-drive-player-count-to-reach-7-month-high",
+        "date": "2026-10-10T21:07:54.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to amplify weapons in ARC Raiders",
+        "url": "https://www.destructoid.com/how-to-amplify-weapons-in-arc-raiders/",
+        "date": "2026-10-10T19:18:16.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "All Weapon Amplifications in ARC Raiders and how they work",
+        "url": "https://www.destructoid.com/all-weapon-amplifications-in-arc-raiders-and-how-they-work/",
+        "date": "2026-10-10T11:29:20.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Arc Raiders could eventually be split into PvE and PvP, says executive producer",
+        "url": "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer",
+        "date": "2026-10-10T11:21:05.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to complete When Everything Falls in ARC Raiders",
+        "url": "https://www.destructoid.com/how-to-complete-when-everything-falls-in-arc-raiders/",
+        "date": "2026-10-10T08:45:30.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to complete Empathetic Prototypes in ARC Raiders",
+        "url": "https://www.destructoid.com/how-to-complete-empathetic-prototypes-in-arc-raiders/",
+        "date": "2026-10-09T22:06:30.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:n:500000:players",
+      "value": "500,000 players",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "After reaching an all-time peak of nearly 500,000 players on Steam (via SteamDB), it&#x27;s consistently struggled to reach more than 35,000 players on PC since July.",
+      "urls": [
+        "https://www.ign.com/articles/arc-raiders-20-update-and-spider-man-grappling-hook-drive-player-count-to-reach-7-month-high"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:35000:players",
+      "value": "35,000 players",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "After reaching an all-time peak of nearly 500,000 players on Steam (via SteamDB), it&#x27;s consistently struggled to reach more than 35,000 players on PC since July.",
+      "urls": [
+        "https://www.ign.com/articles/arc-raiders-20-update-and-spider-man-grappling-hook-drive-player-count-to-reach-7-month-high"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this is one of the best updates ever in a video game",
+      "value": "This is one of the best updates ever in a video game.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This is one of the best updates ever in a video game.\"\n\nThe same post continued, first praising Frozen Trail&#x27;s scale.",
+      "urls": [
+        "https://www.ign.com/articles/arc-raiders-20-update-and-spider-man-grappling-hook-drive-player-count-to-reach-7-month-high"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i absolutely loved arc raiders for its first 6 months but i got frustrated with it since they announced the twice a year update",
+      "value": "I absolutely loved Arc Raiders for its first 6 months but I got frustrated with it since they announced the twice a year update,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I absolutely loved Arc Raiders for its first 6 months but I got frustrated with it since they announced the twice a year update,\" they said.",
+      "urls": [
+        "https://www.ign.com/articles/arc-raiders-20-update-and-spider-man-grappling-hook-drive-player-count-to-reach-7-month-high"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "just played an hour before work and i couldn x27 t even explore more than 15 of the map",
+      "value": "Just played an hour before work, and I couldn&#x27;t even explore more than 15% of the map,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "😭 📽️ u/cybrsloth92 https://t.co/w2HHvCDEkK\n\n\"Just played an hour before work, and I couldn&#x27;t even explore more than 15% of the map,\" one player said.",
+      "urls": [
+        "https://www.ign.com/articles/arc-raiders-20-update-and-spider-man-grappling-hook-drive-player-count-to-reach-7-month-high"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there were so many things to check out and explore this time they really delivered a big map",
+      "value": "There were so many things to check out and explore, this time they really delivered a big map!",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"There were so many things to check out and explore, this time they really delivered a big map!\"\n\n\"I agree, not to mention the new weapons, skills, weapons mods, it’s hard to believe they did all this in less than 6 months.",
+      "urls": [
+        "https://www.ign.com/articles/arc-raiders-20-update-and-spider-man-grappling-hook-drive-player-count-to-reach-7-month-high"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "one fan said referring to a new wall running skill",
+      "value": "one fan said, referring to a new wall-running skill,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Others can&#x27;t help but draw comparisons to how the toy allows players to swing through maps like \"Spider-Man.\"\n\n\"I was going to get that,\" one fan said, referring to a new wall-running skill, \"but then I remembered grappling hooks exist now.",
+      "urls": [
+        "https://www.ign.com/articles/arc-raiders-20-update-and-spider-man-grappling-hook-drive-player-count-to-reach-7-month-high"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "with polished gunplay and an irresistible grind arc raiders sets a new standard for extraction shooters",
+      "value": "With polished gunplay and an irresistible grind, Arc Raiders sets a new standard for extraction shooters.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "IGN gave Arc Raiders a 9/10 review when it arrived almost exactly one year ago, saying, \"With polished gunplay and an irresistible grind, Arc Raiders sets a new standard for extraction shooters.\" Even if Embark can&#x27;t entertain a consistently high number of players, it&#x27;s clear the studio has more plans for the IP in the future.",
+      "urls": [
+        "https://www.ign.com/articles/arc-raiders-20-update-and-spider-man-grappling-hook-drive-player-count-to-reach-7-month-high"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-04",
+      "value": "November 4, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "These drops will be live between October 8 - November 4, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/arc-raiders-20-update-and-spider-man-grappling-hook-drive-player-count-to-reach-7-month-high"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i mean the community is already split along those lines",
+      "value": "I mean, the community is already split along those lines,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I mean, the community is already split along those lines,\" he said.",
+      "urls": [
+        "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "somewhat limited around some of the higher end stuff",
+      "value": "somewhat limited around some of the higher-end stuff",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Gr&oslash;ndal said the test, which runs from 13th to 20th October, will help Embark identify how best to implement PvE, but admitted it's \"somewhat limited around some of the higher-end stuff\" because it \"has a chance of affecting\" the overall experience.",
+      "urls": [
+        "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "desire for fewer hostile encounters and 51 percent of the surveyed playerbase has expressed an interest in a dedicated pve option",
+      "value": "desire for fewer hostile encounters and 51 percent of the surveyed playerbase has expressed an interest in a dedicated PvE option",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Over 70 percent of friendly players and even 40 percent of PvP players, however, have expressed a \"desire for fewer hostile encounters and 51 percent of the surveyed playerbase has expressed an interest in a dedicated PvE option\".",
+      "urls": [
+        "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it s possible that this will not work",
+      "value": "it's possible that this will not work",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That said, there are caveats to the upcoming test, with Embark stating plainly that \"it's possible that this will not work\", and the test \"is not a promise that there will be a PvE mode in the future\".",
+      "urls": [
+        "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but take this as an indication that we are seriously considering it",
+      "value": "But take this as an indication that we are seriously considering it,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"But take this as an indication that we are seriously considering it,\" the studio added.",
+      "urls": [
+        "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 14,
+  "ourData": [
+    {
+      "game": "ARC Raiders",
+      "concurrent": 117451,
+      "rank": 8,
+      "change24h": 1.9,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

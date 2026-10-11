@@ -1,0 +1,238 @@
+{
+  "generated": "2026-10-11T01:24:45.740Z",
+  "workingTitle": "GTA 6 leaker threatens to upload a build with 'full story mode'",
+  "heat": 41.6,
+  "outletCount": 4,
+  "outlets": [
+    "PC Gamer",
+    "Eurogamer",
+    "Kotaku",
+    "IGN"
+  ],
+  "newest": "2026-10-10T23:32:29.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "GTA 6 leaker threatens to upload a build with 'full story mode'",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-leaker-threatens-to-upload-a-build-with-full-story-mode/",
+        "date": "2026-10-10T23:32:29.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "GTA 6 leaker CyberLeek is now reportedly threatening to release a full, playable build of the game",
+        "url": "https://www.eurogamer.net/gta-6-leaker-cyberleek-threatens-playable-build-leak",
+        "date": "2026-10-10T19:42:21.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "GTA 6 Leaker Threatens Rockstar With Doomsday Scenario If Meme Coin Hits $30 Million",
+        "url": "https://kotaku.com/gta-6-leaker-threatens-rockstar-with-doomsday-scenario-if-meme-coin-hits-30-million-2000743779",
+        "date": "2026-10-10T17:12:53.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Leaker Threatens to Release Build With Full Story Mode Played to the End, Ties Lucia's Clothing to Crypto Scheme",
+        "url": "https://www.ign.com/articles/gta-6-leaker-threatens-to-release-build-with-full-story-mode-played-to-the-end-ties-lucias-clothing-to-crypto-scheme",
+        "date": "2026-10-10T16:23:47.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:30000000",
+      "value": "$30 million",
+      "outlets": [
+        "Eurogamer",
+        "Kotaku",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "CyberLeek now reportedly says the build will go out if their cryptocurrency coin reaches a market cap of $30 million, and claims it can be played through to the end credits.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-leaker-cyberleek-threatens-playable-build-leak",
+        "https://kotaku.com/gta-6-leaker-threatens-rockstar-with-doomsday-scenario-if-meme-coin-hits-30-million-2000743779",
+        "https://www.ign.com/articles/gta-6-leaker-threatens-to-release-build-with-full-story-mode-played-to-the-end-ties-lucias-clothing-to-crypto-scheme"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:26000000",
+      "value": "$26 million",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Cyberleek has found a new way of generating hype: promising to leak a build of the game if their memecoin's marketcap goes up another $26 million or so.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-leaker-threatens-to-upload-a-build-with-full-story-mode/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this is obviously not how we intended for you to see the game after all this time",
+      "value": "this is obviously not how we intended for you to see the game after all this time",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Rockstar has previously issued statements regarding the leaker, noting that the leaks are \"heartbreaking\" and that \"this is obviously not how we intended for you to see the game after all this time\".",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-leaker-cyberleek-threatens-playable-build-leak"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "here s the deal nice and clean",
+      "value": "Here's the deal, nice and clean,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Here's the deal, nice and clean,\" the demand reads.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-leaker-cyberleek-threatens-playable-build-leak"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:250000",
+      "value": "$250,000",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Cyberleek account went quiet back in late August after seemingly withdrawing $250,000 worth of its meme coin, leading to the crypto scheme’s immediate crash.",
+      "urls": [
+        "https://kotaku.com/gta-6-leaker-threatens-rockstar-with-doomsday-scenario-if-meme-coin-hits-30-million-2000743779"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3800000",
+      "value": "$3.8 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "At the time of this article’s publication, Cyberleek had a market cap of $3.8 million, having spiked at $5.7 million earlier today as reports of the message hit social media.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-leaker-threatens-to-release-build-with-full-story-mode-played-to-the-end-ties-lucias-clothing-to-crypto-scheme"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5700000",
+      "value": "$5.7 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "At the time of this article’s publication, Cyberleek had a market cap of $3.8 million, having spiked at $5.7 million earlier today as reports of the message hit social media.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-leaker-threatens-to-release-build-with-full-story-mode-played-to-the-end-ties-lucias-clothing-to-crypto-scheme"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:2000000",
+      "value": "$2 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For example, at $2 million, Cyberleek threatened to release gameplay showing Lucia wearing a bikini.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-leaker-threatens-to-release-build-with-full-story-mode-played-to-the-end-ties-lucias-clothing-to-crypto-scheme"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:4000000",
+      "value": "$4 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to Cyberleek, a $4 million market cap would mean releasing gameplay with Lucia “fully naked.”\n\nHowever, there is significant skepticism about Cyberleek’s support of physical media, with many accusing the leaker of running a cryptocurrency scam.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-leaker-threatens-to-release-build-with-full-story-mode-played-to-the-end-ties-lucias-clothing-to-crypto-scheme"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "for its development team and",
+      "value": "for its development team and",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In August, Rockstar addressed the GTA 6 leaks, describing the situation as \"heartbreaking\" for its development team and \"unfortunate\" for fans.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-leaker-threatens-to-release-build-with-full-story-mode-played-to-the-end-ties-lucias-clothing-to-crypto-scheme"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "may now be impacted by some spoilers",
+      "value": "may now be impacted by some spoilers,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "At the time, the developer acknowledged that its intended experience for players \"may now be impacted by some spoilers,\" but reiterated GTA 6&#x27;s previously-confirmed launch date of November 19.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-leaker-threatens-to-release-build-with-full-story-mode-played-to-the-end-ties-lucias-clothing-to-crypto-scheme"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:270000",
+      "value": "$270,000",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Analysis of cryptocurrency transactions in late August pointed to the GTA 6 leaker having \"cashed out,\" earning around $270,000 in the process.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-leaker-threatens-to-release-build-with-full-story-mode-played-to-the-end-ties-lucias-clothing-to-crypto-scheme"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 12,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "11 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
