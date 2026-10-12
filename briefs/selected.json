@@ -1,10 +1,40 @@
 {
-  "decided": "2026-10-11T01:24:46.096Z",
+  "decided": "2026-10-12T01:54:52.098Z",
   "publish": true,
-  "reason": "selected on score 45.8",
+  "reason": "selected on score 37.7",
   "brief": "2026-10-11-dire-estimated-gears-of-war-e-day-sales-raise-queries-about-.json",
   "title": "Dire Estimated Gears of War: E-Day Sales Raise Queries About Last-Minute PS5 Cancellation",
   "considered": [
+    {
+      "file": "2026-10-12-the-best-deals-today-doom-the-dark-ages-star-wars-zero-compa.json",
+      "title": "The Best Deals Today: Doom: The Dark Ages, Star Wars Zero Company, 007 4K Blu-ray, and More",
+      "pass": false,
+      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-10-12-squadron-42-opens-for-steam-wishlisting-ahead-of-a-planned-q.json",
+      "title": "Squadron 42 opens for Steam wishlisting ahead of a planned Q2 2027 release",
+      "pass": false,
+      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-12-forza-horizon-6-will-have-a-physical-ps5-disc-but-theres-a-c.json",
+      "title": "Forza Horizon 6 Will Have a Physical PS5 Disc, But There's a Catch",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-12-dire-estimated-gears-of-war-e-day-sales-raise-queries-about-.json",
+      "title": "Dire Estimated Gears of War: E-Day Sales Raise Queries About Last-Minute PS5 Cancellation",
+      "pass": true,
+      "reason": "4/24 claims corroborated · 5 outlets · secondary only · 33h old"
+    },
+    {
+      "file": "2026-10-12-all-outpost-upgrade-materials-in-arc-raiders-and-how-to-get-.json",
+      "title": "All Outpost upgrade materials in ARC Raiders and how to get them",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-10-11-squadron-42-has-a-steam-page.json",
       "title": "Squadron 42 has a Steam page",
@@ -21,37 +51,7 @@
       "file": "2026-10-11-dire-estimated-gears-of-war-e-day-sales-raise-queries-about-.json",
       "title": "Dire Estimated Gears of War: E-Day Sales Raise Queries About Last-Minute PS5 Cancellation",
       "pass": true,
-      "reason": "4/26 claims corroborated · 7 outlets · secondary only · 9h old"
-    },
-    {
-      "file": "2026-10-11-call-of-duty-modern-warfare-story-recap-what-you-need-to-kno.json",
-      "title": "Call of Duty: Modern Warfare Story Recap – What You Need To Know Ahead of MW4",
-      "pass": false,
-      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-11-arc-raiders-20-update-and-spider-man-grappling-hook-drive-pl.json",
-      "title": "Arc Raiders' 2.0 Update and 'Spider-Man' Grappling Hook Drive Player Count to Reach 7-Month High",
-      "pass": false,
-      "reason": "0 of 14 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-10-10-its-official-forza-horizon-6-delayed-to-2027-on-ps5-and-the-.json",
-      "title": "It's official: Forza Horizon 6 delayed to 2027 on PS5, and the game's first expansion has been announced",
-      "pass": false,
-      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-10-how-to-complete-empathetic-prototypes-in-arc-raiders.json",
-      "title": "How to complete Empathetic Prototypes in ARC Raiders",
-      "pass": false,
-      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-10-gears-of-war-e-day-estimated-sales-reach-just-230000-in-firs.json",
-      "title": "Gears of War: E-Day Estimated Sales Reach Just 230,000 in First Week, Analyst Says",
-      "pass": true,
-      "reason": "4/17 claims corroborated · 5 outlets · secondary only · 28h old"
+      "reason": "4/26 claims corroborated · 7 outlets · secondary only · 33h old"
     }
   ]
 }

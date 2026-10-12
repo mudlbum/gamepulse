@@ -1,0 +1,229 @@
+{
+  "generated": "2026-10-12T01:54:51.548Z",
+  "workingTitle": "The Best Deals Today: Doom: The Dark Ages, Star Wars Zero Company, 007 4K Blu-ray, and More",
+  "heat": 29.6,
+  "outletCount": 3,
+  "outlets": [
+    "IGN",
+    "PC Gamer",
+    "Push Square"
+  ],
+  "newest": "2026-10-11T21:09:22.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "The Best Deals Today: Doom: The Dark Ages, Star Wars Zero Company, 007 4K Blu-ray, and More",
+        "url": "https://www.ign.com/articles/best-deals-for-october-11-2026",
+        "date": "2026-10-11T21:09:22.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "The studio behind Star Wars Zero Company is bringing back some of its furloughed staff",
+        "url": "https://www.pcgamer.com/games/strategy/the-studio-behind-star-wars-zero-company-is-hiring-back-some-of-its-furloughed-staff/",
+        "date": "2026-10-10T16:52:57.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "As Its Developer Recovers, Star Wars Zero Company Reaches One Million Copies Sold",
+        "url": "https://www.pushsquare.com/news/2026/10/as-its-developer-recovers-star-wars-zero-company-reaches-one-million-copies-sold",
+        "date": "2026-10-09T17:45:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Ace Combat 8 Has Sold One Million Copies Faster Than Any Previous Entry in the Series",
+        "url": "https://www.pushsquare.com/news/2026/10/ace-combat-8-has-sold-one-million-copies-faster-than-any-previous-entry-in-the-series",
+        "date": "2026-10-09T09:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:30.1",
+      "value": "$30.09.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Fanatical has Doom: The Dark Ages - Premium Edition on sale today for $30.09.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-october-11-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:12",
+      "value": "$12",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Star Wars Zero Company is one of the biggest sleeper hits of the year, and you can save $12 off a physical copy today at Amazon.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-october-11-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30.8",
+      "value": "$30.81.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You&#x27;re getting Casino Royale, Quantum of Solace, Skyfall, and Spectre all for $30.81.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-october-11-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$49.99,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Amazon has Nintendo Switch 2 copies of Shuten Order on sale today for $49.99, which is the lowest price we&#x27;ve seen to date.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-october-11-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$39.99.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Nintendo Switch copies are also on sale for $39.99.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-october-11-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:56",
+      "value": "$56",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In our 8/10 review, we wrote, \"Metroid Prime 4: Beyond is an excellent, if relatively uneven, revival that reaches heights worthy of the Metroid name in its best moments.\"\n\nAmazon has this LEGO KPop: Demon Hunters Derpy Tiger and Sussie Bird set on sale for $56 this weekend.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-october-11-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "metroid prime 4 beyond is an excellent if relatively uneven revival that reaches heights worthy of the metroid name in its best moments",
+      "value": "Metroid Prime 4: Beyond is an excellent, if relatively uneven, revival that reaches heights worthy of the Metroid name in its best moments.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In our 8/10 review, we wrote, \"Metroid Prime 4: Beyond is an excellent, if relatively uneven, revival that reaches heights worthy of the Metroid name in its best moments.\"\n\nAmazon has this LEGO KPop: Demon Hunters Derpy Tiger and Sussie Bird set on sale for $56 this weekend.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-october-11-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:52",
+      "value": "$51.99",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Amazon has the LEGO Star Wars AT-AT set on sale for $51.99 right now.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-october-11-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:60",
+      "value": "$59.99",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Similar to previous Nintendo Switch 2 physical releases, Amazon has The Legend of Zelda: Ocarina of Time available for $59.99 right now.",
+      "urls": [
+        "https://www.ign.com/articles/best-deals-for-october-11-2026"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:1.2",
+      "value": "version 1.2",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The announcement comes via the game's official social channels:\n\nAlongside the sales milestone, the post teases a new game update, version 1.2, which will be released next week.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/as-its-developer-recovers-star-wars-zero-company-reaches-one-million-copies-sold"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we express our gratitude to all the ace pilots around the world and will continue to release updates to ensure you keep enjoying the game so please continue to support us",
+      "value": "We express our gratitude to all the ace pilots around the world and will continue to release updates to ensure you keep enjoying the game, so please continue to support us,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We express our gratitude to all the ace pilots around the world and will continue to release updates to ensure you keep enjoying the game, so please continue to support us,\" the statement reads.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ace-combat-8-has-sold-one-million-copies-faster-than-any-previous-entry-in-the-series"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:7500000:units",
+      "value": "7.5 million units",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The previous game, Ace Combat 7: Skies Unknown, is currently the best-selling game in the series by a significant margin, having sold 7.5 million units since its 2019 launch.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ace-combat-8-has-sold-one-million-copies-faster-than-any-previous-entry-in-the-series"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 12,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

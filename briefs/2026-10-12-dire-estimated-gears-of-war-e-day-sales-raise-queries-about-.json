@@ -1,0 +1,438 @@
+{
+  "generated": "2026-10-12T01:54:52.014Z",
+  "workingTitle": "Dire Estimated Gears of War: E-Day Sales Raise Queries About Last-Minute PS5 Cancellation",
+  "heat": 22.4,
+  "outletCount": 5,
+  "outlets": [
+    "Push Square",
+    "Pure Xbox",
+    "IGN",
+    "GameSpot",
+    "Eurogamer"
+  ],
+  "newest": "2026-10-10T16:30:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "Dire Estimated Gears of War: E-Day Sales Raise Queries About Last-Minute PS5 Cancellation",
+        "url": "https://www.pushsquare.com/news/2026/10/dire-estimated-gears-of-war-e-day-sales-raise-queries-about-last-minute-ps5-cancellation",
+        "date": "2026-10-10T16:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Analysis Firm Shares Their Sales Estimates For Gears Of War: E-Day",
+        "url": "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day",
+        "date": "2026-10-10T09:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Gears of War: E-Day Estimated Sales Reach Just 230,000 in First Week, Analyst Says",
+        "url": "https://www.ign.com/articles/gears-of-war-e-day-estimated-sales-reach-just-230000-in-first-week-analyst-says",
+        "date": "2026-10-09T21:49:35.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Gears of War: E-Day reportedly courts over 1.7m Xbox Game Pass players and makes over $37m since launch",
+        "url": "https://www.eurogamer.net/gears-of-war-eday-sales-xbox-game-pass-players",
+        "date": "2026-10-09T18:03:42.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Gears of War: E-Day review",
+        "url": "https://www.eurogamer.net/gears-of-war-eday-review",
+        "date": "2026-10-09T13:59:57.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Gears Of War: E-Day–How’s It Selling? Let’s Unpack Things",
+        "url": "https://www.gamespot.com/articles/gears-of-war-e-day-hows-it-selling-lets-unpack-things/",
+        "date": "2026-10-09T18:41:40.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$30.",
+      "outlets": [
+        "Push Square",
+        "Pure Xbox",
+        "IGN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 4,
+      "context": "Xbox actually makes up 75% of the revenue though, and that's because 722,000 of the 1.7 million Xbox fans who have played it on Xbox Game Pass also bought the Premium Upgrade at a price of £30 / $30.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/dire-estimated-gears-of-war-e-day-sales-raise-queries-about-last-minute-ps5-cancellation",
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day",
+        "https://www.ign.com/articles/gears-of-war-e-day-estimated-sales-reach-just-230000-in-first-week-analyst-says",
+        "https://www.eurogamer.net/gears-of-war-eday-sales-xbox-game-pass-players"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:37000000",
+      "value": "$37 million",
+      "outlets": [
+        "Push Square",
+        "Pure Xbox",
+        "IGN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 4,
+      "context": "The analytics firm predicts that the game has made about $37 million in revenue, which is presumably a drop-in-the-bucket on a seven year development cycle.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/dire-estimated-gears-of-war-e-day-sales-raise-queries-about-last-minute-ps5-cancellation",
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day",
+        "https://www.ign.com/articles/gears-of-war-e-day-estimated-sales-reach-just-230000-in-first-week-analyst-says",
+        "https://www.eurogamer.net/gears-of-war-eday-sales-xbox-game-pass-players"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:230000:copies",
+      "value": "230,000 copies",
+      "outlets": [
+        "Pure Xbox",
+        "IGN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "According to them, Gears of War: E-Day has sold around 230,000 copies so far, with 168,000 of those coming through Steam.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day",
+        "https://www.ign.com/articles/gears-of-war-e-day-estimated-sales-reach-just-230000-in-first-week-analyst-says",
+        "https://www.eurogamer.net/gears-of-war-eday-sales-xbox-game-pass-players"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70",
+      "value": "$70.",
+      "outlets": [
+        "Pure Xbox",
+        "IGN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "In a world without day-one Game Pass, many of these folks would have bought E-Day at $70.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day",
+        "https://www.ign.com/articles/gears-of-war-e-day-estimated-sales-reach-just-230000-in-first-week-analyst-says",
+        "https://www.eurogamer.net/gears-of-war-eday-sales-xbox-game-pass-players"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "see this is what happens when we try to make it exclusive",
+      "value": "see, this is what happens when we try to make it exclusive",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Microsoft gets to close a studio and gets to point at it and say \"see, this is what happens when we try to make it exclusive\" and goes back to making money on the PS5 with less murmur from their core audience.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/dire-estimated-gears-of-war-e-day-sales-raise-queries-about-last-minute-ps5-cancellation"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:1000000:players",
+      "value": "1 million players",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Deadlyblack obvs these figures aren’t set in stone but just for at least a smidge of context:\n\nGears of War: Reloaded has surpassed 1 million players globally within its first few days, with total sales and player distribution estimated across platforms by analytics firms like Alinea Analytics via eTeknix:\n\nThe game is probably the most detailed and advanced I’ve played on series x.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/dire-estimated-gears-of-war-e-day-sales-raise-queries-about-last-minute-ps5-cancellation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "highest record of players under 40 with bold heads and size 10 feet ever",
+      "value": "highest record of players under 40 with bold heads and size 10 feet ever!",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If it hasn't I'm sure they'll come out with some meaningless stat like \"highest record of players under 40 with bold heads and size 10 feet ever!\"\n\nIt's a cover based dude bro shooter straight out of the Xbox 360 era.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/dire-estimated-gears-of-war-e-day-sales-raise-queries-about-last-minute-ps5-cancellation"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:75",
+      "value": "up 75%",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Xbox actually makes up 75% of the revenue though, and that's because 722,000 of the 1.7 million Xbox fans who have played it on Xbox Game Pass also bought the Premium Upgrade at a price of £30 / $30.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:21700000",
+      "value": "$21.7M",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In other words, those 722K Premium Upgrades supposedly generated around $21.7M for Xbox.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:26000000",
+      "value": "$26M",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"So despite selling far fewer copies on Steam, Xbox accounts for almost three-quarters of the revenue (roughly $26M of the $37M, versus about $11M on Steam).",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:11000000",
+      "value": "$11M",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"So despite selling far fewer copies on Steam, Xbox accounts for almost three-quarters of the revenue (roughly $26M of the $37M, versus about $11M on Steam).",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the most accurate pc and console estimates in the business",
+      "value": "the most accurate PC and console estimates in the business",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Alinea Analytics claims to have \"the most accurate PC and console estimates in the business\", however, and Giant Bomb's Jeff Grubb has previously suggested that he's talked to people in the industry who reckon they're \"pretty good\" when it comes to their estimates overall.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "because xbox s own storefront gave its most willing buyers a reason not to pay",
+      "value": "because Xbox’s own storefront gave its most willing buyers a reason not to pay",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Alinea also points out that they think Gears of War: E-Day is a fantastic game, and that the reason it hasn't sold more copies yet is \"because Xbox’s own storefront gave its most willing buyers a reason not to pay\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:23",
+      "value": "$23",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Paying $23 for a $70 game is the kind of discount you would normally have to wait years for.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:130000000",
+      "value": "$130 million",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I'm definitely getting this, but probably closer to Christmas or a small discount on Black Friday\n\nDo wonder if some games might have longer trails due to the gluttony of amazing games\n\n@John5alive it is but, using the same companies sales estimates, Wolverine made $130 million in three days from 1.9 million sales, despite getting a bit of a kicking.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "gears of war e day minecraft dungeons 2 and world of warcraft forever have enjoyed strong starts",
+      "value": "Gears of War: E-Day, Minecraft Dungeons 2 and World of Warcraft: Forever have enjoyed strong starts.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "So far, we know that \"Gears of War: E-Day, Minecraft Dungeons 2 and World of Warcraft: Forever have enjoyed strong starts.\"\n\nPS: I said the same thing about Alinea when it concerned other consoles: Not even worth reporting unless for fun and guesswork.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/analysis-firm-shares-their-sales-estimates-for-gears-of-war-e-day"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:27000000",
+      "value": "$27 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Revenue earned through the Xbox ecosystem reportedly amounted to $27 million, with total earnings reaching about $37 million.",
+      "urls": [
+        "https://www.ign.com/articles/gears-of-war-e-day-estimated-sales-reach-just-230000-in-first-week-analyst-says"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "while e day is a sublime game it x27 s made my top 10 these are soft numbers for a flagship when xbox badly needs revenue wins",
+      "value": "While E-Day is a sublime game (it&#x27;s made my top 10), these are soft numbers for a flagship when Xbox badly needs revenue wins,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"While E-Day is a sublime game (it&#x27;s made my top 10), these are soft numbers for a flagship when Xbox badly needs revenue wins,\" Elliott said.",
+      "urls": [
+        "https://www.ign.com/articles/gears-of-war-e-day-estimated-sales-reach-just-230000-in-first-week-analyst-says"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "offers gamers and game creators more choice and opportunity in how they discover experience and deliver games",
+      "value": "offers gamers and game creators more choice and opportunity in how they discover, experience, and deliver games.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Xbox company told IGN at the time that the model \"offers gamers and game creators more choice and opportunity in how they discover, experience, and deliver games.\"\n\nWhile Microsoft has yet to confirm official sales data, and it&#x27;s unclear how Gears of War: E-Day may have driven new Game Pass subscriptions, slow sales could sour an otherwise successful launch.",
+      "urls": [
+        "https://www.ign.com/articles/gears-of-war-e-day-estimated-sales-reach-just-230000-in-first-week-analyst-says"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$99.99",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You see, owners of the Premium Edition that costs $99.99 were allowed to fend off the hordes early - from the 1st of October - but Game Pass subscribers could and still can drop a cheaper $30 for the Premium Edition upgrade and all its add-on extras.",
+      "urls": [
+        "https://www.eurogamer.net/gears-of-war-eday-sales-xbox-game-pass-players"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "in a world without day one game pass many of these folks would have bought e day at 70",
+      "value": "In a world without day-one Game Pass, many of these folks would have bought E-Day at $70,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"In a world without day-one Game Pass, many of these folks would have bought E-Day at $70,\" the analyst speculated.",
+      "urls": [
+        "https://www.eurogamer.net/gears-of-war-eday-sales-xbox-game-pass-players"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "for future sequels and promised the next gears won t",
+      "value": "for future sequels, and promised the next Gears won't",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Coalition studio head Mike Crump recently claimed that E-Day is a \"great foundation\" for future sequels, and promised the next Gears won't \"take nearly as long\" to make after the seven-year gap between entries.",
+      "urls": [
+        "https://www.eurogamer.net/gears-of-war-eday-sales-xbox-game-pass-players"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "gears of war e day is a game of contrasts conservative by its very nature but with enough technical proficiency and iterative thinking to make its old fashioned ideas feel competent and engaging",
+      "value": "Gears of War: E-Day is a game of contrasts: conservative by its very nature, but with enough technical proficiency and iterative thinking to make its old-fashioned ideas feel competent and engaging,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Gears of War: E-Day is a game of contrasts: conservative by its very nature, but with enough technical proficiency and iterative thinking to make its old-fashioned ideas feel competent and engaging,\" Eurogamer's Gears of War: E-Day review said.",
+      "urls": [
+        "https://www.eurogamer.net/gears-of-war-eday-sales-xbox-game-pass-players"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "bleeding edge graphics with 20 year old design sensibilities drip into this bloody crucible of familiarity that does nostalgia right",
+      "value": "Bleeding edge graphics with 20-year-old design sensibilities drip into this bloody crucible of familiarity that does nostalgia right.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Bleeding edge graphics with 20-year-old design sensibilities drip into this bloody crucible of familiarity that does nostalgia right.\"",
+      "urls": [
+        "https://www.eurogamer.net/gears-of-war-eday-sales-xbox-game-pass-players"
+      ]
+    }
+  ],
+  "factCount": 4,
+  "evidenceCount": 24,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "20 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

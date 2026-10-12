@@ -1,0 +1,157 @@
+{
+  "generated": "2026-10-12T01:54:51.061Z",
+  "workingTitle": "All Outpost upgrade materials in ARC Raiders and how to get them",
+  "heat": 45.5,
+  "outletCount": 4,
+  "outlets": [
+    "Destructoid",
+    "Eurogamer",
+    "GameSpot",
+    "PCGamesN"
+  ],
+  "newest": "2026-10-11T23:10:24.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "ARC Raiders"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "All Outpost upgrade materials in ARC Raiders and how to get them",
+        "url": "https://www.destructoid.com/all-outpost-upgrade-materials-in-arc-raiders-and-how-to-get-them/",
+        "date": "2026-10-11T23:10:24.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to amplify weapons in ARC Raiders",
+        "url": "https://www.destructoid.com/how-to-amplify-weapons-in-arc-raiders/",
+        "date": "2026-10-10T19:18:16.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "All Weapon Amplifications in ARC Raiders and how they work",
+        "url": "https://www.destructoid.com/all-weapon-amplifications-in-arc-raiders-and-how-they-work/",
+        "date": "2026-10-10T11:29:20.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Arc Raiders could eventually be split into PvE and PvP, says executive producer",
+        "url": "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer",
+        "date": "2026-10-10T11:21:05.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to complete When Everything Falls in ARC Raiders",
+        "url": "https://www.destructoid.com/how-to-complete-when-everything-falls-in-arc-raiders/",
+        "date": "2026-10-10T08:45:30.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Arc Raiders When Everything Falls Quest Guide",
+        "url": "https://www.gamespot.com/articles/arc-raiders-when-everything-falls-quest-guide/",
+        "date": "2026-10-09T17:22:48.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "i mean the community is already split along those lines",
+      "value": "I mean, the community is already split along those lines,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I mean, the community is already split along those lines,\" he said.",
+      "urls": [
+        "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "somewhat limited around some of the higher end stuff",
+      "value": "somewhat limited around some of the higher-end stuff",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Gr&oslash;ndal said the test, which runs from 13th to 20th October, will help Embark identify how best to implement PvE, but admitted it's \"somewhat limited around some of the higher-end stuff\" because it \"has a chance of affecting\" the overall experience.",
+      "urls": [
+        "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "desire for fewer hostile encounters and 51 percent of the surveyed playerbase has expressed an interest in a dedicated pve option",
+      "value": "desire for fewer hostile encounters and 51 percent of the surveyed playerbase has expressed an interest in a dedicated PvE option",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Over 70 percent of friendly players and even 40 percent of PvP players, however, have expressed a \"desire for fewer hostile encounters and 51 percent of the surveyed playerbase has expressed an interest in a dedicated PvE option\".",
+      "urls": [
+        "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it s possible that this will not work",
+      "value": "it's possible that this will not work",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That said, there are caveats to the upcoming test, with Embark stating plainly that \"it's possible that this will not work\", and the test \"is not a promise that there will be a PvE mode in the future\".",
+      "urls": [
+        "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but take this as an indication that we are seriously considering it",
+      "value": "But take this as an indication that we are seriously considering it,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"But take this as an indication that we are seriously considering it,\" the studio added.",
+      "urls": [
+        "https://www.eurogamer.net/arc-raiders-pve-pvp-split-possible-executive-producer"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [
+    {
+      "game": "ARC Raiders",
+      "concurrent": 125642,
+      "rank": 8,
+      "change24h": -7.7,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
