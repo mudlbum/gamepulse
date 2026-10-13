@@ -1,0 +1,247 @@
+{
+  "generated": "2026-10-13T03:16:13.786Z",
+  "workingTitle": "\"No More Hand-Written Code\" - Epic Reportedly Adopts \"AI First\" Production Model On New Disney Shooter",
+  "heat": 41.8,
+  "outletCount": 4,
+  "outlets": [
+    "Nintendo Life",
+    "Rock Paper Shotgun",
+    "Kotaku",
+    "Push Square"
+  ],
+  "newest": "2026-10-13T01:35:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [
+    "Fortnite"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "\"No More Hand-Written Code\" - Epic Reportedly Adopts \"AI First\" Production Model On New Disney Shooter",
+        "url": "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter",
+        "date": "2026-10-13T01:35:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "\"No more hand-written code\": Epic reportedly impose \"AI-first\" model on creators of new Disney shooter with Marvel and Star Wars characters",
+        "url": "https://www.rockpapershotgun.com/no-more-hand-written-code-epic-reportedly-impose-ai-first-model-on-creators-of-new-disney-shooter-with-marvel-and-star-wars-characters",
+        "date": "2026-10-12T22:29:01.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Epic Games Forces Shocked Developers Into ‘AI-First’ Mode For Delayed Shooter Featuring Marvel And Star Wars Characters",
+        "url": "https://kotaku.com/epic-games-forces-shocked-developers-into-ai-first-mode-for-delayed-shooter-featuring-marvel-and-star-wars-characters-2000744620",
+        "date": "2026-10-12T19:00:43.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "'No More Hand Written Code': Fortnite Dev's Disney Game to Be an 'AI First' Project",
+        "url": "https://www.pushsquare.com/news/2026/10/no-more-hand-written-code-fortnite-devs-disney-game-to-be-an-ai-first-project",
+        "date": "2026-10-12T19:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:1500000000",
+      "value": "$1.5 billion",
+      "outlets": [
+        "Nintendo Life",
+        "Rock Paper Shotgun",
+        "Kotaku",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 4,
+      "context": "In 2024, Disney invested $1.5 billion to acquire an equity stake in Epic Games.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter",
+        "https://www.rockpapershotgun.com/no-more-hand-written-code-epic-reportedly-impose-ai-first-model-on-creators-of-new-disney-shooter-with-marvel-and-star-wars-characters",
+        "https://kotaku.com/epic-games-forces-shocked-developers-into-ai-first-mode-for-delayed-shooter-featuring-marvel-and-star-wars-characters-2000744620",
+        "https://www.pushsquare.com/news/2026/10/no-more-hand-written-code-fortnite-devs-disney-game-to-be-an-ai-first-project"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "to use more artificial intelligence tools",
+      "value": "to use more artificial intelligence tools",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In some industry news this week, Fortnite creator Epic Games has reportedly told developers behind a new Disney title \"to use more artificial intelligence tools\" to complete it, after delaying the project.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "shooter featuring characters from the marvel and star wars",
+      "value": "shooter featuring characters from the Marvel and Star Wars",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to Bloomberg reporter Jason Schreier, developers working on this Disney video game collaboration, which is described as a \"shooter featuring characters from the Marvel and Star Wars\" universe, have apparently been instructed to implement an \"AI first\" production model from here on out.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "no more hand written code",
+      "value": "no more hand-written code",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In an internal messaged reviewed by Bloomberg, a game director supposedly told staff there would be \"no more hand-written code\" and art would be generated with \"AI workflows\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "some epic developers stunned",
+      "value": "some Epic developers stunned",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's claimed this announcement has left \"some Epic developers stunned\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "games and entertainment universe",
+      "value": "games and entertainment universe",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As part of this, the plan was to create a \"games and entertainment universe\" over a \"multiyear project\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "release but a new date has not been",
+      "value": "release, but a new date has not been",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This title in the latest report was originally targeting a \"March\" release, but a new date has not been \"communicated\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "pushing hard for the use of ai",
+      "value": "pushing hard for the use of AI",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As noted by Bloomberg, Epic has been \"pushing hard for the use of AI\" across multiple divisions, but this is the \"first time\" a major game company has attempted to develop a title \"primarily with AI\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we made this game primarily with a i so when it makes us a ton of money that ll be all the proof we need to do it like this going forward",
+      "value": "We made this game primarily with A.I, so when it makes us a ton of money, that'll be all the proof we need to do it like this going forward.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Unless this is them going, \"We made this game primarily with A.I, so when it makes us a ton of money, that'll be all the proof we need to do it like this going forward.\"\n\n@asdfghjklz Not saying there's a world government.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it use ai to finish the last of this game",
+      "value": "***** it, use AI to finish the last of this game",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Listen, as much as I'm generally neutral, leaning towards cautiously positive towards AI, just basically saying \"***** it, use AI to finish the last of this game\" doesn't sit well with me\n\nTHQ Nordic Is Treating Existing Epic Mickey: Rebrushed Owners To A Free Upgrade On Switch 2",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/no-more-hand-written-code-epic-reportedly-adopts-ai-first-production-model-on-new-disney-shooter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "people familiar with the project",
+      "value": "people familiar with the project",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The report in question is from Bloomberg, who cite \"people familiar with the project\", together with an alleged internal message from the game's director.",
+      "urls": [
+        "https://www.rockpapershotgun.com/no-more-hand-written-code-epic-reportedly-impose-ai-first-model-on-creators-of-new-disney-shooter-with-marvel-and-star-wars-characters"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "downturn in fortnite engagement",
+      "value": "downturn in Fortnite engagement",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Epic laid off over 1000 people earlier in the year, with Sweeney citing a \"downturn in Fortnite engagement\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/no-more-hand-written-code-epic-reportedly-impose-ai-first-model-on-creators-of-new-disney-shooter-with-marvel-and-star-wars-characters"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 12,
+  "ourData": [
+    {
+      "game": "Fortnite",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "11 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

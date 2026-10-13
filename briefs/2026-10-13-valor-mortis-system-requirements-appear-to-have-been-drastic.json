@@ -1,0 +1,79 @@
+{
+  "generated": "2026-10-13T03:16:12.656Z",
+  "workingTitle": "Valor Mortis' system requirements appear to have been drastically cut, just before the FPSoulslike launches",
+  "heat": 71,
+  "outletCount": 8,
+  "outlets": [
+    "Rock Paper Shotgun",
+    "Kotaku",
+    "Pure Xbox",
+    "Destructoid",
+    "Eurogamer",
+    "IGN",
+    "GameSpot",
+    "Push Square"
+  ],
+  "newest": "2026-10-12T18:08:25.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Valor Mortis' system requirements appear to have been drastically cut, just before the FPSoulslike launches",
+        "url": "https://www.rockpapershotgun.com/valor-mortis-system-requirements-appear-to-have-been-drastically-cut-just-before-the-fpsoulslike-launches",
+        "date": "2026-10-12T18:08:25.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Valor Mortis: The Kotaku Review",
+        "url": "https://kotaku.com/valor-mortis-the-kotaku-review-2000744569",
+        "date": "2026-10-12T14:30:03.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Valor Mortis Reviews Are Mixed Ahead Of Its Xbox Game Pass Day One Launch",
+        "url": "https://www.purexbox.com/news/2026/10/valor-mortis-reviews-are-mixed-ahead-of-its-xbox-game-pass-day-one-launch",
+        "date": "2026-10-12T14:20:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Valor Mortis review – The Grande Armée and Monsters combine into the perfect soulslike setting",
+        "url": "https://www.destructoid.com/reviews/valor-mortis-review/",
+        "date": "2026-10-12T13:01:52.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Valor Mortis review",
+        "url": "https://www.eurogamer.net/valor-mortis-review",
+        "date": "2026-10-12T13:00:58.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Valor Mortis review - this Napoleonic first-person swordfighter is one of the freshest Soulslikes in years",
+        "url": "https://www.rockpapershotgun.com/valor-mortis-review",
+        "date": "2026-10-12T13:00:26.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [],
+  "factCount": 0,
+  "evidenceCount": 0,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

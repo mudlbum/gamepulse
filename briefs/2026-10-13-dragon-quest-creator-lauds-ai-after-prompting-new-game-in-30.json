@@ -1,0 +1,197 @@
+{
+  "generated": "2026-10-13T03:16:13.556Z",
+  "workingTitle": "Dragon Quest Creator Lauds AI After Prompting New Game In 30 Minutes",
+  "heat": 42.6,
+  "outletCount": 5,
+  "outlets": [
+    "GameSpot",
+    "Push Square",
+    "Eurogamer",
+    "Kotaku",
+    "Nintendo Life"
+  ],
+  "newest": "2026-10-12T18:42:59.000Z",
+  "readableCount": 4,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "The Crazy Wait for Dragon Quest 12 Made Worse by Creator's 'Astonishing' Praise for AI",
+        "url": "https://www.pushsquare.com/news/2026/10/the-crazy-wait-for-dragon-quest-12-made-worse-by-creators-astonishing-praise-for-ai",
+        "date": "2026-10-12T18:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Dragon Quest co-creator Yuji Horii releases new AI-generated game, and he says it took 30 minutes to make",
+        "url": "https://www.eurogamer.net/dragon-quest-yuji-horii-new-game-ai-30-minutes",
+        "date": "2026-10-12T17:15:59.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Dragon Quest Creator Yuji Horii Thinks AI Is Amazing As He No Longer Needs To Code Or Draw To Make A Game",
+        "url": "https://kotaku.com/dragon-quest-creator-yuji-horii-thinks-ai-is-amazing-as-he-no-longer-needs-to-code-or-draw-to-make-a-game-2000744194",
+        "date": "2026-10-12T15:34:17.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "\"It's Truly Astonishing\" - Dragon Quest Creator Yuji Horii Made An AI-Generated Game In 30 Minutes",
+        "url": "https://www.nintendolife.com/news/2026/10/its-truly-astonishing-dragon-quest-creator-yuji-horii-made-an-ai-generated-game-in-30-minutes",
+        "date": "2026-10-12T12:00:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Dragon Quest Creator Lauds AI After Prompting New Game In 30 Minutes",
+        "url": "https://www.gamespot.com/articles/dragon-quest-creator-lauds-ai-after-prompting-new-game-in-30-minutes/",
+        "date": "2026-10-12T18:42:59.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "look at this piece of i made in 30 minutes",
+      "value": "Look at this piece of ***** I made in 30 minutes!",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Look at this piece of ***** I made in 30 minutes!\" \"Oh wow look at this piece of ***** I drew in 30 minutes its of equal quality.\" \"But computer did it itself!",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/the-crazy-wait-for-dragon-quest-12-made-worse-by-creators-astonishing-praise-for-ai"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i came up with the story myself drew the pictures myself did the programming myself and created the game all by myself",
+      "value": "I came up with the story myself, drew the pictures myself, did the programming myself, and created the game all by myself,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I came up with the story myself, drew the pictures myself, did the programming myself, and created the game all by myself,\" Horii wrote on X.",
+      "urls": [
+        "https://www.eurogamer.net/dragon-quest-yuji-horii-new-game-ai-30-minutes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "with the help of ai calling the technology",
+      "value": "with the help of AI, calling the technology",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The creator claims that the game was made in \"about 30 minutes\" with the help of AI, calling the technology \"truly astonishing\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/its-truly-astonishing-dragon-quest-creator-yuji-horii-made-an-ai-generated-game-in-30-minutes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "how are we going to train up the next generation of devs if we eliminate every entry level task",
+      "value": "How are we going to train up the next generation of devs if we eliminate every entry-level task?",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "David Gaider, former Dragon Age narrative lead, spoke to GamesRadar+ and asked \"How are we going to train up the next generation of devs if we eliminate every entry-level task?\"\n\nWhat do you make of this new game from Yuji Horii?",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/its-truly-astonishing-dragon-quest-creator-yuji-horii-made-an-ai-generated-game-in-30-minutes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re going to enter a ai slop fest that will make wii era shovelware look like aaa games",
+      "value": "We’re going to enter a AI-slop fest that will make Wii-era shovelware look like AAA Games.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@eightytwostu \"We’re going to enter a AI-slop fest that will make Wii-era shovelware look like AAA Games.\"\n\nAnd this is why people prefer Final Fantasy over Dragon Quest...",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/its-truly-astonishing-dragon-quest-creator-yuji-horii-made-an-ai-generated-game-in-30-minutes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i m not for or against it but i feel like i m in the wrong anyways",
+      "value": "I’m not for or against it, but I feel like I’m in the wrong anyways",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@MrAnderson16 \"I’m not for or against it, but I feel like I’m in the wrong anyways\"\n\nListen to your feelings.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/its-truly-astonishing-dragon-quest-creator-yuji-horii-made-an-ai-generated-game-in-30-minutes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "and the amount of consumers rejecting it it s clear that this isn t so black and white on who is",
+      "value": "and the amount of consumers rejecting it, it's clear that this isn't so black and white on who is",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@SodaPop6548 Couldn't agree more, just seeing the amount of companies out there that are already walking back on their \"big push for AI\" and the amount of consumers rejecting it, it's clear that this isn't so black and white on who is \"winning\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/its-truly-astonishing-dragon-quest-creator-yuji-horii-made-an-ai-generated-game-in-30-minutes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "funny that many of these anti ai comments don t seem to realize that ai is already being used to some extent in probably 100 of the games being developed nowadays",
+      "value": "Funny that many of these anti-AI comments don't seem to realize that AI is already being used to some extent in probably 100% of the games being developed nowadays",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@gusz \"Funny that many of these anti-AI comments don't seem to realize that AI is already being used to some extent in probably 100% of the games being developed nowadays\"\n\nDude, probably 100%?",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/its-truly-astonishing-dragon-quest-creator-yuji-horii-made-an-ai-generated-game-in-30-minutes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "yuji hori asked an ai to make a game",
+      "value": "Yuji Hori asked an AI to make a game",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I feel like it's more accurate to say, \"Yuji Hori asked an AI to make a game\" than to say, \"Yuji Hori made an AI-generated game.\" Credit where it's due.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/its-truly-astonishing-dragon-quest-creator-yuji-horii-made-an-ai-generated-game-in-30-minutes"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 9,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

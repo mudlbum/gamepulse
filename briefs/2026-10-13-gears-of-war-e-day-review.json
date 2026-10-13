@@ -1,0 +1,214 @@
+{
+  "generated": "2026-10-13T03:16:13.142Z",
+  "workingTitle": "Gears of War: E-Day Review",
+  "heat": 53.5,
+  "outletCount": 6,
+  "outlets": [
+    "IGN",
+    "Rock Paper Shotgun",
+    "Kotaku",
+    "Pure Xbox",
+    "Eurogamer",
+    "Push Square"
+  ],
+  "newest": "2026-10-12T19:00:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Gears of War: E-Day"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Gears of War: E-Day Review",
+        "url": "https://www.ign.com/articles/gears-of-war-e-day-review",
+        "date": "2026-10-12T19:00:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Gears of War: E-Day DDoS attacks are to blame for \"intermittent disconnects\" and \"login issues\", The Coalition confirm",
+        "url": "https://www.rockpapershotgun.com/gears-of-war-e-day-ddos-attacks-are-to-blame-for-intermittent-disconnects-and-login-issues-the-coalition-confirm",
+        "date": "2026-10-12T14:31:41.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Gears Of War: E-Day Was Taken Down By DDoS Attack, Developers Confirm",
+        "url": "https://kotaku.com/gears-of-war-e-day-the-coalition-microsoft-ddos-attack-woke-2000744559",
+        "date": "2026-10-12T12:29:26.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Gears Of War: E-Day's Online Services Suffer DDoS Attack",
+        "url": "https://www.purexbox.com/news/2026/10/gears-of-war-e-days-online-services-suffer-ddos-attack",
+        "date": "2026-10-12T12:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Gears of War: E-Day server crashes and login problems are because of DDoS attacks, studio says",
+        "url": "https://www.eurogamer.net/gears-of-war-e-day-server-crashes-login-issues-ddos",
+        "date": "2026-10-12T11:38:55.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Gears of War: E-Day Dev Confirms DDoS Attack",
+        "url": "https://www.ign.com/articles/gears-of-war-e-day-dev-confirms-ddos-attack",
+        "date": "2026-10-12T09:33:07.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "earlier today some players experienced intermittent disconnects login issues or other service disruptions in gears of war e day",
+      "value": "Earlier today, some players experienced intermittent disconnects, login issues, or other service disruptions in Gears of War: E-Day,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Earlier today, some players experienced intermittent disconnects, login issues, or other service disruptions in Gears of War: E-Day,\" the studio posted at around 2AM BST on October 12th.",
+      "urls": [
+        "https://www.rockpapershotgun.com/gears-of-war-e-day-ddos-attacks-are-to-blame-for-intermittent-disconnects-and-login-issues-the-coalition-confirm"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "these issues were due to distributed denial of service ddos attacks targeting our online services",
+      "value": "These issues were due to distributed denial-of-service (DDoS) attacks targeting our online services",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The official Gears Community Twitter/X account posted about the attacks this morning, stating: \"These issues were due to distributed denial-of-service (DDoS) attacks targeting our online services\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/gears-of-war-e-days-online-services-suffer-ddos-attack"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "did we play a different game",
+      "value": "did we play a different game?",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Fiendish-Beaver I just don't see it as Mags being the main character AT ALL, that just wasn't how the story played out in my view, hence I said \"did we play a different game?\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/gears-of-war-e-days-online-services-suffer-ddos-attack"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "what do we do now marcus",
+      "value": "What do we do now Marcus?",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Marcus was clearly clearly in charge of the squad and most of the time they deferred to him constantly asking things like \"What do we do now Marcus?\" etc.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/gears-of-war-e-days-online-services-suffer-ddos-attack"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the official xbox account also tweeted",
+      "value": "The official Xbox account also tweeted:",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Thank you for your patience and understanding.\"\n\nThe official Xbox account also tweeted: \"Service for Gears of War: E-Day is back to normal.",
+      "urls": [
+        "https://www.eurogamer.net/gears-of-war-e-day-server-crashes-login-issues-ddos"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "though there s still plenty of waist high cover ebb and flow firefighting and braindead machismo gears e day proves that looking back can indeed help you look forward too",
+      "value": "Though there's still plenty of waist-high cover, ebb-and-flow firefighting, and braindead machismo, Gears E-Day proves that looking back can, indeed, help you look forward, too,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Though there's still plenty of waist-high cover, ebb-and-flow firefighting, and braindead machismo, Gears E-Day proves that looking back can, indeed, help you look forward, too,\" Dom wrote.",
+      "urls": [
+        "https://www.eurogamer.net/gears-of-war-e-day-server-crashes-login-issues-ddos"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:230000:copies",
+      "value": "230,000 copies",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Last week, Alinea Analytics&#x27; head of marketing analysis, Rhys Elliott, reported that E-Day had sold an estimated 230,000 copies in its first week in what was described as a soft start.",
+      "urls": [
+        "https://www.ign.com/articles/gears-of-war-e-day-dev-confirms-ddos-attack"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the mood is certainly x27 let x27 s not celebrate the game until we x27 re three months post launch just in case x27 which is very unusual",
+      "value": "The mood is certainly &#x27;let&#x27;s not celebrate the game until we&#x27;re three months post launch, just in case,&#x27; which is very unusual,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The mood is certainly &#x27;let&#x27;s not celebrate the game until we&#x27;re three months post launch, just in case,&#x27; which is very unusual,\" one source told the site.",
+      "urls": [
+        "https://www.ign.com/articles/gears-of-war-e-day-dev-confirms-ddos-attack"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we x27 re just expecting the next wave or being reorganized under activision or something later this year",
+      "value": "We&#x27;re just expecting the next wave , or being reorganized under Activision or something later this year,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We&#x27;re just expecting the next wave , or being reorganized under Activision or something later this year,\" claimed another.",
+      "urls": [
+        "https://www.ign.com/articles/gears-of-war-e-day-dev-confirms-ddos-attack"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 9,
+  "ourData": [
+    {
+      "game": "Gears of War: E-Day",
+      "concurrent": 20107,
+      "rank": 57,
+      "change24h": -14.6,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

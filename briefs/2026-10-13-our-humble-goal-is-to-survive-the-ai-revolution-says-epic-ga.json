@@ -1,0 +1,325 @@
+{
+  "generated": "2026-10-13T03:16:14.103Z",
+  "workingTitle": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
+  "heat": 38.6,
+  "outletCount": 4,
+  "outlets": [
+    "PC Gamer",
+    "Polygon",
+    "IGN",
+    "Eurogamer"
+  ],
+  "newest": "2026-10-12T22:55:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [
+    "Fortnite"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
+        "url": "https://www.pcgamer.com/gaming-industry/game-development/our-humble-goal-is-to-survive-the-ai-revolution-says-epic-games-ceo-as-its-star-wars-and-marvel-crossover-pivots-to-ai-first-development/",
+        "date": "2026-10-12T22:55:00.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Epic Games Delays Marvel and Star Wars Crossover Game Amid Generative AI Push",
+        "url": "https://www.polygon.com/epic-games-marvel-star-wars-game-delay-generative-ai-development/",
+        "date": "2026-10-12T20:58:33.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Epic Reportedly Pushing Devs to Use AI, Delays Secret Star Wars and Marvel Crossover Shooter",
+        "url": "https://www.ign.com/articles/epic-reportedly-pushing-devs-to-use-ai-delays-secret-star-wars-and-marvel-crossover-shooter",
+        "date": "2026-10-12T19:14:03.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Epic Games reportedly delays Star Wars and Marvel shooter, as the Fortnite maker embraces \"AI-accelerated development\"",
+        "url": "https://www.eurogamer.net/epic-games-delays-star-wars-marvel-shooter-ai-development",
+        "date": "2026-10-12T19:11:39.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "we re embracing ai accelerated development led by epic developers who are the visionaries and creative drivers for everything we do",
+      "value": "We’re embracing AI-accelerated development, led by Epic developers who are the visionaries and creative drivers for everything we do.",
+      "outlets": [
+        "Polygon",
+        "IGN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "Epic Games communications director Jake Jones told Bloomberg, \"We’re embracing AI-accelerated development, led by Epic developers who are the visionaries and creative drivers for everything we do.\"\n\nSome Epic developers were reportedly shocked by the AI-first pivot.",
+      "urls": [
+        "https://www.polygon.com/epic-games-marvel-star-wars-game-delay-generative-ai-development/",
+        "https://www.ign.com/articles/epic-reportedly-pushing-devs-to-use-ai-delays-secret-star-wars-and-marvel-crossover-shooter",
+        "https://www.eurogamer.net/epic-games-delays-star-wars-marvel-shooter-ai-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "generated with full ai workflows",
+      "value": "generated with full AI workflows.",
+      "outlets": [
+        "PC Gamer",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "The same message is then said to have added that all art for the project would be \"generated with full AI workflows.\"\n\nThe report continued, stating that Epic underestimated the time and resources necessary to develop the Star Wars and Marvel shooter.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/game-development/our-humble-goal-is-to-survive-the-ai-revolution-says-epic-games-ceo-as-its-star-wars-and-marvel-crossover-pivots-to-ai-first-development/",
+        "https://www.ign.com/articles/epic-reportedly-pushing-devs-to-use-ai-delays-secret-star-wars-and-marvel-crossover-shooter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "no more hand written code",
+      "value": "No more hand-written code,",
+      "outlets": [
+        "Polygon",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"No more hand-written code,\" one of the directors on the game told staff, according to Bloomberg.",
+      "urls": [
+        "https://www.polygon.com/epic-games-marvel-star-wars-game-delay-generative-ai-development/",
+        "https://www.eurogamer.net/epic-games-delays-star-wars-marvel-shooter-ai-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "huge pivot underway here at epic moving developers around to retool for maximum ai acceleration",
+      "value": "We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration,",
+      "outlets": [
+        "Polygon",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration,\" CEO Tim Sweeney tweeted.",
+      "urls": [
+        "https://www.polygon.com/epic-games-marvel-star-wars-game-delay-generative-ai-development/",
+        "https://www.eurogamer.net/epic-games-delays-star-wars-marvel-shooter-ai-development"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1500000000",
+      "value": "$1.5 billion",
+      "outlets": [
+        "Polygon",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"The aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.\"\n\nDisney invested $1.5 billion in Epic Games in 2024, and also agreed to a multi-game partnership with Epic.",
+      "urls": [
+        "https://www.polygon.com/epic-games-marvel-star-wars-game-delay-generative-ai-development/",
+        "https://www.ign.com/articles/epic-reportedly-pushing-devs-to-use-ai-delays-secret-star-wars-and-marvel-crossover-shooter"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the aim isn t to do the same stuff with fewer people but to enable everyone here to build more and better stuff and to bring the benefits to all teams using unreal",
+      "value": "The aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.",
+      "outlets": [
+        "Polygon",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"The aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.\"\n\nDisney invested $1.5 billion in Epic Games in 2024, and also agreed to a multi-game partnership with Epic.",
+      "urls": [
+        "https://www.polygon.com/epic-games-marvel-star-wars-game-delay-generative-ai-development/",
+        "https://www.eurogamer.net/epic-games-delays-star-wars-marvel-shooter-ai-development"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "approach seems pretty comprehensive the instructions per bloomberg are to",
+      "value": "approach seems pretty comprehensive: the instructions per Bloomberg are to",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That \"AI first\" approach seems pretty comprehensive: the instructions per Bloomberg are to \"implement an 'AI first' production model using tools such as Anthropic's Claude\".",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/game-development/our-humble-goal-is-to-survive-the-ai-revolution-says-epic-games-ceo-as-its-star-wars-and-marvel-crossover-pivots-to-ai-first-development/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "consistent fortnite magic with every season",
+      "value": "consistent Fortnite magic with every season",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Shortly after Bloomberg's report was published, Epic Games CEO Tim Sweeney took to X to share his own thoughts:\n\nEpic Games laid off over 1,000 employees in March, citing the decline in console sales, Epic's ongoing legal disputes with Apple and Google, and difficulty in delivering \"consistent Fortnite magic with every season\".",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/game-development/our-humble-goal-is-to-survive-the-ai-revolution-says-epic-games-ceo-as-its-star-wars-and-marvel-crossover-pivots-to-ai-first-development/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "way to catch up with friends",
+      "value": "way to catch up with friends",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The transformation from \"way to catch up with friends\" into \"ruinously addictive habit\" wasn't appreciated, but it's the norm now anyway.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/game-development/our-humble-goal-is-to-survive-the-ai-revolution-says-epic-games-ceo-as-its-star-wars-and-marvel-crossover-pivots-to-ai-first-development/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "development process which includes having all art for the game",
+      "value": "development process, which includes having all art for the game",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Developers are now pivoting toward an \"AI-first\" development process, which includes having all art for the game \"generated with full AI workflows,\" according to the director's message.",
+      "urls": [
+        "https://www.polygon.com/epic-games-marvel-star-wars-game-delay-generative-ai-development/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "much of the room wants it to be 2016 again but it s not",
+      "value": "Much of the room wants it to be 2016 again, but it's not,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Much of the room wants it to be 2016 again, but it's not,\" Sweeney responded.",
+      "urls": [
+        "https://www.polygon.com/epic-games-marvel-star-wars-game-delay-generative-ai-development/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "downturn in fortnite engagement",
+      "value": "downturn in Fortnite engagement",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sweeney cited a \"downturn in Fortnite engagement\" beginning last year that led to Epic Games spending more than it was making.",
+      "urls": [
+        "https://www.polygon.com/epic-games-marvel-star-wars-game-delay-generative-ai-development/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "how does this line up with firing 1000 people though",
+      "value": "How does this line up with firing 1000 people though.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "One user wondered, \"How does this line up with firing 1000 people though.\" Sweeney did not respond to their question.",
+      "urls": [
+        "https://www.polygon.com/epic-games-marvel-star-wars-game-delay-generative-ai-development/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this will be great for gameplay as most of the recent aaa failures can be attributed to game systems going through far too much of their development process without being able to playtest",
+      "value": "This will be great for gameplay, as most of the recent AAA failures can be attributed to game systems going through far too much of their development process without being able to playtest.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This will be great for gameplay, as most of the recent AAA failures can be attributed to game systems going through far too much of their development process without being able to playtest.\"\n\nDisney purchased a $1.5 billion stake in the Fortnite developer in 2024 in a move that cemented their relationship at the time.",
+      "urls": [
+        "https://www.ign.com/articles/epic-reportedly-pushing-devs-to-use-ai-delays-secret-star-wars-and-marvel-crossover-shooter"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1.5",
+      "value": "$1.5",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.\"\n\nThe Walt Disney company acquired a $1.5b stake in Epic Games a few years back, as the two entertainment giants agreed to partner on a \"games and entertainment universe\" somehow connected to Fortnite.",
+      "urls": [
+        "https://www.eurogamer.net/epic-games-delays-star-wars-marvel-shooter-ai-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "create their own stories and experiences express their fandom in a distinctly disney way and share content with each other in ways that they love",
+      "value": "create their own stories and experiences, express their fandom in a distinctly Disney way, and share content with each other in ways that they love",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There weren't any concrete details on the collaboration at the time, though the duo said players would be able to \"create their own stories and experiences, express their fandom in a distinctly Disney way, and share content with each other in ways that they love\".",
+      "urls": [
+        "https://www.eurogamer.net/epic-games-delays-star-wars-marvel-shooter-ai-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re spending significantly more than we re making and we have to make major cuts to keep the company funded",
+      "value": "we're spending significantly more than we're making, and we have to make major cuts to keep the company funded.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "At the time, CEO Tim Sweeney told staff \"we're spending significantly more than we're making, and we have to make major cuts to keep the company funded.\"\n\nAndroid, Mac, Nintendo Switch, Nintendo Switch 2, PC, PS4, PS5, Xbox One, Xbox Series X/S, iOS",
+      "urls": [
+        "https://www.eurogamer.net/epic-games-delays-star-wars-marvel-shooter-ai-development"
+      ]
+    }
+  ],
+  "factCount": 6,
+  "evidenceCount": 17,
+  "ourData": [
+    {
+      "game": "Fortnite",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "11 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
