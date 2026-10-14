@@ -1,0 +1,175 @@
+{
+  "generated": "2026-10-14T01:28:59.685Z",
+  "workingTitle": "Round Up: The Reviews For Castlevania: Belmont's Curse Are In",
+  "heat": 53.5,
+  "outletCount": 5,
+  "outlets": [
+    "Nintendo Life",
+    "Kotaku",
+    "Pure Xbox",
+    "Rock Paper Shotgun",
+    "Push Square"
+  ],
+  "newest": "2026-10-13T23:55:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Round Up: The Reviews For Castlevania: Belmont's Curse Are In",
+        "url": "https://www.nintendolife.com/news/2026/10/round-up-the-reviews-for-castlevania-belmonts-curse-are-in",
+        "date": "2026-10-13T23:55:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Castlevania: Belmont’s Curse Is Kicking My Ass In The Worst Way",
+        "url": "https://kotaku.com/castlevania-belmonts-curse-is-kicking-my-ass-in-the-worst-way-2000745234",
+        "date": "2026-10-13T13:12:46.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Castlevania: Belmont's Curse Is Getting Some Brilliant Review Scores Ahead Of Launch",
+        "url": "https://www.purexbox.com/news/2026/10/castlevania-belmonts-curse-is-getting-some-brilliant-review-scores-ahead-of-launch",
+        "date": "2026-10-13T11:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Castlevania: Belmont’s Curse review - a fantastic action game, a less than stellar Metroidvania",
+        "url": "https://www.rockpapershotgun.com/castlevania-belmonts-curse-review-a-fantastic-action-game-a-less-than-stellar-metroidvania",
+        "date": "2026-10-13T10:03:04.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Review: Castlevania: Belmont's Curse (PS5) - The Classic Series Returns in a Perfectly Fine Metroidvania",
+        "url": "https://www.pushsquare.com/reviews/ps5/castlevania-belmonts-curse",
+        "date": "2026-10-13T07:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Castlevania: Belmont's Curse Asks for No Less Than 100% Completion for the Platinum Trophy",
+        "url": "https://www.pushsquare.com/news/2026/10/castlevania-belmonts-curse-asks-for-no-less-than-100percent-completion-for-the-platinum-trophy",
+        "date": "2026-10-12T17:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "doesn t feel like castlevania",
+      "value": "doesn't feel like Castlevania",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As a long fan of the series I find absurd that people say that it \"doesn't feel like Castlevania\" when the series has had different approaches before and honestly this isn't even one of the most radical.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/round-up-the-reviews-for-castlevania-belmonts-curse-are-in"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$29.99",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you're plan on picking the game up on Xbox, it'll cost you £24.98 / $29.99 and it's launching October 15th onto Xbox Series X|S and Xbox PC with Play Anywhere support.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/castlevania-belmonts-curse-is-getting-some-brilliant-review-scores-ahead-of-launch"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "perfectly fine is not what i was hoping to hear after eighteen years",
+      "value": "Perfectly fine is not what I was hoping to hear after eighteen years.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@ShadowRJ I understand that I’m just saying Push Square giving it a 7 is a surprise to me\n\nThis was my first review and I was a little disappointed, as @Stevemalkpus said \"Perfectly fine is not what I was hoping to hear after eighteen years.\".",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/castlevania-belmonts-curse"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "huh a 7 castlvania is dead",
+      "value": "huh a 7, Castlvania is dead",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Just things like \" huh a 7, Castlvania is dead \" or \"Wolverine is bad?",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/castlevania-belmonts-curse"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "once you get past the hype the game sucks",
+      "value": "once you get past the hype, the game sucks",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They view it as \"once you get past the hype, the game sucks\".",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/castlevania-belmonts-curse"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "good graphics lousy gameplay",
+      "value": "good graphics, lousy gameplay",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Now I would argue that this is far less the case nowadays, but there was a time when 7/10 meant \"good graphics, lousy gameplay\".",
+      "urls": [
+        "https://www.pushsquare.com/reviews/ps5/castlevania-belmonts-curse"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i don t pay full price for digital licenses i can t own",
+      "value": "(I don’t pay full price for digital licenses I can’t own).",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Balaam_ \" (I don’t pay full price for digital licenses I can’t own).\" Or physical..",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/castlevania-belmonts-curse-asks-for-no-less-than-100percent-completion-for-the-platinum-trophy"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 7,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

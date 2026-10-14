@@ -1,0 +1,225 @@
+{
+  "generated": "2026-10-14T01:29:00.041Z",
+  "workingTitle": "New Xbox Labs Team Officially Announced",
+  "heat": 48.3,
+  "outletCount": 5,
+  "outlets": [
+    "Polygon",
+    "Kotaku",
+    "IGN",
+    "Pure Xbox",
+    "Xbox Wire"
+  ],
+  "newest": "2026-10-13T21:08:30.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Introducing XBOX LABS",
+        "url": "https://news.xbox.com/en-us/2026/10/13/introducing-xbox-labs/",
+        "date": "2026-10-13T19:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "New Xbox Labs Team Officially Announced",
+        "url": "https://www.polygon.com/xbox-labs-asha-sharma-ai-vibe-coding/",
+        "date": "2026-10-13T21:08:30.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Xbox Labs Is A Big Announcement About AI That’s Missing The Word AI",
+        "url": "https://kotaku.com/xbox-labs-is-a-big-announcement-about-ai-that-doesnt-mention-ai-once-2000745355",
+        "date": "2026-10-13T20:08:30.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Xbox Announces Xbox Labs, Aimed in Part at Getting Improved Old-Gen Games Playable in Web Browsers",
+        "url": "https://www.ign.com/articles/xbox-announces-xbox-labs-aimed-in-part-at-getting-improved-old-gen-games-playable-in-web-browsers",
+        "date": "2026-10-13T19:00:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Asha Sharma Announces Xbox Labs To Turn 'Emerging Ideas' Into New Experiences",
+        "url": "https://www.purexbox.com/news/2026/10/asha-sharma-announces-xbox-labs-to-turn-emerging-ideas-into-new-experiences",
+        "date": "2026-10-13T19:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "in recent weeks we ve seen games rapidly decompiled and rebuilt to run on hardware they were never originally designed to support",
+      "value": "In recent weeks, we’ve seen games rapidly decompiled and rebuilt to run on hardware they were never originally designed to support,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"In recent weeks, we’ve seen games rapidly decompiled and rebuilt to run on hardware they were never originally designed to support,\" Sharma said in a note to employees.",
+      "urls": [
+        "https://www.polygon.com/xbox-labs-asha-sharma-ai-vibe-coding/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "on that point sharma noted in tuesday s xbox labs announcement",
+      "value": "On that point, Sharma noted in Tuesday's Xbox Labs announcement,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Games are and always will be art, crafted by humans, and created with the most innovative technology provided by us.\"\n\nOn that point, Sharma noted in Tuesday's Xbox Labs announcement, \"Our priorities aren’t changing.",
+      "urls": [
+        "https://www.polygon.com/xbox-labs-asha-sharma-ai-vibe-coding/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:1000000000:players",
+      "value": "1 billion players",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "No doubt seeing the growing community of games getting improved versions ported into web browsers (like the 94fps browser version of Halo: Combat Evolved), Microsoft itself is keen to get in on the action in support of new Xbox CEO Asha Sharma&#x27;s goal of reaching 1 billion players per day.",
+      "urls": [
+        "https://www.ign.com/articles/xbox-announces-xbox-labs-aimed-in-part-at-getting-improved-old-gen-games-playable-in-web-browsers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we x27 ll build in the open",
+      "value": "We&#x27;ll build in the open",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And IGN understands that this won&#x27;t just be an R&D effort; rather, Xbox Labs is tasked with shipping products – Sharma says, \"We&#x27;ll build in the open\" – and getting gamers to engage with them.",
+      "urls": [
+        "https://www.ign.com/articles/xbox-announces-xbox-labs-aimed-in-part-at-getting-improved-old-gen-games-playable-in-web-browsers"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "and its intention is to",
+      "value": ", and its intention is to",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Xbox boss Asha Sharma has announced to her team today that a new division has been set up at Microsoft called \"Xbox Labs\", and its intention is to \"explore\" the possibilities of \"what new technologies make possible\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/asha-sharma-announces-xbox-labs-to-turn-emerging-ideas-into-new-experiences"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "challenge long held assumptions about our industry",
+      "value": "challenge long-held assumptions about our industry",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "She says that these experiments \"challenge long-held assumptions about our industry\", and that it's \"easy to see the possibilities\" in situations like \"making great games easier to access\" and \"giving old games new life\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/asha-sharma-announces-xbox-labs-to-turn-emerging-ideas-into-new-experiences"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as a result of all this xbox labs is being helmed by",
+      "value": "As a result of all this, Xbox Labs is being helmed by",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "These are unmistakably good outcomes for players, even when (and sometimes because) they challenge our existing business models.\"\n\nAs a result of all this, Xbox Labs is being helmed by \"a small group of game makers, engineers and scientists\" whose intention is to \"turn emerging ideas into things our players and developers can experience\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/asha-sharma-announces-xbox-labs-to-turn-emerging-ideas-into-new-experiences"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "an important role to play here",
+      "value": "an important role to play here",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sharma says Xbox has \"an important role to play here\", and that she wants \"our game makers to help shape what these new technologies make possible\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/asha-sharma-announces-xbox-labs-to-turn-emerging-ideas-into-new-experiences"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as you can see there s actually a working link to the xbox labs website in here as well but it doesn t really do much at the moment there s a box where you can enter your email address to get updates and it also displays a tagline of",
+      "value": "As you can see, there's actually a working link to the Xbox Labs website in here as well, but it doesn't really do much at the moment - there's a box where you can enter your email address to get updates, and it also displays a tagline of",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"\n\nAs you can see, there's actually a working link to the Xbox Labs website in here as well, but it doesn't really do much at the moment - there's a box where you can enter your email address to get updates, and it also displays a tagline of \"let's play with what's next\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/asha-sharma-announces-xbox-labs-to-turn-emerging-ideas-into-new-experiences"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "our priorities aren t changing",
+      "value": "our priorities aren't changing",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Xbox CEO finishes off her message by insisting that \"our priorities aren't changing\" and that the point of Xbox Labs is to \"explore new technology without abandoning the work already underway\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/asha-sharma-announces-xbox-labs-to-turn-emerging-ideas-into-new-experiences"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "buy an xbox and extend your games for as long as you like",
+      "value": "Buy an Xbox and extend your games for as long as you like",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Pitch it as \"Buy an Xbox and extend your games for as long as you like\"\n\nThough you could buy a refurbished (second hand) PS5 via amazon uk and the same is true for series consoles\n\nI don't personally care if they use AI, it's a hate wagon I didn't jump on.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/asha-sharma-announces-xbox-labs-to-turn-emerging-ideas-into-new-experiences"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 11,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

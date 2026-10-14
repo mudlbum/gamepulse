@@ -1,0 +1,88 @@
+{
+  "generated": "2026-10-14T01:28:58.031Z",
+  "workingTitle": "Best Valor Mortis graphics settings for no lag and max FPS",
+  "heat": 82.2,
+  "outletCount": 7,
+  "outlets": [
+    "Destructoid",
+    "PC Gamer",
+    "Xbox Wire",
+    "Push Square",
+    "Rock Paper Shotgun",
+    "Pure Xbox",
+    "Eurogamer"
+  ],
+  "newest": "2026-10-13T22:52:39.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Planet Zoo 2"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Best Valor Mortis graphics settings for no lag and max FPS",
+        "url": "https://www.destructoid.com/best-valor-mortis-graphics-settings-for-no-lag-and-max-fps/",
+        "date": "2026-10-13T22:52:39.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Best Planet Zoo 2 graphics settings for no lag and max FPS",
+        "url": "https://www.destructoid.com/best-planet-zoo-2-graphics-settings-for-no-lag-and-max-fps/",
+        "date": "2026-10-13T18:06:42.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Can you beat General Lothaire in Valor Mortis?",
+        "url": "https://www.pcgamer.com/games/action/valor-mortis-general-lothaire-boss/",
+        "date": "2026-10-13T17:00:00.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "How to equip ambers in Valor Mortis",
+        "url": "https://www.pcgamer.com/games/action/valor-mortis-amber-equip/",
+        "date": "2026-10-13T17:00:00.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "How to complete The Scarecrow in Valor Mortis",
+        "url": "https://www.pcgamer.com/games/action/valor-mortis-the-scarecrow-walkthrough/",
+        "date": "2026-10-13T17:00:00.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "How to complete The Emissary in Valor Mortis",
+        "url": "https://www.pcgamer.com/games/action/valor-mortis-the-emissary-walkthrough/",
+        "date": "2026-10-13T17:00:00.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [],
+  "factCount": 0,
+  "evidenceCount": 0,
+  "ourData": [
+    {
+      "game": "Planet Zoo 2",
+      "concurrent": 22292,
+      "rank": 53,
+      "change24h": -48.6,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

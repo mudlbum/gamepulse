@@ -1,0 +1,148 @@
+{
+  "generated": "2026-10-14T01:29:00.253Z",
+  "workingTitle": "EA Reckons Battlefield 6 Deserves a Game of the Year Edition",
+  "heat": 44.4,
+  "outletCount": 4,
+  "outlets": [
+    "Push Square",
+    "Xbox Wire",
+    "GameSpot",
+    "PCGamesN"
+  ],
+  "newest": "2026-10-14T01:00:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Go All in on All-Out Warfare in Battlefield 6 with EA Play",
+        "url": "https://news.xbox.com/en-us/2026/10/13/ea-play-october/",
+        "date": "2026-10-13T17:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "EA Reckons Battlefield 6 Deserves a Game of the Year Edition",
+        "url": "https://www.pushsquare.com/news/2026/10/ea-reckons-battlefield-6-deserves-a-game-of-the-year-edition",
+        "date": "2026-10-14T01:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "\"I cannot confirm nor deny any Easter egg in Area 51,\" says the man who definitely knows there's something hidden in Battlefield 6's latest map",
+        "url": "https://www.pcgamesn.com/battlefield-6/area-51-easter-eggs",
+        "date": "2026-10-13T11:12:00.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Battlefield 6 goes back to its roots with Area 51, but the new Vegas Strip map feels too frenetic",
+        "url": "https://www.pcgamesn.com/battlefield-6/season-5-preview",
+        "date": "2026-10-12T15:00:00.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Battlefield 6 Comes To Game Pass, Game Of The Year Edition Announced",
+        "url": "https://www.gamespot.com/articles/battlefield-6-comes-to-game-pass-as-30-microtransaction-that-instantly-unlocks-all-guns-is-now-available/",
+        "date": "2026-10-13T15:59:29.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "version",
+      "key": "v:season:5",
+      "value": "Season 5",
+      "outlets": [
+        "Xbox Wire",
+        "PCGamesN"
+      ],
+      "hasPrimary": true,
+      "corroboration": 2,
+      "context": "Lock in unlimited access, a Season 5 EA Play Pack, recurring seasonal rewards, and more with EA Play.",
+      "urls": [
+        "https://news.xbox.com/en-us/2026/10/13/ea-play-october/",
+        "https://www.pcgamesn.com/battlefield-6/area-51-easter-eggs",
+        "https://www.pcgamesn.com/battlefield-6/season-5-preview"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "battlefield 6 is a phenomenal multiplayer experience that immerses and impresses with its chaotic mix of tight gunplay best in class audio design and the cinematic flair that made us love the series in the first place",
+      "value": "Battlefield 6 is a phenomenal multiplayer experience that immerses and impresses with its chaotic mix of tight gunplay, best-in-class audio design, and the cinematic flair that made us love the series in the first place,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Battlefield 6 is a phenomenal multiplayer experience that immerses and impresses with its chaotic mix of tight gunplay, best-in-class audio design, and the cinematic flair that made us love the series in the first place,\" we said at launch.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ea-reckons-battlefield-6-deserves-a-game-of-the-year-edition"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i cannot confirm nor deny any easter egg in area 51",
+      "value": "I cannot confirm nor deny any Easter egg in Area 51,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I cannot confirm nor deny any Easter egg in Area 51,\" Bombay, much like the American government over the years, denies any knowledge of hidden goodies in Area 51.",
+      "urls": [
+        "https://www.pcgamesn.com/battlefield-6/area-51-easter-eggs"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "bombay goes on to tell of a member of staff that might go rogue",
+      "value": "Bombay goes on to tell of a member of staff that might go rogue,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This is what's fun about Easter eggs.\" Bombay goes on to tell of a member of staff that might go rogue, \"Sometimes someone just builds it on his own, not telling anybody, and presents that software.",
+      "urls": [
+        "https://www.pcgamesn.com/battlefield-6/area-51-easter-eggs"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "they materialize one way or another",
+      "value": "They materialize one way or another,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"They materialize one way or another,\" he says.",
+      "urls": [
+        "https://www.pcgamesn.com/battlefield-6/area-51-easter-eggs"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "4 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

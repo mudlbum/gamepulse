@@ -1,10 +1,40 @@
 {
-  "decided": "2026-10-13T03:16:14.162Z",
+  "decided": "2026-10-14T01:29:00.336Z",
   "publish": true,
-  "reason": "selected on score 39.6",
+  "reason": "selected on score 32.2",
   "brief": "2026-10-13-our-humble-goal-is-to-survive-the-ai-revolution-says-epic-ga.json",
   "title": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
   "considered": [
+    {
+      "file": "2026-10-14-will-you-be-taking-time-off-work-or-school-for-gta-6s-releas.json",
+      "title": "Will You Be Taking Time Off Work or School for GTA 6's Release Next Month?",
+      "pass": false,
+      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-14-round-up-the-reviews-for-castlevania-belmonts-curse-are-in.json",
+      "title": "Round Up: The Reviews For Castlevania: Belmont's Curse Are In",
+      "pass": false,
+      "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-14-new-xbox-labs-team-officially-announced.json",
+      "title": "New Xbox Labs Team Officially Announced",
+      "pass": false,
+      "reason": "0 of 11 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-10-14-ea-reckons-battlefield-6-deserves-a-game-of-the-year-edition.json",
+      "title": "EA Reckons Battlefield 6 Deserves a Game of the Year Edition",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-14-best-valor-mortis-graphics-settings-for-no-lag-and-max-fps.json",
+      "title": "Best Valor Mortis graphics settings for no lag and max FPS",
+      "pass": false,
+      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-10-13-valor-mortis-system-requirements-appear-to-have-been-drastic.json",
       "title": "Valor Mortis' system requirements appear to have been drastically cut, just before the FPSoulslike launches",
@@ -15,43 +45,13 @@
       "file": "2026-10-13-our-humble-goal-is-to-survive-the-ai-revolution-says-epic-ga.json",
       "title": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
       "pass": true,
-      "reason": "6/17 claims corroborated · 4 outlets · secondary only · 4h old"
+      "reason": "6/17 claims corroborated · 4 outlets · secondary only · 27h old"
     },
     {
       "file": "2026-10-13-no-more-hand-written-code-epic-reportedly-adopts-ai-first-pr.json",
       "title": "\"No More Hand-Written Code\" - Epic Reportedly Adopts \"AI First\" Production Model On New Disney Shooter",
       "pass": false,
       "reason": "1 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-10-13-gears-of-war-e-day-review.json",
-      "title": "Gears of War: E-Day Review",
-      "pass": false,
-      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-13-dragon-quest-creator-lauds-ai-after-prompting-new-game-in-30.json",
-      "title": "Dragon Quest Creator Lauds AI After Prompting New Game In 30 Minutes",
-      "pass": false,
-      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-12-the-best-deals-today-doom-the-dark-ages-star-wars-zero-compa.json",
-      "title": "The Best Deals Today: Doom: The Dark Ages, Star Wars Zero Company, 007 4K Blu-ray, and More",
-      "pass": false,
-      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-10-12-squadron-42-opens-for-steam-wishlisting-ahead-of-a-planned-q.json",
-      "title": "Squadron 42 opens for Steam wishlisting ahead of a planned Q2 2027 release",
-      "pass": false,
-      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-12-forza-horizon-6-will-have-a-physical-ps5-disc-but-theres-a-c.json",
-      "title": "Forza Horizon 6 Will Have a Physical PS5 Disc, But There's a Catch",
-      "pass": false,
-      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }

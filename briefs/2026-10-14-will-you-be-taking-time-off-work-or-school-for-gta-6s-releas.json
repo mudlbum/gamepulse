@@ -1,0 +1,135 @@
+{
+  "generated": "2026-10-14T01:28:58.812Z",
+  "workingTitle": "Will You Be Taking Time Off Work or School for GTA 6's Release Next Month?",
+  "heat": 61.3,
+  "outletCount": 6,
+  "outlets": [
+    "IGN",
+    "PCGamesN",
+    "Rock Paper Shotgun",
+    "GameSpot",
+    "Kotaku",
+    "Eurogamer"
+  ],
+  "newest": "2026-10-13T20:47:09.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Will You Be Taking Time Off Work or School for GTA 6's Release Next Month?",
+        "url": "https://www.ign.com/articles/will-you-be-taking-time-off-work-or-school-for-gta-6s-release-next-month",
+        "date": "2026-10-13T20:47:09.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Rockstar reportedly plans GTA 6 PC release for early 2027",
+        "url": "https://www.pcgamesn.com/grand-theft-auto-vi/pc-launch-leak",
+        "date": "2026-10-13T15:44:28.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "GTA 6 PC release planned for early 2027, report claims, which could mean we're playing in time for GTA Online 2: Vice City 4 U or whatever they call it",
+        "url": "https://www.rockpapershotgun.com/gta-6-pc-release-planned-for-early-2027-report-claims-which-could-mean-were-playing-in-time-for-gta-online-2-vice-city-4-u-or-whatever-they-call-it",
+        "date": "2026-10-13T15:30:21.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Rockstar's Multi-Million Dollar Miami Takeover Continues to Expand Ahead of GTA 6 Launch, Despite Protests from Some Officials",
+        "url": "https://www.ign.com/articles/rockstars-multi-million-dollar-miami-takeover-continues-to-expand-ahead-of-gta-6-launch-despite-protests-from-some-officials",
+        "date": "2026-10-13T15:04:37.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Reportedly Set for PC Q1 2027",
+        "url": "https://www.ign.com/articles/gta-6-reportedly-set-for-pc-q1-2027",
+        "date": "2026-10-13T14:01:10.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Will Reportedly Come To PC Much Earlier Than Expected",
+        "url": "https://www.gamespot.com/articles/gta-6-will-reportedly-come-to-pc-much-earlier-than-expected/",
+        "date": "2026-10-13T14:24:07.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:1000000000",
+      "value": "$1 billion",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Economists have estimated that there will be a $1 billion loss in productivity during launch week due to people being absent from their jobs.",
+      "urls": [
+        "https://www.ign.com/articles/will-you-be-taking-time-off-work-or-school-for-gta-6s-release-next-month"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "four industry sources familiar with the studio s plans",
+      "value": "four industry sources familiar with the studio's plans",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to the report from GamesBeat, which cites \"four industry sources familiar with the studio's plans\", the first three months of 2027 make up the window during which Rockstar intend to bring Grandma Stealy Wheely 6 to PC.",
+      "urls": [
+        "https://www.rockpapershotgun.com/gta-6-pc-release-planned-for-early-2027-report-claims-which-could-mean-were-playing-in-time-for-gta-online-2-vice-city-4-u-or-whatever-they-call-it"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000000",
+      "value": "$1 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In September, Rockstar paid just shy of $1 million to install a massive, glowing \"Welcome to Vice City\" sign on top of the Miami Heat&#x27;s arena, the Kaseya Center.",
+      "urls": [
+        "https://www.ign.com/articles/rockstars-multi-million-dollar-miami-takeover-continues-to-expand-ahead-of-gta-6-launch-despite-protests-from-some-officials"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-19",
+      "value": "November 19, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If true, it would mean GTA 6 hitting PC just a few months after it launches on PlayStation 5 and Xbox Series X and S on November 19, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-reportedly-set-for-pc-q1-2027"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
