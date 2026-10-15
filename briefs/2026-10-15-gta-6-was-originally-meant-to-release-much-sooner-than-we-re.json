@@ -1,0 +1,124 @@
+{
+  "generated": "2026-10-15T01:05:10.343Z",
+  "workingTitle": "GTA 6 Was Originally Meant to Release Much Sooner Than We Realized",
+  "heat": 97.6,
+  "outletCount": 9,
+  "outlets": [
+    "IGN",
+    "GameSpot",
+    "PC Gamer",
+    "Kotaku",
+    "PCGamesN",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "Push Square",
+    "Nintendo Life"
+  ],
+  "newest": "2026-10-14T20:15:09.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Was Originally Meant to Release Much Sooner Than We Realized",
+        "url": "https://www.ign.com/articles/gta-6-was-originally-meant-to-release-much-sooner-than-we-realized",
+        "date": "2026-10-14T20:15:09.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "GTA 6 leaker threatens Take-Two with a 'dead man's switch'",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-leaker-threatens-take-two-with-a-dead-mans-switch/",
+        "date": "2026-10-14T18:36:16.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "GTA 6 Lead Reacts To The Infamous 2022 Leak: ‘Like Somebody’s Wading Through Your Dirty Washing’",
+        "url": "https://kotaku.com/gta-6-lead-reacts-to-the-infamous-2022-leak-like-somebodys-wading-through-your-dirty-washing-2000745968",
+        "date": "2026-10-14T17:00:52.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "GTA 6 PC release date estimate",
+        "url": "https://www.pcgamesn.com/grand-theft-auto-6/pc",
+        "date": "2026-10-14T15:30:06.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "When Rockstar Needed To Delay GTA 6 Again, Take-Two’s CEO Replied: ‘Please Tell Me You’re Kidding’",
+        "url": "https://kotaku.com/when-rockstar-needed-to-delay-gta-6-again-take-twos-ceo-replied-please-tell-me-youre-kidding-2000745938",
+        "date": "2026-10-14T15:10:02.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Reviews: When They Could Be Released",
+        "url": "https://www.gamespot.com/articles/gta-6-reviews-when-they-could-be-released/",
+        "date": "2026-10-14T18:53:45.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:30000000",
+      "value": "$30 million",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Cyberleek also defended their cryptocurrency ask, saying it \"was always a donation, never an investment,\" and denying that a rugpull happened; they also said they wouldn't release the full build of GTA 6, with \"full story mode, played to the end,\" because their memecoin market cap didn't hit $30 million.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-leaker-threatens-take-two-with-a-dead-mans-switch/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "was always a donation never an investment",
+      "value": "was always a donation, never an investment,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Cyberleek also defended their cryptocurrency ask, saying it \"was always a donation, never an investment,\" and denying that a rugpull happened; they also said they wouldn't release the full build of GTA 6, with \"full story mode, played to the end,\" because their memecoin market cap didn't hit $30 million.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-leaker-threatens-take-two-with-a-dead-mans-switch/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "grand theft auto vi is coming to playstation 5 computer entertainment systems and xbox series x s games and entertainment systems",
+      "value": "Grand Theft Auto VI is coming to PlayStation 5 computer entertainment systems and Xbox Series X|S games and entertainment systems,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The official GTA 6 site now lists the PlayStation 5 and Xbox Series X|S as the consoles available at launch, and a previous press release sent out by Rockstar Games confirms that \"Grand Theft Auto VI is coming to PlayStation 5 computer entertainment systems and Xbox Series X|S games and entertainment systems,\" seemingly confirming that GTA 6 will only release on next-gen consoles.",
+      "urls": [
+        "https://www.pcgamesn.com/grand-theft-auto-6/pc"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 3,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "generated": "2026-10-15T01:05:11.288Z",
+  "workingTitle": "Xbox Officially Announces New Xbox Nano Controller",
+  "heat": 55.8,
+  "outletCount": 6,
+  "outlets": [
+    "Polygon",
+    "Kotaku",
+    "Pure Xbox",
+    "Xbox Wire",
+    "Rock Paper Shotgun",
+    "Eurogamer"
+  ],
+  "newest": "2026-10-14T18:14:03.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Meet the XBOX Nano Controller",
+        "url": "https://news.xbox.com/en-us/2026/10/14/xbox-nano-controller/",
+        "date": "2026-10-14T16:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Xbox Officially Announces New Xbox Nano Controller",
+        "url": "https://www.polygon.com/xbox-nano-controller-portable-price-reveal/",
+        "date": "2026-10-14T18:14:03.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "There’s A New Xbox Controller That’s Cheaper, Smaller, And Doesn’t Use AA Batteries",
+        "url": "https://kotaku.com/theres-a-new-xbox-controller-thats-cheaper-smaller-and-doesnt-use-aa-batteries-2000745986",
+        "date": "2026-10-14T17:30:27.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Xbox Unveils New Nano Controller Perfect For 'Smaller Hands'",
+        "url": "https://www.purexbox.com/news/2026/10/xbox-unveils-new-nano-controller-perfect-for-smaller-hands",
+        "date": "2026-10-14T16:55:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Asha Sharma announces Xbox Labs project to \"explore new technology,\" which sure sounds like tinkering with old games through AI",
+        "url": "https://www.rockpapershotgun.com/asha-sharma-announces-xbox-labs-project-to-explore-new-technology-which-sure-sounds-like-tinkering-with-old-games-through-ai",
+        "date": "2026-10-14T15:17:23.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Xbox announces what sounds like a generative AI-focused game-making department, Xbox Labs, while avoiding mentioning AI",
+        "url": "https://www.eurogamer.net/xbox-labs-genai-game-ports-vibe-code",
+        "date": "2026-10-14T08:35:47.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$49.99,",
+      "outlets": [
+        "Polygon",
+        "Kotaku",
+        "Pure Xbox",
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 4,
+      "context": "Its compact design offers a great option for younger players, smaller hands, or anyone seeking something portable for play on the go.\"\n\nThe price of today's Xbox Nano Controller is £44.99 / $49.99, and it's available for pre-order from the Microsoft Store.",
+      "urls": [
+        "https://www.polygon.com/xbox-nano-controller-portable-price-reveal/",
+        "https://kotaku.com/theres-a-new-xbox-controller-thats-cheaper-smaller-and-doesnt-use-aa-batteries-2000745986",
+        "https://www.purexbox.com/news/2026/10/xbox-unveils-new-nano-controller-perfect-for-smaller-hands",
+        "https://news.xbox.com/en-us/2026/10/14/xbox-nano-controller/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "in recent weeks we ve seen games rapidly decompiled and rebuilt to run on hardware they were never originally designed to support",
+      "value": "In recent weeks, we've seen games rapidly decompiled and rebuilt to run on hardware they were never originally designed to support,",
+      "outlets": [
+        "Rock Paper Shotgun",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"In recent weeks, we've seen games rapidly decompiled and rebuilt to run on hardware they were never originally designed to support,\" Sharma writes.",
+      "urls": [
+        "https://www.rockpapershotgun.com/asha-sharma-announces-xbox-labs-project-to-explore-new-technology-which-sure-sounds-like-tinkering-with-old-games-through-ai",
+        "https://www.eurogamer.net/xbox-labs-genai-game-ports-vibe-code"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:65",
+      "value": "$64.99",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Xbox officially announced its newest controller model on Wednesday, revealing a pocket-sized controller alternative to the standard Xbox wireless controller (which starts at $64.99) and the high-end Xbox Elite Wireless Controller (which starts at $149.99).",
+      "urls": [
+        "https://www.polygon.com/xbox-nano-controller-portable-price-reveal/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:150",
+      "value": "$149.99",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Xbox officially announced its newest controller model on Wednesday, revealing a pocket-sized controller alternative to the standard Xbox wireless controller (which starts at $64.99) and the high-end Xbox Elite Wireless Controller (which starts at $149.99).",
+      "urls": [
+        "https://www.polygon.com/xbox-nano-controller-portable-price-reveal/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "younger players smaller hands or anyone seeking something portable for play on the go",
+      "value": "younger players, smaller hands, or anyone seeking something portable for play on the go",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The $49.99 Nano controller, Microsoft says, is designed with \"younger players, smaller hands, or anyone seeking something portable for play on the go\" in mind.",
+      "urls": [
+        "https://www.polygon.com/xbox-nano-controller-portable-price-reveal/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:15",
+      "value": "$15",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It offers all of the inputs of a regular-sized Xbox controller at nearly half the size and $15 cheaper.",
+      "urls": [
+        "https://kotaku.com/theres-a-new-xbox-controller-thats-cheaper-smaller-and-doesnt-use-aa-batteries-2000745986"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-04",
+      "value": "November 4, 2026",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It includes all 18 standard gameplay inputs, delivering a familiar controller layout players already love.\"\n\nThe Xbox Nano Controller is scheduled to release on November 4, 2026, and comes with two months of Xbox Game Pass Ultimate (limited to new members in the US only).",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-unveils-new-nano-controller-perfect-for-smaller-hands"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to explore these possibilities",
+      "value": "To explore these possibilities,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"To explore these possibilities,\" the statement continues, \"I've asked Scott [Van Vliet, Xbox's chief technology officer] to stand-up Xbox Labs, a small group of game makers, engineers and scientists whose job is to turn emerging ideas into things our players and developers can experience.",
+      "urls": [
+        "https://www.rockpapershotgun.com/asha-sharma-announces-xbox-labs-project-to-explore-new-technology-which-sure-sounds-like-tinkering-with-old-games-through-ai"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "perhaps more surprisingly we ve seen many of the biggest games in the world have been remixed into the source code of another",
+      "value": "Perhaps more surprisingly, we've seen many of the biggest games in the world have been remixed into the source code of another.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Perhaps more surprisingly, we've seen many of the biggest games in the world have been remixed into the source code of another.\"\n\nThese \"experiments\" challenge long-held industry assumptions such as \"the tether between software and hardware, the boundary between creation and play, and how people discover and experience games\", Sharma added.",
+      "urls": [
+        "https://www.eurogamer.net/xbox-labs-genai-game-ports-vibe-code"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a small group of game makers engineers and scientists",
+      "value": "a small group of game makers, engineers and scientists",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For now, Labs represents \"a small group of game makers, engineers and scientists\" who will \"turn emerging ideas into things our players and developers can experience\", Sharma said.\"We'll build in the open, learn from what people do, and measure success by whether more people are playing and creating.\"\n\nSharma added: \"I think Xbox has an important role to play here.",
+      "urls": [
+        "https://www.eurogamer.net/xbox-labs-genai-game-ports-vibe-code"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 10,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "8 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

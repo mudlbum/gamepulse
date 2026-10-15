@@ -1,0 +1,127 @@
+{
+  "generated": "2026-10-15T01:05:10.597Z",
+  "workingTitle": "October’s PlayStation Plus Catalog Is One Of The Service’s Best Months In A Long Time",
+  "heat": 64.2,
+  "outletCount": 7,
+  "outlets": [
+    "Kotaku",
+    "IGN",
+    "Eurogamer",
+    "Polygon",
+    "GameSpot",
+    "PlayStation Blog",
+    "Push Square"
+  ],
+  "newest": "2026-10-14T18:30:03.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "PlayStation Blog",
+        "title": "PlayStation Plus Game Catalog for October: Mafia: The Old Country, Horizon Forbidden West, Mycopunk and more",
+        "url": "https://blog.playstation.com/2026/10/14/playstation-plus-game-catalog-for-october-mafia-the-old-country-horizon-forbidden-west-mycopunk-and-more/",
+        "date": "2026-10-14T15:30:18.000Z",
+        "host": "blog.playstation.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "October’s PlayStation Plus Catalog Is One Of The Service’s Best Months In A Long Time",
+        "url": "https://kotaku.com/octobers-playstation-plus-catalog-is-one-of-the-services-best-months-in-a-long-time-2000746001",
+        "date": "2026-10-14T18:30:03.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "PlayStation Plus Game Catalog October 2026 Lineup Confirmed",
+        "url": "https://www.ign.com/articles/playstation-plus-game-catalog-october-2026-lineup-confirmed",
+        "date": "2026-10-14T16:55:19.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Here are our PS Plus Premium and Extra games for October",
+        "url": "https://www.eurogamer.net/playstation-plus-october-2026-games",
+        "date": "2026-10-14T16:51:54.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "PS Plus October 2026 Lineup Confirmed, Includes Newest Mafia Game",
+        "url": "https://www.polygon.com/ps-plus-game-catalog-october-2026-update/",
+        "date": "2026-10-14T16:22:57.000Z",
+        "host": "www.polygon.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "PlayStation Plus Extra/Premium Games For October 2026 Revealed",
+        "url": "https://www.gamespot.com/articles/playstation-plus-extra-premium-games-for-october-2026-revealed/",
+        "date": "2026-10-14T16:04:40.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-10-14",
+      "value": "October 14, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "October 14, 2026October 14, 2026 PlayStation Plus Game Catalog for October: Mafia: The Old Country, Horizon Forbidden West, Mycopunk and more 19 0 92 Like this Dino Crisis 2 and RollerCoaster Tycoon 3 Complete Edition join PlayStation Plus Premium.",
+      "urls": [
+        "https://blog.playstation.com/2026/10/14/playstation-plus-game-catalog-for-october-mafia-the-old-country-horizon-forbidden-west-mycopunk-and-more/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-03",
+      "value": "November 3, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "Offer ends November 3, 2026.",
+      "urls": [
+        "https://blog.playstation.com/2026/10/14/playstation-plus-game-catalog-for-october-mafia-the-old-country-horizon-forbidden-west-mycopunk-and-more/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "mafia the old country is a sobering reminder that tough times still create a breeding ground for exploitation today just as they did in sicily",
+      "value": "Mafia: The Old Country is a sobering reminder that tough times still create a breeding ground for exploitation today, just as they did in Sicily,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Mafia: The Old Country is a sobering reminder that tough times still create a breeding ground for exploitation today, just as they did in Sicily,\" Polygon's Giovanni Colantonio (a proud Italian) wrote in his 2025 review.",
+      "urls": [
+        "https://www.polygon.com/ps-plus-game-catalog-october-2026-update/"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 3,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "1 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

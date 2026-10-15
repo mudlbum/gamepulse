@@ -1,10 +1,40 @@
 {
-  "decided": "2026-10-14T01:29:00.336Z",
+  "decided": "2026-10-15T01:05:11.638Z",
   "publish": true,
-  "reason": "selected on score 32.2",
-  "brief": "2026-10-13-our-humble-goal-is-to-survive-the-ai-revolution-says-epic-ga.json",
-  "title": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
+  "reason": "selected on score 42.7",
+  "brief": "2026-10-15-xbox-officially-announces-new-xbox-nano-controller.json",
+  "title": "Xbox Officially Announces New Xbox Nano Controller",
   "considered": [
+    {
+      "file": "2026-10-15-xbox-officially-announces-new-xbox-nano-controller.json",
+      "title": "Xbox Officially Announces New Xbox Nano Controller",
+      "pass": true,
+      "reason": "2/10 claims corroborated · 6 outlets · primary source · 7h old"
+    },
+    {
+      "file": "2026-10-15-ubisoft-to-close-trials-studio-redlynx-downsize-ubisoft-sing.json",
+      "title": "Ubisoft to close Trials studio RedLynx, downsize Ubisoft Singapore",
+      "pass": false,
+      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-15-octobers-playstation-plus-catalog-is-one-of-the-services-bes.json",
+      "title": "October’s PlayStation Plus Catalog Is One Of The Service’s Best Months In A Long Time",
+      "pass": false,
+      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-15-gta-6-was-originally-meant-to-release-much-sooner-than-we-re.json",
+      "title": "GTA 6 Was Originally Meant to Release Much Sooner Than We Realized",
+      "pass": false,
+      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-15-epic-dunks-on-steam-with-vibe-coded-storefront-and-gets-roas.json",
+      "title": "Epic Dunks On Steam With Vibe-Coded Storefront And Gets Roasted: ‘This Launcher Is So F*cking Vibeslopped Its Funny’",
+      "pass": false,
+      "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-10-14-will-you-be-taking-time-off-work-or-school-for-gta-6s-releas.json",
       "title": "Will You Be Taking Time Off Work or School for GTA 6's Release Next Month?",
@@ -22,36 +52,6 @@
       "title": "New Xbox Labs Team Officially Announced",
       "pass": false,
       "reason": "0 of 11 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-10-14-ea-reckons-battlefield-6-deserves-a-game-of-the-year-edition.json",
-      "title": "EA Reckons Battlefield 6 Deserves a Game of the Year Edition",
-      "pass": false,
-      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-14-best-valor-mortis-graphics-settings-for-no-lag-and-max-fps.json",
-      "title": "Best Valor Mortis graphics settings for no lag and max FPS",
-      "pass": false,
-      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-13-valor-mortis-system-requirements-appear-to-have-been-drastic.json",
-      "title": "Valor Mortis' system requirements appear to have been drastically cut, just before the FPSoulslike launches",
-      "pass": false,
-      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-13-our-humble-goal-is-to-survive-the-ai-revolution-says-epic-ga.json",
-      "title": "'Our humble goal is to survive the AI revolution' says Epic Games CEO, as its Star Wars and Marvel crossover pivots to 'AI first' development",
-      "pass": true,
-      "reason": "6/17 claims corroborated · 4 outlets · secondary only · 27h old"
-    },
-    {
-      "file": "2026-10-13-no-more-hand-written-code-epic-reportedly-adopts-ai-first-pr.json",
-      "title": "\"No More Hand-Written Code\" - Epic Reportedly Adopts \"AI First\" Production Model On New Disney Shooter",
-      "pass": false,
-      "reason": "1 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
     }
   ]
 }

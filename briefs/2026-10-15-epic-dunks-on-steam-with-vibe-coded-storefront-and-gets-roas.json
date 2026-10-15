@@ -1,0 +1,182 @@
+{
+  "generated": "2026-10-15T01:05:10.951Z",
+  "workingTitle": "Epic Dunks On Steam With Vibe-Coded Storefront And Gets Roasted: ‘This Launcher Is So F*cking Vibeslopped Its Funny’",
+  "heat": 60.3,
+  "outletCount": 6,
+  "outlets": [
+    "Kotaku",
+    "Eurogamer",
+    "Rock Paper Shotgun",
+    "Destructoid",
+    "IGN",
+    "PC Gamer"
+  ],
+  "newest": "2026-10-14T21:30:56.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Epic Dunks On Steam With Vibe-Coded Storefront And Gets Roasted: ‘This Launcher Is So F*cking Vibeslopped Its Funny’",
+        "url": "https://kotaku.com/epic-dunks-on-steam-with-vibe-coded-storefront-and-gets-roasted-this-launcher-is-so-fucking-vibeslopped-its-funny-2000746031",
+        "date": "2026-10-14T21:30:56.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Epic throws shade at Steam, admits to vibe-coding the new Epic Games Launcher with AI \"to be faster than the other guy\"",
+        "url": "https://www.eurogamer.net/epic-throws-shade-steam-vibe-coding-games-launcher-ai",
+        "date": "2026-10-14T18:17:03.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "\"We vibe coded a new Epic Games Launcher\" because \"programming is hard\", announce company we're somehow supposed to see as a serious Steam competitor",
+        "url": "https://www.rockpapershotgun.com/we-vibe-coded-a-new-epic-games-launcher-because-programming-is-hard-announce-company-were-somehow-supposed-to-see-as-a-serious-steam-competitor",
+        "date": "2026-10-14T15:32:37.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Epic Games’ new store is fully vibe-coded, and they’re so proud of it they’re taking shots at Steam",
+        "url": "https://www.destructoid.com/epic-games-store-ai-vibe-coded/",
+        "date": "2026-10-14T14:47:21.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "‘We Vibe Coded a New Epic Games Launcher’ – Epic’s New Store App Was Built Using AI",
+        "url": "https://www.ign.com/articles/we-vibe-coded-a-new-epic-games-launcher-epics-new-store-app-was-built-using-ai",
+        "date": "2026-10-14T14:33:23.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Epic says its new 'vibe coded' Epic Games Store launcher is faster than Steam",
+        "url": "https://www.pcgamer.com/software/platforms/epic-says-its-new-vibe-coded-epic-games-store-launcher-is-faster-than-steam/",
+        "date": "2026-10-14T14:15:44.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "we vibe coded the epic games launcher to be faster than the other guy",
+      "value": "We vibe coded the Epic Games Launcher to be faster than the other guy,",
+      "outlets": [
+        "Eurogamer",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We vibe coded the Epic Games Launcher to be faster than the other guy,\" Epic tweeted alongside a graph (below) comparing how much faster the EGS Launcher is to boot than Steam (Five seconds!) \"Is this bad boy faster?",
+      "urls": [
+        "https://www.eurogamer.net/epic-throws-shade-steam-vibe-coding-games-launcher-ai",
+        "https://www.rockpapershotgun.com/we-vibe-coded-a-new-epic-games-launcher-because-programming-is-hard-announce-company-were-somehow-supposed-to-see-as-a-serious-steam-competitor"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-10-14",
+      "value": "October 14, 2026",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "https://t.co/RBCZTTnQ1U\n\n— Pandan | GearGrit on Steam (@Weston_Mitchell) October 14, 2026\n\nFirst day of vibe coded Epic Games Launcher and I switched Fortnite from Performance mode to DX12 and it opened UEFN https://t.co/D1vIlfPLJj\n\neven outside of that bug I posted earlier it's crazy to brag about speed and this is the experience, like this is very slow.",
+      "urls": [
+        "https://kotaku.com/epic-dunks-on-steam-with-vibe-coded-storefront-and-gets-roasted-this-launcher-is-so-fucking-vibeslopped-its-funny-2000746031"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "no more hand written code",
+      "value": "no more hand-written code",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Developers were allegedly told that \"no more hand-written code\" should be used while making the Disney crossover project from here on, and even art should be \"generated with full AI workflows\".",
+      "urls": [
+        "https://www.eurogamer.net/epic-throws-shade-steam-vibe-coding-games-launcher-ai"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "less load on your system while it runs in the background",
+      "value": "less load on your system while it runs in the background",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Test it out for yourself in Preview:https://t.co/pdtAeEIri4 pic.twitter.com/aMxojUUVPV\n\nThe new launcher - which is available for Windows, macOS, and Linux - is being touted as having speedy load times and putting \"less load on your system while it runs in the background\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/we-vibe-coded-a-new-epic-games-launcher-because-programming-is-hard-announce-company-were-somehow-supposed-to-see-as-a-serious-steam-competitor"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it s been rebuilt entirely from the ground up",
+      "value": "It's been rebuilt entirely from the ground up,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It's been rebuilt entirely from the ground up,\" Epic Games Store general manager Martin Keely added in an interview with IGN.",
+      "urls": [
+        "https://www.rockpapershotgun.com/we-vibe-coded-a-new-epic-games-launcher-because-programming-is-hard-announce-company-were-somehow-supposed-to-see-as-a-serious-steam-competitor"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we have a huge pivot underway here at epic moving developers around to retool for maximum ai acceleration",
+      "value": "We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We have a huge pivot underway here at Epic, moving developers around to retool for maximum AI acceleration,\" Epic CEO Tim Sweeney said after that news was reported.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/epic-says-its-new-vibe-coded-epic-games-store-launcher-is-faster-than-steam/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the aim isn t to do the same stuff with fewer people but to enable everyone here to build more and better stuff and to bring the benefits to all teams using unreal",
+      "value": "The aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The aim isn't to do the same stuff with fewer people, but to enable everyone here to build MORE and BETTER stuff, and to bring the benefits to all teams using Unreal.\"\n\nThe use of \"vibe coded\" to describe this new client, which is sure to draw some eyerolls, seems to me like a clear statement from Epic that it is unbothered by AI critics.",
+      "urls": [
+        "https://www.pcgamer.com/software/platforms/epic-says-its-new-vibe-coded-epic-games-store-launcher-is-faster-than-steam/"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 7,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "6 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

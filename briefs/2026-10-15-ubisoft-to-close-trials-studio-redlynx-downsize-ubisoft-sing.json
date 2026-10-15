@@ -1,0 +1,169 @@
+{
+  "generated": "2026-10-15T01:05:11.561Z",
+  "workingTitle": "Ubisoft to close Trials studio RedLynx, downsize Ubisoft Singapore",
+  "heat": 51.3,
+  "outletCount": 5,
+  "outlets": [
+    "Game Developer",
+    "Push Square",
+    "Eurogamer",
+    "Nintendo Life",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-10-14T22:08:51.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Game Developer",
+        "title": "Ubisoft to close Trials studio RedLynx, downsize Ubisoft Singapore",
+        "url": "https://www.gamedeveloper.com/business/ubisoft-to-close-trials-studio-redlynx-downsize-ubisoft-singapore",
+        "date": "2026-10-14T22:08:51.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Trials Studio RedLynx Looks Set to Close as Ubisoft Continues Major Restructure",
+        "url": "https://www.pushsquare.com/news/2026/10/trials-studio-redlynx-looks-set-to-close-as-ubisoft-continues-major-restructure",
+        "date": "2026-10-14T14:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Ubisoft closing Trials developer RedLynx and downsizing Assassin's Creed: Black Flag Resynced team in Singapore",
+        "url": "https://www.eurogamer.net/ubisoft-closing-trials-studio-redlyx-layoffs-singapore-black-flag",
+        "date": "2026-10-14T12:30:49.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "RedLynx, The Studio Behind The Trials Series, Is Being Closed By Ubisoft",
+        "url": "https://www.nintendolife.com/news/2026/10/redlynx-the-studio-behind-the-trials-series-is-being-closed-by-ubisoft",
+        "date": "2026-10-14T10:45:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Ubisoft are making layoffs at Assassin's Creed Black Flag Resynced studio Ubisoft Singapore while closing Trials creators Redlynx",
+        "url": "https://www.rockpapershotgun.com/ubisoft-are-making-layoffs-at-assassins-creed-black-flag-resynced-studio-ubisoft-singapore-while-closing-trials-creators-redlynx-according-to-report",
+        "date": "2026-10-14T10:43:55.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Cut Assassin’s Creed Black Flag Resynced epilogue scene, that could hint at fresh 18th century stabby hijinks, allegedly taken down by Ubisoft following…",
+        "url": "https://www.rockpapershotgun.com/cut-assassins-creed-black-flag-resynced-epilogue-scene-that-could-hint-at-fresh-18th-century-stabby-hijinks-allegedly-taken-down-by-ubisoft-following-datamine",
+        "date": "2026-10-13T11:20:00.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "today we informed our teams of a proposal to close redlynx in finland subject to the local change negotiation process which would affect up to 52 positions",
+      "value": "Today, we informed our teams of a proposal to close RedLynx in Finland, subject to the local change negotiation process, which would affect up to 52 positions,",
+      "outlets": [
+        "Push Square",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"Today, we informed our teams of a proposal to close RedLynx in Finland, subject to the local change negotiation process, which would affect up to 52 positions,\" the statement says.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/trials-studio-redlynx-looks-set-to-close-as-ubisoft-continues-major-restructure",
+        "https://www.eurogamer.net/ubisoft-closing-trials-studio-redlyx-layoffs-singapore-black-flag"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to align the studio with upcoming production needs",
+      "value": "70 positions have been impacted to align the studio with upcoming production needs",
+      "outlets": [
+        "Push Square",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "As regards Ubisoft Singapore, \"70 positions have been impacted to align the studio with upcoming production needs\".",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/trials-studio-redlynx-looks-set-to-close-as-ubisoft-continues-major-restructure",
+        "https://www.rockpapershotgun.com/ubisoft-are-making-layoffs-at-assassins-creed-black-flag-resynced-studio-ubisoft-singapore-while-closing-trials-creators-redlynx-according-to-report"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "we ve been creating trials games ever since 2000",
+      "value": "We've been creating Trials games ever since 2000.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "😭\n\nRedLynx: \"We've been creating Trials games ever since 2000.\" Ubisoft: \"Good.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/redlynx-the-studio-behind-the-trials-series-is-being-closed-by-ubisoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "no more hand written code",
+      "value": "No More Hand-Written Code",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"No More Hand-Written Code\" - Epic Reportedly Adopts \"AI First\" Production Model On New Disney Shooter\n\nRedLynx, The Studio Behind The Trials Series, Is Being Closed By Ubisoft",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/redlynx-the-studio-behind-the-trials-series-is-being-closed-by-ubisoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "remains an important part of ubisoft s global production organisation",
+      "value": "remains an important part of Ubisoft's global production organisation.",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ubisoft's statement stresses that the Singapore team \"remains an important part of Ubisoft's global production organisation.\"\n\nUbisoft are planning to shut down RedLynx, creators of the side-scrolling Trials arcade racing games, according to a report, while laying off staff at Assassin's Creed Black Flag Resynched studio Ubisoft Singapore.",
+      "urls": [
+        "https://www.rockpapershotgun.com/ubisoft-are-making-layoffs-at-assassins-creed-black-flag-resynced-studio-ubisoft-singapore-while-closing-trials-creators-redlynx-according-to-report"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "removed following a copyright removal request by ubisoft",
+      "value": "removed following a copyright removal request by Ubisoft",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I can't verify for sure that's what it appears to be, as the video they'd posted of their findings isn't currently watchable with YouTube indicating it was \"removed following a copyright removal request by Ubisoft\", while a Reddit thread on the topic has also been yanked \"by Reddit's filters\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/cut-assassins-creed-black-flag-resynced-epilogue-scene-that-could-hint-at-fresh-18th-century-stabby-hijinks-allegedly-taken-down-by-ubisoft-following-datamine"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "4 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
