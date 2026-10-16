@@ -1,0 +1,183 @@
+{
+  "generated": "2026-10-16T00:53:43.841Z",
+  "workingTitle": "Sega Pulls Total War: Shogun 2 Remaster After Backlash Over AI-Upscaled Graphics",
+  "heat": 52.4,
+  "outletCount": 6,
+  "outlets": [
+    "GameSpot",
+    "PC Gamer",
+    "IGN",
+    "Rock Paper Shotgun",
+    "PCGamesN",
+    "Kotaku"
+  ],
+  "newest": "2026-10-15T17:10:28.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Total War: WARHAMMER III"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "The Shogun 2 remaster is so bad, Sega is removing it from sale and bringing back the original",
+        "url": "https://www.pcgamer.com/games/strategy/the-shogun-2-remaster-is-so-bad-sega-is-removing-it-from-sale-and-bringing-back-the-original/",
+        "date": "2026-10-15T15:50:41.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Sega Pulls Disastrous Total War: Shogun 2 Remaster From Sale Following Backlash",
+        "url": "https://www.ign.com/articles/total-war-shogun-2-remaster-pulled-from-sale",
+        "date": "2026-10-15T15:09:04.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "\"Total War: Shogun 2 Complete Edition has fallen short of both your expectations and our own standards\", Sega say as they pull it from stores and restore the…",
+        "url": "https://www.rockpapershotgun.com/total-war-shogun-2-complete-edition-has-fallen-short-of-both-your-expectations-and-our-own-standards-sega-say-as-they-pull-it-from-stores-and-restore-the-original",
+        "date": "2026-10-15T14:27:58.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Total War Shogun 2's Complete Edition quickly pulled from sale following severe blowback",
+        "url": "https://www.pcgamesn.com/total-war-shogun-2/complete-edition-removed-from-sale",
+        "date": "2026-10-15T14:15:22.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Sega’s Total War: Shogun 2 Remake Is Such A Disaster It’s Being Pulled From Sale",
+        "url": "https://kotaku.com/sega-total-war-shogun-2-complete-edition-ai-reviews-pulled-from-sale-2000746339",
+        "date": "2026-10-15T13:59:17.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Sega Pulls Total War: Shogun 2 Remaster After Backlash Over AI-Upscaled Graphics",
+        "url": "https://www.gamespot.com/articles/sega-pulls-total-war-shogun-2-remaster-after-backlash-over-ai-upscaled-graphics/",
+        "date": "2026-10-15T17:10:28.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$39.99",
+      "outlets": [
+        "IGN",
+        "PCGamesN",
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "The Complete Edition costs $39.99 / £34.99, and while you can get a 75% discount if you already own the original, bringing it down to $9.99 / £8.75, many user reviews express that it feels more like a free update than a full, paid remaster.",
+      "urls": [
+        "https://www.ign.com/articles/total-war-shogun-2-remaster-pulled-from-sale",
+        "https://www.pcgamesn.com/total-war-shogun-2/complete-edition-removed-from-sale",
+        "https://kotaku.com/sega-total-war-shogun-2-complete-edition-ai-reviews-pulled-from-sale-2000746339"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re aware that total war shogun 2 complete edition has fallen short of both your expectations and our own standards",
+      "value": "We're aware that Total War: Shogun 2 – Complete Edition has fallen short of both your expectations and our own standards,",
+      "outlets": [
+        "Rock Paper Shotgun",
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We're aware that Total War: Shogun 2 – Complete Edition has fallen short of both your expectations and our own standards,\" the pair wrote in a statement posted to Steam and Sega's socials.",
+      "urls": [
+        "https://www.rockpapershotgun.com/total-war-shogun-2-complete-edition-has-fallen-short-of-both-your-expectations-and-our-own-standards-sega-say-as-they-pull-it-from-stores-and-restore-the-original",
+        "https://www.pcgamesn.com/total-war-shogun-2/complete-edition-removed-from-sale"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "improved textures models lighting shadows fog and environments alongside modern rendering anti aliasing and upscaling options",
+      "value": "improved textures, models, lighting, shadows, fog and environments, alongside modern rendering, anti-aliasing and upscaling options.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sega had trumpeted \"upgraded visuals,\" which include \"improved textures, models, lighting, shadows, fog and environments, alongside modern rendering, anti-aliasing and upscaling options.\" The game also has optional 2.5D campaign movies inspired by Japanese Ukiyo-e art.",
+      "urls": [
+        "https://www.ign.com/articles/total-war-shogun-2-remaster-pulled-from-sale"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Total War: Shogun 2 — Complete Edition currently sits on an “overwhelmingly negative” user review rating on Steam, as customers who paid $10 to “upgrade” the game aired their grievances.",
+      "urls": [
+        "https://www.ign.com/articles/total-war-shogun-2-remaster-pulled-from-sale"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the quality standards players expect",
+      "value": "working closely with our development partner to identify the causes of these problems, deliver improvements, and ensure Shogun 2 Complete Edition meets the quality standards players expect from Total War.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Existing owners will still be able to access and play the game.\"\n\nThe team says it is \"working closely with our development partner to identify the causes of these problems, deliver improvements, and ensure Shogun 2 Complete Edition meets the quality standards players expect from Total War.\" No further timeline has been given for now on when we might expect it to return to Steam.",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-shogun-2/complete-edition-removed-from-sale"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:9.99",
+      "value": "$9.99",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Complete Edition costs $39.99 / £34.99, and while you can get a 75% discount if you already own the original, bringing it down to $9.99 / £8.75, many user reviews express that it feels more like a free update than a full, paid remaster.",
+      "urls": [
+        "https://www.pcgamesn.com/total-war-shogun-2/complete-edition-removed-from-sale"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 6,
+  "ourData": [
+    {
+      "game": "Total War: WARHAMMER III",
+      "concurrent": 28841,
+      "rank": 42,
+      "change24h": -6,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "4 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "generated": "2026-10-16T00:53:44.205Z",
+  "workingTitle": "Ahead of Call of Duty: Modern Warfare 4's launch next week, unionised Activision testers have voted to authorise a strike",
+  "heat": 49.1,
+  "outletCount": 5,
+  "outlets": [
+    "Rock Paper Shotgun",
+    "Kotaku",
+    "Xbox Wire",
+    "GameSpot",
+    "Nintendo Life"
+  ],
+  "newest": "2026-10-15T20:27:22.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Ahead of Call of Duty: Modern Warfare 4's launch next week, unionised Activision testers have voted to authorise a strike",
+        "url": "https://www.rockpapershotgun.com/ahead-of-call-of-duty-modern-warfare-4s-launch-next-week-unionised-activision-testers-have-voted-to-authorise-a-strike",
+        "date": "2026-10-15T20:27:22.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Modern Warfare 4 Testers Vote To Authorize Union Strike As Contract Negotiations Stall: ‘It Is Time To Stop Playing Games’",
+        "url": "https://kotaku.com/modern-warfare-4-testers-vote-to-authorize-union-strike-as-contract-negotiations-stall-it-is-time-to-stop-playing-games-2000746427",
+        "date": "2026-10-15T19:30:54.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Activision’s Head Marketer Says Modern Warfare 4 Faces A ‘Call Of Duty Tax’",
+        "url": "https://kotaku.com/activisions-head-marketer-says-modern-warfare-4-faces-a-call-of-duty-tax-2000746337",
+        "date": "2026-10-15T14:30:12.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Guide: When Is Modern Warfare 4's Early Access Release For The Campaign & DMZ Modes?",
+        "url": "https://www.nintendolife.com/guides/modern-warfare-4-early-access-campaign-dmz-release-time-date-mw4",
+        "date": "2026-10-14T17:30:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "A New Call Of Duty Sub-Series Is Coming, After Years Of Black Ops and Modern Warfare",
+        "url": "https://www.gamespot.com/articles/a-new-call-of-duty-sub-series-is-coming-after-years-of-black-ops-and-modern-warfare/",
+        "date": "2026-10-15T15:31:36.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:n:500000000:units",
+      "value": "500 million units",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "“We have 100 million free-to-play players, we’ve sold 500 million units, it’s one of the biggest franchises of all time, and we have a billion downloads on mobile,” Bahl said.",
+      "urls": [
+        "https://kotaku.com/activisions-head-marketer-says-modern-warfare-4-faces-a-call-of-duty-tax-2000746337"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:20000000:players",
+      "value": "20 million players",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Over the summer, it sank to an estimated 20 million players, half of where it had been.",
+      "urls": [
+        "https://kotaku.com/activisions-head-marketer-says-modern-warfare-4-faces-a-call-of-duty-tax-2000746337"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

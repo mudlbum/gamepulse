@@ -1,0 +1,118 @@
+{
+  "generated": "2026-10-16T00:53:42.792Z",
+  "workingTitle": "GTA 6 Launch Trailer Breakdown And Theories",
+  "heat": 119.7,
+  "outletCount": 10,
+  "outlets": [
+    "GameSpot",
+    "Kotaku",
+    "IGN",
+    "Eurogamer",
+    "Nintendo Life",
+    "Push Square",
+    "Destructoid",
+    "PC Gamer",
+    "Pure Xbox",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-10-15T23:15:00.000Z",
+  "readableCount": 3,
+  "sourceCount": 6,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Massive GTA 6 Banner In Paris Censors All Of The Guns",
+        "url": "https://kotaku.com/massive-gta-6-banner-in-paris-features-some-silly-censorship-2000746458",
+        "date": "2026-10-15T22:00:10.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "33 New Details From the GTA 6 Launch Trailer",
+        "url": "https://www.ign.com/articles/33-new-details-from-the-gta-6-launch-trailer",
+        "date": "2026-10-15T16:35:45.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "GTA 6 squeaks into eligibility for The Game Awards 2026 by the smallest of margins - but can it break Clair Obscur: Expedition 33's record number of wins?",
+        "url": "https://www.eurogamer.net/gta-6-the-game-awards-eligibility-geoff-keighley",
+        "date": "2026-10-15T16:10:34.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Launch Trailer Breakdown And Theories",
+        "url": "https://www.gamespot.com/videos/gta-6-launch-trailer-breakdown-and-theories/",
+        "date": "2026-10-15T23:15:00.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "From Liberty City To Leonida: Following The Evolution Of Rockstar’s GTA Launch Trailers",
+        "url": "https://www.gamespot.com/articles/from-liberty-city-to-leonida-following-the-evolution-of-rockstars-gta-launch-trailers/",
+        "date": "2026-10-15T19:01:32.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Isn’t Showing Boobie In Promotional Material",
+        "url": "https://www.gamespot.com/articles/gta-6-isnt-showing-boobie-in-promotional-material/",
+        "date": "2026-10-15T17:31:32.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-11-20",
+      "value": "November 20, 2026",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Games must be made commercially available to customers on or before Friday, November 20, 2026, at 9pm PT,\" The Game Awards' website FAQ states.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-the-game-awards-eligibility-geoff-keighley"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "games must be made commercially available to customers on or before friday november 20 2026 at 9pm pt",
+      "value": "Games must be made commercially available to customers on or before Friday, November 20, 2026, at 9pm PT,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Games must be made commercially available to customers on or before Friday, November 20, 2026, at 9pm PT,\" The Game Awards' website FAQ states.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-the-game-awards-eligibility-geoff-keighley"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
