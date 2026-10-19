@@ -1,0 +1,181 @@
+{
+  "generated": "2026-10-19T00:36:02.229Z",
+  "workingTitle": "Street Fighter Movie Cracks Over $50M at Box Office in Opening Weekend",
+  "heat": 42.9,
+  "outletCount": 4,
+  "outlets": [
+    "Push Square",
+    "Polygon",
+    "Kotaku",
+    "Nintendo Life"
+  ],
+  "newest": "2026-10-18T23:00:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "Street Fighter Movie Cracks Over $50M at Box Office in Opening Weekend",
+        "url": "https://www.pushsquare.com/news/2026/10/street-fighter-movie-cracks-over-usd50m-at-box-office-in-opening-weekend",
+        "date": "2026-10-18T23:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Street Fighter Fails To Match Resident Evil's Opening Weekend Box Office Success",
+        "url": "https://www.polygon.com/street-fighter-opening-weekend-box-office/",
+        "date": "2026-10-18T16:14:05.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Who The Hell Was That In The Street Fighter Movie Because It Wasn’t Cammy",
+        "url": "https://kotaku.com/who-the-hell-was-that-in-the-street-fighter-movie-because-it-wasnt-cammy-2000746822",
+        "date": "2026-10-16T20:30:04.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "'Game First, Then Movie': Ed Boon Responds to Street Fighter vs Mortal Kombat Crossover Pitch",
+        "url": "https://www.pushsquare.com/news/2026/10/game-first-then-movie-ed-boon-responds-to-street-fighter-vs-mortal-kombat-crossover-pitch",
+        "date": "2026-10-16T13:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Street Fighter 6 Reveals Street Fighter Movie EX Colours, Here's Every Free Code",
+        "url": "https://www.nintendolife.com/news/2026/10/street-fighter-6-reveals-street-fighter-movie-ex-colours-heres-every-free-code",
+        "date": "2026-10-16T05:55:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:51100000",
+      "value": "$51.1 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There had been some concern over whether audiences would show up for the new live action Street Fighter movie, but it managed to top the worldwide box office this weekend with a $51.1 million international haul.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/street-fighter-movie-cracks-over-usd50m-at-box-office-in-opening-weekend"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70000000",
+      "value": "$70 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While optimists had been hoping for a number closer to $70 million, unless ticket sales fall off a cliff over the coming weeks, this is a decent result for the film, which was made on an $82 million budget, according to Deadline.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/street-fighter-movie-cracks-over-usd50m-at-box-office-in-opening-weekend"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:82000000",
+      "value": "$82 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While optimists had been hoping for a number closer to $70 million, unless ticket sales fall off a cliff over the coming weeks, this is a decent result for the film, which was made on an $82 million budget, according to Deadline.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/street-fighter-movie-cracks-over-usd50m-at-box-office-in-opening-weekend"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:31000000",
+      "value": "$31 million",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Deadline reports that Street Fighter, an adaptation of Capcom's series of fighting games, grossed $31 million its opening weekend.",
+      "urls": [
+        "https://www.polygon.com/street-fighter-opening-weekend-box-office/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:60000000",
+      "value": "$60 million",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "By comparison, the Capcom horror game adaptation Resident Evil made $60 million its opening weekend and is still charting at the box office about a month after release.",
+      "urls": [
+        "https://www.polygon.com/street-fighter-opening-weekend-box-office/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:15000000",
+      "value": "$15 million",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The real overperformer of the weekend was the Elizabeth Holmes documentary You Can See Everything, which had the second-biggest opening for a theatrically released documentary ever at $15 million.",
+      "urls": [
+        "https://www.polygon.com/street-fighter-opening-weekend-box-office/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-10-16",
+      "value": "October 16, 2026",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Cammy White is even colder than Chun-Li in the games.”\n\nThey wanted to do Juri instead instead SO BAD https://t.co/zyNEeMPdPH\n\n— R3dFiVe ✨️レッド5 – Artist – COMMISSIONS OPEN (@R3dFiVe_artist) October 16, 2026\n\nWhile the movie doesn’t really get into it, Jamson has said in a recent interview that this version of Cammy is, in fact, mind controlled like the rest of the Dolls.",
+      "urls": [
+        "https://kotaku.com/who-the-hell-was-that-in-the-street-fighter-movie-because-it-wasnt-cammy-2000746822"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "spoiler alert for a x year old game",
+      "value": "spoiler alert for a X-year old game",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "people that spoil a classic and then say \"spoiler alert for a X-year old game\" are the WORST.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/street-fighter-6-reveals-street-fighter-movie-ex-colours-heres-every-free-code"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 8,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

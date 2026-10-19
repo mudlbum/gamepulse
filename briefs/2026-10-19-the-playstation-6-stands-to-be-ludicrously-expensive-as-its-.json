@@ -1,0 +1,206 @@
+{
+  "generated": "2026-10-19T00:36:02.525Z",
+  "workingTitle": "The PlayStation 6 stands to be ludicrously expensive as its production cost alone reportedly approaches $1000",
+  "heat": 26.8,
+  "outletCount": 3,
+  "outlets": [
+    "Destructoid",
+    "Eurogamer",
+    "Kotaku"
+  ],
+  "newest": "2026-10-18T17:39:00.000Z",
+  "readableCount": 3,
+  "sourceCount": 3,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "The PlayStation 6 stands to be ludicrously expensive as its production cost alone reportedly approaches $1000",
+        "url": "https://www.destructoid.com/playstation-6-stands-to-be-incredibly-expensive/",
+        "date": "2026-10-18T17:39:00.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "The PS6's memory and storage alone reportedly cost more than $680",
+        "url": "https://www.eurogamer.net/ps6-ram-nand-costs-over-680-keplerl2",
+        "date": "2026-10-18T17:10:29.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The PlayStation 6’s Memory Components Alone Could Cost More Than $700",
+        "url": "https://kotaku.com/the-playstation-6s-memory-components-alone-could-cost-more-than-700-2000747289",
+        "date": "2026-10-18T16:14:24.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:680",
+      "value": "$680,",
+      "outlets": [
+        "Destructoid",
+        "Eurogamer",
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "But according to Wccftech, the cost of producing the RAM and SSDs for PlayStation 6 alone has reached around $680, which, combined with the rest of its proprietary custom-made state-of-the-art hardware, would easily push its production costs well above $1000.",
+      "urls": [
+        "https://www.destructoid.com/playstation-6-stands-to-be-incredibly-expensive/",
+        "https://www.eurogamer.net/ps6-ram-nand-costs-over-680-keplerl2",
+        "https://kotaku.com/the-playstation-6s-memory-components-alone-could-cost-more-than-700-2000747289"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000",
+      "value": "$1,000,",
+      "outlets": [
+        "Destructoid",
+        "Eurogamer",
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "In June, insider Kepler_L2 - who has previously made claims about hardware that have turned out to be true - claimed the console's bill of materials had climbed to close to $1,000, up from their earlier estimate of around $760.",
+      "urls": [
+        "https://www.destructoid.com/playstation-6-stands-to-be-incredibly-expensive/",
+        "https://www.eurogamer.net/ps6-ram-nand-costs-over-680-keplerl2",
+        "https://kotaku.com/the-playstation-6s-memory-components-alone-could-cost-more-than-700-2000747289"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:2000",
+      "value": "$2000.",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This figure does not include packaging, shipping, retailer cuts, VAT and other taxes, imports, and so many other logistical nightmares that would make this console sell for closer to $2000.",
+      "urls": [
+        "https://www.destructoid.com/playstation-6-stands-to-be-incredibly-expensive/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3",
+      "value": "$3",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As Wccftech writes, citing leaker KeplerL2, Sony was designing SoCs (the chips) when gDDR7 memory was expected to cost about $3 per GB, but nowadays that price is about seven times higher, between $20 and $23 per GB.",
+      "urls": [
+        "https://www.destructoid.com/playstation-6-stands-to-be-incredibly-expensive/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As Wccftech writes, citing leaker KeplerL2, Sony was designing SoCs (the chips) when gDDR7 memory was expected to cost about $3 per GB, but nowadays that price is about seven times higher, between $20 and $23 per GB.",
+      "urls": [
+        "https://www.destructoid.com/playstation-6-stands-to-be-incredibly-expensive/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:23",
+      "value": "$23",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As Wccftech writes, citing leaker KeplerL2, Sony was designing SoCs (the chips) when gDDR7 memory was expected to cost about $3 per GB, but nowadays that price is about seven times higher, between $20 and $23 per GB.",
+      "urls": [
+        "https://www.destructoid.com/playstation-6-stands-to-be-incredibly-expensive/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "ram nand alone is over 680",
+      "value": "RAM + NAND alone is over $680",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's according to leaker Kepler_L2, who wrote that \"RAM + NAND alone is over $680\" in a NeoGAF thread in which Kepler_L2 was replying to a forum user who doubted an earlier cost estimate and suggested Sony could subsidise the PS6 to launch at $680.",
+      "urls": [
+        "https://www.eurogamer.net/ps6-ram-nand-costs-over-680-keplerl2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:760",
+      "value": "$760.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In June, insider Kepler_L2 - who has previously made claims about hardware that have turned out to be true - claimed the console's bill of materials had climbed to close to $1,000, up from their earlier estimate of around $760.",
+      "urls": [
+        "https://www.eurogamer.net/ps6-ram-nand-costs-over-680-keplerl2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as a principle we do not intend to sell hardware at significant losses",
+      "value": "as a principle, we do not intend to sell hardware at significant losses",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It follows Sony Interactive Entertainment boss Hideaki Nishino telling investors in June that \"as a principle, we do not intend to sell hardware at significant losses\".",
+      "urls": [
+        "https://www.eurogamer.net/ps6-ram-nand-costs-over-680-keplerl2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:700",
+      "value": "$700",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to one insider, the PlayStation 6’s memory alone will rake up more than $700 USD, pushing the full price tag over the $1,000 rim.",
+      "urls": [
+        "https://kotaku.com/the-playstation-6s-memory-components-alone-could-cost-more-than-700-2000747289"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 10,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "8 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

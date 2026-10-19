@@ -1,0 +1,53 @@
+{
+  "generated": "2026-10-19T00:36:02.705Z",
+  "workingTitle": "Samson dev Liquid Swords has reportedly gone bankrupt",
+  "heat": 25,
+  "outletCount": 3,
+  "outlets": [
+    "Eurogamer",
+    "PC Gamer",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-10-18T15:21:13.000Z",
+  "readableCount": 3,
+  "sourceCount": 3,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Eurogamer",
+        "title": "Samson dev Liquid Swords has reportedly gone bankrupt",
+        "url": "https://www.eurogamer.net/liquid-swords-samson-developer-bankrupt",
+        "date": "2026-10-18T15:21:13.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Liquid Swords, developer of open-city crime sim Samson, has gone bankrupt following staff claims that they haven't been paid in two months",
+        "url": "https://www.pcgamer.com/gaming-industry/liquid-swords-developer-of-open-city-crime-sim-samson-has-gone-bankrupt-following-staff-claims-that-they-havent-been-paid-in-two-months/",
+        "date": "2026-10-18T09:50:29.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Oh dear, half a year after launching Samson, Swedish developer Liquid Swords have filed for bankruptcy",
+        "url": "https://www.rockpapershotgun.com/oh-dear-half-a-year-after-launching-samson-swedish-developer-liquid-swords-have-filed-for-bankruptcy",
+        "date": "2026-10-17T15:58:54.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [],
+  "factCount": 0,
+  "evidenceCount": 0,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

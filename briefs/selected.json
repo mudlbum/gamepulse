@@ -1,10 +1,40 @@
 {
-  "decided": "2026-10-16T00:53:44.281Z",
+  "decided": "2026-10-19T00:36:02.779Z",
   "publish": true,
-  "reason": "selected on score 34.8",
-  "brief": "2026-10-15-xbox-officially-announces-new-xbox-nano-controller.json",
-  "title": "Xbox Officially Announces New Xbox Nano Controller",
+  "reason": "selected on score 25.7",
+  "brief": "2026-10-19-the-playstation-6-stands-to-be-ludicrously-expensive-as-its-.json",
+  "title": "The PlayStation 6 stands to be ludicrously expensive as its production cost alone reportedly approaches $1000",
   "considered": [
+    {
+      "file": "2026-10-19-the-playstation-6-stands-to-be-ludicrously-expensive-as-its-.json",
+      "title": "The PlayStation 6 stands to be ludicrously expensive as its production cost alone reportedly approaches $1000",
+      "pass": true,
+      "reason": "2/10 claims corroborated · 3 outlets · secondary only · 7h old"
+    },
+    {
+      "file": "2026-10-19-street-fighter-movie-cracks-over-50m-at-box-office-in-openin.json",
+      "title": "Street Fighter Movie Cracks Over $50M at Box Office in Opening Weekend",
+      "pass": false,
+      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-19-samson-dev-liquid-swords-has-reportedly-gone-bankrupt.json",
+      "title": "Samson dev Liquid Swords has reportedly gone bankrupt",
+      "pass": false,
+      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-19-all-endings-in-tenebris-somnia-and-how-to-unlock-them.json",
+      "title": "All endings in Tenebris Somnia and how to unlock them",
+      "pass": false,
+      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-19-all-carry-forward-content-in-call-of-duty-modern-warfare-4-a.json",
+      "title": "All carry forward content in Call of Duty: Modern Warfare 4 and Warzone",
+      "pass": false,
+      "reason": "0 of 11 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
     {
       "file": "2026-10-16-sega-pulls-total-war-shogun-2-remaster-after-backlash-over-a.json",
       "title": "Sega Pulls Total War: Shogun 2 Remaster After Backlash Over AI-Upscaled Graphics",
@@ -20,36 +50,6 @@
     {
       "file": "2026-10-16-castlevania-belmonts-curse-is-the-latest-game-to-attend-the-.json",
       "title": "Castlevania: Belmont’s Curse Is The Latest Game To Attend The Hades School Of Making Everybody Hot",
-      "pass": false,
-      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-16-ahead-of-call-of-duty-modern-warfare-4s-launch-next-week-uni.json",
-      "title": "Ahead of Call of Duty: Modern Warfare 4's launch next week, unionised Activision testers have voted to authorise a strike",
-      "pass": false,
-      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-16-2026s-bloodiest-game-just-got-a-release-date.json",
-      "title": "2026's Bloodiest Game Just Got a Release Date",
-      "pass": false,
-      "reason": "0 of 10 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-10-15-xbox-officially-announces-new-xbox-nano-controller.json",
-      "title": "Xbox Officially Announces New Xbox Nano Controller",
-      "pass": true,
-      "reason": "2/10 claims corroborated · 6 outlets · primary source · 31h old"
-    },
-    {
-      "file": "2026-10-15-ubisoft-to-close-trials-studio-redlynx-downsize-ubisoft-sing.json",
-      "title": "Ubisoft to close Trials studio RedLynx, downsize Ubisoft Singapore",
-      "pass": false,
-      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-15-octobers-playstation-plus-catalog-is-one-of-the-services-bes.json",
-      "title": "October’s PlayStation Plus Catalog Is One Of The Service’s Best Months In A Long Time",
       "pass": false,
       "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
