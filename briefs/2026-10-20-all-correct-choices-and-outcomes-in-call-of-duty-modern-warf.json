@@ -1,0 +1,109 @@
+{
+  "generated": "2026-10-20T01:21:30.173Z",
+  "workingTitle": "All correct choices and outcomes in Call of Duty: Modern Warfare 4 Campaign",
+  "heat": 97.2,
+  "outletCount": 8,
+  "outlets": [
+    "Destructoid",
+    "Polygon",
+    "GameSpot",
+    "Xbox Wire",
+    "IGN",
+    "Eurogamer",
+    "PCGamesN",
+    "Nintendo Life"
+  ],
+  "newest": "2026-10-20T00:41:06.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "All correct choices and outcomes in Call of Duty: Modern Warfare 4 Campaign",
+        "url": "https://www.destructoid.com/all-correct-choices-and-outcomes-in-call-of-duty-modern-warfare-4-campaign/",
+        "date": "2026-10-20T00:41:06.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Modern Warfare 4 Is Legitimately a Top-5 Call of Duty Campaign",
+        "url": "https://www.polygon.com/mw4-modern-warfare-4-call-duty-campaign-review/",
+        "date": "2026-10-19T22:15:56.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "All weapons in Modern Warfare 4 and how to unlock them",
+        "url": "https://www.destructoid.com/all-weapons-in-modern-warfare-4-and-how-to-unlock-them/",
+        "date": "2026-10-19T19:28:50.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "All camos in Modern Warfare 4 – Weapon camos guide",
+        "url": "https://www.destructoid.com/all-camos-in-modern-warfare-4-weapon-camos-guide/",
+        "date": "2026-10-19T17:22:55.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "You Don’t Need An Expensive Console Or High-End PC To Play Call Of Duty: Modern Warfare 4",
+        "url": "https://www.gamespot.com/articles/you-dont-need-an-expensive-console-or-high-end-pc-to-play-call-of-duty-modern-warfare-4/",
+        "date": "2026-10-19T19:11:06.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "holy shit now that was cool",
+      "value": "holy shit, now that was cool.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Almost every single mission has notable peaks that will have you going, \"holy shit, now that was cool.\"\n\nClose It's a game that isn't afraid to wear its inspiration on its sleeve, and to excellent effect.",
+      "urls": [
+        "https://www.polygon.com/mw4-modern-warfare-4-call-duty-campaign-review/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "which saw improvement in black ops 6 s stellar",
+      "value": "which saw improvement in Black Ops 6’s stellar",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(This is the continuation of a trend that began with Modern Warfare 3's \"open combat missions,\" which saw improvement in Black Ops 6’s stellar \"Hunting Season\" mission, before Black Ops 7 undid all of that progress with those dreadful Avalon-set levels.)\n\nClose In isolation, \"Stranded\" isn't a bad time.",
+      "urls": [
+        "https://www.polygon.com/mw4-modern-warfare-4-call-duty-campaign-review/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

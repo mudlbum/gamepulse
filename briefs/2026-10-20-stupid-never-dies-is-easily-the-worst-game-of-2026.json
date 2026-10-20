@@ -1,0 +1,62 @@
+{
+  "generated": "2026-10-20T01:21:31.819Z",
+  "workingTitle": "Stupid Never Dies Is Easily the Worst Game of 2026",
+  "heat": 39.8,
+  "outletCount": 4,
+  "outlets": [
+    "Polygon",
+    "GameSpot",
+    "Push Square",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-10-19T22:00:17.000Z",
+  "readableCount": 3,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Stupid Never Dies Is Easily the Worst Game of 2026",
+        "url": "https://www.polygon.com/stupid-never-dies-review/",
+        "date": "2026-10-19T22:00:17.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Review: Stupid Never Dies (PS5) - Toilet-Flushing, Monster-Munching Roguelite Stands Out in a Stacked Genre",
+        "url": "https://www.pushsquare.com/reviews/ps5/stupid-never-dies",
+        "date": "2026-10-19T22:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "This week in PC games: build a better zombie in Stupid Never Dies, glue together houses in Cutout Village, and settle brave new worlds in Star Trek: Outposts…",
+        "url": "https://www.rockpapershotgun.com/this-week-in-pc-games-build-a-better-zombie-in-stupid-never-dies-glue-together-houses-in-cutout-village-and-settle-brave-new-worlds-in-star-trek-outposts-unknown",
+        "date": "2026-10-19T12:59:48.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Stupid Never Dies – 26 Minute Full Dungeon Run Gameplay",
+        "url": "https://www.gamespot.com/videos/stupid-never-dies-26-minute-full-dungeon-run-gameplay/",
+        "date": "2026-10-19T22:00:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [],
+  "factCount": 0,
+  "evidenceCount": 0,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

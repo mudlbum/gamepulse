@@ -1,0 +1,176 @@
+{
+  "generated": "2026-10-20T01:21:30.641Z",
+  "workingTitle": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
+  "heat": 51.4,
+  "outletCount": 5,
+  "outlets": [
+    "PC Gamer",
+    "GameSpot",
+    "Eurogamer",
+    "Push Square",
+    "Pure Xbox"
+  ],
+  "newest": "2026-10-19T21:47:17.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
+        "url": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-adds-new-difficulty-options-that-can-bring-it-closer-to-xcom/",
+        "date": "2026-10-19T21:47:17.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Lucasfilm wants to do more Star Wars games like Zero Company and Galactic Racer: 'We’ve tried to be more flexible about who we’re willing to take pitches from'",
+        "url": "https://www.pcgamer.com/gaming-industry/lucasfilm-wants-to-do-more-star-wars-games-like-zero-company-and-galactic-racer-weve-tried-to-be-more-flexible-about-who-were-willing-to-take-pitches-from/",
+        "date": "2026-10-19T21:46:23.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "We've had two great Star Wars games this year, probably because Lucasfilm Games says it's now \"more flexible\" about who it takes pitches from",
+        "url": "https://www.eurogamer.net/star-wars-games-small-developers-lucasfilm-games-plan",
+        "date": "2026-10-19T13:06:53.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Star Wars Zero Company review",
+        "url": "https://www.eurogamer.net/star-wars-zero-company-review",
+        "date": "2026-10-19T13:05:47.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Star Wars Games Primed to Continue Hot Streak with 'Surprise' Titles",
+        "url": "https://www.pushsquare.com/news/2026/10/star-wars-games-primed-to-continue-hot-streak-with-surprise-titles",
+        "date": "2026-10-19T13:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Star Wars Games Could Get More Interesting As Lucasfilm Looks Beyond The Big Studios",
+        "url": "https://www.gamespot.com/articles/star-wars-games-could-get-more-interesting-as-lucasfilm-looks-beyond-the-big-studios/",
+        "date": "2026-10-19T15:24:20.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "very much is part of the strategy",
+      "value": "very much is part of the strategy,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Both Zero Company and Galactic Racer were developed by independent studios—Bit Reactor and Fuse Games, respectively—and that \"very much is part of the strategy,\" Lucasfilm Games vice president Douglas Reilly told The Game Business.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/lucasfilm-wants-to-do-more-star-wars-games-like-zero-company-and-galactic-racer-weve-tried-to-be-more-flexible-about-who-were-willing-to-take-pitches-from/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "obviously huge triple a games like battlefront are always going to be an essential part of the strategy",
+      "value": "Obviously, huge triple-A games like Battlefront are always going to be an essential part of the strategy,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Obviously, huge triple-A games like Battlefront are always going to be an essential part of the strategy,\" Reilly said.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/lucasfilm-wants-to-do-more-star-wars-games-like-zero-company-and-galactic-racer-weve-tried-to-be-more-flexible-about-who-were-willing-to-take-pitches-from/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the official identity for all gaming titles from lucasfilm",
+      "value": "the official identity for all gaming titles from Lucasfilm",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Disney also resurrected Lucasfilm Games in 2021, making it \"the official identity for all gaming titles from Lucasfilm\"—which, as the sizzle reel made clear, meant Star Wars games—and it's \"tried to be more flexible about who we're willing to take pitches from,\" Reilly said.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/lucasfilm-wants-to-do-more-star-wars-games-like-zero-company-and-galactic-racer-weve-tried-to-be-more-flexible-about-who-were-willing-to-take-pitches-from/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re obviously a licensing business",
+      "value": "We're obviously a licensing business,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We're obviously a licensing business,\" Reilly explained, \"so we're not the publishers any more of products.",
+      "urls": [
+        "https://www.eurogamer.net/star-wars-games-small-developers-lucasfilm-games-plan"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "however that doesn t mean you",
+      "value": "However, that doesn't mean you",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And that means typically you work with more experienced teams than new teams.\" However, that doesn't mean you \"necessarily be a top-five publisher to make a great Star Wars game\".",
+      "urls": [
+        "https://www.eurogamer.net/star-wars-games-small-developers-lucasfilm-games-plan"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re exploring all kinds of things large and small",
+      "value": "We're exploring all kinds of things, large and small,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We're exploring all kinds of things, large and small,\" he said, \"with partners that I think are going to continue to surprise folks who are like, 'Oh, they're doing a thing with them.",
+      "urls": [
+        "https://www.eurogamer.net/star-wars-games-small-developers-lucasfilm-games-plan"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "partners that are going to",
+      "value": "partners that are going to",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He continued by explaining Lucasfilm is working with \"large and small\" partners that are going to \"surprise\" players once the collaborations are announced.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/star-wars-games-primed-to-continue-hot-streak-with-surprise-titles"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 7,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

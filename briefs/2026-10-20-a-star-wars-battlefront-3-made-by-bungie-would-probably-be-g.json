@@ -1,0 +1,118 @@
+{
+  "generated": "2026-10-20T01:21:31.619Z",
+  "workingTitle": "A Star Wars Battlefront 3 Made By Bungie Would Probably Be Great But Also A Waste",
+  "heat": 41,
+  "outletCount": 4,
+  "outlets": [
+    "Kotaku",
+    "Polygon",
+    "Push Square",
+    "Destructoid"
+  ],
+  "newest": "2026-10-19T23:00:42.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "A Star Wars Battlefront 3 Made By Bungie Would Probably Be Great But Also A Waste",
+        "url": "https://kotaku.com/a-star-wars-battlefront-3-made-by-bungie-would-probably-be-great-but-also-a-waste-2000747640",
+        "date": "2026-10-19T23:00:42.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Star Wars Battlefront 3: Bungie Rumored as New Developer",
+        "url": "https://www.polygon.com/star-wars-battlefront-3-rumor-bungie-dice-disney/",
+        "date": "2026-10-19T20:33:08.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Could Sony's Bungie Build the Next Star Wars Battlefront Game?",
+        "url": "https://www.pushsquare.com/news/2026/10/could-sonys-bungie-build-the-next-star-wars-battlefront-game",
+        "date": "2026-10-19T18:45:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Bungie is still busy with Marathon and Destiny, but Star Wars could reportedly be next",
+        "url": "https://www.destructoid.com/bungie-star-wars-battlefront-rumors-reportedly-could-be-next/",
+        "date": "2026-10-19T18:24:45.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:250000",
+      "value": "$250,000",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The EGM Compendium campaign featured a $250,000 stretch goal that, if reached, would result in a 265th issue of the legendary gaming magazine, complete with contributions from former EGM staffers and other gaming industry luminaries.",
+      "urls": [
+        "https://www.polygon.com/star-wars-battlefront-3-rumor-bungie-dice-disney/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1700000",
+      "value": "$1.7 million",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The campaign crossed $1.7 million in pledges back in 2024, ensuring that the compendium and multiple stretch goals would come to fruition.",
+      "urls": [
+        "https://www.polygon.com/star-wars-battlefront-3-rumor-bungie-dice-disney/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "disney has big plans for the star wars battlefront series",
+      "value": "Disney has big plans for the Star Wars Battlefront series,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "One of those rumors was revealed during Monday's Game Mess Mornings on Giant Bomb, with reporter (and new EGM contributor) Jeff Grubb spilling the following beans:\n\n\"Disney has big plans for the Star Wars Battlefront series,\" Grubb said, reading from the magazine's rumor pages.",
+      "urls": [
+        "https://www.polygon.com/star-wars-battlefront-3-rumor-bungie-dice-disney/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "recognizing how ea s battlefront 2 has sustained popularity that other star wars media could only dream of you d think they d green light battlefront 3 toot sweet",
+      "value": "Recognizing how EA's Battlefront 2 has sustained popularity that other Star Wars media could only dream of you'd think they'd green light Battlefront 3 toot sweet.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Recognizing how EA's Battlefront 2 has sustained popularity that other Star Wars media could only dream of you'd think they'd green light Battlefront 3 toot sweet.\"\n\nGrubb read on, saying, \"The suits at Lucasfilm have been aggressively deploying probe droids looking for a development partner to take on the task of creating a follow-up.",
+      "urls": [
+        "https://www.polygon.com/star-wars-battlefront-3-rumor-bungie-dice-disney/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

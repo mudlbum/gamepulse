@@ -1,15 +1,45 @@
 {
-  "decided": "2026-10-19T00:36:02.779Z",
+  "decided": "2026-10-20T01:21:33.767Z",
   "publish": true,
-  "reason": "selected on score 25.7",
+  "reason": "selected on score 17.4",
   "brief": "2026-10-19-the-playstation-6-stands-to-be-ludicrously-expensive-as-its-.json",
   "title": "The PlayStation 6 stands to be ludicrously expensive as its production cost alone reportedly approaches $1000",
   "considered": [
     {
+      "file": "2026-10-20-stupid-never-dies-is-easily-the-worst-game-of-2026.json",
+      "title": "Stupid Never Dies Is Easily the Worst Game of 2026",
+      "pass": false,
+      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-20-star-wars-zero-company-adds-new-difficulty-options-that-can-.json",
+      "title": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
+      "pass": false,
+      "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-20-cyberpunk-edgerunners-2-casts-hideo-kojima-to-reprise-game-r.json",
+      "title": "Cyberpunk: Edgerunners 2 Casts Hideo Kojima to Reprise Game Role",
+      "pass": false,
+      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-20-all-correct-choices-and-outcomes-in-call-of-duty-modern-warf.json",
+      "title": "All correct choices and outcomes in Call of Duty: Modern Warfare 4 Campaign",
+      "pass": false,
+      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-20-a-star-wars-battlefront-3-made-by-bungie-would-probably-be-g.json",
+      "title": "A Star Wars Battlefront 3 Made By Bungie Would Probably Be Great But Also A Waste",
+      "pass": false,
+      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
       "file": "2026-10-19-the-playstation-6-stands-to-be-ludicrously-expensive-as-its-.json",
       "title": "The PlayStation 6 stands to be ludicrously expensive as its production cost alone reportedly approaches $1000",
       "pass": true,
-      "reason": "2/10 claims corroborated · 3 outlets · secondary only · 7h old"
+      "reason": "2/10 claims corroborated · 3 outlets · secondary only · 32h old"
     },
     {
       "file": "2026-10-19-street-fighter-movie-cracks-over-50m-at-box-office-in-openin.json",
@@ -22,36 +52,6 @@
       "title": "Samson dev Liquid Swords has reportedly gone bankrupt",
       "pass": false,
       "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-19-all-endings-in-tenebris-somnia-and-how-to-unlock-them.json",
-      "title": "All endings in Tenebris Somnia and how to unlock them",
-      "pass": false,
-      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-19-all-carry-forward-content-in-call-of-duty-modern-warfare-4-a.json",
-      "title": "All carry forward content in Call of Duty: Modern Warfare 4 and Warzone",
-      "pass": false,
-      "reason": "0 of 11 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-10-16-sega-pulls-total-war-shogun-2-remaster-after-backlash-over-a.json",
-      "title": "Sega Pulls Total War: Shogun 2 Remaster After Backlash Over AI-Upscaled Graphics",
-      "pass": false,
-      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-16-gta-6-launch-trailer-breakdown-and-theories.json",
-      "title": "GTA 6 Launch Trailer Breakdown And Theories",
-      "pass": false,
-      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-16-castlevania-belmonts-curse-is-the-latest-game-to-attend-the-.json",
-      "title": "Castlevania: Belmont’s Curse Is The Latest Game To Attend The Hades School Of Making Everybody Hot",
-      "pass": false,
-      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }
