@@ -1,10 +1,40 @@
 {
-  "decided": "2026-10-20T01:21:33.767Z",
+  "decided": "2026-10-21T01:07:30.368Z",
   "publish": true,
-  "reason": "selected on score 17.4",
-  "brief": "2026-10-19-the-playstation-6-stands-to-be-ludicrously-expensive-as-its-.json",
-  "title": "The PlayStation 6 stands to be ludicrously expensive as its production cost alone reportedly approaches $1000",
+  "reason": "selected on score 50.7",
+  "brief": "2026-10-21-next-gen-xbox-could-cost-up-to-1800-new-report-says.json",
+  "title": "Next-gen Xbox Could Cost Up to $1,800, New Report Says",
   "considered": [
+    {
+      "file": "2026-10-21-the-first-kingdom-hearts-featured-final-fantasy-in-a-way-i-w.json",
+      "title": "The First Kingdom Hearts Featured Final Fantasy In A Way I Wish The Series Would Again",
+      "pass": false,
+      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-21-next-gen-xbox-could-cost-up-to-1800-new-report-says.json",
+      "title": "Next-gen Xbox Could Cost Up to $1,800, New Report Says",
+      "pass": true,
+      "reason": "7/27 claims corroborated · 6 outlets · secondary only · 4h old"
+    },
+    {
+      "file": "2026-10-21-fuse-games-ceo-breaks-down-codev-framework-for-star-wars-gal.json",
+      "title": "Fuse Games CEO breaks down codev framework for Star Wars: Galactic Racer",
+      "pass": false,
+      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-21-all-level-unlocks-and-rewards-in-modern-warfare-4-dmz.json",
+      "title": "All level unlocks and rewards in Modern Warfare 4 DMZ",
+      "pass": false,
+      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-21-a-big-overhaul-of-xbox-game-pass-is-in-the-works.json",
+      "title": "A Big Overhaul Of Xbox Game Pass Is In The Works",
+      "pass": true,
+      "reason": "7/11 claims corroborated · 5 outlets · primary source · 5h old"
+    },
     {
       "file": "2026-10-20-stupid-never-dies-is-easily-the-worst-game-of-2026.json",
       "title": "Stupid Never Dies Is Easily the Worst Game of 2026",
@@ -22,36 +52,6 @@
       "title": "Cyberpunk: Edgerunners 2 Casts Hideo Kojima to Reprise Game Role",
       "pass": false,
       "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-20-all-correct-choices-and-outcomes-in-call-of-duty-modern-warf.json",
-      "title": "All correct choices and outcomes in Call of Duty: Modern Warfare 4 Campaign",
-      "pass": false,
-      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-20-a-star-wars-battlefront-3-made-by-bungie-would-probably-be-g.json",
-      "title": "A Star Wars Battlefront 3 Made By Bungie Would Probably Be Great But Also A Waste",
-      "pass": false,
-      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-19-the-playstation-6-stands-to-be-ludicrously-expensive-as-its-.json",
-      "title": "The PlayStation 6 stands to be ludicrously expensive as its production cost alone reportedly approaches $1000",
-      "pass": true,
-      "reason": "2/10 claims corroborated · 3 outlets · secondary only · 32h old"
-    },
-    {
-      "file": "2026-10-19-street-fighter-movie-cracks-over-50m-at-box-office-in-openin.json",
-      "title": "Street Fighter Movie Cracks Over $50M at Box Office in Opening Weekend",
-      "pass": false,
-      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-19-samson-dev-liquid-swords-has-reportedly-gone-bankrupt.json",
-      "title": "Samson dev Liquid Swords has reportedly gone bankrupt",
-      "pass": false,
-      "reason": "only 0 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }

@@ -1,0 +1,486 @@
+{
+  "generated": "2026-10-21T01:07:29.312Z",
+  "workingTitle": "Next-gen Xbox Could Cost Up to $1,800, New Report Says",
+  "heat": 60.3,
+  "outletCount": 6,
+  "outlets": [
+    "Polygon",
+    "Pure Xbox",
+    "Push Square",
+    "Destructoid",
+    "GameSpot",
+    "Kotaku"
+  ],
+  "newest": "2026-10-20T21:00:04.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Next-gen Xbox Could Cost Up to $1,800, New Report Says",
+        "url": "https://www.polygon.com/next-gen-xbox-project-helix-price-release-date-2028/",
+        "date": "2026-10-20T21:00:04.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Report: Xbox To Release Next-Gen Handheld In 2027 & Expensive Helix Console In 2028",
+        "url": "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028",
+        "date": "2026-10-20T20:20:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Worried About PS6 Price? Next Xbox Could Be as Much as $1,800",
+        "url": "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800",
+        "date": "2026-10-20T20:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Next Xbox console reportedly coming in 2028 and could cost as much as $1,800",
+        "url": "https://www.destructoid.com/next-xbox-console-reportedly-2028-could-cost/",
+        "date": "2026-10-20T19:52:20.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Project Helix Xbox Consoles Could Reportedly Cost Between $1,200 And $1,800 Without Subsidies",
+        "url": "https://kotaku.com/project-helix-xbox-consoles-could-reportedly-cost-between-1200-and-1800-without-subsidies-2000748036",
+        "date": "2026-10-20T18:45:20.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Next-Gen Xbox Could Be $1,800 And Launch In 2028 – Report",
+        "url": "https://www.gamespot.com/articles/next-gen-xbox-could-be-1800-and-launch-in-2028-report/",
+        "date": "2026-10-20T19:29:33.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:1800",
+      "value": "$1,800.",
+      "outlets": [
+        "Polygon",
+        "Pure Xbox",
+        "Push Square",
+        "Destructoid",
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 5,
+      "context": "But a new report puts the projected cost of the next Xbox console in stark relief: According to Microsoft's internal estimates, it could cost as much as $1,800.",
+      "urls": [
+        "https://www.polygon.com/next-gen-xbox-project-helix-price-release-date-2028/",
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028",
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800",
+        "https://www.destructoid.com/next-xbox-console-reportedly-2028-could-cost/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1200",
+      "value": "$1,200,",
+      "outlets": [
+        "Pure Xbox",
+        "Push Square",
+        "Destructoid",
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 4,
+      "context": "If Helix costs $1,200, $1,800, Microsoft is pricing itself into an even smaller market.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028",
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800",
+        "https://www.destructoid.com/next-xbox-console-reportedly-2028-could-cost/",
+        "https://kotaku.com/project-helix-xbox-consoles-could-reportedly-cost-between-1200-and-1800-without-subsidies-2000748036"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000",
+      "value": "$1,000.",
+      "outlets": [
+        "Polygon",
+        "Pure Xbox",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "That console has also been suggested to cost more than $1,000.",
+      "urls": [
+        "https://www.polygon.com/next-gen-xbox-project-helix-price-release-date-2028/",
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028",
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:600",
+      "value": "$600",
+      "outlets": [
+        "Polygon",
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "There were two versions of the handheld, the $600 Xbox Ally and the premium $1,000 Xbox Ally X, and that device is reportedly “essentially an early version of what the next Xbox is going to be like.”\n\nBut the future of that next-gen Xbox handheld sounds somewhat in doubt, as Microsoft's Xbox and Windows teams are reportedly divided over the best way to make it.",
+      "urls": [
+        "https://www.polygon.com/next-gen-xbox-project-helix-price-release-date-2028/",
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "next generation handheld device",
+      "value": "next-generation handheld device",
+      "outlets": [
+        "Pure Xbox",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "In terms of the handheld, the outlet simply describes it as a \"next-generation handheld device\" that will arrive \"by the 2027 holiday season\", although it's also mentioned that there have been internal clashes at Microsoft over which software it should run.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028",
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1500",
+      "value": "$1,500.",
+      "outlets": [
+        "Pure Xbox",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "A Helix S for $600 to play at 1080p with low graphics settings, a Helix V for 1440p with high graphics settings at $900, and a Helix X for ultra graphics at 4K for $1,500.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028",
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:680",
+      "value": "$680,",
+      "outlets": [
+        "Push Square",
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "The cost of producing the RAM and SSDs necessary for the presumed PlayStation 6 has already reportedly reached around $680, and is likely to climb.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800",
+        "https://www.destructoid.com/next-xbox-console-reportedly-2028-could-cost/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "a trimmed down version of windows home",
+      "value": "a trimmed-down version of Windows Home,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Windows team wants the handheld Xbox to run on \"a trimmed-down version of Windows Home,\" while Sharma's team wants to \"build and control its own software to get the best gaming performance.\" Things have reportedly gotten so spicy that Xbox leadership threatened to kill the next-gen Xbox handheld altogether.",
+      "urls": [
+        "https://www.polygon.com/next-gen-xbox-project-helix-price-release-date-2028/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a senior xbox executive apparently even threatened to scrap the project entirely due to these tensions but xbox is now",
+      "value": "A senior Xbox executive apparently even threatened to scrap the project entirely due to these tensions, but Xbox is now",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sharma’s team, meanwhile, has sought to build and control its own software to get the best gaming performance.\"\n\nA senior Xbox executive apparently even threatened to scrap the project entirely due to these tensions, but Xbox is now \"largely controlling the direction\" of the operating system.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as it stands the price of the helix console has internally been projected to cost consumers between 1 200 and 1 800 unless microsoft decides to subsidize the cost",
+      "value": "As it stands, the price of the Helix console has internally been projected to cost consumers between $1,200 and $1,800, unless Microsoft decides to subsidize the cost.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"As it stands, the price of the Helix console has internally been projected to cost consumers between $1,200 and $1,800, unless Microsoft decides to subsidize the cost.\"\n\nOf course, we shouldn't forget that Asha Sharma was quoted as teasing multiple hardware devices for the next generation of Xbox just a few weeks ago.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:499",
+      "value": "$499",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Aside from the price what worries me the most is the possibility of Windows being shoved in the console experience, that’s just an absolute NO from me, even if the console was $499 I’d rather keep my Series X until it breaks.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "sharma s team meanwhile has sought to build and control its own software to get the best gaming performance",
+      "value": "Sharma’s team, meanwhile, has sought to build and control its own software to get the best gaming performance.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Sharma’s team, meanwhile, has sought to build and control its own software to get the best gaming performance.\"\n\nThat should reassure those (@IllusiveMan @Weebleman )who fear Microsoft will lock the platform down to Windows.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:900",
+      "value": "$900,",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A Helix S for $600 to play at 1080p with low graphics settings, a Helix V for 1440p with high graphics settings at $900, and a Helix X for ultra graphics at 4K for $1,500.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:500",
+      "value": "$500",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They seem to think that because they got their Series X for $500 that Helix will only cost a little more.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:200",
+      "value": "$200",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I have said a number of times now that Helix will be a niche product, mostly because those that bought a Series S for $200/$250 are no likely to be first in line to fork out $1500, and when you consider that more Series S consoles are in circulation than Series X, you have to wonder just how many people who bought the S as a Game Pass machine will think Helix is an item worth buying...?",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:999",
+      "value": "$999,",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The 512GB model could be slightly subsidised and release for $999, for marketing purposes and because of the psychological barrier.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:99",
+      "value": "$99",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Plus, an external disc drive for $99 like PS5 Pro for supporting Disc to Digital and the backwards compatible library.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3000",
+      "value": "$3K",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The $1,800 USD would be likely over $3K CAD!!",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:75",
+      "value": "$75",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A disc drive is $75-100 extra.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/report-xbox-to-release-next-gen-handheld-in-2027-and-expensive-helix-console-in-2028"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "no i refuse to pay that much for a console",
+      "value": "no, I refuse to pay that much for a console",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "From over 4,700 votes, 65% returned a \"no, I refuse to pay that much for a console\" vote.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Plus, playing online only costs $20/year if I am not mistaken.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1800000000",
+      "value": "$1,800, M",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If Helix costs $1,200, $1,800, Microsoft is pricing itself into an even smaller market.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000000000",
+      "value": "$1000 m",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "To echo what a lot of people have said about PCs, I'd rather get a $1800 powerhouse with functionality beyond a console than a $1000 moderately-stronger-than-the-PS5 PS6.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400",
+      "value": "$400",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "People buy $1500 tv’s, $1500 GPU’s , expensive smartphones, own horses, expensive sound systems, buy $400 bags and drive $35k cars all the time.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:35000",
+      "value": "$35k",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "People buy $1500 tv’s, $1500 GPU’s , expensive smartphones, own horses, expensive sound systems, buy $400 bags and drive $35k cars all the time.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "physical disc production is ending",
+      "value": "Physical disc production is ending,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Personally, I'm much happier with a frank \"Physical disc production is ending,\" versus the passive-aggressive disc-to-digital stuff.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:2600",
+      "value": "$2600.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There have been a few sales, recently, where an i7/i9 ultra with 32gb ram, and a 5080 for $2600.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/worried-about-ps6-price-next-xbox-could-be-as-much-as-usd1800"
+      ]
+    }
+  ],
+  "factCount": 7,
+  "evidenceCount": 27,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "20 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

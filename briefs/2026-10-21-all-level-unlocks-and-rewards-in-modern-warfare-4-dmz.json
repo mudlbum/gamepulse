@@ -1,0 +1,94 @@
+{
+  "generated": "2026-10-21T01:07:28.292Z",
+  "workingTitle": "All level unlocks and rewards in Modern Warfare 4 DMZ",
+  "heat": 94.1,
+  "outletCount": 8,
+  "outlets": [
+    "Destructoid",
+    "Xbox Wire",
+    "Kotaku",
+    "IGN",
+    "Push Square",
+    "Nintendo Life",
+    "Eurogamer",
+    "PCGamesN"
+  ],
+  "newest": "2026-10-20T23:37:33.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "All level unlocks and rewards in Modern Warfare 4 DMZ",
+        "url": "https://www.destructoid.com/all-level-unlocks-and-rewards-in-modern-warfare-4-dmz/",
+        "date": "2026-10-20T23:37:33.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "All Operator Trait effects in Modern Warfare 4 and how to unlock more",
+        "url": "https://www.destructoid.com/all-operator-trait-effects-in-modern-warfare-4-and-how-to-unlock-more/",
+        "date": "2026-10-20T20:51:59.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Best Operator Traits in Call of Duty: Modern Warfare 4 DMZ",
+        "url": "https://www.destructoid.com/best-operator-traits-in-call-of-duty-modern-warfare-4-dmz/",
+        "date": "2026-10-20T17:41:15.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Call Of Duty: Modern Warfare 4′s Campaign Is Exactly What I Want From A Big-Budget Shooter",
+        "url": "https://kotaku.com/call-of-duty-modern-warfare-4s-campaign-is-exactly-what-i-want-from-a-big-budget-shooter-2000747946",
+        "date": "2026-10-20T17:40:06.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Call of Duty MW4’s DMZ mode has massive potential in the extraction genre, especially for more casual players",
+        "url": "https://www.destructoid.com/cod-mw4-dmz-impressions-massive-potential-extraction-casual/",
+        "date": "2026-10-20T17:00:05.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:2000000000",
+      "value": "$2 billion",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This likely means using a low-level Operator to grind out some cash to get what you need to purchase their rescue (devs said the DMZ bank has a max limit of $2 billion), as higher level Operators cost more to get back.",
+      "urls": [
+        "https://www.destructoid.com/cod-mw4-dmz-impressions-massive-potential-extraction-casual/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

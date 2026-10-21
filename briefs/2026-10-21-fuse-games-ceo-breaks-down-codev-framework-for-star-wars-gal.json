@@ -1,0 +1,126 @@
+{
+  "generated": "2026-10-21T01:07:30.288Z",
+  "workingTitle": "Fuse Games CEO breaks down codev framework for Star Wars: Galactic Racer",
+  "heat": 45.3,
+  "outletCount": 5,
+  "outlets": [
+    "Game Developer",
+    "Rock Paper Shotgun",
+    "PC Gamer",
+    "Eurogamer",
+    "Pure Xbox"
+  ],
+  "newest": "2026-10-20T18:39:12.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Game Developer",
+        "title": "Fuse Games CEO breaks down codev framework for Star Wars: Galactic Racer",
+        "url": "https://www.gamedeveloper.com/production/fuse-games-ceo-breaks-down-codev-framework-for-star-wars-galactic-racer",
+        "date": "2026-10-20T18:39:12.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "\"It doesn’t have to always be triple-A\": Galactic Racer and Zero Company’s success has Lucasfilms wanting more smaller-scale Star Wars games",
+        "url": "https://www.rockpapershotgun.com/it-doesnt-have-to-always-be-triple-a-galactic-racer-and-zero-companys-success-has-lucasfilms-wanting-more-smaller-scale-star-wars-games",
+        "date": "2026-10-20T15:00:36.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Star Wars Zero Company adds new difficulty options that can bring it closer to XCOM",
+        "url": "https://www.pcgamer.com/games/strategy/star-wars-zero-company-adds-new-difficulty-options-that-can-bring-it-closer-to-xcom/",
+        "date": "2026-10-19T21:47:17.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Star Wars Zero Company review",
+        "url": "https://www.eurogamer.net/star-wars-zero-company-review",
+        "date": "2026-10-19T13:05:47.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Star Wars: Galactic Racer Might Be Getting Xbox Play Anywhere Support",
+        "url": "https://www.purexbox.com/news/2026/10/star-wars-galactic-racer-might-be-getting-xbox-play-anywhere-support",
+        "date": "2026-10-19T12:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "made by a core team of 75",
+      "value": "made by a core team of 75,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While GI.biz describes this as Galactic Racer being effectively \"made by a core team of 75,\" (the game&#x27;s credits list about 1,100 professional roles), Webster&#x27;s explanation of the distributed development model more effectively lays out the labor division.",
+      "urls": [
+        "https://www.gamedeveloper.com/production/fuse-games-ceo-breaks-down-codev-framework-for-star-wars-galactic-racer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you give a brief you get an output back and you integrate it in",
+      "value": "You give a brief, you get an output back, and you integrate it in,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"You give a brief, you get an output back, and you integrate it in,\" Webster told the outlet.",
+      "urls": [
+        "https://www.gamedeveloper.com/production/fuse-games-ceo-breaks-down-codev-framework-for-star-wars-galactic-racer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it x27 s clear to brief clear to point to a set of features and you need a cross discipline team to bring it together so you need production art ui and code to create that thing",
+      "value": "It&#x27;s clear to brief, clear to point to a set of features, and you need a cross-discipline team to bring it together, so you need production, art, UI, and code to create that thing,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It&#x27;s clear to brief, clear to point to a set of features, and you need a cross-discipline team to bring it together, so you need production, art, UI, and code to create that thing,\" he said in reference to features produced by external developers.",
+      "urls": [
+        "https://www.gamedeveloper.com/production/fuse-games-ceo-breaks-down-codev-framework-for-star-wars-galactic-racer"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the goal has been to find the best partner who makes that experience come alive inside the galaxy far far away",
+      "value": "The goal has been to find the best partner who makes that experience come alive inside the galaxy far, far away",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Reilly notes that \"The goal has been to find the best partner who makes that experience come alive inside the galaxy far, far away\", which does describe both studios' attempts pretty well.",
+      "urls": [
+        "https://www.rockpapershotgun.com/it-doesnt-have-to-always-be-triple-a-galactic-racer-and-zero-companys-success-has-lucasfilms-wanting-more-smaller-scale-star-wars-games"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

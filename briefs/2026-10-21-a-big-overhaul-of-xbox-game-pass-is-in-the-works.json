@@ -1,0 +1,256 @@
+{
+  "generated": "2026-10-21T01:07:29.818Z",
+  "workingTitle": "A Big Overhaul Of Xbox Game Pass Is In The Works",
+  "heat": 54,
+  "outletCount": 5,
+  "outlets": [
+    "Kotaku",
+    "Pure Xbox",
+    "IGN",
+    "Xbox Wire",
+    "GameSpot"
+  ],
+  "newest": "2026-10-20T19:52:34.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "ID@XBOX x IGN Showcase Recap: All the News and Announcements",
+        "url": "https://news.xbox.com/en-us/2026/10/20/id-xbox-ign-showcase-october-2026/",
+        "date": "2026-10-20T17:45:48.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "A Big Overhaul Of Xbox Game Pass Is In The Works",
+        "url": "https://kotaku.com/a-big-overhaul-of-xbox-game-pass-is-in-the-works-2000748041",
+        "date": "2026-10-20T19:52:34.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Xbox Announces Eight Titles Coming To Game Pass At October's Indie Showcase",
+        "url": "https://www.purexbox.com/news/2026/10/xbox-announces-eight-titles-coming-to-game-pass-at-octobers-indie-showcase",
+        "date": "2026-10-20T18:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "ID@Xbox Showcase October 2026: Everything Announced",
+        "url": "https://www.ign.com/articles/idxbox-showcase-october-2026-everything-announced",
+        "date": "2026-10-20T18:09:30.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Roundup: Here's What Was Revealed At The ID@Xbox October 2026 Showcase",
+        "url": "https://www.purexbox.com/features/roundup-heres-what-was-revealed-at-the-idatxbox-october-2026-showcase",
+        "date": "2026-10-20T17:39:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "These Eight Games Are Coming To Xbox Game Pass (October 21 - November 3)",
+        "url": "https://www.purexbox.com/news/2026/10/these-eight-games-are-coming-to-xbox-game-pass-october-21-november-3",
+        "date": "2026-10-20T16:18:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-10-29",
+      "value": "October 29, 2026",
+      "outlets": [
+        "IGN",
+        "Xbox Wire",
+        "Pure Xbox"
+      ],
+      "hasPrimary": true,
+      "corroboration": 3,
+      "context": "The Wolf Among Us Remastered will be released on October 29, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/idxbox-showcase-october-2026-everything-announced",
+        "https://news.xbox.com/en-us/2026/10/20/id-xbox-ign-showcase-october-2026/",
+        "https://www.purexbox.com/features/roundup-heres-what-was-revealed-at-the-idatxbox-october-2026-showcase"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-12-04",
+      "value": "December 4, 2026",
+      "outlets": [
+        "IGN",
+        "Xbox Wire",
+        "Pure Xbox"
+      ],
+      "hasPrimary": true,
+      "corroboration": 3,
+      "context": "A Game About Digging a Hole Together will be available on Xbox Series X/S and Xbox on PC on December 4, 2026, and PC via Steam, PS5, Nintendo Switch 2 at a later date.",
+      "urls": [
+        "https://www.ign.com/articles/idxbox-showcase-october-2026-everything-announced",
+        "https://news.xbox.com/en-us/2026/10/20/id-xbox-ign-showcase-october-2026/",
+        "https://www.purexbox.com/features/roundup-heres-what-was-revealed-at-the-idatxbox-october-2026-showcase"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-06-30",
+      "value": "June 30, 2027",
+      "outlets": [
+        "IGN",
+        "Xbox Wire",
+        "Pure Xbox"
+      ],
+      "hasPrimary": true,
+      "corroboration": 3,
+      "context": "Rustown, the upcoming story-driven action-adventure game, has been given a release date of June 30, 2027, on PC and Xbox Series X/S.",
+      "urls": [
+        "https://www.ign.com/articles/idxbox-showcase-october-2026-everything-announced",
+        "https://news.xbox.com/en-us/2026/10/20/id-xbox-ign-showcase-october-2026/",
+        "https://www.purexbox.com/features/roundup-heres-what-was-revealed-at-the-idatxbox-october-2026-showcase"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-10",
+      "value": "November 10, 2026",
+      "outlets": [
+        "IGN",
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 2,
+      "context": "Enjoy new graphics, new features, and more when Shrek 2 Remastered launches on November 10, 2026, on Xbox Series X/S.",
+      "urls": [
+        "https://www.ign.com/articles/idxbox-showcase-october-2026-everything-announced",
+        "https://news.xbox.com/en-us/2026/10/20/id-xbox-ign-showcase-october-2026/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-10-26",
+      "value": "October 26, 2026",
+      "outlets": [
+        "IGN",
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 2,
+      "context": "Scramble Knights Online is coming to Xbox Series X/S and PC on October 26, 2026, and to celebrate the release date, a new trailer was released that showed off new gameplay for the MMO-lite action RPG.",
+      "urls": [
+        "https://www.ign.com/articles/idxbox-showcase-october-2026-everything-announced",
+        "https://news.xbox.com/en-us/2026/10/20/id-xbox-ign-showcase-october-2026/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000000",
+      "value": "$1,000,000",
+      "outlets": [
+        "IGN",
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 2,
+      "context": "Paper Shredded is an incremental game where players need to shred their company&#x27;s paperwork to earn a $1,000,000 payout.",
+      "urls": [
+        "https://www.ign.com/articles/idxbox-showcase-october-2026-everything-announced",
+        "https://news.xbox.com/en-us/2026/10/20/id-xbox-ign-showcase-october-2026/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-10-20",
+      "value": "October 20, 2026",
+      "outlets": [
+        "IGN",
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Arctic (October 20, 2026) has you frying eggs on Mount Everest, Mouthwashing (October 29, 2026) has you taking responsibility for a dying crew of a shipwrecked space freighter, and No, I&#x27;m Not Human (2027) has your interrogating door-knocking strangers to spot deadly shape-shifting imposters.",
+      "urls": [
+        "https://www.ign.com/articles/idxbox-showcase-october-2026-everything-announced",
+        "https://www.purexbox.com/features/roundup-heres-what-was-revealed-at-the-idatxbox-october-2026-showcase"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$30",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The company has already been tip-toeing in that direction for years with Premium Edition Upgrades that charge players $30 for early access to games that will be available at no extra charge just days later via Game Pass.",
+      "urls": [
+        "https://kotaku.com/a-big-overhaul-of-xbox-game-pass-is-in-the-works-2000748041"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:100000000:subscribers",
+      "value": "100 million subscribers",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Leaked internal charts suggested Microsoft was once aiming for over 100 million subscribers, only for the service’s growth to plateau around 35 million and the entire business model around Xbox this console generation to unravel as a result.",
+      "urls": [
+        "https://kotaku.com/a-big-overhaul-of-xbox-game-pass-is-in-the-works-2000748041"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-03",
+      "value": "November 3, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Zero Parades: Director&#x27;s Cut will be released on November 3, 2026, on Xbox Series X/S and PC, and this new trailer features gameplay from the espionage RPG developed by ZA/UM.",
+      "urls": [
+        "https://www.ign.com/articles/idxbox-showcase-october-2026-everything-announced"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:90",
+      "value": "$90",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@HelloCraigo When Revelation was announced, I was sooooo close to getting the trilogy pack, but $90 for two games I already owned seemed steep.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/these-eight-games-are-coming-to-xbox-game-pass-october-21-november-3"
+      ]
+    }
+  ],
+  "factCount": 7,
+  "evidenceCount": 11,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "4 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

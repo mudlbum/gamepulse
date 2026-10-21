@@ -1,0 +1,212 @@
+{
+  "generated": "2026-10-21T01:07:28.918Z",
+  "workingTitle": "The First Kingdom Hearts Featured Final Fantasy In A Way I Wish The Series Would Again",
+  "heat": 90.6,
+  "outletCount": 9,
+  "outlets": [
+    "Kotaku",
+    "Nintendo Life",
+    "Pure Xbox",
+    "PlayStation Blog",
+    "Eurogamer",
+    "Destructoid",
+    "PCGamesN",
+    "Push Square",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-10-20T20:41:34.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "PlayStation Blog",
+        "title": "How Final Fantasy Resonance uses Visions to change how we see the series",
+        "url": "https://blog.playstation.com/2026/10/20/how-final-fantasy-resonance-uses-visions-to-change-how-we-see-the-series/",
+        "date": "2026-10-20T13:30:11.000Z",
+        "host": "blog.playstation.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "The First Kingdom Hearts Featured Final Fantasy In A Way I Wish The Series Would Again",
+        "url": "https://kotaku.com/kingdom-hearts-disney-final-fantasy-characters-leon-aerith-2000748060",
+        "date": "2026-10-20T20:41:34.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Round Up: The Reviews Are In For Final Fantasy Resonance",
+        "url": "https://www.nintendolife.com/news/2026/10/round-up-the-reviews-are-in-for-final-fantasy-resonance",
+        "date": "2026-10-20T15:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Final Fantasy Resonance Is Launching On Xbox To Extremely Impressive Reviews",
+        "url": "https://www.purexbox.com/news/2026/10/final-fantasy-resonance-is-launching-on-xbox-to-extremely-impressive-reviews",
+        "date": "2026-10-20T13:47:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Review: Final Fantasy Resonance (Switch 2) - Plays Like A Lost Entry From Earlier In The Series",
+        "url": "https://www.nintendolife.com/reviews/nintendo-switch-2/final-fantasy-resonance",
+        "date": "2026-10-20T13:05:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Final Fantasy Resonance review",
+        "url": "https://www.eurogamer.net/final-fantasy-resonance-review",
+        "date": "2026-10-20T13:00:39.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-10-20",
+      "value": "October 20, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "October 20, 2026October 20, 2026 How Final Fantasy Resonance uses Visions to change how we see the series 2 0 16 Like this From Cloud to Zidane, get a deeper insight into the RPG’s gameplay transforming cameos.",
+      "urls": [
+        "https://blog.playstation.com/2026/10/20/how-final-fantasy-resonance-uses-visions-to-change-how-we-see-the-series/"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:40",
+      "value": "40% increase",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "In Noctis’ case, his early mastery bonuses include a 40% increase of the equipped party member’s limit burst gauge – the special meter that fills over the course of a fight and lets you deliver a powerful single attack – each time you defeat an enemy.",
+      "urls": [
+        "https://blog.playstation.com/2026/10/20/how-final-fantasy-resonance-uses-visions-to-change-how-we-see-the-series/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "a strong return to an older style of final fantasy",
+      "value": "a strong return to an older style of Final Fantasy",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We awarded the game an 8/10 in our review, with the wonderful Mitch Vogel describing it as \"a strong return to an older style of Final Fantasy\", despite the story being a little dry.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/round-up-the-reviews-are-in-for-final-fantasy-resonance"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$49.99",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you're interested in picking it up, FF Resonance is available to pre-order from £49.99 / $49.99 on the Xbox Store (with Xbox Play Anywhere support), and don't forget about that aforementioned free demo as well!",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/final-fantasy-resonance-is-launching-on-xbox-to-extremely-impressive-reviews"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:0",
+      "value": "$,",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Kneppy18 as someone with very modest income when converted to $, I love 100+ hours games.",
+      "urls": [
+        "https://www.nintendolife.com/reviews/nintendo-switch-2/final-fantasy-resonance"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "while it may be based upon the plot of that mobile entry this is a completely new true blue classic final fantasy",
+      "value": "While it may be based upon the plot of that mobile entry, this is a completely new, true-blue classic Final Fantasy",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"While it may be based upon the plot of that mobile entry, this is a completely new, true-blue classic Final Fantasy\"\n\n\"Sigh.",
+      "urls": [
+        "https://www.nintendolife.com/reviews/nintendo-switch-2/final-fantasy-resonance"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i loved this jrpgand put xx hours into it but the story was bland boring",
+      "value": "I loved this JRPGand put XX hours into it, but the story was bland/boring.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's always surprising to me when someone says \"I loved this JRPGand put XX hours into it, but the story was bland/boring.\"\n\nTo each their own!",
+      "urls": [
+        "https://www.nintendolife.com/reviews/nintendo-switch-2/final-fantasy-resonance"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "with basically any of them it s just they haven t",
+      "value": "with basically any of them, it's just they haven't",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "certainly the ones you listed are absolute classics, and I'm not necessarily \"done\" with basically any of them, it's just they haven't \"clicked\" yet!",
+      "urls": [
+        "https://www.nintendolife.com/reviews/nintendo-switch-2/final-fantasy-resonance"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "was my reason for bouncing off any of them though a truly gripping story wouldve helped of course one thing i just can t with is story only games with zero action a la",
+      "value": "was my reason for bouncing off any of them (though a truly gripping story wouldve helped of course.) ✌️\n\nOne thing I just can't with is story only games, with zero action, a la",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "and I'll also add that I don't think \"bad story\" was my reason for bouncing off any of them (though a truly gripping story wouldve helped of course.) ✌️\n\nOne thing I just can't with is story only games, with zero action, a la \"visual novels.\" so there are limits for me at either extreme.",
+      "urls": [
+        "https://www.nintendolife.com/reviews/nintendo-switch-2/final-fantasy-resonance"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 9,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "7 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
