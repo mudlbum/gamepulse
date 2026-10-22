@@ -1,0 +1,144 @@
+{
+  "generated": "2026-10-22T01:05:10.138Z",
+  "workingTitle": "Cyberpunk 2077: Edgerunners 2 Update (2.5) Officially Revealed, Here Are The Full Patch Notes",
+  "heat": 108,
+  "outletCount": 9,
+  "outlets": [
+    "Nintendo Life",
+    "GameSpot",
+    "Pure Xbox",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "IGN",
+    "Push Square",
+    "PlayStation Blog",
+    "PCGamesN"
+  ],
+  "newest": "2026-10-22T00:25:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Cyberpunk 2077"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Cyberpunk 2077: Edgerunners 2 Update (2.5) Officially Revealed, Here Are The Full Patch Notes",
+        "url": "https://www.nintendolife.com/news/2026/10/cyberpunk-2077-edgerunners-2-update-2-5-officially-revealed-here-are-the-full-patch-notes",
+        "date": "2026-10-22T00:25:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Multiple Big Features Slated For Cyberpunk 2077 Update 2.5 On Xbox This Wednesday",
+        "url": "https://www.purexbox.com/news/2026/10/multiple-big-features-slated-for-cyberpunk-2077-update-2-5-on-xbox-this-wednesday",
+        "date": "2026-10-21T16:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Cyberpunk 2077's Edgerunners 2 update adds two new quests, handgun dual wielding and the ability to pimp your mantis blades",
+        "url": "https://www.rockpapershotgun.com/cyberpunk-2077s-edgerunners-2-update-adds-two-new-quests-handgun-dual-wielding-and-the-ability-to-pimp-your-mantis-blades",
+        "date": "2026-10-21T16:09:58.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "CD Projekt Red details new Cyberpunk 2077 update - adding dual-wielding, cross-platform mods, Edgerunners story quests, and more",
+        "url": "https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support",
+        "date": "2026-10-21T16:03:54.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Everything Coming to Cyberpunk 2077 With the 2.5 Update, Including New Side Quests, New Double Trouble Perk, and Much More",
+        "url": "https://www.ign.com/articles/everything-coming-to-cyberpunk-2077-with-the-25-update-including-new-side-quests-new-double-trouble-perk-and-much-more",
+        "date": "2026-10-21T16:00:38.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Cyberpunk 2077 | Edgerunners 2 Update Features Overview Trailer",
+        "url": "https://www.gamespot.com/videos/cyberpunk-2077-edgerunners-2-update-features-overview-trailer/",
+        "date": "2026-10-21T17:42:33.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "version",
+      "key": "v:build:2.5",
+      "value": "Update 2.5",
+      "outlets": [
+        "Nintendo Life",
+        "Pure Xbox",
+        "Rock Paper Shotgun",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 4,
+      "context": "However, as noted by CDPR, Nintendo players won't receive Update 2.5 alongside the Xbox and PlayStation versions.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/cyberpunk-2077-edgerunners-2-update-2-5-officially-revealed-here-are-the-full-patch-notes",
+        "https://www.purexbox.com/news/2026/10/multiple-big-features-slated-for-cyberpunk-2077-update-2-5-on-xbox-this-wednesday",
+        "https://www.rockpapershotgun.com/cyberpunk-2077s-edgerunners-2-update-adds-two-new-quests-handgun-dual-wielding-and-the-ability-to-pimp-your-mantis-blades",
+        "https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "it will be the last job of the king s team",
+      "value": "It will be the last job of the King's team,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It will be the last job of the King's team,\" Pych said, and it will let us meet characters on the team: Emily, Meshuga, and Miguel.",
+      "urls": [
+        "https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:2",
+      "value": "Season 2.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "During this quest you’ll get a new 5-piece gear set based on the character King from Season 2.",
+      "urls": [
+        "https://www.ign.com/articles/everything-coming-to-cyberpunk-2077-with-the-25-update-including-new-side-quests-new-double-trouble-perk-and-much-more"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 3,
+  "ourData": [
+    {
+      "game": "Cyberpunk 2077",
+      "concurrent": 44386,
+      "rank": 25,
+      "change24h": 33.1,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "2 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

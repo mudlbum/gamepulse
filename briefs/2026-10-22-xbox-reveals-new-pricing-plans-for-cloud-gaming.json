@@ -1,0 +1,176 @@
+{
+  "generated": "2026-10-22T01:05:11.110Z",
+  "workingTitle": "Xbox Reveals New Pricing Plans For Cloud Gaming",
+  "heat": 37,
+  "outletCount": 4,
+  "outlets": [
+    "Kotaku",
+    "GameSpot",
+    "Pure Xbox",
+    "Xbox Wire"
+  ],
+  "newest": "2026-10-21T19:20:05.000Z",
+  "readableCount": 3,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Cloud Playtime Now Available to Test with XBOX Insiders",
+        "url": "https://news.xbox.com/en-us/2026/10/21/cloud-playtime-now-available-to-test-with-xbox-insiders/",
+        "date": "2026-10-21T18:00:03.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Xbox Reveals New Pricing Plans For Cloud Gaming",
+        "url": "https://kotaku.com/xbox-reveals-new-pricing-plans-for-cloud-gaming-2000748436",
+        "date": "2026-10-21T19:20:05.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Three Price Tiers Revealed As Xbox Rolls Out 'Cloud Playtime' To Insiders",
+        "url": "https://www.purexbox.com/news/2026/10/three-price-tiers-revealed-as-xbox-rolls-out-cloud-playtime-to-insiders",
+        "date": "2026-10-21T19:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Xbox Cloud Gaming Hourly Prices Revealed For Non-Game Pass Members",
+        "url": "https://www.gamespot.com/articles/xbox-cloud-gaming-hourly-prices-revealed-for-non-game-pass-members/",
+        "date": "2026-10-21T19:10:33.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:0.4",
+      "value": "$0.40",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "At that point, people will be able to pay for cloud gaming time a la carte starting at $0.40 an hour.",
+      "urls": [
+        "https://kotaku.com/xbox-reveals-new-pricing-plans-for-cloud-gaming-2000748436"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Nvidia’s cloud gaming service requires you to already own the games but provides up to 100 hours of “premium monthly playtime” for just $10 a month.",
+      "urls": [
+        "https://kotaku.com/xbox-reveals-new-pricing-plans-for-cloud-gaming-2000748436"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:23",
+      "value": "$23",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Game Pass Ultimate, which is currently $23 a month, caps out at just 15 hours, but offers instant access to hundreds of games rather than requiring you to already own them on storefronts like Steam.",
+      "urls": [
+        "https://kotaku.com/xbox-reveals-new-pricing-plans-for-cloud-gaming-2000748436"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3.99",
+      "value": "$3.99",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The smallest amount costs $3.99 for 10 hours, and the largest costs $11.99 for 50 hours.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/three-price-tiers-revealed-as-xbox-rolls-out-cloud-playtime-to-insiders"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:12",
+      "value": "$11.99",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The smallest amount costs $3.99 for 10 hours, and the largest costs $11.99 for 50 hours.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/three-price-tiers-revealed-as-xbox-rolls-out-cloud-playtime-to-insiders"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "giving players another option for accessing cloud gaming without a game pass subscription",
+      "value": "giving players another option for accessing cloud gaming without a Game Pass subscription",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"giving players another option for accessing cloud gaming without a Game Pass subscription\"\n\n@Coletrain it reads that way.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/three-price-tiers-revealed-as-xbox-rolls-out-cloud-playtime-to-insiders"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:9.99",
+      "value": "$9.99.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Thats the rare case where I actually want them to fail as this only-cloud future absolutely sucks\n\n@Weebleman i think 10 hours per month would do me, I used to enjoy using it on weekends to play on handheld when kids were home watching Disney most of the day and I couldn't get to the TV\n\nGeforce now is 100hr a month for $9.99.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/three-price-tiers-revealed-as-xbox-rolls-out-cloud-playtime-to-insiders"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:160",
+      "value": "$160",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ps plus premium currently has unlimited cloud gaming for $160 a year.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/three-price-tiers-revealed-as-xbox-rolls-out-cloud-playtime-to-insiders"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 8,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

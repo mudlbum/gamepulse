@@ -1,0 +1,272 @@
+{
+  "generated": "2026-10-22T01:05:10.914Z",
+  "workingTitle": "BioWare’s Closure Reportedly Won’t Affect The Mass Effect TV Show",
+  "heat": 87.8,
+  "outletCount": 8,
+  "outlets": [
+    "Kotaku",
+    "IGN",
+    "Game Developer",
+    "Pure Xbox",
+    "Eurogamer",
+    "Push Square",
+    "GameSpot",
+    "Destructoid"
+  ],
+  "newest": "2026-10-21T23:27:49.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "BioWare’s Closure Reportedly Won’t Affect The Mass Effect TV Show",
+        "url": "https://kotaku.com/mass-effect-amazon-tv-show-bioware-shut-down-ea-2000748491",
+        "date": "2026-10-21T23:27:49.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Former BioWare Executive Producer Mark Darrah Says EA Might Be 'More Likely' to Sell IPs Like Mass Effect and Dragon Age After Studio’s Closure",
+        "url": "https://www.ign.com/articles/former-bioware-executive-producer-mark-darrah-says-ea-might-be-more-likely-to-sell-ips-like-mass-effect-and-dragon-age-after-studios-closure",
+        "date": "2026-10-21T21:40:02.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "EA closes Mass Effect, Dragon Age creator BioWare after 30 years of game development",
+        "url": "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development",
+        "date": "2026-10-21T18:57:37.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "The Internet Reacts to the Cancellation of Mass Effect 5 and the Death of BioWare",
+        "url": "https://www.ign.com/articles/the-internet-reacts-to-the-cancelation-of-mass-effect-5-and-the-death-of-bioware",
+        "date": "2026-10-21T18:56:20.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Mass Effect 5 Cancelled As Legendary Developer BioWare Closes Down",
+        "url": "https://www.purexbox.com/news/2026/10/mass-effect-5-cancelled-as-legendary-developer-bioware-closes-down",
+        "date": "2026-10-21T18:25:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "BioWare is closing down and Mass Effect 5 is cancelled, months after Saudi Arabia's $55bn EA buyout",
+        "url": "https://www.eurogamer.net/bioware-closing-down-mass-effect-5-cancelled",
+        "date": "2026-10-21T17:55:57.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:55000000000",
+      "value": "$55 billion",
+      "outlets": [
+        "IGN",
+        "Game Developer",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "They might start into a revenue-generation mode where selling IPs might be more desirable.”\n\nIt’s worth mentioning that EA was acquired by a consortium of private investors back in August in a mind-boggling $55 billion deal.",
+      "urls": [
+        "https://www.ign.com/articles/former-bioware-executive-producer-mark-darrah-says-ea-might-be-more-likely-to-sell-ips-like-mass-effect-and-dragon-age-after-studios-closure",
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development",
+        "https://www.eurogamer.net/bioware-closing-down-mass-effect-5-cancelled"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "across our portfolio we re making deliberate choices to align talent and investments where we see the greatest opportunities for players and long term growth",
+      "value": "Across our portfolio, we’re making deliberate choices to align talent and investments where we see the greatest opportunities for players and long-term growth,",
+      "outlets": [
+        "Game Developer",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"Across our portfolio, we’re making deliberate choices to align talent and investments where we see the greatest opportunities for players and long-term growth,\" the letter said.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development",
+        "https://www.eurogamer.net/bioware-closing-down-mass-effect-5-cancelled"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "there is nothing easy about writing those words",
+      "value": "There is nothing easy about writing those words,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"There is nothing easy about writing those words,\" the statement reads.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "our focus right now is on our incredibly talented team who put their hearts into these games and supporting one another through this transition",
+      "value": "Our focus right now is on our incredibly talented team who put their hearts into these games, and supporting one another through this transition.",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Our focus right now is on our incredibly talented team who put their hearts into these games, and supporting one another through this transition.\" Bloomberg News also reports that EA is also laying off 400 employees, 50 of whom were working at BioWare on a new entry in the Mass Effect series.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "has been canceled while another game code named",
+      "value": "has been canceled, while another game code-named",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A planned entry in the Sims series code-named \"Project Lotus\" has been canceled, while another game code-named \"Project Evergreen\" is being prioritized.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "hard look at the business",
+      "value": "hard look at the business",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Related:Innersloth co-founder warns devs: 'there are some very bad deals out there'\n\nEA chief operating officer David Tinson and chief studios officer Cam Weber apparently sent a letter to EA staff saying that these decisions followed a \"hard look at the business\" that took place over the last several months.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it x27 s hard to see how teams or games that underperform wouldn x27 t be dissolved or sold off",
+      "value": "It&#x27;s hard to see how teams or games that underperform wouldn&#x27;t be dissolved or sold off,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It&#x27;s hard to see how teams or games that underperform wouldn&#x27;t be dissolved or sold off,\" they said.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:5000000:copies",
+      "value": "5 million copies",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Related:Ubisoft to close Trials studio RedLynx, downsize Ubisoft Singapore\n\nThe company began work on an online science fiction RPG that would become the 2019 title Anthem, which failed to gain traction as a long-lasting live service game, only going on to sell around 5 million copies before being shut down.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "shaped my imagination and the desire to create games",
+      "value": "shaped my imagination and the desire to create games.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Paweł Sasko, associate game director on Cyberpunk 2, said BioWare&#x27;s Baldur&#x27;s Gate 1 and 2 \"shaped my imagination and the desire to create games.\" He continued: \"I would have never been here without BioWare igniting the fire in my heart.",
+      "urls": [
+        "https://www.ign.com/articles/the-internet-reacts-to-the-cancelation-of-mass-effect-5-and-the-death-of-bioware"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "inxile boss brian fargo who founded interplay entertainment called it a",
+      "value": "inXile boss Brian Fargo, who founded Interplay Entertainment, called it a",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I will always remember you.\"\n\ninXile boss Brian Fargo, who founded Interplay Entertainment, called it a \"sad day indeed.\" \"I remember when BioWare was a small studio that made Shattered Steel for us at Interplay,\" he said.",
+      "urls": [
+        "https://www.ign.com/articles/the-internet-reacts-to-the-cancelation-of-mass-effect-5-and-the-death-of-bioware"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "swen vincke boss of baldur x27 s gate 3 developer larian described bioware x27 s closure as",
+      "value": "Swen Vincke, boss of Baldur&#x27;s Gate 3 developer Larian, described BioWare&#x27;s closure as",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "My thoughts are with everyone there today.\"\n\nSwen Vincke, boss of Baldur&#x27;s Gate 3 developer Larian, described BioWare&#x27;s closure as \"not something I ever expected to see.\"\n\n\"Larian and BioWare started their trajectories in the games industry at the same time and BioWare led the way in making RPGs big,\" he continued.",
+      "urls": [
+        "https://www.ign.com/articles/the-internet-reacts-to-the-cancelation-of-mass-effect-5-and-the-death-of-bioware"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "thomas puha communications director at alan wake and control developer remedy commented",
+      "value": "Thomas Puha, communications director at Alan Wake and Control developer Remedy, commented:",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I hope you all land well.\"\n\nThomas Puha, communications director at Alan Wake and Control developer Remedy, commented: \"This was coming but so sad to read.",
+      "urls": [
+        "https://www.ign.com/articles/the-internet-reacts-to-the-cancelation-of-mass-effect-5-and-the-death-of-bioware"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "casey hudson the former bioware gm and director of star wars knights of the old republic and the mass effect trilogy called it",
+      "value": "Casey Hudson, the former BioWare GM, and director of Star Wars: Knights of the Old Republic and the Mass Effect Trilogy, called it",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We need those, need new franchises.\"\n\nCasey Hudson, the former BioWare GM, and director of Star Wars: Knights of the Old Republic and the Mass Effect Trilogy, called it \"sad news on multiple fronts - for those of us who worked there, for our friends and colleagues at BioWare who are impacted, and for fans who were looking forward to the next Mass Effect adventure.",
+      "urls": [
+        "https://www.ign.com/articles/the-internet-reacts-to-the-cancelation-of-mass-effect-5-and-the-death-of-bioware"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 13,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "11 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "generated": "2026-10-22T01:05:11.457Z",
+  "workingTitle": "Star Wars Battlefront 3 Reportedly In Development By EA’s Top Shooter Studios",
+  "heat": 37,
+  "outletCount": 4,
+  "outlets": [
+    "GameSpot",
+    "Push Square",
+    "IGN",
+    "PCGamesN"
+  ],
+  "newest": "2026-10-21T19:16:31.000Z",
+  "readableCount": 3,
+  "sourceCount": 4,
+  "games": [
+    "WARDOGS"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "Star Wars Battlefront 3 in Dev at DICE and Respawn, Multiple Sources Say",
+        "url": "https://www.pushsquare.com/news/2026/10/star-wars-battlefront-3-in-dev-at-dice-and-respawn-multiple-sources-say",
+        "date": "2026-10-21T19:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "EA Confirms DICE and Respawn Are Collaborating on a New Project Amidst Star Wars: Battlefront 3 Rumors",
+        "url": "https://www.ign.com/articles/ea-confirms-dice-and-respawn-are-collaborating-on-a-new-project-amidst-star-wars-battlefront-3-rumors",
+        "date": "2026-10-21T17:43:59.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Wardogs CEO claims Dice and Respawn are working on Star Wars Battlefront 3",
+        "url": "https://www.pcgamesn.com/star-wars-battlefront-3-rumors",
+        "date": "2026-10-20T13:12:49.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Star Wars Battlefront 3 Reportedly In Development By EA’s Top Shooter Studios",
+        "url": "https://www.gamespot.com/articles/star-wars-battlefront-3-reportedly-in-development-by-eas-top-shooter-studios/",
+        "date": "2026-10-21T19:16:31.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "in addition to our future battlefield titles we ll be bringing together our respawn and dice studios to collaborate on a future project that will help us achieve that ambition",
+      "value": "In addition to our future Battlefield titles, we’ll be bringing together our Respawn and DICE studios to collaborate on a future project that will help us achieve that ambition,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"In addition to our future Battlefield titles, we’ll be bringing together our Respawn and DICE studios to collaborate on a future project that will help us achieve that ambition,\" said EA.",
+      "urls": [
+        "https://www.ign.com/articles/ea-confirms-dice-and-respawn-are-collaborating-on-a-new-project-amidst-star-wars-battlefront-3-rumors"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we can t wait to share more when the time comes",
+      "value": "We can’t wait to share more when the time comes.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We can’t wait to share more when the time comes.\"\n\nVariety also corroborated the Battlefront 3 rumors via sources, though nothing was shared on what the game will look like or when it might release.",
+      "urls": [
+        "https://www.ign.com/articles/ea-confirms-dice-and-respawn-are-collaborating-on-a-new-project-amidst-star-wars-battlefront-3-rumors"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "dice and from what i ve heard respawn are working on battlefront 3",
+      "value": "Dice and, from what I've heard, Respawn are working on Battlefront 3.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Joe Brammer claims in a recent social media post that \" Dice and, from what I've heard, Respawn are working on Battlefront 3.\" He adds that, if we assume this to be true, he's \"not sure what that means for Battlefield.\" Brammer doesn't elaborate on his source, and neither EA nor Lucasfilm has confirmed a new Star Wars Battlefront game.",
+      "urls": [
+        "https://www.pcgamesn.com/star-wars-battlefront-3-rumors"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the qman hears that if the force is not entrusted to dice it could land at none other than halo destiny and marathon developer bungie",
+      "value": "The Qman hears that if the Force is not entrusted to Dice, it could land at none other than Halo, Destiny, and Marathon developer Bungie,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The Qman hears that if the Force is not entrusted to Dice, it could land at none other than Halo, Destiny, and Marathon developer Bungie,\" the report reads.",
+      "urls": [
+        "https://www.pcgamesn.com/star-wars-battlefront-3-rumors"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [
+    {
+      "game": "WARDOGS",
+      "concurrent": 137800,
+      "rank": 5,
+      "change24h": -3.4,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
