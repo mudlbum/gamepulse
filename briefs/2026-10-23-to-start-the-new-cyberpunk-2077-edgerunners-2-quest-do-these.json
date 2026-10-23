@@ -1,0 +1,347 @@
+{
+  "generated": "2026-10-23T01:05:40.281Z",
+  "workingTitle": "To Start The New Cyberpunk 2077 Edgerunners 2 Quest, Do These Two Things First",
+  "heat": 77.4,
+  "outletCount": 7,
+  "outlets": [
+    "GameSpot",
+    "IGN",
+    "Kotaku",
+    "Xbox Wire",
+    "Nintendo Life",
+    "Eurogamer",
+    "Pure Xbox"
+  ],
+  "newest": "2026-10-22T22:34:33.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Cyberpunk 2077"
+  ],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "From the Anime to the Game — Free Update Brings Edgerunners 2 Content and More to Cyberpunk 2077!",
+        "url": "https://news.xbox.com/en-us/2026/10/22/cyberpunk-2077-edgerunners-2-update/",
+        "date": "2026-10-22T10:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Cyberpunk 2 Associate Director Says Half of Game's Quest Team Are Former Modders",
+        "url": "https://www.ign.com/articles/cyberpunk-2-associate-director-says-half-of-games-quest-team-are-former-modders",
+        "date": "2026-10-22T22:18:28.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The Switch 2 Has Been Jailbroken For The First Time",
+        "url": "https://kotaku.com/nintendo-switch-2-jailbreak-hack-exploit-piracy-homebrew-emulation-modding-2000748784",
+        "date": "2026-10-22T13:36:31.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Limited Run Announces Hitman: Absolution Switch 2 Physical Release, Here's A Look",
+        "url": "https://www.nintendolife.com/news/2026/10/limited-run-announces-hitman-absolution-switch-2-physical-release-heres-a-look",
+        "date": "2026-10-22T02:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Beyond Good & Evil 2 reportedly still in development 18 years after being announced, now a \"solo-first\" adventure",
+        "url": "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft",
+        "date": "2026-10-21T16:01:00.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "To Start The New Cyberpunk 2077 Edgerunners 2 Quest, Do These Two Things First",
+        "url": "https://www.gamespot.com/articles/cyberpunk-2077-edgerunners-2-mission-clampdown-how-to-start/",
+        "date": "2026-10-22T22:34:33.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "version",
+      "key": "v:build:2.0",
+      "value": "Update 2.0",
+      "outlets": [
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "It brings a new playstyle and a fresh way to approach combat — in fact, it’s one of the most significant gameplay additions to the game’s combat since Update 2.0 introduced throwing knives.",
+      "urls": [
+        "https://news.xbox.com/en-us/2026/10/22/cyberpunk-2077-edgerunners-2-update/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "a lot of modders they were players who actually first played and actually got experience with customizing the game with the mods",
+      "value": "A lot of modders, they were players who actually first played and actually got experience with customizing the game with the mods,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"A lot of modders, they were players who actually first played and actually got experience with customizing the game with the mods,\" he said.",
+      "urls": [
+        "https://www.ign.com/articles/cyberpunk-2-associate-director-says-half-of-games-quest-team-are-former-modders"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "for me this is a foot in the door technique and a gateway into game dev",
+      "value": "For me, this is a foot-in-the-door technique, and a gateway into game dev,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"For me, this is a foot-in-the-door technique, and a gateway into game dev,\" he continues.",
+      "urls": [
+        "https://www.ign.com/articles/cyberpunk-2-associate-director-says-half-of-games-quest-team-are-former-modders"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "switch 2 edition upgrade pack",
+      "value": "Switch 2 Edition upgrade pack",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The fine print also notes how it comes with the Switch game and the \"Switch 2 Edition upgrade pack\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/limited-run-announces-hitman-absolution-switch-2-physical-release-heres-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$29.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you do want to return to this title right away, you can pick up the Switch 2 version on the eShop for the discounted launch price of $29.99 / €24,99 / £19.99.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/limited-run-announces-hitman-absolution-switch-2-physical-release-heres-a-look"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Those who want to pay the $10 physical tax are welcome to do so 🤣 I understand economies of scale do not work in their favor, but Limited Run Games sure do squeeze the physical dinosaurs for all they’re worth.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/limited-run-announces-hitman-absolution-switch-2-physical-release-heres-a-look"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "wang a brick at him and run for it",
+      "value": "wang a brick at him and run for it",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Seems to be one for those who like taking stealth seriously, and much less suited to the \"wang a brick at him and run for it\" hijinks you can get up to in the later ones.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/limited-run-announces-hitman-absolution-switch-2-physical-release-heres-a-look"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "hmmm mayybe i should get that i like that they are making an effort",
+      "value": "Hmmm Mayybe I should get that, I like that they are making an effort",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's so strange how a simple word in a newsheadline alone makes me go\n\n\"Hmmm Mayybe I should get that, I like that they are making an effort\"\n\n@dystome I dropped both Lara Croft games of recent release as they got too violent too fast.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/limited-run-announces-hitman-absolution-switch-2-physical-release-heres-a-look"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "saviour of physical media",
+      "value": "Saviour of physical media",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Imagine the crazy cred boost LRG could get \"Saviour of physical media\"\n\n*Are you reading this LRG ?",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/limited-run-announces-hitman-absolution-switch-2-physical-release-heres-a-look"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "highly multiplayer and connected",
+      "value": "highly multiplayer and connected",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Origami Media (in a French report translated by DeepL) said it heard from several people close to the game's development that the idea for Beyond Good and Evil 2, in 2019-2022, was for the game to be \"highly multiplayer and connected\", featuring \"a multitude of planets\" where players would be matchmade and play together.",
+      "urls": [
+        "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the key concept was the third place a spot where you might hang out with mates after work just as you would in fortnite or destiny",
+      "value": "The key concept was the 'third place' - a spot where you might hang out with mates after work, just as you would in Fortnite or Destiny,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The key concept was the 'third place' - a spot where you might hang out with mates after work, just as you would in Fortnite or Destiny,\" Origami shared, \"which were cited as sources of inspiration.",
+      "urls": [
+        "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but since then the project",
+      "value": "But since then, the project",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You played as a blank character, tagging along on the adventures of the heroes of Beyond Good & Evil, in the passenger seat.\"\n\nBut since then, the project \"evolved\", from smaller matchmade groups to more open-ended play, then to team-based play in groups of four and finally, to pairs.",
+      "urls": [
+        "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the aim now is to offer a solo first adventure with no mandatory online connection and featuring a strong narrative that can also be played in co op",
+      "value": "The aim now is to offer a 'solo-first' adventure, with no mandatory online connection and featuring a strong narrative that can also be played in co-op,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The aim now is to offer a 'solo-first' adventure, with no mandatory online connection and featuring a strong narrative that can also be played in co-op,\" Origami stated.",
+      "urls": [
+        "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a few years ago some people thought it bore a resemblance to zelda in space today its combat is very reminiscent of insomniac s spider man games",
+      "value": "A few years ago, some people thought it bore a resemblance to Zelda in space; today, its combat is very reminiscent of Insomniac's Spider-Man games.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"A few years ago, some people thought it bore a resemblance to Zelda in space; today, its combat is very reminiscent of Insomniac's Spider-Man games.\"\n\nYet despite its incredible length of time in development - I was at the Paris-based UbiDays event in 2008 when Ubisoft revealed the first CGI trailer for Beyond Good and Evil 2 - the game is apparently yet to enter full production.",
+      "urls": [
+        "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "if we go by the terminology used at ubisoft and in many other major companies in the sector",
+      "value": "If we go by the terminology used at Ubisoft and in many other major companies in the sector,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"If we go by the terminology used at Ubisoft and in many other major companies in the sector,\" Origami went on, \"production of BGE2 has not yet begun.",
+      "urls": [
+        "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "according to the report",
+      "value": "According to the report,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And this project is now aiming to move into the alpha phase.\"\n\nAccording to the report, \"Historically, BGE2 has failed to meet all its creative milestones.\" These are referred to as \"gates\", which sound like playable builds of the game, and it kept missing these because ideas about the game kept changing.",
+      "urls": [
+        "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it was impossible for it to be cancelled",
+      "value": "It was impossible for it to be cancelled,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It was impossible for it to be cancelled,\" Origami added.",
+      "urls": [
+        "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "they are now being told rather more matter of factly we don t know what s going to happen",
+      "value": "They are now being told, rather more matter-of-factly: 'We don't know what's going to happen.'",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"They are now being told, rather more matter-of-factly: 'We don't know what's going to happen.'\" One source said this was a \"return to a sense of reality\".",
+      "urls": [
+        "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 18,
+  "ourData": [
+    {
+      "game": "Cyberpunk 2077",
+      "concurrent": 75124,
+      "rank": 11,
+      "change24h": 72.7,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "17 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

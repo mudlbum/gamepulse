@@ -1,0 +1,509 @@
+{
+  "generated": "2026-10-23T01:05:41.777Z",
+  "workingTitle": "Xbox & Nintendo Console Sales Suffer YoY Decreases In New September 2026 US Report",
+  "heat": 50.5,
+  "outletCount": 6,
+  "outlets": [
+    "Pure Xbox",
+    "Kotaku",
+    "Destructoid",
+    "PlayStation Blog",
+    "Push Square",
+    "Eurogamer"
+  ],
+  "newest": "2026-10-22T16:06:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "PlayStation Blog",
+        "title": "Marvel’s Wolverine: Photo Mode guide",
+        "url": "https://blog.playstation.com/2026/10/22/marvels-wolverine-photo-mode-guide/",
+        "date": "2026-10-22T14:00:31.000Z",
+        "host": "blog.playstation.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "Xbox & Nintendo Console Sales Suffer YoY Decreases In New September 2026 US Report",
+        "url": "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report",
+        "date": "2026-10-22T16:06:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "There’s Good News And Bad News About Video Game Sales In September 2026",
+        "url": "https://kotaku.com/theres-good-news-and-bad-news-about-video-game-sales-in-september-2026-2000748805",
+        "date": "2026-10-22T15:40:57.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Marvel’s Wolverine stands tall sales-wise atop stacked month of September releases",
+        "url": "https://www.destructoid.com/marvels-wolverine-stands-tall-sales-september-releases/",
+        "date": "2026-10-22T14:37:00.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "PS5 Exclusive Marvel's Wolverine Is Sony's Biggest Launch Since Helldivers 2",
+        "url": "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2",
+        "date": "2026-10-22T14:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Despite its mixed reception, Marvel's Wolverine was September's top-selling new game in the US, making Sony launch revenues it hasn't seen since Helldivers 2",
+        "url": "https://www.eurogamer.net/marvels-wolverine-top-seling-september-us-circana",
+        "date": "2026-10-22T13:22:52.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-10-22",
+      "value": "October 22, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "October 22, 2026October 22, 2026 Marvel’s Wolverine: Photo Mode guide 3 0 27 Like this Get the most out of the game’s photographic features, with examples and suggestions to help you add to your toolset.",
+      "urls": [
+        "https://blog.playstation.com/2026/10/22/marvels-wolverine-photo-mode-guide/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:600",
+      "value": "$600.",
+      "outlets": [
+        "Pure Xbox",
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "An all-digital PS5 will currently sell for $600.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report",
+        "https://kotaku.com/theres-good-news-and-bad-news-about-video-game-sales-in-september-2026-2000748805"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:750",
+      "value": "$750.",
+      "outlets": [
+        "Pure Xbox",
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "The equivalent Xbox Series X starts at $750.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report",
+        "https://kotaku.com/theres-good-news-and-bad-news-about-video-game-sales-in-september-2026-2000748805"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$40",
+      "outlets": [
+        "Push Square",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "@PuppetMaster biggest launch in dollar sales but Helldivers was a $40 game That would put Wolverine at about half of what Helldivers sold (assuming it's close, which isn't exactly implied here either).",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2",
+        "https://www.eurogamer.net/marvels-wolverine-top-seling-september-us-circana"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "percent",
+      "key": "p:down:27",
+      "value": "down 27%",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This is coming from Mat Piscatella at analysis firm Circana, who says Xbox Series X and S sales were down 27% compared to the same time in September 2025, whereas Nintendo Switch 2 sales were down 14%.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:down:14",
+      "value": "down 14%",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This is coming from Mat Piscatella at analysis firm Circana, who says Xbox Series X and S sales were down 27% compared to the same time in September 2025, whereas Nintendo Switch 2 sales were down 14%.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:down:100",
+      "value": "down 100%",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "How can this be surprising when Xbox sales are down 100% in many countries because they are sold out?",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "sony microbe soft nintendo",
+      "value": "sony/microbe-soft/nintendo",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As a very happy owner of; PS1 PS3 Slim PS4 Glacier White Edition Xbox Xbox 360 Halo Reach Limited Edition Xbox One S PC I hardpassed current gen consoles all-together back in 2020 Can not be more happy that I gave total of 0 (zero) penny to \"sony/microbe-soft/nintendo\" trio.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:down:30",
+      "value": "down 30%",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Banjo- Not sure how much worse it can get for consistently being down 30% every quarter for more than 2 years straight, and I frankly don’t understand why MS doesn’t do any actual effort to actually sell consoles but publicly they can’t stop their fancy talk about how console is the core of Xbox, its paradoxical, they need to actually commit.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$30",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "so we will essentially go back to $30+ tag from last year.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30000000",
+      "value": "$30 m",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I actually think despite the backlash - $30 made sense.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:86",
+      "value": "up 86%",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sales were up 86% in June YoY, down 27% in September.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "check out this cool game we found",
+      "value": "check out this cool game we found.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Every single article is just \"check out this cool game we found.\" Its refreshing to just read about games and not what a dozen ex executives think every time one of the mega corps make a new spreadsheet decision.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:500",
+      "value": "$500.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Series S with 512GB of storage is cheaper at $500.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/xbox-and-nintendo-console-sales-suffer-yoy-decreases-in-new-september-2026-us-report"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:4800000000",
+      "value": "$4.8 billion",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "video game projected total spending across content, hardware and accessories fell 1 percent in September when compared to a year ago, to $4.8 billion,” he wrote.",
+      "urls": [
+        "https://kotaku.com/theres-good-news-and-bad-news-about-video-game-sales-in-september-2026-2000748805"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:41000000000",
+      "value": "$41.0 billion",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "“Year-to-date spending is now 3 percent behind 2025’s pace, at $41.0 billion.”\n\nMarvel’s Wolverine was the big winner.",
+      "urls": [
+        "https://kotaku.com/theres-good-news-and-bad-news-about-video-game-sales-in-september-2026-2000748805"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:8000000:copies",
+      "value": "8 million copies",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I believes Helldivers 2 was sold at 8 million copies for the 1st month and later Sony officially announced it was sold 12 million copies in 12 weeks.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:12000000:copies",
+      "value": "12 million copies",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I believes Helldivers 2 was sold at 8 million copies for the 1st month and later Sony officially announced it was sold 12 million copies in 12 weeks.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:9000000",
+      "value": "$9 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"If Sony or Insomniac initiates termination, they must pay Marvel a $9 million penalty alongside any unpaid guarantees.\"\n\n\"If Marvel initiates termination, fees are waived, and Insomniac retains the right to continue selling already-released games.\"\n\nare people going to pretend that this is useful information?",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "if sony or insomniac initiates termination they must pay marvel a 9 million penalty alongside any unpaid guarantees",
+      "value": "If Sony or Insomniac initiates termination, they must pay Marvel a $9 million penalty alongside any unpaid guarantees.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"If Sony or Insomniac initiates termination, they must pay Marvel a $9 million penalty alongside any unpaid guarantees.\"\n\n\"If Marvel initiates termination, fees are waived, and Insomniac retains the right to continue selling already-released games.\"\n\nare people going to pretend that this is useful information?",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:40000000",
+      "value": "$40 M",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This short story tells us they didn’t sell much between 2024-2026, and what they did sell in 2024, was at $40 MSRP.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:300000000",
+      "value": "$300 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Unfortunately as far as I can recall, the original world sprawling version was not something that they could make in time and that is why it cost $300 million.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "higher ups coming in and ruining the original vision",
+      "value": "Higher ups coming in and ruining the original vision",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Easily one of the worst examples of \"Higher ups coming in and ruining the original vision\" that I've seen in years and a very clear sign that Sony needs to stop hyper-focusing on these needlessly cinematic \"experiences\".",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:19000000",
+      "value": "$19 million",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This takes into effect Marvel’s 18% from digital sales and the upfront $19 million to secure the rights.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:6000000:copies",
+      "value": "6 million copies",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In addition, Insomniac has to hit 6 million copies sold in its first year to meet a Marvel KPI, otherwise Marvel retains the right to terminate its X-men contract with Sony.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:100000000:players",
+      "value": "100 million players",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And that is on a console with 100 million players.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$50",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But they could throw it on sale for $50 for the holidays and i could see it selling some copies.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:2.5",
+      "value": "Update 2.5",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony's Multi-Million Dollar GTA 6 PS5 Marketing Strategy Is Already Working\n\nCyberpunk 2077 PS5 Update 2.5 Live Now, Get the Patch Notes Here\n\nFirst Final Fantasy Resonance PS5 Review Released, Rough Campaign Length Revealed",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/ps5-exclusive-marvels-wolverine-is-sonys-biggest-launch-since-helldivers-2"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the highest launch month dollar sales",
+      "value": "the highest launch month dollar sales",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It was such a hit that, as Circana analyst Mat Piscatella wrote, the game delivered \"the highest launch month dollar sales\" a Sony-published game has seen since Helldivers 2, which released in February 2024.",
+      "urls": [
+        "https://www.eurogamer.net/marvels-wolverine-top-seling-september-us-circana"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70000000",
+      "value": "$70, m",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Additionally, Helldivers 2 had a much lower price of $40 compared to Wolverine's $70, meaning the former sold more copies to arrive at a similar point.",
+      "urls": [
+        "https://www.eurogamer.net/marvels-wolverine-top-seling-september-us-circana"
+      ]
+    }
+  ],
+  "factCount": 4,
+  "evidenceCount": 30,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "26 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "generated": "2026-10-23T01:05:41.438Z",
+  "workingTitle": "Half-Life 3 Rumors Reignite After Valve Employee Lets Codename Slip",
+  "heat": 58.8,
+  "outletCount": 6,
+  "outlets": [
+    "Polygon",
+    "PC Gamer",
+    "Kotaku",
+    "GameSpot",
+    "IGN",
+    "Destructoid"
+  ],
+  "newest": "2026-10-22T21:16:28.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Half-Life 3 Rumors Reignite After Valve Employee Lets Codename Slip",
+        "url": "https://www.polygon.com/valve-half-life-3-hlx/",
+        "date": "2026-10-22T21:16:28.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Half-Life 3 re-re-re-confirmed: A Valve dev just said 'HLX' out loud",
+        "url": "https://www.pcgamer.com/games/fps/half-life-3-re-re-re-confirmed-a-valve-dev-just-said-hlx-out-loud/",
+        "date": "2026-10-22T20:16:39.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Valve Employee Accidentally Mentions Half-Life 3 Codename For The First Time Ever",
+        "url": "https://kotaku.com/valve-employee-seemingly-slips-up-and-says-rumored-half-life-3-codename-on-stage-2000748885",
+        "date": "2026-10-22T19:04:14.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Valve Developer Mistakenly Mentions Rumored Half-Life 3 Codename",
+        "url": "https://www.ign.com/articles/valve-developer-mistakenly-mentions-rumored-half-life-3-codename",
+        "date": "2026-10-22T18:46:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Half-Life 3 confirmed? Possible Valve dev slip-up adds fuel to ‘HLX’ rumors",
+        "url": "https://www.destructoid.com/half-life-3-possible-valve-dev-slipup-hlx-rumors/",
+        "date": "2026-10-22T17:53:12.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Why People Think Valve Just Accidentally Confirmed Half-Life 3",
+        "url": "https://www.gamespot.com/articles/why-people-think-valve-just-accidentally-confirmed-half-life-3/",
+        "date": "2026-10-22T19:02:15.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "valve s approach to an open and flexible audio engine",
+      "value": "Valve’s Approach to an Open and Flexible Audio Engine,",
+      "outlets": [
+        "Polygon",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Their talk, titled \"Valve’s Approach to an Open and Flexible Audio Engine,\" was meant to discuss Valve's Source 2 audio engine and extensible open systems.",
+      "urls": [
+        "https://www.polygon.com/valve-half-life-3-hlx/",
+        "https://www.pcgamer.com/games/fps/half-life-3-re-re-re-confirmed-a-valve-dev-just-said-hlx-out-loud/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "feise then appears to whisper to morasky",
+      "value": "Feise then appears to whisper to Morasky,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You know, HLX has its own version, so on and so forth.\" Feise then appears to whisper to Morasky, \"Nice work.\" As the panel comes to an end, Feise leans in and says to Morasky what sounds like, \"Good job.",
+      "urls": [
+        "https://www.polygon.com/valve-half-life-3-hlx/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to which morasky responds with what sounds like",
+      "value": "To which Morasky responds with what sounds like,",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You only said 'HLX' once.\" To which Morasky responds with what sounds like, \"I did?\"\n\nHalf-Life fans believe they've heard Morasky make this same flub before.",
+      "urls": [
+        "https://www.polygon.com/valve-half-life-3-hlx/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "playable from end to end",
+      "value": "playable from end to end.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Supporting the rumors of HLX/Half-Life 3's existence is a report from longtime Valve reporter Tyler McVicker, who said in 2025 that the game isn't just in development, but \"playable from end to end.\"\n\nThere's no indication that Valve plans to announce Half-Life 3 anytime soon, but fans of the first-person shooter franchise have gotten used to waiting.",
+      "urls": [
+        "https://www.polygon.com/valve-half-life-3-hlx/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "deadlock has their own version of hdr",
+      "value": "Deadlock has their own version of HDR,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Deadlock has their own version of HDR,\" Morasky says.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/half-life-3-re-re-re-confirmed-a-valve-dev-just-said-hlx-out-loud/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "hlx has its own version and so on and so forth",
+      "value": "HLX has its own version, and so on and so forth.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"HLX has its own version, and so on and so forth.\"\n\nAdding fuel to the fire, co-panelist David Feise, seated next to Morasky, immediately turned to him after the HLX comment and whispered \"nice work,\" or possibly \"nice one,\" obviously suggesting, hey man, you're not supposed to talk about that.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/half-life-3-re-re-re-confirmed-a-valve-dev-just-said-hlx-out-loud/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "is its own one hour talk so come talk to us about that afterwards",
+      "value": "is its own one-hour talk, so come talk to us about that afterwards.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Feise then quickly puts an end to the answer as Morasky laughs nervously, saying Groups, which Morasky had been talking about leading up to the HLX remark, \"is its own one-hour talk, so come talk to us about that afterwards.\"\n\nThere's no question that Morasky said HLX, and that Feise reacted.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/half-life-3-re-re-re-confirmed-a-valve-dev-just-said-hlx-out-loud/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "good job you only said hlx once",
+      "value": "Good job, you only said HLX once.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In fact, at the end of the panel Feise leaned in and said, \"Good job, you only said HLX once.\" Because this isn't the first time he's done it: Morasky appeared oh-so-close to saying \"HLX\" in 2025, although he was able to catch himself midway and shift gears, awkwardly, to \"Alyx.\"\n\nKeep up to date with the most important stories and the best deals, as picked by the PC Gamer team.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/half-life-3-re-re-re-confirmed-a-valve-dev-just-said-hlx-out-loud/"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 8,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "7 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

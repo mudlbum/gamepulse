@@ -1,0 +1,159 @@
+{
+  "generated": "2026-10-23T01:05:40.611Z",
+  "workingTitle": "GTA 6 and Gasoline in Video Games",
+  "heat": 60.4,
+  "outletCount": 6,
+  "outlets": [
+    "GameSpot",
+    "IGN",
+    "Kotaku",
+    "Push Square",
+    "Destructoid",
+    "PCGamesN"
+  ],
+  "newest": "2026-10-22T21:00:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [
+    "Cyberpunk 2077"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Is Almost Here: Trade in Your Old Console and Save on an Upgrade at PayMore",
+        "url": "https://www.ign.com/articles/gta-6-trade-in-old-console-save-on-upgrade-paymore",
+        "date": "2026-10-22T17:37:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "First GTA 6 TV Commercial Strips Out Steamy Shower Scenes, but Shows More of Lucia's Fancy Hair Tech",
+        "url": "https://www.ign.com/articles/gta-6-tv-commercial-strips-shower-scene-doesnt-mention-xbox",
+        "date": "2026-10-22T13:40:42.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "GTA 6‘s First TV Ad Cuts The Spicy Shower Scenes",
+        "url": "https://kotaku.com/gta-6s-first-tv-ad-cuts-the-spicy-shower-scenes-2000748474",
+        "date": "2026-10-21T23:30:00.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Sony's Revamped PS5 Pulse Headset Launches Alongside GTA 6, on 19th November",
+        "url": "https://www.pushsquare.com/news/2026/10/sonys-revamped-ps5-pulse-headset-launches-alongside-gta-6-on-19th-november",
+        "date": "2026-10-21T19:30:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 and Gasoline in Video Games",
+        "url": "https://www.gamespot.com/videos/gta-6-and-gasoline-in-video-games/",
+        "date": "2026-10-22T21:00:00.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6’s New TV Trailer Is A Bit Different, See It For Yourself",
+        "url": "https://www.gamespot.com/articles/gta-6s-new-tv-trailer-is-a-bit-different-see-it-for-yourself/",
+        "date": "2026-10-22T19:52:26.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Right now, electronics resale franchise, PayMore is offering a new Level Up program that gives you a $10 PayMore promotional credit in addition to your regular cash offer.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-trade-in-old-console-save-on-upgrade-paymore"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$99.99",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The headphones will cost $99.99/£89.99/€99.99, so they’re somewhat steep, but roughly in the range of what I’d expect for a product like this.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/sonys-revamped-ps5-pulse-headset-launches-alongside-gta-6-on-19th-november"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:149",
+      "value": "$149",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Didn’t the Pulse Elite retail for $149?",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/sonys-revamped-ps5-pulse-headset-launches-alongside-gta-6-on-19th-november"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:99",
+      "value": "$99",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If so, $99 seems like a good deal.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/sonys-revamped-ps5-pulse-headset-launches-alongside-gta-6-on-19th-november"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:2.5",
+      "value": "Update 2.5",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony's Multi-Million Dollar GTA 6 PS5 Marketing Strategy Is Already Working\n\nCyberpunk 2077 PS5 Update 2.5 Live Now, Get the Patch Notes Here\n\nFirst Final Fantasy Resonance PS5 Review Released, Rough Campaign Length Revealed",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/sonys-revamped-ps5-pulse-headset-launches-alongside-gta-6-on-19th-november"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [
+    {
+      "game": "Cyberpunk 2077",
+      "concurrent": 75124,
+      "rank": 11,
+      "change24h": 72.7,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
