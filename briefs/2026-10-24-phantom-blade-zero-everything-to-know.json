@@ -1,0 +1,133 @@
+{
+  "generated": "2026-10-24T01:14:57.940Z",
+  "workingTitle": "Phantom Blade Zero – Everything To Know",
+  "heat": 38.7,
+  "outletCount": 4,
+  "outlets": [
+    "GameSpot",
+    "Destructoid",
+    "Eurogamer",
+    "Push Square"
+  ],
+  "newest": "2026-10-23T21:00:00.000Z",
+  "readableCount": 3,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Zero Company is becoming everything I wanted XCOM 2 to be",
+        "url": "https://www.destructoid.com/zero-company-is-becoming-everything-i-wanted-xcom-2-to-be/",
+        "date": "2026-10-23T20:20:40.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Phantom Blade Zero isn't even out yet, but it could be 'one of the year's breakout hits' as it shifts half a million copies on Steam alone",
+        "url": "https://www.eurogamer.net/phantom-blade-zero-hit-not-out",
+        "date": "2026-10-23T12:33:45.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Sony's Marketing the Hell Out of PS5 Console Exclusive Phantom Blade Zero in China",
+        "url": "https://www.pushsquare.com/news/2026/10/sonys-marketing-the-hell-out-of-ps5-console-exclusive-phantom-blade-zero-in-china",
+        "date": "2026-10-22T16:30:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Phantom Blade Zero – Everything To Know",
+        "url": "https://www.gamespot.com/videos/phantom-blade-zero-everything-to-know/",
+        "date": "2026-10-23T21:00:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:24000000",
+      "value": "$24m",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Based on Elliott's estimates, Phantom Blade Zero has already sold 500,000 copies on Steam through pre-orders, bringing in roughly $24m in revenue ahead of its launch next week.",
+      "urls": [
+        "https://www.eurogamer.net/phantom-blade-zero-hit-not-out"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:500000:copies",
+      "value": "500,000 copies",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Based on Elliott's estimates, Phantom Blade Zero has already sold 500,000 copies on Steam through pre-orders, bringing in roughly $24m in revenue ahead of its launch next week.",
+      "urls": [
+        "https://www.eurogamer.net/phantom-blade-zero-hit-not-out"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "potential to be one of the year s breakout single player hits",
+      "value": "potential to be one of the year's breakout single-player hits.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He even goes as far as to suggest it has the \"potential to be one of the year's breakout single-player hits.\"\n\nThese figures emerge at a time China's games industry is enjoying a boom, and an increasing number of releases from Chinese developers are launching to critical and commercial success worldwide.",
+      "urls": [
+        "https://www.eurogamer.net/phantom-blade-zero-hit-not-out"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:800",
+      "value": "$800.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Vertere I was smart enough to buy 5070 Ti just before the memory crisis hit hard for around $800.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/sonys-marketing-the-hell-out-of-ps5-console-exclusive-phantom-blade-zero-in-china"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:2.5",
+      "value": "Update 2.5",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Plus, I managed to get some funding from work, they offered some funds to support home office\n\nPromising Sci-Fi RPG Exodus Changes Its Main Character's Face After Fan Criticism\n\nSony's Multi-Million Dollar GTA 6 PS5 Marketing Strategy Is Already Working\n\nCyberpunk 2077 PS5 Update 2.5 Live Now, Get the Patch Notes Here",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/10/sonys-marketing-the-hell-out-of-ps5-console-exclusive-phantom-blade-zero-in-china"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

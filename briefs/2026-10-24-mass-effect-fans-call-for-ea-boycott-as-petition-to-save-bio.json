@@ -1,0 +1,320 @@
+{
+  "generated": "2026-10-24T01:14:57.499Z",
+  "workingTitle": "Mass Effect Fans Call for EA Boycott as Petition to Save BioWare's Canceled Game Garners More than 75,000 Signatures",
+  "heat": 40.8,
+  "outletCount": 4,
+  "outlets": [
+    "IGN",
+    "Pure Xbox",
+    "Push Square",
+    "Game Developer"
+  ],
+  "newest": "2026-10-23T21:03:56.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Mass Effect Fans Call for EA Boycott as Petition to Save BioWare's Canceled Game Garners More than 75,000 Signatures",
+        "url": "https://www.ign.com/articles/mass-effect-fans-call-for-ea-boycott-as-petition-to-save-biowares-canceled-game-garners-more-than-75000-signatures",
+        "date": "2026-10-23T21:03:56.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Save Mass Effect Petition Hits 50,000 Signatures, Just Days After BioWare Closure",
+        "url": "https://www.ign.com/articles/save-mass-effect-petition-hits-50000-signatures-just-days-after-bioware-closure",
+        "date": "2026-10-23T14:59:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Franchises Like Mass Effect Are a 'Prestige Project' for EA, and BioWare's Closure Was 'Entirely Predictable,' Analysts Say",
+        "url": "https://www.ign.com/articles/franchises-like-mass-effect-are-a-prestige-project-for-ea-and-biowares-closure-was-entirely-predictable-analysts-say",
+        "date": "2026-10-23T12:10:36.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "The Internet Urges Xbox To Save Mass Effect",
+        "url": "https://www.purexbox.com/news/2026/10/the-internet-urges-xbox-to-save-mass-effect",
+        "date": "2026-10-23T12:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Despite BioWare Closure, Mass Effect TV Series Is Reportedly Still in Development",
+        "url": "https://www.pushsquare.com/news/2026/10/despite-bioware-closure-mass-effect-tv-series-is-reportedly-still-in-development",
+        "date": "2026-10-22T12:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "EA closes Mass Effect, Dragon Age creator BioWare after 30 years of game development",
+        "url": "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development",
+        "date": "2026-10-21T18:57:37.000Z",
+        "host": "www.gamedeveloper.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:55000000000",
+      "value": "$55 billion",
+      "outlets": [
+        "IGN",
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Games industry analysts told IGN that BioWare was likely doomed well before EA’s $55 billion acquisition, explaining that games like Mass Effect are now considered “prestige projects” for the company, and it’s unlikely the sci-fi franchise, nor BioWare’s other IPs, are sold off.",
+      "urls": [
+        "https://www.ign.com/articles/franchises-like-mass-effect-are-a-prestige-project-for-ea-and-biowares-closure-was-entirely-predictable-analysts-say",
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "remain committed to telling more stories in this universe",
+      "value": "remain committed to telling more stories in this universe.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He even expressed excitement about the Amazon TV series (which IGN understands is currently still in the works), and insisted EA and BioWare \"remain committed to telling more stories in this universe.\"\n\nSo what changed?",
+      "urls": [
+        "https://www.ign.com/articles/franchises-like-mass-effect-are-a-prestige-project-for-ea-and-biowares-closure-was-entirely-predictable-analysts-say"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:18000000000",
+      "value": "$18 billion",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "“In this case, EA now carries roughly $18 billion in debt, which costs it about $1.8 billion a year in interest.",
+      "urls": [
+        "https://www.ign.com/articles/franchises-like-mass-effect-are-a-prestige-project-for-ea-and-biowares-closure-was-entirely-predictable-analysts-say"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1800000000",
+      "value": "$1.8 billion",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "“In this case, EA now carries roughly $18 billion in debt, which costs it about $1.8 billion a year in interest.",
+      "urls": [
+        "https://www.ign.com/articles/franchises-like-mass-effect-are-a-prestige-project-for-ea-and-biowares-closure-was-entirely-predictable-analysts-say"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1500000000",
+      "value": "$1.5 billion",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That is more than its annual EBITDA of around $1.5 billion.",
+      "urls": [
+        "https://www.ign.com/articles/franchises-like-mass-effect-are-a-prestige-project-for-ea-and-biowares-closure-was-entirely-predictable-analysts-say"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:700000000",
+      "value": "$700 million",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "EA has told its lenders it will cut $700 million in annual costs to service the debt.",
+      "urls": [
+        "https://www.ign.com/articles/franchises-like-mass-effect-are-a-prestige-project-for-ea-and-biowares-closure-was-entirely-predictable-analysts-say"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:1900000:units",
+      "value": "1.9 million units",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Ampere data shows that Bioware’s latest release at the end of 2024 — Dragon Age: The Veilguard — has sold an estimated 1.9 million units globally across PlayStation, Xbox, and Steam up to the end of September, way below internal targets.",
+      "urls": [
+        "https://www.ign.com/articles/franchises-like-mass-effect-are-a-prestige-project-for-ea-and-biowares-closure-was-entirely-predictable-analysts-say"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "more likely to sell off those ips",
+      "value": "more likely to sell off those IPs",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Former BioWare exec Mark Darrah weighed in on the Mass Effect conversation in a YouTube video, where he states that, since the studio is no more and nobody is working on the IP at this point, EA might be \"more likely to sell off those IPs\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/the-internet-urges-xbox-to-save-mass-effect"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "darrah goes on to suggest that ea seems",
+      "value": "Darrah goes on to suggest that EA seems",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That doesn’t change the situation, really, at all.\"\n\nDarrah goes on to suggest that EA seems \"to be in cost control mode\" and that \"they might start into a revenue-generation mode where selling IPs might be more desirable\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/the-internet-urges-xbox-to-save-mass-effect"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as in very politically correct and ideological",
+      "value": "(as in very politically correct and ideological",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Even in japan those famliar with bioware call them the \"porekore\" (as in very politically correct and ideological\" company).",
+      "urls": [
+        "https://www.purexbox.com/news/2026/10/the-internet-urges-xbox-to-save-mass-effect"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there is nothing easy about writing those words",
+      "value": "There is nothing easy about writing those words,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"There is nothing easy about writing those words,\" the statement reads.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "our focus right now is on our incredibly talented team who put their hearts into these games and supporting one another through this transition",
+      "value": "Our focus right now is on our incredibly talented team who put their hearts into these games, and supporting one another through this transition.",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Our focus right now is on our incredibly talented team who put their hearts into these games, and supporting one another through this transition.\" Bloomberg News also reports that EA is also laying off 400 employees, 50 of whom were working at BioWare on a new entry in the Mass Effect series.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "has been canceled while another game code named",
+      "value": "has been canceled, while another game code-named",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A planned entry in the Sims series code-named \"Project Lotus\" has been canceled, while another game code-named \"Project Evergreen\" is being prioritized.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "hard look at the business",
+      "value": "hard look at the business",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Related:Innersloth co-founder warns devs: 'there are some very bad deals out there'\n\nEA chief operating officer David Tinson and chief studios officer Cam Weber apparently sent a letter to EA staff saying that these decisions followed a \"hard look at the business\" that took place over the last several months.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "across our portfolio we re making deliberate choices to align talent and investments where we see the greatest opportunities for players and long term growth",
+      "value": "Across our portfolio, we’re making deliberate choices to align talent and investments where we see the greatest opportunities for players and long-term growth,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Across our portfolio, we’re making deliberate choices to align talent and investments where we see the greatest opportunities for players and long-term growth,\" the letter said.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it x27 s hard to see how teams or games that underperform wouldn x27 t be dissolved or sold off",
+      "value": "It&#x27;s hard to see how teams or games that underperform wouldn&#x27;t be dissolved or sold off,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It&#x27;s hard to see how teams or games that underperform wouldn&#x27;t be dissolved or sold off,\" they said.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:5000000:copies",
+      "value": "5 million copies",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Related:Ubisoft to close Trials studio RedLynx, downsize Ubisoft Singapore\n\nThe company began work on an online science fiction RPG that would become the 2019 title Anthem, which failed to gain traction as a long-lasting live service game, only going on to sell around 5 million copies before being shut down.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/ea-closes-mass-effect-dragon-age-creator-bioware-after-30-years-of-game-development"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 17,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "16 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

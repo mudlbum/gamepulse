@@ -1,0 +1,115 @@
+{
+  "generated": "2026-10-24T01:14:57.711Z",
+  "workingTitle": "Esper locations in Final Fantasy Resonance",
+  "heat": 39.3,
+  "outletCount": 4,
+  "outlets": [
+    "Polygon",
+    "Destructoid",
+    "Xbox Wire",
+    "Eurogamer"
+  ],
+  "newest": "2026-10-23T18:51:59.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "FINAL FANTASY RESONANCE"
+  ],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "FINAL FANTASY RESONANCE is a Delightful Return to the Series’ Classic Roots",
+        "url": "https://news.xbox.com/en-us/2026/10/22/final-fantasy-resonance-available-now/",
+        "date": "2026-10-22T16:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Esper locations in Final Fantasy Resonance",
+        "url": "https://www.polygon.com/final-fantasy-resonance-esper-locations/",
+        "date": "2026-10-23T18:51:59.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Best Visions to use in Final Fantasy Resonance",
+        "url": "https://www.polygon.com/final-fantasy-resonance-best-visions/",
+        "date": "2026-10-23T18:27:34.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Final Fantasy Resonance character tier list",
+        "url": "https://www.destructoid.com/final-fantasy-resonance-character-tier-list/",
+        "date": "2026-10-23T14:32:56.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Final Fantasy Resonance Vision tier list: Best ones to use",
+        "url": "https://www.destructoid.com/final-fantasy-resonance-vision-tier-list/",
+        "date": "2026-10-23T09:56:57.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Ball VS Ball Tier List – Best Balls [Halloween🎃]",
+        "url": "https://www.destructoid.com/ball-vs-ball-tier-list/",
+        "date": "2026-10-23T09:37:38.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "restore mp on critical hit",
+      "value": "Restore MP on Critical Hit",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "His \"Restore MP on Critical Hit\" mastery ability pairs wonderfully with Laswell.",
+      "urls": [
+        "https://www.polygon.com/final-fantasy-resonance-best-visions/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "mastery ability increases magic power based on how much hp the equipping character has lost and the",
+      "value": "mastery ability increases magic power based on how much HP the equipping character has lost, and the",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Her \"Dark Rites\" mastery ability increases magic power based on how much HP the equipping character has lost, and the \"Area Effect Adept\" ability is easily one of the best in the mid-game.",
+      "urls": [
+        "https://www.polygon.com/final-fantasy-resonance-best-visions/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [
+    {
+      "game": "FINAL FANTASY RESONANCE",
+      "concurrent": 24007,
+      "rank": 54,
+      "change24h": 20.4,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

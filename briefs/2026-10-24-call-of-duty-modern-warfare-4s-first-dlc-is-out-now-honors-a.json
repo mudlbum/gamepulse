@@ -1,0 +1,97 @@
+{
+  "generated": "2026-10-24T01:14:56.865Z",
+  "workingTitle": "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries",
+  "heat": 90.6,
+  "outletCount": 9,
+  "outlets": [
+    "GameSpot",
+    "Xbox Wire",
+    "PC Gamer",
+    "Eurogamer",
+    "Destructoid",
+    "Push Square",
+    "IGN",
+    "Nintendo Life",
+    "Nintendo"
+  ],
+  "newest": "2026-10-23T19:37:03.000Z",
+  "readableCount": 2,
+  "sourceCount": 6,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Call of Duty: Modern Warfare 4 – Kill Block is Must-Play Multiplayer at Launch",
+        "url": "https://news.xbox.com/en-us/2026/10/23/call-of-duty-modern-warfare-4-kill-block-must-play-multiplayer/",
+        "date": "2026-10-23T17:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Call of Duty: Modern Warfare 4 actually runs pretty smoothly with Activision's 'recommended' RTX 3060 Ti graphics card, and here are the settings I use to get…",
+        "url": "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4-actually-runs-pretty-smoothly-with-activisions-recommended-rtx-3060-ti-graphics-card-and-here-are-the-settings-i-use-to-get-the-best-performance-from-it/",
+        "date": "2026-10-23T16:13:25.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries",
+        "url": "https://www.gamespot.com/articles/call-of-duty-modern-warfare-4s-first-dlc-is-out-now-honors-a-real-soldier-who-sustained-gruesome-injuries/",
+        "date": "2026-10-23T19:37:03.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "Best Loadouts In Call Of Duty: Modern Warfare 4 Multiplayer",
+        "url": "https://www.gamespot.com/articles/best-loadouts-in-call-of-duty-modern-warfare-4-multiplayer/",
+        "date": "2026-10-23T17:10:23.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "CoD: Modern Warfare 4 DMZ – Best Hot Spots And Loot Locations",
+        "url": "https://www.gamespot.com/articles/cod-modern-warfare-4-dmz-best-hot-spots-and-loot-locations/",
+        "date": "2026-10-23T16:40:54.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "run at 90 fps in multiplayer on high graphics settings",
+      "value": "run at 90 fps in multiplayer on High graphics settings.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Which is good news, considering Activision lists this graphics card, alongside the AMD RX 6600 XT and Intel Arc B580, as the 'recommended' ones to \"run at 90 fps in multiplayer on High graphics settings.\"\n\nI've found this actually pans out, provided you're at 1080p or are fine enabling Quality upscaling at 1440p.",
+      "urls": [
+        "https://www.pcgamer.com/games/call-of-duty/call-of-duty-modern-warfare-4-actually-runs-pretty-smoothly-with-activisions-recommended-rtx-3060-ti-graphics-card-and-here-are-the-settings-i-use-to-get-the-best-performance-from-it/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 1,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

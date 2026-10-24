@@ -1,15 +1,45 @@
 {
-  "decided": "2026-10-23T01:05:41.865Z",
+  "decided": "2026-10-24T01:14:58.018Z",
   "publish": true,
-  "reason": "selected on score 52.0",
+  "reason": "selected on score 44.0",
   "brief": "2026-10-23-xbox-nintendo-console-sales-suffer-yoy-decreases-in-new-sept.json",
   "title": "Xbox & Nintendo Console Sales Suffer YoY Decreases In New September 2026 US Report",
   "considered": [
     {
+      "file": "2026-10-24-phantom-blade-zero-everything-to-know.json",
+      "title": "Phantom Blade Zero – Everything To Know",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-24-mass-effect-fans-call-for-ea-boycott-as-petition-to-save-bio.json",
+      "title": "Mass Effect Fans Call for EA Boycott as Petition to Save BioWare's Canceled Game Garners More than 75,000 Signatures",
+      "pass": false,
+      "reason": "1 of 17 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-10-24-esper-locations-in-final-fantasy-resonance.json",
+      "title": "Esper locations in Final Fantasy Resonance",
+      "pass": false,
+      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-24-call-of-duty-modern-warfare-4s-first-dlc-is-out-now-honors-a.json",
+      "title": "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries",
+      "pass": false,
+      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-10-24-battlefield-6-one-year-later.json",
+      "title": "Battlefield 6, One Year Later",
+      "pass": false,
+      "reason": "0 of 17 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
       "file": "2026-10-23-xbox-nintendo-console-sales-suffer-yoy-decreases-in-new-sept.json",
       "title": "Xbox & Nintendo Console Sales Suffer YoY Decreases In New September 2026 US Report",
       "pass": true,
-      "reason": "4/30 claims corroborated · 6 outlets · primary source · 9h old"
+      "reason": "4/30 claims corroborated · 6 outlets · primary source · 33h old"
     },
     {
       "file": "2026-10-23-to-start-the-new-cyberpunk-2077-edgerunners-2-quest-do-these.json",
@@ -22,36 +52,6 @@
       "title": "Leaked Mass Effect 5 Trailer Is Real, Offers Glimpse of Cancelled Game",
       "pass": false,
       "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-23-half-life-3-rumors-reignite-after-valve-employee-lets-codena.json",
-      "title": "Half-Life 3 Rumors Reignite After Valve Employee Lets Codename Slip",
-      "pass": false,
-      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-23-gta-6-and-gasoline-in-video-games.json",
-      "title": "GTA 6 and Gasoline in Video Games",
-      "pass": false,
-      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-22-xbox-reveals-new-pricing-plans-for-cloud-gaming.json",
-      "title": "Xbox Reveals New Pricing Plans For Cloud Gaming",
-      "pass": false,
-      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-22-star-wars-battlefront-3-reportedly-in-development-by-eas-top.json",
-      "title": "Star Wars Battlefront 3 Reportedly In Development By EA’s Top Shooter Studios",
-      "pass": false,
-      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-22-cyberpunk-2077-edgerunners-2-update-25-officially-revealed-h.json",
-      "title": "Cyberpunk 2077: Edgerunners 2 Update (2.5) Officially Revealed, Here Are The Full Patch Notes",
-      "pass": false,
-      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }

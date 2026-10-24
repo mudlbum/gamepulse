@@ -1,0 +1,319 @@
+{
+  "generated": "2026-10-24T01:14:57.203Z",
+  "workingTitle": "Battlefield 6, One Year Later",
+  "heat": 79.4,
+  "outletCount": 8,
+  "outlets": [
+    "Kotaku",
+    "Eurogamer",
+    "IGN",
+    "Nintendo Life",
+    "Push Square",
+    "Rock Paper Shotgun",
+    "Pure Xbox",
+    "Destructoid"
+  ],
+  "newest": "2026-10-23T18:44:13.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Battlefield 6, One Year Later",
+        "url": "https://kotaku.com/battlefield-6-one-year-later-2000749095",
+        "date": "2026-10-23T18:44:13.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Mass Effect crossover items have seemingly been removed from Battlefield 6 following EA's sudden closure of BioWare",
+        "url": "https://www.eurogamer.net/mass-effect-battlefield-6-crossover-bioware-closure",
+        "date": "2026-10-23T17:19:50.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "EA Appears to Have Quietly Pulled Mass Effect Content From Battlefield 6 Following BioWare Shutdown",
+        "url": "https://www.ign.com/articles/ea-appears-to-have-quietly-pulled-mass-effect-content-from-battlefield-6-following-bioware-shutdown",
+        "date": "2026-10-23T15:33:47.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Battlefield 6 Quietly Yanks Planned Mass Effect Collab From Its Store After BioWare Closure",
+        "url": "https://kotaku.com/battlefield-6-mass-effect-cosmetics-n7-day-store-2000749091",
+        "date": "2026-10-23T13:35:14.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Flashy internal trailer for now-cancelled Mass Effect Universe appears online, following EA's closure of BioWare",
+        "url": "https://www.eurogamer.net/mass-effect-universe-trailer-leak-real",
+        "date": "2026-10-23T09:11:49.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Mass Effect: Universe Trailer Leaked Online As BioWare Shuts Down",
+        "url": "https://www.nintendolife.com/news/2026/10/mass-effect-universe-trailer-leaked-online-as-bioware-shuts-down",
+        "date": "2026-10-23T05:55:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:n:500000:concurrent",
+      "value": "500,000 concurrent",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "At one point, the Battlefield 6 open beta reached over 500,000 concurrent players on Steam alone.",
+      "urls": [
+        "https://kotaku.com/battlefield-6-one-year-later-2000749095"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:700000:concurrent",
+      "value": "700,000 concurrent",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It reached over 700,000 concurrent players on Steam and became one of the year’s biggest games in just a few days.",
+      "urls": [
+        "https://kotaku.com/battlefield-6-one-year-later-2000749095"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:38000000",
+      "value": "$38 million",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Meanwhile, EA CEO Andrew Wilson received a $38 million bonus.",
+      "urls": [
+        "https://kotaku.com/battlefield-6-one-year-later-2000749095"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:2",
+      "value": "Season 2",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Season 2 of Battlefield 6 was better received than the first season, with the game’s Contaminated map being a winner with fans thanks to its big vistas, elevation changes, and overall size.",
+      "urls": [
+        "https://kotaku.com/battlefield-6-one-year-later-2000749095"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:3",
+      "value": "Season 3",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But Battlefield 6 really found success in the summer of 2026 with Season 3 and Season 4.",
+      "urls": [
+        "https://kotaku.com/battlefield-6-one-year-later-2000749095"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:4",
+      "value": "Season 4.",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But Battlefield 6 really found success in the summer of 2026 with Season 3 and Season 4.",
+      "urls": [
+        "https://kotaku.com/battlefield-6-one-year-later-2000749095"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "making deliberate choices to align talent and investment where we see the greatest opportunities for players and long term growth",
+      "value": "making deliberate choices to align talent and investment where we see the greatest opportunities for players and long-term growth",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In its announcement memo, EA said it was \"making deliberate choices to align talent and investment where we see the greatest opportunities for players and long-term growth\" - hence the decision to lay off 400 workers and cut BioWare entirely.",
+      "urls": [
+        "https://www.eurogamer.net/mass-effect-battlefield-6-crossover-bioware-closure"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:55000000000",
+      "value": "$55bn",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "EA itself was recently taken private by the Kingdom of Saudi Arabia's Public Investment Fund, Jared Kushner's private equity group Affinity Partners and Silver Lake in a $55bn leveraged buyout.",
+      "urls": [
+        "https://www.eurogamer.net/mass-effect-battlefield-6-crossover-bioware-closure",
+        "https://www.eurogamer.net/mass-effect-universe-trailer-leak-real"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:5",
+      "value": "Season 5",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Battlefield 6 players made a mental note of an incoming Mass Effect collab when themed content was added to cosmetic menus with the launch of Season 5 earlier this month.",
+      "urls": [
+        "https://www.ign.com/articles/ea-appears-to-have-quietly-pulled-mass-effect-content-from-battlefield-6-following-bioware-shutdown"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-10-21",
+      "value": "October 21, 2026",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There&#x27;s new Mass Effect accessories for Battlefield, probably for N7 Day 👀 https://t.co/n7cAHFUSHz\n\nThe remaining team of developers at the studio were abruptly laid off when the studio was shut down two days ago, October 21, 2026.",
+      "urls": [
+        "https://www.ign.com/articles/ea-appears-to-have-quietly-pulled-mass-effect-content-from-battlefield-6-following-bioware-shutdown"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-10-13",
+      "value": "October 13, 2026",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There's new Mass Effect accessories for Battlefield, probably for N7 Day 👀 pic.twitter.com/n7cAHFUSHz\n\n— Kala Elizabeth #SaveMassEffect (@kalaelizabeth) October 13, 2026\n\nThe cosmetics included several N7 logos in patches and on weapons, as well as a charm of the Normandy, Commander Shepard’s ship in the original trilogy.",
+      "urls": [
+        "https://kotaku.com/battlefield-6-mass-effect-cosmetics-n7-day-store-2000749091"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a level of autonomy and choice that no other game has",
+      "value": "a level of autonomy and choice that no other game has.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to a former BioWare employee, Mass Effect Universe would have learned from Baldur's Gate 3 and The Witcher to deliver \"a level of autonomy and choice that no other game has.\" The game would have also seemingly \"remained true\" to the original trilogy.",
+      "urls": [
+        "https://www.eurogamer.net/mass-effect-universe-trailer-leak-real"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a spy thriller is such a cool concept for a re entry to the series",
+      "value": "A spy thriller is such a cool concept for a re-entry to the series,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"A spy thriller is such a cool concept for a re-entry to the series,\" wrote Reddit user Harrywilko.",
+      "urls": [
+        "https://www.eurogamer.net/mass-effect-universe-trailer-leak-real"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "man i m just so sad and angry",
+      "value": "Man, I'm just so sad and angry.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Man, I'm just so sad and angry.\" User TerraxFormer shared similar sentiments, writing: \"God this makes me even more distraught lol.",
+      "urls": [
+        "https://www.eurogamer.net/mass-effect-universe-trailer-leak-real"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "can confirm that this is a real trailer of the mass effect game that bioware was developing up until its closure yesterday",
+      "value": "Can confirm that this is a real trailer of the Mass Effect game that BioWare was developing up until its closure yesterday.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "BioWare was supposedly working on it right up \"until its closure\":\n\nJason Schreier: \"Can confirm that this is a real trailer of the Mass Effect game that BioWare was developing up until its closure yesterday.\"\n\nIt shows an entire scene, which blends in-engine footage with some returning characters and over-the-shoulder action segments.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/mass-effect-universe-trailer-leaked-online-as-bioware-shuts-down"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "people with a political agenda",
+      "value": "people with a political agenda",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We even had folks claiming that it was controversial and courageous to make a videogame less inclusive for minorities, because of imaginary pressure by \"people with a political agenda\" in the industry.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/mass-effect-universe-trailer-leaked-online-as-bioware-shuts-down"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "trilogy for like $10\n\nJust your typical pre-rendered cinematic trailer with very small bits of basic, proof-of-concept gameplay.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/10/mass-effect-universe-trailer-leaked-online-as-bioware-shuts-down"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 17,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
