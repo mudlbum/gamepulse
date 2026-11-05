@@ -1,10 +1,40 @@
 {
-  "decided": "2026-10-24T01:14:58.018Z",
+  "decided": "2026-11-05T02:57:47.000Z",
   "publish": true,
-  "reason": "selected on score 44.0",
-  "brief": "2026-10-23-xbox-nintendo-console-sales-suffer-yoy-decreases-in-new-sept.json",
-  "title": "Xbox & Nintendo Console Sales Suffer YoY Decreases In New September 2026 US Report",
+  "reason": "selected on score 36.5",
+  "brief": "2026-11-05-french-game-union-accuses-microsoft-of-sabotaging-blade-and-.json",
+  "title": "French game union accuses Microsoft of 'sabotaging' Blade and then using the fallout to justify closing Arkane",
   "considered": [
+    {
+      "file": "2026-11-05-wow-forevers-launch-is-going-surprisingly-smooth.json",
+      "title": "WoW: Forever’s Launch Is Going Surprisingly Smooth",
+      "pass": false,
+      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-05-the-elder-scrolls-6-is-reportedly-more-than-two-years-away-a.json",
+      "title": "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well",
+      "pass": false,
+      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-05-french-game-union-accuses-microsoft-of-sabotaging-blade-and-.json",
+      "title": "French game union accuses Microsoft of 'sabotaging' Blade and then using the fallout to justify closing Arkane",
+      "pass": true,
+      "reason": "2/15 claims corroborated · 6 outlets · secondary only · 6h old"
+    },
+    {
+      "file": "2026-11-05-countdown-zelda-ocarina-of-time-dungeon-crawl-9-the-grand-fi.json",
+      "title": "Countdown: Zelda: Ocarina Of Time Dungeon Crawl #9 - The Grand Finale",
+      "pass": false,
+      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-05-best-buys-midnight-zelda-switch-2-console-release-is-already.json",
+      "title": "Best Buy's Midnight 'Zelda' Switch 2 Console Release Is Already Intense",
+      "pass": false,
+      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-10-24-phantom-blade-zero-everything-to-know.json",
       "title": "Phantom Blade Zero – Everything To Know",
@@ -22,36 +52,6 @@
       "title": "Esper locations in Final Fantasy Resonance",
       "pass": false,
       "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-24-call-of-duty-modern-warfare-4s-first-dlc-is-out-now-honors-a.json",
-      "title": "Call Of Duty: Modern Warfare 4’s First DLC Is Out Now, Honors A Real Soldier Who Sustained Gruesome Injuries",
-      "pass": false,
-      "reason": "only 1 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-10-24-battlefield-6-one-year-later.json",
-      "title": "Battlefield 6, One Year Later",
-      "pass": false,
-      "reason": "0 of 17 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-10-23-xbox-nintendo-console-sales-suffer-yoy-decreases-in-new-sept.json",
-      "title": "Xbox & Nintendo Console Sales Suffer YoY Decreases In New September 2026 US Report",
-      "pass": true,
-      "reason": "4/30 claims corroborated · 6 outlets · primary source · 33h old"
-    },
-    {
-      "file": "2026-10-23-to-start-the-new-cyberpunk-2077-edgerunners-2-quest-do-these.json",
-      "title": "To Start The New Cyberpunk 2077 Edgerunners 2 Quest, Do These Two Things First",
-      "pass": false,
-      "reason": "1 of 18 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-10-23-leaked-mass-effect-5-trailer-is-real-offers-glimpse-of-cance.json",
-      "title": "Leaked Mass Effect 5 Trailer Is Real, Offers Glimpse of Cancelled Game",
-      "pass": false,
-      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }

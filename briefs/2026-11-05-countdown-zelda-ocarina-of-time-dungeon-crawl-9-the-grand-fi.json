@@ -1,0 +1,136 @@
+{
+  "generated": "2026-11-05T02:57:46.101Z",
+  "workingTitle": "Countdown: Zelda: Ocarina Of Time Dungeon Crawl #9 - The Grand Finale",
+  "heat": 88.6,
+  "outletCount": 8,
+  "outlets": [
+    "Nintendo Life",
+    "Kotaku",
+    "Eurogamer",
+    "IGN",
+    "GameSpot",
+    "Destructoid",
+    "Nintendo",
+    "Game Developer"
+  ],
+  "newest": "2026-11-04T21:00:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Countdown: Zelda: Ocarina Of Time Dungeon Crawl #9 - The Grand Finale",
+        "url": "https://www.nintendolife.com/features/countdown-zelda-ocarina-of-time-dungeon-crawl-9-the-grand-finale",
+        "date": "2026-11-04T21:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The Best And Worst Parts Of The Legend Of Zelda: Ocarina Of Time",
+        "url": "https://kotaku.com/lets-remember-the-best-and-worst-parts-of-the-legend-of-zelda-ocarina-of-time-2000753399",
+        "date": "2026-11-04T20:30:35.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "The Legend of Zelda: Ocarina of Time's Navi actor reprises her role after 28 years, but it was a total accident due to Nintendo's blind auditions",
+        "url": "https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time",
+        "date": "2026-11-04T19:15:40.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The Zelda: Ocarina Of Time Remake Has No Master Quest",
+        "url": "https://kotaku.com/the-zelda-ocarina-of-time-remake-has-no-master-quest-2000753351",
+        "date": "2026-11-04T17:00:42.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Video: Here's 12 Minutes Of Brand New Zelda: Ocarina Of Time Switch 2 Gameplay Footage",
+        "url": "https://www.nintendolife.com/news/2026/11/video-heres-12-minutes-of-brand-new-zelda-ocarina-of-time-switch-2-gameplay-footage",
+        "date": "2026-11-04T17:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Last Chance to Save $10 on The Legend of Zelda: Ocarina of Time",
+        "url": "https://www.ign.com/articles/last-chance-to-save-10-on-legend-of-zelda-ocarina-of-time-switch-2",
+        "date": "2026-11-04T15:34:51.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "we felt that if we were going to improve the graphics so dramatically the cutscenes needed to be fully voiced to match",
+      "value": "We felt that if we were going to improve the graphics so dramatically, the cutscenes needed to be fully voiced to match,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We felt that if we were going to improve the graphics so dramatically, the cutscenes needed to be fully voiced to match,\" director HokWai Ng explained in the most recent Ask The Developer blog.",
+      "urls": [
+        "https://www.eurogamer.net/nintendo-cast-navi-actor-zelda-ocarina-of-time"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a remarkable remake and a must buy for switch 2",
+      "value": "a remarkable remake, and a must-buy for Switch 2",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Our review went live today, where we called Link's latest \"a remarkable remake, and a must-buy for Switch 2\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/video-heres-12-minutes-of-brand-new-zelda-ocarina-of-time-switch-2-gameplay-footage"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you’re looking to add this new Nintendo Switch 2 exclusive to your collection, today is your last chance to save $10 on a preorder.",
+      "urls": [
+        "https://www.ign.com/articles/last-chance-to-save-10-on-legend-of-zelda-ocarina-of-time-switch-2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:59.9",
+      "value": "$59.88.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While preorders have sold out at Amazon, physical copies with the textured foil cover are still available at Walmart for $59.88.",
+      "urls": [
+        "https://www.ign.com/articles/last-chance-to-save-10-on-legend-of-zelda-ocarina-of-time-switch-2"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

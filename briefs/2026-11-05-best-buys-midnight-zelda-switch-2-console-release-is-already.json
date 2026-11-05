@@ -1,0 +1,114 @@
+{
+  "generated": "2026-11-05T02:57:46.335Z",
+  "workingTitle": "Best Buy's Midnight 'Zelda' Switch 2 Console Release Is Already Intense",
+  "heat": 57.1,
+  "outletCount": 6,
+  "outlets": [
+    "Polygon",
+    "IGN",
+    "Kotaku",
+    "GameSpot",
+    "Eurogamer",
+    "Nintendo Life"
+  ],
+  "newest": "2026-11-04T22:07:09.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Nintendo Switch 2"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Best Buy's Midnight 'Zelda' Switch 2 Console Release Is Already Intense",
+        "url": "https://www.polygon.com/best-buy-zelda-switch-2-preorder-midnight-launch-store-locator/",
+        "date": "2026-11-04T22:07:09.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "IGN's Top-Reviewed Nintendo Switch 2 Games",
+        "url": "https://www.ign.com/articles/best-reviewed-nintendo-switch-2-games",
+        "date": "2026-11-04T17:32:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Another Blow For Physical Media As Nintendo’s Switch Cartridge Chip Manufacturer Pivots To Data Centers",
+        "url": "https://kotaku.com/nintendo-switch-cart-rom-physical-media-data-centers-manufacture-2000753293",
+        "date": "2026-11-04T15:30:33.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "One of Nintendo's Switch and Switch 2 cartridge manufacturers is exiting the business, which could make physical games more expensive",
+        "url": "https://www.eurogamer.net/nintendo-switch-2-cartridge-macronix-ending-rom-manufacturing",
+        "date": "2026-11-04T13:34:57.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Review: Zero Parades: Director's Cut (Switch 2) - ZA/UM Returns With Another Atmospheric, Cerebral Yet Overly Familiar RPG",
+        "url": "https://www.nintendolife.com/reviews/nintendo-switch-2/zero-parades-directors-cut",
+        "date": "2026-11-03T17:00:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Nintendo Could Have A New Cartridge Problem On Its Hands",
+        "url": "https://www.gamespot.com/articles/nintendo-could-have-a-new-cartridge-problem-on-its-hands/",
+        "date": "2026-11-04T15:04:06.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "logan plant from ign x27 s review",
+      "value": "- Logan Plant\n\nFrom IGN&#x27;s Review:",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "World’s tight controls, celebratory soundtrack, and universal polish marvelously complement the action, and I can’t wait to see how top players will take full advantage of its exciting parkour mechanics in the months and years ahead.\" - Logan Plant\n\nFrom IGN&#x27;s Review: \"Pokemon Legends: Z-A finally feels like Game Freak hitting its stride in Pokemon’s 3D era.",
+      "urls": [
+        "https://www.ign.com/articles/best-reviewed-nintendo-switch-2-games"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:337000000",
+      "value": "$337 million",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "During the presentation, Macronix CEO Miin Wu revealed that the company had enjoyed a “record-high” net profit of roughly $337 million for its Q3 2026 period.",
+      "urls": [
+        "https://kotaku.com/nintendo-switch-cart-rom-physical-media-data-centers-manufacture-2000753293"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [
+    {
+      "game": "Nintendo Switch 2",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

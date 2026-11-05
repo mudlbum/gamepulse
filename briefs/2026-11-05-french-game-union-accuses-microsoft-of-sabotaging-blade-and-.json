@@ -1,0 +1,296 @@
+{
+  "generated": "2026-11-05T02:57:46.779Z",
+  "workingTitle": "French game union accuses Microsoft of 'sabotaging' Blade and then using the fallout to justify closing Arkane",
+  "heat": 56,
+  "outletCount": 6,
+  "outlets": [
+    "PC Gamer",
+    "Eurogamer",
+    "Destructoid",
+    "Rock Paper Shotgun",
+    "Game Developer",
+    "Pure Xbox"
+  ],
+  "newest": "2026-11-04T20:51:28.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "French game union accuses Microsoft of 'sabotaging' Blade and then using the fallout to justify closing Arkane",
+        "url": "https://www.pcgamer.com/gaming-industry/french-game-union-accuses-microsoft-of-sabotaging-blade-and-then-using-the-fallout-to-justify-closing-arkane/",
+        "date": "2026-11-04T20:51:28.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Arkane union says closing the studio \"would probably be more expensive\" for Xbox than simply finishing Marvel's Blade",
+        "url": "https://www.eurogamer.net/arkane-union-xbox-more-expensive-marvels-blade",
+        "date": "2026-11-04T20:33:10.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Arkane devs say Microsoft is ‘sabotaging’ Marvel’s Blade as the studio is ‘profitable, just not profitable enough’",
+        "url": "https://www.destructoid.com/arkane-devs-microsoft-sabotaging-blade-not-profitable-enough/",
+        "date": "2026-11-04T18:45:34.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "\"Arkane is profitable,\" say Marvel's Blade developers in fiery new statement, \"just not profitable enough for Microsoft\"",
+        "url": "https://www.rockpapershotgun.com/arkane-is-profitable-say-marvels-blade-developers-in-fiery-new-statement-just-not-profitable-enough-for-microsoft",
+        "date": "2026-11-04T18:02:20.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Ubisoft among the bidders for Arkane as Xbox looks to sell the studio",
+        "url": "https://www.gamedeveloper.com/business/ubisoft-among-the-bidders-for-arkane-as-xbox-looks-to-sell-the-studio",
+        "date": "2026-11-04T17:37:00.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Report: Xbox Has Had Multiple Offers For Arkane Studios, Marvel's Blade Close To Completion",
+        "url": "https://www.purexbox.com/news/2026/11/report-xbox-has-had-multiple-offers-for-arkane-studios-marvels-blade-close-to-completion",
+        "date": "2026-11-03T23:01:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "workers have to face the harsh reality our studio might get closed because and only because microsoft decided to even if that means sabotaging the game it funded",
+      "value": "workers have to face the harsh reality: our studio might get closed because, and only because, Microsoft decided to, even if that means sabotaging the game it funded.",
+      "outlets": [
+        "PC Gamer",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Despite that, \"workers have to face the harsh reality: our studio might get closed because, and only because, Microsoft decided to, even if that means sabotaging the game it funded.\"\n\n\"Microsoft chose to justify the closure on economic reasons,\" the union wrote.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/french-game-union-accuses-microsoft-of-sabotaging-blade-and-then-using-the-fallout-to-justify-closing-arkane/",
+        "https://www.eurogamer.net/arkane-union-xbox-more-expensive-marvels-blade"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "even this closure itself is done against any financial logic as closing arkane today would probably be more expensive than finishing the game",
+      "value": "Even this closure itself is done against any financial logic, as closing Arkane today would probably be more expensive than finishing the game,",
+      "outlets": [
+        "Eurogamer",
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"Even this closure itself is done against any financial logic, as closing Arkane today would probably be more expensive than finishing the game,\" it continued.",
+      "urls": [
+        "https://www.eurogamer.net/arkane-union-xbox-more-expensive-marvels-blade",
+        "https://www.rockpapershotgun.com/arkane-is-profitable-say-marvels-blade-developers-in-fiery-new-statement-just-not-profitable-enough-for-microsoft"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "so microsoft has to take full responsibility here and act accordingly",
+      "value": "So Microsoft has to take full responsibility here and act accordingly.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"So Microsoft has to take full responsibility here and act accordingly.\"\n\nWhile its \"dearest wish\" is to see Arkane \"live on,\" STJV said the studio's future has to go beyond just completing Blade.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/french-game-union-accuses-microsoft-of-sabotaging-blade-and-then-using-the-fallout-to-justify-closing-arkane/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the company who decided that arkane has to shut down",
+      "value": "the company who decided that Arkane has to shut down",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And if that's not feasible and Arkane must close, it falls to Microsoft—\"the company who decided that Arkane has to shut down\"—to take care of the hundreds of lives it has thrown into turmoil.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/french-game-union-accuses-microsoft-of-sabotaging-blade-and-then-using-the-fallout-to-justify-closing-arkane/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we will not allow the lives of arkane studios workers to be destroyed without the company paying a fair price",
+      "value": "We will not allow the lives of Arkane Studios' workers to be destroyed without the company paying a fair price.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Given Microsoft's essentially limitless resources, the union believes the company has a moral obligation to go beyond the bare minimum required by law: \"We will not allow the lives of Arkane Studios' workers to be destroyed without the company paying a fair price.\"\n\nThe union is not aiming low with its demands.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/french-game-union-accuses-microsoft-of-sabotaging-blade-and-then-using-the-fallout-to-justify-closing-arkane/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "microsoft now use those same delay and additional costs as a reason to close the studio",
+      "value": "Microsoft now use those same delay and additional costs as a reason to close the studio,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Microsoft now use those same delay and additional costs as a reason to close the studio,\" the statement said.",
+      "urls": [
+        "https://www.eurogamer.net/arkane-union-xbox-more-expensive-marvels-blade"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "microsoft chose to justify the closure on economic reasons",
+      "value": "Microsoft chose to justify the closure on economic reasons,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Microsoft chose to justify the closure on economic reasons,\" the workers write.",
+      "urls": [
+        "https://www.rockpapershotgun.com/arkane-is-profitable-say-marvels-blade-developers-in-fiery-new-statement-just-not-profitable-enough-for-microsoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but microsoft is actually why those economic reasons even exist",
+      "value": "But Microsoft is actually why those economic reasons even exist.",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"But Microsoft is actually why those economic reasons even exist.\" It asserts that Microsoft froze hiring \"for 19 months, which artificially caused delay and additional cost\", only to then use those delays and extra costs \"as a reason to close down the studio\".",
+      "urls": [
+        "https://www.rockpapershotgun.com/arkane-is-profitable-say-marvels-blade-developers-in-fiery-new-statement-just-not-profitable-enough-for-microsoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the truth is that microsoft based its decision only on stone cold and inhuman logic in which our lives projects and dreams are voided so we can better serve microsoft s short term financial goals",
+      "value": "The truth is that Microsoft based its decision only on stone cold and inhuman logic, in which our lives, projects and dreams are voided, so we can better serve Microsoft's short term financial goals,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The truth is that Microsoft based its decision only on stone cold and inhuman logic, in which our lives, projects and dreams are voided, so we can better serve Microsoft's short term financial goals,\" the workers continue.",
+      "urls": [
+        "https://www.rockpapershotgun.com/arkane-is-profitable-say-marvels-blade-developers-in-fiery-new-statement-just-not-profitable-enough-for-microsoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the brutal application of a never ending search for maximum profit optimization",
+      "value": "the brutal application of a never-ending search for maximum profit optimization",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They accuse Microsoft of \"the brutal application of a never-ending search for maximum profit optimization\", citing years of mass layoffs across the Xbox company together with the recent voluntary buyout offering.",
+      "urls": [
+        "https://www.rockpapershotgun.com/arkane-is-profitable-say-marvels-blade-developers-in-fiery-new-statement-just-not-profitable-enough-for-microsoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "shared resources for training and studio creation",
+      "value": "shared resources for training and studio creation",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They'd like a redundancy payment of &euro;200,000, two years of \"redeployment support\", a package of \"shared resources for training and studio creation\", including a residual bonus, and \"compensation up to the redundancy payment for independent workers' contract breach\", to safeguard the livelihoods of freelancers and contractors.",
+      "urls": [
+        "https://www.rockpapershotgun.com/arkane-is-profitable-say-marvels-blade-developers-in-fiery-new-statement-just-not-profitable-enough-for-microsoft"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "not yet come to an agreement with any potential buyer",
+      "value": "not yet come to an agreement with any potential buyer",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The outlet's sources say Ubisoft and at least two other companies have provided bids, but Xbox has \"not yet come to an agreement with any potential buyer\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/report-xbox-has-had-multiple-offers-for-arkane-studios-marvels-blade-close-to-completion"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "weighed selling the studio to its management",
+      "value": "weighed selling the studio to its management",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's also said that Xbox has \"weighed selling the studio to its management\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/report-xbox-has-had-multiple-offers-for-arkane-studios-marvels-blade-close-to-completion"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a spokesperson for xbox said the company is exploring options ahead of a december deadline and declined to comment further",
+      "value": "A spokesperson for Xbox said the company is exploring options ahead of a December deadline and declined to comment further.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "An Xbox spokesperson simply provided Bloomberg with the following:\n\n\"A spokesperson for Xbox said the company is exploring options ahead of a December deadline and declined to comment further.\"\n\nAccording to the outlet, Arkane's Marvel's Blade project is expected to be released within the next year or two, but obviously could be in severe jeopardy if the studio ends up getting closed down.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/report-xbox-has-had-multiple-offers-for-arkane-studios-marvels-blade-close-to-completion"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:570",
+      "value": "$569.99,",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Xbox's New 25 Years Bundle Retails For $569.99, And Here's The Full List Of Games\n\nXbox CEO Reacts To Latest Revenue Figures With Official Statement\n\nXbox Adds 10 New Features In October 28th Update, Now Available To Download\n\nIncluding Mythic Achievements and multiple startup animations!",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/report-xbox-has-had-multiple-offers-for-arkane-studios-marvels-blade-close-to-completion"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 15,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "13 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

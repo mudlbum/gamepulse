@@ -1,0 +1,120 @@
+{
+  "generated": "2026-11-05T02:57:46.919Z",
+  "workingTitle": "WoW: Forever’s Launch Is Going Surprisingly Smooth",
+  "heat": 52.5,
+  "outletCount": 5,
+  "outlets": [
+    "GameSpot",
+    "IGN",
+    "PC Gamer",
+    "PCGamesN",
+    "Eurogamer"
+  ],
+  "newest": "2026-11-05T00:45:40.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "World of Warcraft Forever Launch Live Blog: It's Looking Like a Smooth Blizzard Launch",
+        "url": "https://www.ign.com/articles/world-of-warcraft-forever-launch-live-blog",
+        "date": "2026-11-05T00:37:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "World of Warcraft: Forever Review So Far - Beta Impressions",
+        "url": "https://www.ign.com/articles/world-of-warcraft-forever-review",
+        "date": "2026-11-04T23:20:20.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "WoW: Forever's massive pre-launch balance patch breaks from the chains Classic power, increasing 'the health of higher level creatures to compensate'",
+        "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-massive-pre-launch-balance-patch-breaks-from-the-chains-classic-power-increasing-the-health-of-higher-level-creatures-to-compensate/",
+        "date": "2026-11-04T11:45:45.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "The WoW Forever launch update tweaks controller support and about 100 other things",
+        "url": "https://www.pcgamesn.com/world-of-warcraft/launch-update-controller-support",
+        "date": "2026-11-03T11:18:30.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "One World of Warcraft: Forever player is working on a first-person mod that's a love letter to retro RPGs like Hexen and Morrowind",
+        "url": "https://www.eurogamer.net/world-of-warcraft-forever-first-person-mod-rpg",
+        "date": "2026-11-02T15:21:24.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "WoW: Forever’s Launch Is Going Surprisingly Smooth",
+        "url": "https://www.gamespot.com/articles/wow-forevers-launch-is-going-surprisingly-smooth/",
+        "date": "2026-11-05T00:45:40.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "alright kids see you in a couple months or years depending on how good forever is",
+      "value": "alright kids see you in a couple months or years depending on how good Forever is",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And, of course, the first thing I see is someone in trade chat saying \"alright kids see you in a couple months or years depending on how good Forever is\"\n\nA legendary stream deserves a new Legendary Weapon 💥 Introducing Taldramir, the Whispering Wood, forged in partnership with @WetaWorkshop 🔨 https://t.co/D3orhPhcM0\n\n5:15 pm: We&#x27;re 45 minutes out, but people already seem excited to get in.",
+      "urls": [
+        "https://www.ign.com/articles/world-of-warcraft-forever-launch-live-blog"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:80",
+      "value": "80% increase",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Warriors' defensive stance has spiked from a 30% to an 80% increase and Druid's bear form has been bumped from 50% to 115%, with similar threat generation buffs for Paladins.",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/wow-forevers-massive-pre-launch-balance-patch-breaks-from-the-chains-classic-power-increasing-the-health-of-higher-level-creatures-to-compensate/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "clever combination of addons that already exist",
+      "value": "clever combination of addons that already exist",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Retro Forever - which is described as a \"clever combination of addons that already exist\" - includes a custom user interface, as well as animations attached to specific spells and abilities.",
+      "urls": [
+        "https://www.eurogamer.net/world-of-warcraft-forever-first-person-mod-rpg"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 3,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

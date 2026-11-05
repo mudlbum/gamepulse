@@ -1,0 +1,167 @@
+{
+  "generated": "2026-11-05T02:57:45.657Z",
+  "workingTitle": "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well",
+  "heat": 108.5,
+  "outletCount": 10,
+  "outlets": [
+    "PC Gamer",
+    "Kotaku",
+    "Polygon",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "GameSpot",
+    "Pure Xbox",
+    "IGN",
+    "Nintendo Life",
+    "Push Square"
+  ],
+  "newest": "2026-11-05T00:18:02.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well",
+        "url": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-is-reportedly-more-than-two-years-away-and-some-fans-are-not-coping-well/",
+        "date": "2026-11-05T00:18:02.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Lore-Obsessed Fans Think The Elder Scrolls 6: Sentinel Is Connected To Skyrim",
+        "url": "https://kotaku.com/lore-obssessed-fans-think-the-elder-scrolls-6-sentinel-is-connected-to-skyrim-2000753341",
+        "date": "2026-11-04T19:00:22.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "5 Elder Scrolls 6 Fan Theories That Should Actually Happen In Sentinel",
+        "url": "https://www.polygon.com/elder-scrolls-6-sentinel-best-theories/",
+        "date": "2026-11-04T18:04:11.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Oblivion and Skyrim’s gap was bridged by forward-looking books about a murderous floating island, so why is The Elder Scrolls 6 stuck reanimating a world…",
+        "url": "https://www.rockpapershotgun.com/oblivion-and-skyrims-gap-was-bridged-by-forward-looking-books-about-a-murderous-floating-island-so-why-is-the-elder-scrolls-6-stuck-reanimating-a-world-thats-stood-still-since-2011",
+        "date": "2026-11-04T17:30:00.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "The Elder Scrolls 6: Sentinel fans ponder split timelines, alternative histories, and more as story speculation runs wild following latest teaser",
+        "url": "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation",
+        "date": "2026-11-04T16:00:00.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "The Elder Scrolls 6: Sentinel Is Still 2+ Years Away From Release – Report",
+        "url": "https://www.gamespot.com/articles/the-elder-scrolls-6-sentinel-is-still-2-years-away-from-release-report/",
+        "date": "2026-11-04T15:36:05.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2027-11-11",
+      "value": "November 11, 2027",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I think the best of the bunch, though, is this one from Any-West7160, who believes the Sentinel title reveal contains the actual release date: November 11, 2027.",
+      "urls": [
+        "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-is-reportedly-more-than-two-years-away-and-some-fans-are-not-coping-well/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the scroll offered only a shimmer a veil thinly lifted to my eyes",
+      "value": "The scroll offered only a shimmer, a veil thinly lifted to my eyes,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The scroll offered only a shimmer, a veil thinly lifted to my eyes,\" it reads.",
+      "urls": [
+        "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "likely takes place five or more years after the start of skyrim",
+      "value": "likely takes place five or more years after the start of Skyrim,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\" likely takes place five or more years after the start of Skyrim,\" hypothesised Reddit user 04nc1n9.",
+      "urls": [
+        "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it s likely the thalmor being the antagonists with so little time having passed",
+      "value": "[It's] likely the Thalmor being the antagonists with so little time having passed,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"[It's] likely the Thalmor being the antagonists with so little time having passed,\" wrote user Jonesketi, \"and with justifiable knowledge of how to cause great harm with the Elder Scrolls, would've prompted to begin their own preparations.",
+      "urls": [
+        "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "with how important time is to skyrim s story",
+      "value": "With how important time is to Skyrim's story,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"With how important time is to Skyrim's story,\" they speculated, \"it wouldn't surprise me if this story is about time being entirely broken.\"\n\n\"See, I'm thinking it has to do with the creation of Nirn and Lorkhan,\" wrote Potential Film 7140.",
+      "urls": [
+        "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "maybe the empire originally held together after oblivion and the thalmor used some cheater elder scroll magic to rewrite history so that they dunked on the empire",
+      "value": "Maybe the Empire originally held together after Oblivion, and the Thalmor used some cheater Elder Scroll magic to rewrite history so that they dunked on the Empire,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Maybe the Empire originally held together after Oblivion, and the Thalmor used some cheater Elder Scroll magic to rewrite history so that they dunked on the Empire,\" suggested Original League 6094.",
+      "urls": [
+        "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
