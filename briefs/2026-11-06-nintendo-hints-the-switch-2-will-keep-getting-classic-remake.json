@@ -1,0 +1,367 @@
+{
+  "generated": "2026-11-06T02:57:47.327Z",
+  "workingTitle": "Nintendo Hints the Switch 2 Will Keep Getting Classic Remakes",
+  "heat": 60.9,
+  "outletCount": 6,
+  "outlets": [
+    "Polygon",
+    "GameSpot",
+    "Nintendo Life",
+    "Eurogamer",
+    "PC Gamer",
+    "IGN"
+  ],
+  "newest": "2026-11-05T22:00:18.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Nintendo Hints the Switch 2 Will Keep Getting Classic Remakes",
+        "url": "https://www.polygon.com/nintendo-nate-bihldorff-ocarina-of-time-interview/",
+        "date": "2026-11-05T22:00:18.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Nintendo Is Currently Not Considering More Switch 2 Price Changes",
+        "url": "https://www.nintendolife.com/news/2026/11/nintendo-is-currently-not-considering-more-switch-2-price-changes",
+        "date": "2026-11-05T17:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Nintendo says it isn't planning any more Switch 2 price hikes",
+        "url": "https://www.eurogamer.net/nintendo-switch-2-no-plans-for-more-price-hikes",
+        "date": "2026-11-05T14:59:30.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Nintendo game sales surge thanks to Tomodachi Life: Living the Dream, but Switch 2 hardware suffers big decline",
+        "url": "https://www.eurogamer.net/nintendo-switch-2-hardware-decline-software-boom",
+        "date": "2026-11-05T11:56:40.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Switch 2 sales dropped 37% this summer, mostly before the price hike hit; Nintendo now expects sales to slump 16.9% in console's second year",
+        "url": "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/",
+        "date": "2026-11-05T11:53:38.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Switch 2 Won’t Get Another Price Hike, At Least Not Soon, Nintendo Says",
+        "url": "https://www.gamespot.com/articles/switch-2-wont-get-another-price-hike-at-least-not-soon-nintendo-says/",
+        "date": "2026-11-05T18:08:03.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$50",
+      "outlets": [
+        "Nintendo Life",
+        "Eurogamer",
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "The Switch 2's price rose by $50 in the US and a mere £24 in the UK.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/nintendo-is-currently-not-considering-more-switch-2-price-changes",
+        "https://www.eurogamer.net/nintendo-switch-2-no-plans-for-more-price-hikes",
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "percent",
+      "key": "p:?:37",
+      "value": "37% year-on-year",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This comes via Reuters after Nintendo released its latest financial data, during which it was reported that sales for the Switch 2 dropped over 37% year-on-year, with operating profit sliding 16%.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/nintendo-is-currently-not-considering-more-switch-2-price-changes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the company which unveiled a price increase earlier in the year is not considering additional changes furukawa said",
+      "value": "The company, which unveiled a price increase earlier in the year, is not considering additional changes, Furukawa said.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The company, which unveiled a price increase earlier in the year, is not considering additional changes, Furukawa said.\"\n\nThe word \"currently\" does not appear in the linked article.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/nintendo-is-currently-not-considering-more-switch-2-price-changes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but can we ever really trust it",
+      "value": "But can we ever really trust it?",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Given the volatility of many things in this moment, I think it was just intended to give that sort of \"But can we ever really trust it?\" knowing glance.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/nintendo-is-currently-not-considering-more-switch-2-price-changes"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:20000000:units",
+      "value": "20 million units",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "After the world record first year sales of 20 million units, no surprise to see a reduction in year two.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/nintendo-is-currently-not-considering-more-switch-2-price-changes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "continued weakness of the yen",
+      "value": "continued weakness of the Yen",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The increase in software unit sales and the \"continued weakness of the Yen\" couldn't prevent the overall business from declining by 15.3 percent year-on-year, however.",
+      "urls": [
+        "https://www.eurogamer.net/nintendo-switch-2-hardware-decline-software-boom"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-04-01",
+      "value": "April 1, 2026",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Nintendo has reported its sales figures from April 1, 2026 until September 30, 2026.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-09-30",
+      "value": "September 30, 2026",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Nintendo has reported its sales figures from April 1, 2026 until September 30, 2026.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:6490000:units",
+      "value": "6.49 million units",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Switch 2 sold 6.49 million units: a 3.87 million unit reduction compared to the 10.36 million in the same period last year.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:1270000:units",
+      "value": "1.27 million units",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Switch sold just 1.27 million units during the same period, down 32.7%, but that's not a huge surprise for the outgoing handheld.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:down:32.7",
+      "value": "down 32.7%",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Switch sold just 1.27 million units during the same period, down 32.7%, but that's not a huge surprise for the outgoing handheld.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:19800000:units",
+      "value": "19.8 million units",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Switch 2 sold incredibly well in its first year; 19.8 million units sold.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:17700000:units",
+      "value": "17.7 million units",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It launched just before the end of Nintendo's weird financial years but reached around 17.7 million units sold by the end of its first full year.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-09-01",
+      "value": "September 1, 2026",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It first announced the price increase in May, 2026; however, it didn't implement it until September 1, 2026 in most of the affected regions (US, Canada, Europe).",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:500",
+      "value": "$500",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The company asks $500 for the console, an increase of $50 over its original launch price.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "changes in market conditions",
+      "value": "changes in market conditions",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It blamed \"changes in market conditions\" at the time, which is common parlance for 'memory prices are ruining everything.'\n\nThe PC Gamer Circuit Breaker newsletter breaks down the latest PC gaming tech, and finds you the best deals on the best products\n\nThe most recent reporting period ended on September 30.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-03-31",
+      "value": "March 31, 2027",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "So we don't quite know what impact that $50 price hike will have on the success of the handheld from these figures alone; however, Nintendo has reevaluated its forecast up until March 31, 2027 at just 16.5 million Switch 2 units sold; down from 19.86 million in the previous 12-month period.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "although unit sales of nintendo switch 2 hardware declined compared to the same period of last fiscal year many consumers continued to adopt the system spurred on by factors like the release of new titles",
+      "value": "Although unit sales of Nintendo Switch 2 hardware declined compared to the same period of last fiscal year, many consumers continued to adopt the system, spurred on by factors like the release of new titles,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Although unit sales of Nintendo Switch 2 hardware declined compared to the same period of last fiscal year, many consumers continued to adopt the system, spurred on by factors like the release of new titles,\" Nintendo says.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:18.8",
+      "value": "Up 18.8%",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Up 18.8%, from 20.62 million to 24.49 million.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:6.8",
+      "value": "Up 6.8%",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Up 6.8%, from 61.56 million to 65.73 million.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/handheld-gaming-pcs/switch-2-sales-dropped-37-percent-this-summer-mostly-before-the-price-hike-hit-nintendo-now-expects-sales-to-slump-16-9-percent-in-consoles-second-year/"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 20,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "19 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

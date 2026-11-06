@@ -1,0 +1,248 @@
+{
+  "generated": "2026-11-06T02:57:47.654Z",
+  "workingTitle": "Bethesda Is Already Selling The Elder Scrolls 6: Sentinel Merch",
+  "heat": 58.6,
+  "outletCount": 6,
+  "outlets": [
+    "IGN",
+    "PC Gamer",
+    "Push Square",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "Pure Xbox"
+  ],
+  "newest": "2026-11-05T20:00:09.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Bethesda Is Already Selling The Elder Scrolls 6: Sentinel Merch",
+        "url": "https://www.ign.com/articles/bethesda-is-already-selling-the-elder-scrolls-6-sentinel-merch",
+        "date": "2026-11-05T20:00:09.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "I’m Excited For Elder Scrolls 6: Sentinel To Be Nothing Like Skyrim",
+        "url": "https://www.ign.com/articles/im-excited-for-elder-scrolls-6-sentinel-to-be-nothing-like-skyrim",
+        "date": "2026-11-05T15:30:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well",
+        "url": "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-is-reportedly-more-than-two-years-away-and-some-fans-are-not-coping-well/",
+        "date": "2026-11-05T00:18:02.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Bethesda Will Sell You Elder Scrolls 6: Sentinel T-Shirts and Hoodies, Even Though It Hasn't Shown the Game",
+        "url": "https://www.pushsquare.com/news/2026/11/bethesda-will-sell-you-elder-scrolls-6-sentinel-t-shirts-and-hoodies-even-though-it-hasnt-shown-the-game",
+        "date": "2026-11-05T00:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Oblivion and Skyrim’s gap was bridged by forward-looking books about a murderous floating island, so why is The Elder Scrolls 6 stuck reanimating a world…",
+        "url": "https://www.rockpapershotgun.com/oblivion-and-skyrims-gap-was-bridged-by-forward-looking-books-about-a-murderous-floating-island-so-why-is-the-elder-scrolls-6-stuck-reanimating-a-world-thats-stood-still-since-2011",
+        "date": "2026-11-04T17:30:00.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "The Elder Scrolls 6: Sentinel fans ponder split timelines, alternative histories, and more as story speculation runs wild following latest teaser",
+        "url": "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation",
+        "date": "2026-11-04T16:00:00.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:65",
+      "value": "$64.99,",
+      "outlets": [
+        "IGN",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "The Elder Scrolls VI: Sentinel hoodie is $64.99, while the identical item in T-shirt form is $34.99.",
+      "urls": [
+        "https://www.ign.com/articles/bethesda-is-already-selling-the-elder-scrolls-6-sentinel-merch",
+        "https://www.pushsquare.com/news/2026/11/bethesda-will-sell-you-elder-scrolls-6-sentinel-t-shirts-and-hoodies-even-though-it-hasnt-shown-the-game"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:35",
+      "value": "$34.99.",
+      "outlets": [
+        "IGN",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "The Elder Scrolls VI: Sentinel hoodie is $64.99, while the identical item in T-shirt form is $34.99.",
+      "urls": [
+        "https://www.ign.com/articles/bethesda-is-already-selling-the-elder-scrolls-6-sentinel-merch",
+        "https://www.pushsquare.com/news/2026/11/bethesda-will-sell-you-elder-scrolls-6-sentinel-t-shirts-and-hoodies-even-though-it-hasnt-shown-the-game"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "a": {
+        "value": "$64.99,",
+        "outlets": [
+          "IGN",
+          "Push Square"
+        ],
+        "url": "https://www.ign.com/articles/bethesda-is-already-selling-the-elder-scrolls-6-sentinel-merch"
+      },
+      "b": {
+        "value": "$34.99.",
+        "outlets": [
+          "IGN",
+          "Push Square"
+        ],
+        "url": "https://www.ign.com/articles/bethesda-is-already-selling-the-elder-scrolls-6-sentinel-merch"
+      },
+      "sharedContext": "The Elder Scrolls VI: Sentinel hoodie is $64.99, while the identical item in T-shirt form is $34.99.",
+      "instruction": "Sources disagree. Verify against the primary source, or state the discrepancy in the article. Do NOT silently pick one."
+    }
+  ],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "and if you x27 re interesteed in ordering note the disclaimer",
+      "value": "And if you&#x27;re interesteed in ordering, note the disclaimer:",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Show off your excitement with the official hoodie!\" And if you&#x27;re interesteed in ordering, note the disclaimer: \"This hoodie runs small.",
+      "urls": [
+        "https://www.ign.com/articles/bethesda-is-already-selling-the-elder-scrolls-6-sentinel-merch"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2027-11-11",
+      "value": "November 11, 2027",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I think the best of the bunch, though, is this one from Any-West7160, who believes the Sentinel title reveal contains the actual release date: November 11, 2027.",
+      "urls": [
+        "https://www.pcgamer.com/games/the-elder-scrolls/the-elder-scrolls-6-is-reportedly-more-than-two-years-away-and-some-fans-are-not-coping-well/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it s literally just a t shirt with the logo on it you re basically just a walking advertisement if you wear it",
+      "value": "it's literally just a t-shirt with the logo on it — you're basically just a walking advertisement if you wear it.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Rich33 Well, something like that would certainly be on brand for them 😅\n\n\"it's literally just a t-shirt with the logo on it — you're basically just a walking advertisement if you wear it.\"\n\nThat's kinda like a lot of apparel - e.g.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/bethesda-will-sell-you-elder-scrolls-6-sentinel-t-shirts-and-hoodies-even-though-it-hasnt-shown-the-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the scroll offered only a shimmer a veil thinly lifted to my eyes",
+      "value": "The scroll offered only a shimmer, a veil thinly lifted to my eyes,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The scroll offered only a shimmer, a veil thinly lifted to my eyes,\" it reads.",
+      "urls": [
+        "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "likely takes place five or more years after the start of skyrim",
+      "value": "likely takes place five or more years after the start of Skyrim,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\" likely takes place five or more years after the start of Skyrim,\" hypothesised Reddit user 04nc1n9.",
+      "urls": [
+        "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it s likely the thalmor being the antagonists with so little time having passed",
+      "value": "[It's] likely the Thalmor being the antagonists with so little time having passed,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"[It's] likely the Thalmor being the antagonists with so little time having passed,\" wrote user Jonesketi, \"and with justifiable knowledge of how to cause great harm with the Elder Scrolls, would've prompted to begin their own preparations.",
+      "urls": [
+        "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "with how important time is to skyrim s story",
+      "value": "With how important time is to Skyrim's story,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"With how important time is to Skyrim's story,\" they speculated, \"it wouldn't surprise me if this story is about time being entirely broken.\"\n\n\"See, I'm thinking it has to do with the creation of Nirn and Lorkhan,\" wrote Potential Film 7140.",
+      "urls": [
+        "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "maybe the empire originally held together after oblivion and the thalmor used some cheater elder scroll magic to rewrite history so that they dunked on the empire",
+      "value": "Maybe the Empire originally held together after Oblivion, and the Thalmor used some cheater Elder Scroll magic to rewrite history so that they dunked on the Empire,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Maybe the Empire originally held together after Oblivion, and the Thalmor used some cheater Elder Scroll magic to rewrite history so that they dunked on the Empire,\" suggested Original League 6094.",
+      "urls": [
+        "https://www.eurogamer.net/the-elder-scrolls-6-sentinel-story-speculation"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 10,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "1 numeric conflict(s) detected. Each must be resolved against the primary source or explicitly reported as a discrepancy. Never average them, never pick silently.",
+    "8 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

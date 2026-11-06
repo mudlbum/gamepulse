@@ -1,0 +1,149 @@
+{
+  "generated": "2026-11-06T02:57:47.013Z",
+  "workingTitle": "We Analyzed Every Official GTA 6 Screenshot Continued",
+  "heat": 61.8,
+  "outletCount": 6,
+  "outlets": [
+    "GameSpot",
+    "Destructoid",
+    "Kotaku",
+    "PC Gamer",
+    "Pure Xbox",
+    "IGN"
+  ],
+  "newest": "2026-11-05T23:07:32.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "GTA 6 is making over a real-life Miami nightclub into its Vice City counterpart for a whole month",
+        "url": "https://www.destructoid.com/gta-6-taking-real-life-miami-nightclub-whole-month/",
+        "date": "2026-11-05T15:18:15.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The CEO In Charge Of GTA 6 Is Very Confused When Asked Why He Doesn’t Have More Hits",
+        "url": "https://kotaku.com/the-ceo-in-charge-of-gta-6-is-very-confused-when-asked-why-he-doesnt-have-more-hits-2000754149",
+        "date": "2026-11-05T15:00:54.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Take-Two boss Strauss Zelnick isn't too concerned about piracy ahead of GTA 6 even if he is 'worried about everything all the time'",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/take-two-boss-strauss-zelnick-isnt-too-concerned-about-piracy-ahead-of-gta-6-even-if-he-is-worried-about-everything-all-the-time/",
+        "date": "2026-11-05T14:25:42.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "FSR 4.1.2 now on Xbox and Xbox handhelds, just in time for a certain big GTA 6-shaped game",
+        "url": "https://www.pcgamer.com/hardware/fsr-4-1-2-now-on-xbox-and-xbox-handhelds-just-in-time-for-a-certain-big-gta-6-shaped-game/",
+        "date": "2026-11-05T12:12:38.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "We Analyzed Every Official GTA 6 Screenshot Continued",
+        "url": "https://www.gamespot.com/videos/we-analyzed-every-official-gta-6-screenshot-continued/",
+        "date": "2026-11-05T23:07:32.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6: Lots Of New Images Have Been Released",
+        "url": "https://www.gamespot.com/articles/gta-6-lots-of-new-images-have-been-released/",
+        "date": "2026-11-05T15:55:32.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This was both good for those who wanted to see more of the game before forking over $100 for its ultimate edition, and bad for the players who wanted an unsullied first look at GTA 6.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/take-two-boss-strauss-zelnick-isnt-too-concerned-about-piracy-ahead-of-gta-6-even-if-he-is-worried-about-everything-all-the-time/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "because of the file sizes and the complexity piracy is less of an issue in interactive entertainment but it s not been a non issue",
+      "value": "Because of the file sizes and the complexity, piracy is less of an issue in interactive entertainment, but it's not been a non-issue,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Because of the file sizes and the complexity, piracy is less of an issue in interactive entertainment, but it's not been a non-issue,\" Zelnick says.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/take-two-boss-strauss-zelnick-isnt-too-concerned-about-piracy-ahead-of-gta-6-even-if-he-is-worried-about-everything-all-the-time/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "and in the event where it turns into an issue we address it in the same way every other business does which is with legal work and then with technical work and we ll have to do both",
+      "value": "And in the event where it turns into an issue we address it in the same way every other business does, which is with legal work and then with technical work, and we'll have to do both.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"And in the event where it turns into an issue we address it in the same way every other business does, which is with legal work and then with technical work, and we'll have to do both.\" And it's done exactly that.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/take-two-boss-strauss-zelnick-isnt-too-concerned-about-piracy-ahead-of-gta-6-even-if-he-is-worried-about-everything-all-the-time/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i think it s fair to say that piracy is going to be an issue in our business going forward we re just going to have to be vigilant about it",
+      "value": "I think it's fair to say that piracy is going to be an issue in our business going forward—we're just going to have to be vigilant about it,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I think it's fair to say that piracy is going to be an issue in our business going forward—we're just going to have to be vigilant about it,\" Zelnick adds.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/take-two-boss-strauss-zelnick-isnt-too-concerned-about-piracy-ahead-of-gta-6-even-if-he-is-worried-about-everything-all-the-time/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it upgrades directx 12 games with fsr 3 1 or newer and rog xbox ally support follows in a later update",
+      "value": "it upgrades DirectX 12 games with FSR 3.1 or newer, and ROG Xbox Ally support follows in a later update.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "AMD says \"it upgrades DirectX 12 games with FSR 3.1 or newer, and ROG Xbox Ally support follows in a later update.\"\n\nHow developers choose to integrate FSR 4.1.2 on Xbox Series X and S will be on a case-by-case basis, but the Lite model being solid certainly suggests good things for future optimisations.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/fsr-4-1-2-now-on-xbox-and-xbox-handhelds-just-in-time-for-a-certain-big-gta-6-shaped-game/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

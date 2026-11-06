@@ -1,0 +1,108 @@
+{
+  "generated": "2026-11-06T02:57:46.878Z",
+  "workingTitle": "One Of The Coolest New Features In The Ocarina Of Time Remake Is Equal Parts Impressive And Hysterical",
+  "heat": 96,
+  "outletCount": 8,
+  "outlets": [
+    "Kotaku",
+    "Polygon",
+    "Destructoid",
+    "GameSpot",
+    "Nintendo Life",
+    "IGN",
+    "Eurogamer",
+    "Nintendo"
+  ],
+  "newest": "2026-11-05T22:30:17.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "One Of The Coolest New Features In The Ocarina Of Time Remake Is Equal Parts Impressive And Hysterical",
+        "url": "https://kotaku.com/legend-zelda-ocarina-of-time-microphone-songs-instruments-2000754324",
+        "date": "2026-11-05T22:30:17.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "How to find Richard the dog in Ocarina of Time",
+        "url": "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-richard-dog-location-how-to-find/",
+        "date": "2026-11-05T22:10:14.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Zelda Fans Are Being Personally Victimized By Ocarina Of Time Remake’s Jump Button",
+        "url": "https://kotaku.com/legend-zelda-ocarina-of-time-remake-switch-2-jump-button-2000754255",
+        "date": "2026-11-05T21:30:21.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Zelda Ocarina of Time guides and walkthroughs",
+        "url": "https://www.polygon.com/zelda-ocarina-of-time-oot-guides-walkthroughs/",
+        "date": "2026-11-05T21:11:43.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Ocarina Of Time Makes One Of Link’s Strongest Attacks Harder To Use, But There’s An Easy Fix",
+        "url": "https://kotaku.com/ocarina-of-time-makes-one-of-links-strongest-attacks-harder-to-use-but-theres-an-easy-fix-2000754246",
+        "date": "2026-11-05T21:00:07.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The Legend Of Zelda: Ocarina Of Time’s First Few Hours Are Stuffed With Overwhelming Extravagance",
+        "url": "https://kotaku.com/the-legend-of-zelda-ocarina-of-times-first-few-hours-are-stuffed-with-overwhelming-extravagance-2000754196",
+        "date": "2026-11-05T20:30:41.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-11-05",
+      "value": "November 5, 2026",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "pic.twitter.com/LZPntrdSYO\n\n— IchiDan 🐉 – Puerta al Sótano (@dan_chaos) November 5, 2026\n\nDon’t miss the latest reviews, news and tips.",
+      "urls": [
+        "https://kotaku.com/legend-zelda-ocarina-of-time-microphone-songs-instruments-2000754324"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "princess of hyrule castle",
+      "value": "Princess of Hyrule Castle",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Close If you want to start this quest but Richard hasn't disappeared yet, be sure to deliver Zelda's letter to the guard in Kakariko Village after completing the \"Princess of Hyrule Castle\" quest.",
+      "urls": [
+        "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-richard-dog-location-how-to-find/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
