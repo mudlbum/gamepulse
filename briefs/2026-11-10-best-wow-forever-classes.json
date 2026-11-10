@@ -1,0 +1,142 @@
+{
+  "generated": "2026-11-10T04:25:29.224Z",
+  "workingTitle": "Best WoW Forever classes",
+  "heat": 51.1,
+  "outletCount": 6,
+  "outlets": [
+    "Destructoid",
+    "IGN",
+    "Game Developer",
+    "PCGamesN",
+    "Pure Xbox",
+    "Eurogamer"
+  ],
+  "newest": "2026-11-09T19:50:46.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Best WoW Forever classes",
+        "url": "https://www.destructoid.com/best-wow-forever-classes/",
+        "date": "2026-11-09T19:50:46.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "World of Warcraft Forever Is the Biggest WoW Launch in History",
+        "url": "https://www.ign.com/articles/world-of-warcraft-forever-is-the-biggest-wow-launch-in-history",
+        "date": "2026-11-09T19:27:50.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "World of Warcraft: Forever is the MMORPG's biggest launch as measured by peak concurrent players",
+        "url": "https://www.gamedeveloper.com/pc/world-of-warcraft-forever-is-the-mmorpg-s-biggest-launch-in-player-numbers",
+        "date": "2026-11-09T16:39:06.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "World of Warcraft Forever is officially WoW's biggest launch ever, and it's not even close",
+        "url": "https://www.pcgamesn.com/world-of-warcraft/forever-launch-record",
+        "date": "2026-11-09T15:54:57.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "'The Biggest Launch In WoW History' - Xbox's Latest First-Party Game Is Already Smashing Records",
+        "url": "https://www.purexbox.com/news/2026/11/the-biggest-launch-in-wow-history-xboxs-latest-first-party-game-is-already-smashing-records",
+        "date": "2026-11-09T15:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "WoW: Forever is the biggest launch in World of Warcraft history, says Blizzard",
+        "url": "https://www.eurogamer.net/wow-forever-biggest-launch-world-of-warcraft-history-concurrent-players",
+        "date": "2026-11-08T13:09:10.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "another statistic is filling our hearts we are seeing the most new players for a wow launch in 15 years",
+      "value": "Another statistic is filling our hearts – we are seeing the most NEW players for a WoW launch in 15 years!",
+      "outlets": [
+        "IGN",
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Holly Longdale, Blizzard&#x27;s executive producer and vice president for World of Warcraft, posted her own statistic, saying, \"Another statistic is filling our hearts – we are seeing the most NEW players for a WoW launch in 15 years!\" That means WoW Forever has brought more players in than any WoW expansion since Cataclysm first launched 16 years ago in 2010.",
+      "urls": [
+        "https://www.ign.com/articles/world-of-warcraft-forever-is-the-biggest-wow-launch-in-history",
+        "https://www.pcgamesn.com/world-of-warcraft/forever-launch-record"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "congratulations everyone you made history",
+      "value": "Congratulations, everyone, you made history!",
+      "outlets": [
+        "PCGamesN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"Congratulations, everyone, you made history!\" Blizzard writes in a recent social media post, thanking the community for making the launch such a success.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-launch-record",
+        "https://www.eurogamer.net/wow-forever-biggest-launch-world-of-warcraft-history-concurrent-players"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "while we here at ign don x27 t have a full review yet our early review is positive with reviewer len hafer talking about her beta experience saying",
+      "value": "While we here at IGN don&#x27;t have a full review yet, our early review is positive, with reviewer Len Hafer talking about her beta experience, saying,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I&#x27;m having a blast on every packed zeppelin and every open vista.\"\n\nWhile we here at IGN don&#x27;t have a full review yet, our early review is positive, with reviewer Len Hafer talking about her beta experience, saying, \"I ended my beta journey at level 13, gazing out across the dusty plains of Westfall, because I didn&#x27;t want to spoil too much for myself before the big day.",
+      "urls": [
+        "https://www.ign.com/articles/world-of-warcraft-forever-is-the-biggest-wow-launch-in-history"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:570",
+      "value": "$569.99,",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Xbox's New 25 Years Bundle Retails For $569.99, And Here's The Full List Of Games\n\n10+ Game Pass Titles Are Confirmed For Xbox's 25th Anniversary Week\n\nGTA 6 Download Size & Preload Times Officially Revealed For Xbox Series X|S\n\nXbox Publisher Announces Four Games Being Delisted By End Of 2026\n\nAMD FSR Upscaling 4.1 Has Officially Arrived For Xbox Series X|S",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/the-biggest-launch-in-wow-history-xboxs-latest-first-party-game-is-already-smashing-records"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "2 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

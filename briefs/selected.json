@@ -1,10 +1,40 @@
 {
-  "decided": "2026-11-06T02:57:48.008Z",
+  "decided": "2026-11-10T04:25:29.537Z",
   "publish": true,
-  "reason": "selected on score 35.1",
-  "brief": "2026-11-06-arkane-union-accuses-microsoft-of-sabotaging-development-of-.json",
-  "title": "Arkane Union Accuses Microsoft Of “Sabotaging” Development Of Marvel’s Blade",
+  "reason": "selected on score 51.2",
+  "brief": "2026-11-10-gta-6-pre-orders-outperform-even-take-twos-expectations-gta-.json",
+  "title": "GTA 6 Pre-Orders Outperform Even Take-Two's Expectations, GTA 5 Just Keeps on Selling",
   "considered": [
+    {
+      "file": "2026-11-10-warhammer-40000-dark-heresy-releases-in-january-leaving-not-.json",
+      "title": "Warhammer 40,000: Dark Heresy releases in January, leaving not very long to prepare for all the crunchy cRPG choices and secret wars it'll lob your way",
+      "pass": false,
+      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-10-the-legend-of-zelda-ocarina-of-time-took-away-auto-jump-and-.json",
+      "title": "The Legend of Zelda: Ocarina of Time Took Away Auto Jump, and Poor Link Is Paying the Price",
+      "pass": false,
+      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-11-10-gta-6-pre-orders-outperform-even-take-twos-expectations-gta-.json",
+      "title": "GTA 6 Pre-Orders Outperform Even Take-Two's Expectations, GTA 5 Just Keeps on Selling",
+      "pass": true,
+      "reason": "6/34 claims corroborated · 7 outlets · secondary only · 6h old"
+    },
+    {
+      "file": "2026-11-10-best-wow-forever-classes.json",
+      "title": "Best WoW Forever classes",
+      "pass": false,
+      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-10-25-hours-with-world-of-warcraft-forever.json",
+      "title": "25 Hours With World Of Warcraft: Forever",
+      "pass": false,
+      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-11-06-we-analyzed-every-official-gta-6-screenshot-continued.json",
       "title": "We Analyzed Every Official GTA 6 Screenshot Continued",
@@ -22,36 +52,6 @@
       "title": "Nintendo Hints the Switch 2 Will Keep Getting Classic Remakes",
       "pass": false,
       "reason": "1 of 20 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-11-06-bethesda-is-already-selling-the-elder-scrolls-6-sentinel-mer.json",
-      "title": "Bethesda Is Already Selling The Elder Scrolls 6: Sentinel Merch",
-      "pass": false,
-      "reason": "1 conflicts against 2 facts — evidence too contradictory"
-    },
-    {
-      "file": "2026-11-06-arkane-union-accuses-microsoft-of-sabotaging-development-of-.json",
-      "title": "Arkane Union Accuses Microsoft Of “Sabotaging” Development Of Marvel’s Blade",
-      "pass": true,
-      "reason": "2/16 claims corroborated · 6 outlets · secondary only · 11h old"
-    },
-    {
-      "file": "2026-11-05-wow-forevers-launch-is-going-surprisingly-smooth.json",
-      "title": "WoW: Forever’s Launch Is Going Surprisingly Smooth",
-      "pass": false,
-      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-05-the-elder-scrolls-6-is-reportedly-more-than-two-years-away-a.json",
-      "title": "The Elder Scrolls 6 is reportedly more than two years away, and some fans are not coping well",
-      "pass": false,
-      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-05-french-game-union-accuses-microsoft-of-sabotaging-blade-and-.json",
-      "title": "French game union accuses Microsoft of 'sabotaging' Blade and then using the fallout to justify closing Arkane",
-      "pass": true,
-      "reason": "2/15 claims corroborated · 6 outlets · secondary only · 30h old"
     }
   ]
 }

@@ -1,0 +1,136 @@
+{
+  "generated": "2026-11-10T04:25:29.449Z",
+  "workingTitle": "Warhammer 40,000: Dark Heresy releases in January, leaving not very long to prepare for all the crunchy cRPG choices and secret wars it'll lob your way",
+  "heat": 32.8,
+  "outletCount": 4,
+  "outlets": [
+    "Rock Paper Shotgun",
+    "PC Gamer",
+    "Eurogamer",
+    "GameSpot"
+  ],
+  "newest": "2026-11-09T17:30:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 5,
+  "games": [
+    "ARK: Survival Ascended"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Warhammer 40,000: Dark Heresy releases in January, leaving not very long to prepare for all the crunchy cRPG choices and secret wars it'll lob your way",
+        "url": "https://www.rockpapershotgun.com/warhammer-40000-dark-heresy-releases-in-january-leaving-not-very-long-to-prepare-for-all-the-crunchy-crpg-choices-and-secret-wars-itll-lob-your-way",
+        "date": "2026-11-09T17:30:00.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Warhammer 40K: Rogue Trader follow-up Dark Heresy will launch at the end of January",
+        "url": "https://www.pcgamer.com/games/rpg/warhammer-40k-rogue-trader-follow-up-dark-heresy-will-launch-at-the-end-of-january/",
+        "date": "2026-11-09T17:06:59.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Anticipated Warhammer 40K tactical RPG Dark Heresy gets a release date",
+        "url": "https://www.eurogamer.net/warhammer-40k-dark-heresy-owlcat-crpg",
+        "date": "2026-11-09T16:50:00.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Warhammer Blood Bowl has been delayed into early 2027",
+        "url": "https://www.pcgamer.com/games/sports/warhammer-blood-bowl-has-been-delayed-into-2027/",
+        "date": "2026-11-09T00:45:39.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Warhammer 40,000: Dark Heresy, The Follow-Up To Rogue Trader, Gets Early 2027 Release Date",
+        "url": "https://www.gamespot.com/articles/warhammer-40000-dark-heresy-the-follow-up-to-rogue-trader-gets-early-2027-release-date/",
+        "date": "2026-11-09T16:00:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/warhammer-40k-rogue-trader-follow-up-dark-heresy-will-launch-at-the-end-of-january/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/warhammer-40k-rogue-trader-follow-up-dark-heresy-will-launch-at-the-end-of-january/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "rogue trader nails the 40k setting and provides an appropriately massive narrative filled with meaty tactical combat though some bugs and poor performance hold it back",
+      "value": "Rogue Trader nails the 40k setting and provides an appropriately massive narrative filled with meaty tactical combat, though some bugs and poor performance hold it back,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Rogue Trader nails the 40k setting and provides an appropriately massive narrative filled with meaty tactical combat, though some bugs and poor performance hold it back,\" wrote Caeyln Ellis in Eurogamer's Warhammer 40,000 Rogue Trade review.",
+      "urls": [
+        "https://www.eurogamer.net/warhammer-40k-dark-heresy-owlcat-crpg"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the game s history and the feedback received during the latest playtest have reinforced the team s belief that the game needs to be as polished as possible",
+      "value": "The game's history and the feedback received during the latest playtest have reinforced the team's belief that the game needs to be as polished as possible,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The game's history and the feedback received during the latest playtest have reinforced the team's belief that the game needs to be as polished as possible,\" Slitherine said, \"as disappointing the fans is not an option.\"\n\nThat playtest is ongoing, and has just added an Arena mode where you try to make it through 10 matches in a row without losing a game or being forced to a draw more than twice.",
+      "urls": [
+        "https://www.pcgamer.com/games/sports/warhammer-blood-bowl-has-been-delayed-into-2027/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [
+    {
+      "game": "ARK: Survival Ascended",
+      "concurrent": 17180,
+      "rank": 59,
+      "change24h": 2,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

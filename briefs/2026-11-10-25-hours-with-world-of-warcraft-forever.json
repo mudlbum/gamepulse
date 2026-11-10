@@ -1,0 +1,180 @@
+{
+  "generated": "2026-11-10T04:25:29.369Z",
+  "workingTitle": "25 Hours With World Of Warcraft: Forever",
+  "heat": 35.2,
+  "outletCount": 4,
+  "outlets": [
+    "Kotaku",
+    "IGN",
+    "PC Gamer",
+    "Eurogamer"
+  ],
+  "newest": "2026-11-09T21:00:22.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "25 Hours With World Of Warcraft: Forever",
+        "url": "https://kotaku.com/first-25-hours-wow-forever-wasting-time-2000755140",
+        "date": "2026-11-09T21:00:22.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "World of Warcraft Forever Dungeon Experience Buffed, but There's a Long Way to Go",
+        "url": "https://www.ign.com/articles/world-of-warcraft-forever-dungeon-experience-buffed-but-theres-a-long-way-to-go",
+        "date": "2026-11-09T18:59:44.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "World of Warcraft: Forever bumps dungeon XP from monsters by 50% after some community feedback I will diplomatically call passionate",
+        "url": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-bumps-dungeon-xp-from-monsters-by-50-percent-after-some-community-feedback-i-will-diplomatically-call-passionate/",
+        "date": "2026-11-09T12:00:26.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Dungeons in World of Warcraft: Forever get a huge XP buff, but power-levellers shouldn't celebrate just yet",
+        "url": "https://www.eurogamer.net/world-of-warcraft-forever-dungeon-mob-xp-rate-buff",
+        "date": "2026-11-09T11:41:20.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "at about 11 05 pst today we deployed a hotfix that increased kill experience in dungeons by 50 so it feels better to go back in for more runs",
+      "value": "At about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs,",
+      "outlets": [
+        "PC Gamer",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "To try and soothe that ache, Blizzard's gone ahead and buffed the XP gain: \"At about 11:05 PST today, we deployed a hotfix that increased kill experience in dungeons by 50%, so it feels better to go back in for more runs,\" writes community manager Kaivax.",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-bumps-dungeon-xp-from-monsters-by-50-percent-after-some-community-feedback-i-will-diplomatically-call-passionate/",
+        "https://www.eurogamer.net/world-of-warcraft-forever-dungeon-mob-xp-rate-buff"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "meanwhile user acoolguy promise just wishes blizzard was more clear on the final numbers saying",
+      "value": "Meanwhile, user ACoolGuy-Promise just wishes Blizzard was more clear on the final numbers, saying,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But there are also knock-on effects like fewer people feeling incentivized to roll tanks and healers, because those roles generally sacrifice open world leveling speed/efficiency for easier access to dungeons.\"\n\nMeanwhile, user ACoolGuy-Promise just wishes Blizzard was more clear on the final numbers, saying, \"They can’t say “X percent“ of classic values?",
+      "urls": [
+        "https://www.ign.com/articles/world-of-warcraft-forever-dungeon-experience-buffed-but-theres-a-long-way-to-go"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i knew blizzard would cave",
+      "value": "I knew blizzard would cave,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For instance, player Kassa posted, \"I knew blizzard would cave,\" and then followed that up by posting, \"and I knew even this buff wouldn’t be good enough for the complainers.",
+      "urls": [
+        "https://www.ign.com/articles/world-of-warcraft-forever-dungeon-experience-buffed-but-theres-a-long-way-to-go"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:50",
+      "value": "50% increase",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Happy dungeon crawling, and good luck with those Deviate Hides!\"\n\nThat 50% number isn't actually too much, mind—it's a 50% increase to the current value.",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-bumps-dungeon-xp-from-monsters-by-50-percent-after-some-community-feedback-i-will-diplomatically-call-passionate/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "happy dungeon crawling and good luck with those deviate hides",
+      "value": "Happy dungeon crawling, and good luck with those Deviate Hides!",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Happy dungeon crawling, and good luck with those Deviate Hides!\"\n\nThat 50% number isn't actually too much, mind—it's a 50% increase to the current value.",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-bumps-dungeon-xp-from-monsters-by-50-percent-after-some-community-feedback-i-will-diplomatically-call-passionate/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 MSI Maestro 900R review 2 Epomaker HE75 V2 TMR review 3 Phantom Blade Zero review 4 Formula V Line Air Power G10 review 5 Enshrouded 1.0 review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-bumps-dungeon-xp-from-monsters-by-50-percent-after-some-community-feedback-i-will-diplomatically-call-passionate/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-bumps-dungeon-xp-from-monsters-by-50-percent-after-some-community-feedback-i-will-diplomatically-call-passionate/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forever-bumps-dungeon-xp-from-monsters-by-50-percent-after-some-community-feedback-i-will-diplomatically-call-passionate/"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 8,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "7 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

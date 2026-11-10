@@ -1,0 +1,247 @@
+{
+  "generated": "2026-11-10T04:25:28.163Z",
+  "workingTitle": "The Legend of Zelda: Ocarina of Time Took Away Auto Jump, and Poor Link Is Paying the Price",
+  "heat": 83,
+  "outletCount": 7,
+  "outlets": [
+    "IGN",
+    "Polygon",
+    "Kotaku",
+    "GameSpot",
+    "Nintendo Life",
+    "Destructoid",
+    "Eurogamer"
+  ],
+  "newest": "2026-11-09T23:46:42.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "The Legend of Zelda: Ocarina of Time Took Away Auto Jump, and Poor Link Is Paying the Price",
+        "url": "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-took-away-auto-jump-and-poor-link-is-paying-the-price",
+        "date": "2026-11-09T23:46:42.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "How to get the Biggoron Sword in Ocarina of Time",
+        "url": "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-biggorons-sword-how-to-get/",
+        "date": "2026-11-09T21:50:25.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "How to get the Golden Scale in Zelda Ocarina of Time",
+        "url": "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-golden-scale-how-to-get-fishing-pond/",
+        "date": "2026-11-09T21:05:23.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Zelda: Ocarina of Time’s Coolest Dungeon Hides a Secret Tribute to a Beloved Classic",
+        "url": "https://www.polygon.com/zelda-ocarina-time-forest-temple-little-women/",
+        "date": "2026-11-09T21:05:21.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Has The Ocarina Of Time Remake Changed Too Much? Fans Debate Difficulty, Tone, And Handholding",
+        "url": "https://kotaku.com/legend-zelda-ocarina-time-remake-changes-differences-difficulty-soldier-2000755144",
+        "date": "2026-11-09T18:30:06.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "The Legend of Zelda: Ocarina of Time Remake Dataminers Uncover Potential Majora's Mask, Master Quest DLC Hints",
+        "url": "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-dataminers-uncover-potential-majoras-mask-master-quest-dlc-hints",
+        "date": "2026-11-09T18:15:12.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "i keep forgetting to press jump",
+      "value": "I keep forgetting to press jump,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I keep forgetting to press jump,\" one Reddit user said, sharing a clip of Link taking a dip in Kokiri Forest.",
+      "urls": [
+        "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-took-away-auto-jump-and-poor-link-is-paying-the-price"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "30 years of habit is hard to break",
+      "value": "30 years of habit is hard to break.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"30 years of habit is hard to break.\"\n\nThey&#x27;re not alone; in fact, they&#x27;re part of an ocean of players who turned on the Ocarina of Time remake and immediately started sending Link for a swim.",
+      "urls": [
+        "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-took-away-auto-jump-and-poor-link-is-paying-the-price"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "same but different reason",
+      "value": "Same but different reason,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Same but different reason,\" one player replied, \"jump button being X feels unnatural to me.\" (Note: There is an option to switch jump from X to the B button in the settings.)\n\n\"I actually think the auto-jump was one of the most interesting features of the original,\" someone else said, \"particularly considering that people had barely figured out how to do 3D games.",
+      "urls": [
+        "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-took-away-auto-jump-and-poor-link-is-paying-the-price"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i love how he just f kin eats the side of the platform",
+      "value": "I love how he just f**kin eats the side of the platform,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I love how he just f**kin eats the side of the platform,\" one player joked.",
+      "urls": [
+        "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-took-away-auto-jump-and-poor-link-is-paying-the-price"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the way he looked like he broke a rib and his jaw",
+      "value": "The way he looked like he broke a rib and his jaw,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The way he looked like he broke a rib and his jaw,\" another said.",
+      "urls": [
+        "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-took-away-auto-jump-and-poor-link-is-paying-the-price"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "from a pocket egg comes",
+      "value": "From a Pocket Egg Comes...",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "To get the Biggoron Sword, you need to progress through the \"From a Pocket Egg Comes...\" event given to you by the Cucco Lady in Kakariko Village.",
+      "urls": [
+        "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-biggorons-sword-how-to-get/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you catch a big enough fish",
+      "value": "you catch a big enough fish.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Once inside, talk to the Fishing-Pond Man and learn that you can earn a prize if \"you catch a big enough fish.\" Rent a fishing rod for 30 rupees, allowing you to fish as many times as you want until you tell the Fishing-Pond Man that you're done.",
+      "urls": [
+        "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-golden-scale-how-to-get-fishing-pond/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "in the 1998 game naturally there are plenty of",
+      "value": "in the 1998 game.) Naturally, there are plenty of",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(There's one exception: the second sister, Jo, was called \"Joelle\" in the 1998 game.) Naturally, there are plenty of \"well actually\" guys pointing this out in the comments of social media posts.",
+      "urls": [
+        "https://www.polygon.com/zelda-ocarina-time-forest-temple-little-women/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i was starting to think that this was an adult link amiibo that x27 s going to be released in the future",
+      "value": "I was starting to think that this was an Adult Link amiibo that&#x27;s going to be released in the future,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I was starting to think that this was an Adult Link amiibo that&#x27;s going to be released in the future,\" he said, referencing data containing strange, unused NPC dialogue.",
+      "urls": [
+        "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-dataminers-uncover-potential-majoras-mask-master-quest-dlc-hints"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the code he referenced in the video alludes to characters calling out link for wearing a",
+      "value": "The code he referenced in the video alludes to characters calling out Link for wearing a",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Crazy Austin was right!\"\n\nThe code he referenced in the video alludes to characters calling out Link for wearing a \"rare\" and \"otherworldly.\" Others call it \"strange,\" with NPC Dampé even saying, \"What&#x27;s with that mask?",
+      "urls": [
+        "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-dataminers-uncover-potential-majoras-mask-master-quest-dlc-hints"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5",
+      "value": "$5",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It could be $5 or even $20, or it could be some sort of bundle expansion.",
+      "urls": [
+        "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-dataminers-uncover-potential-majoras-mask-master-quest-dlc-hints"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It could be $5 or even $20, or it could be some sort of bundle expansion.",
+      "urls": [
+        "https://www.ign.com/articles/the-legend-of-zelda-ocarina-of-time-remake-dataminers-uncover-potential-majoras-mask-master-quest-dlc-hints"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 12,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
