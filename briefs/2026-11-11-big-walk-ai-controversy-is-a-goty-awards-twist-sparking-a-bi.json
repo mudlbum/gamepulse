@@ -1,0 +1,269 @@
+{
+  "generated": "2026-11-11T02:22:25.327Z",
+  "workingTitle": "Big Walk AI Controversy Is a GOTY Awards Twist Sparking a Bigger Debate",
+  "heat": 63.5,
+  "outletCount": 7,
+  "outlets": [
+    "Polygon",
+    "Nintendo Life",
+    "Kotaku",
+    "Push Square",
+    "PC Gamer",
+    "Eurogamer",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-11-10T19:25:34.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Big Walk AI Controversy Is a GOTY Awards Twist Sparking a Bigger Debate",
+        "url": "https://www.polygon.com/big-walks-ai-controversy-goty-2026/",
+        "date": "2026-11-10T19:25:34.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Talking Point: With Big Walk, The AI-In-Game-Dev Debate Just Got A Lot Murkier",
+        "url": "https://www.nintendolife.com/features/talking-point-with-big-walk-the-ai-in-game-dev-debate-just-got-a-lot-murkier",
+        "date": "2026-11-10T19:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "A Big Talk About Big Walk’s AI Fallout",
+        "url": "https://kotaku.com/big-walk-ai-disclosure-igf-awards-vg-chat-2000755514",
+        "date": "2026-11-10T17:33:38.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Beloved Co-Op Adventure Big Walk in Hot Water After Failing to Disclose AI Usage",
+        "url": "https://www.pushsquare.com/news/2026/11/beloved-co-op-adventure-big-walk-in-hot-water-after-failing-to-disclose-ai-usage",
+        "date": "2026-11-10T16:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Big Walk developer reveals it used generative AI 'sparingly', estimates 'well under 0.1%' was actually coded using LLMs",
+        "url": "https://www.pcgamer.com/games/puzzle/big-walk-developer-reveals-it-used-generative-ai-sparingly-estimates-well-under-0-1-percent-was-actually-coded-using-llms/",
+        "date": "2026-11-10T14:36:16.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Under pressure, Big Walk studio reveals it used generative AI \"sparingly\" while making its hit 2026 game",
+        "url": "https://www.eurogamer.net/house-house-big-walk-generative-ai-development",
+        "date": "2026-11-10T10:51:40.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "the platform does not request disclosure of code or chatbot usage",
+      "value": "We have not made any disclosure on Steam as the platform does not request disclosure of code or chatbot usage,",
+      "outlets": [
+        "Push Square",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"We have not made any disclosure on Steam as the platform does not request disclosure of code or chatbot usage,\" the studio explained.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/beloved-co-op-adventure-big-walk-in-hot-water-after-failing-to-disclose-ai-usage",
+        "https://www.eurogamer.net/house-house-big-walk-generative-ai-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "in the final stretch of big walk s development llms were used sparingly by house house to help work through difficult technical challenges and bugs",
+      "value": "In the final stretch of Big Walk's development, LLMs were used sparingly by House House to help work through difficult technical challenges and bugs,",
+      "outlets": [
+        "PC Gamer",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"In the final stretch of Big Walk's development, LLMs were used sparingly by House House to help work through difficult technical challenges and bugs,\" it reads.",
+      "urls": [
+        "https://www.pcgamer.com/games/puzzle/big-walk-developer-reveals-it-used-generative-ai-sparingly-estimates-well-under-0-1-percent-was-actually-coded-using-llms/",
+        "https://www.eurogamer.net/house-house-big-walk-generative-ai-development"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "well under 0 1 of big walk s code",
+      "value": "well under 0.1% of Big Walk’s code",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "House House estimates \"well under 0.1% of Big Walk’s code\" has any trace of generative AI, but to paraphrase a certain Starfleet captain again, \"How much does it take before it becomes wrong, hmm?\" That is the question.",
+      "urls": [
+        "https://www.nintendolife.com/features/talking-point-with-big-walk-the-ai-in-game-dev-debate-just-got-a-lot-murkier"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we can t get this one thing to work like it should and the entire team has spent hours trying to figure it out",
+      "value": "We can't get this one thing to work like it should, and the entire team has spent hours trying to figure it out,",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If it truly was nothing more than \"We can't get this one thing to work like it should, and the entire team has spent hours trying to figure it out,\" then I can at least understand it.",
+      "urls": [
+        "https://www.nintendolife.com/features/talking-point-with-big-walk-the-ai-in-game-dev-debate-just-got-a-lot-murkier"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "side with an asterisk of",
+      "value": "side with an asterisk of",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I'm very on the fence with it myself, but I'm leaning slightly to the \"acceptable use\" side with an asterisk of \"It's always better to use purely human work, and this is the lazy way out.\" Again, just my opinion.",
+      "urls": [
+        "https://www.nintendolife.com/features/talking-point-with-big-walk-the-ai-in-game-dev-debate-just-got-a-lot-murkier"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "list every grammatical error",
+      "value": "List every grammatical error",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Uploading a paper to ChatGPT and saying \"List every grammatical error\" so that you can fix things your own proofreading missed or that violated grammatical conventions you didn't know?",
+      "urls": [
+        "https://www.nintendolife.com/features/talking-point-with-big-walk-the-ai-in-game-dev-debate-just-got-a-lot-murkier"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "write a five page essay on the causes and effects of the mexican american war",
+      "value": "Write a five page essay on the causes and effects of the Mexican-American War",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Going to ChatGPT and saying \"Write a five page essay on the causes and effects of the Mexican-American War\"?",
+      "urls": [
+        "https://www.nintendolife.com/features/talking-point-with-big-walk-the-ai-in-game-dev-debate-just-got-a-lot-murkier"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "look for game breaking bugs",
+      "value": "Look for game-breaking bugs",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Feeding a game into an AI model and saying \"Look for game-breaking bugs\"?",
+      "urls": [
+        "https://www.nintendolife.com/features/talking-point-with-big-walk-the-ai-in-game-dev-debate-just-got-a-lot-murkier"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 Acer Predator Atlas 8 (G3 Extreme) review 2 Alienware AW3226Q review 3 Warhammer Survivors review 4 MSI MEG Maestro 900R review 5 Epomaker HE75 V2 TMR review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/games/puzzle/big-walk-developer-reveals-it-used-generative-ai-sparingly-estimates-well-under-0-1-percent-was-actually-coded-using-llms/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/puzzle/big-walk-developer-reveals-it-used-generative-ai-sparingly-estimates-well-under-0-1-percent-was-actually-coded-using-llms/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/puzzle/big-walk-developer-reveals-it-used-generative-ai-sparingly-estimates-well-under-0-1-percent-was-actually-coded-using-llms/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "in entry submissions involving generative ai use which",
+      "value": "in entry submissions involving generative AI use, which",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This was done after seeing \"a significant increase\" in entry submissions involving generative AI use, which \"set off some fairly intense discussion and disagreement across the judge and jury pools\".",
+      "urls": [
+        "https://www.eurogamer.net/house-house-big-walk-generative-ai-development"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we are posting this disclosure as it has become a matter of public interest",
+      "value": "We are posting this disclosure as it has become a matter of public interest.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We are posting this disclosure as it has become a matter of public interest.\"\n\nHouse House added: \"This is not an endorsement of, or argument for, the use of AI tools, however minimal.",
+      "urls": [
+        "https://www.eurogamer.net/house-house-big-walk-generative-ai-development"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 13,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "11 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

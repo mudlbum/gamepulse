@@ -1,0 +1,476 @@
+{
+  "generated": "2026-11-11T02:22:24.462Z",
+  "workingTitle": "Take-Two CEO: Grand Theft Auto VI pre-orders are exceeding expectations",
+  "heat": 82.7,
+  "outletCount": 9,
+  "outlets": [
+    "Game Developer",
+    "PC Gamer",
+    "Eurogamer",
+    "GameSpot",
+    "IGN",
+    "Xbox Wire",
+    "PlayStation Blog",
+    "Pure Xbox",
+    "Kotaku"
+  ],
+  "newest": "2026-11-10T17:49:05.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Grand Theft Auto VI"
+  ],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19",
+        "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+        "date": "2026-11-10T15:45:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Game Developer",
+        "title": "Take-Two CEO: Grand Theft Auto VI pre-orders are exceeding expectations",
+        "url": "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations",
+        "date": "2026-11-10T17:49:05.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Grand Theft Auto 6 is 'the most pre-ordered' game of all time on both Xbox and PlayStation",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/",
+        "date": "2026-11-10T17:34:18.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Grand Theft Auto 6 becomes the most pre-ordered game in PlayStation Store history",
+        "url": "https://www.eurogamer.net/gta-6-most-preordered-game-playstation-store-history",
+        "date": "2026-11-10T16:31:30.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Now the Most Preordered Game in PlayStation Store and Microsoft Store History, Official Preload Warning Issued",
+        "url": "https://www.ign.com/articles/sony-confirms-gta-6-is-now-the-most-preordered-game-in-playstation-store-history-issues-official-preload-warning",
+        "date": "2026-11-10T15:56:37.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "GTA 6 Is The Most Preordered Game Of All Time For PlayStation And Xbox",
+        "url": "https://www.gamespot.com/articles/gta-6-is-the-most-preordered-game-of-all-time-for-playstation-and-xbox/",
+        "date": "2026-11-10T16:15:37.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "grand theft auto 6 is now the most pre ordered game in the history of playstation store",
+      "value": "Grand Theft Auto 6 is now the most pre-ordered game in the history of PlayStation Store,",
+      "outlets": [
+        "PC Gamer",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"Grand Theft Auto 6 is now the most pre-ordered game in the history of PlayStation Store,\" Sony proclaimed on the PlayStation Blog.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/",
+        "https://www.eurogamer.net/gta-6-most-preordered-game-playstation-store-history"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "numbers will speak for themselves",
+      "value": "far in excess of our initial expectations, and we know that the numbers will speak for themselves soon enough.",
+      "outlets": [
+        "Eurogamer",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "This week, Rockstar parent company Take-Two said GTA 6 preorders were tracking \"far in excess of our initial expectations, and we know that the numbers will speak for themselves soon enough.\" According to Take-Two, some gamers are saving their money for GTA 6, skipping recent releases in the process.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-most-preordered-game-playstation-store-history",
+        "https://www.ign.com/articles/sony-confirms-gta-6-is-now-the-most-preordered-game-in-playstation-store-history-issues-official-preload-warning"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "tracking far above our initial expectations",
+      "value": "tracking far above our initial expectations",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In a comment made during the second quarter earnings briefing, Zelnick commented that—despite GTA 6 not officially being released for another week—its launch trajectory is \"tracking far above our initial expectations\" in terms of preorder volume.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:50000000:copies",
+      "value": "50 million copies",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Some analysts believe the game will sell more than 50 million copies in its first year, which may mean that even potentially lofty expectations could be exceeded.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:235000000:copies",
+      "value": "235 million copies",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In other Take-Two financial news, GTA 6&#x27;s predecessor, Grand Theft Auto V, reached 235 million copies sold in the last quarter, pushing the overall franchise numbers for the entire Grand Theft Auto series to 480 million units.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:480000000:units",
+      "value": "480 million units",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In other Take-Two financial news, GTA 6&#x27;s predecessor, Grand Theft Auto V, reached 235 million copies sold in the last quarter, pushing the overall franchise numbers for the entire Grand Theft Auto series to 480 million units.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-09-30",
+      "value": "September 30, 2026",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Net bookings and net revenue for the company are down overall for the quarter ending September 30, 2026 when compared to the year prior, largely owed to a slow start for NBA 2K27, which Zelnick explains away in an interview with IGN as suffering from proximity to Grand Theft Auto VI.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1600000000",
+      "value": "$1.6 billion",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This year, Take-Two reported $1.6 billion in net bookings, down $276.8 million and 1.2 percent shy of targets, while net revenue came in at $1.497 billion, down $276.8 million and slightly above forecasts.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:277000000",
+      "value": "$276.8 million",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This year, Take-Two reported $1.6 billion in net bookings, down $276.8 million and 1.2 percent shy of targets, while net revenue came in at $1.497 billion, down $276.8 million and slightly above forecasts.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1500000000",
+      "value": "$1.497 billion",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This year, Take-Two reported $1.6 billion in net bookings, down $276.8 million and 1.2 percent shy of targets, while net revenue came in at $1.497 billion, down $276.8 million and slightly above forecasts.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:19500000",
+      "value": "$19.5 million",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For the same period, operating profit decreased by roughly $19.5 million, going from last year&#x27;s loss of $98 million to a loss of $117.5 million this quarter.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:98000000",
+      "value": "$98 million",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For the same period, operating profit decreased by roughly $19.5 million, going from last year&#x27;s loss of $98 million to a loss of $117.5 million this quarter.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:118000000",
+      "value": "$117.5 million",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For the same period, operating profit decreased by roughly $19.5 million, going from last year&#x27;s loss of $98 million to a loss of $117.5 million this quarter.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:8000000000",
+      "value": "$8 billion",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Upcoming guidance, though, expects net bookings to exceed $8 billion for the full fiscal year, likely with GTA 6 leading the charge.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "but he s refused to provide specifics because",
+      "value": "but he's refused to provide specifics because",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We don't really have a sense as to just how huge at this point: Take-Two CEO Strauss Zelnick has boasted that GTA 6 preorder numbers are \"unprecedented,\" but he's refused to provide specifics because \"the raw numbers could be potentially misleading.\" But huge, for sure.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3.35",
+      "value": "$3.35",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The publisher is projecting net bookings of $3.35 to $3.5 billion for its current fiscal quarter, \"driven by the groundbreaking release of Grand Theft Auto 6\" on November 19.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3500000000",
+      "value": "$3.5 billion",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The publisher is projecting net bookings of $3.35 to $3.5 billion for its current fiscal quarter, \"driven by the groundbreaking release of Grand Theft Auto 6\" on November 19.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "driven by the groundbreaking release of grand theft auto 6",
+      "value": "driven by the groundbreaking release of Grand Theft Auto 6",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The publisher is projecting net bookings of $3.35 to $3.5 billion for its current fiscal quarter, \"driven by the groundbreaking release of Grand Theft Auto 6\" on November 19.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1760000000",
+      "value": "$1.76 billion",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's roughly double what Take-Two took in during the same quarter in its previous year, when it reported net bookings of $1.76 billion.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the launch of grand theft auto 6 is ten days away and with pre orders continuing to reach unprecedented levels we expect to deliver an historic year for our company",
+      "value": "The launch of Grand Theft Auto 6 is ten days away and, with pre-orders continuing to reach unprecedented levels, we expect to deliver an historic year for our company,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The launch of Grand Theft Auto 6 is ten days away and, with pre-orders continuing to reach unprecedented levels, we expect to deliver an historic year for our company,\" Take-Two CEO Strauss Zelnick said during yesterday's quarterly financial report.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:6720000000",
+      "value": "$6.72 billion",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Take-Two is also projecting a comparably huge net bookings increase for its full year: The company reported total net bookings of $6.72 billion for its 2026 fiscal year, and is currently projecting $8 to $8.2 billion for 2027.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:8",
+      "value": "$8",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Take-Two is also projecting a comparably huge net bookings increase for its full year: The company reported total net bookings of $6.72 billion for its 2026 fiscal year, and is currently projecting $8 to $8.2 billion for 2027.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:8200000000",
+      "value": "$8.2 billion",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Take-Two is also projecting a comparably huge net bookings increase for its full year: The company reported total net bookings of $6.72 billion for its 2026 fiscal year, and is currently projecting $8 to $8.2 billion for 2027.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-is-the-most-pre-ordered-game-of-all-time-on-both-xbox-and-playstation/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we strongly advise that everyone who is hoping to play on launch day to pre load the game as soon as possible",
+      "value": "We strongly advise that everyone who is hoping to play on launch day to pre-load the game as soon as possible,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We strongly advise that everyone who is hoping to play on launch day to pre-load the game as soon as possible,\" the blog post added.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-most-preordered-game-playstation-store-history"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:9690000:units",
+      "value": "9.69 million units",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to data from sales tracking firm Sensor Tower, GTA 6 has already \"sold\" 9.69 million units, suggesting it&#x27;s the most preordered game of all time, surpassing CD Projekt&#x27;s Cyberpunk 2077.",
+      "urls": [
+        "https://www.ign.com/articles/sony-confirms-gta-6-is-now-the-most-preordered-game-in-playstation-store-history-issues-official-preload-warning"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 27,
+  "ourData": [
+    {
+      "game": "Grand Theft Auto VI",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "25 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

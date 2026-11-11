@@ -1,0 +1,259 @@
+{
+  "generated": "2026-11-11T02:22:24.992Z",
+  "workingTitle": "PlayStation Plus Monthly Games for November 2026 Announced",
+  "heat": 77.7,
+  "outletCount": 8,
+  "outlets": [
+    "IGN",
+    "PC Gamer",
+    "Kotaku",
+    "Eurogamer",
+    "Push Square",
+    "GameSpot",
+    "PlayStation Blog",
+    "PCGamesN"
+  ],
+  "newest": "2026-11-10T19:33:04.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "AION 2"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "PlayStation Plus Monthly Games for November 2026 Announced",
+        "url": "https://www.ign.com/articles/playstation-plus-monthly-games-for-november-2026-announced",
+        "date": "2026-11-10T19:33:04.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "PlayStation Plus PC app is being shut down in December because less than 0.4% of eligible subscribers are using it",
+        "url": "https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/",
+        "date": "2026-11-10T18:57:18.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The November 2026 PS Plus Catalog Update Is Adding Some Very Good Games",
+        "url": "https://kotaku.com/the-november-2026-ps-plus-catalog-update-is-adding-some-very-good-games-2000755543",
+        "date": "2026-11-10T17:15:06.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Here's our second wave of PS Plus games for November 2026 - and Sony's scrapping its barely used PC app",
+        "url": "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app",
+        "date": "2026-11-10T17:10:00.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "10 PS Plus Extra, Premium Games for November 2026 Announced",
+        "url": "https://www.pushsquare.com/news/2026/11/10-ps-plus-extra-premium-games-for-november-2026-announced",
+        "date": "2026-11-10T16:40:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Death Stranding 2 Headlines PlayStation Plus Game Catalog For November",
+        "url": "https://www.gamespot.com/articles/death-stranding-2-headlines-playstation-plus-game-catalog-for-november/",
+        "date": "2026-11-10T16:36:53.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "playstation believes in providing high quality experiences to our players and we regularly review offerings to ensure we are focusing on experiences our members value most",
+      "value": "PlayStation believes in providing high-quality experiences to our players, and we regularly review offerings to ensure we are focusing on experiences our members value most,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"PlayStation believes in providing high-quality experiences to our players, and we regularly review offerings to ensure we are focusing on experiences our members value most,\" Sony wrote at the tail-end of a PlayStation Blog update detailing the PlayStation Plus game lineup for November.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "multiplayer games like the upcoming marvel t kon will still come to pc but if you want to play the next prestige action game from the likes of naughty dog or insomniac you ll need a ps5",
+      "value": "Multiplayer games like the upcoming Marvel Tōkon will still come to PC, but if you want to play the next prestige action game from the likes of Naughty Dog or Insomniac, you'll need a PS5,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Multiplayer games like the upcoming Marvel Tōkon will still come to PC, but if you want to play the next prestige action game from the likes of Naughty Dog or Insomniac, you'll need a PS5,\" Morgan wrote.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 Acer Predator Atlas 8 (G3 Extreme) review 2 Alienware AW3226Q review 3 Warhammer Survivors review 4 MSI MEG Maestro 900R review 5 Epomaker HE75 V2 TMR review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/playstation-plus-pc-app-is-being-shut-down-in-december-because-less-than-0-4-percent-of-eligible-subscribers-are-using-it/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a busier louder and more emotionally resplendent take on this singular hiking sim",
+      "value": "A busier, louder, and more emotionally resplendent take on this singular hiking sim,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"A busier, louder, and more emotionally resplendent take on this singular hiking sim,\" Lewis Gordon wrote in Eurogamer's Death Stranding 2 review.",
+      "urls": [
+        "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a raucous absurd spin off that manages to still feel like a first rate yakuza game despite the leftfield setting and delightfully unhinged plot",
+      "value": "A raucous, absurd spin-off that manages to still feel like a first-rate Yakuza game despite the leftfield setting and delightfully unhinged plot,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"A raucous, absurd spin-off that manages to still feel like a first-rate Yakuza game despite the leftfield setting and delightfully unhinged plot,\" wrote Matt Elliott in Eurogamer's Like a Dragon: Pirate Yakuza in Hawaii review.",
+      "urls": [
+        "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "if you can get over a difficult start and fancy a lean take on the survival genre atomfall delivers an intriguing tale worth discovering",
+      "value": "If you can get over a difficult start and fancy a lean take on the survival genre, Atomfall delivers an intriguing tale worth discovering,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"If you can get over a difficult start and fancy a lean take on the survival genre, Atomfall delivers an intriguing tale worth discovering,\" Tom Orry wrote in Eurogamer's Atomfall review.",
+      "urls": [
+        "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "some excellent enhancements make this the ultimate version of dragon quest 3 but it could still do more to make it wholly welcoming to newcomers",
+      "value": "Some excellent enhancements make this the ultimate version of Dragon Quest 3, but it could still do more to make it wholly welcoming to newcomers,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Some excellent enhancements make this the ultimate version of Dragon Quest 3, but it could still do more to make it wholly welcoming to newcomers,\" Daniella Lucas wrote in Eurogamer's Dragon Quest 3 HD-2D review.",
+      "urls": [
+        "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "with a very small number of eligible playstation plus premium members less than 0 4 percent using the playstation plus app on pc making this change allows us to focus on enhancing high quality experiences that more of our members want to use",
+      "value": "With a very small number of eligible PlayStation Plus Premium members (less than 0.4 percent) using the PlayStation Plus app on PC, making this change allows us to focus on enhancing high-quality experiences that more of our members want to use,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"With a very small number of eligible PlayStation Plus Premium members (less than 0.4 percent) using the PlayStation Plus app on PC, making this change allows us to focus on enhancing high-quality experiences that more of our members want to use,\" Sony wrote.",
+      "urls": [
+        "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as a result the playstation plus cloud streaming app on pc will no longer be available",
+      "value": "As a result, the PlayStation Plus cloud streaming app on PC will no longer be available.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"As a result, the PlayStation Plus cloud streaming app on PC will no longer be available.\"\n\nFor more information on PlayStation Plus, you can check out our guide to PS Plus and all the available games here.",
+      "urls": [
+        "https://www.eurogamer.net/ps-plus-games-november-2026-pc-app"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:28000000:players",
+      "value": "28 million players",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Another 28 million players incoming for DS series😂 For the first time in many months that I regret not being subscribed.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/10-ps-plus-extra-premium-games-for-november-2026-announced"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 12,
+  "ourData": [
+    {
+      "game": "AION 2",
+      "concurrent": 127064,
+      "rank": 7,
+      "change24h": -24,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
