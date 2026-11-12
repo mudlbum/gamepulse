@@ -1,0 +1,352 @@
+{
+  "generated": "2026-11-12T03:29:17.340Z",
+  "workingTitle": "Tekken creator says he wishes hardware like the Xbox Series S 'wouldn’t be released'",
+  "heat": 50.5,
+  "outletCount": 6,
+  "outlets": [
+    "Game Developer",
+    "PC Gamer",
+    "Kotaku",
+    "IGN",
+    "Eurogamer",
+    "Pure Xbox"
+  ],
+  "newest": "2026-11-11T18:30:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Game Developer",
+        "title": "Tekken creator says he wishes hardware like the Xbox Series S 'wouldn’t be released'",
+        "url": "https://www.gamedeveloper.com/console/katsuhiro-harada-i-wish-hardware-like-the-xbox-series-s-wouldnt-be-released",
+        "date": "2026-11-11T18:30:00.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Ex-Tekken director savages Xbox Series S in front of senior Xbox staff: ‘feels like having to do extra work for a slightly weaker child’",
+        "url": "https://www.pcgamer.com/hardware/ex-tekken-director-savages-xbox-series-s-in-front-of-senior-xbox-staff-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child/",
+        "date": "2026-11-11T17:17:42.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Tekken Boss Katsuhiro Harada Says Developing For Xbox Series S ‘Feels Like Having To Do Extra Work For A Slightly Weaker Child’",
+        "url": "https://kotaku.com/tekken-boss-katsuhiro-harada-says-developing-for-xbox-series-s-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child-2000755895",
+        "date": "2026-11-11T16:00:24.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Tekken Legend Katsuhiro Harada Says He Wishes 'Hardware Like the Xbox Series S Wouldn't Be Released'",
+        "url": "https://www.ign.com/articles/tekken-legend-katsuhiro-harada-says-he-wishes-hardware-like-the-xbox-series-s-wouldnt-be-released",
+        "date": "2026-11-11T15:14:21.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "\"I wish hardware like the Xbox Series S wouldn't be released\" - former Tekken director Katsuhiro Harada trashes Microsoft's console in front of senior Xbox…",
+        "url": "https://www.eurogamer.net/katsuhiro-harada-xbox-series-s-wish-it-wouldnt-release",
+        "date": "2026-11-11T14:09:30.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Microsoft Announces Last-Minute Restock Of The Xbox Series X25 Console",
+        "url": "https://www.purexbox.com/news/2026/11/microsoft-announces-last-minute-restock-of-the-xbox-series-x25-console",
+        "date": "2026-11-11T12:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "i want to ask director pawe personally honestly weren t you upset inside because of series s",
+      "value": "I want to ask Director Paweł personally—honestly, weren’t you upset inside because of Series S?",
+      "outlets": [
+        "Game Developer",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"I want to ask Director Paweł personally—honestly, weren’t you upset inside because of Series S?\"\n\nPawel Sasko, who worked on Cyberpunk 2077 as an associate game director, was a lot more buttoned up in his response, saying that the Xbox Series S forces developers to meet the challenges of a lower spec and optimize their code more cleanly.",
+      "urls": [
+        "https://www.gamedeveloper.com/console/katsuhiro-harada-i-wish-hardware-like-the-xbox-series-s-wouldnt-be-released",
+        "https://www.ign.com/articles/tekken-legend-katsuhiro-harada-says-he-wishes-hardware-like-the-xbox-series-s-wouldnt-be-released"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you just used a very polite and elegant way to say x27 xbox series s sucks x27 right",
+      "value": "You just used a very polite and elegant way to say &#x27;Xbox Series S sucks,&#x27; right?",
+      "outlets": [
+        "Game Developer",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"You just used a very polite and elegant way to say &#x27;Xbox Series S sucks,&#x27; right?\" Harada asks to laughs.",
+      "urls": [
+        "https://www.gamedeveloper.com/console/katsuhiro-harada-i-wish-hardware-like-the-xbox-series-s-wouldnt-be-released",
+        "https://www.ign.com/articles/tekken-legend-katsuhiro-harada-says-he-wishes-hardware-like-the-xbox-series-s-wouldnt-be-released"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "while pushing both platforms to their absolute limits to bring the vast and rich world of leonida to life",
+      "value": "while pushing both platforms to their absolute limits to bring the vast and rich world of Leonida to life",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's \"while pushing both platforms to their absolute limits to bring the vast and rich world of Leonida to life\", apparently.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/ex-tekken-director-savages-xbox-series-s-in-front-of-senior-xbox-staff-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 Antec C6 Curve Air review 2 Sudokoo SK700V review 3 Glorious GMMK Eternal review 4 Acer Predator Atlas 8 (G3 Extreme) review 5 Alienware AW3226Q OLED gaming monitor review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/hardware/ex-tekken-director-savages-xbox-series-s-in-front-of-senior-xbox-staff-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/hardware/ex-tekken-director-savages-xbox-series-s-in-front-of-senior-xbox-staff-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/hardware/ex-tekken-director-savages-xbox-series-s-in-front-of-senior-xbox-staff-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child/"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:2.5",
+      "value": "Version 2.5",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Recently, with Cyberpunk 2077 Version 2.5, we applied optimization breakthroughs gained while preparing the Switch 2 launch title (which involved a team of 80 to 100 people for over a year) back to all other platforms with great effect.",
+      "urls": [
+        "https://kotaku.com/tekken-boss-katsuhiro-harada-says-developing-for-xbox-series-s-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child-2000755895"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:200000000",
+      "value": "$200 m",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It isn’t yet clear if rising console prices across the board will serve to bring the Series S back in vogue relative to its larger sibling, though its current price of $200 more than it originally retailed for may have something to do with the constant decline of Xbox console sales (Xbox blames supply constraints).",
+      "urls": [
+        "https://kotaku.com/tekken-boss-katsuhiro-harada-says-developing-for-xbox-series-s-feels-like-having-to-do-extra-work-for-a-slightly-weaker-child-2000755895"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "awkwardly lower performance",
+      "value": "awkwardly lower performance.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Tekken development legend Katsuhiro Harada had some strong comments for Microsoft&#x27;s lower-powered Xbox Series S console, dubbing it a \"weaker child\" with \"awkwardly lower performance.\"\n\nA number of video game developers have struggled with the Xbox Series S while following Microsoft&#x27;s feature parity rules across Xbox Series consoles.",
+      "urls": [
+        "https://www.ign.com/articles/tekken-legend-katsuhiro-harada-says-he-wishes-hardware-like-the-xbox-series-s-wouldnt-be-released"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there x27 s something i really want to say while i have the floor",
+      "value": "There&#x27;s something I really want to say while I have the floor,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"There&#x27;s something I really want to say while I have the floor,\" Harada began (thanks, Inven Global), \"since a senior Xbox official is actually in attendance here today, I wish hardware like the Xbox Series S wouldn&#x27;t be released (laughs).\"\n\nThroughout his years in charge of Tekken, Harada has become known as a colorful character happy to express his opinions freely.",
+      "urls": [
+        "https://www.ign.com/articles/tekken-legend-katsuhiro-harada-says-he-wishes-hardware-like-the-xbox-series-s-wouldnt-be-released"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "feel reassured and release a successor like x27 helix s x27 for the next gen xbox as well laughs",
+      "value": "feel reassured and release a successor like &#x27;Helix S&#x27; for the next-gen Xbox as well (laughs).",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Acknowledging Sasko&#x27;s more positive take, Harada concluded that he was now worried Microsoft would \"feel reassured and release a successor like &#x27;Helix S&#x27; for the next-gen Xbox as well (laughs).\"\n\nWill Xbox release a lower-powered Helix console?",
+      "urls": [
+        "https://www.ign.com/articles/tekken-legend-katsuhiro-harada-says-he-wishes-hardware-like-the-xbox-series-s-wouldnt-be-released"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1200",
+      "value": "$1,200",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "After earlier reports that suggested the new console was reportedly targeting a holiday 2027 launch, more recent estimates have pointed to a 2028 launch for the machine — at an eyewatering $1,200 - $1,800 price point.",
+      "urls": [
+        "https://www.ign.com/articles/tekken-legend-katsuhiro-harada-says-he-wishes-hardware-like-the-xbox-series-s-wouldnt-be-released"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1800",
+      "value": "$1,800",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "After earlier reports that suggested the new console was reportedly targeting a holiday 2027 launch, more recent estimates have pointed to a 2028 launch for the machine — at an eyewatering $1,200 - $1,800 price point.",
+      "urls": [
+        "https://www.ign.com/articles/tekken-legend-katsuhiro-harada-says-he-wishes-hardware-like-the-xbox-series-s-wouldnt-be-released"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "according to inven global before responding",
+      "value": "according to Inven Global, before responding:",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sasko proceeded to \"burst out laughing\" according to Inven Global, before responding: \"It constantly throws challenges at us and forces us to optimize our code very cleanly.\"\n\nHarada followed up with additional thoughts: \"You just used a very polite and elegant way to say \"Xbox Series S sucks,\" right?",
+      "urls": [
+        "https://www.eurogamer.net/katsuhiro-harada-xbox-series-s-wish-it-wouldnt-release"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "here shift up s dongki lee ended the topic with some optimism for microsoft s future consoles",
+      "value": "Here, Shift Up's DongKi Lee ended the topic with some optimism for Microsoft's future consoles:",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I'm worried they'll feel reassured and release a successor like 'Helix S' for the next-gen Xbox as well (laughs).\"\n\nHere, Shift Up's DongKi Lee ended the topic with some optimism for Microsoft's future consoles: \"Personally, I am looking forward to the next-gen Xbox 'Helix'.",
+      "urls": [
+        "https://www.eurogamer.net/katsuhiro-harada-xbox-series-s-wish-it-wouldnt-release"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:800",
+      "value": "$800",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It’d be nice, but sadly I’m not willing to drop $800+ for a translucent version of the console I snagged for $400 a few years ago.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/microsoft-announces-last-minute-restock-of-the-xbox-series-x25-console"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:400",
+      "value": "$400",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It’d be nice, but sadly I’m not willing to drop $800+ for a translucent version of the console I snagged for $400 a few years ago.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/microsoft-announces-last-minute-restock-of-the-xbox-series-x25-console"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3980",
+      "value": "$3980",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If I were to add in my E-Day Lancer Chainsaw (which does not ship until next year), and the controller too, I have spent in excess of £3000 ($3980) this year alone, and doesn't include the money I spent upgrading my gaming PC (which is now lightning fast!).",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/microsoft-announces-last-minute-restock-of-the-xbox-series-x25-console"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:570",
+      "value": "$569.99,",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "10+ Game Pass Titles Are Confirmed For Xbox's 25th Anniversary Week\n\nXbox's New 25 Years Bundle Retails For $569.99, And Here's The Full List Of Games\n\nXbox Publisher Announces Four Games Being Delisted By End Of 2026\n\nAMD FSR Upscaling 4.1 Has Officially Arrived For Xbox Series X|S\n\nHow To Preload GTA 6 In Full On Xbox Series X|S (Even If You Haven't Bought It)",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/microsoft-announces-last-minute-restock-of-the-xbox-series-x25-console"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 19,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "17 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

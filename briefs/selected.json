@@ -1,10 +1,40 @@
 {
-  "decided": "2026-11-11T02:22:25.725Z",
+  "decided": "2026-11-12T03:29:17.513Z",
   "publish": true,
-  "reason": "selected on score 56.2",
+  "reason": "selected on score 47.9",
   "brief": "2026-11-11-take-two-ceo-grand-theft-auto-vi-pre-orders-are-exceeding-ex.json",
   "title": "Take-Two CEO: Grand Theft Auto VI pre-orders are exceeding expectations",
   "considered": [
+    {
+      "file": "2026-11-12-witcher-3s-new-expansion-pairs-geralts-polish-voice-actor-wi.json",
+      "title": "Witcher 3's New Expansion Pairs Geralt's Polish Voice Actor With AI, But It's A \"Special Case\"",
+      "pass": false,
+      "reason": "0 of 11 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-11-12-tekken-creator-says-he-wishes-hardware-like-the-xbox-series-.json",
+      "title": "Tekken creator says he wishes hardware like the Xbox Series S 'wouldn’t be released'",
+      "pass": true,
+      "reason": "2/19 claims corroborated · 6 outlets · secondary only · 9h old"
+    },
+    {
+      "file": "2026-11-12-players-say-world-of-warcraft-forevers-pvp-realms-are-super-.json",
+      "title": "Players Say World Of Warcraft: Forever’s PvP Realms Are Super Lopsided Right Now, And Blizzard Is Finally Stepping In",
+      "pass": false,
+      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-11-12-hey-nintendo-whats-going-on-with-zelda-ocarina-of-times-most.json",
+      "title": "Hey, Nintendo, What’s Going On With Zelda: Ocarina Of Time’s Most Insufferable Couple?",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-12-grand-theft-auto-has-broken-so-much-ground-what-else-can-gta.json",
+      "title": "Grand Theft Auto Has Broken So Much Ground, What Else Can GTA 6 Do?",
+      "pass": false,
+      "reason": "1 of 14 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
     {
       "file": "2026-11-11-you-can-play-gta-6-on-a-13-year-old-xbox-and-itll-run-at-the.json",
       "title": "You Can Play GTA 6 On A 13-Year-Old Xbox And It’ll Run At The Same Framerate As PS5 Pro",
@@ -15,43 +45,13 @@
       "file": "2026-11-11-take-two-ceo-grand-theft-auto-vi-pre-orders-are-exceeding-ex.json",
       "title": "Take-Two CEO: Grand Theft Auto VI pre-orders are exceeding expectations",
       "pass": true,
-      "reason": "2/27 claims corroborated · 9 outlets · primary source · 9h old"
+      "reason": "2/27 claims corroborated · 9 outlets · primary source · 34h old"
     },
     {
       "file": "2026-11-11-sony-cancels-another-live-service-game-ahead-of-release-but-.json",
       "title": "Sony cancels another live service game ahead of release, but at least there won't be any layoffs this time",
       "pass": false,
       "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-11-playstation-plus-monthly-games-for-november-2026-announced.json",
-      "title": "PlayStation Plus Monthly Games for November 2026 Announced",
-      "pass": false,
-      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-11-11-big-walk-ai-controversy-is-a-goty-awards-twist-sparking-a-bi.json",
-      "title": "Big Walk AI Controversy Is a GOTY Awards Twist Sparking a Bigger Debate",
-      "pass": true,
-      "reason": "2/13 claims corroborated · 7 outlets · secondary only · 7h old"
-    },
-    {
-      "file": "2026-11-10-warhammer-40000-dark-heresy-releases-in-january-leaving-not-.json",
-      "title": "Warhammer 40,000: Dark Heresy releases in January, leaving not very long to prepare for all the crunchy cRPG choices and secret wars it'll lob your way",
-      "pass": false,
-      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-10-the-legend-of-zelda-ocarina-of-time-took-away-auto-jump-and-.json",
-      "title": "The Legend of Zelda: Ocarina of Time Took Away Auto Jump, and Poor Link Is Paying the Price",
-      "pass": false,
-      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-11-10-gta-6-pre-orders-outperform-even-take-twos-expectations-gta-.json",
-      "title": "GTA 6 Pre-Orders Outperform Even Take-Two's Expectations, GTA 5 Just Keeps on Selling",
-      "pass": true,
-      "reason": "6/34 claims corroborated · 7 outlets · secondary only · 28h old"
     }
   ]
 }

@@ -1,0 +1,224 @@
+{
+  "generated": "2026-11-12T03:29:16.826Z",
+  "workingTitle": "Witcher 3's New Expansion Pairs Geralt's Polish Voice Actor With AI, But It's A \"Special Case\"",
+  "heat": 54.1,
+  "outletCount": 5,
+  "outlets": [
+    "Nintendo Life",
+    "PC Gamer",
+    "Destructoid",
+    "Kotaku",
+    "IGN"
+  ],
+  "newest": "2026-11-12T02:55:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Witcher 3's New Expansion Pairs Geralt's Polish Voice Actor With AI, But It's A \"Special Case\"",
+        "url": "https://www.nintendolife.com/news/2026/11/witcher-3s-new-expansion-pairs-geralts-polish-voice-actor-with-ai-but-its-a-special-case",
+        "date": "2026-11-12T02:55:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "CD Projekt used AI to modify the voice of Geralt's Polish actor after a stroke left it significantly changed: 'This was a special case'",
+        "url": "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/",
+        "date": "2026-11-12T00:02:47.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "The Witcher 3: Songs of the Past’s Polish Geralt VA will be tuned with AI due to the actor’s health concerns",
+        "url": "https://www.destructoid.com/witcher-3-devs-used-ai-to-tune-polish-geralt-voice/",
+        "date": "2026-11-11T22:01:33.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The Witcher 3 Devs Explain Using AI To Help With Geralt’s Polish Voice In Songs Of The Past: ‘This Is One Of Those Ways Where You Can Use AI Ethically’",
+        "url": "https://kotaku.com/the-witcher-3-devs-explain-using-ai-to-help-with-geralts-polish-voice-in-songs-of-the-past-this-is-one-of-those-ways-where-you-can-use-ai-ethically-2000756004",
+        "date": "2026-11-11T22:00:04.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "CD Projekt Red Used AI to Alter Geralt's Voice Due to Polish Actor's Health Issues",
+        "url": "https://www.ign.com/articles/cd-projekt-red-used-ai-to-alter-geralts-voice-due-to-polish-actors-health-issues",
+        "date": "2026-11-11T21:52:56.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "i do think this is one of those ways where you can use ai ethically with consent and also do something good",
+      "value": "I do think this is one of those ways where you can use AI ethically, with consent and also do something good",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "CD Projekt Red's head of localization Mikołaj Szwed shared the following comment with Game File about this decision:\n\n\"I do think this is one of those ways where you can use AI ethically, with consent and also do something good\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/witcher-3s-new-expansion-pairs-geralts-polish-voice-actor-with-ai-but-its-a-special-case"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "sorry we know you had a stroke but you don t sound like your voice anymore so you re out of the job",
+      "value": "Sorry, we know you had a stroke, but you don't sound like your voice anymore so you're out of the job.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I think this much more preferable to the alternative \"Sorry, we know you had a stroke, but you don't sound like your voice anymore so you're out of the job.\"\n\nIf it's consent first and used in a good manner, I think it could be okay.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/witcher-3s-new-expansion-pairs-geralts-polish-voice-actor-with-ai-but-its-a-special-case"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the brief was simple make jacek s voice sound alive rich and young like in the original game",
+      "value": "The brief was simple: make Jacek’s voice sound alive, rich and young, like in the original game,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The brief was simple: make Jacek’s voice sound alive, rich and young, like in the original game,\" synthetic speech artist Dmytro Vasylets said.",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the point is that this voice should be as close as possible to my voice from 12 years ago",
+      "value": "The point is that this voice should be as close as possible to my voice from 12 years ago,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Because of that, he's all in favor of the AI treatment: \"The point is that this voice should be as close as possible to my voice from 12 years ago,\" he said.",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i have great trust for the creators of this game",
+      "value": "I have great trust…for the creators of this game.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I have great trust…for the creators of this game.\"\n\nKeep up to date with the most important stories and the best deals, as picked by the PC Gamer team.",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as a person working with voice actors over all the regions in the world this is a big concern",
+      "value": "as a person working with voice actors over all the regions in the world, this is a big concern,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "CD Projekt itself has been ambivalent about AI; localization producer Mikołaj Szwed told Game File that \"as a person working with voice actors over all the regions in the world, this is a big concern,\" although he added that \"this was a special case\" caused by Rozenek's health problems.",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as russell said rozenek s stroke created a more substantial change totilo said his untouched voice in the expansion",
+      "value": "as Russell said, Rozenek's stroke created a more substantial change: Totilo said his untouched voice in the expansion",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But while \"the equipment changes,\" as Russell said, Rozenek's stroke created a more substantial change: Totilo said his untouched voice in the expansion \"sounds deep and gravelly, noticeably rougher than his recordings for the original game,\" while the AI-edited voice is much closer to Rozenek's voice as it was a decade ago.",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 Antec C6 Curve Air review 2 Sudokoo SK700V review 3 Glorious GMMK Eternal review 4 Acer Predator Atlas 8 (G3 Extreme) review 5 Alienware AW3226Q review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/cd-projekt-used-ai-to-modify-the-voice-of-geralts-polish-actor-after-a-stroke-left-it-significantly-changed-this-was-a-special-case/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "was so exhausted after this recording",
+      "value": "was so exhausted after this recording.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He was able to return for a couple of quests in the Next-Gen update that came out back in 2022, but told Game File that he \"was so exhausted after this recording.\" Still, CD Projekt Red wanted him to return for the new expansion, so it had to think outside the box.",
+      "urls": [
+        "https://www.ign.com/articles/cd-projekt-red-used-ai-to-alter-geralts-voice-due-to-polish-actors-health-issues"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 11,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

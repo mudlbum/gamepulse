@@ -1,0 +1,289 @@
+{
+  "generated": "2026-11-12T03:29:16.148Z",
+  "workingTitle": "Grand Theft Auto Has Broken So Much Ground, What Else Can GTA 6 Do?",
+  "heat": 74.4,
+  "outletCount": 8,
+  "outlets": [
+    "GameSpot",
+    "Kotaku",
+    "PCGamesN",
+    "Game Developer",
+    "Xbox Wire",
+    "PlayStation Blog",
+    "Pure Xbox",
+    "Eurogamer"
+  ],
+  "newest": "2026-11-11T21:00:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Grand Theft Auto VI"
+  ],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Grand Theft Auto VI Comes to XBOX One and XBOX Series X|S Through XBOX Cloud Gaming on November 19",
+        "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+        "date": "2026-11-10T15:45:00.000Z",
+        "host": "news.xbox.com"
+      },
+      {
+        "outlet": "PlayStation Blog",
+        "title": "Pre-load Grand Theft Auto VI on PS5 starting today",
+        "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+        "date": "2026-11-10T15:41:17.000Z",
+        "host": "blog.playstation.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Grand Theft Auto 5: The Kotaku Re-Review",
+        "url": "https://kotaku.com/grand-theft-auto-5-the-kotaku-re-review-2000755163",
+        "date": "2026-11-11T20:30:54.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "GTA 6 weapons - All Grand Theft Auto 6 guns",
+        "url": "https://www.pcgamesn.com/grand-theft-auto-6/weapons-guns",
+        "date": "2026-11-11T16:13:36.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Take-Two CEO: Grand Theft Auto VI pre-orders are exceeding expectations",
+        "url": "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations",
+        "date": "2026-11-10T17:49:05.000Z",
+        "host": "www.gamedeveloper.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Grand Theft Auto Has Broken So Much Ground, What Else Can GTA 6 Do?",
+        "url": "https://www.gamespot.com/articles/grand-theft-auto-has-broken-so-much-ground-what-else-can-gta-6-do/",
+        "date": "2026-11-11T21:00:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-11-10",
+      "value": "November 10, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "November 10, 2026November 10, 2026 Pre-load Grand Theft Auto VI on PS5 starting today 23 0 171 Like this Plus a new video showcasing unique PS5 features for GTAVI.",
+      "urls": [
+        "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "tracking far above our initial expectations",
+      "value": "tracking far above our initial expectations",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In a comment made during the second quarter earnings briefing, Zelnick commented that—despite GTA 6 not officially being released for another week—its launch trajectory is \"tracking far above our initial expectations\" in terms of preorder volume.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:50000000:copies",
+      "value": "50 million copies",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Some analysts believe the game will sell more than 50 million copies in its first year, which may mean that even potentially lofty expectations could be exceeded.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:5000000:copies",
+      "value": "5 million copies",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Related:The Legend of Zelda: Ocarina of Time exceeds 5 million copies sold in first week\n\nBacking up the publisher&#x27;s optimism is confirmation from PlayStation that Grand Theft Auto VI is officially the most pre-ordered game in the history of the PlayStation store, presumably since the store opened in 2006, but likewise did not share direct numbers.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:235000000:copies",
+      "value": "235 million copies",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In other Take-Two financial news, GTA 6&#x27;s predecessor, Grand Theft Auto V, reached 235 million copies sold in the last quarter, pushing the overall franchise numbers for the entire Grand Theft Auto series to 480 million units.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:480000000:units",
+      "value": "480 million units",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In other Take-Two financial news, GTA 6&#x27;s predecessor, Grand Theft Auto V, reached 235 million copies sold in the last quarter, pushing the overall franchise numbers for the entire Grand Theft Auto series to 480 million units.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-09-30",
+      "value": "September 30, 2026",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Net bookings and net revenue for the company are down overall for the quarter ending September 30, 2026 when compared to the year prior, largely owed to a slow start for NBA 2K27, which Zelnick explains away in an interview with IGN as suffering from proximity to Grand Theft Auto VI.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1600000000",
+      "value": "$1.6 billion",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This year, Take-Two reported $1.6 billion in net bookings, down $276.8 million and 1.2 percent shy of targets, while net revenue came in at $1.497 billion, down $276.8 million and slightly above forecasts.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:277000000",
+      "value": "$276.8 million",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This year, Take-Two reported $1.6 billion in net bookings, down $276.8 million and 1.2 percent shy of targets, while net revenue came in at $1.497 billion, down $276.8 million and slightly above forecasts.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1500000000",
+      "value": "$1.497 billion",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This year, Take-Two reported $1.6 billion in net bookings, down $276.8 million and 1.2 percent shy of targets, while net revenue came in at $1.497 billion, down $276.8 million and slightly above forecasts.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:19500000",
+      "value": "$19.5 million",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For the same period, operating profit decreased by roughly $19.5 million, going from last year&#x27;s loss of $98 million to a loss of $117.5 million this quarter.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:98000000",
+      "value": "$98 million",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For the same period, operating profit decreased by roughly $19.5 million, going from last year&#x27;s loss of $98 million to a loss of $117.5 million this quarter.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:118000000",
+      "value": "$117.5 million",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For the same period, operating profit decreased by roughly $19.5 million, going from last year&#x27;s loss of $98 million to a loss of $117.5 million this quarter.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:8000000000",
+      "value": "$8 billion",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Upcoming guidance, though, expects net bookings to exceed $8 billion for the full fiscal year, likely with GTA 6 leading the charge.",
+      "urls": [
+        "https://www.gamedeveloper.com/business/take-two-financials-are-steady-while-the-ceo-claims-that-grand-theft-auto-vi-pre-orders-are-exceeding-expectations"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 14,
+  "ourData": [
+    {
+      "game": "Grand Theft Auto VI",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "2 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "13 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

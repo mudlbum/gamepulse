@@ -1,0 +1,238 @@
+{
+  "generated": "2026-11-12T03:29:17.430Z",
+  "workingTitle": "Players Say World Of Warcraft: Forever’s PvP Realms Are Super Lopsided Right Now, And Blizzard Is Finally Stepping In",
+  "heat": 42.1,
+  "outletCount": 5,
+  "outlets": [
+    "Kotaku",
+    "IGN",
+    "PC Gamer",
+    "Game Developer",
+    "PCGamesN"
+  ],
+  "newest": "2026-11-11T18:30:20.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Players Say World Of Warcraft: Forever’s PvP Realms Are Super Lopsided Right Now, And Blizzard Is Finally Stepping In",
+        "url": "https://kotaku.com/world-of-warcraft-forevers-pvp-realms-are-super-imbalanced-and-blizzard-is-finally-stepping-in-2000755911",
+        "date": "2026-11-11T18:30:20.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Blizzard Changes World of Warcraft Forever Gold Rewards for High Level Quests, and Players Are Celebrating",
+        "url": "https://www.ign.com/articles/blizzard-changes-gold-rewards-for-high-level-quests-and-players-are-celebrating",
+        "date": "2026-11-11T16:14:26.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "WoW: Forever to add extra gold to high-level quests, since it turns out you don't get extra cash at 60",
+        "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/",
+        "date": "2026-11-11T11:41:45.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "World of Warcraft: Forever is the MMORPG's biggest launch as measured by peak concurrent players",
+        "url": "https://www.gamedeveloper.com/pc/world-of-warcraft-forever-is-the-mmorpg-s-biggest-launch-in-player-numbers",
+        "date": "2026-11-09T16:39:06.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "World of Warcraft Forever is officially WoW's biggest launch ever, and it's not even close",
+        "url": "https://www.pcgamesn.com/world-of-warcraft/forever-launch-record",
+        "date": "2026-11-09T15:54:57.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "in the next 24 hours or so",
+      "value": "in the next 24 hours or so",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Thankfully, Blizzard community manager Kaivax has posted on the WoW forum to say a hotfix will go live \"in the next 24 hours or so\" to help high level players earn a little bit of gold.",
+      "urls": [
+        "https://www.ign.com/articles/blizzard-changes-gold-rewards-for-high-level-quests-and-players-are-celebrating"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this is a deal breaker for me wont be playing any more until this is reverted",
+      "value": "This is a deal breaker for me, wont be playing any more until this is reverted,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Player Glôwstick said, \"This is a deal breaker for me, wont be playing any more until this is reverted,\" while Rackjaw commented, \"WoW Forever devs seem to be obsessed with &#x27;fixing&#x27; things that aren’t broken.\"\n\nHowever, players seem to have changed their tune immediately after Kaivax&#x27;s response.",
+      "urls": [
+        "https://www.ign.com/articles/blizzard-changes-gold-rewards-for-high-level-quests-and-players-are-celebrating"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "just before the release of the original burning crusade",
+      "value": "just before the release of the original Burning Crusade",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While I never relish in 'um, actually'-ing anybody, I am unfortunately a videogame journalist and do have to look into these things: \"just before the release of the original Burning Crusade\" is a bit of a misnomer (and a change from the original announcement, which said \"weeks\").",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:1.10.0",
+      "value": "Patch 1.10.0",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Vanilla WoW added the XP-to-gold conversion in Patch 1.10.0, confirmed both here on a wiki and, god bless, the Octopus Overlords forum, which still miraculously has a news post from 20 years ago around the time of the patches' release that mentions the \"Quest Experience to Gold Conversion at Level 60.\" I was also able to dig up these Shacknews and Macnews articles which both also mention it.",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "quest experience to gold conversion at level 60",
+      "value": "Quest Experience to Gold Conversion at Level 60.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Vanilla WoW added the XP-to-gold conversion in Patch 1.10.0, confirmed both here on a wiki and, god bless, the Octopus Overlords forum, which still miraculously has a news post from 20 years ago around the time of the patches' release that mentions the \"Quest Experience to Gold Conversion at Level 60.\" I was also able to dig up these Shacknews and Macnews articles which both also mention it.",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2006-03-28",
+      "value": "March 28, 2006",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Said patch arrived March 28, 2006, whereas The Burning Crusade was released on January 16, 2007.",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2007-01-16",
+      "value": "January 16, 2007",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Said patch arrived March 28, 2006, whereas The Burning Crusade was released on January 16, 2007.",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "burning crusade and only technically",
+      "value": "Burning Crusade, and only technically",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's not arguably \"just before\" Burning Crusade, and only technically \"weeks\" before.",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-to-add-extra-gold-to-high-level-quests-since-it-turns-out-you-dont-get-extra-cash-at-60/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "congratulations everyone you made history",
+      "value": "Congratulations, everyone, you made history!",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Congratulations, everyone, you made history!\" Blizzard writes in a recent social media post, thanking the community for making the launch such a success.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-launch-record"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the most new players for a wow launch in 15 years",
+      "value": "the most new players for a WoW launch in 15 years.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Executive producer Holly Longdale also shares that Forever is leading the developer to see \"the most new players for a WoW launch in 15 years.\" Forever launched on November 4 as a new permanent branch of World of Warcraft, sitting alongside the modern game and WoW Classic.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-launch-record"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 12,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
