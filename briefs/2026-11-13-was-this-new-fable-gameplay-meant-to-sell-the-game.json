@@ -1,0 +1,101 @@
+{
+  "generated": "2026-11-13T03:01:47.475Z",
+  "workingTitle": "Was This New Fable Gameplay Meant to Sell the Game?",
+  "heat": 74.3,
+  "outletCount": 7,
+  "outlets": [
+    "Push Square",
+    "PC Gamer",
+    "IGN",
+    "GameSpot",
+    "Xbox Wire",
+    "Destructoid",
+    "Pure Xbox"
+  ],
+  "newest": "2026-11-13T00:00:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "Was This New Fable Gameplay Meant to Sell the Game?",
+        "url": "https://www.pushsquare.com/news/2026/11/was-this-new-fable-gameplay-meant-to-sell-the-game",
+        "date": "2026-11-13T00:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable",
+        "url": "https://www.pcgamer.com/games/rpg/new-4-minute-fable-gameplay-trailer-shows-a-game-that-doesnt-look-much-like-fable/",
+        "date": "2026-11-12T22:43:21.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Fable Drops Four Minutes of New Gameplay",
+        "url": "https://www.ign.com/articles/fable-drops-four-minutes-of-new-gameplay",
+        "date": "2026-11-12T20:16:03.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Xbox Playback rolls back the clock for 25th anniversary, showcasing your personal gaming history",
+        "url": "https://www.destructoid.com/xbox-playback-25th-anniversary-showcasing-gaming-history/",
+        "date": "2026-11-12T18:17:42.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Fable – 4 Minutes Of New Questing Gameplay",
+        "url": "https://www.gamespot.com/videos/fable-4-minutes-of-new-questing-gameplay/",
+        "date": "2026-11-12T19:35:40.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/new-4-minute-fable-gameplay-trailer-shows-a-game-that-doesnt-look-much-like-fable/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/new-4-minute-fable-gameplay-trailer-shows-a-game-that-doesnt-look-much-like-fable/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

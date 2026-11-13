@@ -1,0 +1,108 @@
+{
+  "generated": "2026-11-13T03:01:48.312Z",
+  "workingTitle": "How to farm rupees in Zelda Ocarina of Time",
+  "heat": 67.7,
+  "outletCount": 7,
+  "outlets": [
+    "Polygon",
+    "IGN",
+    "GameSpot",
+    "Kotaku",
+    "Nintendo Life",
+    "Game Developer",
+    "Eurogamer"
+  ],
+  "newest": "2026-11-12T21:43:44.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "How to farm rupees in Zelda Ocarina of Time",
+        "url": "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-rupee-farming-methods/",
+        "date": "2026-11-12T21:43:44.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "‘Maybe We’ve Gone a Step Too Far’ — Ocarina of Time Remake Producer Reveals the Game's ReDeads Were Originally Supposed to Be Even Scarier",
+        "url": "https://www.ign.com/articles/maybe-weve-gone-a-step-too-far-ocarina-of-time-remake-producer-reveals-the-games-redeads-were-originally-supposed-to-be-even-scarier",
+        "date": "2026-11-12T20:02:51.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "The Legend Of Zelda: Ocarina Of Time Bosses, Ranked From Worst To Best",
+        "url": "https://kotaku.com/the-legend-of-zelda-ocarina-of-time-bosses-ranked-from-worst-to-best-2000756332",
+        "date": "2026-11-12T19:00:58.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Zelda: Ocarina Of Time Remake Replicates Notorious Glitch For Infinite Gold Skulltulas",
+        "url": "https://kotaku.com/zelda-ocarina-of-time-remake-replicates-the-originals-infinite-gold-skulltula-glitch-2000756269",
+        "date": "2026-11-12T16:30:00.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Talking Point: What's Your Favourite Tiny Tweak In Zelda: Ocarina Of Time?",
+        "url": "https://www.nintendolife.com/features/talking-point-whats-your-favourite-tiny-tweak-in-zelda-ocarina-of-time",
+        "date": "2026-11-12T16:00:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "The Legend Of Zelda: Ocarina Of Time Remake Pays Tribute To A Classic, Non-Canon Manga",
+        "url": "https://www.gamespot.com/articles/the-legend-of-zelda-ocarina-of-time-remake-pays-tribute-to-a-classic-non-canon-manga/",
+        "date": "2026-11-12T19:06:06.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "oooh look how they changed that bit",
+      "value": "Oooh, look how they changed that bit!",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Knowing the original game like the back of my hand, I'm yet to walk into a room without going, \"Oooh, look how they changed that bit!\" But the one that has stood out to me the most so far is being able to ride Epona right up to the entrance to Kakariko Village without getting chucked off at the bottom of the stairs.",
+      "urls": [
+        "https://www.nintendolife.com/features/talking-point-whats-your-favourite-tiny-tweak-in-zelda-ocarina-of-time"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "how was i supposed to know",
+      "value": "how was I supposed to know?",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There's much less \"how was I supposed to know?\" moments.",
+      "urls": [
+        "https://www.nintendolife.com/features/talking-point-whats-your-favourite-tiny-tweak-in-zelda-ocarina-of-time"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

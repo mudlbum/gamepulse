@@ -1,0 +1,331 @@
+{
+  "generated": "2026-11-13T03:01:48.457Z",
+  "workingTitle": "DOOM Developer id Software Confirms It's Working On A New Game",
+  "heat": 63.8,
+  "outletCount": 6,
+  "outlets": [
+    "Nintendo Life",
+    "Kotaku",
+    "PC Gamer",
+    "GameSpot",
+    "IGN",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-11-13T01:55:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "DOOM Developer id Software Confirms It's Working On A New Game",
+        "url": "https://www.nintendolife.com/news/2026/11/doom-developer-id-software-confirms-its-working-on-a-new-game",
+        "date": "2026-11-13T01:55:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Id Software Says It’s Working On Its Next Game, Directed By Doom’s Hugo Martin",
+        "url": "https://kotaku.com/id-software-says-its-working-on-its-next-game-directed-by-dooms-hugo-martin-2000756358",
+        "date": "2026-11-12T21:33:06.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Doom studio id Software confirms it's working on a new game",
+        "url": "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/",
+        "date": "2026-11-12T21:10:04.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Doom Developer id Software Confirms Work on New Game, Will Be Directed by Hugo Martin",
+        "url": "https://www.ign.com/articles/doom-developer-id-software-confirms-work-on-new-game-will-be-directed-by-hugo-martin",
+        "date": "2026-11-12T20:00:25.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "After being laid off by Microsoft, former Doom devs found new Smash TV-influenced FPS studio that isn't \"subject to investor demands\"",
+        "url": "https://www.rockpapershotgun.com/after-being-laid-off-by-microsoft-former-doom-devs-found-new-smash-tv-influenced-fps-studio-that-isnt-subject-to-investor-demands",
+        "date": "2026-11-11T18:08:40.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "New Doom Game Seemingly Announced In The Weirdest Way After Half The Studio Was Laid Off",
+        "url": "https://www.gamespot.com/articles/new-doom-game-seemingly-announced-in-the-weirdest-way-after-half-the-studio-was-laid-off/",
+        "date": "2026-11-12T21:07:28.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "according to the verge s senior correspondent tom warren this project is a",
+      "value": "According to The Verge's senior correspondent Tom Warren, this project is a",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It'll be some time before we're ready to share more but we can't wait for you to see what we're working on.\"\n\nAccording to The Verge's senior correspondent Tom Warren, this project is a \"new Doom game\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/doom-developer-id-software-confirms-its-working-on-a-new-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i reported in july that id were in the early stages of a new doom game and now it s confirmed",
+      "value": "I reported in July that id were in the “early stages of a new Doom game” and now it’s confirmed.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Here's what he had to say in response to id Software news on social media:\n\n\"I reported in July that id were in the “early stages of a new Doom game” and now it’s confirmed.\"\n\nThis follows the news earlier this year of layoffs at id Software, which led to a statement from the studio, noting how the team was now \"about the same size\" as it was when making DOOM (2016).",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/doom-developer-id-software-confirms-its-working-on-a-new-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "at machinegames the elder scrolls 6 sentinel is reportedly still",
+      "value": "At MachineGames\n\nThe Elder Scrolls 6: Sentinel Is Reportedly Still",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(speaking from experience )\n\nSkyrim Celebrates 15 Years Of Adventure With Switch eShop Sale, Get 60% Off\n\nWolfenstein 3 Is Now \"Officially In Production\" At MachineGames\n\nThe Elder Scrolls 6: Sentinel Is Reportedly Still \"More Than Two Years Away\"",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/doom-developer-id-software-confirms-its-working-on-a-new-game"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "few studios have shaped the first person shooter genre as much as id software",
+      "value": "Few studios have shaped the first-person shooter genre as much as id Software,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Few studios have shaped the first-person shooter genre as much as id Software,\" Sharma wrote.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "slaughter mode comes to doom the dark ages revelations on monday and the team is already working on its next game",
+      "value": "Slaughter Mode comes to Doom: The Dark Ages - Revelations on Monday, and the team is already working on its next game.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Slaughter Mode comes to Doom: The Dark Ages - Revelations on Monday, and the team is already working on its next game.\"\n\n\"Already\" might be stretching it a bit: The studio's previous game, Doom: The Dark Ages, came out well over a year ago, although the Revelations expansion only dropped in July.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we re incredibly excited about our next project a new game from our teams in texas and frankfurt with game direction once again by hugo martin",
+      "value": "We're incredibly excited about our next project, a new game from our teams in Texas and Frankfurt, with game direction once again by Hugo Martin,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We're incredibly excited about our next project, a new game from our teams in Texas and Frankfurt, with game direction once again by Hugo Martin,\" the studio said.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it ll be some time before we re ready to share more but we can t wait for you to see what we re working on",
+      "value": "It'll be some time before we're ready to share more but we can't wait for you to see what we're working on.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It'll be some time before we're ready to share more but we can't wait for you to see what we're working on.\"\n\nIf that rings a bell, you may be thinking of The Elder Scrolls 6: Sentinel, which was given an official subtitle earlier this month—eight years after it was first announced.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there was a very deliberate effort to make sure that we were incredibly viable coming out of that across everything we do",
+      "value": "there was a very deliberate effort to make sure that we were incredibly viable coming out of that across everything we do.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Studio co-director Marty Stratton said in October that \"there was a very deliberate effort to make sure that we were incredibly viable coming out of that across everything we do.\" Stratton also said id is now \"working more closely with MachineGames than ever,\" leading to speculation that the two studios may be collaborating on Wolfenstein 3.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "escalating rounds of random encounters bosses and arenas",
+      "value": "escalating rounds of random encounters, bosses and arenas",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As for the Doom: The Dark Ages Slaughter Mode, it's a horde mode featuring \"escalating rounds of random encounters, bosses and arenas\" that's set to go live on November 16.",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/doom-studio-id-software-confirms-its-working-on-a-new-game/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "id itself also posted saying",
+      "value": "id itself also posted, saying,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Slaughter Mode comes to DOOM: The Dark Ages | Revelations on November 16, and the team is already working on its next game.\" id itself also posted, saying, \"We&#x27;re incredibly excited about our next project, a new game from our teams in Texas and Frankfurt, with game direction once again by Hugo Martin.",
+      "urls": [
+        "https://www.ign.com/articles/doom-developer-id-software-confirms-work-on-new-game-will-be-directed-by-hugo-martin"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the kind of old school shooters that we think people want more of",
+      "value": "the kind of old school shooters that we think people want more of,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They're looking to make \"the kind of old school shooters that we think people want more of,\" in Land's words.",
+      "urls": [
+        "https://www.rockpapershotgun.com/after-being-laid-off-by-microsoft-former-doom-devs-found-new-smash-tv-influenced-fps-studio-that-isnt-subject-to-investor-demands"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "our structure is quite flat and we elect leaders when needed",
+      "value": "Our structure is quite flat, and we elect leaders when needed,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Our structure is quite flat, and we elect leaders when needed,\" Willis told Vertical Slice in a separate interview.",
+      "urls": [
+        "https://www.rockpapershotgun.com/after-being-laid-off-by-microsoft-former-doom-devs-found-new-smash-tv-influenced-fps-studio-that-isnt-subject-to-investor-demands"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we ve replicated some things changed some things and added others",
+      "value": "We've replicated some things, changed some things, and added others ,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We've replicated some things, changed some things, and added others ,\" Willis went on.",
+      "urls": [
+        "https://www.rockpapershotgun.com/after-being-laid-off-by-microsoft-former-doom-devs-found-new-smash-tv-influenced-fps-studio-that-isnt-subject-to-investor-demands"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "willis s hope is that the",
+      "value": "Willis's hope is that the",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We think there is a market for that and our experiences with the gaming community in our past work history informs that.\"\n\nWillis's hope is that the \"flat\" structure will motivate staff to work harder, because they feel like they have a meaningful say over the company's direction.",
+      "urls": [
+        "https://www.rockpapershotgun.com/after-being-laid-off-by-microsoft-former-doom-devs-found-new-smash-tv-influenced-fps-studio-that-isnt-subject-to-investor-demands"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it allows all ideas to be considered and means we don t miss out on any contributions from our employees just because they don t sit high up in some arbitrary hierarchy",
+      "value": "It allows all ideas to be considered and means we don't miss out on any contributions from our employees just because they don't sit high up in some arbitrary hierarchy,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It allows all ideas to be considered and means we don't miss out on any contributions from our employees just because they don't sit high up in some arbitrary hierarchy,\" he said..",
+      "urls": [
+        "https://www.rockpapershotgun.com/after-being-laid-off-by-microsoft-former-doom-devs-found-new-smash-tv-influenced-fps-studio-that-isnt-subject-to-investor-demands"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we want to create a vehicle that allows us to make games for our livelihoods not to make crazy profits and get 100x returns",
+      "value": "We want to create a vehicle that allows us to make games for our livelihoods, not to make crazy profits and get 100x returns,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We want to create a vehicle that allows us to make games for our livelihoods, not to make crazy profits and get 100x returns,\" Willis went on.",
+      "urls": [
+        "https://www.rockpapershotgun.com/after-being-laid-off-by-microsoft-former-doom-devs-found-new-smash-tv-influenced-fps-studio-that-isnt-subject-to-investor-demands"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 18,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

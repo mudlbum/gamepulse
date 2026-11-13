@@ -1,0 +1,440 @@
+{
+  "generated": "2026-11-13T03:01:47.895Z",
+  "workingTitle": "After Jensen Huang's resignation from Nvidia, it's all praise or political finger-wagging about the ex-CEO, with little in between",
+  "heat": 72.4,
+  "outletCount": 8,
+  "outlets": [
+    "PC Gamer",
+    "Nintendo Life",
+    "GameSpot",
+    "Game Developer",
+    "Kotaku",
+    "Eurogamer",
+    "Rock Paper Shotgun",
+    "Destructoid"
+  ],
+  "newest": "2026-11-12T17:35:37.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "After Jensen Huang's resignation from Nvidia, it's all praise or political finger-wagging about the ex-CEO, with little in between",
+        "url": "https://www.pcgamer.com/hardware/after-jensen-huangs-resignation-from-nvidia-its-all-praise-or-political-finger-wagging-about-the-ex-ceo-with-little-in-between/",
+        "date": "2026-11-12T17:35:37.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Nvidia stocks jump back up after ex-CEO Jensen Huang's ousting",
+        "url": "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/",
+        "date": "2026-11-12T17:34:31.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Next Nvidia CEO has to have national security as a 'top priority' says chairman of US Gov committee on China – claims Huang departure 'could have been avoided'",
+        "url": "https://www.pcgamer.com/hardware/graphics-cards/next-nvidia-ceo-has-to-have-national-security-as-a-top-priority-says-chairman-of-us-gov-committee-on-china-claims-huang-departure-could-have-been-avoided/",
+        "date": "2026-11-12T17:27:15.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Nvidia's CEO Jensen Huang Resigns Following Infidelity Scandal",
+        "url": "https://www.nintendolife.com/news/2026/11/nvidias-ceo-jensen-huang-resigns-following-infidelity-scandal",
+        "date": "2026-11-12T17:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Trump says the only man who should replace ex-Nvidia CEO Jensen Huang is Tim Cook of Apple fame",
+        "url": "https://www.pcgamer.com/hardware/trump-says-the-only-man-who-should-replace-ex-nvidia-ceo-jensen-huang-is-tim-cook-of-apple-fame/",
+        "date": "2026-11-12T16:35:11.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "The Internet Reacts To Jensen Huang’s Resignation From Nvidia",
+        "url": "https://www.gamespot.com/articles/the-internet-reacts-to-jensen-huang-resignation-from-nvidia/",
+        "date": "2026-11-12T16:39:44.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "trump also has a suggestion for who should take over ex apple ceo tim cook",
+      "value": "Trump also has a suggestion for who should take over: ex-Apple CEO Tim Cook:",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "President Trump certainly expressed as much, saying Huang has done a \"fantastic job.\" Trump also has a suggestion for who should take over: ex-Apple CEO Tim Cook: \"Now that Nvidia CEO Jensen Huang, who has done a fantastic job, has resigned, there is only one man to take his place - Tim Cook of Apple.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/after-jensen-huangs-resignation-from-nvidia-its-all-praise-or-political-finger-wagging-about-the-ex-ceo-with-little-in-between/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "hugging face co founder clement delangue expresses the general sentiment",
+      "value": "Hugging Face co-founder Clement Delangue expresses the general sentiment:",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Trump.\"\n\nHugging Face co-founder Clement Delangue expresses the general sentiment: \"This whole thing sucks, and I wish none of it had happened.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/after-jensen-huangs-resignation-from-nvidia-its-all-praise-or-political-finger-wagging-about-the-ex-ceo-with-little-in-between/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the mission has not and will not change",
+      "value": "the mission has not and will not change.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Julien Chaumond, Hugging Face co-founder and CTO, has expressed that \"the mission has not and will not change.\"\n\nEpic Games CEO Tim Sweeney has expressed his sadness, too: \"A sad day for Nvidia, developers, America, and all humanity.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/after-jensen-huangs-resignation-from-nvidia-its-all-praise-or-political-finger-wagging-about-the-ex-ceo-with-little-in-between/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this would be an apple firing steve jobs level of idiocy from nvidia s board if they did that and a grievous harm to the united states of america",
+      "value": "This would be an Apple firing Steve Jobs level of idiocy from Nvidia’s board if they did that, and a grievous harm to the United States of America.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The former said, \"This would be an Apple firing Steve Jobs level of idiocy from Nvidia’s board if they did that, and a grievous harm to the United States of America.\" And the latter said it would be \"an honor\" to hire him.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/after-jensen-huangs-resignation-from-nvidia-its-all-praise-or-political-finger-wagging-about-the-ex-ceo-with-little-in-between/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "far too much government heavy handedness",
+      "value": "far too much government heavy handedness",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's also no surprise, then, that the Epic CEO has banged the same drum a few additional times since the announcement, calling it \"far too much government heavy handedness\" and taking a dig at Nvidia's new interim CEO for waiting a week until discussing everything in a company meeting.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/after-jensen-huangs-resignation-from-nvidia-its-all-praise-or-political-finger-wagging-about-the-ex-ceo-with-little-in-between/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 Antec C6 Curve Air review 2 Sudokoo SK700V review 3 Glorious GMMK Eternal review 4 Acer Predator Atlas 8 (G3 Extreme) review 5 Alienware AW3226Q review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/hardware/after-jensen-huangs-resignation-from-nvidia-its-all-praise-or-political-finger-wagging-about-the-ex-ceo-with-little-in-between/",
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/",
+        "https://www.pcgamer.com/hardware/graphics-cards/next-nvidia-ceo-has-to-have-national-security-as-a-top-priority-says-chairman-of-us-gov-committee-on-china-claims-huang-departure-could-have-been-avoided/",
+        "https://www.pcgamer.com/hardware/trump-says-the-only-man-who-should-replace-ex-nvidia-ceo-jensen-huang-is-tim-cook-of-apple-fame/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/hardware/after-jensen-huangs-resignation-from-nvidia-its-all-praise-or-political-finger-wagging-about-the-ex-ceo-with-little-in-between/",
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/",
+        "https://www.pcgamer.com/hardware/graphics-cards/next-nvidia-ceo-has-to-have-national-security-as-a-top-priority-says-chairman-of-us-gov-committee-on-china-claims-huang-departure-could-have-been-avoided/",
+        "https://www.pcgamer.com/hardware/trump-says-the-only-man-who-should-replace-ex-nvidia-ceo-jensen-huang-is-tim-cook-of-apple-fame/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/hardware/after-jensen-huangs-resignation-from-nvidia-its-all-praise-or-political-finger-wagging-about-the-ex-ceo-with-little-in-between/",
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/",
+        "https://www.pcgamer.com/hardware/graphics-cards/next-nvidia-ceo-has-to-have-national-security-as-a-top-priority-says-chairman-of-us-gov-committee-on-china-claims-huang-departure-could-have-been-avoided/",
+        "https://www.pcgamer.com/hardware/trump-says-the-only-man-who-should-replace-ex-nvidia-ceo-jensen-huang-is-tim-cook-of-apple-fame/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:151",
+      "value": "$151",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Today, Nvidia shares started as low as $151 in pre-market trading, but have since bounced back to between $163 and $166 in the opening hours of Nasdaq trading after the announcement of Jensen Huang's retirement as CEO.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:163",
+      "value": "$163",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Today, Nvidia shares started as low as $151 in pre-market trading, but have since bounced back to between $163 and $166 in the opening hours of Nasdaq trading after the announcement of Jensen Huang's retirement as CEO.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:166",
+      "value": "$166",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Today, Nvidia shares started as low as $151 in pre-market trading, but have since bounced back to between $163 and $166 in the opening hours of Nasdaq trading after the announcement of Jensen Huang's retirement as CEO.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:15",
+      "value": "$15",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Nvidia stock price has been unruly this week, dipping by $15 between Friday night and Monday morning, then climbing to $181 by the end of Monday, then once again dropping to $167 on Tuesday.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:181",
+      "value": "$181",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Nvidia stock price has been unruly this week, dipping by $15 between Friday night and Monday morning, then climbing to $181 by the end of Monday, then once again dropping to $167 on Tuesday.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:167",
+      "value": "$167",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Nvidia stock price has been unruly this week, dipping by $15 between Friday night and Monday morning, then climbing to $181 by the end of Monday, then once again dropping to $167 on Tuesday.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:165",
+      "value": "$165",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The jump from $151 to around $165 represents a 10% increase for the company.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:10",
+      "value": "10% increase",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The jump from $151 to around $165 represents a 10% increase for the company.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a sad day for nvidia developers america and all humanity",
+      "value": "A sad day for Nvidia, developers, America, and all humanity",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Tim Sweeney, the Epic Games founder and CEO, said it was \"A sad day for Nvidia, developers, America, and all humanity\", and Clement Delangue, the co-founder and CEO of AI platform Hugging Face, said, \"This whole thing sucks, and I wish none of it had happened.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/nvidia-stocks-jump-back-up-after-ex-ceo-jensen-huangs-ousting/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to the very company he co founded with elon musk stating that it would be",
+      "value": "to the very company he co-founded, with Elon Musk stating that it would be",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The BBC speculates that Huang's departure could set him up to be a \"formidable opponent\" to the very company he co-founded, with Elon Musk stating that it would be \"an honour\" to work with him at SpaceX.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/nvidias-ceo-jensen-huang-resigns-following-infidelity-scandal"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "man i still got it these young chicks must think i m so cool and charming",
+      "value": "Man, I still got it, these young chicks must think I'm so cool and charming!",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@swoose The funny part (well, A funny part) is that you know he was like \"Man, I still got it, these young chicks must think I'm so cool and charming!\" whenever the literal actual Chinese Spy was giving him googly-eyes and making him feel so special xD\n\nLol, you lot crack me up!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/nvidias-ceo-jensen-huang-resigns-following-infidelity-scandal"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "your man confuses the gpu slot and you get flag",
+      "value": "Your man confuses the GPU slot and you get flag.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Alcea \"Your man confuses the GPU slot and you get flag.\" 😹😹😹\n\n@rjejr I had a similar thought!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/nvidias-ceo-jensen-huang-resigns-following-infidelity-scandal"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "one day i ll return to this show and it ll hit so hard with all this future clarity",
+      "value": "one day I'll return to this show and it'll hit so hard with all this future clarity...",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I thought \"one day I'll return to this show and it'll hit so hard with all this future clarity...\"\n\nThe comment section here reminds of reddit which is a total cesspool.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/nvidias-ceo-jensen-huang-resigns-following-infidelity-scandal"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "write an article about jenson huang resigning but also make it about the switch 2 somehow",
+      "value": "Write an article about Jenson Huang resigning, but also make it about the Switch 2 somehow.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Write an article about Jenson Huang resigning, but also make it about the Switch 2 somehow.\" And then it was like, \"None of this is really relevant for Nintendo.\" LOL\n\nHonestly, keeping 4 hoes happy at once WHILE maintaining one of the busiest CEO roles in the industry while also not (last I checked) being in the Files?",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/nvidias-ceo-jensen-huang-resigns-following-infidelity-scandal"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2011-08-24",
+      "value": "August 24, 2011",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A Legend replaces a Legend!\"\n\nTim Cook became the CEO of Apple on August 24, 2011, famously taking over for Steve Jobs, the founder of the company.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/trump-says-the-only-man-who-should-replace-ex-nvidia-ceo-jensen-huang-is-tim-cook-of-apple-fame/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000000",
+      "value": "$1 million",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Tim Cook and Donald Trump have had a longstanding professional relationship, with the ex-Apple CEO reportedly donating $1 million to the Trump inauguration.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/trump-says-the-only-man-who-should-replace-ex-nvidia-ceo-jensen-huang-is-tim-cook-of-apple-fame/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:4",
+      "value": "$4",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It saw a stock dip this morning, but even at its lowest stock price in more than a year, the company's market cap is still close to $4 trillion.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/trump-says-the-only-man-who-should-replace-ex-nvidia-ceo-jensen-huang-is-tim-cook-of-apple-fame/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 25,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

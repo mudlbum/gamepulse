@@ -1,0 +1,276 @@
+{
+  "generated": "2026-11-13T03:01:47.214Z",
+  "workingTitle": "Wolfenstein 3 is in production at MachineGames",
+  "heat": 74.7,
+  "outletCount": 7,
+  "outlets": [
+    "PC Gamer",
+    "Xbox Wire",
+    "Nintendo Life",
+    "Push Square",
+    "Pure Xbox",
+    "IGN",
+    "GameSpot"
+  ],
+  "newest": "2026-11-13T01:35:32.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Thanks for 25 Years, XBOX Players — From Wolfenstein 3 and Halo Firefight to Classic XBOX Games on PC: Everything Announced Today",
+        "url": "https://news.xbox.com/en-us/2026/11/12/xbox-25th-anniversary-news-recap/",
+        "date": "2026-11-13T01:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Wolfenstein 3 is in production at MachineGames",
+        "url": "https://www.pcgamer.com/games/fps/wolfenstein-3-is-in-production-at-machinegames/",
+        "date": "2026-11-13T01:35:32.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Wolfenstein 3 Is Now \"Officially In Production\" At MachineGames",
+        "url": "https://www.nintendolife.com/news/2026/11/wolfenstein-3-is-now-officially-in-production-at-machinegames",
+        "date": "2026-11-13T00:55:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Wolfenstein 3 Announced, Now in the Works at MachineGames",
+        "url": "https://www.pushsquare.com/news/2026/11/wolfenstein-3-announced-now-in-the-works-at-machinegames",
+        "date": "2026-11-13T00:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Xbox CEO Announces Major New Bethesda Games In The Works, Including Wolfenstein 3",
+        "url": "https://www.purexbox.com/news/2026/11/xbox-ceo-announces-major-new-bethesda-games-in-the-works-including-wolfenstein-3",
+        "date": "2026-11-13T00:20:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Wolfenstein 3 Confirmed to Be in Development at MachineGames",
+        "url": "https://www.ign.com/articles/wolfenstein-3-confirmed-to-be-in-development-at-machinegames",
+        "date": "2026-11-13T00:01:13.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 Antec C6 Curve Air review 2 Sudokoo SK700V review 3 Glorious GMMK Eternal review 4 Acer Predator Atlas 8 (G3 Extreme) review 5 Alienware AW3226Q OLED gaming monitor review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/wolfenstein-3-is-in-production-at-machinegames/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/wolfenstein-3-is-in-production-at-machinegames/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/fps/wolfenstein-3-is-in-production-at-machinegames/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "sharma meanwhile said",
+      "value": "Sharma, meanwhile, said:",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Wolfenstein 3 is in production.\" Sharma, meanwhile, said: \"Wolfenstein 3 is officially in production at MachineGames.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/wolfenstein-3-announced-now-in-the-works-at-machinegames"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "in the post below you can see the opening lines of the script with chapter one called",
+      "value": "In the post below, you can see the opening lines of the script, with chapter one called",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Looking forward to sharing more.\"\n\nIn the post below, you can see the opening lines of the script, with chapter one called \"Nazitraz\".",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/wolfenstein-3-announced-now-in-the-works-at-machinegames"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:600",
+      "value": "$600",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A dockable handheld rumored to be around $600 and even a Helix S that is rumored to be around $600 and just slightly more TFLOPS than a PS5 Pro only with RDNA 5 and not 2.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/wolfenstein-3-announced-now-in-the-works-at-machinegames"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:9000000:copies",
+      "value": "9 million copies",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Forza Horizon 6 sold 9 million copies and that’s with the game being on GP day and date .Good games sell across Xbox and PC.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/wolfenstein-3-announced-now-in-the-works-at-machinegames"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000",
+      "value": "$1000",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Fast forward to a $1000 dollar plus PS6, how many people are buying that?",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/wolfenstein-3-announced-now-in-the-works-at-machinegames"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:700",
+      "value": "$700",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony isn’t giving no deal when it’s almost $700 dollars for just 2 parts It’s not going to be cheap.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/wolfenstein-3-announced-now-in-the-works-at-machinegames"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "one of gaming s most important franchises",
+      "value": "one of gaming's most important franchises",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sharma made the announcement on social media while highlighting that Wolfenstein is \"one of gaming's most important franchises\", and the third entry is once again being helmed by Bethesda studio MachineGames.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/xbox-ceo-announces-major-new-bethesda-games-in-the-works-including-wolfenstein-3"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "wolfenstein 3 is officially in production at machine games",
+      "value": "Wolfenstein 3 is officially in production at Machine Games,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Wolfenstein 3 is officially in production at Machine Games,\" Xbox CEO Asha Sharma confirmed on X.",
+      "urls": [
+        "https://www.ign.com/articles/wolfenstein-3-confirmed-to-be-in-development-at-machinegames"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "his reputation precedes him",
+      "value": "His reputation precedes him,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "https://t.co/YyX8LrbTvh\n\nMachineGames added on to Sharma&#x27;s post, which shows a page of the Wolfenstein 3 script, saying simply, \"His reputation precedes him,\" referring to the action described on the script page.",
+      "urls": [
+        "https://www.ign.com/articles/wolfenstein-3-confirmed-to-be-in-development-at-machinegames"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "wolfenstein 3 is in production",
+      "value": "Wolfenstein 3 is in production.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Wolfenstein 3 is in production.\" The developers also confirmed that actors Brian Bloom (as B.J.",
+      "urls": [
+        "https://www.ign.com/articles/wolfenstein-3-confirmed-to-be-in-development-at-machinegames"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "always seen bj x27 s story as a trilogy",
+      "value": "always seen [BJ&#x27;s story] as a trilogy,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Last year, in an interview with Noclip, MachineGames studio head Jerk Gustafsson said the team had \"always seen [BJ&#x27;s story] as a trilogy,\" adding: \"That journey for BJ, even during those first weeks at , when we mapped out New Order — we still had the plan for at least , what would happen in the second one and what would happen in the third one.",
+      "urls": [
+        "https://www.ign.com/articles/wolfenstein-3-confirmed-to-be-in-development-at-machinegames"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 14,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
