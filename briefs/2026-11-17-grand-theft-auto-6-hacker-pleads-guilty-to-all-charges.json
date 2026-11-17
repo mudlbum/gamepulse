@@ -1,0 +1,191 @@
+{
+  "generated": "2026-11-17T04:52:11.746Z",
+  "workingTitle": "Grand Theft Auto 6 hacker pleads guilty to all charges",
+  "heat": 59.5,
+  "outletCount": 7,
+  "outlets": [
+    "PC Gamer",
+    "Eurogamer",
+    "Kotaku",
+    "IGN",
+    "Rock Paper Shotgun",
+    "Destructoid",
+    "GameSpot"
+  ],
+  "newest": "2026-11-16T19:40:15.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Grand Theft Auto 6 hacker pleads guilty to all charges",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-hacker-pleads-guilty-to-all-charges/",
+        "date": "2026-11-16T19:40:15.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Original GTA 6 leaker pleads guilty to hacking Rockstar Games, years after first revealing Lucia",
+        "url": "https://www.eurogamer.net/gta-6-leaker-pleads-guilty",
+        "date": "2026-11-16T18:51:40.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "GTA 6 Hacker Pleads Guilty To Cybercrimes After Infamous 2022 Leak",
+        "url": "https://kotaku.com/grand-theft-auto-6-leak-gta6-hacker-pleads-guilty-2000757500",
+        "date": "2026-11-16T18:30:14.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "The History of Grand Theft Auto Easter Eggs",
+        "url": "https://www.ign.com/articles/the-history-of-grand-theft-auto-easter-eggs",
+        "date": "2026-11-16T16:00:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "GTA 6 hacker pleads guilty to 2022 Rockstar Games breach which the company claim cost them $5 million",
+        "url": "https://www.rockpapershotgun.com/gta-6-hacker-pleads-guilty-to-2022-rockstar-games-breach-which-the-company-claim-cost-them-5-million",
+        "date": "2026-11-16T15:36:40.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "GTA 6 hacker behind original 2022 leaks pleads guilty just days ahead of game’s launch",
+        "url": "https://www.destructoid.com/gta-6-hacker-original-2022-leaks-guilty-ahead-launch/",
+        "date": "2026-11-16T15:04:23.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "and was determined to return to",
+      "value": "and was determined to return to",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A 2023 assessment found Kurtaj had \"acute autism\" and was determined to return to \"cybercrime\" as soon as possible, despite the fact that he was literally standing trial for doing cybercrimes.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-hacker-pleads-guilty-to-all-charges/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "multiple biting incidents",
+      "value": "multiple biting incidents.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He also pleaded guilty to assaults on workers while in custody, which the BBC report says included \"multiple biting incidents.\"\n\nAs I said when Kurtaj was moved from hospital to prison, the whole thing strikes me as odd.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-hacker-pleads-guilty-to-all-charges/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI 2 8BitDo Ultimate 3E wireless controller review 3 Antec C6 Curve Air review 4 Sudokoo SK700V review 5 Glorious GMMK Eternal review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-hacker-pleads-guilty-to-all-charges/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-hacker-pleads-guilty-to-all-charges/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-hacker-pleads-guilty-to-all-charges/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we recently suffered a network intrusion in which an unauthorised third party illegally accessed and downloaded confidential information from our systems including early development footage for the next grand theft auto",
+      "value": "We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We recently suffered a network intrusion in which an unauthorised third-party illegally accessed and downloaded confidential information from our systems, including early development footage for the next Grand Theft Auto,\" Rockstar said at the time, before it had officially unveiled GTA 6.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-leaker-pleads-guilty"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:25000",
+      "value": "$25,000.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you haven’t seen No Country for Old Men, you’ll probably ignore this advice and pocket the dough for a cool $25,000.",
+      "urls": [
+        "https://www.ign.com/articles/the-history-of-grand-theft-auto-easter-eggs"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5000000",
+      "value": "$5m",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Rockstar claimed the breach cost them $5m million to recover from, in addition to staff having to waste thousands of hours.",
+      "urls": [
+        "https://www.rockpapershotgun.com/gta-6-hacker-pleads-guilty-to-2022-rockstar-games-breach-which-the-company-claim-cost-them-5-million"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 8,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

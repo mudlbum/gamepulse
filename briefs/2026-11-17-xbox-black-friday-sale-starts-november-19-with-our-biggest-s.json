@@ -1,0 +1,230 @@
+{
+  "generated": "2026-11-17T04:52:11.368Z",
+  "workingTitle": "XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!",
+  "heat": 64,
+  "outletCount": 6,
+  "outlets": [
+    "Xbox Wire",
+    "Kotaku",
+    "IGN",
+    "GameSpot",
+    "Pure Xbox",
+    "Push Square"
+  ],
+  "newest": "2026-11-16T23:57:43.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!",
+        "url": "https://news.xbox.com/en-us/2026/11/16/xbox-black-friday-sale-2026/",
+        "date": "2026-11-16T23:57:43.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "A Ton Of Big Blockbuster Games Are Already On Sale For Black Friday 2026",
+        "url": "https://kotaku.com/a-ton-of-big-blockbuster-games-are-already-on-sale-for-black-friday-2026-2000757513",
+        "date": "2026-11-16T22:13:40.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Ghost of Yotei Drops to an All-Time Low of $35 in PlayStation’s Black Friday Sale",
+        "url": "https://www.ign.com/articles/ghost-of-yotei-plummets-to-35-in-stellar-50-off-black-friday-deal-from-playstation",
+        "date": "2026-11-16T19:30:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Something Weird Is Going On With GoldenEye 007 And Xbox Game Pass",
+        "url": "https://www.purexbox.com/news/2026/11/something-weird-is-going-on-with-goldeneye-007-and-xbox-game-pass",
+        "date": "2026-11-16T13:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "PlayStation Black Friday Sale Is Live Now, Up to $100 Off PS5 Accessories, PSVR2",
+        "url": "https://www.pushsquare.com/news/2026/11/playstation-black-friday-sale-is-live-now-up-to-usd100-off-ps5-accessories-psvr2",
+        "date": "2026-11-16T13:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Xbox Game Pass Gets Even More Games In November",
+        "url": "https://www.gamespot.com/articles/xbox-game-pass-gets-even-more-games-in-november/",
+        "date": "2026-11-16T14:33:49.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$50,",
+      "outlets": [
+        "Kotaku",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Marvel’s Wolverine was a surprising miss for Sony’s first-party PlayStation game factory, but it delivers on spectacle and cinematic comic-book storylines, and it’s currently just $50, which is a very good price for a big-budget blockbuster that came out less than three months ago.",
+      "urls": [
+        "https://kotaku.com/a-ton-of-big-blockbuster-games-are-already-on-sale-for-black-friday-2026-2000757513",
+        "https://www.ign.com/articles/ghost-of-yotei-plummets-to-35-in-stellar-50-off-black-friday-deal-from-playstation"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$40.",
+      "outlets": [
+        "Kotaku",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Saros, a fairly challenging 3D bullet hell shooter, is more of an acquired taste, but also easy to recommend at just $40.",
+      "urls": [
+        "https://kotaku.com/a-ton-of-big-blockbuster-games-are-already-on-sale-for-black-friday-2026-2000757513",
+        "https://www.ign.com/articles/ghost-of-yotei-plummets-to-35-in-stellar-50-off-black-friday-deal-from-playstation"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20",
+      "outlets": [
+        "Kotaku",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "At $20 a piece, they’re both a steal.",
+      "urls": [
+        "https://kotaku.com/a-ton-of-big-blockbuster-games-are-already-on-sale-for-black-friday-2026-2000757513",
+        "https://www.pushsquare.com/news/2026/11/playstation-black-friday-sale-is-live-now-up-to-usd100-off-ps5-accessories-psvr2"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:35",
+      "value": "$35",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Its physical copy is currently on sale for $35 as part of the sale, which is a huge drop from its original $69.99 MSRP and marks a brand new all-time low price for the game, according to our research.",
+      "urls": [
+        "https://www.ign.com/articles/ghost-of-yotei-plummets-to-35-in-stellar-50-off-black-friday-deal-from-playstation"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:70000000",
+      "value": "$69.99 M",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Its physical copy is currently on sale for $35 as part of the sale, which is a huge drop from its original $69.99 MSRP and marks a brand new all-time low price for the game, according to our research.",
+      "urls": [
+        "https://www.ign.com/articles/ghost-of-yotei-plummets-to-35-in-stellar-50-off-black-friday-deal-from-playstation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "predictable but well executed story",
+      "value": "predictable but well-executed story",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Back when it was released, he gave the game an 8/10 and said that it features a \"predictable but well-executed story\" that \"takes you through Ghost of Yotei&#x27;s gorgeous landscapes and satisfying, fluid action combat.\" I managed to play through it earlier this year as well and certainly agree with Higham&#x27;s thoughts here.",
+      "urls": [
+        "https://www.ign.com/articles/ghost-of-yotei-plummets-to-35-in-stellar-50-off-black-friday-deal-from-playstation"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$30",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There&#x27;s also a solid selection of PS5 exclusives on sale for $30 or less right now, including big, beloved titles like God of War Ragnarok, Stellar Blade, and even Ghost of Tsushima (if you want to play Yōtei&#x27;s predecessor).",
+      "urls": [
+        "https://www.ign.com/articles/ghost-of-yotei-plummets-to-35-in-stellar-50-off-black-friday-deal-from-playstation"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you see how this looks right",
+      "value": "You see how this looks, right?",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "...\"You see how this looks, right?\"\n\n@UnusedBabyWipes Grabbed by the Ghoulies really is a lot of fun.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/something-weird-is-going-on-with-goldeneye-007-and-xbox-game-pass"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That marks a change compared to last year's promotion, where Sony had a new PS5 bundle featuring Fortnite to sell at a $100 discount.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/playstation-black-friday-sale-is-live-now-up-to-usd100-off-ps5-accessories-psvr2"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1000",
+      "value": "$1000",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I believe a 4TB SSD is on \"sale\" as part of this promotion for over $1000 USD, yikes!",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/playstation-black-friday-sale-is-live-now-up-to-usd100-off-ps5-accessories-psvr2"
+      ]
+    }
+  ],
+  "factCount": 3,
+  "evidenceCount": 10,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "7 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

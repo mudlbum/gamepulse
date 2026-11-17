@@ -1,0 +1,217 @@
+{
+  "generated": "2026-11-17T04:52:13.291Z",
+  "workingTitle": "Zelda: Ocarina Of Time Remake Crowned 2026's \"Best-Selling Physical Video Game In The US\"",
+  "heat": 42.1,
+  "outletCount": 4,
+  "outlets": [
+    "Nintendo Life",
+    "IGN",
+    "Polygon",
+    "Kotaku"
+  ],
+  "newest": "2026-11-17T00:55:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Zelda: Ocarina Of Time Remake Crowned 2026's \"Best-Selling Physical Video Game In The US\"",
+        "url": "https://www.nintendolife.com/news/2026/11/zelda-ocarina-of-time-remake-crowned-2026s-best-selling-physical-video-game-in-the-us",
+        "date": "2026-11-17T00:55:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Amazon Is Discounting The Legend of Zelda: Ocarina of Time T-shirts for Black Friday",
+        "url": "https://www.ign.com/articles/amazon-is-discounting-the-legend-of-zelda-ocarina-of-time-t-shirts-for-black-friday-2026",
+        "date": "2026-11-16T21:54:39.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "What Makes The Legend of Zelda: Ocarina of Time So Great Anyway?",
+        "url": "https://www.polygon.com/zelda-ocarina-of-time-why-best-game-ever/",
+        "date": "2026-11-16T20:00:24.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "UK Charts: After A Stellar Start, Zelda: Ocarina Of Time Slips From The Top Spot",
+        "url": "https://www.nintendolife.com/news/2026/11/uk-charts-after-a-stellar-start-zelda-ocarina-of-time-slips-from-the-top-spot",
+        "date": "2026-11-16T17:15:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "There’s One Thing I’ll Admit The Ocarina Of Time Remake Made Worse",
+        "url": "https://kotaku.com/legend-zelda-ocarina-time-spirit-temple-remake-song-music-2000757482",
+        "date": "2026-11-16T17:00:20.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Zelda Notes Reveals Top 'Game Over Causes' And More Global Play Data In Ocarina Of Time Remake",
+        "url": "https://www.nintendolife.com/news/2026/11/zelda-notes-reveals-top-game-over-causes-and-more-global-play-data-in-ocarina-of-time-remake",
+        "date": "2026-11-15T07:30:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:n:5200000:units",
+      "value": "5.2 million units",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The Zelda: Ocarina of Time remake for Switch 2 got off to an outstanding start, selling over five million copies (approx 5.2 million units) in just four days.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/zelda-ocarina-of-time-remake-crowned-2026s-best-selling-physical-video-game-in-the-us"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "ocarina of time for switch 2 is this year s",
+      "value": ", Ocarina of Time for Switch 2 is this year's",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As highlighted by Circana's senior director and video game industry advisor Mat Piscatella (via social media), \"after just one week\", Ocarina of Time for Switch 2 is this year's \"best-selling physical video game in the US\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/zelda-ocarina-of-time-remake-crowned-2026s-best-selling-physical-video-game-in-the-us"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "new physical video game sales",
+      "value": "new physical video game sales",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "However, there is one technicality - Circana tracks and reports \"code-in-box\" sales as \"new physical video game sales\", so Zelda may not actually keep the crown.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/zelda-ocarina-of-time-remake-crowned-2026s-best-selling-physical-video-game-in-the-us"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "best way to play one of the most seminal games of all time",
+      "value": "best way to play one of the most seminal games of all time",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In our review here on Nintendo Life, we awarded Ocarina of Time's Switch 2 remake 9/10 stars, calling it the \"best way to play one of the most seminal games of all time\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/zelda-ocarina-of-time-remake-crowned-2026s-best-selling-physical-video-game-in-the-us"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i can t believe nintendo s big holiday game a remake of one of their most acclaimed titles ever while their competition is constantly self sabotaging did so well",
+      "value": "I can't believe Nintendo's big holiday game, a remake of one of their most acclaimed titles ever while their competition is constantly self-sabotaging did so well",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I can't believe Nintendo's big holiday game, a remake of one of their most acclaimed titles ever while their competition is constantly self-sabotaging did so well\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/zelda-ocarina-of-time-remake-crowned-2026s-best-selling-physical-video-game-in-the-us"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:23.5.0",
+      "value": "Update 23.5.0",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Zelda: Ocarina Of Time Walkthrough (Switch 2 Remake): Guide To The Main Quest, Side Quests & Collectables\n\nAll Gold Skulltula Locations & Rewards In Zelda: Ocarina Of Time\n\nNintendo Switch 2 System Update 23.5.0 Is Now Live, Here Are The Full Patch Notes",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/zelda-ocarina-of-time-remake-crowned-2026s-best-selling-physical-video-game-in-the-us",
+        "https://www.nintendolife.com/news/2026/11/uk-charts-after-a-stellar-start-zelda-ocarina-of-time-slips-from-the-top-spot"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "yes it really is one of the greats",
+      "value": "yes, it really is one of the greats.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The reaction from those I know who played for the first time and enjoyed it has generally been \"yes, it really is one of the greats.\" What there's been less of, however, is a concerted effort to explain what exactly makes it deserving of that praise.",
+      "urls": [
+        "https://www.polygon.com/zelda-ocarina-of-time-why-best-game-ever/"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:up:32",
+      "value": "up 32%",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Arrows make up 32% of my consumable item use with Deku Seeds stalling behind at 30%, so this one's a bit different for my case.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/zelda-notes-reveals-top-game-over-causes-and-more-global-play-data-in-ocarina-of-time-remake"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you re just saying that because it s been a long time since you ve played it",
+      "value": "You're just saying that because it's been a long time since you've played it,",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And if anyone's wondering I last played through the N64 one like four, five months ago, it most certainly still holds up to me and it isn't some, \"You're just saying that because it's been a long time since you've played it,\" nonsense, I genuinely prefer it.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/zelda-notes-reveals-top-game-over-causes-and-more-global-play-data-in-ocarina-of-time-remake"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the textbook for 3d games",
+      "value": "the textbook for 3D games",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Playing OoT made me realize that Hidetaka Miyazaki wasn't exaggerating when he said this is \"the textbook for 3D games\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/zelda-notes-reveals-top-game-over-causes-and-more-global-play-data-in-ocarina-of-time-remake"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 10,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

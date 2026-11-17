@@ -1,10 +1,40 @@
 {
-  "decided": "2026-11-13T03:01:48.544Z",
+  "decided": "2026-11-17T04:52:13.376Z",
   "publish": true,
-  "reason": "selected on score 28.9",
-  "brief": "2026-11-12-tekken-creator-says-he-wishes-hardware-like-the-xbox-series-.json",
-  "title": "Tekken creator says he wishes hardware like the Xbox Series S 'wouldn’t be released'",
+  "reason": "selected on score 45.4",
+  "brief": "2026-11-17-xbox-black-friday-sale-starts-november-19-with-our-biggest-s.json",
+  "title": "XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!",
   "considered": [
+    {
+      "file": "2026-11-17-zelda-ocarina-of-time-remake-crowned-2026s-best-selling-phys.json",
+      "title": "Zelda: Ocarina Of Time Remake Crowned 2026's \"Best-Selling Physical Video Game In The US\"",
+      "pass": false,
+      "reason": "0 of 10 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-11-17-xbox-black-friday-sale-starts-november-19-with-our-biggest-s.json",
+      "title": "XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!",
+      "pass": true,
+      "reason": "3/10 claims corroborated · 6 outlets · primary source · 5h old"
+    },
+    {
+      "file": "2026-11-17-star-wars-galactic-racer-officially-getting-the-feature-ever.json",
+      "title": "Star Wars: Galactic Racer Officially Getting the Feature Every Racing Game Needs",
+      "pass": false,
+      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-17-nba-2k27-vice-city-edition-season-3-release-countdown-and-se.json",
+      "title": "NBA 2K27 Vice City Edition Season 3 release countdown and Season Pass rewards",
+      "pass": false,
+      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-17-grand-theft-auto-6-hacker-pleads-guilty-to-all-charges.json",
+      "title": "Grand Theft Auto 6 hacker pleads guilty to all charges",
+      "pass": false,
+      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-11-13-wolfenstein-3-is-in-production-at-machinegames.json",
       "title": "Wolfenstein 3 is in production at MachineGames",
@@ -22,36 +52,6 @@
       "title": "How to farm rupees in Zelda Ocarina of Time",
       "pass": false,
       "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-13-doom-developer-id-software-confirms-its-working-on-a-new-gam.json",
-      "title": "DOOM Developer id Software Confirms It's Working On A New Game",
-      "pass": false,
-      "reason": "0 of 18 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-11-13-after-jensen-huangs-resignation-from-nvidia-its-all-praise-o.json",
-      "title": "After Jensen Huang's resignation from Nvidia, it's all praise or political finger-wagging about the ex-CEO, with little in between",
-      "pass": false,
-      "reason": "0 of 25 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-11-12-witcher-3s-new-expansion-pairs-geralts-polish-voice-actor-wi.json",
-      "title": "Witcher 3's New Expansion Pairs Geralt's Polish Voice Actor With AI, But It's A \"Special Case\"",
-      "pass": false,
-      "reason": "0 of 11 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-11-12-tekken-creator-says-he-wishes-hardware-like-the-xbox-series-.json",
-      "title": "Tekken creator says he wishes hardware like the Xbox Series S 'wouldn’t be released'",
-      "pass": true,
-      "reason": "2/19 claims corroborated · 6 outlets · secondary only · 33h old"
-    },
-    {
-      "file": "2026-11-12-players-say-world-of-warcraft-forevers-pvp-realms-are-super-.json",
-      "title": "Players Say World Of Warcraft: Forever’s PvP Realms Are Super Lopsided Right Now, And Blizzard Is Finally Stepping In",
-      "pass": false,
-      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
     }
   ]
 }

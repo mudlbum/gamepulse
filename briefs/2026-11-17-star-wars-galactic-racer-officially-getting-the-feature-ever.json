@@ -1,0 +1,154 @@
+{
+  "generated": "2026-11-17T04:52:12.584Z",
+  "workingTitle": "Star Wars: Galactic Racer Officially Getting the Feature Every Racing Game Needs",
+  "heat": 42.7,
+  "outletCount": 5,
+  "outlets": [
+    "Polygon",
+    "Destructoid",
+    "Push Square",
+    "Eurogamer",
+    "Pure Xbox"
+  ],
+  "newest": "2026-11-16T20:23:55.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Polygon",
+        "title": "Star Wars: Galactic Racer Officially Getting the Feature Every Racing Game Needs",
+        "url": "https://www.polygon.com/star-wars-galactic-racer-local-split-screen-multiplayer-update/",
+        "date": "2026-11-16T20:23:55.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "I’m glad Star Wars: Galactic Racer is bringing back split-screen, one of the best things from our childhoods",
+        "url": "https://www.destructoid.com/im-glad-star-wars-galactic-racer-is-bringing-back-split-screen-one-of-the-best-things-from-our-childhoods/",
+        "date": "2026-11-16T20:21:08.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "The Great Star Wars: Galactic Racer Will Soon Be Even Better, Major New Features Announced",
+        "url": "https://www.pushsquare.com/news/2026/11/the-great-star-wars-galactic-racer-will-soon-be-even-better-major-new-features-announced",
+        "date": "2026-11-16T20:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Star Wars: Galactic Racer is getting much-requested split-screen multiplayer and new mode in 2027",
+        "url": "https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer",
+        "date": "2026-11-16T19:38:20.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "'We've Heard You!' - Star Wars Galactic Racer Is Officially Adding Split-Screen Multiplayer",
+        "url": "https://www.purexbox.com/news/2026/11/weve-heard-you-star-wars-galactic-racer-is-officially-adding-split-screen-multiplayer",
+        "date": "2026-11-16T17:25:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "polygon s oli welsh wrote in his galactic racer review where he called it",
+      "value": "Polygon's Oli Welsh wrote in his Galactic Racer review, where he called it",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's a deep game system, and the further you get into a run, the better and more rewarding it gets,\" Polygon's Oli Welsh wrote in his Galactic Racer review, where he called it \"the best arcade racing game in a generation.\"\n\nStar Wars: Galactic Racer is available on PlayStation 5, Windows PC, and Xbox Series X.",
+      "urls": [
+        "https://www.polygon.com/star-wars-galactic-racer-local-split-screen-multiplayer-update/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this new mode will allow you to choose your vehicle character planet and race track to race alone or with up to 3 other players in local split screen action",
+      "value": "This new mode will allow you to choose your vehicle, character, planet, and race track to race alone or with up to 3 other players in local split-screen action,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This new mode will allow you to choose your vehicle, character, planet, and race track to race alone or with up to 3 other players in local split-screen action,\" the post reads.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/the-great-star-wars-galactic-racer-will-soon-be-even-better-major-new-features-announced"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:60",
+      "value": "$60",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(Is non-local split-screen a thing outside of emulation with online support?)\n\nI am highly interested in this game but I don’t think it is worth $60 based on my preferences/taste.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/the-great-star-wars-galactic-racer-will-soon-be-even-better-major-new-features-announced"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$40",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I will buy it the moment it goes on sale for $40—hopefully by Christmas?",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/the-great-star-wars-galactic-racer-will-soon-be-even-better-major-new-features-announced"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "First November 2026 PS Plus Extra Game Available to Download Now\n\nPS Plus Subscriptions on Sale from Tomorrow, But There's a Big Catch\n\nPlayStation Black Friday Sale Knocks Up to $100 Off PS5 Accessories, PSVR2",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/the-great-star-wars-galactic-racer-will-soon-be-even-better-major-new-features-announced"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:2",
+      "value": "Season 2",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Season 2 was one of the best series of TV i've seen in years.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/weve-heard-you-star-wars-galactic-racer-is-officially-adding-split-screen-multiplayer"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
