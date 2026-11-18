@@ -1,10 +1,40 @@
 {
-  "decided": "2026-11-17T04:52:13.376Z",
+  "decided": "2026-11-18T03:57:12.417Z",
   "publish": true,
-  "reason": "selected on score 45.4",
+  "reason": "selected on score 37.7",
   "brief": "2026-11-17-xbox-black-friday-sale-starts-november-19-with-our-biggest-s.json",
   "title": "XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!",
   "considered": [
+    {
+      "file": "2026-11-18-the-best-star-wars-racing-game-in-years-is-going-to-add-spli.json",
+      "title": "The Best Star Wars Racing Game In Years Is Going To Add Split-Screen Multiplayer",
+      "pass": false,
+      "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-18-sci-fi-rpg-exodus-gets-even-more-mass-effect-like-with-its-f.json",
+      "title": "Sci-fi RPG Exodus gets even more Mass Effect-like with its female lead, who they are calling Femjun",
+      "pass": false,
+      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-18-ps5-gets-last-minute-software-update-thats-required-to-play-.json",
+      "title": "PS5 Gets Last-Minute Software Update That’s Required To Play GTA 6",
+      "pass": false,
+      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-18-newzoo-analyst-expects-grand-theft-auto-to-turn-around-a-rou.json",
+      "title": "Newzoo analyst expects Grand Theft Auto to turn around a rough year for console gaming: 'without GTA 6 the console market would likely be down year-over-year…",
+      "pass": false,
+      "reason": "0 of 10 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-11-18-birdwatchers-catholic-schools-and-the-weather-channel-everyo.json",
+      "title": "Birdwatchers, Catholic Schools, And The Weather Channel: Everyone’s Hyping Up GTA 6 Release Day",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
     {
       "file": "2026-11-17-zelda-ocarina-of-time-remake-crowned-2026s-best-selling-phys.json",
       "title": "Zelda: Ocarina Of Time Remake Crowned 2026's \"Best-Selling Physical Video Game In The US\"",
@@ -15,43 +45,13 @@
       "file": "2026-11-17-xbox-black-friday-sale-starts-november-19-with-our-biggest-s.json",
       "title": "XBOX Black Friday Sale Starts November 19 with Our Biggest Sale of the Year on Games, Accessories and More!",
       "pass": true,
-      "reason": "3/10 claims corroborated · 6 outlets · primary source · 5h old"
+      "reason": "3/10 claims corroborated · 6 outlets · primary source · 28h old"
     },
     {
       "file": "2026-11-17-star-wars-galactic-racer-officially-getting-the-feature-ever.json",
       "title": "Star Wars: Galactic Racer Officially Getting the Feature Every Racing Game Needs",
       "pass": false,
       "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-17-nba-2k27-vice-city-edition-season-3-release-countdown-and-se.json",
-      "title": "NBA 2K27 Vice City Edition Season 3 release countdown and Season Pass rewards",
-      "pass": false,
-      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-17-grand-theft-auto-6-hacker-pleads-guilty-to-all-charges.json",
-      "title": "Grand Theft Auto 6 hacker pleads guilty to all charges",
-      "pass": false,
-      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-13-wolfenstein-3-is-in-production-at-machinegames.json",
-      "title": "Wolfenstein 3 is in production at MachineGames",
-      "pass": false,
-      "reason": "0 of 14 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-11-13-was-this-new-fable-gameplay-meant-to-sell-the-game.json",
-      "title": "Was This New Fable Gameplay Meant to Sell the Game?",
-      "pass": false,
-      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-13-how-to-farm-rupees-in-zelda-ocarina-of-time.json",
-      "title": "How to farm rupees in Zelda Ocarina of Time",
-      "pass": false,
-      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }

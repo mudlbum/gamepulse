@@ -1,0 +1,140 @@
+{
+  "generated": "2026-11-18T03:57:11.622Z",
+  "workingTitle": "Birdwatchers, Catholic Schools, And The Weather Channel: Everyone’s Hyping Up GTA 6 Release Day",
+  "heat": 51.6,
+  "outletCount": 5,
+  "outlets": [
+    "Kotaku",
+    "Polygon",
+    "Push Square",
+    "PC Gamer",
+    "Pure Xbox"
+  ],
+  "newest": "2026-11-18T01:48:33.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Birdwatchers, Catholic Schools, And The Weather Channel: Everyone’s Hyping Up GTA 6 Release Day",
+        "url": "https://kotaku.com/birdwatchers-catholic-schools-and-the-weather-channel-everyones-hyping-up-gta-6-release-day-2000757823",
+        "date": "2026-11-18T01:48:33.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "GTA 6's Release Will Stress The Internet Just As Everything's Falling Apart",
+        "url": "https://www.polygon.com/gta-6-release-apple-down-outages-microsoft-chase-bank-issues/",
+        "date": "2026-11-18T01:29:36.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Guide: GTA 6 Release Times: When Can You Start Playing?",
+        "url": "https://www.pushsquare.com/guides/gta-6-release-times-when-can-you-start-playing",
+        "date": "2026-11-18T00:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "GTA 6 release times: How far behind the first launch will GTA 6 unlock in your time zone?",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-release-time-date/",
+        "date": "2026-11-17T11:00:00.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Guide: GTA 6 Release Times: All The Key Details Xbox Players Need To Know",
+        "url": "https://www.purexbox.com/guides/gta-6-release-times-all-the-key-details-xbox-players-need-to-know",
+        "date": "2026-11-16T11:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:0.99",
+      "value": "$0.99.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Instead, a physical GTA 6 map will be put on the official Rockstar store for $0.99.",
+      "urls": [
+        "https://www.pushsquare.com/guides/gta-6-release-times-when-can-you-start-playing"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it s going to be a giant buggy mess for about a week or two anyway",
+      "value": "It's going to be a giant buggy mess for about a week or two anyway",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It's going to be a giant buggy mess for about a week or two anyway\"\n\n@XinGViruS 35 years gaming experience 👍 and past releases, only a fool would think otherwise\n\nTotally understand.",
+      "urls": [
+        "https://www.pushsquare.com/guides/gta-6-release-times-when-can-you-start-playing"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "First November 2026 PS Plus Extra Game Available to Download Now\n\n80+ PS5, PS4 Games to Buy in PS Store's Updated Black Friday Sale\n\nPlayStation Black Friday Sale Is Live Now, Up to $100 Off PS5 Accessories, PSVR2",
+      "urls": [
+        "https://www.pushsquare.com/guides/gta-6-release-times-when-can-you-start-playing"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-release-time-date/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-release-time-date/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

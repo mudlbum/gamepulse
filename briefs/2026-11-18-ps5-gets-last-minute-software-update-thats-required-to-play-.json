@@ -1,0 +1,125 @@
+{
+  "generated": "2026-11-18T03:57:11.025Z",
+  "workingTitle": "PS5 Gets Last-Minute Software Update That’s Required To Play GTA 6",
+  "heat": 144.1,
+  "outletCount": 10,
+  "outlets": [
+    "Kotaku",
+    "Push Square",
+    "GameSpot",
+    "Destructoid",
+    "IGN",
+    "Eurogamer",
+    "PC Gamer",
+    "Pure Xbox",
+    "Rock Paper Shotgun",
+    "PCGamesN"
+  ],
+  "newest": "2026-11-18T03:02:45.000Z",
+  "readableCount": 4,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "PS5 Gets Last-Minute Software Update That’s Required To Play GTA 6",
+        "url": "https://kotaku.com/ps5-gets-last-minute-software-update-thats-required-to-play-gta-6-2000757868",
+        "date": "2026-11-18T03:02:45.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "GTA 6 Requires New PS5 Firmware Update to Play",
+        "url": "https://www.pushsquare.com/news/2026/11/gta-6-requires-new-ps5-firmware-update-to-play",
+        "date": "2026-11-18T02:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "RIP To ‘We Got X Before GTA 6’ Memes",
+        "url": "https://kotaku.com/we-got-before-gta6-memes-jokes-grand-theft-auto-6-2000757813",
+        "date": "2026-11-17T22:03:02.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Why Should I Care About GTA 6?",
+        "url": "https://kotaku.com/why-should-i-care-about-gta-6-2000757747",
+        "date": "2026-11-17T21:00:58.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "This Cozy New MMO Is A Delight, But Time-Gating During GTA 6 Week Is A Tough Ask",
+        "url": "https://www.gamespot.com/articles/this-cozy-new-mmo-is-a-delight-but-time-gating-during-gta-6-week-is-a-tough-ask/",
+        "date": "2026-11-17T22:00:00.000Z",
+        "host": "www.gamespot.com"
+      },
+      {
+        "outlet": "GameSpot",
+        "title": "The GTA 6 Uninstallation Graveyard: Everything We Deleted To Make Room",
+        "url": "https://www.gamespot.com/articles/the-gta-6-uninstallation-graveyard-everything-we-deleted-to-make-room/",
+        "date": "2026-11-17T21:36:23.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "key": "v:build:01.002.001",
+      "value": "Version 01.002.001",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Version 01.002.001 began rolling out earlier this week.",
+      "urls": [
+        "https://kotaku.com/ps5-gets-last-minute-software-update-thats-required-to-play-gta-6-2000757868"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "First November 2026 PS Plus Extra Game Available to Download Now\n\n80+ PS5, PS4 Games to Buy in PS Store's Updated Black Friday Sale\n\nPlayStation Black Friday Sale Is Live Now, Up to $100 Off PS5 Accessories, PSVR2",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/gta-6-requires-new-ps5-firmware-update-to-play"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:235000000:copies",
+      "value": "235 million copies",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "GTA V has sold nearly 235 million copies, sure, but there are three and a half billion gamers or so in the entire world.",
+      "urls": [
+        "https://kotaku.com/why-should-i-care-about-gta-6-2000757747"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 3,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

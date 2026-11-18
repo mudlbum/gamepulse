@@ -1,0 +1,176 @@
+{
+  "generated": "2026-11-18T03:57:12.092Z",
+  "workingTitle": "The Best Star Wars Racing Game In Years Is Going To Add Split-Screen Multiplayer",
+  "heat": 50.2,
+  "outletCount": 6,
+  "outlets": [
+    "Kotaku",
+    "Rock Paper Shotgun",
+    "Destructoid",
+    "Push Square",
+    "Eurogamer",
+    "Pure Xbox"
+  ],
+  "newest": "2026-11-17T18:45:22.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "The Best Star Wars Racing Game In Years Is Going To Add Split-Screen Multiplayer",
+        "url": "https://kotaku.com/the-best-star-wars-racing-game-in-years-is-going-to-add-split-screen-multiplayer-2000757526",
+        "date": "2026-11-17T18:45:22.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Star Wars Galactic Racer will get local split-screen multiplayer in early 2027 with new 'Free Play' mode, finally letting racers yell at one another in a…",
+        "url": "https://www.rockpapershotgun.com/star-wars-galactic-racer-will-get-local-split-screen-multiplayer-in-early-2027-with-new-free-play-mode-finally-letting-racers-yell-at-one-another-in-a-tangible-space",
+        "date": "2026-11-17T11:00:10.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "I’m glad Star Wars: Galactic Racer is bringing back split-screen, one of the best things from our childhoods",
+        "url": "https://www.destructoid.com/im-glad-star-wars-galactic-racer-is-bringing-back-split-screen-one-of-the-best-things-from-our-childhoods/",
+        "date": "2026-11-16T20:21:08.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "The Great Star Wars: Galactic Racer Will Soon Be Even Better, Major New Features Announced",
+        "url": "https://www.pushsquare.com/news/2026/11/the-great-star-wars-galactic-racer-will-soon-be-even-better-major-new-features-announced",
+        "date": "2026-11-16T20:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Star Wars: Galactic Racer is getting much-requested split-screen multiplayer and new mode in 2027",
+        "url": "https://www.eurogamer.net/star-wars-galactic-racer-split-screen-multiplayer",
+        "date": "2026-11-16T19:38:20.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "'We've Heard You!' - Star Wars Galactic Racer Is Officially Adding Split-Screen Multiplayer",
+        "url": "https://www.purexbox.com/news/2026/11/weve-heard-you-star-wars-galactic-racer-is-officially-adding-split-screen-multiplayer",
+        "date": "2026-11-16T17:25:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-11-16",
+      "value": "November 16, 2026",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This new mode will allow you to choose your vehicle, character, planet,… pic.twitter.com/K4eApUgetM\n\n— STAR WARS: Galactic Racer™ (@SWGalacticRacer) November 16, 2026\n\nGalactic Racer didn’t launch with a split-screen option and I’m not surprised.",
+      "urls": [
+        "https://kotaku.com/the-best-star-wars-racing-game-in-years-is-going-to-add-split-screen-multiplayer-2000757526"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to be overly simple about it if the game is running at 30fps for each player that means it s actually rendering 120fps",
+      "value": "To be overly simple about it, if the game is running at 30fps for each player, that means it's actually rendering 120fps.",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As Moon puts it: \"To be overly simple about it, if the game is running at 30fps for each player, that means it's actually rendering 120fps.\" Likely not an issue for a lot of PC players, but a potential issue for console players considering the game is built to run at a locked 60fps for one player on consoles.",
+      "urls": [
+        "https://www.rockpapershotgun.com/star-wars-galactic-racer-will-get-local-split-screen-multiplayer-in-early-2027-with-new-free-play-mode-finally-letting-racers-yell-at-one-another-in-a-tangible-space"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this new mode will allow you to choose your vehicle character planet and race track to race alone or with up to 3 other players in local split screen action",
+      "value": "This new mode will allow you to choose your vehicle, character, planet, and race track to race alone or with up to 3 other players in local split-screen action,",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This new mode will allow you to choose your vehicle, character, planet, and race track to race alone or with up to 3 other players in local split-screen action,\" the post reads.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/the-great-star-wars-galactic-racer-will-soon-be-even-better-major-new-features-announced"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:60",
+      "value": "$60",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(Is non-local split-screen a thing outside of emulation with online support?)\n\nI am highly interested in this game but I don’t think it is worth $60 based on my preferences/taste.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/the-great-star-wars-galactic-racer-will-soon-be-even-better-major-new-features-announced"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$40",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I will buy it the moment it goes on sale for $40—hopefully by Christmas?",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/the-great-star-wars-galactic-racer-will-soon-be-even-better-major-new-features-announced"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "First November 2026 PS Plus Extra Game Available to Download Now\n\n80+ PS5, PS4 Games to Buy in PS Store's Updated Black Friday Sale\n\nPlayStation Black Friday Sale Is Live Now, Up to $100 Off PS5 Accessories, PSVR2",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/the-great-star-wars-galactic-racer-will-soon-be-even-better-major-new-features-announced"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:2",
+      "value": "Season 2",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Season 2 was one of the best series of TV i've seen in years.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/weve-heard-you-star-wars-galactic-racer-is-officially-adding-split-screen-multiplayer"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 7,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
