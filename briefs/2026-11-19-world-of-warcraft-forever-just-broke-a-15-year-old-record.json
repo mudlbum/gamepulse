@@ -1,0 +1,131 @@
+{
+  "generated": "2026-11-19T03:55:05.211Z",
+  "workingTitle": "World Of Warcraft: Forever Just Broke A 15-Year-Old Record",
+  "heat": 39,
+  "outletCount": 4,
+  "outlets": [
+    "Kotaku",
+    "Rock Paper Shotgun",
+    "PCGamesN",
+    "Eurogamer"
+  ],
+  "newest": "2026-11-18T23:00:39.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "World Of Warcraft: Forever Just Broke A 15-Year-Old Record",
+        "url": "https://kotaku.com/world-of-warcraft-forever-just-broke-15-year-old-record-2000758182",
+        "date": "2026-11-18T23:00:39.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "World of Warcraft: Forever isn't mere nostalgia bait - it's rebuilding the MMO social architecture that Blizzard spent years dismantling",
+        "url": "https://www.rockpapershotgun.com/world-of-warcraft-forever-isnt-mere-nostalgia-bait-its-rebuilding-the-mmo-social-architecture-that-blizzard-spent-years-dismantling",
+        "date": "2026-11-18T17:44:10.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Blizzard brings the ban hammer down on World of Warcraft Forever players for gold-farming exploit",
+        "url": "https://www.pcgamesn.com/world-of-warcraft/forever-gold-farming-exploit-bans",
+        "date": "2026-11-18T10:57:30.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Blizzard suspends World of Warcraft: Forever gold exploit abusers, puts trading blocks on their accounts and removes ill-gotten funds for good measure",
+        "url": "https://www.eurogamer.net/world-of-warcraft-forever-gold-exploit-abusers-suspended-trade-blocked",
+        "date": "2026-11-18T09:50:20.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "World of Warcraft Forever's latest dungeon XP change should make leveling with friends easier",
+        "url": "https://www.pcgamesn.com/world-of-warcraft/dungeon-xp-hotfix",
+        "date": "2026-11-16T16:51:55.000Z",
+        "host": "www.pcgamesn.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "no one should worry that they re putting their account at risk if they accidentally benefit from a bug",
+      "value": "Players who simply ran Blackmaw Hold a few times and benefited organically from the extra loot did nothing wrong, and no one should worry that they're putting their account at risk if they accidentally benefit from a bug,",
+      "outlets": [
+        "PCGamesN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"Players who simply ran Blackmaw Hold a few times and benefited organically from the extra loot did nothing wrong, and no one should worry that they're putting their account at risk if they accidentally benefit from a bug,\" it continues.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-gold-farming-exploit-bans",
+        "https://www.eurogamer.net/world-of-warcraft-forever-gold-exploit-abusers-suspended-trade-blocked"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "causing enemy health and damage to be significantly lower than intended",
+      "value": "causing enemy health and damage to be significantly lower than intended.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In particular, you'll want to take care when running the Upper Blackrock Spire dungeon, as Blizzard has fixed a bug \"causing enemy health and damage to be significantly lower than intended.\" The encounter should now be \"back in line with its intended difficulty,\" so make sure your group is paying attention.",
+      "urls": [
+        "https://www.pcgamesn.com/world-of-warcraft/forever-gold-farming-exploit-bans"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as players continue their journey into wow forever s higher level content we are closely monitoring the game economy to ensure that gold sources and costs are well balanced",
+      "value": "As players continue their journey into WoW Forever's higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"As players continue their journey into WoW Forever's higher-level content, we are closely monitoring the game economy to ensure that gold sources and costs are well balanced,\" the statement reads.",
+      "urls": [
+        "https://www.eurogamer.net/world-of-warcraft-forever-gold-exploit-abusers-suspended-trade-blocked"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the post concludes by thanking players for their feedback on the matter and a final warning",
+      "value": "The post concludes by thanking players for their feedback on the matter, and a final warning:",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Today, we are in the process of removing all such gold earned, as well as applying account suspensions to significant abusers.\"\n\nThe post concludes by thanking players for their feedback on the matter, and a final warning: \"As always, we advise all players to refrain from abusing game mechanics that are clearly unintended.",
+      "urls": [
+        "https://www.eurogamer.net/world-of-warcraft-forever-gold-exploit-abusers-suspended-trade-blocked"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "3 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

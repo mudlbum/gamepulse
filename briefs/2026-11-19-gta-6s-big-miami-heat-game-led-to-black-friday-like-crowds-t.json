@@ -1,0 +1,224 @@
+{
+  "generated": "2026-11-19T03:55:04.163Z",
+  "workingTitle": "GTA 6‘s Big Miami Heat Game Led To Black Friday-Like Crowds Trying To Buy All The Merch",
+  "heat": 207.3,
+  "outletCount": 12,
+  "outlets": [
+    "Kotaku",
+    "GameSpot",
+    "PC Gamer",
+    "Destructoid",
+    "Polygon",
+    "IGN",
+    "Eurogamer",
+    "Push Square",
+    "Pure Xbox",
+    "PCGamesN",
+    "Rock Paper Shotgun",
+    "Nintendo Life"
+  ],
+  "newest": "2026-11-19T01:39:40.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [
+    "Fortnite"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "GTA 6‘s Big Miami Heat Game Led To Black Friday-Like Crowds Trying To Buy All The Merch",
+        "url": "https://kotaku.com/gta-6s-big-miami-heat-game-led-to-black-friday-like-crowds-trying-to-buy-all-the-merch-2000758204",
+        "date": "2026-11-19T01:39:40.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Yes, That’s Weird Al Hosting A Radio Station In GTA 6",
+        "url": "https://kotaku.com/yes-thats-weird-al-hosting-a-radio-station-in-gta-6-2000758140",
+        "date": "2026-11-18T22:00:01.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "GTA 6 airport location: Here's where to earn your wings less than legally",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-airport-location/",
+        "date": "2026-11-18T21:52:44.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Rockstar says a PS5 Pro is simply 'not powerful enough' for 60 fps GTA 6, as I crack a smile at my 5090",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/rockstar-says-a-ps5-pro-is-simply-not-powerful-enough-for-60-fps-gta-6-as-i-crack-a-smile-at-my-5090/",
+        "date": "2026-11-18T21:51:35.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Befuddled Japanese player fights GTA 6 controls, loses, becomes 'guy chugging two shakes I accidentally bought while walking around in a squat'",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/befuddled-japanese-player-fights-gta-6-controls-loses-becomes-guy-chugging-two-shakes-i-accidentally-bought-while-walking-around-in-a-squat/",
+        "date": "2026-11-18T21:48:24.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Can You Romance Mandy In GTA 6?",
+        "url": "https://www.gamespot.com/articles/can-you-romance-mandy-in-gta-6/",
+        "date": "2026-11-18T22:09:08.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:120",
+      "value": "$120",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And they were showing up early, clearly wanting to get their hands on some merch, including $120 Vice City-themed black and neon pink NBA jerseys.",
+      "urls": [
+        "https://kotaku.com/gta-6s-big-miami-heat-game-led-to-black-friday-like-crowds-trying-to-buy-all-the-merch-2000758204",
+        "https://kotaku.com/yes-thats-weird-al-hosting-a-radio-station-in-gta-6-2000758140"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:450",
+      "value": "$450",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Meanwhile, on eBay, people are already trying to flip the rare jerseys for $450 or more.",
+      "urls": [
+        "https://kotaku.com/gta-6s-big-miami-heat-game-led-to-black-friday-like-crowds-trying-to-buy-all-the-merch-2000758204"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI 2 8BitDo Ultimate 3E wireless controller review 3 Antec C6 Curve Air review 4 Sudokoo SK700V review 5 Glorious GMMK Eternal review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-airport-location/",
+        "https://www.pcgamer.com/games/grand-theft-auto/befuddled-japanese-player-fights-gta-6-controls-loses-becomes-guy-chugging-two-shakes-i-accidentally-bought-while-walking-around-in-a-squat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-airport-location/",
+        "https://www.pcgamer.com/games/grand-theft-auto/rockstar-says-a-ps5-pro-is-simply-not-powerful-enough-for-60-fps-gta-6-as-i-crack-a-smile-at-my-5090/",
+        "https://www.pcgamer.com/games/grand-theft-auto/befuddled-japanese-player-fights-gta-6-controls-loses-becomes-guy-chugging-two-shakes-i-accidentally-bought-while-walking-around-in-a-squat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-airport-location/",
+        "https://www.pcgamer.com/games/grand-theft-auto/rockstar-says-a-ps5-pro-is-simply-not-powerful-enough-for-60-fps-gta-6-as-i-crack-a-smile-at-my-5090/",
+        "https://www.pcgamer.com/games/grand-theft-auto/befuddled-japanese-player-fights-gta-6-controls-loses-becomes-guy-chugging-two-shakes-i-accidentally-bought-while-walking-around-in-a-squat/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:900",
+      "value": "$900",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "That's disappointing news for anyone who shelled out $900+ for the more powerful PS5 Pro expecting better performance (or vindicating news, if you're a PC Gamer reader waiting for the arbitrarily delayed PC version), but Rockstar insists there was no way around it.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/rockstar-says-a-ps5-pro-is-simply-not-powerful-enough-for-60-fps-gta-6-as-i-crack-a-smile-at-my-5090/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "watch on head of development rob nelson framed the decision to skip performance mode in much simpler terms to ign",
+      "value": "Watch On Head of development Rob Nelson framed the decision to skip performance mode in much simpler terms to IGN:",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "While the PS5 Pro’s central processor is slightly better than the PS5 base console, it is not powerful enough to run the game’s complex simulation at higher frame rates.\"\n\nWatch On Head of development Rob Nelson framed the decision to skip performance mode in much simpler terms to IGN:\n\n\"It wouldn’t have been acceptable to anybody.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/rockstar-says-a-ps5-pro-is-simply-not-powerful-enough-for-60-fps-gta-6-as-i-crack-a-smile-at-my-5090/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there are so many new controls i can t keep them all straight",
+      "value": "There are so many new controls I can’t keep them all straight,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Allow me to present Japanese X user @Shunep3_STS, who on this day represents all of us:\n\n\"There are so many new controls I can’t keep them all straight,\" said @Shunep3_STS via machine translation, \"and now I’m that guy chugging two shakes I accidentally bought while walking around in a squat.\"\n\nThere's something magical about this image.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/befuddled-japanese-player-fights-gta-6-controls-loses-becomes-guy-chugging-two-shakes-i-accidentally-bought-while-walking-around-in-a-squat/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "there s so much going on",
+      "value": "There's so much going on,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"There's so much going on,\" she said.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/befuddled-japanese-player-fights-gta-6-controls-loses-becomes-guy-chugging-two-shakes-i-accidentally-bought-while-walking-around-in-a-squat/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 9,
+  "ourData": [
+    {
+      "game": "Fortnite",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

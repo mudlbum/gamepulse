@@ -1,0 +1,280 @@
+{
+  "generated": "2026-11-19T03:55:05.397Z",
+  "workingTitle": "Clair Obscur: Expedition 33 lead writer left Sandfall Interactive last summer: 'We've parted ways'",
+  "heat": 37.4,
+  "outletCount": 4,
+  "outlets": [
+    "PC Gamer",
+    "Game Developer",
+    "IGN",
+    "Eurogamer"
+  ],
+  "newest": "2026-11-18T22:29:32.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Clair Obscur: Expedition 33 lead writer left Sandfall Interactive last summer: 'We've parted ways'",
+        "url": "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-lead-writer-left-sandfall-interactive-last-summer-weve-parted-ways/",
+        "date": "2026-11-18T22:29:32.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Clair Obscur: Expedition 33's narrative lead wants to change game funding",
+        "url": "https://www.gamedeveloper.com/design/clair-obscur-expedition-33-s-narrative-lead-wants-to-change-game-funding",
+        "date": "2026-11-18T19:02:15.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Clair Obscur: Expedition 33's Lead Writer Has Left Sandfall to Help Game Devs Tell Better Stories",
+        "url": "https://www.ign.com/articles/clair-obscur-expedition-33-lead-writer-left-sandfall",
+        "date": "2026-11-18T16:35:23.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Clair Obscur's narrative lead has left developer Sandfall Interactive after \"wrapping up some final stuff for Expedition\"",
+        "url": "https://www.eurogamer.net/clair-obscur-jennifer-svedberg-yen-bafta-fund-new-talent",
+        "date": "2026-11-18T12:18:10.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "i left sandfall in july after wrapping up some final stuff for expedition",
+      "value": "No, I left Sandfall in July, after wrapping up some final stuff for Expedition,",
+      "outlets": [
+        "PC Gamer",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"No, I left Sandfall in July, after wrapping up some final stuff for Expedition,\" she told Gamesbeat when asked if she's still with the company.",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-lead-writer-left-sandfall-interactive-last-summer-weve-parted-ways/",
+        "https://www.eurogamer.net/clair-obscur-jennifer-svedberg-yen-bafta-fund-new-talent"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "svedberg yen said a lot of studios think of narrative as",
+      "value": "Svedberg-Yen said a lot of studios think of narrative as",
+      "outlets": [
+        "PC Gamer",
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Part of this would also be an incubation program to help these studios develop those narrative foundations.\"\n\nSvedberg-Yen said a lot of studios think of narrative as \"a skin,\" something thrown on near the end of the development process once everything else is assembled.",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-lead-writer-left-sandfall-interactive-last-summer-weve-parted-ways/",
+        "https://www.gamedeveloper.com/design/clair-obscur-expedition-33-s-narrative-lead-wants-to-change-game-funding"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "that has to hurt for sandfall but svedberg yen still has ambitions within the game industry including the creation of an investment fund for",
+      "value": "That has to hurt for Sandfall, but Svedberg-Yen still has ambitions within the game industry, including the creation of an investment fund for",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We’ve parted ways.\"\n\nThat has to hurt for Sandfall, but Svedberg-Yen still has ambitions within the game industry, including the creation of an investment fund for \"narrative-focused game creators, trying to bridge the gap between the seed stage and going to publishers.\"\n\n\"This is the chicken and egg question a lot of people face,\" Svedberg-Yen said.",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-lead-writer-left-sandfall-interactive-last-summer-weve-parted-ways/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "whereas if you start from the very beginning when everyone is starting from the same jumping off point everything will naturally be able to tie together",
+      "value": "whereas if you start from the very beginning, when everyone is starting from the same jumping-off point, everything will naturally be able to tie together.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "But that's like trying to solve a puzzle without knowing whether there's actually a solution at all, she continued, \"whereas if you start from the very beginning, when everyone is starting from the same jumping-off point, everything will naturally be able to tie together.\"\n\nKeep up to date with the most important stories and the best deals, as picked by the PC Gamer team.",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-lead-writer-left-sandfall-interactive-last-summer-weve-parted-ways/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "that investment fund alongside her own projects and stories will be svedberg yen s primary focus in the coming year",
+      "value": "That investment fund, alongside her own projects and stories, will be Svedberg-Yen's primary focus in the coming year:",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Above all, I really would like to champion other people and other creatives to have a chance to pursue their dreams, have a chance to make the games they want to make.\"\n\nThat investment fund, alongside her own projects and stories, will be Svedberg-Yen's primary focus in the coming year: \"The strongest feeling in me right now for 2027 is I want to help.",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-lead-writer-left-sandfall-interactive-last-summer-weve-parted-ways/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 Ashes of the Singularity 2 review: Some neat ideas undermined by a rubbish campaign and obtrusive generative AI 2 8BitDo Ultimate 3E wireless controller review 3 Antec C6 Curve Air review 4 Sudokoo SK700V review 5 Glorious GMMK Eternal review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-lead-writer-left-sandfall-interactive-last-summer-weve-parted-ways/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-lead-writer-left-sandfall-interactive-last-summer-weve-parted-ways/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/clair-obscur-expedition-33-lead-writer-left-sandfall-interactive-last-summer-weve-parted-ways/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i m not trying to compete with publishers",
+      "value": "I’m not trying to compete with publishers,",
+      "outlets": [
+        "Game Developer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Related:What Rami Ismail learned during his return to game development\n\n\"I’m not trying to compete with publishers,\" Svedberg-Yen explains.",
+      "urls": [
+        "https://www.gamedeveloper.com/design/clair-obscur-expedition-33-s-narrative-lead-wants-to-change-game-funding"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "wearing its inspirations on its sleeve clair obscur expedition 33 paints itself into the pantheon of great rpgs with a brilliant combat system and a gripping harrowing story",
+      "value": "Wearing its inspirations on its sleeve, Clair Obscur: Expedition 33 paints itself into the pantheon of great RPGs with a brilliant combat system and a gripping, harrowing story,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Wearing its inspirations on its sleeve, Clair Obscur: Expedition 33 paints itself into the pantheon of great RPGs with a brilliant combat system and a gripping, harrowing story,\" IGN wrote in our Clair Obscur: Expedition 33 review, dubbing it a \"modern RPG classic.\"\n\nKirk McKeand is a Contributor on IGN News.",
+      "urls": [
+        "https://www.ign.com/articles/clair-obscur-expedition-33-lead-writer-left-sandfall"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as to what svedberg yen is doing next she offered a cryptic answer including talk of writing",
+      "value": "As to what Svedberg-Yen is doing next, she offered a cryptic answer, including talk of writing",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We've parted ways.\" As to what Svedberg-Yen is doing next, she offered a cryptic answer, including talk of writing \"my own projects, my own stories\".",
+      "urls": [
+        "https://www.eurogamer.net/clair-obscur-jennifer-svedberg-yen-bafta-fund-new-talent"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "one of the initiatives i want to build is a narrative investment fund to focus on narrative focused game creators trying to bridge the gap between the seed stage and going to publishers",
+      "value": "One of the initiatives I want to build is a narrative investment fund to focus on narrative-focused game creators, trying to bridge the gap between the seed stage and going to publishers,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"One of the initiatives I want to build is a narrative investment fund to focus on narrative-focused game creators, trying to bridge the gap between the seed stage and going to publishers,\" she explained, noting her background working in finance and how that dovetails nicely with her more recent experience as a narrative lead.",
+      "urls": [
+        "https://www.eurogamer.net/clair-obscur-jennifer-svedberg-yen-bafta-fund-new-talent"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the strongest feeling in me right now for 2027 is i want to help",
+      "value": "The strongest feeling in me right now for 2027 is I want to help,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Part of this would also be an incubation program to help these studios develop those narrative foundations.\"\n\n\"The strongest feeling in me right now for 2027 is I want to help,\" she added later.",
+      "urls": [
+        "https://www.eurogamer.net/clair-obscur-jennifer-svedberg-yen-bafta-fund-new-talent"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "sandfall interactive previously said its guiding",
+      "value": "Sandfall Interactive previously said its guiding",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I want to help in some way, help the industry.\"\n\nSandfall Interactive previously said its guiding \"North Star\" will always be its \"own personal taste\", and what the team enjoys.She noted that she didn't think the studio would bow to pressure from fans to do more of the same, but instead be guided by what it thinks is best for itself, and for the series.",
+      "urls": [
+        "https://www.eurogamer.net/clair-obscur-jennifer-svedberg-yen-bafta-fund-new-talent"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i ve seen too many tv shows and books be swayed trying to please a lot of people and in the process you end up losing the heart of what s there",
+      "value": "I've seen too many TV shows and books be swayed trying to please a lot of people, and in the process you end up losing the heart of what's there,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I've seen too many TV shows and books be swayed trying to please a lot of people, and in the process you end up losing the heart of what's there,\" she noted.",
+      "urls": [
+        "https://www.eurogamer.net/clair-obscur-jennifer-svedberg-yen-bafta-fund-new-talent"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 15,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "13 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
