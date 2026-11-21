@@ -1,0 +1,242 @@
+{
+  "generated": "2026-11-21T03:39:03.149Z",
+  "workingTitle": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
+  "heat": 39.4,
+  "outletCount": 4,
+  "outlets": [
+    "Kotaku",
+    "Push Square",
+    "IGN",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-11-21T00:00:19.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
+        "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
+        "date": "2026-11-21T00:00:19.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Guide: GTA 6: How to Get Ultimate Edition Items & Pre-Order Bonuses",
+        "url": "https://www.pushsquare.com/guides/gta-6-how-to-get-ultimate-edition-items-and-pre-order-bonuses",
+        "date": "2026-11-20T23:45:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Players React After Exclusive Shops Greet Non-Ultimate Edition Buyers With Locked Doors",
+        "url": "https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors",
+        "date": "2026-11-20T22:19:52.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Vote now for 2026's RPS 100: Reader Edition",
+        "url": "https://www.rockpapershotgun.com/vote-now-for-2026s-rps-100-reader-edition",
+        "date": "2026-11-20T13:59:50.000Z",
+        "host": "www.rockpapershotgun.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$99.99",
+      "outlets": [
+        "Kotaku",
+        "Push Square",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "Follow the waypoint to Pegassi Residences and go through the main front door, as shown:\n\nGo inside the main entrance and use the lift opposite the entrance:\n\nYour '95 Grotti Cheetah will be parked up and waiting for you to get inside:\n\nGTA 6's Ultimate Edition costs $99.99/£89.99/€99.99.",
+      "urls": [
+        "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
+        "https://www.pushsquare.com/guides/gta-6-how-to-get-ultimate-edition-items-and-pre-order-bonuses",
+        "https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:80",
+      "value": "$79.99",
+      "outlets": [
+        "Kotaku",
+        "Push Square",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "The Standard Edition costs $79.99/£69.99/€79.99.",
+      "urls": [
+        "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
+        "https://www.pushsquare.com/guides/gta-6-how-to-get-ultimate-edition-items-and-pre-order-bonuses",
+        "https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20.00",
+      "outlets": [
+        "Kotaku",
+        "Push Square",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 3,
+      "context": "Yes, the Ultimate Edition Upgrade can be purchased from the PS Store at any time for $20.00/£20.00/€20.00 and will automatically add all of the extra content to your game once installed.",
+      "urls": [
+        "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998",
+        "https://www.pushsquare.com/guides/gta-6-how-to-get-ultimate-edition-items-and-pre-order-bonuses",
+        "https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "a": {
+        "value": "$99.99",
+        "outlets": [
+          "Kotaku",
+          "Push Square",
+          "IGN"
+        ],
+        "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998"
+      },
+      "b": {
+        "value": "$79.99",
+        "outlets": [
+          "Kotaku",
+          "Push Square",
+          "IGN"
+        ],
+        "url": "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998"
+      },
+      "sharedContext": "Follow the waypoint to Pegassi Residences and go through the main front door, as shown:\n\nGo inside the main entrance and use the lift opposite the entrance:\n\nYour '95 Grotti Cheetah will be parked up ",
+      "instruction": "Sources disagree. Verify against the primary source, or state the discrepancy in the article. Do NOT silently pick one."
+    }
+  ],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:20000000",
+      "value": "$20 m",
+      "outlets": [
+        "Kotaku"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And to be clear, it still does suck that a few shops are only accessible if you pay $20 more.",
+      "urls": [
+        "https://kotaku.com/so-is-the-100-gta-6-ultimate-edition-actually-worth-it-2000758998"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you can still enjoy gta 6 to its fullest without paying for the ultimate edition",
+      "value": "You can still enjoy GTA 6 to its fullest without paying for the Ultimate Edition",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"You can still enjoy GTA 6 to its fullest without paying for the Ultimate Edition\" Except yknow missing all the exclusive content that hand no reason to be cut from the base game other than greed\n\n@JPEGMakima However you view it (and I agree with you to an extent) it is still true that you can play the full game without the extras.",
+      "urls": [
+        "https://www.pushsquare.com/guides/gta-6-how-to-get-ultimate-edition-items-and-pre-order-bonuses"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i x27 m all for companies making money but when you pull the kinda money rockstar is this just feels greedy shady",
+      "value": "I&#x27;m all for companies making money - but when you pull the kinda money rockstar is - this just feels greedy/shady,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I&#x27;m all for companies making money - but when you pull the kinda money rockstar is - this just feels greedy/shady,\" one player said.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "paid 80 just to get bounced from a store like i x27 m under 21",
+      "value": "Paid $80 just to get bounced from a store like I&#x27;m under 21,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Paid $80 just to get bounced from a store like I&#x27;m under 21,\" another replied.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "so the ultimate edition just locks the door in your face",
+      "value": "So the Ultimate Edition just locks the door in your face?",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"So the Ultimate Edition just locks the door in your face?\" another player reacted.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "that x27 s the most expensive closed sign i x27 ve ever seen",
+      "value": "That&#x27;s the most expensive closed sign I&#x27;ve ever seen.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"That&#x27;s the most expensive closed sign I&#x27;ve ever seen.\"\n\nGTA 6 launched for PlayStation 5 and Xbox Series X/S November 19.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3790000000",
+      "value": "$3.79 billion",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Earlier today, it noted that it had secured the biggest entertainment launch in history with $3.79 billion in just 24 hours.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-players-react-after-exclusive-shops-greet-non-ultimate-edition-buyers-with-locked-doors"
+      ]
+    }
+  ],
+  "factCount": 3,
+  "evidenceCount": 10,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "1 numeric conflict(s) detected. Each must be resolved against the primary source or explicitly reported as a discrepancy. Never average them, never pick silently.",
+    "7 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

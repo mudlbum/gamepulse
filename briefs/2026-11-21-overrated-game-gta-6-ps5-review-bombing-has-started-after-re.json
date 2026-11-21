@@ -1,0 +1,226 @@
+{
+  "generated": "2026-11-21T03:39:02.707Z",
+  "workingTitle": "'Overrated Game': GTA 6 PS5 Review Bombing Has Started After Record-Breaking Release",
+  "heat": 240.3,
+  "outletCount": 13,
+  "outlets": [
+    "Push Square",
+    "GameSpot",
+    "Pure Xbox",
+    "Polygon",
+    "PC Gamer",
+    "Destructoid",
+    "IGN",
+    "Kotaku",
+    "Eurogamer",
+    "PCGamesN",
+    "Rock Paper Shotgun",
+    "Nintendo Life",
+    "Game Developer"
+  ],
+  "newest": "2026-11-21T03:00:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "'Overrated Game': GTA 6 PS5 Review Bombing Has Started After Record-Breaking Release",
+        "url": "https://www.pushsquare.com/news/2026/11/overrated-game-gta-6-ps5-review-bombing-has-started-after-record-breaking-release",
+        "date": "2026-11-21T03:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "GTA 6 Smashes Multiple Sales Records And Earns Xbox Series S Praise In First 24 Hours",
+        "url": "https://www.purexbox.com/news/2026/11/gta-6-smashes-multiple-sales-records-and-earns-xbox-series-s-praise-in-first-24-hours",
+        "date": "2026-11-20T22:03:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Who is Johannes Zuch supposed to be in GTA 6?",
+        "url": "https://www.polygon.com/gta-6-tenebrae-lux-jonathan-blow/",
+        "date": "2026-11-20T22:00:17.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Try this GTA 6 movement speed setting to make Jason and Lucia walk faster",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-movement-speed-setting-walk-faster/",
+        "date": "2026-11-20T21:52:04.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "GTA 6 could be playable on PC soon as hacker drops incomplete XBOX build",
+        "url": "https://www.destructoid.com/gta-6-could-be-playable-on-pc-soon-as-hacker-drops-incomplete-xbox-build/",
+        "date": "2026-11-20T21:48:14.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "This Had My Jaw On The Floor | GTA 6",
+        "url": "https://www.gamespot.com/videos/this-had-my-jaw-on-the-floor-gta-6/",
+        "date": "2026-11-20T22:30:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:3790000000",
+      "value": "$3.79 billion",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Update [Fri 20th Nov 2026, 10:02pm]: GTA 6 publisher Take-Two is now reporting that day one sales reached $3.79 billion USD, while also selling 32.5 million units pre-release.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/gta-6-smashes-multiple-sales-records-and-earns-xbox-series-s-praise-in-first-24-hours"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:32500000:units",
+      "value": "32.5 million units",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Update [Fri 20th Nov 2026, 10:02pm]: GTA 6 publisher Take-Two is now reporting that day one sales reached $3.79 billion USD, while also selling 32.5 million units pre-release.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/gta-6-smashes-multiple-sales-records-and-earns-xbox-series-s-praise-in-first-24-hours"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:2360000000",
+      "value": "$2.36bn",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sensor Tower's sales tracker also estimates $2.36bn (£1.8bn) in revenue from GTA 6 sales, with the console split mostly in favour of PS5, at a 75% to 25% share over Xbox.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/gta-6-smashes-multiple-sales-records-and-earns-xbox-series-s-praise-in-first-24-hours"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:588000000",
+      "value": "$588m",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Still, the data suggests Xbox still took a whopping $588m from 6.15m units sold.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/gta-6-smashes-multiple-sales-records-and-earns-xbox-series-s-praise-in-first-24-hours"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:250",
+      "value": "$250",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It is feasible to do this, and hobbyists have, but the $250ish dollar battery only lasts around 45 minutes.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/gta-6-smashes-multiple-sales-records-and-earns-xbox-series-s-praise-in-first-24-hours"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-movement-speed-setting-walk-faster/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-movement-speed-setting-walk-faster/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:15000000",
+      "value": "$15 million",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The leaker is gatekeeping the .exe behind his $CYBERLEEK crypto coin, saying it needs to get up to a $15 million market cap, down from his previous $30 million ask.",
+      "urls": [
+        "https://www.destructoid.com/gta-6-could-be-playable-on-pc-soon-as-hacker-drops-incomplete-xbox-build/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30000000",
+      "value": "$30 million",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The leaker is gatekeeping the .exe behind his $CYBERLEEK crypto coin, saying it needs to get up to a $15 million market cap, down from his previous $30 million ask.",
+      "urls": [
+        "https://www.destructoid.com/gta-6-could-be-playable-on-pc-soon-as-hacker-drops-incomplete-xbox-build/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1600000",
+      "value": "$1.6 million",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The $CYBERLEEK token sits around $1.6 million market cap, so far from the requested target.",
+      "urls": [
+        "https://www.destructoid.com/gta-6-could-be-playable-on-pc-soon-as-hacker-drops-incomplete-xbox-build/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 10,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
