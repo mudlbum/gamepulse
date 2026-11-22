@@ -1,10 +1,40 @@
 {
-  "decided": "2026-11-21T03:39:03.259Z",
+  "decided": "2026-11-22T02:44:27.789Z",
   "publish": true,
-  "reason": "selected on score 40.3",
-  "brief": "2026-11-21-even-grand-theft-auto-6-cant-escape-the-anti-woke-culture-wa.json",
-  "title": "Even Grand Theft Auto 6 Can’t Escape The Anti-Woke Culture War As It Gets Review-Bombed On Metacritic",
+  "reason": "selected on score 22.1",
+  "brief": "2026-11-21-so-is-the-100-gta-6-ultimate-edition-actually-worth-it.json",
+  "title": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
   "considered": [
+    {
+      "file": "2026-11-22-these-20-games-are-coming-to-xbox-next-week-november-23-27.json",
+      "title": "These 20+ Games Are Coming To Xbox Next Week (November 23-27)",
+      "pass": false,
+      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-22-talking-point-what-are-you-playing-this-weekend-november-21-.json",
+      "title": "Talking Point: What Are You Playing This Weekend? (November 21-22)",
+      "pass": false,
+      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-22-naughty-dog-dev-says-gta-6-is-like-a-bugatti-veyron-to-a-ner.json",
+      "title": "Naughty Dog Dev Says GTA 6 Is Like a 'Bugatti Veyron to a Nervous Victorian Child'",
+      "pass": false,
+      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-11-22-feature-50-of-the-best-discounted-games-from-xboxs-black-fri.json",
+      "title": "Feature: 50 Of The Best Discounted Games From Xbox's Black Friday 2026 Sale",
+      "pass": false,
+      "reason": "1 of 22 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-11-22-expedition-33-lead-writer-says-grand-theft-auto-6-layoff-con.json",
+      "title": "Expedition 33 lead writer says Grand Theft Auto 6 layoff concerns show that 'people creating the value do not receive a proportionate amount of that value'",
+      "pass": false,
+      "reason": "0 of 14 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
     {
       "file": "2026-11-21-what-gets-you-banned-in-wow-forever-and-how-to-appeal.json",
       "title": "What gets you banned in WoW Forever (and how to appeal)",
@@ -15,43 +45,13 @@
       "file": "2026-11-21-so-is-the-100-gta-6-ultimate-edition-actually-worth-it.json",
       "title": "So Is The $100 GTA 6 Ultimate Edition Actually Worth It?",
       "pass": true,
-      "reason": "3/10 claims corroborated · 4 outlets · secondary only · 4h old"
+      "reason": "3/10 claims corroborated · 4 outlets · secondary only · 27h old"
     },
     {
       "file": "2026-11-21-play-gta-6-in-first-person-with-this-glitch.json",
       "title": "Play GTA 6 In First Person With This Glitch",
       "pass": false,
       "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-21-overrated-game-gta-6-ps5-review-bombing-has-started-after-re.json",
-      "title": "'Overrated Game': GTA 6 PS5 Review Bombing Has Started After Record-Breaking Release",
-      "pass": false,
-      "reason": "0 of 10 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-11-21-even-grand-theft-auto-6-cant-escape-the-anti-woke-culture-wa.json",
-      "title": "Even Grand Theft Auto 6 Can’t Escape The Anti-Woke Culture War As It Gets Review-Bombed On Metacritic",
-      "pass": true,
-      "reason": "2/17 claims corroborated · 7 outlets · secondary only · 6h old"
-    },
-    {
-      "file": "2026-11-19-world-of-warcraft-forever-just-broke-a-15-year-old-record.json",
-      "title": "World Of Warcraft: Forever Just Broke A 15-Year-Old Record",
-      "pass": false,
-      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-19-the-cosy-coastal-farming-sim-coral-island-is-officially-on-i.json",
-      "title": "The Cosy Coastal Farming Sim Coral Island Is Officially On Its Way To Switch 2 This December",
-      "pass": false,
-      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-19-gta-6s-big-miami-heat-game-led-to-black-friday-like-crowds-t.json",
-      "title": "GTA 6‘s Big Miami Heat Game Led To Black Friday-Like Crowds Trying To Buy All The Merch",
-      "pass": false,
-      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }

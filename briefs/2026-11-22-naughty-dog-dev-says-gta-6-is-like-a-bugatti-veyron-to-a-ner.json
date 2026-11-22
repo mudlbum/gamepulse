@@ -1,0 +1,252 @@
+{
+  "generated": "2026-11-22T02:44:26.056Z",
+  "workingTitle": "Naughty Dog Dev Says GTA 6 Is Like a 'Bugatti Veyron to a Nervous Victorian Child'",
+  "heat": 226.1,
+  "outletCount": 12,
+  "outlets": [
+    "Push Square",
+    "Kotaku",
+    "Polygon",
+    "PC Gamer",
+    "Destructoid",
+    "IGN",
+    "Pure Xbox",
+    "Eurogamer",
+    "GameSpot",
+    "PCGamesN",
+    "Rock Paper Shotgun",
+    "Nintendo Life"
+  ],
+  "newest": "2026-11-22T02:00:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "Naughty Dog Dev Says GTA 6 Is Like a 'Bugatti Veyron to a Nervous Victorian Child'",
+        "url": "https://www.pushsquare.com/news/2026/11/naughty-dog-dev-says-gta-6-is-like-a-bugatti-veyron-to-a-nervous-victorian-child",
+        "date": "2026-11-22T02:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Guide: GTA 6 Guide: All Guides & Collectibles",
+        "url": "https://www.pushsquare.com/guides/gta-6-guide",
+        "date": "2026-11-22T00:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Radio Tower Expert Can’t Believe How Realistic GTA 6′s Towers Are: ‘Oh My God Boys… Earthed Tower Legs With Saddles”",
+        "url": "https://kotaku.com/radio-tower-expert-cant-believe-how-realistic-gta-6s-towers-are-oh-my-god-boys-earthed-tower-legs-with-saddles-2000759186",
+        "date": "2026-11-21T22:00:32.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "GTA 6 Players Are Obsessed With Finding IRL Florida in Vice City",
+        "url": "https://www.polygon.com/gta-6-players-irl-vice-city-locations/",
+        "date": "2026-11-21T22:00:17.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Where to find the giant crab safe code and Crabshack VF5 SMG in GTA 6",
+        "url": "https://www.polygon.com/gta-6-giant-crab-safe-code-crabshack-vf5-smg-how-to-get-pelican-valley-outpost/",
+        "date": "2026-11-21T21:48:35.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Comcast: 'At peak, GTA 6 accounted for nearly a quarter of all internet traffic'",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/comcast-at-peak-gta6-accounted-for-nearly-a-quarter-of-all-internet-traffic/",
+        "date": "2026-11-21T21:42:29.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:1000000000",
+      "value": "$1 billion",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I suppose raising the bar like this will motivate the many other talented devs around the world, but not every studio will have access to the time and the estimated $1 billion budget that allowed Rockstar to deliver this.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/naughty-dog-dev-says-gta-6-is-like-a-bugatti-veyron-to-a-nervous-victorian-child"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "and it s being treated like witchcraft by devs who naturally have a greater appreciation for the feats on display",
+      "value": "And it’s being treated like witchcraft by devs, who naturally have a greater appreciation for the feats on display.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"And it’s being treated like witchcraft by devs, who naturally have a greater appreciation for the feats on display.\"\n\nYep, I'm not a game dev but I've done some web development and graphic design you truly appreciate things like this when all that art and coding comes together and actually works.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/naughty-dog-dev-says-gta-6-is-like-a-bugatti-veyron-to-a-nervous-victorian-child"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i suppose raising the bar like this will motivate the many other talented devs around the world but not every studio will have access to the time and the estimated 1 billion budget that allowed rockstar to deliver this",
+      "value": "I suppose raising the bar like this will motivate the many other talented devs around the world, but not every studio will have access to the time and the estimated $1 billion budget that allowed Rockstar to deliver this.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I suppose raising the bar like this will motivate the many other talented devs around the world, but not every studio will have access to the time and the estimated $1 billion budget that allowed Rockstar to deliver this.\"\n\nBut we keep forgetting Rockstar didn't start out as a billion dollar already made company.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/naughty-dog-dev-says-gta-6-is-like-a-bugatti-veyron-to-a-nervous-victorian-child"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "GTA 6's Ultimate Edition is not as straightforward as it may initially seem, so in this part of our guide we'll show you how to use and unlock all of the items included with the $100 version of the game.",
+      "urls": [
+        "https://www.pushsquare.com/guides/gta-6-guide"
+      ]
+    },
+    {
+      "kind": "date",
+      "key": "d:2026-11-19",
+      "value": "19 November 2026",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The game launched globally on Thursday, 19 November 2026, via a rolling midnight local-time release, meaning the game unlocked at midnight in each time zone.",
+      "urls": [
+        "https://www.pushsquare.com/guides/gta-6-guide"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "my apartment is in a video game",
+      "value": "My apartment is in a video game.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"My apartment is in a video game.\")\n\nEven in the realm of sports, Rockstar wasn't just drawn to the major leagues.",
+      "urls": [
+        "https://www.polygon.com/gta-6-players-irl-vice-city-locations/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "safe code double success",
+      "value": "Safe code = Double Success.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "You can skim through a few tabs of information on-screen, but the important one is the note in the green cell that says \"Safe code = Double Success.\" Leave when you're finished.",
+      "urls": [
+        "https://www.polygon.com/gta-6-giant-crab-safe-code-crabshack-vf5-smg-how-to-get-pelican-valley-outpost/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1110",
+      "value": "$1,107",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Inside, you'll find a stack of money ($1,107 for us) and another note that reads \"Emergency go protocol: 0212.\"\n\nThe emergency protocol is the boathouse code.",
+      "urls": [
+        "https://www.polygon.com/gta-6-giant-crab-safe-code-crabshack-vf5-smg-how-to-get-pelican-valley-outpost/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "emergency go protocol 0212",
+      "value": "Emergency go protocol: 0212.",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Inside, you'll find a stack of money ($1,107 for us) and another note that reads \"Emergency go protocol: 0212.\"\n\nThe emergency protocol is the boathouse code.",
+      "urls": [
+        "https://www.polygon.com/gta-6-giant-crab-safe-code-crabshack-vf5-smg-how-to-get-pelican-valley-outpost/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "gta 6 didn t just break records in gaming",
+      "value": "GTA 6 didn't just break records in gaming,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"GTA 6 didn't just break records in gaming,\" Comcast wrote.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/comcast-at-peak-gta6-accounted-for-nearly-a-quarter-of-all-internet-traffic/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/comcast-at-peak-gta6-accounted-for-nearly-a-quarter-of-all-internet-traffic/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/comcast-at-peak-gta6-accounted-for-nearly-a-quarter-of-all-internet-traffic/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 12,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

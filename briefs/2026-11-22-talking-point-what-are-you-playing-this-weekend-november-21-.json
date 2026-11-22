@@ -1,0 +1,154 @@
+{
+  "generated": "2026-11-22T02:44:27.279Z",
+  "workingTitle": "Talking Point: What Are You Playing This Weekend? (November 21-22)",
+  "heat": 35.6,
+  "outletCount": 5,
+  "outlets": [
+    "Pure Xbox",
+    "Rock Paper Shotgun",
+    "Nintendo Life",
+    "Push Square",
+    "Eurogamer"
+  ],
+  "newest": "2026-11-21T12:00:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "Talking Point: What Are You Playing This Weekend? (November 21-22)",
+        "url": "https://www.purexbox.com/features/talking-point-what-are-you-playing-this-weekend-november-21-22",
+        "date": "2026-11-21T12:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "What are we all playing this weekend?",
+        "url": "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-409",
+        "date": "2026-11-21T11:00:00.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Talking Point: What Are You Playing This Weekend? (21st November)",
+        "url": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-november",
+        "date": "2026-11-21T10:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Talking Point: What Are You Playing This Weekend? - Issue 659",
+        "url": "https://www.pushsquare.com/news/2026/11/talking-point-what-are-you-playing-this-weekend-issue-659",
+        "date": "2026-11-21T01:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Playing GTA 6 this weekend? Here's 16 spoiler-free tips for your first playthrough",
+        "url": "https://www.eurogamer.net/gta-6-spoiler-free-advice",
+        "date": "2026-11-20T12:33:10.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "james you remember i ve got that holiday booked right",
+      "value": "James, you remember I've got that holiday booked, right?,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Not only have several members of the Treehouse abandoned us, citing flimsy excuses like \"James, you remember I've got that holiday booked, right?,\" many that remain have forsaken their duties and are playing something called a Play Station.",
+      "urls": [
+        "https://www.rockpapershotgun.com/what-are-we-all-playing-this-weekend-409"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the penguin book of demons",
+      "value": "The Penguin Book Of Demons",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Am now reading \"The Penguin Book Of Demons\".",
+      "urls": [
+        "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-november"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "only person who cares about this award",
+      "value": "only person who cares about this award",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Yes i will gladly take the \"only person who cares about this award\".",
+      "urls": [
+        "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-21st-november"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20000",
+      "value": "$20,000",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And there's a relatively low $20,000 limit you really don't want to hit in the middle of raiding a gang hideout, either.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-spoiler-free-advice"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:12000",
+      "value": "$12,000,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "At $12,000, in the early game this is a lot of dosh, but once you rack up that kind of money after advancing through the game a little, it's well worth the initial cost.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-spoiler-free-advice"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's not cheap - you'll need to pay both the fee for the journey and an additional $100 to skip that journey and instantly arrive at your destination, but in certain scenarios it might prove useful.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-spoiler-free-advice"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 6,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "generated": "2026-11-22T02:44:26.814Z",
+  "workingTitle": "These 20+ Games Are Coming To Xbox Next Week (November 23-27)",
+  "heat": 36.6,
+  "outletCount": 5,
+  "outlets": [
+    "Pure Xbox",
+    "Push Square",
+    "Xbox Wire",
+    "Nintendo Life",
+    "Nintendo"
+  ],
+  "newest": "2026-11-21T13:00:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Next Week on XBOX: New Games for November 23 to 27",
+        "url": "https://news.xbox.com/en-us/2026/11/20/next-week-on-xbox-new-games-for-november-23-to-27/",
+        "date": "2026-11-20T15:00:00.000Z",
+        "host": "news.xbox.com"
+      },
+      {
+        "outlet": "Nintendo",
+        "title": "Nintendo eShop Highlights – 19/11/2026",
+        "url": "https://www.nintendo.com/en-gb/News/2026/November/Nintendo-eShop-Highlights-19-11-2026-3244888.html?utm_source=rss_reader&utm_medium=rss&utm_campaign=rss_news",
+        "date": "2026-11-19T14:00:00.000Z",
+        "host": "www.nintendo.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "These 20+ Games Are Coming To Xbox Next Week (November 23-27)",
+        "url": "https://www.purexbox.com/news/2026/11/these-20plus-games-are-coming-to-xbox-next-week-november-23-27",
+        "date": "2026-11-21T13:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Guide: These 11+ PS5 and PS Plus Games Are Coming Out Next Week (23rd-29th November)",
+        "url": "https://www.pushsquare.com/guides/these-11plus-ps5-and-ps-plus-games-are-coming-out-next-week-23rd-29th-november",
+        "date": "2026-11-21T12:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "These 30+ Games Are Coming To Nintendo Switch eShop This Week (November 19)",
+        "url": "https://www.nintendolife.com/news/2026/11/these-30plus-games-are-coming-to-nintendo-switch-eshop-this-week-november-19",
+        "date": "2026-11-19T19:30:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:50",
+      "value": "$49.99",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Here's what's coming to Switch 2 this week:\n\nSplatoon Raiders (Nintendo, 23rd Jul, $49.99) - Booyah!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/these-30plus-games-are-coming-to-nintendo-switch-eshop-this-week-november-19"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "nothing for me this week except the 2 4 black friday deals i happen to catch",
+      "value": "Nothing for me this week.....Except the 2-4 Black Friday deals I happen to catch",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Nergil \"Nothing for me this week.....Except the 2-4 Black Friday deals I happen to catch\"\n\nI just bought Star Wars: Zero Company on sale on Steam.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/these-30plus-games-are-coming-to-nintendo-switch-eshop-this-week-november-19"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 2,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

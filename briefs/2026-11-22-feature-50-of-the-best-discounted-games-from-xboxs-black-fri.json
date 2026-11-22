@@ -1,0 +1,390 @@
+{
+  "generated": "2026-11-22T02:44:27.721Z",
+  "workingTitle": "Feature: 50 Of The Best Discounted Games From Xbox's Black Friday 2026 Sale",
+  "heat": 31.6,
+  "outletCount": 4,
+  "outlets": [
+    "Pure Xbox",
+    "IGN",
+    "Nintendo Life",
+    "Push Square"
+  ],
+  "newest": "2026-11-21T14:30:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "Feature: 50 Of The Best Discounted Games From Xbox's Black Friday 2026 Sale",
+        "url": "https://www.purexbox.com/features/50-of-the-best-discounted-games-from-xboxs-black-friday-2026-sale",
+        "date": "2026-11-21T14:30:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "RayNeo's Black Friday Sale Includes Discounts on AR Glasses, Plus a New Release of GT Max Call of Duty: Modern Warfare 4 Limited Edition AR Glasses",
+        "url": "https://www.ign.com/articles/rayneos-black-friday-sale-includes-discounts-on-ar-glasses-and-more",
+        "date": "2026-11-20T23:32:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Call Of Duty: Modern Warfare 4 Tops \"Best-Selling\" Games In October (US)",
+        "url": "https://www.nintendolife.com/news/2026/11/call-of-duty-modern-warfare-4-tops-best-selling-games-in-october-us",
+        "date": "2026-11-20T01:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Deals: Xbox Black Friday Sale 2026 Now Live, 2,000+ Games Discounted",
+        "url": "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted",
+        "date": "2026-11-19T20:25:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Call of Duty's Influence Is Fading Fast as Modern Warfare 4 Fails to Make US Top 10",
+        "url": "https://www.pushsquare.com/news/2026/11/call-of-dutys-influence-is-fading-fast-as-modern-warfare-4-fails-to-make-us-top-10",
+        "date": "2026-11-19T15:30:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:9.99",
+      "value": "$9.99",
+      "outlets": [
+        "Pure Xbox",
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Gears Reloaded is $9.99 on steam.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted",
+        "https://www.pushsquare.com/news/2026/11/call-of-dutys-influence-is-fading-fast-as-modern-warfare-4-fails-to-make-us-top-10"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:335",
+      "value": "$335,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As part of this sale, you can score the flagship RayNeo GT Max AR glasses for just $335, or pick up the all-new GT Max Call of Duty: Modern Warfare 4 Limited Edition pair for gaming on-the-go.",
+      "urls": [
+        "https://www.ign.com/articles/rayneos-black-friday-sale-includes-discounts-on-ar-glasses-and-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "collector grade wearable gaming monitor engineered for competitive multiplayer and aaa campaigns across desktop rigs consoles and handhelds",
+      "value": "collector-grade wearable gaming monitor engineered for competitive multiplayer and AAA campaigns across desktop rigs, consoles, and handhelds.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "RayNeo describes this limited release pair as a \"collector-grade wearable gaming monitor engineered for competitive multiplayer and AAA campaigns across desktop rigs, consoles, and handhelds.\"\n\nRayNeo&#x27;s flagship AR glasses, RayNeo GT Max, are currently marked down to $335 for Black Friday - a savings of 22% off the regular price.",
+      "urls": [
+        "https://www.ign.com/articles/rayneos-black-friday-sale-includes-discounts-on-ar-glasses-and-more"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "projected top 10 best selling video games",
+      "value": "projected top 10 best-selling video games",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The charts for the US market are now in, revealing the \"projected top 10 best-selling video games\" of the month.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/call-of-duty-modern-warfare-4-tops-best-selling-games-in-october-us"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "circana has also shared an update on the",
+      "value": "Circana has also shared an update on the",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Video Game Market Highlights Thread from Circana - Call of Duty: Modern Warfare 4 was the best-selling game of October, marking the 19th consecutive year that a Call of Duty franchise release has been the best-selling game of its debut month.\"\n\nCircana has also shared an update on the \"projected top 10 best-selling video games\" of 2026 so far in the US.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/call-of-duty-modern-warfare-4-tops-best-selling-games-in-october-us"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "zelda 40th anniversary switch 2 pro controller also led the month in",
+      "value": "Zelda 40th anniversary Switch 2 Pro Controller also led the month in",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Nintendo's \"limited edition\" Zelda 40th anniversary Switch 2 Pro Controller also led the month in \"accessory dollar sales\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/call-of-duty-modern-warfare-4-tops-best-selling-games-in-october-us"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:15",
+      "value": "$15",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Call of Duty Black Ops 2 is $15 on steam in my country.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/call-of-duty-modern-warfare-4-tops-best-selling-games-in-october-us"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "section of the microsoft store app on your xbox console and look for the",
+      "value": "section of the Microsoft Store app on your Xbox console and look for the",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "To check out the full selection, head over to the \"Deals\" section of the Microsoft Store app on your Xbox console and look for the \"Black Friday\" section - if you don't see it yet, the deals will be listed under the \"Game Deals\" category beneath \"Deals for You\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:300000:copies",
+      "value": "300,000 copies",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Fiendish-Beaver At least it sounds like Gears may have done better than the 300,000 copies sold that some were saying.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:1500000:players",
+      "value": "1.5 million players",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It was above Galactic Racer, which had 1.5 million players.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:265000:players",
+      "value": "265,000 players",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "A few thousand may not have played it day one, but surely not 265,000 players?",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:300000000",
+      "value": "$300 million",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Now, is 400k a good result on its own for a game that cost at least $300 million to make (with some estimates putting it a lot more than that)?",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:200000000",
+      "value": "$200 million",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The problem though comes down to simple maths, if E-Day cost $200 million (and bear in mind that is a conservative figure because we are led to believe it cost much more than that to make), but still, if it cost $200 million to make, then the game needs to sell the equivalent of 2,850,000 full priced games in order to just break even, and it is a long way short of that in sheer sales.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it enjoyed a strong start",
+      "value": "It enjoyed a strong start",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Gears of War E-Day has sold well on Xbox because:\n\n1) Asha said, \"It enjoyed a strong start\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "3) The Premium Edition ($100) has been higher in the ranking, ahead of Standard and Upgrade.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:2980:players",
+      "value": "2,978 players",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "As I have said before, the problem is that the game needs to retain a sizable number of daily players, and judging by Steam alone, which saw just 2,978 players in the past 24 hours, which is a drop of more than 90% in little over a month, then E-Day is not retaining its players.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/deals-xbox-black-friday-sale-2026-now-live-2000plus-games-discounted"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "dinosaurs will slowly die and i do believe no one will cry i m just f ing glad i m gonna be there to enjoy the fall",
+      "value": "Dinosaurs will slowly die and I do believe no one will cry, I'm just f***ing glad I'm gonna be there to enjoy the fall!",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Dinosaurs will slowly die and I do believe no one will cry, I'm just f***ing glad I'm gonna be there to enjoy the fall!\"\n\nAs someone who only plays COD every so often, MW4 is a solid enough package.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/call-of-dutys-influence-is-fading-fast-as-modern-warfare-4-fails-to-make-us-top-10"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$40",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I sincerely think they should have spun DMZ off as a standalone $40 release and just pumped support into it.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/call-of-dutys-influence-is-fading-fast-as-modern-warfare-4-fails-to-make-us-top-10"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:69000000000",
+      "value": "$69 billion",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Other games have been out longer so they will get a better ranking\n\n@HonestHick yes ABK is making a lot of money - I didn’t say otherwise - but it absolutely needs to when they spent $69 billion and bought on over 10,000 ABK staff - an operational cost of around $1.5 - $2 billion a year.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/call-of-dutys-influence-is-fading-fast-as-modern-warfare-4-fails-to-make-us-top-10"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1.5",
+      "value": "$1.5",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Other games have been out longer so they will get a better ranking\n\n@HonestHick yes ABK is making a lot of money - I didn’t say otherwise - but it absolutely needs to when they spent $69 billion and bought on over 10,000 ABK staff - an operational cost of around $1.5 - $2 billion a year.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/call-of-dutys-influence-is-fading-fast-as-modern-warfare-4-fails-to-make-us-top-10"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:2000000000",
+      "value": "$2 billion",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Other games have been out longer so they will get a better ranking\n\n@HonestHick yes ABK is making a lot of money - I didn’t say otherwise - but it absolutely needs to when they spent $69 billion and bought on over 10,000 ABK staff - an operational cost of around $1.5 - $2 billion a year.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/call-of-dutys-influence-is-fading-fast-as-modern-warfare-4-fails-to-make-us-top-10"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:n:15000000:copies",
+      "value": "15 million copies",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It has sold as of me writing this 15 million copies and D5 comes out in a few years.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/call-of-dutys-influence-is-fading-fast-as-modern-warfare-4-fails-to-make-us-top-10"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 22,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "21 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
