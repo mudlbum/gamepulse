@@ -1,0 +1,195 @@
+{
+  "generated": "2026-11-24T06:35:27.728Z",
+  "workingTitle": "A Ton of Magic: The Gathering Final Fantasy Playmats Are on Sale for Black Friday",
+  "heat": 24.1,
+  "outletCount": 2,
+  "outlets": [
+    "IGN",
+    "Pure Xbox"
+  ],
+  "newest": "2026-11-24T01:52:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "A Ton of Magic: The Gathering Final Fantasy Playmats Are on Sale for Black Friday",
+        "url": "https://www.ign.com/articles/magic-the-gathering-final-fantasy-playmats-are-on-sale-for-black-friday",
+        "date": "2026-11-24T01:52:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "PS5 Games on Sale for $15 for Black Friday",
+        "url": "https://www.ign.com/articles/ps5-games-on-sale-for-15-for-black-friday",
+        "date": "2026-11-23T20:54:55.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Metal Gear Solid Master Collection Vol. 2 Gets Its First Major Discount for Black Friday, Dropping to $30",
+        "url": "https://www.ign.com/articles/metal-gear-solid-master-collection-vol-2-gets-its-first-major-discount-for-black-friday-dropping-to-30",
+        "date": "2026-11-23T17:45:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Final Fantasy 7 Rebirth and a Ton More Square Enix Games Are on Sale for Black Friday",
+        "url": "https://www.ign.com/articles/final-fantasy-7-rebirth-and-a-ton-more-square-enix-games-are-on-sale-for-black-friday",
+        "date": "2026-11-23T16:08:03.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Deals: All 100+ Backwards Compatible Games In The Xbox Black Friday Sale 2026",
+        "url": "https://www.purexbox.com/news/2026/11/deals-all-100plus-backwards-compatible-games-in-the-xbox-black-friday-sale-2026",
+        "date": "2026-11-23T12:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "140+ Games Are Reduced By 90-95% In The Xbox Black Friday Sale 2026",
+        "url": "https://www.purexbox.com/news/2026/11/140plus-games-are-reduced-by-90-95percent-in-the-xbox-black-friday-sale-2026",
+        "date": "2026-11-22T16:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20.",
+      "outlets": [
+        "IGN",
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Even with BoGT, it's less than $20.",
+      "urls": [
+        "https://www.ign.com/articles/final-fantasy-7-rebirth-and-a-ton-more-square-enix-games-are-on-sale-for-black-friday",
+        "https://www.purexbox.com/news/2026/11/deals-all-100plus-backwards-compatible-games-in-the-xbox-black-friday-sale-2026"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:15",
+      "value": "$14.99",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "One of the more notable deals is the Nintendo Switch 2 versions of Final Fantasy VII Remake Intergrade and Rebirth, which are down to $14.99 and $24.99, respectively.",
+      "urls": [
+        "https://www.ign.com/articles/magic-the-gathering-final-fantasy-playmats-are-on-sale-for-black-friday",
+        "https://www.ign.com/articles/ps5-games-on-sale-for-15-for-black-friday",
+        "https://www.ign.com/articles/final-fantasy-7-rebirth-and-a-ton-more-square-enix-games-are-on-sale-for-black-friday"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:25",
+      "value": "$24.99,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "One of the more notable deals is the Nintendo Switch 2 versions of Final Fantasy VII Remake Intergrade and Rebirth, which are down to $14.99 and $24.99, respectively.",
+      "urls": [
+        "https://www.ign.com/articles/magic-the-gathering-final-fantasy-playmats-are-on-sale-for-black-friday",
+        "https://www.ign.com/articles/final-fantasy-7-rebirth-and-a-ton-more-square-enix-games-are-on-sale-for-black-friday"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:149",
+      "value": "$149",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Other all-time low prices can be had now as well, like AirPods Pro 3 for $149 and Metal Gear Solid Master Collection Vol 2.",
+      "urls": [
+        "https://www.ign.com/articles/ps5-games-on-sale-for-15-for-black-friday"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$29.99",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It&#x27;s dropped to $29.99 across PS5, Xbox Series X, and Nintendo Switch 2 as part of the seasonal sale event, which is 40% off its original MSRP and the first major discount its received since launch.",
+      "urls": [
+        "https://www.ign.com/articles/metal-gear-solid-master-collection-vol-2-gets-its-first-major-discount-for-black-friday-dropping-to-30"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:43",
+      "value": "$43",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to our research, this Black Friday price is the lowest it&#x27;s hit so far, bringing it just under $43 for a Switch 2 copy.",
+      "urls": [
+        "https://www.ign.com/articles/final-fantasy-7-rebirth-and-a-ton-more-square-enix-games-are-on-sale-for-black-friday"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:21.2",
+      "value": "$21.24",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Of course, there&#x27;s quite a few more game deals to look through that we&#x27;ve highlighted above, including Dragon Quest III HD-2D Remake on Nintendo Switch down to $21.24 and Life is Strange: Reunion on Xbox Series X down to $23.74.",
+      "urls": [
+        "https://www.ign.com/articles/final-fantasy-7-rebirth-and-a-ton-more-square-enix-games-are-on-sale-for-black-friday"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:23.7",
+      "value": "$23.74.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Of course, there&#x27;s quite a few more game deals to look through that we&#x27;ve highlighted above, including Dragon Quest III HD-2D Remake on Nintendo Switch down to $21.24 and Life is Strange: Reunion on Xbox Series X down to $23.74.",
+      "urls": [
+        "https://www.ign.com/articles/final-fantasy-7-rebirth-and-a-ton-more-square-enix-games-are-on-sale-for-black-friday"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 8,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "7 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

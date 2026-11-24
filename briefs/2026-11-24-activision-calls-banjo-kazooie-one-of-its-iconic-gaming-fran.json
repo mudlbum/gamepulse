@@ -1,0 +1,102 @@
+{
+  "generated": "2026-11-24T06:35:27.849Z",
+  "workingTitle": "Activision calls Banjo-Kazooie one of its \"iconic gaming franchises,\" raising hopes for long-awaited new game",
+  "heat": 15.8,
+  "outletCount": 2,
+  "outlets": [
+    "Eurogamer",
+    "Pure Xbox"
+  ],
+  "newest": "2026-11-23T19:22:30.000Z",
+  "readableCount": 2,
+  "sourceCount": 2,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Eurogamer",
+        "title": "Activision calls Banjo-Kazooie one of its \"iconic gaming franchises,\" raising hopes for long-awaited new game",
+        "url": "https://www.eurogamer.net/activision-banjo-kazooie-iconic-gaming-franchise",
+        "date": "2026-11-23T19:22:30.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Activision Dons Itself The Home Of Banjo-Kazooie In New Job Listing",
+        "url": "https://www.purexbox.com/news/2026/11/activision-dons-itself-the-home-of-banjo-kazooie-in-new-job-listing",
+        "date": "2026-11-23T16:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "home to iconic gaming franchises including call of duty crash bandicoot spyro the dragon and now halo age of empires sea of thieves and banjo kazooie",
+      "value": "home to iconic gaming franchises including Call of Duty, Crash Bandicoot, Spyro the Dragon, and now… Halo, Age of Empires, Sea of Thieves, and Banjo Kazooie.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In a LinkedIn post advertising a 'Product Manager, Emergent Franchises' role, the publisher wrote that it's \"home to iconic gaming franchises including Call of Duty, Crash Bandicoot, Spyro the Dragon, and now… Halo, Age of Empires, Sea of Thieves, and Banjo Kazooie.\"\n\n\"Become part of the team working on building, growing, and shaping many of these franchises,\" the listing goes on.",
+      "urls": [
+        "https://www.eurogamer.net/activision-banjo-kazooie-iconic-gaming-franchise"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "as a product manager you will serve as the publishing product lead for an upcoming premium console pc title driving the product from concept to launch",
+      "value": "As a Product Manager, you will serve as the publishing product lead for an upcoming premium console & PC title, driving the product from concept to launch.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"As a Product Manager, you will serve as the publishing product lead for an upcoming premium console & PC title, driving the product from concept to launch.\"\n\nIf you're scratching your brain trying to remember when Activision took control of the beloved platformer, well, it happened during Xbox's last massive internal shakeup.",
+      "urls": [
+        "https://www.eurogamer.net/activision-banjo-kazooie-iconic-gaming-franchise"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i do know of like three companies that have actually physically pitched to microsoft or to rare about making another banjo kazooie game and i don t think anyone was successful",
+      "value": "I do know of like three companies that have actually physically pitched to Microsoft or to Rare about making another Banjo-Kazooie game, and I don't think anyone was successful,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I do know of like three companies that have actually physically pitched to Microsoft or to Rare about making another Banjo-Kazooie game, and I don't think anyone was successful,\" he said at the time.",
+      "urls": [
+        "https://www.eurogamer.net/activision-banjo-kazooie-iconic-gaming-franchise"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "building growing and shaping many of these franchises",
+      "value": "building, growing, and shaping many of these franchises",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "According to the job posting, both Sea of Thieves and Banjo-Kazooie now fall under Activision, with a team working on \"building, growing, and shaping many of these franchises\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/activision-dons-itself-the-home-of-banjo-kazooie-in-new-job-listing"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 4,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}
