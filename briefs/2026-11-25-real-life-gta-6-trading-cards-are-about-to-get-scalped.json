@@ -1,0 +1,131 @@
+{
+  "generated": "2026-11-25T05:08:45.759Z",
+  "workingTitle": "Real-Life GTA 6 Trading Cards Are About to Get Scalped",
+  "heat": 31,
+  "outletCount": 3,
+  "outlets": [
+    "Push Square",
+    "IGN",
+    "Destructoid"
+  ],
+  "newest": "2026-11-25T02:00:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "Real-Life GTA 6 Trading Cards Are About to Get Scalped",
+        "url": "https://www.pushsquare.com/news/2026/11/real-life-gta-6-trading-cards-are-about-to-get-scalped",
+        "date": "2026-11-25T02:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Gets Officially Licensed Trading Cards Based on In-Game Collectibles",
+        "url": "https://www.ign.com/articles/gta-6-gets-officially-licensed-trading-cards-based-on-in-game-collectibles",
+        "date": "2026-11-24T18:50:31.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Real Life Strip Club Says It's Had 'Hundreds of Inquiries' From GTA 6 Fans, as Pornhub Traffic Plummets",
+        "url": "https://www.ign.com/articles/real-life-strip-club-says-its-had-hundreds-of-inquiries-from-gta-6-fans-as-pornhub-traffic-plummets",
+        "date": "2026-11-24T17:46:32.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "GTA 6’s collectible trading cards are coming to real life, and scalpers are probably already salivating",
+        "url": "https://www.destructoid.com/gta-6-collectible-trading-cards-coming-real-life-scalpers-salivating/",
+        "date": "2026-11-24T16:33:33.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:30",
+      "value": "$30",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There’s no word on pricing, but hobby boxes currently listed on Panini’s site start at $30 and go up to over $700.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-gets-officially-licensed-trading-cards-based-on-in-game-collectibles"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:700",
+      "value": "$700.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There’s no word on pricing, but hobby boxes currently listed on Panini’s site start at $30 and go up to over $700.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-gets-officially-licensed-trading-cards-based-on-in-game-collectibles"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the single most impressive video game i have ever played",
+      "value": "the single most impressive video game I have ever played.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We considered the game a masterpiece in our 10/10 review, with Luke Reilly calling it \"the single most impressive video game I have ever played.\"\n\nRockstar has gone all out on bringing the already very realistic Vice City to life, and a lot of the action has been happening in the world of sports.",
+      "urls": [
+        "https://www.ign.com/articles/gta-6-gets-officially-licensed-trading-cards-based-on-in-game-collectibles"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i m fascinated with the attention to detail from rockstar",
+      "value": "I’m fascinated with the attention to detail from Rockstar,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I’m fascinated with the attention to detail from Rockstar,\" said the head choreographer, Brooke Wilde.",
+      "urls": [
+        "https://www.ign.com/articles/real-life-strip-club-says-its-had-hundreds-of-inquiries-from-gta-6-fans-as-pornhub-traffic-plummets"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:down:15.5",
+      "value": "15.5% drop",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It&#x27;s also an interesting counterpoint given GTA 6&#x27;s impact on another part of the adult entertainment industry, with Mashable reporting that Pornhub saw a 15.5% drop an hour after the game was released on November 19.",
+      "urls": [
+        "https://www.ign.com/articles/real-life-strip-club-says-its-had-hundreds-of-inquiries-from-gta-6-fans-as-pornhub-traffic-plummets"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

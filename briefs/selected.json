@@ -1,15 +1,45 @@
 {
-  "decided": "2026-11-24T06:35:27.935Z",
+  "decided": "2026-11-25T05:08:46.547Z",
   "publish": true,
-  "reason": "selected on score 40.0",
+  "reason": "selected on score 32.5",
   "brief": "2026-11-24-trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts.json",
   "title": "Trump claims credit for Jensen Huang's return to Nvidia, posts meme depicting Huang holding up a bra victoriously",
   "considered": [
     {
+      "file": "2026-11-25-trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts.json",
+      "title": "Trump claims credit for Jensen Huang's return to Nvidia, posts meme depicting Huang holding up a bra victoriously",
+      "pass": true,
+      "reason": "2/22 claims corroborated · 5 outlets · secondary only · 28h old"
+    },
+    {
+      "file": "2026-11-25-the-plan-was-for-mass-effect-universe-to-tell-you-what-happe.json",
+      "title": "The Plan Was For Mass Effect: Universe To Tell You What Happened To All Your Favorite Characters",
+      "pass": false,
+      "reason": "0 of 14 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-11-25-the-difference-between-the-witcher-3-and-witcher-4-will-be-c.json",
+      "title": "The difference between The Witcher 3 and Witcher 4 will be 'comparable' to that of GTA 5 and GTA 6, CD Projekt boss says: 'I mean, it's been 11 years'",
+      "pass": false,
+      "reason": "0 of 13 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
+    {
+      "file": "2026-11-25-real-life-gta-6-trading-cards-are-about-to-get-scalped.json",
+      "title": "Real-Life GTA 6 Trading Cards Are About to Get Scalped",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-25-analyst-estimates-call-of-duty-lost-44-of-its-players-when-g.json",
+      "title": "Analyst estimates Call of Duty lost 44% of its players when GTA 6 came out, and unlike fans of its live-service competitors they've been slow to come back",
+      "pass": false,
+      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
       "file": "2026-11-24-trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts.json",
       "title": "Trump claims credit for Jensen Huang's return to Nvidia, posts meme depicting Huang holding up a bra victoriously",
       "pass": true,
-      "reason": "2/16 claims corroborated · 7 outlets · secondary only · 5h old"
+      "reason": "2/16 claims corroborated · 7 outlets · secondary only · 28h old"
     },
     {
       "file": "2026-11-24-how-to-get-the-truffade-thrax-in-gta-6.json",
@@ -22,36 +52,6 @@
       "title": "God of War Laufey Star Will Reprise Role for Live-Action TV Show",
       "pass": false,
       "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-24-activision-calls-banjo-kazooie-one-of-its-iconic-gaming-fran.json",
-      "title": "Activision calls Banjo-Kazooie one of its \"iconic gaming franchises,\" raising hopes for long-awaited new game",
-      "pass": false,
-      "reason": "only 4 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-24-a-ton-of-magic-the-gathering-final-fantasy-playmats-are-on-s.json",
-      "title": "A Ton of Magic: The Gathering Final Fantasy Playmats Are on Sale for Black Friday",
-      "pass": false,
-      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-22-these-20-games-are-coming-to-xbox-next-week-november-23-27.json",
-      "title": "These 20+ Games Are Coming To Xbox Next Week (November 23-27)",
-      "pass": false,
-      "reason": "only 2 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-22-talking-point-what-are-you-playing-this-weekend-november-21-.json",
-      "title": "Talking Point: What Are You Playing This Weekend? (November 21-22)",
-      "pass": false,
-      "reason": "only 6 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-22-naughty-dog-dev-says-gta-6-is-like-a-bugatti-veyron-to-a-ner.json",
-      "title": "Naughty Dog Dev Says GTA 6 Is Like a 'Bugatti Veyron to a Nervous Victorian Child'",
-      "pass": false,
-      "reason": "0 of 12 claims corroborated, need 2 — no two outlets agree on anything specific"
     }
   ]
 }

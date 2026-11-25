@@ -1,0 +1,219 @@
+{
+  "generated": "2026-11-25T05:08:44.976Z",
+  "workingTitle": "Analyst estimates Call of Duty lost 44% of its players when GTA 6 came out, and unlike fans of its live-service competitors they've been slow to come back",
+  "heat": 215.8,
+  "outletCount": 14,
+  "outlets": [
+    "PC Gamer",
+    "Destructoid",
+    "Polygon",
+    "Kotaku",
+    "GameSpot",
+    "IGN",
+    "Push Square",
+    "Eurogamer",
+    "Pure Xbox",
+    "Rock Paper Shotgun",
+    "Nintendo Life",
+    "PlayStation Blog",
+    "Xbox Wire",
+    "PCGamesN"
+  ],
+  "newest": "2026-11-25T03:34:01.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [
+    "Call of Duty"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Analyst estimates Call of Duty lost 44% of its players when GTA 6 came out, and unlike fans of its live-service competitors they've been slow to come back",
+        "url": "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/",
+        "date": "2026-11-25T03:34:01.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "How to change car plates in GTA 6",
+        "url": "https://www.destructoid.com/how-to-change-car-plates-in-gta-6/",
+        "date": "2026-11-24T22:46:44.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "How to flip your car in GTA 6",
+        "url": "https://www.polygon.com/gta-6-flip-car-how-to/",
+        "date": "2026-11-24T22:27:23.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "Vice City portal Easter egg location in GTA 6",
+        "url": "https://www.polygon.com/gta-6-vice-city-portal-easter-egg-location-walkthrough-how-to-open/",
+        "date": "2026-11-24T22:11:43.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "How to get your car out of the impound in GTA 6",
+        "url": "https://www.polygon.com/gta-6-impound-car-how-to-get-back/",
+        "date": "2026-11-24T22:00:58.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "Yes, Despite What Some Say Online, There Are Thunderstorms In GTA 6",
+        "url": "https://kotaku.com/yes-despite-what-some-say-online-there-are-thunderstorms-in-gta-6-2001000112",
+        "date": "2026-11-24T22:00:57.000Z",
+        "host": "kotaku.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "call of duty got it the worst of the three",
+      "value": "Call of Duty got it the worst of the three,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Call of Duty got it the worst of the three,\" Alinea's head of market analysis Rhys Elliott wrote, \"dropping 42% from an average of 7.5M DAUs to 4.4M\" according to the company's estimates.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "fc 27 s daus dropped by about 27 when gta 6 launched",
+      "value": "FC 27's DAUs dropped by about 27% when GTA 6 launched,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"FC 27's DAUs dropped by about 27% when GTA 6 launched,\" according to Elliott, \"from 5.9M to 4.3M.\"\n\nBut where player numbers for both of those games were trending back up four days after GTA 6's release, Call of Duty has struggled to win its players back, Elliott says: \"Sadly, CoD has barely bounced back after four days.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/"
+      ]
+    },
+    {
+      "kind": "percent",
+      "key": "p:down:41",
+      "value": "down 41%",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's still down 41% from its baseline.\"\n\nDuring that time Call of Duty had a Thanksgiving-themed event, while FC 27 had a Black Friday discount and in-game \"Thunderstruck\" promotion, and Fortnite's ongoing Treasure Hunters event is adding a bunch of One Piece stuff.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "during that time call of duty had a thanksgiving themed event while fc 27 had a black friday discount and in game",
+      "value": "During that time Call of Duty had a Thanksgiving-themed event, while FC 27 had a Black Friday discount and in-game",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's still down 41% from its baseline.\"\n\nDuring that time Call of Duty had a Thanksgiving-themed event, while FC 27 had a Black Friday discount and in-game \"Thunderstruck\" promotion, and Fortnite's ongoing Treasure Hunters event is adding a bunch of One Piece stuff.",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 World of Warcraft: Forever review 2 Corsair Sabre V3 Pro PureVector Ergo review 3 Football Manager 27 review 4 Ashes of the Singularity 2 review 5 8BitDo Ultimate 3E review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/gaming-industry/analyst-says-call-of-duty-lost-an-estimated-44-percent-of-its-players-when-gta-6-came-out-and-unlike-fans-of-its-live-service-competitors-theyve-been-slow-to-come-back/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "destroying it completely and dying",
+      "value": "destroying it completely and dying",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "If you manage to turn over your sedan, ATV, boat, or cement truck, and you do it without getting wasted (GTA 6's term for \"destroying it completely and dying\"), you might think you'll have to get Scooter Bros to deliver the vehicle for you.",
+      "urls": [
+        "https://www.polygon.com/gta-6-flip-car-how-to/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:699",
+      "value": "$699",
+      "outlets": [
+        "Polygon"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "For example, I would have to pay $699 to get my car back from the Port Gellhorn impound while in Vice City.",
+      "urls": [
+        "https://www.polygon.com/gta-6-impound-car-how-to-get-back/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 9,
+  "ourData": [
+    {
+      "game": "Call of Duty",
+      "note": "Not currently in our tracked Steam top 60."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

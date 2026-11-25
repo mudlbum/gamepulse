@@ -1,0 +1,386 @@
+{
+  "generated": "2026-11-25T05:08:46.492Z",
+  "workingTitle": "Trump claims credit for Jensen Huang's return to Nvidia, posts meme depicting Huang holding up a bra victoriously",
+  "heat": 24.6,
+  "outletCount": 5,
+  "outlets": [
+    "PC Gamer",
+    "Game Developer",
+    "Rock Paper Shotgun",
+    "Eurogamer",
+    "Nintendo Life"
+  ],
+  "newest": "2026-11-24T01:06:57.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Trump claims credit for Jensen Huang's return to Nvidia, posts meme depicting Huang holding up a bra victoriously",
+        "url": "https://www.pcgamer.com/software/ai/trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts-meme-depicting-huang-holding-up-a-bra-victoriously/",
+        "date": "2026-11-24T01:06:57.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Game Developer",
+        "title": "Nvidia reinstates Jensen Huang as CEO weeks after his resignation",
+        "url": "https://www.gamedeveloper.com/business/nvidia-reinstates-jensen-huang-as-ceo",
+        "date": "2026-11-23T21:07:02.000Z",
+        "host": "www.gamedeveloper.com"
+      },
+      {
+        "outlet": "Rock Paper Shotgun",
+        "title": "Nvidia reinstate Jensen Huang as CEO following alleged affairs, as US government support renders 'please give me my job back, go USA' a highly persuasive plea",
+        "url": "https://www.rockpapershotgun.com/nvidia-reinstate-jensen-huang-as-ceo-following-alleged-affairs-as-us-government-support-renders-please-give-me-my-job-back-go-usa-a-highly-persuasive-plea",
+        "date": "2026-11-23T15:10:20.000Z",
+        "host": "www.rockpapershotgun.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Nvidia makes stunning decision to reinstate Jensen Huang as CEO",
+        "url": "https://www.eurogamer.net/nvidia-jensen-huang-ceo-reinstated-affair",
+        "date": "2026-11-23T15:01:00.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Jensen Huang Has Been Reinstated As Nvidia's President And CEO",
+        "url": "https://www.nintendolife.com/news/2026/11/jensen-huang-has-been-reinstated-as-nvidias-president-and-ceo",
+        "date": "2026-11-23T14:20:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "quote",
+      "key": "i take this responsibility with the greatest humility and renewed commitment",
+      "value": "I take this responsibility with the greatest humility and renewed commitment.",
+      "outlets": [
+        "Rock Paper Shotgun",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"I take this responsibility with the greatest humility and renewed commitment.\"\n\nOh, and Nvidia's board added that the independent investigation they set in motion \"in light of recent reporting that Mr.",
+      "urls": [
+        "https://www.rockpapershotgun.com/nvidia-reinstate-jensen-huang-as-ceo-following-alleged-affairs-as-us-government-support-renders-please-give-me-my-job-back-go-usa-a-highly-persuasive-plea",
+        "https://www.eurogamer.net/nvidia-jensen-huang-ceo-reinstated-affair"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "great patriot and national treasure",
+      "value": "great patriot and national treasure",
+      "outlets": [
+        "Rock Paper Shotgun",
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Huang is a \"great patriot and national treasure\", the Trumpeter added.",
+      "urls": [
+        "https://www.rockpapershotgun.com/nvidia-reinstate-jensen-huang-as-ceo-following-alleged-affairs-as-us-government-support-renders-please-give-me-my-job-back-go-usa-a-highly-persuasive-plea",
+        "https://www.nintendolife.com/news/2026/11/jensen-huang-has-been-reinstated-as-nvidias-president-and-ceo"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "percent",
+      "key": "p:up:31.5",
+      "value": "up 31.48%",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "On Monday, the Nvidia board said that it had \"voted unanimously\" to bring Huang back after receiving \"input from senior levels of the United States government.\" Nvidia shares shot up 31.48% during Monday's trading.",
+      "urls": [
+        "https://www.pcgamer.com/software/ai/trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts-meme-depicting-huang-holding-up-a-bra-victoriously/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to bring huang back after receiving",
+      "value": "to bring Huang back after receiving",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "On Monday, the Nvidia board said that it had \"voted unanimously\" to bring Huang back after receiving \"input from senior levels of the United States government.\" Nvidia shares shot up 31.48% during Monday's trading.",
+      "urls": [
+        "https://www.pcgamer.com/software/ai/trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts-meme-depicting-huang-holding-up-a-bra-victoriously/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the risk of extortion by a chinese asset who s been banned by singapore is risk enough to not rehire huang",
+      "value": "The risk of extortion by a Chinese asset who's been banned by Singapore is risk enough to not rehire Huang,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "His behavior does not support reinstatement.\"\n\n\"The risk of extortion by a Chinese asset who's been banned by Singapore is risk enough to not rehire Huang,\" said North Dakota Republican Kevin Cramer.",
+      "urls": [
+        "https://www.pcgamer.com/software/ai/trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts-meme-depicting-huang-holding-up-a-bra-victoriously/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/software/ai/trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts-meme-depicting-huang-holding-up-a-bra-victoriously/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/software/ai/trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts-meme-depicting-huang-holding-up-a-bra-victoriously/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "i am honoured to return to nvidia and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution",
+      "value": "I am honoured to return to Nvidia and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"I am honoured to return to Nvidia and lead one of the most consequential technology companies in the world at the beginning of a new industrial revolution,\" Huang declared.",
+      "urls": [
+        "https://www.rockpapershotgun.com/nvidia-reinstate-jensen-huang-as-ceo-following-alleged-affairs-as-us-government-support-renders-please-give-me-my-job-back-go-usa-a-highly-persuasive-plea"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "fully supports the investigation and is committed to cooperating with it",
+      "value": "fully supports the investigation and is committed to cooperating with it",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Huang \"fully supports the investigation and is committed to cooperating with it\", they noted.",
+      "urls": [
+        "https://www.rockpapershotgun.com/nvidia-reinstate-jensen-huang-as-ceo-following-alleged-affairs-as-us-government-support-renders-please-give-me-my-job-back-go-usa-a-highly-persuasive-plea"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the country needs jensen s leadership at nvidia in order to ensure the success and prosperity of not only the company but the american economy",
+      "value": "The country needs Jensen's leadership at Nvidia in order to ensure the success and prosperity of not only the company, but the American economy,",
+      "outlets": [
+        "Rock Paper Shotgun"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The country needs Jensen's leadership at Nvidia in order to ensure the success and prosperity of not only the company, but the American economy,\" one such advocate, US president Donald Trump, has reportedly posted to cursed hellcape Truth social.",
+      "urls": [
+        "https://www.rockpapershotgun.com/nvidia-reinstate-jensen-huang-as-ceo-following-alleged-affairs-as-us-government-support-renders-please-give-me-my-job-back-go-usa-a-highly-persuasive-plea"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "the board believes jensen is the right person to lead nvidia and that his reinstatement is in the best interests of our stockholders employees partners and customers",
+      "value": "The Board believes Jensen is the right person to lead Nvidia, and that his reinstatement is in the best interests of our stockholders, employees, partners and customers,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"The Board believes Jensen is the right person to lead Nvidia, and that his reinstatement is in the best interests of our stockholders, employees, partners and customers,\" Nvidia's Chair Harvey C.",
+      "urls": [
+        "https://www.eurogamer.net/nvidia-jensen-huang-ceo-reinstated-affair"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "does not intend to reinstate jensen as ceo",
+      "value": "does not intend to reinstate Jensen as CEO",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Jones announced on behalf of the Nvidia's board today - the same person reported as saying the board \"does not intend to reinstate Jensen as CEO\".",
+      "urls": [
+        "https://www.eurogamer.net/nvidia-jensen-huang-ceo-reinstated-affair"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "in the same press release huang said he was",
+      "value": "In the same press release, Huang said he was",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We are grateful to Colette Kress for her outstanding service as interim CEO, in addition to her continuing responsibilities as Nvidia's chief financial officer.\"\n\nIn the same press release, Huang said he was \"honoured\" to return to the company \"at the beginning of a new industrial revolution\".",
+      "urls": [
+        "https://www.eurogamer.net/nvidia-jensen-huang-ceo-reinstated-affair"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "national security and export control committee",
+      "value": "National Security and Export Control Committee",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The company also said it formed a \"National Security and Export Control Committee\", with independent directors, in relation to this.",
+      "urls": [
+        "https://www.eurogamer.net/nvidia-jensen-huang-ceo-reinstated-affair"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to the very company he co founded with elon musk stating that it would be",
+      "value": "to the very company he co-founded, with Elon Musk stating that it would be",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The BBC speculates that Huang's departure could set him up to be a \"formidable opponent\" to the very company he co-founded, with Elon Musk stating that it would be \"an honour\" to work with him at SpaceX.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/jensen-huang-has-been-reinstated-as-nvidias-president-and-ceo"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "man i still got it these young chicks must think i m so cool and charming",
+      "value": "Man, I still got it, these young chicks must think I'm so cool and charming!",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@swoose The funny part (well, A funny part) is that you know he was like \"Man, I still got it, these young chicks must think I'm so cool and charming!\" whenever the literal actual Chinese Spy was giving him googly-eyes and making him feel so special xD\n\nThis made me laugh out loud so much.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/jensen-huang-has-been-reinstated-as-nvidias-president-and-ceo"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "your man confuses the gpu slot and you get flag",
+      "value": "Your man confuses the GPU slot and you get flag.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Alcea \"Your man confuses the GPU slot and you get flag.\" 😹😹😹\n\n@rjejr I had a similar thought!",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/jensen-huang-has-been-reinstated-as-nvidias-president-and-ceo"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "one day i ll return to this show and it ll hit so hard with all this future clarity",
+      "value": "one day I'll return to this show and it'll hit so hard with all this future clarity...",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I thought \"one day I'll return to this show and it'll hit so hard with all this future clarity...\"\n\nThe comment section here reminds of reddit which is a total cesspool.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/jensen-huang-has-been-reinstated-as-nvidias-president-and-ceo"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "write an article about jenson huang resigning but also make it about the switch 2 somehow",
+      "value": "Write an article about Jenson Huang resigning, but also make it about the Switch 2 somehow.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Write an article about Jenson Huang resigning, but also make it about the Switch 2 somehow.\" And then it was like, \"None of this is really relevant for Nintendo.\" LOL\n\nhttps://theconversation.com/nvidia-jensen-huang-and-the-history-of-sexpionage-296187\n\nThat is a really good article how this sort of stuff works.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/jensen-huang-has-been-reinstated-as-nvidias-president-and-ceo"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "oh this is that guy who was mansplaining to everyone about how you re just gonna have to pay double for gpus now",
+      "value": "Oh this is that guy who was Mansplaining to everyone about how 'you're just gonna have to pay double for GPUs now'",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "(I am mad about the impact this is having on my portfolio though…messing with my money, is like messing with my emotions.)\n\nSo, my first thought on hearing this was \"Oh this is that guy who was Mansplaining to everyone about how 'you're just gonna have to pay double for GPUs now'\"\n\nLol.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/jensen-huang-has-been-reinstated-as-nvidias-president-and-ceo"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "am i supposed to feel empathy for a billionaire",
+      "value": "Am I supposed to feel empathy for a billionaire?",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Who cares about morality when we’ve got a share price to maintain\n\n@Vivianeat \"Am I supposed to feel empathy for a billionaire?\"\n\nAlso, one of the billionaires empowering the AI theft cartels and attempting to steal all our jobs.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/jensen-huang-has-been-reinstated-as-nvidias-president-and-ceo"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "whoever came up with this is an",
+      "value": "Whoever came up with this is an *******!",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "In all seriousness, to quote the AVGN once again: \"Whoever came up with this is an *******!\"\n\nin other news, the shareholders are a bunch of reactionary clowns who see absolutely nothing wrong with this\n\nWould not be surprised if a movie adaption a few years later is made about this guy and this fiasco lol\n\nFind it hilarious that his presence determines how significantly stocks rise or drop.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/jensen-huang-has-been-reinstated-as-nvidias-president-and-ceo"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 22,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "20 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
