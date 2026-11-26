@@ -1,0 +1,145 @@
+{
+  "generated": "2026-11-26T04:35:21.337Z",
+  "workingTitle": "Sony Confirms PlayStation Plus Monthly Games for December 2026",
+  "heat": 40.5,
+  "outletCount": 5,
+  "outlets": [
+    "IGN",
+    "Kotaku",
+    "Eurogamer",
+    "Push Square",
+    "PlayStation Blog"
+  ],
+  "newest": "2026-11-25T18:17:24.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "PlayStation Blog",
+        "title": "PlayStation Plus Monthly Games for December: Tony Hawk’s Pro Skater 3+4, Dragon Ball Xenoverse 2, Amnesia: The Bunker",
+        "url": "https://blog.playstation.com/2026/11/25/playstation-plus-monthly-games-for-december-tony-hawks-pro-skater-34-dragon-ball-xenoverse-2-amnesia-the-bunker/",
+        "date": "2026-11-25T16:30:15.000Z",
+        "host": "blog.playstation.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Sony Confirms PlayStation Plus Monthly Games for December 2026",
+        "url": "https://www.ign.com/articles/sony-confirms-playstation-plus-monthly-games-for-december-2026",
+        "date": "2026-11-25T18:17:24.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "PlayStation Plus Free Games For December 2026 Include One Of The Best Horror Games In Years",
+        "url": "https://kotaku.com/playstation-plus-free-games-for-december-2026-include-one-of-the-best-horror-games-in-years-2001000406",
+        "date": "2026-11-25T17:42:53.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Here are our PS Plus monthly games for December 2026",
+        "url": "https://www.eurogamer.net/playstation-plus-monthly-games-december-2026",
+        "date": "2026-11-25T17:14:40.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "PS Plus Essential Games for December 2026 Announced",
+        "url": "https://www.pushsquare.com/news/2026/11/ps-plus-essential-games-for-december-2026-announced",
+        "date": "2026-11-25T16:45:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-11-25",
+      "value": "November 25, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "November 25, 2026November 25, 2026 PlayStation Plus Monthly Games for December: Tony Hawk’s Pro Skater 3+4, Dragon Ball Xenoverse 2, Amnesia: The Bunker 25 0 51 Like this All playable from December 1.",
+      "urls": [
+        "https://blog.playstation.com/2026/11/25/playstation-plus-monthly-games-for-december-tony-hawks-pro-skater-34-dragon-ball-xenoverse-2-amnesia-the-bunker/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "tony hawk s pro skater 3 4 proves yet again the series over the top skateboarding formula is totally timeless even if some of the changes to thps4 miss the mark and the soundtrack has been fumbled",
+      "value": "Tony Hawk’s Pro Skater 3 + 4 proves yet again the series’ over-the-top skateboarding formula is totally timeless, even if some of the changes to THPS4 miss the mark and the soundtrack has been fumbled.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We said: \"Tony Hawk’s Pro Skater 3 + 4 proves yet again the series’ over-the-top skateboarding formula is totally timeless, even if some of the changes to THPS4 miss the mark and the soundtrack has been fumbled.\"\n\nDragon Ball Xenoverse 2, meanwhile, got a 7.5 back in 2017.",
+      "urls": [
+        "https://www.ign.com/articles/sony-confirms-playstation-plus-monthly-games-for-december-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "dragon ball xenoverse 2 is an ambitious if rough edged experience with deceptively deep rpg and brawling elements",
+      "value": "Dragon Ball Xenoverse 2 is an ambitious , if rough-edged experience, with deceptively deep RPG and brawling elements,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Dragon Ball Xenoverse 2 is an ambitious , if rough-edged experience, with deceptively deep RPG and brawling elements,\" we said at the time.",
+      "urls": [
+        "https://www.ign.com/articles/sony-confirms-playstation-plus-monthly-games-for-december-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "truly unsettling adventure",
+      "value": "truly unsettling adventure",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's a \"truly unsettling adventure\" as we wrote in our Amnesia: The Bunker review.",
+      "urls": [
+        "https://www.eurogamer.net/playstation-plus-monthly-games-december-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "properly glorious collection of two classic games",
+      "value": "properly glorious collection of two classic games",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We called it a \"properly glorious collection of two classic games\" in our Pro Skater 3+4 review.",
+      "urls": [
+        "https://www.eurogamer.net/playstation-plus-monthly-games-december-2026"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "4 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

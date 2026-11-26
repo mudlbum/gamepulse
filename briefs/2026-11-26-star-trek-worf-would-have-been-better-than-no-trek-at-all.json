@@ -1,0 +1,175 @@
+{
+  "generated": "2026-11-26T04:35:21.713Z",
+  "workingTitle": "Star Trek: Worf Would Have Been Better Than No Trek At All",
+  "heat": 33.6,
+  "outletCount": 4,
+  "outlets": [
+    "Kotaku",
+    "Nintendo Life",
+    "Push Square",
+    "Eurogamer"
+  ],
+  "newest": "2026-11-25T18:30:39.000Z",
+  "readableCount": 5,
+  "sourceCount": 5,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Kotaku",
+        "title": "Star Trek: Worf Would Have Been Better Than No Trek At All",
+        "url": "https://kotaku.com/add-a-worf-tv-show-to-the-growing-pile-of-abandoned-star-trek-series-2001000350",
+        "date": "2026-11-25T18:30:39.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Star Trek: Voyager - Across The Unknown Final DLC Ventures To Switch 2 Next Month",
+        "url": "https://www.nintendolife.com/news/2026/11/star-trek-voyager-across-the-unknown-final-dlc-ventures-to-switch-2-next-month",
+        "date": "2026-11-25T16:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "Lords Of The Fallen 2 Launches April 2027, Final Date Coming Next Month",
+        "url": "https://www.nintendolife.com/news/2026/11/lords-of-the-fallen-2-launches-april-2027-final-date-coming-next-month",
+        "date": "2026-11-25T13:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "PS5 RPG Lords of the Fallen 2 Locks on to April 2027 Release Date Following Lengthy Delay",
+        "url": "https://www.pushsquare.com/news/2026/11/ps5-rpg-lords-of-the-fallen-2-locks-on-to-april-2027-release-date-following-lengthy-delay",
+        "date": "2026-11-25T00:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Lords of the Fallen 2 delayed to April 2027, exact release date coming next month",
+        "url": "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027",
+        "date": "2026-11-24T20:30:00.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "version",
+      "key": "v:season:3",
+      "value": "season 3.",
+      "outlets": [
+        "Kotaku",
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "It’s been three years since Michael Dorn reprised his role as Worf in Picard season 3.",
+      "urls": [
+        "https://kotaku.com/add-a-worf-tv-show-to-the-growing-pile-of-abandoned-star-trek-series-2001000350",
+        "https://www.nintendolife.com/news/2026/11/star-trek-voyager-across-the-unknown-final-dlc-ventures-to-switch-2-next-month"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this updated release window also strategically positions lords of the fallen ii outside of a highly competitive holiday period ensuring the game receives the dedicated attention it deserves",
+      "value": "This updated release window also strategically positions Lords of the Fallen II outside of a highly competitive holiday period, ensuring the game receives the dedicated attention it deserves.",
+      "outlets": [
+        "Nintendo Life",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "\"This updated release window also strategically positions Lords of the Fallen II outside of a highly competitive holiday period, ensuring the game receives the dedicated attention it deserves.\"\n\nIt's honestly not a bad choice at all, and we're thankful to see at least one game escape the avalanche of releases in 2026.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/lords-of-the-fallen-2-launches-april-2027-final-date-coming-next-month",
+        "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "for resource management and survival nuts who like a bit of 90s trek",
+      "value": "for resource management and survival nuts who like a bit of '90s Trek",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "We had a great time with the base game earlier this year, calling it a damn good time \"for resource management and survival nuts who like a bit of '90s Trek\" in our 8/10 review.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/star-trek-voyager-across-the-unknown-final-dlc-ventures-to-switch-2-next-month"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:5",
+      "value": "Season 5...",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "besides star trek online, star trek games are a dime a dozen\n\nwell, I was watching Voyager on VHS in the 90s, got to about season 3 then stopped, resumed and now at the end of Season 5...",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/star-trek-voyager-across-the-unknown-final-dlc-ventures-to-switch-2-next-month"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "lords of the fallen ii april 2027",
+      "value": "Lords of the Fallen II: April 2027,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Lords of the Fallen II: April 2027,\" he wrote.",
+      "urls": [
+        "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:32000000",
+      "value": "$32 million",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Last month, CI Games secured a &euro;28.6 million (around $32 million) loan to complete production and release Lords of the Fallen 2, as well as refinance its existing bank debt, according to a stock exchange filing.",
+      "urls": [
+        "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a perfectly acceptable soulslike that s often fun to play and offers the same satisfaction at overcoming adversity",
+      "value": "a perfectly acceptable Soulslike that's often fun to play and offers the same satisfaction at overcoming adversity",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Eurogamer gave the rebooted Lords of the Fallen two stars, calling it \"a perfectly acceptable Soulslike that's often fun to play and offers the same satisfaction at overcoming adversity\", but one let down by \"Soulslike clich&eacute;s and performance woes\".",
+      "urls": [
+        "https://www.eurogamer.net/lords-of-the-fallen-2-delayed-april-2027"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 7,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "5 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

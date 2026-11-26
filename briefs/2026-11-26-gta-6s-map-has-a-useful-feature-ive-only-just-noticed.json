@@ -1,0 +1,158 @@
+{
+  "generated": "2026-11-26T04:35:20.569Z",
+  "workingTitle": "GTA 6's Map Has a Useful Feature I've Only Just Noticed",
+  "heat": 217.1,
+  "outletCount": 15,
+  "outlets": [
+    "Push Square",
+    "Polygon",
+    "PC Gamer",
+    "GameSpot",
+    "IGN",
+    "Kotaku",
+    "Pure Xbox",
+    "Destructoid",
+    "Eurogamer",
+    "Rock Paper Shotgun",
+    "Game Developer",
+    "Nintendo Life",
+    "PlayStation Blog",
+    "Xbox Wire",
+    "PCGamesN"
+  ],
+  "newest": "2026-11-26T01:00:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "GTA 6's Map Has a Useful Feature I've Only Just Noticed",
+        "url": "https://www.pushsquare.com/news/2026/11/gta-6s-map-has-a-useful-feature-ive-only-just-noticed",
+        "date": "2026-11-26T01:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "How to get adrenaline in GTA 6",
+        "url": "https://www.polygon.com/gta-6-adrenaline-how-to-get/",
+        "date": "2026-11-25T22:57:40.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "GTA 6 has weird purple streetlights because actual Florida screwed up its streetlights",
+        "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-weird-purple-streetlights-because-actual-florida-screwed-up-its-streetlights/",
+        "date": "2026-11-25T22:36:12.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Polygon",
+        "title": "All Peewees Billboard locations in GTA 6",
+        "url": "https://www.polygon.com/gta-6-peewees-billboard-location-challenge-waink/",
+        "date": "2026-11-25T22:18:47.000Z",
+        "host": "www.polygon.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Guide: GTA 6: Secret Controls the Game Doesn't Tell You",
+        "url": "https://www.pushsquare.com/guides/gta-6-secret-controls-the-game-doesnt-tell-you",
+        "date": "2026-11-25T22:00:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "How To Unlock The Alien Questline in GTA 6",
+        "url": "https://www.gamespot.com/videos/how-to-unlock-the-alien-questline-in-gta-6/",
+        "date": "2026-11-25T22:00:00.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "spectral shift caused by phosphor displacement",
+      "value": "spectral shift caused by phosphor displacement,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Apparently the cause was a \"spectral shift caused by phosphor displacement,\" which essentially means the LED lights were always blue, but the coating that was supposed to make appear yellow or white or whatever didn't work.",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-weird-purple-streetlights-because-actual-florida-screwed-up-its-streetlights/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 World of Warcraft: Forever review 2 Corsair Sabre V3 Pro PureVector Ergo review 3 Football Manager 27 review 4 Ashes of the Singularity 2 review 5 8BitDo Ultimate 3E review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-weird-purple-streetlights-because-actual-florida-screwed-up-its-streetlights/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-weird-purple-streetlights-because-actual-florida-screwed-up-its-streetlights/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/grand-theft-auto/gta-6-has-weird-purple-streetlights-because-actual-florida-screwed-up-its-streetlights/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "where have you been gta6 did it first thought you were a gamer bro",
+      "value": "where have you been, GTA6 did it first, thought you were a gamer bro.",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And then they'll be wowed by these things in some other games in the future and everybody else would be like \"where have you been, GTA6 did it first, thought you were a gamer bro.\"\n\nThe only one I knew here was flipping people off with da finger both walking around the streets and in your car :’)))) I’m also just on Chapter 2 so :’)))))\n\nEven after 60+ hours, a couple of these are new for me!",
+      "urls": [
+        "https://www.pushsquare.com/guides/gta-6-secret-controls-the-game-doesnt-tell-you"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

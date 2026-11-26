@@ -1,0 +1,211 @@
+{
+  "generated": "2026-11-26T04:35:21.769Z",
+  "workingTitle": "Diablo 4’s Most Nostalgic Season Is Becoming (Mostly) Permanent",
+  "heat": 32.6,
+  "outletCount": 4,
+  "outlets": [
+    "GameSpot",
+    "PCGamesN",
+    "Eurogamer",
+    "PC Gamer"
+  ],
+  "newest": "2026-11-25T18:29:11.000Z",
+  "readableCount": 3,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "PCGamesN",
+        "title": "Diablo 4 Season 16's new endgame upgrades just got a whole lot more juicy",
+        "url": "https://www.pcgamesn.com/diablo-4/season-16-tyraels-gambit-patch-notes",
+        "date": "2026-11-25T15:56:27.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Blizzard is making a lot of the Diablo 4's event-specific Diablo 2 anniversary content permanent because everyone loved it in Season 15",
+        "url": "https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary",
+        "date": "2026-11-25T13:51:10.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Fan-favorite Diablo 2 anniversary bosses and items won't disappear when Diablo 4's next season starts",
+        "url": "https://www.pcgamer.com/games/rpg/fan-favorite-diablo-2-anniversary-bosses-and-items-wont-disappear-when-diablo-4s-next-season-starts/",
+        "date": "2026-11-24T21:39:22.000Z",
+        "host": "www.pcgamer.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Diablo 4’s Most Nostalgic Season Is Becoming (Mostly) Permanent",
+        "url": "https://www.gamespot.com/articles/diablo-4s-most-nostalgic-season-is-becoming-mostly-permanent/",
+        "date": "2026-11-25T18:29:11.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [
+    {
+      "kind": "version",
+      "key": "v:season:16",
+      "value": "Season 16",
+      "outlets": [
+        "PCGamesN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Blizzard details the updates being made to Diablo 4 Season 16 following the 3.3.0 PTR, including much more valuable endgame customization.",
+      "urls": [
+        "https://www.pcgamesn.com/diablo-4/season-16-tyraels-gambit-patch-notes",
+        "https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:15",
+      "value": "Season 15",
+      "outlets": [
+        "PCGamesN",
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "Blizzard has heard the community's \"overwhelming requests\" to bring back the anniversary festivities of Season 15, which include some of the most satisfying secret quests the series has seen.",
+      "urls": [
+        "https://www.pcgamesn.com/diablo-4/season-16-tyraels-gambit-patch-notes",
+        "https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "working together synergistically",
+      "value": "working together synergistically",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It'll all culminate in the return of the Corrupted Reaper, but this time she's brought along a friend, the Fractured Reaper, with the two of them \"working together synergistically\" and combining their abilities in a fight that promises to put us to the ultimate test.",
+      "urls": [
+        "https://www.pcgamesn.com/diablo-4/season-16-tyraels-gambit-patch-notes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "works like a traditional lair boss",
+      "value": "works like a traditional Lair Boss,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "So is the prime Evil Council fight, which now \"works like a traditional Lair Boss,\" with the only requirement being a Wirt's Lucky Coin if you want to open the rewards chest at the end.",
+      "urls": [
+        "https://www.pcgamesn.com/diablo-4/season-16-tyraels-gambit-patch-notes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "to encourage choice and limit the impact of some of the most powerful effects",
+      "value": "to encourage choice and limit the impact of some of the most powerful effects.",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "It's also split the new Horadric Legendary items, which come with extra set bonuses, into weapon and armor variants \"to encourage choice and limit the impact of some of the most powerful effects.\"",
+      "urls": [
+        "https://www.pcgamesn.com/diablo-4/season-16-tyraels-gambit-patch-notes"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "we heard overwhelming requests for features from season of hell s legacy to carry forward as permanent game features",
+      "value": "We heard overwhelming requests for features from Season of Hell's Legacy to carry forward as permanent game features,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"We heard overwhelming requests for features from Season of Hell's Legacy to carry forward as permanent game features,\" Blizzard wrote in Season 16's announcement post.",
+      "urls": [
+        "https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "while the entire season couldn t come along for the ride we are implementing the following features with the launch of season of tyrael s gambit that will carry forward in both eternal and seasonal realms",
+      "value": "While the entire season couldn't come along for the ride, we are implementing the following features with the launch of Season of Tyrael's Gambit that will carry forward in both Eternal and Seasonal realms.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"While the entire season couldn't come along for the ride, we are implementing the following features with the launch of Season of Tyrael's Gambit that will carry forward in both Eternal and Seasonal realms.\"\n\nSeason of Tyrael's Gambit kicks off 1st December, so you still have time to access all of that in Diablo 4 until Season 15 ends.",
+      "urls": [
+        "https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com",
+      "value": "https:\\/\\/www.pcgamer.com\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "1 World of Warcraft: Forever review 2 Corsair Sabre V3 Pro PureVector Ergo review 3 Football Manager 27 review 4 Ashes of the Singularity 2 review 5 8BitDo Ultimate 3E review US edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/\"},{\"locale\":\"GB\",\"translatedText\":\"Looks like you're in the UK!",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/fan-favorite-diablo-2-anniversary-bosses-and-items-wont-disappear-when-diablo-4s-next-season-starts/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/fan-favorite-diablo-2-anniversary-bosses-and-items-wont-disappear-when-diablo-4s-next-season-starts/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/rpg/fan-favorite-diablo-2-anniversary-bosses-and-items-wont-disappear-when-diablo-4s-next-season-starts/"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 10,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "8 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

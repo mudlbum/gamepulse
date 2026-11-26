@@ -1,15 +1,45 @@
 {
-  "decided": "2026-11-25T05:08:46.547Z",
+  "decided": "2026-11-26T04:35:21.847Z",
   "publish": true,
-  "reason": "selected on score 32.5",
-  "brief": "2026-11-24-trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts.json",
-  "title": "Trump claims credit for Jensen Huang's return to Nvidia, posts meme depicting Huang holding up a bra victoriously",
+  "reason": "selected on score 27.6",
+  "brief": "2026-11-26-diablo-4s-most-nostalgic-season-is-becoming-mostly-permanent.json",
+  "title": "Diablo 4’s Most Nostalgic Season Is Becoming (Mostly) Permanent",
   "considered": [
+    {
+      "file": "2026-11-26-star-trek-worf-would-have-been-better-than-no-trek-at-all.json",
+      "title": "Star Trek: Worf Would Have Been Better Than No Trek At All",
+      "pass": false,
+      "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-26-sony-confirms-playstation-plus-monthly-games-for-december-20.json",
+      "title": "Sony Confirms PlayStation Plus Monthly Games for December 2026",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-26-hollow-knight-silksong-dlc-news-and-exciting-reveals-from-de.json",
+      "title": "Hollow Knight: Silksong DLC News and 'Exciting' Reveals from Dev Team Cherry Coming This Week",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-26-gta-6s-map-has-a-useful-feature-ive-only-just-noticed.json",
+      "title": "GTA 6's Map Has a Useful Feature I've Only Just Noticed",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-26-diablo-4s-most-nostalgic-season-is-becoming-mostly-permanent.json",
+      "title": "Diablo 4’s Most Nostalgic Season Is Becoming (Mostly) Permanent",
+      "pass": true,
+      "reason": "2/10 claims corroborated · 4 outlets · secondary only · 10h old"
+    },
     {
       "file": "2026-11-25-trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts.json",
       "title": "Trump claims credit for Jensen Huang's return to Nvidia, posts meme depicting Huang holding up a bra victoriously",
-      "pass": true,
-      "reason": "2/22 claims corroborated · 5 outlets · secondary only · 28h old"
+      "pass": false,
+      "reason": "newest source is 51h old, limit 36h"
     },
     {
       "file": "2026-11-25-the-plan-was-for-mass-effect-universe-to-tell-you-what-happe.json",
@@ -22,36 +52,6 @@
       "title": "The difference between The Witcher 3 and Witcher 4 will be 'comparable' to that of GTA 5 and GTA 6, CD Projekt boss says: 'I mean, it's been 11 years'",
       "pass": false,
       "reason": "0 of 13 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-11-25-real-life-gta-6-trading-cards-are-about-to-get-scalped.json",
-      "title": "Real-Life GTA 6 Trading Cards Are About to Get Scalped",
-      "pass": false,
-      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-25-analyst-estimates-call-of-duty-lost-44-of-its-players-when-g.json",
-      "title": "Analyst estimates Call of Duty lost 44% of its players when GTA 6 came out, and unlike fans of its live-service competitors they've been slow to come back",
-      "pass": false,
-      "reason": "only 9 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-24-trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts.json",
-      "title": "Trump claims credit for Jensen Huang's return to Nvidia, posts meme depicting Huang holding up a bra victoriously",
-      "pass": true,
-      "reason": "2/16 claims corroborated · 7 outlets · secondary only · 28h old"
-    },
-    {
-      "file": "2026-11-24-how-to-get-the-truffade-thrax-in-gta-6.json",
-      "title": "How to get the Truffade Thrax in GTA 6",
-      "pass": false,
-      "reason": "0 of 13 claims corroborated, need 2 — no two outlets agree on anything specific"
-    },
-    {
-      "file": "2026-11-24-god-of-war-laufey-star-will-reprise-role-for-live-action-tv-.json",
-      "title": "God of War Laufey Star Will Reprise Role for Live-Action TV Show",
-      "pass": false,
-      "reason": "only 8 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }
