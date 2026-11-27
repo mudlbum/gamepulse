@@ -1,0 +1,160 @@
+{
+  "generated": "2026-11-27T04:39:19.366Z",
+  "workingTitle": "Lucia Actress Manni L. Perez Issues First Statement Since GTA 6 Launch",
+  "heat": 35,
+  "outletCount": 4,
+  "outlets": [
+    "IGN",
+    "Push Square",
+    "Eurogamer",
+    "Nintendo Life"
+  ],
+  "newest": "2026-11-26T21:02:21.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "IGN",
+        "title": "Lucia Actress Manni L. Perez Issues First Statement Since GTA 6 Launch",
+        "url": "https://www.ign.com/articles/lucia-actress-manni-l-perez-issues-first-statement-since-gta-6-launch",
+        "date": "2026-11-26T21:02:21.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Despite No Disc, GTA 6 Recorded the UK's Biggest Physical Launch Since 2019",
+        "url": "https://www.pushsquare.com/news/2026/11/despite-no-disc-gta-6-recorded-the-uks-biggest-physical-launch-since-2019",
+        "date": "2026-11-26T18:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "GTA 6 causes surge in UK physical game sales, despite there being no disc in the box",
+        "url": "https://www.eurogamer.net/gta-6-boxed-physical-sales-uk",
+        "date": "2026-11-26T17:30:30.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "GTA 6's Physical Launch Has Been An Astronomical Success, Despite No Discs",
+        "url": "https://www.nintendolife.com/news/2026/11/gta-6s-physical-launch-has-been-an-astronomical-success-despite-no-discs",
+        "date": "2026-11-26T16:30:00.000Z",
+        "host": "www.nintendolife.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "i actually got re4 remake days before the official release date",
+      "value": "I actually got RE4 remake days before the official release date",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@ShadowRJ \" I actually got RE4 remake days before the official release date\"\n\nYou didn't help the physical cause there bro.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/despite-no-disc-gta-6-recorded-the-uks-biggest-physical-launch-since-2019"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "while the physical games market looks very different today compared with previous blockbuster launches gta 6 has still made a huge impact",
+      "value": "While the physical games market looks very different today compared with previous blockbuster launches, GTA 6 has still made a huge impact,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"While the physical games market looks very different today compared with previous blockbuster launches, GTA 6 has still made a huge impact,\" said NielsenIQ's Dorian Bloch.",
+      "urls": [
+        "https://www.eurogamer.net/gta-6-boxed-physical-sales-uk"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "no 17 biggest physical game launch in the uk since records began in 1995",
+      "value": "No.17 biggest physical game launch in the UK since records began in 1995",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "He goes on to state that GTA 6 is the \"No.17 biggest physical game launch in the UK since records began in 1995\".",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/gta-6s-physical-launch-has-been-an-astronomical-success-despite-no-discs"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "you will own nothing and have zero privacy and be happy",
+      "value": "You will own nothing and have zero privacy, and be happy.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"You will own nothing and have zero privacy, and be happy.\" Welcome to the insane brave new world that our billionaire class has come up with.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/gta-6s-physical-launch-has-been-an-astronomical-success-despite-no-discs"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:12",
+      "value": "$12",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "At $12 per ticket, it would take approximately 316 million movie tickets to generate $3.79 billion.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/gta-6s-physical-launch-has-been-an-astronomical-success-despite-no-discs"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:3790000000",
+      "value": "$3.79 billion",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "At $12 per ticket, it would take approximately 316 million movie tickets to generate $3.79 billion.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/gta-6s-physical-launch-has-been-an-astronomical-success-despite-no-discs"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:1210000000",
+      "value": "$1.209 billion",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Endgame made its $1.209 billion with roughly 101 million $12-ticket equivalents.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/gta-6s-physical-launch-has-been-an-astronomical-success-despite-no-discs"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 7,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

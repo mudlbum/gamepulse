@@ -1,0 +1,125 @@
+{
+  "generated": "2026-11-27T04:39:17.909Z",
+  "workingTitle": "GTA 6's Car Physics Were Tuned by a Gran Turismo Pro",
+  "heat": 163.4,
+  "outletCount": 11,
+  "outlets": [
+    "Push Square",
+    "IGN",
+    "Kotaku",
+    "Pure Xbox",
+    "Destructoid",
+    "Polygon",
+    "PCGamesN",
+    "Eurogamer",
+    "GameSpot",
+    "Rock Paper Shotgun",
+    "PC Gamer"
+  ],
+  "newest": "2026-11-27T01:00:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "GTA 6's Car Physics Were Tuned by a Gran Turismo Pro",
+        "url": "https://www.pushsquare.com/news/2026/11/gta-6s-car-physics-were-tuned-by-a-gran-turismo-pro",
+        "date": "2026-11-27T01:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "GTA 6 Fashion in the IGN Community",
+        "url": "https://www.ign.com/articles/gta-6-fashion-in-the-ign-community",
+        "date": "2026-11-26T20:23:37.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "Kotaku",
+        "title": "GTA 6 Is A Tragedy Because You Cannot Sit Down And Eat Spaghetti",
+        "url": "https://kotaku.com/gta-6-is-a-tragedy-because-you-cannot-sit-down-and-eat-spaghetti-2001000633",
+        "date": "2026-11-26T19:00:19.000Z",
+        "host": "kotaku.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "'The Results Are Very, Very Impressive' - Digital Foundry Praises GTA 6 On Xbox One",
+        "url": "https://www.purexbox.com/news/2026/11/the-results-are-very-very-impressive-digital-foundry-praises-gta-6-on-xbox-one",
+        "date": "2026-11-26T19:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Should you kill or spare Raul in GTA 6?",
+        "url": "https://www.destructoid.com/should-you-kill-or-spare-raul-in-gta-6/",
+        "date": "2026-11-26T18:55:21.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "GTA 6 fashionistas are sharing their Lucia fits like it’s Animal Crossing, and our leading lady has never looked better",
+        "url": "https://www.destructoid.com/gta-6-fashionistas-share-best-lucia-fits/",
+        "date": "2026-11-26T18:19:07.000Z",
+        "host": "www.destructoid.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "frame pacing is significantly worse than the real deal with quicker 16 7ms frames and slower 50 0ms frames surrounding the expected 33 3ms ones",
+      "value": "frame pacing is significantly worse than the real deal, with quicker 16.7ms frames and slower 50.0ms frames surrounding the expected 33.3ms ones.",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "However, Digital Foundry notes that \"frame pacing is significantly worse than the real deal, with quicker 16.7ms frames and slower 50.0ms frames surrounding the expected 33.3ms ones.\"\n\nFrom their Xbox One Cloud tests, they used an ethernet connection, and were genuinely impressed with GTA 6's image quality.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/the-results-are-very-very-impressive-digital-foundry-praises-gta-6-on-xbox-one"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "significantly degraded by the streaming process",
+      "value": "significantly degraded by the streaming process",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They mentioned the game isn't \"significantly degraded by the streaming process\", with little visible compression or artefacting when in motion.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/the-results-are-very-very-impressive-digital-foundry-praises-gta-6-on-xbox-one"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "higher bitrate than that afforded to other games",
+      "value": "higher bitrate than that afforded to other games",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Streaming GTA 6 at 1440p (via Xbox Game Pass Ultimate on One S or X) also appears to benefit from a higher bitrate than usual, with DF stating it gets a \"higher bitrate than that afforded to other games\".",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/the-results-are-very-very-impressive-digital-foundry-praises-gta-6-on-xbox-one"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 3,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

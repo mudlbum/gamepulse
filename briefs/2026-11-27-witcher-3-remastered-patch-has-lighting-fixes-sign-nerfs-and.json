@@ -1,0 +1,215 @@
+{
+  "generated": "2026-11-27T04:39:18.267Z",
+  "workingTitle": "Witcher 3 Remastered patch has lighting fixes, sign nerfs, and gets rid of a nasty werewolf bug",
+  "heat": 66.6,
+  "outletCount": 6,
+  "outlets": [
+    "PC Gamer",
+    "Eurogamer",
+    "Push Square",
+    "Nintendo Life",
+    "Pure Xbox",
+    "Xbox Wire"
+  ],
+  "newest": "2026-11-27T04:27:55.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "Xbox Wire",
+        "title": "Nioh 3 Is Coming to XBOX in 2027",
+        "url": "https://news.xbox.com/en-us/2026/11/24/nioh-3-xbox-series-debut/",
+        "date": "2026-11-24T19:00:00.000Z",
+        "host": "news.xbox.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "PC Gamer",
+        "title": "Witcher 3 Remastered patch has lighting fixes, sign nerfs, and gets rid of a nasty werewolf bug",
+        "url": "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/",
+        "date": "2026-11-27T04:27:55.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "The Witcher 3's new patch adds 40 cross-platform mods, fixes plenty of game-breaking bugs and \"various lighting issues\"",
+        "url": "https://www.eurogamer.net/the-witcher-3-patch-40-mods-bugs",
+        "date": "2026-11-26T19:20:50.000Z",
+        "host": "www.eurogamer.net"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "The Witcher 3 Remastered Patch 5.02 Fixes Annoying PS5 Stutters, Improves Performance, and Much More",
+        "url": "https://www.pushsquare.com/news/2026/11/the-witcher-3-remastered-patch-5-02-fixes-annoying-ps5-stutters-improves-performance-and-much-more",
+        "date": "2026-11-26T15:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "The Witcher 3 Remastered Ver. 5.02 Update Is Now Live, Here Are The Full Patch Notes",
+        "url": "https://www.nintendolife.com/news/2026/11/the-witcher-3-remastered-ver-5-02-update-is-now-live-here-are-the-full-patch-notes",
+        "date": "2026-11-26T15:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Witcher 3 Remastered Gets Its Next Update On Xbox & PC, Full Patch Notes Revealed",
+        "url": "https://www.purexbox.com/news/2026/11/witcher-3-remastered-gets-its-next-update-on-xbox-and-pc-full-patch-notes-revealed",
+        "date": "2026-11-26T14:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2027-01-28",
+      "value": "January 28, 2027",
+      "outlets": [
+        "Xbox Wire"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "Summary Team NINJA and Koei Tecmo are bringing the Nioh series to XBOX for the first time ever with Nioh 3 and Nioh 3: Complete Edition coming to XBOX Series X|S on January 28, 2027.",
+      "urls": [
+        "https://news.xbox.com/en-us/2026/11/24/nioh-3-xbox-series-debut/"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:5.02",
+      "value": "patch 5.02.",
+      "outlets": [
+        "PC Gamer",
+        "Eurogamer",
+        "Push Square",
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 4,
+      "context": "It was a bug that's been caught and exterminated in patch 5.02.",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/",
+        "https://www.eurogamer.net/the-witcher-3-patch-40-mods-bugs",
+        "https://www.pushsquare.com/news/2026/11/the-witcher-3-remastered-patch-5-02-fixes-annoying-ps5-stutters-improves-performance-and-much-more",
+        "https://www.purexbox.com/news/2026/11/witcher-3-remastered-gets-its-next-update-on-xbox-and-pc-full-patch-notes-revealed"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "fixed an issue where werewolves could regenerate health too quickly on higher difficulty settings",
+      "value": "Fixed an issue where werewolves could regenerate health too quickly on higher difficulty settings,",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Fixed an issue where werewolves could regenerate health too quickly on higher difficulty settings,\" the patch notes say, \"making them impossible to defeat.\"\n\nAnother problem some players had with The Witcher 3 Remastered was its lighting, with interiors in particular looking too dark while some other locations were washed-out flashbangs.",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it sucked because i trivialized the whole thing with a broken build i got by copying a youtuber",
+      "value": "It sucked because I trivialized the whole thing with a broken build I got by copying a YouTuber.",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "They don't want to hear a bunch of players say, \"It sucked because I trivialized the whole thing with a broken build I got by copying a YouTuber.\" If some skill nerfs and a reduction to stamina regeneration in combat mean you have to drink more potions to get your signs off, it probably won't ruin your fun.",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "two things are certain in a witcher s life the path never sleeps and the work is never done",
+      "value": "Two things are certain in a witcher's life: the Path never sleeps, and the work is never done,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Developer CD Projekt Red has rolled out a new patch for The Witcher 3: Wild Hunt - Remastered on all platforms, which squashes dozens of bugs and adds 40 cross-platform mods with \"more on the way.\"\n\n\"Two things are certain in a witcher's life: the Path never sleeps, and the work is never done,\" the studio wrote in its latest exhaustive list of patch notes for the decade-old game.",
+      "urls": [
+        "https://www.eurogamer.net/the-witcher-3-patch-40-mods-bugs"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "time to go backwards indefinitely",
+      "value": "time to go backwards indefinitely.",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "One such bug caused \"time to go backwards indefinitely.\" Another turned Geralt bald.",
+      "urls": [
+        "https://www.eurogamer.net/the-witcher-3-patch-40-mods-bugs"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:1.9.0",
+      "value": "Version 1.9.0",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ocarina Remake's 'Positive' User Review Score Is Now Under Fire\n\nZelda: Ocarina Of Time Walkthrough (Switch 2 Remake): Guide To The Main Quest, Side Quests & Collectables\n\nNintendo Expands Switch 2's GameCube Library With Another Game This Week\n\nMario Kart World Has Been Updated To Version 1.9.0, Here Are The Full Patch Notes\n\nAll Gold Skulltula Locations & Rewards In Zelda: Ocarina Of Time",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/the-witcher-3-remastered-ver-5-02-update-is-now-live-here-are-the-full-patch-notes"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 9,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": true,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "7 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
