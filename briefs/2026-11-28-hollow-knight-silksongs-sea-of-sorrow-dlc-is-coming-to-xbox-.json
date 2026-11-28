@@ -1,0 +1,154 @@
+{
+  "generated": "2026-11-28T04:24:36.011Z",
+  "workingTitle": "Hollow Knight: Silksong's Sea of Sorrow DLC Is Coming To Xbox Next Month, And It's Free",
+  "heat": 97.4,
+  "outletCount": 11,
+  "outlets": [
+    "Pure Xbox",
+    "GameSpot",
+    "Destructoid",
+    "PC Gamer",
+    "Push Square",
+    "Rock Paper Shotgun",
+    "IGN",
+    "Kotaku",
+    "PCGamesN",
+    "Eurogamer",
+    "Nintendo Life"
+  ],
+  "newest": "2026-11-27T19:00:00.000Z",
+  "readableCount": 5,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Pure Xbox",
+        "title": "Hollow Knight: Silksong's Sea of Sorrow DLC Is Coming To Xbox Next Month, And It's Free",
+        "url": "https://www.purexbox.com/news/2026/11/hollow-knight-silksongs-sea-of-sorrow-dlc-is-coming-to-xbox-next-month-and-its-free",
+        "date": "2026-11-27T19:00:00.000Z",
+        "host": "www.purexbox.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Hollow Knight Silksong: Sea of Sorrow release countdown — Exact date and time",
+        "url": "https://www.destructoid.com/hollow-knight-silksong-sea-of-sorrow-release-countdown-exact-date-and-time/",
+        "date": "2026-11-27T17:59:44.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "Destructoid",
+        "title": "Silksong is getting a free DLC next month, and Hollow Knight fans keep winning",
+        "url": "https://www.destructoid.com/hollow-knight-silksong-free-sea-of-sorrow-dlc/",
+        "date": "2026-11-27T16:53:12.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "Silksong is getting a free expansion in 2 weeks",
+        "url": "https://www.pcgamer.com/games/action/silksong-is-getting-a-free-expansion-its-first-content-update-since-launch-in-2-weeks/",
+        "date": "2026-11-27T16:31:53.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Hollow Knight: Silksong's Sea of Sorrow DLC Launches Next Month, and It's Free",
+        "url": "https://www.pushsquare.com/news/2026/11/hollow-knight-silksongs-sea-of-sorrow-dlc-launches-next-month-and-its-free",
+        "date": "2026-11-27T16:30:00.000Z",
+        "host": "www.pushsquare.com"
+      }
+    ],
+    "unreadable": [
+      {
+        "outlet": "GameSpot",
+        "title": "Hollow Knight: Silksong – Sea of Sorrow Official Launch Trailer",
+        "url": "https://www.gamespot.com/videos/hollow-knight-silksong-sea-of-sorrow-official-launch-trailer/",
+        "date": "2026-11-27T18:02:08.000Z",
+        "host": "www.gamespot.com"
+      }
+    ]
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "date",
+      "key": "d:2026-12-11",
+      "value": "December 11, 2026",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Yep, Sea of Sorrow was revealed during the recent Cherry Time showcase, with the DLC setting its sights on December 11, 2026.",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/hollow-knight-silksongs-sea-of-sorrow-dlc-is-coming-to-xbox-next-month-and-its-free"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ari Gibson, the studio’s co-director, said it tries to “price the game at a reasonable level for people,” which is why it kept Silksong to a modest $20—just $5 more than the original Hollow Knight—while maintaining consumer-friendly regional prices across the globe.",
+      "urls": [
+        "https://www.destructoid.com/hollow-knight-silksong-free-sea-of-sorrow-dlc/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5000000",
+      "value": "$5 m",
+      "outlets": [
+        "Destructoid"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Ari Gibson, the studio’s co-director, said it tries to “price the game at a reasonable level for people,” which is why it kept Silksong to a modest $20—just $5 more than the original Hollow Knight—while maintaining consumer-friendly regional prices across the globe.",
+      "urls": [
+        "https://www.destructoid.com/hollow-knight-silksong-free-sea-of-sorrow-dlc/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/games/action/silksong-is-getting-a-free-expansion-its-first-content-update-since-launch-in-2-weeks/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/games/action/silksong-is-getting-a-free-expansion-its-first-content-update-since-launch-in-2-weeks/"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

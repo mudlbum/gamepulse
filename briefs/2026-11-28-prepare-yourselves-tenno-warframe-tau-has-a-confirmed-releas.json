@@ -1,0 +1,134 @@
+{
+  "generated": "2026-11-28T04:24:36.952Z",
+  "workingTitle": "Prepare yourselves, Tenno. Warframe: Tau has a confirmed release date, and it’s very soon",
+  "heat": 25.7,
+  "outletCount": 3,
+  "outlets": [
+    "Destructoid",
+    "PCGamesN",
+    "Eurogamer"
+  ],
+  "newest": "2026-11-27T20:00:38.000Z",
+  "readableCount": 3,
+  "sourceCount": 3,
+  "games": [
+    "Warframe"
+  ],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Destructoid",
+        "title": "Prepare yourselves, Tenno. Warframe: Tau has a confirmed release date, and it’s very soon",
+        "url": "https://www.destructoid.com/prepare-yourselves-tenno-warframe-tau-has-a-confirmed-release-date-and-its-very-soon/",
+        "date": "2026-11-27T20:00:38.000Z",
+        "host": "www.destructoid.com"
+      },
+      {
+        "outlet": "PCGamesN",
+        "title": "Warframe's Tau update has a release date, and it's Digital Extremes' \"biggest swing\" yet",
+        "url": "https://www.pcgamesn.com/warframe/tau-release-date",
+        "date": "2026-11-27T20:00:00.000Z",
+        "host": "www.pcgamesn.com"
+      },
+      {
+        "outlet": "Eurogamer",
+        "title": "Digital Extremes says Warframe's imminent Tau update is practically big enough to be a sequel as it reveals new details, including dog walking",
+        "url": "https://www.eurogamer.net/warframe-tau-dev-stream-december-9th",
+        "date": "2026-11-27T20:00:00.000Z",
+        "host": "www.eurogamer.net"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "quote",
+      "key": "the biggest swing we could do for the shape of the game",
+      "value": "the biggest swing we could do for the shape of the game,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "This is Warframe's first new system, with Creative Director Rebecca Ford describing it as \"the biggest swing we could do for the shape of the game,\" but also \"just the start of Tau.\"\n\nThere are two regions to explore (Fornax, the Sentient, noir-inspired primary planet, alongside its moon, Perita), as well as a two-hour quest.",
+      "urls": [
+        "https://www.pcgamesn.com/warframe/tau-release-date"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "it s literally low fi fornax night walks to study to",
+      "value": "It's literally low-fi Fornax Night Walks to study to,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"It's literally low-fi Fornax Night Walks to study to,\" Ford laughs, calling it a \"low stakes, very chill way to play this update.\"\n\nEach of the three zones has its own bounties and missions, with the latter's icons being brought to life with some absolutely gorgeous card-inspired illustrations.",
+      "urls": [
+        "https://www.pcgamesn.com/warframe/tau-release-date"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "very environmental game mode",
+      "value": "very environmental game mode",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Given that it's a \"very environmental game mode\" where you have to \"deduce the most interesting way to navigate the traps of Fornax,\" it fits perfectly into the detective theme we're getting with new Chimera Frame, Brysko, the update's release Warframe.",
+      "urls": [
+        "https://www.pcgamesn.com/warframe/tau-release-date"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "loki was one of the starter warframes back in our alpha days",
+      "value": "Loki was one of the starter Warframes back in our alpha days,",
+      "outlets": [
+        "PCGamesN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Loki was one of the starter Warframes back in our alpha days,\" Ford recalls, noting that he'll also be getting a \"light rework.\" I'm loving the bright green, as well as the silhouette and the rather snazzy fur textures, which Ford notes is part of a \"tech share between and Soulframe.\"\n\nThere's a lot on the horizon, then, but all of it looks bright (literally so in the case of those heirlooms).",
+      "urls": [
+        "https://www.pcgamesn.com/warframe/tau-release-date"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "this is a huge update it is massive",
+      "value": "This is a huge update, it is massive,",
+      "outlets": [
+        "Eurogamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"This is a huge update, it is massive,\" Ford said.",
+      "urls": [
+        "https://www.eurogamer.net/warframe-tau-dev-stream-december-9th"
+      ]
+    }
+  ],
+  "factCount": 0,
+  "evidenceCount": 5,
+  "ourData": [
+    {
+      "game": "Warframe",
+      "concurrent": 56399,
+      "rank": 22,
+      "change24h": 37.2,
+      "note": "From our own leaderboard — original data, safe to cite as ours."
+    }
+  ],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "UNUSABLE — sources were readable but no verifiable figures, dates or quotes could be extracted. This is usually an opinion piece or a roundup with no hard claims. Do not write from this brief."
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "generated": "2026-11-28T04:24:35.609Z",
+  "workingTitle": "Earn Cashback on PS5 Games in Sony's Black Friday Sale",
+  "heat": 161.8,
+  "outletCount": 11,
+  "outlets": [
+    "Push Square",
+    "PC Gamer",
+    "IGN",
+    "Nintendo Life",
+    "Pure Xbox",
+    "GameSpot",
+    "PCGamesN",
+    "Destructoid",
+    "Kotaku",
+    "Eurogamer",
+    "Rock Paper Shotgun"
+  ],
+  "newest": "2026-11-28T01:30:00.000Z",
+  "readableCount": 6,
+  "sourceCount": 6,
+  "games": [],
+  "sources": {
+    "primary": [],
+    "secondary": [
+      {
+        "outlet": "Push Square",
+        "title": "Earn Cashback on PS5 Games in Sony's Black Friday Sale",
+        "url": "https://www.pushsquare.com/news/2026/11/earn-cashback-on-ps5-games-in-sonys-black-friday-sale",
+        "date": "2026-11-28T01:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Feature: 80+ PS5, PS4 Games to Buy in PS Store's Updated Black Friday Sale (North America/Europe)",
+        "url": "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope",
+        "date": "2026-11-28T00:30:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "Push Square",
+        "title": "Site News: Save 5% on PS5 Games with Push Square's Black Friday Deals",
+        "url": "https://www.pushsquare.com/news/2026/11/site-news-save-5percent-on-ps5-games-with-push-squares-black-friday-deals",
+        "date": "2026-11-28T00:00:00.000Z",
+        "host": "www.pushsquare.com"
+      },
+      {
+        "outlet": "PC Gamer",
+        "title": "After falling in love with PS5 haptic feedback in GTA 6, I'm eyeing these Black Friday deals on DualSense controllers",
+        "url": "https://www.pcgamer.com/hardware/controllers/after-falling-in-love-with-ps5-haptic-feedback-in-gta-6-im-eyeing-these-black-friday-deals-on-dualsense-controllers/",
+        "date": "2026-11-27T19:40:21.000Z",
+        "host": "www.pcgamer.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "The Sony PlayStation DualSense Edge Controller Drops to $152 Exclusively at Lenovo for Black Friday",
+        "url": "https://www.ign.com/articles/sony-playstation-dualsense-edge-controller-deal-black-friday-sale-2026",
+        "date": "2026-11-27T19:30:00.000Z",
+        "host": "www.ign.com"
+      },
+      {
+        "outlet": "IGN",
+        "title": "Steam's 2026 Black Friday Sale Brings First-Time Discounts to New PC Games",
+        "url": "https://www.ign.com/articles/best-game-deals-steam-black-friday-sale-2026",
+        "date": "2026-11-27T18:51:18.000Z",
+        "host": "www.ign.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "figure",
+      "key": "f:cur:20",
+      "value": "$20.",
+      "outlets": [
+        "Push Square",
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 2,
+      "context": "If your analog sticks crap out, you can replace them for $20.",
+      "urls": [
+        "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope",
+        "https://www.ign.com/articles/sony-playstation-dualsense-edge-controller-deal-black-friday-sale-2026"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "figure",
+      "key": "f:cur:40",
+      "value": "$40",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "007 for $40 is about to be a steal.",
+      "urls": [
+        "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:39.6",
+      "value": "$39.59",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Astro Bot shows $39.59 until i log in, then it's 33.59$, with no additional discount mentioned (PS+ etc)...",
+      "urls": [
+        "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:10",
+      "value": "$10",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I’d probably be tempted if they knocked another $10 off the purchase price; maybe I won’t have to wait that much longer.",
+      "urls": [
+        "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:9",
+      "value": "$9",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Looking at the first sale on the Sonic CrossWorlds Season 1 Pass - $9 off isn't a lot but it's something!",
+      "urls": [
+        "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:season:1",
+      "value": "Season 1",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Looking at the first sale on the Sonic CrossWorlds Season 1 Pass - $9 off isn't a lot but it's something!",
+      "urls": [
+        "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:24",
+      "value": "$24",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Unfortunately there's still a lot of crap on the store that forces me to go no thanks I really hate scrolling and seeing all the A.I simulator bs\n\nI picked up Active Matter for $24 as I've had my eye on that for a long time now.",
+      "urls": [
+        "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:31.5",
+      "value": "$31.49",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Cronos: The New Dawn (Deluxe Edition) $31.49 ̶$̶6̶9̶.̶9̶9̶ Save 55%\n\nBlood of Dawnwaker added to the sale today (thru Dec 1) at 20% off.",
+      "urls": [
+        "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:9.99",
+      "value": "$9.99",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Gears Reloaded is showing as $9.99 on psn for me, that’s a pretty steep discount.",
+      "urls": [
+        "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5.99",
+      "value": "$5.99",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "LEGO Harry Potter collection for only $5.99 is an absolute steal.",
+      "urls": [
+        "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:35",
+      "value": "$34.99",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "@Yahooligan is $34.99 at Best Buy here.",
+      "urls": [
+        "https://www.pushsquare.com/features/80plus-ps5-ps4-games-to-buy-in-ps-stores-updated-black-friday-sale-north-americaeurope"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:100",
+      "value": "$100",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Now would be a great time to stock up on credit; for every $100 you purchase, you'll get a $5 discount and you'll be supporting us.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/site-news-save-5percent-on-ps5-games-with-push-squares-black-friday-deals"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:5",
+      "value": "$5",
+      "outlets": [
+        "Push Square"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Now would be a great time to stock up on credit; for every $100 you purchase, you'll get a $5 discount and you'll be supporting us.",
+      "urls": [
+        "https://www.pushsquare.com/news/2026/11/site-news-save-5percent-on-ps5-games-with-push-squares-black-friday-deals"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:54",
+      "value": "$54",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "I'm an adaptive trigger convert now, and thanks to Black Friday deals, I can grab a DualSense for $54 at Walmart and revel in the dynamic trigger technology I've been sorely missing.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/controllers/after-falling-in-love-with-ps5-haptic-feedback-in-gta-6-im-eyeing-these-black-friday-deals-on-dualsense-controllers/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:75",
+      "value": "$75",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "And better a $54 controller than a $75 one.",
+      "urls": [
+        "https://www.pcgamer.com/hardware/controllers/after-falling-in-love-with-ps5-haptic-feedback-in-gta-6-im-eyeing-these-black-friday-deals-on-dualsense-controllers/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com uk",
+      "value": "https:\\/\\/www.pcgamer.com\\/uk\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's UK edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/uk\\/\"},{\"locale\":\"AU\",\"translatedText\":\"Looks like you're in Australia!",
+      "urls": [
+        "https://www.pcgamer.com/hardware/controllers/after-falling-in-love-with-ps5-haptic-feedback-in-gta-6-im-eyeing-these-black-friday-deals-on-dualsense-controllers/"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "https www pcgamer com au",
+      "value": "https:\\/\\/www.pcgamer.com\\/au\\/",
+      "outlets": [
+        "PC Gamer"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Visit PC Gamer's Australian edition for content related to your region.\",\"homepageLink\":\"https:\\/\\/www.pcgamer.com\\/au\\/\"}]\"> Close Please login or signup to comment",
+      "urls": [
+        "https://www.pcgamer.com/hardware/controllers/after-falling-in-love-with-ps5-haptic-feedback-in-gta-6-im-eyeing-these-black-friday-deals-on-dualsense-controllers/"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:200",
+      "value": "$200.",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Sony&#x27;s official pro PlayStation DualSense Edge controller is much nicer than the standard DualSense controller, and a worthy upgrade for Grand Theft Auto VI, but it&#x27;s pricey at its usual $200.",
+      "urls": [
+        "https://www.ign.com/articles/sony-playstation-dualsense-edge-controller-deal-black-friday-sale-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:170",
+      "value": "$170,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "The PlayStation Sale that went live earlier this weeked dropped the price to $170, but there&#x27;s an even better deal today.",
+      "urls": [
+        "https://www.ign.com/articles/sony-playstation-dualsense-edge-controller-deal-black-friday-sale-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:152",
+      "value": "$152",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Lenovo is currently offering it for just $152 with free shipping after you apply the 10% off coupon code \"LENOVOBIGHOLIDAY.\"\n\nThe DualSense Edge is Sony&#x27;s official high-end controller for the PS5 console.",
+      "urls": [
+        "https://www.ign.com/articles/sony-playstation-dualsense-edge-controller-deal-black-friday-sale-2026"
+      ]
+    },
+    {
+      "kind": "quote",
+      "key": "a welcome shot in the arm",
+      "value": "a welcome shot in the arm",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Of those two, Townfall might be the best, at least if you agree with Tristan Ogilvie, who&#x27;s IGN review gave it an eight and called it \"a welcome shot in the arm\" for the Silent Hill series.",
+      "urls": [
+        "https://www.ign.com/articles/best-game-deals-steam-black-friday-sale-2026"
+      ]
+    },
+    {
+      "kind": "figure",
+      "key": "f:cur:15",
+      "value": "$15,",
+      "outlets": [
+        "IGN"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "There a nice selection of physical games on sale at some of their lowest prices we&#x27;ve seen, with many as low as just $15, seen below.",
+      "urls": [
+        "https://www.ign.com/articles/best-game-deals-steam-black-friday-sale-2026"
+      ]
+    }
+  ],
+  "factCount": 1,
+  "evidenceCount": 22,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "NO PRIMARY SOURCE FOUND. Every claim here is second-hand reporting. Either locate the publisher/official source before writing, or attribute every claim explicitly to the outlet that made it (\"According to Eurogamer…\").",
+    "21 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}

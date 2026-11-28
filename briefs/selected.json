@@ -1,10 +1,40 @@
 {
-  "decided": "2026-11-27T04:39:19.427Z",
+  "decided": "2026-11-28T04:24:37.047Z",
   "publish": true,
-  "reason": "selected on score 39.6",
+  "reason": "selected on score 31.7",
   "brief": "2026-11-27-steam-isnt-doing-an-official-black-friday-fest-but-it-does-h.json",
   "title": "Steam isn't doing 'an official Black Friday fest,' but it does have a page with hundreds of discounts and 'Black Friday' splashed across the top so you might…",
   "considered": [
+    {
+      "file": "2026-11-28-splatoon-3-version-1201-update-out-now-here-are-the-patch-no.json",
+      "title": "Splatoon 3 Version 12.0.1 Update Out Now, Here Are The Patch Notes",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-28-rumoured-the-simpsons-hit-run-remake-may-be-in-trouble-after.json",
+      "title": "Rumoured The Simpsons: Hit & Run remake may be in trouble after one developer says their \"mind-blowingly awesome\" project is cancelled",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-28-prepare-yourselves-tenno-warframe-tau-has-a-confirmed-releas.json",
+      "title": "Prepare yourselves, Tenno. Warframe: Tau has a confirmed release date, and it’s very soon",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-28-hollow-knight-silksongs-sea-of-sorrow-dlc-is-coming-to-xbox-.json",
+      "title": "Hollow Knight: Silksong's Sea of Sorrow DLC Is Coming To Xbox Next Month, And It's Free",
+      "pass": false,
+      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
+    },
+    {
+      "file": "2026-11-28-earn-cashback-on-ps5-games-in-sonys-black-friday-sale.json",
+      "title": "Earn Cashback on PS5 Games in Sony's Black Friday Sale",
+      "pass": false,
+      "reason": "1 of 22 claims corroborated, need 2 — no two outlets agree on anything specific"
+    },
     {
       "file": "2026-11-27-witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and.json",
       "title": "Witcher 3 Remastered patch has lighting fixes, sign nerfs, and gets rid of a nasty werewolf bug",
@@ -15,43 +45,13 @@
       "file": "2026-11-27-steam-isnt-doing-an-official-black-friday-fest-but-it-does-h.json",
       "title": "Steam isn't doing 'an official Black Friday fest,' but it does have a page with hundreds of discounts and 'Black Friday' splashed across the top so you might…",
       "pass": true,
-      "reason": "2/38 claims corroborated · 5 outlets · secondary only · 8h old"
+      "reason": "2/38 claims corroborated · 5 outlets · secondary only · 32h old"
     },
     {
       "file": "2026-11-27-lucia-actress-manni-l-perez-issues-first-statement-since-gta.json",
       "title": "Lucia Actress Manni L. Perez Issues First Statement Since GTA 6 Launch",
       "pass": false,
       "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-27-gta-6s-car-physics-were-tuned-by-a-gran-turismo-pro.json",
-      "title": "GTA 6's Car Physics Were Tuned by a Gran Turismo Pro",
-      "pass": false,
-      "reason": "only 3 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-27-dev-team-who-delayed-their-game-a-year-to-avoid-silksong-say.json",
-      "title": "Dev team who delayed their game a year to avoid Silksong says they won't do it again for whatever Team Cherry announces tomorrow: 'This time we're staying put'",
-      "pass": false,
-      "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-26-star-trek-worf-would-have-been-better-than-no-trek-at-all.json",
-      "title": "Star Trek: Worf Would Have Been Better Than No Trek At All",
-      "pass": false,
-      "reason": "only 7 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-26-sony-confirms-playstation-plus-monthly-games-for-december-20.json",
-      "title": "Sony Confirms PlayStation Plus Monthly Games for December 2026",
-      "pass": false,
-      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
-    },
-    {
-      "file": "2026-11-26-hollow-knight-silksong-dlc-news-and-exciting-reveals-from-de.json",
-      "title": "Hollow Knight: Silksong DLC News and 'Exciting' Reveals from Dev Team Cherry Coming This Week",
-      "pass": false,
-      "reason": "only 5 specific claims in the whole cluster, need 10 — this is a roundup or an opinion piece, not a story with facts in it"
     }
   ]
 }

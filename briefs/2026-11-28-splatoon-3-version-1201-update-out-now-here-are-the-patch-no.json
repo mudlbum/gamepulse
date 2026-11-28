@@ -1,0 +1,136 @@
+{
+  "generated": "2026-11-28T04:24:36.828Z",
+  "workingTitle": "Splatoon 3 Version 12.0.1 Update Out Now, Here Are The Patch Notes",
+  "heat": 30.3,
+  "outletCount": 3,
+  "outlets": [
+    "Nintendo Life",
+    "PlayStation Blog",
+    "Pure Xbox"
+  ],
+  "newest": "2026-11-28T00:30:00.000Z",
+  "readableCount": 4,
+  "sourceCount": 4,
+  "games": [],
+  "sources": {
+    "primary": [
+      {
+        "outlet": "PlayStation Blog",
+        "title": "Infinity Nikki Version 3.0 “Of Yesterday and Tomorrow” update live today on PS5",
+        "url": "https://blog.playstation.com/2026/11/26/infinity-nikki-version-3-0-of-yesterday-and-tomorrow-update-live-today-on-ps5/",
+        "date": "2026-11-26T21:59:37.000Z",
+        "host": "blog.playstation.com"
+      }
+    ],
+    "secondary": [
+      {
+        "outlet": "Nintendo Life",
+        "title": "Splatoon 3 Version 12.0.1 Update Out Now, Here Are The Patch Notes",
+        "url": "https://www.nintendolife.com/news/2026/11/splatoon-3-version-12-0-1-update-out-now-here-are-the-patch-notes",
+        "date": "2026-11-28T00:30:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Nintendo Life",
+        "title": "The Witcher 3 Remastered Ver. 5.02 Update Is Now Live, Here Are The Full Patch Notes",
+        "url": "https://www.nintendolife.com/news/2026/11/the-witcher-3-remastered-ver-5-02-update-is-now-live-here-are-the-full-patch-notes",
+        "date": "2026-11-26T15:00:00.000Z",
+        "host": "www.nintendolife.com"
+      },
+      {
+        "outlet": "Pure Xbox",
+        "title": "Witcher 3 Remastered Gets Its Next Update On Xbox & PC, Full Patch Notes Revealed",
+        "url": "https://www.purexbox.com/news/2026/11/witcher-3-remastered-gets-its-next-update-on-xbox-and-pc-full-patch-notes-revealed",
+        "date": "2026-11-26T14:00:00.000Z",
+        "host": "www.purexbox.com"
+      }
+    ],
+    "unreadable": []
+  },
+  "facts": [
+    {
+      "kind": "date",
+      "key": "d:2026-11-26",
+      "value": "November 26, 2026",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "November 26, 2026November 26, 2026 Infinity Nikki Version 3.0 “Of Yesterday and Tomorrow” update live today on PS5 0 0 13 Like this Explore two new cities, discover new abilities and combat systems, and more.",
+      "urls": [
+        "https://blog.playstation.com/2026/11/26/infinity-nikki-version-3-0-of-yesterday-and-tomorrow-update-live-today-on-ps5/"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:3.0",
+      "value": "Version 3.0",
+      "outlets": [
+        "PlayStation Blog"
+      ],
+      "hasPrimary": true,
+      "corroboration": 1,
+      "context": "November 26, 2026November 26, 2026 Infinity Nikki Version 3.0 “Of Yesterday and Tomorrow” update live today on PS5 0 0 13 Like this Explore two new cities, discover new abilities and combat systems, and more.",
+      "urls": [
+        "https://blog.playstation.com/2026/11/26/infinity-nikki-version-3-0-of-yesterday-and-tomorrow-update-live-today-on-ps5/"
+      ]
+    }
+  ],
+  "conflicts": [],
+  "singleSourced": [
+    {
+      "kind": "version",
+      "key": "v:build:12.0.1",
+      "value": "Version 12.0.1.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Now, following this, Nintendo has released Version 12.0.1.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/splatoon-3-version-12-0-1-update-out-now-here-are-the-patch-notes"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:12.0.0",
+      "value": "Version 12.0.0.",
+      "outlets": [
+        "Nintendo Life"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "Original Story: Last week, Nintendo released a major update for its team-based squid-shooter Splatoon 3, bumping the game up to Version 12.0.0.",
+      "urls": [
+        "https://www.nintendolife.com/news/2026/11/splatoon-3-version-12-0-1-update-out-now-here-are-the-patch-notes"
+      ]
+    },
+    {
+      "kind": "version",
+      "key": "v:build:5.02",
+      "value": "Patch 5.02",
+      "outlets": [
+        "Pure Xbox"
+      ],
+      "hasPrimary": false,
+      "corroboration": 1,
+      "context": "\"Patch 5.02 for The Witcher 3: Wild Hunt — Remastered is now available across PC, PlayStation 5, Xbox Series X|S, and Nintendo Switch 2!",
+      "urls": [
+        "https://www.purexbox.com/news/2026/11/witcher-3-remastered-gets-its-next-update-on-xbox-and-pc-full-patch-notes-revealed"
+      ]
+    }
+  ],
+  "factCount": 2,
+  "evidenceCount": 5,
+  "ourData": [],
+  "relatedPatchNotes": [],
+  "usable": false,
+  "guidance": [
+    "1 primary source(s) located. Prefer their wording and figures over any secondary outlet.",
+    "3 claim(s) appear in only one outlet with no primary backing. Do not state these as fact. Either attribute them or leave them out.",
+    "Any claim not in the facts list below is not verified by this brief and must not be asserted.",
+    "Add every URL actually used to the article frontmatter sources[] array."
+  ]
+}
